@@ -1,0 +1,89 @@
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Q.01.19160101.FMA.01">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Briefe aus dem Sturm-Archiv I</title>
+            <editor>Lea Müller-Dannhausen <email>muelea@students.uni-mainz.de</email>
+                </editor>
+         </titleStmt>
+         <!-- Template for a TEI XML file according to the Corrspondence Metadata Interchange (CMI) format <-->
+         <publicationStmt>
+            <publisher>
+               <ref target="mmahmood@students.uni-mainz.de">Marjam Mahmoodzada</ref>
+            </publisher>
+             <idno>Q.01.19160101.FMA.01</idno>
+            <date when="2017-11-30"/>
+            <availability>
+               <!-- The CC BY 4.0 license is mandatory -->
+               <licence target="https://creativecommons.org/licenses/by/4.0/">This file is licensed
+                  under the terms of the Creative-Commons-License CC BY 4.0</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>D</country>
+                  <settlement>Berlin</settlement>
+                  <repository>Staatsbibliothek zu Berlin Preußischer Kulturbesitz,
+                     Handschriftenabteilung, Sturm-Archiv I, Marc, Franz</repository>
+                  <idno type="URI">http://kalliope-verbund.info/DE-611-HS-1925408</idno>
+               </msIdentifier>
+            </msDesc>
+            <bibl type="hybrid">1916-01-01_FMa_HW.xml</bibl>
+         </sourceDesc>
+      </fileDesc>
+      <xenoData type="URL">http://digital.staatsbibliothek-berlin.de/metsresolver/PPN746598858</xenoData>
+      <profileDesc>
+          <correspDesc key="Bl.218" ref="https://sturm-edition.de/id/Q.01.19160101.FMA.01">
+            <correspAction type="sent">
+               <persName ref="http://d-nb.info/gnd/11857745X">Franz Marc</persName>
+               <placeName>Unknown</placeName>
+               <date when="1916-01-01"/>
+               <!-- the date has to be note as YYYY-MM-DD, YYYY-MM or YYYY. Attributes @when, @from, @to, @notBefore, @notAfter are possible -->
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="http://d-nb.info/gnd/118770950">Herwarth Walden</persName>
+               <placeName>Potsdamerstrasse 134a <placeName ref="http://sws.geonames.org/2950157">Berlin</placeName> W.9.</placeName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <graphic n="218r" url="http://content.staatsbibliothek-berlin.de/dms/PPN746598858/1200/0/00000001.jpg"/>
+      <graphic n="218v" url="http://content.staatsbibliothek-berlin.de/dms/PPN746598858/1200/0/00000002.jpg"/>
+      <graphic n="Farbkeil" url="http://content.staatsbibliothek-berlin.de/dms/PPN746598858/1200/0/00000003.jpg"/>
+   </sourceDoc>
+   <facsimile>
+      <graphic url="http://resolver.staatsbibliothek-berlin.de/SBB0000DAC000000000"/>
+   </facsimile>
+   <text type="letter">
+  		<body>
+				<pb n="218r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000DAC000000001"/>
+				<div>
+					<opener>
+                    <dateline>
+                        <date when="1916-01-01">1.I 16</date>
+                    </dateline>
+					<salute>Lieber <persName ref="http://d-nb.info/gnd/118770950">Walden</persName>
+                    </salute>,</opener>
+					<p>Prost <date when="1916-01-01">Neujahr</date>!</p>
+					<p>
+                    <date when="1915-12-12">Gestern</date> kam Ihr Brief vom <date when="1915-12-17">17. XII</date>, der einmal an Sie zurückgegangen war. Die Adresse hat zwei Mängel:
+					<lb/>1. vergaßen Sie zu schreiben: "<hi rend="triple-underline">Ersatz</hi>"-(Feld-Art. Rgt.)
+					<lb/>2. haben Sie das b (= bayrisch) für 6 oder 8 gelesen.
+					<lb/>Adresse heißt gegenwärtig: <hi rend="underline">bayr. Ers. Div</hi>.
+					<lb/>
+                    <hi rend="underline">bayr. Ers. Feld Art Rg</hi>t. 1. Abt. L. M. K.</p>
+					<p>Ihr Optimismus, daß es sich nur mehr um Wochen handeln soll, ist etwas kraß. Wenn wir in diesem Herbst <hi rend="underline">wirklich</hi> zu<hi rend="underline">m Schlu</hi>ß kommen, können wir froh sein, - das ist mein realer Optimismus. Pessimist scheint mir nur jemand, der an einen 7jährigen Krieg glaubt, bis zum gänzlichen gegenseitigen Ruin. Finanziell sind die Völker nicht so schnell zu erschöpfen als man glaubt. Es gäbe eben bald Geldkarten, ganz nach Muster der Brotkarten. Daß die Kommunisten u. Sozialdemokraten auf dem ziemlichen Wege eines Weltkrieges <hi rend="line-through">zu ihrem</hi> die Verwirklichung ihres kommunistischen Ideales erleben würden und zwar von St<hi rend="underline">aa</hi>tswegen, - das hät sich auch keiner <pb n="218v" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000DAC00000002"/>träumen lassen! Die Welt steckt doch voller Überraschungen. Ihr Weihnachtspaketchen reist wohl auch bei irgend einem 6. Regiment herum! Es wird schon ankommen, - verspätete Pakete kommen meist am gelegentsten. Dank voraus!</p>
+					<closer>
+                    <salute>Herzlich</salute>~<signed>Ihr <persName ref="http://d-nb.info/gnd/11857745X">F.Marc</persName>
+                    </signed>
+                </closer>
+					<postscript>
+                    <p>Dank für das Photo v. <persName ref="http://d-nb.info/gnd/118618830">Stramm</persName>!</p>
+                </postscript>
+				</div>
+      </body>
+   </text>
+</TEI>

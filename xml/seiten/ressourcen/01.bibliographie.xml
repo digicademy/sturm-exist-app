@@ -1,0 +1,43 @@
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Projektbibliographie</title>
+                <editor>Marjam Mahmoodzada <email>marjam.mahmoodzada@adwmainz.de</email>
+                </editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="marjam.mahmoodzada@adwmainz.de">Marjam Mahmoodzada</ref>
+                </publisher>
+                <idno type="file">bibliographie.xml</idno>
+                <date when="2018-03-30"/>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">This file is
+                        licensed under the terms of the Creative-Commons-License CC BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl type="hybrid">bibliographie.xml</bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="section" n="eight">
+                <ab rend="h2">Projektbibliographie</ab>
+                <p>
+                    In der Literaturdatenbank der Sturm-Edition werden laufend die in den Quellen und editorischen Anmerkungen aufgeführten Titel erfasst. Genutzt wird hierfür das Open Access Literaturverwaltungssystem <ref target="https://www.zotero.org/">Zotero</ref>.
+                    Mittelfristiges Ziel ist die Implementierung dieser Literaturdatenbank in die digitale editorische Arbeit sowie eine sukzessive Rückführung der Datenbank-Verweise in die bereits edierten Quellen (Stand Mai 2018).
+                </p>
+                <p>
+                    <ref target="https://www.zotero.org/groups/2149360/sturm-edition/items">Hier geht es zur STURM-Projektbibliographie</ref>.</p>
+            </div>
+            <div>
+            </div>
+            <div type="section" n="four">
+                <ab type="subNavigation" n="ressourcen"/>
+            </div>
+        </body>
+    </text>
+</TEI>

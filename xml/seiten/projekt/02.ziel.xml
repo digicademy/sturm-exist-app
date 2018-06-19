@@ -1,0 +1,79 @@
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Projektziel</title>
+                <editor>Marjam Mahmoodzada <email>marjam.mahmoodzada@adwmainz.de</email>
+                </editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="marjam.mahmoodzada@adwmainz.de">Marjam Mahmoodzada</ref>
+                </publisher>
+                <idno type="file">ziel.xml</idno>
+                <date when="2018-03-30"/>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">This file is
+                        licensed under the terms of the Creative-Commons-License CC BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl type="hybrid">ziel.xml</bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="section" n="eight">
+                <ab rend="h2">Projektziel</ab>
+                <p> Langfristiges Ziel des Projektes ist es, sämtliche existierenden digitalen
+                    Quellenbestände zum STURM mittels semantischer Annotationen im (XML-)Volltext
+                    nach <ref target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/index.html">TEI
+                        P5-Guidelines</ref> zu erschließen, zu indizieren und als offene
+                    Forschungsdaten für die fachwissenschaftlichen Communities zur Verfügung zu
+                    stellen. Eine inhaltliche Verknüpfung der STURM-Quellen untereinander und die
+                    Ausstattung mit entsprechenden Normdaten soll die bisher einzeln vorliegenden
+                    Dokumente in einen gemeinsamen Kontext betten.</p>                
+                <p> Die Quellenedition gliedert sich in fünf Abteilungen, die im Projektverlauf
+                    sukzessive historisch-kritisch <emph>digital</emph> erschlossen werden:
+                    <list rend="ul">
+                        <item>Abteilung I – STURM-Briefe</item> 
+                        <item>Abteilung II – STURM-Zeitschrift</item> 
+                        <item>Abteilung III – STURM-Kataloge (Ausstellungen)</item> 
+                        <item>Abteilung IV – STURM-Bühne (Theaterjahrbücher)</item>
+                        <item>Abteilung V – STURM-Schriften (Bücher des Verlages)</item>
+                    </list>
+                </p>
+                    <p>
+                    Der abteilungsübergreifende Zugang zu den Quellen erfolgt über einen
+                    chronologischen Zugriff sowie über die einzelnen <ref target="#">Register</ref> (Personen, Orte,
+                    Werke). In einer ersten Projektphase werden die digitalisierten STURM-Briefe aus
+                    dem STURM-Archiv der Handschriftenabteilung der Staatsbibliothek zu Berlin nach den
+                        <ref target="edition.xml">digitalen Editionsrichtlinien</ref> des Projektes aufgearbeitet und laufend unter
+                    freier Lizenz veröffentlicht.</p>               
+                <p>Das Projekt versteht sich als genuines Digital Humanities-Projekt im Bereich der
+                    Geschichte, was, neben der Quellenerschließung, die Entwicklung und
+                    Bereitstellung von Projektsoftware, die Anwendung digitaler Methoden und den
+                    Anschluss an bereits bestehende Angebote im Bereich der digitalen
+                    Geisteswissenschaften umfasst (beispielsweise an den Webservice <ref target="http://correspsearch.net/index.xql?l=en">CorrespSearch</ref>). Die
+                    Einbindung des Projektes in die Digital Humanities-Nachwuchsförderung, so in den
+                    Lehrkontext des Mainzer Studiengangs <ref target="https://www.digitale-methodik.uni-mainz.de/">Digitale Methodik in
+                        den Geistes- und Kulturwissenschaften</ref>, leistet einen Beitrag zur
+                    Ausbildung dringend benötigter Fachkräfte an der Schnittstelle zwischen
+                    Informatik und Geisteswissenschaft. Gleichzeitig profitiert das Projekt von den
+                    Ideen und praktischen Umsetzungen im Rahmen studentischer Arbeiten.</p>               
+        <!--     <p>Herausgegeben und erarbeitet wird „Der Sturm. Digitale Quellenedition zur
+                    Geschichte der internationalen Avantgarde“ von Marjam Mahmoodzada, Torsten
+                    Schrade und Thomas Kollatz in der Digitalen Akademie der Akademie der
+                    Wissenschaften und Literatur | Mainz. Edition und Forschungsdaten stehen unter
+                    einer Creative Commons Attribution 4.0 International (CC-BY 4.0) Lizenz und
+                    können unter Berücksichtigung der Lizenzbedingungen frei nachgenutzt werden. Die
+                    Editionssoftware dieses Projektes steht unter MIT-Lizenz und kann frei
+                    heruntergeladen und weiterentwickelt werden. </p> -->    
+            </div>
+            <div type="section" n="four">
+                <ab type="subNavigation" n="projekt"/>
+            </div>
+        </body>
+    </text>
+</TEI>

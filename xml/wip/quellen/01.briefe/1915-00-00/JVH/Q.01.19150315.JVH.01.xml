@@ -1,0 +1,84 @@
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Q.01.19150315.JVH.01">
+   <teiHeader>
+      <fileDesc>
+			<titleStmt>
+				 <title>Briefe aus dem Sturm-Archiv I</title>
+				 <editor>Lea Müller-Dannhausen <email>muelea@students.uni-mainz.de</email>
+                </editor>
+			</titleStmt>
+			<!-- Template for a TEI XML file according to the Corrspondence Metadata Interchange (CMI) format <-->
+			<publicationStmt>
+				 <publisher>
+						<ref target="mmahmood@students.uni-mainz.de">Marjam Mahmoodzada</ref>
+				 </publisher>
+			    <idno>Q.01.19150315.JVH.01</idno>
+            <date when="2017-11-30"/>
+            <availability>
+               <!-- The CC BY 4.0 license is mandatory -->
+               <licence target="https://creativecommons.org/licenses/by/4.0/">This file is licensed
+                  under the terms of the Creative-Commons-License CC BY 4.0</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>D</country>
+                  <settlement>Berlin</settlement>
+                  <repository>Staatsbibliothek zu Berlin Preußischer Kulturbesitz,
+                     Handschriftenabteilung, Sturm-Archiv I, Heemskerck, Jacoba van</repository>
+                  <idno type="URI">http://kalliope-verbund.info/DE-611-HS-1910821</idno>
+               </msIdentifier>
+            </msDesc>
+            <bibl type="hybrid">1915-03-15_JvH_NW.xml</bibl>
+         </sourceDesc>
+      </fileDesc>
+      <xenoData type="URL">http://digital.staatsbibliothek-berlin.de/metsresolver/PPN746594577</xenoData>
+      <profileDesc>
+          <correspDesc key="Bl.69-70" ref="https://sturm-edition.de/id/Q.01.19150315.JVH.01">
+            <correspAction type="sent">
+               <persName ref="http://d-nb.info/gnd/11854764X">Jacoba van Heemskerck</persName>
+               <placeName>35, Nassau Zuilensteinstraat, <placeName ref="http://sws.geonames.org/2747373">Den Haag</placeName>
+                    </placeName>
+               <date when="1915-03-15"/>
+               <!-- the date has to be note as YYYY-MM-DD, YYYY-MM or YYYY. Attributes @when, @from, @to, @notBefore, @notAfter are possible -->
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="http://d-nb.info/gnd/118770950">Nell Walden</persName>
+               <placeName>Potsdamerstrasse 134a <placeName ref="http://sws.geonames.org/2950157">Berlin</placeName> W.9.</placeName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <graphic n="69r" url="http://content.staatsbibliothek-berlin.de/dms/PPN746594577/1200/0/00000001.jpg"/>
+      <graphic n="69v" url="http://content.staatsbibliothek-berlin.de/dms/PPN746594577/1200/0/00000002.jpg"/>
+      <graphic n="70r" url="http://content.staatsbibliothek-berlin.de/dms/PPN746594577/1200/0/00000003.jpg"/>
+      <graphic n="70v" url="http://content.staatsbibliothek-berlin.de/dms/PPN746594577/1200/0/00000004.jpg"/>
+      <graphic n="Farbkeil" url="http://content.staatsbibliothek-berlin.de/dms/PPN746594577/1200/0/00000005.jpg"/>
+   </sourceDoc>
+   <facsimile>
+      <graphic url="http://resolver.staatsbibliothek-berlin.de/SBB0000D96A00000000"/>
+   </facsimile>
+   <text type="letter">
+      <body>
+        <pb n="69r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D96A00000001"/>
+        <div>
+          <opener>
+                    <dateline>
+                        <date when="1915-03-15">8.-3-15. </date>
+                    </dateline>
+          <salute>Liebe Frau <persName ref="http://d-nb.info/gnd/118891456">Walden</persName>
+                    </salute>
+                </opener>
+          <p>Herzlich Dank für die 300 Mark eben empfangen dasz war ja schnell gezahlt. Ich bin sehr froh dasz die <term key="A048" type="artwork">6. Zeichnungen</term> in Ihre Kollektion sind, und dasz Sie sich auch ein Bild aussuchen werde. Dasz war ja prachtvoll dasz ein von den Journalisten fand dass ich beeinflusst sein sollte von <persName ref="http://d-nb.info/gnd/119295954">Toorop</persName>~<pb n="69v" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D96A00000002"/>hier in <placeName ref="http://sws.geonames.org/2750405">Holland</placeName> ist man immer von ein beeinflusst, nie originell dass ist einmal Sitte. Aber bitte fragen Sie Herr
+          <persName ref="http://d-nb.info/gnd/118770950">Walden</persName> ob er dann auch wie bei <persName ref="http://d-nb.info/gnd/119295954">Toorop</persName> eine Komposition auf mein <term key="A049" type="catalog" ref="http://digital.bib-bvb.de/webclient/DeliveryManager?custom_att_2=simple_viewer&amp;pid=8989458">Katalog</term> macht und dann auch die Preise dazu komponiert, wie in <placeName ref="http://sws.geonames.org/2756746">Domburg</placeName>. dasz war damals ein lustige Zeit und jetzt im idee schon so lange her. Ja, wie schön wenn Sie vielleicht in <date when="1915-04">April</date> hier kommen. Was denken Sie jetzt von <placeName ref="http://sws.geonames.org/3175395">Italien</placeName> und
+          <placeName ref="http://sws.geonames.org/390903">Griechenland</placeName> ich glaube es steht heute etwas besser und die werden neutral bleiben<note>Am 23. Mai 1915 erklärte Italien Österreich-Ungarn, am 21. August dem Osmanischen Reich den Krieg. Am 28. August 1916 folgte die Kriegserklärung an das Deutsche Kaiserreich. Am 29. Juni 1917 trat Griechenland mit einer Kriegserklärung gegen Deutschland in den Krieg ein. In Italien gingen dem Kriegseintritt intensive innenpolitische sowie gesellschaftliche Debatten und Veränderungen voraus. Vgl. Isenghi, Mario: Italien. In: Enzyklopädie Erster Weltkrieg. Hrsg. v. Gerhard Hirschfeld [u.a.]. Paderborn [u.a.] 2004, S. 97–104; Pohlmann, Markus: Kriegserklärungen. In: Enzyklopädie Erster Weltkrieg. Hrsg. v. Gerhard Hirschfeld [u.a.]. Paderborn [u.a.] 2004, S. 637–638; Lablance, Nicola: The Italian Front. In: The Cambridge History of The First World War. Bd. 1 Global War. Cambridge 2014, S. 266–296.</note>,
+          ich fürchte auch es wird lange dauern und wenn man alles eindenkt ist es doch nicht möglich. Ende dieser Woche <pb n="70r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D96A00000003"/>schicke ich die Auflag von je 10. Stück von 4. Holzstöcke und dann wie immer von jeder ein nicht nummerierte für Ihnen. Ich bin so glücklich dasz Sie finden dass ich mich entwickelt habe. Sie haben ein ausserordentlich guten Blick und Ihr Urteil halte ich für sehr wichtig. Jetzt denke ich an Kompositionen für einige grosse Gemälde hoffentlich werde ich in <date when="1915-04">April</date> einige zeigen <hi rend="line-through">zu</hi> können. Ich habe jetzt wo ich fühle dasz man in <placeName ref="http://sws.geonames.org/2950157">Berlin</placeName>~<unclear>[---]</unclear> anfangt meine Bilder zu verstehen wieder eine grosse innerliche Kraft grosse Dinge zu komponieren.</p>
+          <closer>
+                    <salute>Herzliche Grüssen</salute>~<signed>Ihre <persName ref="http://d-nb.info/gnd/11854764X">Jac<hi rend="underline">oba vHeemskerck</hi>
+                        </persName>
+                    </signed>.</closer>
+        </div>
+      </body>
+   </text>
+</TEI>

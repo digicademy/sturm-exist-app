@@ -1,0 +1,112 @@
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Quellen</title>
+                <editor> Marjam Mahmoodzada <email>marjam.mahmoodzada@adwmainz.de</email>
+                </editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="marjam.mahmoodzada@adwmainz.de">Marjam Mahmoodzada</ref>
+                </publisher>
+                <idno type="file">quellen.xml</idno>
+                <date when="2017-03-29"/>
+                <availability>
+                    <!-- The CC BY 4.0 license is mandatory -->
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">This file is
+                        licensed under the terms of the Creative-Commons-License CC BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl type="hybrid">quellen.xml</bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="section" n="twelve">
+                <ab rend="h2">STURM-Quellen</ab>
+                <div type="row" rend="down-25">
+                    <div type="columns" n="four">
+                        <ab rend="h4">
+                            <ref target="quellen/briefe.xml">Abteilung I - Briefe</ref>
+                        </ab>
+                        <p>
+                            <ref target="quellen/briefe.xml" rend="black button">Quellenübersicht</ref>
+                        </p>
+                    </div>
+                    <div type="columns" n="four">
+                        <ab rend="h4">
+                            <ref target="quellen/zeitschrift.xml">Abteilung II - Zeitschrift</ref>
+                        </ab>
+                        <p>
+                            <ref target="quellen/zeitschrift.xml" rend="black button">Quellenübersicht</ref>
+                        </p>
+                    </div>
+                    <div type="columns" n="four">
+                        <ab rend="h4">
+                            <ref target="quellen/kataloge.xml">Abteilung III - Kataloge</ref>
+                        </ab>
+                        <p>
+                            <ref target="quellen/kataloge.xml" rend="black button">Quellenübersicht</ref>
+                        </p>
+                    </div>
+                </div>
+                <div type="row">
+                    <div type="columns" n="four">
+                        <ab rend="h4">
+                            <ref target="quellen/buehne.xml">Abteilung IV - Bühne</ref>
+                        </ab>
+                        <p>
+                            <ref target="quellen/buehne.xml" rend="black button">Quellenübersicht</ref>
+                        </p>
+                    </div>
+                    <div type="columns" n="four">
+                        <ab rend="h4">
+                            <ref target="quellen/schriften.xml">Abteilung V - Schriften</ref>
+                        </ab>
+                        <p>
+                            <ref target="quellen/schriften.xml" rend="black button">Quellenübersicht</ref>
+                        </p>
+                    </div>
+                </div>
+                <div type="row" rend="down-40">
+                    <div type="columns" n="six">
+                        <ab rend="h2">Überlieferungssituation</ab>
+                        <p> Der Nachlass Herwarth Waldens ist zu einem großen Teil im <ref target="http://kalliope-verbund.info/de/findingaid?fa.id=DE-611-BF-4273&amp;fa.enum=3932&amp;lastparam=true#3932">Sturm-Archiv</ref> der <ref target="http://staatsbibliothek-berlin.de/die-staatsbibliothek/abteilungen/handschriften/">Handschriftenabteilung der Staatsbibliothek zu Berlin Preußischer
+                                Kulturbesitz</ref> erhalten. Dort befinden sich insgesamt 3989
+                            Einheiten, darunter Ausstellungskataloge und an Herwarth und Nell Walden gerichtete Briefe, Postkarten
+                            und Telegramme von insgesamt 453
+                            Absendern. Diese liegen zu einem Teil bereits <ref target="http://digital.staatsbibliothek-berlin.de/suche?queryString=Sturm-Archiv&amp;results_on_page=20&amp;current_page=1&amp;sort_on=relevance&amp;sort_direction=desc&amp;category&amp;5B0%5D=Krieg%201914-1918&amp;category%5B1%5D=Nachl%C3%A4sse%20und%20Autographe">digitalisiert</ref> vor, erschlossen durch die Staatsbibliothek
+                           zu Berlin im Rahmen des Projektes <ref target="https://www.europeana.eu/portal/de/collections/world-war-I">Europeana 1914–1918</ref>. Die <ref target="http://bluemountain.princeton.edu/bluemtn/cgi-bin/bluemtn?a=cl&amp;cl=CL1&amp;sp=bmtnabg">Zeitschrift Der STURM</ref> sowie die <ref target="http://bluemountain.princeton.edu/bluemtn/cgi-bin/bluemtn?a=cl&amp;cl=CL1&amp;sp=bmtnaal&amp;e=-------en-20--1--txt-txin-------">Jahrbücher der STURM-Bühne</ref> wurden im Rahmen des Blue Mountain
+                            Project der University of Princeton digitalisiert; die <ref target="http://digi.ub.uni-heidelberg.de/diglit/sturm">Universitätsbibliothek
+                                Heidelberg</ref> stellt die Zeitschrift ebenfalls sukzessive
+                            vollständig als mit Volltext erschlossenes Digitalisat zur Verfügung.
+                            Auch werden in der UB Heidelberg im Vorhaben <ref target="http://hd-historische-bestaende-digital.uni-hd.de">Heidelberger historische Bestände – digital</ref> vereinzelt im
+                            STURM-Verlag erschienene Schriften digital bereitgestellt. </p>
+                    </div>
+                    <div type="columns" n="six">
+                        <p> Weitere Digitalisate zu Publikationen des STURM-Verlages werden von der
+                                <ref target="https://www.guggenheim.org/library-archives">Solomon R.
+                                Guggenheim Museum Library</ref> und dem <ref target="https://www.metmuseum.org/">Metropolitan Museum of Art</ref>
+                            auf der Archiv-Plattform <ref target="https://archive.org/">archive.org</ref> bereitgestellt. Auch die Universitäts- und
+                            Landesbibliothek der Heinrich Heine-Universität Düsseldorf macht in
+                            ihrer <ref target="http://digital.ub.uni-duesseldorf.de/urn/urn:nbn:de:hbz:061:1-15061"><ref target="http://nbn-resolving.de/urn:nbn:de:hbz:061:1-3954">Digitalen
+                                Sammlung</ref></ref> (bisher zwei) STURM-Schriften als Digitalisate
+                            verfügbar, ebenso wie die Universitätsbibliotheken <ref target="http://digibus.ub.uni-stuttgart.de/viewer/image/1441892180471/7/"> Stuttgart</ref>
+                            und <ref target="http://sammlungen.ub.uni-frankfurt.de/urn/urn:nbn:de:hebis:30:2-234704">Frankfurt am Main</ref>. Die <ref target="http://www.zikg.eu/bibliothek/studienzentrum/digitalisierung/kataloge-sturm">Ausstellungskataloge und Einladungskarten</ref> des STURM wurden,
+                            basierend auf Vorarbeiten des Historikers Dr. Rainer Enders, vom
+                            Zentralinstitut für Kunstgeschichte in München digitalisiert. </p>
+                        <p>Diese und zukünftig noch weiter zu erschließende im Kontext des STURM
+                            stehenden Quellen geben Auskunft über Ausmaß und Reichweite des
+                            Unternehmens. Sie bergen außerdem wertvolles Material für die Forschung
+                            unter anderem in den Bereichen der Kunst-, Geschichts- und
+                            Literaturwissenschaft und, im Zuge der digitalen Bereitstellung der
+                            Quellen, für die Digital Humanities. </p>
+                    </div>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

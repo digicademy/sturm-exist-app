@@ -1,0 +1,96 @@
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Q.01.19130412.GAP.01">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Briefe aus dem Sturm-Archiv I</title>
+                <editor>Lea Müller-Dannhausen <email>muelea@students.uni-mainz.de</email>
+                </editor>
+            </titleStmt>
+            <!-- Template for a TEI XML file according to the Corrspondence Metadata Interchange (CMI) format <-->
+            <publicationStmt>
+                <publisher>
+                    <ref target="muelea@students.uni-mainz.de">Lea Müller-Dannhausen</ref>
+                </publisher>
+                <idno>Q.01.19130412.GAP.01</idno>
+                <date when="2017-11-30"/>
+                <availability>
+                    <!-- The CC BY 4.0 license is mandatory -->
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">This file is
+                        licensed under the terms of the Creative-Commons-License CC BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>D</country>
+                        <settlement>Berlin</settlement>
+                        <repository>Staatsbibliothek zu Berlin Preußischer Kulturbesitz, Handschriftenabteilung, Sturm-Archiv I, Apollinaire, Guillaume</repository>
+                        <idno type="URI">http://kalliope-verbund.info/DE-611-HS-1910440</idno>
+                    </msIdentifier>
+                </msDesc>
+                <bibl type="hybrid">1913-04-12_GAp_HW.xml</bibl>
+            </sourceDesc>
+        </fileDesc>
+        <xenoData type="URL">http://digital.staatsbibliothek-berlin.de/metsresolver/PPN746597487</xenoData>
+        <profileDesc>
+            <correspDesc key="Bl.2" ref="https://sturm-edition.de/id/Q.01.19130412.GAP.01">
+                <correspAction type="sent">
+                    <persName ref="http://d-nb.info/gnd/118503634">Guillaume Apollinaire</persName>
+                    <placeName ref="http://sws.geonames.org/2988507">Paris</placeName>
+                    <date when="1913-04"/>
+                    <!-- das Datum bezieht sich auf den Poststempel soweit kein handschriftliches Datum vorhanden-->
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="http://d-nb.info/gnd/118770950">Herwarth Walden</persName>
+                    <placeName>Potsdamerstrasse 134a <placeName ref="http://sws.geonames.org/2950157">Berlin</placeName>
+                        W.9.</placeName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <sourceDoc>
+        <graphic n="2r" url="http://content.staatsbibliothek-berlin.de/dms/PPN746597487/1200/0/00000001.jpg"/>
+        <graphic n="2v" url="http://content.staatsbibliothek-berlin.de/dms/PPN746597487/1200/0/00000002.jpg"/>
+        <graphic n="Farbkeil" url="http://content.staatsbibliothek-berlin.de/dms/PPN746597487/1200/0/00000003.jpg"/>
+    </sourceDoc>
+    <facsimile>
+        <graphic url="http://resolver.staatsbibliothek-berlin.de/SBB0000DA5200000000"/>
+    </facsimile>
+    <text type="postcard">
+        <body>
+					<pb n="2r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000DA5200000001"/>
+					<div>
+						<opener>
+                    <salute>
+                        <hi rend="underline">Bonjour</hi>
+                    </salute>
+                </opener>
+						<p>Ich schreibe <date notBefore="1913-04-13" notAfter="1913-05-12">morgen</date> haben Sie <term key="http://www.wikidata.org/entity/Q3204265" type="newspaper" ref="http://gallica.bnf.fr/ark:/12148/bpt6k786676j">
+                        <foreign xml:lang="fr">Intransigeant</foreign>
+                    </term> erhalten? Für die Bilder wenn es wirklich nötig ist ich schike sie</p>
+						<closer>
+                    <signed>
+                        <persName ref="http://d-nb.info/gnd/118503634">Guillaume Apollinaire</persName>
+                    </signed>
+                </closer> <note>Apollinaire hat die Dauerkarte von Robert Delaunay für die 29. Ausstellung der Société des Artistes Indépendants von März bis Mai 1913 als Postkarte verwendet. Die Karte wurde offenbar in einem Briefumschlag versendet, denn sie ist weder frankiert noch mit einem Poststempel versehen. Rehage datiert die Karte auf 'wahrscheinlich den 12. April 1913', auf einen Tag nach dem Absendedatum der Karte von Walden, auf die Apollinaire hier reagiert. Vgl. Rehage, Philipp [Hrsg.]: Correspondance Guillaume Apollinaire – Herwarth Walden (Der Sturm) 1913–1915. Caen 2007, S. 55.</note>
+						<closer>Success to a "sturm" for <placeName ref="http://sws.geonames.org/7163824">New York</placeName>
+                    <note>Eine Ausstellung des Sturm in New York kann jedoch erst 1920 realisiert werden. Vgl. Enders, Rainer: Ausstellungen außerhalb der Berliner Galerie. URL: <ref target="https://www.arthistoricum.net/themen/portale/sturm/ausstellungen">https://www.arthistoricum.net/themen/portale/sturm/ausstellungen (Aufruf 27.11.2017)</ref>.</note>
+						<signed>
+                        <persName ref="http://d-nb.info/gnd/177140682">Harrison Reeves</persName>
+                    </signed>
+						<lb/>
+                    <signed>
+                        <persName ref="https://viaf.org/viaf/96598586">M. Ortiz de Zárate</persName>
+                    </signed>
+                </closer>
+						<closer>
+                    <salute>Viele <unclear>herzliche</unclear> Grüsse
+						von</salute>~<signed>
+                        <persName ref="http://d-nb.info/gnd/11852450X">Sonia Delaunay Terk</persName>
+                    </signed>
+                </closer>
+					</div>
+    		</body>
+    </text>
+</TEI>

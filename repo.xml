@@ -1,0 +1,14 @@
+<meta xmlns="http://exist-db.org/xquery/repo">
+    <description>STURM Edition</description>
+    <author>Torsten Schrade</author>
+    <website>https://sturm-edition.de/</website>
+    <status>stable</status>
+    <license>MIT</license>
+    <copyright>true</copyright>
+    <type>application</type>
+    <target>sturm-edition</target>
+    <prepare>pre-install.xql</prepare>
+    <finish/>
+    
+
+<deployed>2018-04-01T22:53:59.181+02:00</deployed></meta>

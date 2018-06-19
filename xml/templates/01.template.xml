@@ -1,0 +1,42 @@
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>###TITLE###</title>
+                <editor>Torsten Schrade <email>Torsten.Schrade@adwmainz.de</email>
+                </editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="Torsten.Schrade@adwmainz.de">Marjam Mahmoodzada</ref>
+                </publisher>
+                <idno type="file">01.template.xml</idno>
+                <date when="2018-03-30"/>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">This file is
+                        licensed under the terms of the Creative-Commons-License CC BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl type="hybrid">01.template.xml</bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="section" n="eight">
+                <ab rend="h2">Abteilung I, STURM-Briefe</ab>
+                <ab type="renderContent"/>
+            </div>
+            <div type="section" n="four">
+                <ab type="subNavigation" n="quellen" select="briefe"/>
+                <ab rend="h4">Editionsrichtlinien der Abteilung I</ab>
+                <p>
+                    Neben den <ref target="edition.xml">abteilungsübergreifenden Editionsrichtlinien</ref>
+                    werden die Briefe nach den folgenden <ref target="edition/briefe.xml">abteilungsspezifischen Richtlinen</ref>
+                    ediert.
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

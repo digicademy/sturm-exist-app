@@ -1,0 +1,89 @@
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Abteilung I, Briefe</title>
+                <editor>Marjam Mahmoodzada <email>marjam.mahmoodzada@adwmainz.de</email>
+                </editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="marjam.mahmoodzada@adwmainz.de">Marjam Mahmoodzada</ref>
+                </publisher>
+                <idno type="file">briefe.xml</idno>
+                <date when="2018-03-30"/>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">This file is
+                        licensed under the terms of the Creative-Commons-License CC BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl type="hybrid">abteilung-eins.xml</bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="section" n="eight">
+                <ab rend="h2">Abteilung I, STURM-Briefe</ab>
+                <p>In dieser Abteilung werden die im STURM-Archiv der Handschriftenabteilung der
+                    Staatsbibliothek zu Berlin Preußischer Kulturbesitz verzeichneten und
+                    digitalisierten Briefe von STURM-Künstlern und -Künstlerinnen an Herwarth Walden
+                    historisch-kritisch digital ediert und nach den Guidelines der TEI P5 in XML codiert (siehe hierzu die <ref target="edition/briefe.xml">Editionsrichtlinien</ref>). Ein Großteil der
+                    3.989 erfassten Einheiten im Archiv ist noch nicht
+                    erschlossen und wird hier erstmals einer breiten Öffentlichkeit zugänglich
+                    gemacht. Einzelne Briefe oder Briefteile aus dem STURM-Archiv wurden
+                    bereits im Kontext von gedruckten Publikationen veröffentlicht. In einer weiteren Projektphase
+                    sollen diese Textzeugen in den Metadaten der entsprechenden Briefe
+                    dokumentiert werden.</p>
+                <p> Es bieten sich zwei unterschiedliche Einstiegsmöglichkeiten in die edierten
+                    Briefquellen: chronologisch (alle Briefe nach Jahren aufsteigend) sowie nach
+                    Künstlern und Künstlerinnen (und dort wieder chronologisch aufsteigend).</p>
+                <ab rend="h3">Chronologisch</ab>
+                <p> Wählen Sie ein Einstiegsjahr innerhalb der Gesamtchronologie der Abteilung I: </p>
+                <list rend="ul" type="chronology">
+                    <item>
+                        <ref target="quellen/briefe/chronologie.xml#y1914" rend="black button">1914</ref>
+                    </item>
+                    <item>
+                        <ref target="quellen/briefe/chronologie.xml#y1915" rend="black button">1915</ref>
+                    </item>
+                </list>
+                <ab rend="h3">Nach Künstlern und Künstlerinnen</ab>
+                <p>Briefwechsel einzelner Künstler bzw. Künstlerinnen und Jahre: </p>
+                <table type="grid">
+                    <row rend="th">
+                        <cell>Künstler/in</cell>
+                        <cell>Briefwechsel</cell>
+                        <cell>Anzahl</cell>
+                    </row>
+                    <row>
+                        <cell>
+                            <ref target="quellen/briefe/fma.xml">Franz Marc</ref>
+                        </cell>
+                        <cell>
+                            <ref target="quellen/briefe/fma.xml">1914-1915</ref>
+                        </cell>
+                        <cell>39</cell>
+                    </row>
+                    <row>
+                        <cell>
+                            <ref target="quellen/briefe/jvh.xml">Jacoba van Heemskerck</ref>
+                        </cell>
+                        <cell>
+                            <ref target="quellen/briefe/jvh.xml">1914-1915</ref>
+                        </cell>
+                        <cell>70</cell>
+                    </row>
+                </table>
+            </div>
+            <div type="section" n="four">
+                <ab type="subNavigation" n="quellen"/>
+                <ab rend="h4">Editionsrichtlinien der Abteilung I</ab>
+                <p> Neben den <ref target="edition.xml">abteilungsübergreifenden
+                        Editionsrichtlinien</ref> werden die Briefe nach den folgenden <ref target="edition/briefe.xml">abteilungsspezifischen Richtlinen</ref> ediert.
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

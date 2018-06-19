@@ -1,0 +1,92 @@
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Q.01.19151120.JVH.01">
+   <teiHeader>
+      <fileDesc>
+			<titleStmt>
+				 <title>Briefe aus dem Sturm-Archiv I</title>
+				 <editor>Lea Müller-Dannhausen <email>muelea@students.uni-mainz.de</email>
+                </editor>
+			</titleStmt>
+			<!-- Template for a TEI XML file according to the Corrspondence Metadata Interchange (CMI) format <-->
+			<publicationStmt>
+				 <publisher>
+						<ref target="mmahmood@students.uni-mainz.de">Marjam Mahmoodzada</ref>
+				 </publisher>
+			    <idno>Q.01.19151120.JVH.01</idno>
+            <date when="2017-11-30"/>
+            <availability>
+               <!-- The CC BY 4.0 license is mandatory -->
+               <licence target="https://creativecommons.org/licenses/by/4.0/">This file is licensed
+                  under the terms of the Creative-Commons-License CC BY 4.0</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>D</country>
+                  <settlement>Berlin</settlement>
+                  <repository>Staatsbibliothek zu Berlin Preußischer Kulturbesitz,
+                     Handschriftenabteilung, Sturm-Archiv I, Heemskerck, Jacoba van</repository>
+                  <idno type="URI">http://kalliope-verbund.info/DE-611-HS-1911097</idno>
+               </msIdentifier>
+            </msDesc>
+            <bibl type="hybrid">1915-11-20_JvH_NW.xml</bibl>
+         </sourceDesc>
+      </fileDesc>
+      <xenoData type="URL">http://digital.staatsbibliothek-berlin.de/metsresolver/PPN746594992</xenoData>
+      <profileDesc>
+          <correspDesc key="Bl.122-123" ref="https://sturm-edition.de/id/Q.01.19151120.JVH.01">
+            <correspAction type="sent">
+               <persName ref="http://d-nb.info/gnd/11854764X">Jacoba van Heemskerck</persName>
+               <placeName>35, Nassau Zuilensteinstraat, <placeName ref="http://sws.geonames.org/2747373">Den Haag</placeName>
+                    </placeName>
+               <date when="1915-11-20"/>
+               <!-- the date has to be note as YYYY-MM-DD, YYYY-MM or YYYY. Attributes @when, @from, @to, @notBefore, @notAfter are possible -->
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="http://d-nb.info/gnd/118770950">Nell Walden</persName>
+               <placeName>Potsdamerstrasse 134a <placeName ref="http://sws.geonames.org/2950157">Berlin</placeName> W.9.</placeName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <graphic n="122r" url="http://content.staatsbibliothek-berlin.de/dms/PPN746594992/1200/0/00000001.jpg"/>
+      <graphic n="122v" url="http://content.staatsbibliothek-berlin.de/dms/PPN746594992/1200/0/00000002.jpg"/>
+      <graphic n="123r" url="http://content.staatsbibliothek-berlin.de/dms/PPN746594992/1200/0/00000003.jpg"/>
+      <graphic n="123v" url="http://content.staatsbibliothek-berlin.de/dms/PPN746594992/1200/0/00000004.jpg"/>
+      <graphic n="Farbkeil" url="http://content.staatsbibliothek-berlin.de/dms/PPN746594992/1200/0/00000005.jpg"/>
+   </sourceDoc>
+   <facsimile>
+      <graphic url="http://resolver.staatsbibliothek-berlin.de/SBB0000D98500000000"/>
+   </facsimile>
+   <text type="letter">
+      <body>
+        <pb n="122r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D96700000001"/>
+        <div>
+          <opener>
+                    <dateline>
+                        <date when="1915-11-20">
+                            <hi rend="underline">20. Nov. 1915</hi>
+                        </date>
+                    </dateline>
+          <salute> Liebe <persName ref="http://d-nb.info/gnd/118891456">Nell</persName>
+                    </salute>.</opener>
+          <p>Immer habe ich gewartet dir zu danken für dein so liebe Brief <date when="1915-11-16">16. Nov:</date> empfangen. Jeden Tag dachte ich "der köstliche Nacken" wird kommen und dann kann ich <persName ref="http://d-nb.info/gnd/118891456">Nell</persName> alles erzählen aber nein von den Nacken kein Spur und auch <persName ref="P014">Wichert</persName> lässt sich warten auf mein <pb n="122v" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D96700000002"/>atelier. Ich denke er träumt immer fest über die Nacken und had mir und meine Bilder ganz und gar vergessen. Es ist doch nicht höflich dass er frl:
+          <persName ref="http://d-nb.info/gnd/136128289">Tak</persName> kein Besuch mehr gebracht hat. Wie wahnsinnig viel hast du immer zu tun ich freue mich so auf die zwei Artikeln die du schicken willst. Ja jeden Tag bin ich sehr sehr beschäftigt im atelier um alles fertig zu machen. Vier grosse Bilder sind jetzt fertig die du im anfang gesehen hast, ich denke nicht sehr viel <pb n="123r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D96700000003"/>ganz neue mehr machen zu können, im ganzen hoffe ich 20. Bilder zu schicken, ich bin so froh dass mein grosses Bild in die <orgName type="collection" ref="O003">Sammlung</orgName> kommen wird. Der <term key="A050" type="catalog" ref="http://digital.bib-bvb.de/webclient/DeliveryManager?custom_att_2=simple_viewer&amp;pid=8989579">Katalog</term> für <placeName ref="http://sws.geonames.org/2945358">Brandenburg</placeName> sah sehr gut aus. Viel Dank für Zeitung und Brief <date when="1915-11-19">gestern</date> empfangen, man fangt wenigstens an die
+          <ref target="#E002" type="exhibitionlist">Ausstellung</ref> interessant zu finden aber der Kritiker versteht nicht viel darüber. Wie du es am besten findest mit rahmen der Zeichnungen, du bist ganz frei mit dem Glaser, deine Wille ist mein Gesetz.!! schön he.!</p>
+          <pb n="123v" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D96700000004"/>
+                <p>Die Herren von <orgName type="museum" ref="http://d-nb.info/gnd/5264664-6">Panorama</orgName> haben nichts weiter über die Räumen geschrieben, ich bin sicher dass man den <orgName type="gallery" ref="http://d-nb.info/gnd/5195903-3">Sturm</orgName> zu modern findet, es wird nicht zusammen mit das <orgName type="museum" ref="http://d-nb.info/gnd/5264664-6">Panorama</orgName> gehen! und man ist nicht deutsch freundlich. Ich bin sehr froh dass die
+          <ref target="#E003" type="exhibitionlist">Ausstellung</ref> bei <orgName type="gallery" ref="O001">d'Audretsch</orgName>
+                    <note>Die Ausstellung im Den Haager "Kunstsalen d'Audretsch" findet vom 17. März bis 16. April 1916 statt. URL: <ref target="https://www.arthistoricum.net/themen/portale/sturm/ausstellungen/">https://www.arthistoricum.net/themen/portale/sturm/ausstellungen/ (Aufruf 04.10.2017)</ref>.</note> statt findet und dir dann wieder hier zu haben. Bitte schreibe wenn die Zeichnungen und alles angekommen ist, es dauert lange <date when="1915-11-17">17. Nov:</date> mit <foreign xml:lang="fr">grande Vitesse</foreign>
+                    <note>grande vitesse (frz.) heißt im Deutschen "Hochgeschwindigkeit". Es ist davon auszugehen, dass Jacoba van Heemskerck hiermit den postalischen Versand per Eilpost meinte.</note> abgeschickt. Hast du auch über die
+          <orgName type="society" ref="O002">Moderne Kunstkring</orgName>
+                    <note>Der Moderne Kunstkring (dt. Kunstring) war ein im Jahr 1910 von dem niederländischen Maler Conrad Kikkert (1882–1965) gegründeter niederländischer Kunstverein.</note> gelacht? So schön <date when="1915-02">ende Januar</date> nach <placeName ref="http://sws.geonames.org/2950157">Berlin</placeName> zu gehen ich freue mich riesig darauf.</p>
+          <closer>
+                    <salute>Für heute noch herzlichste Grüsse für Herr <persName ref="http://d-nb.info/gnd/118770950">Walden</persName> und ein Kuss von</salute>~<signed>deine <persName ref="http://d-nb.info/gnd/11854764X">
+                            <hi rend="twice-underline">Coba</hi>
+                        </persName>
+                    </signed>.</closer>
+        </div>
+      </body>
+   </text>
+</TEI>

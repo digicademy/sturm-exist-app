@@ -1,0 +1,83 @@
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Q0000001.v1">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Briefe aus dem Sturm-Archiv I
+                   </title>
+                <editor>Marjam Mahmoodzada <email>marjam.mahmoodzada@adwmainz.de</email>
+                </editor>
+            </titleStmt>
+            <!-- Template for a TEI XML file according to the Corrspondence Metadata Interchange (CMI) format <-->
+            <publicationStmt>
+                <publisher>
+                    <ref target="marjam.mahmoodzada@adwmainz.de">Marjam Mahmoodzada</ref>
+                </publisher>
+                <idno type="file">1914-01-15_FMa_HW.xml</idno>
+                <date when="2017-06-12"/>
+                <availability>
+                    <!-- The CC BY 4.0 license is mandatory -->
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">This file is
+                        licensed under the terms of the Creative-Commons-License CC BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>DE</country>
+                        <settlement>Berlin</settlement>
+                        <repository>Staatsbibliothek zu Berlin Preußischer Kulturbesitz, Handschriftenabteilung, Sturm-Archiv I, Marc, Franz</repository>
+                        <idno type="URI">http://kalliope-verbund.info/DE-611-HS-1916784</idno>
+                    </msIdentifier>
+                </msDesc>
+                <bibl type="hybrid">1914-01-15_FMa_HW.xml</bibl>
+            </sourceDesc>
+        </fileDesc>
+        <xenoData type="URL">http://digital.staatsbibliothek-berlin.de/metsresolver/PPN746598521</xenoData>
+        <profileDesc>
+            <correspDesc key="Bl.177" ref="https://sturm-edition.de/id/Q0000001.v1">
+                <correspAction type="sent">
+                    <persName ref="http://d-nb.info/gnd/11857745X">Franz Marc</persName>
+                    <placeName ref="http://sws.geonames.org/2831942">Sindelsdorf</placeName>
+                    <date when="1914-01-15"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="http://d-nb.info/gnd/118770950">Herwarth Walden</persName>
+                    <placeName>Potsdamerstrasse 134a <placeName ref="http://sws.geonames.org/2950157">Berlin</placeName> W.9.</placeName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <sourceDoc>
+        <graphic n="177r" url="http://content.staatsbibliothek-berlin.de/dms/PPN746598521/800/0/00000001.jpg"/>
+        <graphic n="177v" url="http://content.staatsbibliothek-berlin.de/dms/PPN746598521/800/0/00000002.jpg"/>
+        <graphic n="Farbkeil" url="http://content.staatsbibliothek-berlin.de/dms/PPN746598521/800/0/00000003.jpg"/>
+    </sourceDoc>
+    <facsimile>
+        <graphic url="http://resolver.staatsbibliothek-berlin.de/SBB0000DAA300000000"/>
+    </facsimile>
+    <text type="postcard">
+        <body>
+            <pb n="177r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000DAA300000002"/>
+            <div>
+                <opener>
+                    <salute>Lieber <persName ref="http://d-nb.info/gnd/118770950">Walden</persName>
+                    </salute>,</opener>
+                <p>ich habe nicht das geringste vom Anwalt erhalten; Sie kennen mich ja, daß ich
+                    stets sofort antworte; es muß verloren gegangen sein. Grüßen Sie bitte D<hi rend="underline">r</hi> <persName ref="P016">Feige</persName> und sagen Sie ihm das.</p>
+                <p>In einer niederrheinischen
+                    Zeitung soll von einer bevorstehenden großen Ausstellung in <placeName ref="http://sws.geonames.org/2944387">Bremen</placeName> von <persName ref="http://d-nb.info/gnd/118559737">Kandinsky</persName>
+                        mi<unclear>r</unclear> riesem. <unclear>[---]</unclear> berichtet worden
+                    sein; ich kann mir nur denken, daß die <persName ref="http://d-nb.info/gnd/143669230">Reiche</persName>-<placeName ref="http://sws.geonames.org/2935022">Dresden</placeName> Collection dahin
+                    kommt;<pb n="177v" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000DAA300000001"/> ich bin natürlich einverstanden, nur soll die frei<hi rend="underline">e
+                        Rück</hi>fracht <placeName ref="http://sws.geonames.org/2952539">Barmen</placeName> - <placeName ref="http://sws.geonames.org/2950157">Berlin</placeName> gesichert sein.<note>Im Jahr 1913 fand in der Stadt Barmen eine Sturm-Ausstellung mit Werken der Künstlergruppe Der Blaue Reiter statt. In der Literatur gilt diese Ausstellung als nicht ausreichend nachgewiesen; dieser Brief gibt endgültigen Aufschluss auf das tatsächliche Stattfinden der Ausstellung. Vgl. Enders, Rainer: Ausstellungen außerhalb der Berliner Galerie. URL: <ref target="https://www.arthistoricum.net/themen/portale/sturm/ausstellungen/">https://www.arthistoricum.net/themen/portale/sturm/ausstellungen/</ref> (Aufruf 06.04.2017).</note> Aber es ist natürlich nur Vermutung von
+                    mir. Von <persName ref="http://d-nb.info/gnd/143669230">Reiche</persName> höre
+                    ich gar nichts.</p>
+                <closer>
+                    <salute>Hrzl.</salute> <signed>Ihr <persName ref="http://d-nb.info/gnd/11857745X">F.Marc</persName>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

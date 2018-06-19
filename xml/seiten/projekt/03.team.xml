@@ -1,0 +1,77 @@
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Projektteam</title>
+                <editor>Torsten Schrade<email>Torsten.Schrade@adwmainz.de</email>
+                </editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="marjam.mahmoodzada@adwmainz.de">Marjam Mahmoodzada</ref>
+                </publisher>
+                <idno type="file">team.xml</idno>
+                <date when="2018-03-30"/>
+                <availability>
+                    <!-- The CC BY 4.0 license is mandatory -->
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">This file is
+                        licensed under the terms of the Creative-Commons-License CC BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl type="hybrid">team.xml</bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="section" n="eight">
+                <ab rend="h2">Das Projektteam</ab>
+                <p>
+                    Die STURM-Edition ist als kollaboratives Digital Humanities Projekt insbesondere des wissenschaftlichen 
+                    Nachwuchses konzipiert und an der Akademieprofessur für Digital Humanities (Akademie der Wissenschaften und
+                    der Literatur / Hochschule Mainz) angesiedelt. Wir möchten allen Teamkolleginnen und -kollegen
+                    und allen involvierten Studierenden herzlich für ihre Mitarbeit mit Rat und Tat danken. Unser besonderer Dank 
+                    gilt der Mainzer Akademie für die institutionelle Unterstützung unseres Forschungsvorhabens.
+                </p>
+                <ab rend="h3">Herausgeberschaft und Gesamtkonzeption</ab>
+                <ab rend="h4">
+                    Marjam Trautmann, M.A. <ref rend="orcid" target="https://orcid.org/0000-0003-2423-7144">ORCID</ref>
+                </ab>
+                <p>
+                    Gesamtkonzeption und Projektmanagement, Editionsrichtlinien, Datenmodellierung und -kuratierung,
+                    Projektbibliographie, Edition der Briefe Jacoba van Heemskercks und Franz Marcs.
+                </p>
+                <ab rend="h4">Prof. Torsten Schrade <ref rend="orcid" target="https://orcid.org/0000-0002-0953-2818">ORCID</ref>
+                </ab>
+                <p>
+                    Gesamtkonzeption und Projektmanagement, Research Software Engineering, Datenmodellierung, Gestaltung und Entwicklung 
+                    der Webpräsentation, Lehrkonzepte für die Digitale Methodik.
+                </p>
+                <ab rend="h3">Wissenschaftliche Mitarbeit</ab>
+                <ab rend="h4">drs. Thomas Kollatz <ref rend="orcid" target="https://orcid.org/0000-0003-1904-1841">ORCID</ref>
+                </ab>
+                <p>
+                    Texttechnologien (TUSTEP), Datenmodellierung, Normdaten, Schnittstellenprogrammierung, Textsatz.
+                </p>
+                <ab rend="h4">Dr. Lea Müller-Dannhausen</ab>
+                <p>
+                    Lektorat, Mitwirkung an der Datenmodellierung in Abteilung I, Edition der Briefe Franz Marcs, Jacoba van Heemskercks und 
+                    Guillaume Apollinaires.
+                </p>
+                <ab rend="h4">Dr. Anne Lorenz</ab>
+                <p>
+                    Wissenschaftskommunikation und Mitwirkung an der Datenmodellierung.
+                </p>
+                <ab rend="h3">Freunde und Förderer des Projektes</ab>
+                <p>
+                    Folgenden Personen sei für ihr Engagement als Förderer des Projektes sehr gedankt (in alphabetischer Reihenfolge):
+                    Prof. Dr. Claudius Geisler, Timo Kissinger M.A., Janina Kühner M.A., Dipl.Des. (FH) Sarah Pittroff M.A.
+                </p>
+            </div>
+            <div type="section" n="four">
+                <ab type="subNavigation" n="projekt"/>
+            </div>
+        </body>
+    </text>
+</TEI>

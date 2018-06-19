@@ -1,0 +1,43 @@
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>STURM-Ausstellungskataloge</title>
+                <title type="navigation">STURM-Kataloge</title>
+                <editor>Marjam Mahmoodzada <email>marjam.mahmoodzada@adwmainz.de</email>
+                </editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="marjam.mahmoodzada@adwmainz.de">Marjam Mahmoodzada</ref>
+                </publisher>
+                <idno type="file">kataloge.xml</idno>
+                <date when="2018-03-30"/>
+                <availability>
+                    <!-- The CC BY 4.0 license is mandatory -->
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">This file is
+                        licensed under the terms of the Creative-Commons-License CC BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl type="hybrid">kataloge.xml</bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="section" n="eight">
+                <ab rend="h2">Abteilungsspezifische Editionsrichtlinien</ab>
+                <ab rend="h3">Abteilung III – STURM-Ausstellungskataloge</ab>
+                <p>Diese Abteilung und ihre Editionsrichtlinien befinden sich noch im Aufbau. Bisher
+                    zugänglich sind die <ref target="edition/briefe.xml">Editionsrichtlinien</ref>
+                    und <ref target="quellen/briefe.xml">Quellen</ref> der Abteilung I – STURM-Briefe.
+                        <ref target="quellen/kataloge.xml">Hier</ref> finden Sie nähere
+                    Informationen zur Abteilung III – STURM-Kataloge.</p>
+            </div>
+            <div type="section" n="four">
+                <ab type="subNavigation" n="edition"/>
+            </div>
+        </body>
+    </text>
+</TEI>

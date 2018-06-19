@@ -1,0 +1,95 @@
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Q.01.19130513.GAP.01">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Briefe aus dem Sturm-Archiv I</title>
+                <editor>Lea Müller-Dannhausen <email>muelea@students.uni-mainz.de</email>
+                </editor>
+            </titleStmt>
+            <!-- Template for a TEI XML file according to the Corrspondence Metadata Interchange (CMI) format <-->
+            <publicationStmt>
+                <publisher>
+                    <ref target="muelea@students.uni-mainz.de">Lea Müller-Dannhausen</ref>
+                </publisher>
+                <idno>Q.01.19130513.GAP.01</idno>
+                <date when="2017-11-30"/>
+                <availability>
+                    <!-- The CC BY 4.0 license is mandatory -->
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">This file is
+                        licensed under the terms of the Creative-Commons-License CC BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>D</country>
+                        <settlement>Berlin</settlement>
+                        <repository>Staatsbibliothek zu Berlin Preußischer Kulturbesitz, Handschriftenabteilung, Sturm-Archiv I, Apollinaire, Guillaume</repository>
+                        <idno type="URI">http://kalliope-verbund.info/DE-611-HS-1910443</idno>
+                    </msIdentifier>
+                </msDesc>
+                <bibl type="hybrid">1913-05-13_GAp_HW.xml</bibl>
+            </sourceDesc>
+        </fileDesc>
+        <xenoData type="URL">http://digital.staatsbibliothek-berlin.de/metsresolver/PPN746597495</xenoData>
+        <profileDesc>
+            <correspDesc key="Bl.3" ref="https://sturm-edition.de/id/Q.01.19130513.GAP.01">
+                <correspAction type="sent">
+                    <persName ref="http://d-nb.info/gnd/118503634">Guillaume Apollinaire</persName>
+                    <placeName ref="http://sws.geonames.org/2988507">Paris</placeName>
+                    <date when="1913-05-13"/>
+                    <!-- das Datum bezieht sich auf den Poststempel soweit kein handschriftliches Datum vorhanden-->
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="http://d-nb.info/gnd/118770950">Herwarth Walden</persName>
+                    <placeName>Potsdamerstrasse 134a <placeName ref="http://sws.geonames.org/2950157">Berlin</placeName>
+                        W.9.</placeName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <sourceDoc>
+        <graphic n="3r" url="http://content.staatsbibliothek-berlin.de/dms/PPN746597495/1200/0/00000001.jpg"/>
+        <graphic n="3v" url="http://content.staatsbibliothek-berlin.de/dms/PPN746597495/1200/0/00000002.jpg"/>
+        <graphic n="Farbkeil" url="http://content.staatsbibliothek-berlin.de/dms/PPN746597495/1200/0/00000003.jpg"/>
+    </sourceDoc>
+    <facsimile>
+        <graphic url="http://resolver.staatsbibliothek-berlin.de/SBB0000DA5300000000"/>
+    </facsimile>
+    <text type="postcard">
+        <body>
+					<pb n="3r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000DA5300000001"/>
+					<div>
+						<opener>
+                    <salute>Mein lieber <persName ref="http://d-nb.info/gnd/118770950">Freund</persName>
+                    </salute> –</opener> <p>Ich habe mit die <foreign xml:lang="fr">Salons</foreign> sou viel zu tun gehabt und kein zeit, Ihnem zu Schreiben. <date when="1913-05-13">heute</date> abend schicke ich mein <term key="A100" type="article">
+                        <hi rend="underline">Pariser Brief</hi>
+                    </term>.</p>
+						<p>Bald schicke ich die <term key="A101" type="lecture">
+                        <foreign xml:lang="fr">Conférences</foreign>
+                    </term>
+                    <note>Es könnte sich um Vorträge handeln, die Apollinaire im Rahmen des Ersten Deutschen Herbstsalons 1913 in Berlin plante (vgl. Rehage, Philipp [Hrsg.]: Correspondance Guillaume Apollinaire – Herwarth Walden (Der Sturm) 1913–1915. Caen 2007, S. 58.) oder um eine für einen früheren Zeitpunkt geplante Vortragsreihe in Berlin bzw. um einführende Vorträge zu "Sturm"-Ausstellungen außerhalb Berlins (vgl. Bohn, Willard: Apollinaire and the International Avant-Garde. New York 1997, S. 91f.).</note> –</p>
+						<p>Bitte schreiben Sie an <persName ref="http://d-nb.info/gnd/118778927">Marie Laurencin</persName>
+						<pb n="3v" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000DA5300000002"/>
+						selbst dann bekommen Sie die Bilder – schicken Sie mir zurück die <term key="A102" type="artwork">Hölzes engraviert</term>
+                    <note>Drei Holzschnitte von Marie Laurencin druckte Walden im April und Mai 1913 in "Der Sturm" ab. Vgl. Walden, Herwarth [Hrsg.]: Der Sturm. Halbmonatsschrift für Kultur und die Künste 156/157 (1913), S. <ref target="http://digi.ub.uni-heidelberg.de/diglit/sturm1913_1914/0012">9</ref> u. <ref target="http://digi.ub.uni-heidelberg.de/diglit/sturm1913_1914/0016">13</ref>; Walden, Herwarth [Hrsg.]: Der Sturm. Halbmonatsschrift für Kultur und die Künste 160/161 (1913), S. <ref target="http://digi.ub.uni-heidelberg.de/diglit/sturm1913_1914/0030">27</ref>.</note> von <persName ref="http://d-nb.info/gnd/118778927">Marie Laurencin</persName>. Ich Brauche. Schicken Sie mir auch die Proben.</p>
+						<p>Die <persName ref="P101">Mütter</persName> von Fräulein <persName ref="http://d-nb.info/gnd/118778927">Laurencin</persName> ist <date when="1913-05-11">vorgestern</date> gestorben.</p>
+						<p>Sie bekommen bald meine <hi rend="line-through">büch</hi> <term key="http://d-nb.info/gnd/4316260-5" type="literaryWork">poesien</term>. und die übersetzung de<hi rend="line-through">s</hi>r <hi rend="line-through">cubismus</hi> <term key="http://d-nb.info/gnd/4552880-9" type="book" ref="http://gallica.bnf.fr/ark:/12148/btv1b52508734s">
+                        <foreign xml:lang="fr">peintres cubistes</foreign>
+                    </term>.</p>
+						<closer>
+                    <salute>Schreiben Sie bald, und ich sende ihnen meine Bruderschaftliche Küsse –</salute>~<signed>
+                        <persName ref="http://d-nb.info/gnd/118503634">G<hi rend="underline">uillaume Apollina</hi>ire</persName>
+                    </signed>
+                </closer>
+							<postscript>
+                    <p>Schicken Sie mir anecdoten über Sie dass ich konnte eine <foreign xml:lang="fr">
+                            <hi rend="underline">Vie anedotique</hi>
+                        </foreign>
+                        <note>Unter dem Pseudonym Montade schrieb Apollinaire seit April 1911 in der Zeitschrift <ref target="http://gallica.bnf.fr/ark:/12148/cb34427363f/date"> "Mercure de France"</ref> regelmäßig die Kolumne "La Vie anecdotique". Vgl. Rehage, Philipp [Hrsg.]: Correspondance Guillaume Apollinaire – Herwarth Walden (Der Sturm) 1913–1915. Caen 2007, S. 58.</note> über Sie Schreiben.</p>
+                </postscript>
+					</div>
+        </body>
+    </text>
+</TEI>

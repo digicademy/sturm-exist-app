@@ -1,0 +1,1183 @@
+<?xml-model href="https://raw.githubusercontent.com/TEI-Correspondence-SIG/CMIF/master/schema/cmi-customization.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader><fileDesc><titleStmt><title>Der STURM. Digitale Quellenedition zur Geschichte der europäischen Avantgarde. Abteilung I, Künstlerbriefe</title><editor>Torsten Schrade<email>Torsten.Schrade@adwmainz.de</email></editor></titleStmt><publicationStmt><publisher><ref target="http://www.adwmainz.de/">Akademie der Wissenschaften und der Literatur | Mainz</ref></publisher><idno type="url">https://sturm-edition.de/cmif/corresp.xml</idno><date when="2018-06-16+02:00"/><availability><licence target="https://creativecommons.org/licenses/by/4.0/">This file is licensed under the terms of the Creative-Commons-License CC BY 4.0</licence></availability></publicationStmt><sourceDesc><bibl type="online">Der STURM. Digitale Quellenedition zur Geschichte der internationalen Avantgarde, erarbeitet und herausgegeben von Marjam Trautmann und Torsten Schrade. Akademie der Wissenschaften und der Literatur | Mainz, 2018.</bibl></sourceDesc></fileDesc><profileDesc><correspDesc key="Bl.21-22" ref="https://sturm-edition.de/id/Q.01.19140908.JVH.01">
+                <correspAction type="sent">
+                    <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jacoba van
+                        Heemskerck</persName>
+                    <placeName key="O.0000004" ref="http://sws.geonames.org/2756746">Loverendale,
+                        Domburg</placeName>
+                    <date when="1914-09-08"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth
+                        Walden</persName>
+                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>
+                </correspAction>
+            </correspDesc><correspDesc key="Bl.39-40" ref="https://sturm-edition.de/id/Q.01.19141117.JVH.01">
+                <correspAction type="sent">
+                    <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jacoba van
+                        Heemskerck</persName>
+                    <placeName key="O.0000001" ref="http://sws.geonames.org/2747373">35, Nassau Zuilensteinstraat, Den
+                        Haag</placeName>
+                    <date when="1914-11-17"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950"> Herwarth
+                        Walden</persName>
+                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>
+                </correspAction>
+            </correspDesc><correspDesc key="Bl.186" ref="https://sturm-edition.de/id/Q.01.19140507.FMA.01">
+                <correspAction type="sent">
+                    <persName key="P.0000003" ref="http://d-nb.info/gnd/11857745X">Franz Marc</persName>
+                    <placeName key="O.0000056" ref="http://sws.geonames.org/2951104">Benediktbeuren</placeName>
+                    <date when="1914-05-07"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth Walden</persName>
+                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>                  
+                </correspAction>
+            </correspDesc><correspDesc key="Bl.182" ref="https://sturm-edition.de/id/Q.01.19140125.FMA.01">
+                <correspAction type="sent">
+                    <persName key="P.0000003" ref="http://d-nb.info/gnd/11857745X">Franz Marc</persName>
+                    <placeName key="O.0000054" ref="http://sws.geonames.org/2949324">Bichl</placeName>
+                    <date when="1914-01-25"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth Walden</persName>
+                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>                  
+                </correspAction>
+            </correspDesc><correspDesc key="Bl.139-140" ref="https://sturm-edition.de/id/Q.01.19151225.JVH.01">
+                <correspAction type="sent">
+                    <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jacoba van Heemskerck</persName>
+                    <placeName key="O.0000001" ref="http://sws.geonames.org/2747373">35, Nassau Zuilensteinstraat, Den Haag</placeName>                   
+                    <date when="1915-12-25"/>               
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth Walden</persName>
+                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>
+                </correspAction>
+            </correspDesc><correspDesc key="Bl.101" ref="https://sturm-edition.de/id/Q.01.19150624.JVH.01">
+                <correspAction type="sent">
+                    <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jacoba van Heemskerck</persName>
+                    <placeName key="O.0000004" ref="http://sws.geonames.org/2756746">Loverendale, Domburg</placeName>                   
+                    <date when="1915-06-24"/>              
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth Walden</persName>
+                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>
+                </correspAction>
+            </correspDesc><correspDesc key="Bl.75-76" ref="https://sturm-edition.de/id/Q.01.19150317.JVH.01">
+                <correspAction type="sent">
+                    <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jacoba van Heemskerck</persName>
+                    <placeName key="O.0000001" ref="http://sws.geonames.org/2747373">35, Nassau Zuilensteinstraat, Den Haag</placeName>                   
+                    <date when="1915-03-17"/>              
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth Walden</persName>
+                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>
+                </correspAction>
+            </correspDesc><correspDesc key="Bl.47-48" ref="https://sturm-edition.de/id/Q.01.19141219.JVH.01">
+                <correspAction type="sent">
+                    <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jacoba van
+                        Heemskerck</persName>
+                    <placeName key="O.0000001" ref="http://sws.geonames.org/2747373">35, Nassau
+                        Zuilensteinstraat, Den Haag</placeName>
+                    <date when="1914-12-19"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth
+                        Walden</persName>
+                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>
+                </correspAction>
+            </correspDesc><correspDesc key="Bl.183" ref="https://sturm-edition.de/id/Q.01.19140125.FMA.02">
+                <correspAction type="sent">
+                    <persName key="P.0000003" ref="http://d-nb.info/gnd/11857745X">Franz Marc</persName>
+                    <placeName key="O.0000048" ref="http://sws.geonames.org/2831942">Sindelsdorf</placeName>
+                    <date notBefore="1914-01-25"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth Walden</persName>
+                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>                  
+                </correspAction>
+            </correspDesc><correspDesc key="Bl.18" ref="https://sturm-edition.de/id/Q.01.19140807.JVH.01">
+                <correspAction type="sent">
+                    <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jacoba van Heemskerck</persName>
+                    <placeName key="O.0000004" ref="http://sws.geonames.org/2756746">Loverendale, Domburg</placeName>                  
+                    <date when="1914-08-09"/> <!-- Der Poststempel ist vom 09.08.1914, geschrieben am 07.08.1914 -->               
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth Walden</persName>
+                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>                  
+                </correspAction>
+            </correspDesc><correspDesc key="Bl.191" ref="https://sturm-edition.de/id/Q.01.19140627.FMA.01">
+                <correspAction type="sent">
+                    <persName key="P.0000003" ref="http://d-nb.info/gnd/11857745X">Franz Marc</persName>
+                    <placeName key="O.0000056" ref="http://sws.geonames.org/2951104">Benediktbeuren</placeName>
+                    <date when="1914-06-27"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth Walden</persName>
+                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>                  
+                </correspAction>
+            </correspDesc><correspDesc key="Bl.20" ref="https://sturm-edition.de/id/Q.01.19140822.JVH.01">
+                <correspAction type="sent">
+                    <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jacoba van
+                        Heemskerck</persName>
+                    <placeName>
+                        <placeName key="O.0000004" ref="http://sws.geonames.org/2756746">Domburg</placeName>
+                    </placeName>
+                    <date when="1914-08-23"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth
+                        Walden</persName>
+                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>
+                </correspAction>
+            </correspDesc><correspDesc key="Bl.53-55" ref="https://sturm-edition.de/id/Q.01.19150131.JVH.01">
+                <correspAction type="sent">
+                    <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jacoba van
+                        Heemskerck</persName>
+                    <placeName key="O.0000001" ref="http://sws.geonames.org/2747373">35, Nassau
+                        Zuilensteinstraat, Den Haag</placeName>
+                    <date when="1915-01-31"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth
+                        Walden</persName>
+                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>
+                </correspAction>
+            </correspDesc><correspDesc key="Bl.192" ref="https://sturm-edition.de/id/Q.01.19140831.FMA.01">
+                <correspAction type="sent">
+                    <persName key="P.0000003" ref="http://d-nb.info/gnd/11857745X">Franz Marc</persName>
+                    <placeName key="O.0000059" ref="http://sws.geonames.org/2973783">Straßburg</placeName>
+                    <date when="1914-08-31"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth Walden</persName>
+                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>                  
+                </correspAction>
+            </correspDesc><correspDesc key="Bl.132-133" ref="https://sturm-edition.de/id/Q.01.19151209.JVH.01">
+                <correspAction type="sent">
+                    <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jacoba van Heemskerck</persName>
+                    <placeName key="O.0000001" ref="http://sws.geonames.org/2747373">Den Haag</placeName>                   
+                    <date when="1915-12-09"/>             
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth Walden</persName>
+                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>
+                </correspAction>
+            </correspDesc><correspDesc key="Bl.214" ref="https://sturm-edition.de/id/Q.01.19151001.FMA.01">
+                <correspAction type="sent">
+                    <persName key="P.0000003" ref="http://d-nb.info/gnd/11857745X">Franz Marc</persName>
+                    <placeName>Unknown</placeName>
+                    <date when="1915-10-01"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth Walden</persName>
+                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>                  
+                </correspAction>
+            </correspDesc><correspDesc key="Bl.200" ref="https://sturm-edition.de/id/Q.01.19150315.FMA.02">
+                <correspAction type="sent">
+                    <persName key="P.0000003" ref="http://d-nb.info/gnd/11857745X">Franz Marc</persName>
+                    <placeName>Unknown</placeName>
+                    <date notBefore="1915-03-15"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth Walden</persName>
+                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>                  
+                </correspAction>
+            </correspDesc><correspDesc key="Bl.209" ref="https://sturm-edition.de/id/Q.01.19150827.FMA.01">
+                <correspAction type="sent">
+                    <persName key="P.0000003" ref="http://d-nb.info/gnd/11857745X">Franz Marc</persName>
+                    <placeName>Unknown</placeName>
+                    <date when="1915-08-27"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth Walden</persName>
+                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>                  
+                </correspAction>
+            </correspDesc><correspDesc key="Bl.25" ref="https://sturm-edition.de/id/Q.01.19141005.JVH.01">
+                <correspAction type="sent">
+                    <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jacoba van Heemskerck</persName>
+                    <placeName key="O.0000004" ref="http://sws.geonames.org/2756746">Domburg</placeName>                    
+                    <date when="1914-10-06"/>                 
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth Walden</persName>
+                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>                  
+                </correspAction>
+            </correspDesc><correspDesc key="Bl.9-10" ref="https://sturm-edition.de/id/Q.01.19140703.JVH.01">
+                <correspAction type="sent">
+                    <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jacoba van Heemskerck</persName>
+                    <placeName key="O.0000004" ref="http://sws.geonames.org/2756746">Loverendale, Domburg</placeName>
+                    <date when="1914-07-03"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth Walden</persName>
+                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>                  
+                </correspAction>
+            </correspDesc><correspDesc key="Bl.23-24" ref="https://sturm-edition.de/id/Q.01.19140925.JVH.01">
+                <correspAction type="sent">
+                    <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jacoba van
+                        Heemskerck</persName>
+                    <placeName key="O.0000004" ref="http://sws.geonames.org/2756746">Loverendale,
+                        Domburg</placeName>
+                    <date when="1914-09-25"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth
+                        Walden</persName>
+                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Berlin</placeName>
+                </correspAction>
+            </correspDesc><correspDesc key="Bl.11" ref="https://sturm-edition.de/id/Q.01.19140704.JVH.01">
+                <correspAction type="sent">
+                    <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jacoba van Heemskerck</persName>
+                    <placeName key="O.0000004" ref="http://sws.geonames.org/2756746">Loverendale, Domburg</placeName>                    
+                    <date when="1914-07-04"/>   
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth Walden</persName>
+                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>                  
+                </correspAction>
+            </correspDesc><correspDesc key="Bl.7-8" ref="https://sturm-edition.de/id/Q.01.19140612.JVH.01">
+                <correspAction type="sent">
+                    <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jacoba van
+                        Heemskerck</persName>
+                    <placeName key="O.0000004" ref="http://sws.geonames.org/2756746">Loverendale,
+                        Domburg</placeName>
+                    <date when="1914-06-12"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth
+                        Walden</persName>
+                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>
+                </correspAction>
+            </correspDesc><correspDesc key="Bl.187" ref="https://sturm-edition.de/id/Q.01.19140512.FMA.01">
+                <correspAction type="sent">
+                    <persName key="P.0000003" ref="http://d-nb.info/gnd/11857745X">Franz Marc</persName>
+                    <placeName key="O.0000056" ref="http://sws.geonames.org/2951104">Benediktbeuren</placeName>
+                    <date when="1914-05-12"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth Walden</persName>
+                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>                  
+                </correspAction>
+            </correspDesc><correspDesc key="Bl.193" ref="https://sturm-edition.de/id/Q.01.19141113.FMA.01">
+                <correspAction type="sent">
+                    <persName key="P.0000003" ref="http://d-nb.info/gnd/11857745X">Franz Marc</persName>
+                    <placeName>Unknown</placeName>
+                    <date when="1914-11-13"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth Walden</persName>
+                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>                  
+                </correspAction>
+            </correspDesc><correspDesc key="Bl.73-74" ref="https://sturm-edition.de/id/Q.01.19150313.JVH.01">
+                <correspAction type="sent">
+                    <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jacoba van
+                        Heemskerck</persName>
+                    <placeName key="O.0000001" ref="http://sws.geonames.org/2747373">35, Nassau
+                        Zuilensteinstraat, Den Haag</placeName>
+                    <date when="1915-03-13"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth
+                        Walden</persName>
+                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>
+                </correspAction>
+            </correspDesc><correspDesc key="Bl.112-113" ref="https://sturm-edition.de/id/Q.01.19151007.JVH.01">
+                <correspAction type="sent">
+                    <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jacoba van Heemskerck</persName>
+                    <placeName key="O.0000004" ref="http://sws.geonames.org/2756746">Loverendale, Domburg</placeName>                    
+                    <date when="1915-10-07"/>               
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth Walden</persName>
+                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>
+                </correspAction>
+            </correspDesc><correspDesc key="Bl.31-32" ref="https://sturm-edition.de/id/Q.01.19141023.JVH.01">
+                <correspAction type="sent">
+                    <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jacoba van
+                        Heemskerck</persName>
+                    <placeName key="O.0000001" ref="http://sws.geonames.org/2747373">35, Nassau
+                        Zuilensteinstraat, Den Haag</placeName>
+                    <date when="1914-10-23"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth
+                        Walden</persName>
+                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>
+                </correspAction>
+            </correspDesc><correspDesc key="Bl.188" ref="https://sturm-edition.de/id/Q.01.19140606.FMA.01">
+                <correspAction type="sent">
+                    <persName key="P.0000003" ref="http://d-nb.info/gnd/11857745X">Franz Marc</persName>
+                    <placeName key="O.0000056" ref="http://sws.geonames.org/2951104">Benediktbeuren</placeName>
+                    <date when="1914-06-06"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth Walden</persName>
+                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>                  
+                </correspAction>
+            </correspDesc><correspDesc key="Bl.71-72" ref="https://sturm-edition.de/id/Q.01.19150310.JVH.01">
+                <correspAction type="sent">
+                    <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jacoba van Heemskerck</persName>
+                    <placeName key="O.0000001" ref="http://sws.geonames.org/2747373">35, Nassau Zuilensteinstraat, Den Haag</placeName>                   
+                    <date when="1915-03-10"/>               
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth Walden</persName>
+<placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>
+                </correspAction>
+            </correspDesc><correspDesc key="Bl.1-3" ref="https://sturm-edition.de/id/Q.01.19140322.JVH.01">
+                <correspAction type="sent">
+                    <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jacoba van Heemskerck</persName>
+                    <placeName key="O.0000001" ref="http://sws.geonames.org/2747373">35, Nassau Zuilensteinstraat, Den Haag</placeName>
+                    <date when="1914-03-22"/>              
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth Walden</persName>
+                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>                  
+                </correspAction>
+            </correspDesc><correspDesc key="Bl.41-42" ref="https://sturm-edition.de/id/Q.01.19141129.JVH.01">
+                <correspAction type="sent">
+                    <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jacoba van
+                        Heemskerck</persName>
+                    <placeName>
+                        <placeName key="O.0000001" ref="http://sws.geonames.org/2747373">35, Nassau
+                            Zuilensteinstraat, Den Haag</placeName>
+                    </placeName>
+                    <date when="1914-11-29"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth
+                        Walden</persName>
+                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>
+                </correspAction>
+            </correspDesc><correspDesc key="Bl.5-6" ref="https://sturm-edition.de/id/Q.01.19140601.JVH.01">
+                <correspAction type="sent">
+                    <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jacoba van
+                        Heemskerck</persName>
+                    <placeName key="O.0000004" ref="http://sws.geonames.org/2756746">Loverendale,
+                        Domburg</placeName>
+                    <date when="1914-06-01"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth
+                        Walden</persName>
+                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>
+                </correspAction>
+            </correspDesc><correspDesc key="Bl.33-34" ref="https://sturm-edition.de/id/Q.01.19141027.JVH.01">
+                <correspAction type="sent">
+                    <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jacoba van
+                        Heemskerck</persName>
+                    <placeName key="O.0000001" ref="http://sws.geonames.org/2747373">35, Nassau
+                        Zuilensteinstraat, Den Haag</placeName>
+                    <date when="1914-10-27"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth
+                        Walden</persName>
+                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>
+                </correspAction>
+            </correspDesc><correspDesc key="Bl.35-36" ref="https://sturm-edition.de/id/Q.01.19141105.JVH.01">
+                <correspAction type="sent">
+                    <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jacoba van
+                        Heemskerck</persName>
+                    <placeName key="O.0000001" ref="http://sws.geonames.org/2747373">35, Nassau
+                        Zuilensteinstraat, Den Haag</placeName>
+                    <date when="1914-11-05"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth
+                        Walden</persName>
+                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>
+                </correspAction>
+            </correspDesc><correspDesc key="Bl.26-27" ref="https://sturm-edition.de/id/Q.01.19141009.JVH.01">
+                <correspAction type="sent">
+                    <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jacoba van
+                        Heemskerck</persName>
+                    <placeName key="O.0000001" ref="http://sws.geonames.org/2747373">35, Nassau
+                        Zuilensteinstraat, Den Haag</placeName>
+                    <date when="1914-10-09"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth
+                        Walden</persName>
+                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>
+                </correspAction>
+            </correspDesc><correspDesc key="Bl.177" ref="https://sturm-edition.de/id/Q.01.19140115.FMA.01">
+                <correspAction type="sent">               
+                    <persName key="P.0000003" ref="http://d-nb.info/gnd/11857745X">Franz Marc</persName>
+                    <placeName key="O.0000048" ref="http://sws.geonames.org/2831942">Sindelsdorf</placeName>
+                    <date when="1914-01-15"/>
+                </correspAction>                
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth Walden</persName>
+                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>                   
+                </correspAction>
+            </correspDesc><correspDesc key="Bl.184" ref="https://sturm-edition.de/id/Q.01.19140409.FMA.01">
+                <correspAction type="sent">
+                    <persName key="P.0000003" ref="http://d-nb.info/gnd/11857745X">Franz Marc</persName>
+                    <placeName key="O.0000048" ref="http://sws.geonames.org/2831942">Sindelsdorf</placeName>
+                    <date when="1914-04-09"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth Walden</persName>
+                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>                  
+                </correspAction>
+            </correspDesc><correspDesc key="Bl.189" ref="https://sturm-edition.de/id/Q.01.19140608.FMA.01">
+                <correspAction type="sent">
+                    <persName key="P.0000003" ref="http://d-nb.info/gnd/11857745X">Franz Marc</persName>
+                    <placeName key="O.0000056" ref="http://sws.geonames.org/2951104">Benediktbeuren</placeName>
+                    <date when="1914-06-08"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth Walden</persName>
+                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>                  
+                </correspAction>
+            </correspDesc><correspDesc key="Bl.15" ref="https://sturm-edition.de/id/Q.01.19140727.JVH.01">
+                <correspAction type="sent">
+                    <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jacoba van Heemskerck</persName>
+                    <placeName key="O.0000004" ref="http://sws.geonames.org/2756746">Domburg</placeName>              
+                    <date when="1914-07-27"/>               
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth Walden</persName>
+                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>                  
+                </correspAction>
+            </correspDesc><correspDesc key="Bl.43-44" ref="https://sturm-edition.de/id/Q.01.19141203.JVH.01">
+                <correspAction type="sent">
+                    <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jacoba van
+                        Heemskerck</persName>
+                    <placeName key="O.0000001" ref="http://sws.geonames.org/2747373">35, Nassau
+                        Zuilensteinstraat, Den Haag</placeName>
+                    <date when="1914-12-03"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth
+                        Walden</persName>
+                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>
+                </correspAction>
+            </correspDesc><correspDesc key="Bl.19" ref="https://sturm-edition.de/id/Q.01.19140820.JVH.01">
+                <correspAction type="sent">
+                    <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jacoba van Heemskerck</persName>
+                    <placeName key="O.0000004" ref="http://sws.geonames.org/2756746">Domburg</placeName>
+                    <date when="1914-08-21"/>                
+                </correspAction>
+                <correspAction type="received">
+                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>                  
+                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Berlin</placeName>
+                </correspAction>
+            </correspDesc><correspDesc key="Bl.4" ref="https://sturm-edition.de/id/Q.01.19140514.JVH.01">
+                <correspAction type="sent">
+                    <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jacoba van Heemskerck</persName>
+                    <placeName key="O.0000006" ref="http://sws.geonames.org/3030293">Bretagne</placeName>
+                    <date when="1914-05-14"/>   
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth Walden</persName>
+                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>                  
+                </correspAction>
+            </correspDesc><correspDesc key="Bl.212" ref="https://sturm-edition.de/id/Q.01.19150922.FMA.01">
+                <correspAction type="sent">
+                    <persName key="P.0000003" ref="http://d-nb.info/gnd/11857745X">Franz Marc</persName>
+                    <placeName>Unknown</placeName>
+                    <date when="1915-09-22"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth Walden</persName>
+                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>                  
+                </correspAction>
+            </correspDesc><correspDesc key="Bl.210" ref="https://sturm-edition.de/id/Q.01.19150911.FMA.01">
+                <correspAction type="sent">
+                    <persName key="P.0000003" ref="http://d-nb.info/gnd/11857745X">Franz Marc</persName>
+                    <placeName>Unknown</placeName>
+                    <date when="1915-09-11"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth Walden</persName>
+                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>                  
+                </correspAction>
+            </correspDesc><correspDesc key="Bl.56-57" ref="https://sturm-edition.de/id/Q.01.19150209.JVH.01">
+                <correspAction type="sent">
+                    <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jacoba van
+                        Heemskerck</persName>
+                    <placeName key="O.0000001" ref="http://sws.geonames.org/2747373">35, Nassau
+                        Zuilensteinstraat, Den Haag</placeName>
+                    <date when="1915-02-09"/>
+
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth
+                        Walden</persName>
+                    <placeName>Potsdamerstrasse 134a <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Berlin</placeName>
+                        W.9.</placeName>
+                </correspAction>
+            </correspDesc><correspDesc key="Bl.16-17" ref="https://sturm-edition.de/id/Q.01.19140730.JVH.01">
+                <correspAction type="sent">
+                    <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jacoba van Heemskerck</persName>
+                    <placeName key="O.0000004" ref="http://sws.geonames.org/2756746">Loverendale, Domburg</placeName>                    
+                    <date when="1914-07-30"/>               
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth Walden</persName>
+                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>                  
+                </correspAction>
+            </correspDesc><correspDesc key="Bl.37-38" ref="https://sturm-edition.de/id/Q.01.19141111.JVH.01">
+                <correspAction type="sent">
+                    <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jacoba van Heemskerck</persName>
+                    <placeName key="O.0000001" ref="http://sws.geonames.org/2747373">35, Nassau Zuilensteinstraat, Den Haag</placeName>                    
+                    <date when="1914-11-11"/>               
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth Walden</persName>
+                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>                  
+                </correspAction>
+            </correspDesc><correspDesc key="Bl.45-46" ref="https://sturm-edition.de/id/Q.01.19141210.JVH.01">
+                <correspAction type="sent">
+                    <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jacoba van Heemskerck</persName>
+                    <placeName key="O.0000001" ref="http://sws.geonames.org/2747373">35, Nassau Zuilensteinstraat, Den Haag</placeName>
+                    <date when="1914-12-10"/>               
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950"> Herwarth Walden</persName>
+                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>                  
+                </correspAction>
+            </correspDesc><correspDesc key="Bl.29-30" ref="https://sturm-edition.de/id/Q.01.19141016.JVH.01">
+                <correspAction type="sent">
+                    <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jacoba van
+                        Heemskerck</persName>
+                    <placeName key="O.0000001" ref="http://sws.geonames.org/2747373">35, Nassau
+                        Zuilensteinstraat, Den Haag</placeName>
+                    <date when="1914-10-16"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth
+                        Walden</persName>
+                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>
+                </correspAction>
+            </correspDesc><correspDesc key="Bl.114" ref="https://sturm-edition.de/id/Q.01.19151014.JVH.01">
+                <correspAction type="sent">
+                    <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jacoba van Heemskerck</persName>
+                    <placeName key="O.0000001" ref="http://sws.geonames.org/2747373">35, Nassau Zuilensteinstraat, Den Haag</placeName>                   
+                    <date when="1915-10-14"/>              
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth Walden</persName>
+                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>
+                </correspAction>
+            </correspDesc><correspDesc key="Bl.12" ref="https://sturm-edition.de/id/Q.01.19140708.JVH.01">
+                <correspAction type="sent">
+                    <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jacoba van Heemskerck</persName>
+                    <placeName key="O.0000004" ref="http://sws.geonames.org/2756746">Loverendale, Domburg</placeName>                    
+                    <date when="1914-07-08"/>  
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth Walden</persName>
+                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>                  
+                </correspAction>
+            </correspDesc><correspDesc key="Bl.215" ref="https://sturm-edition.de/id/Q.01.19151016.FMA.01">
+                <correspAction type="sent">
+                    <persName key="P.0000003" ref="http://d-nb.info/gnd/11857745X">Franz
+                        Marc</persName>
+                    <placeName>Unknown</placeName>
+                    <date when="1915-10-16"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth
+                        Walden</persName>
+                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>
+                </correspAction>
+            </correspDesc><correspDesc key="Bl.118-119" ref="https://sturm-edition.de/id/Q.01.19151113.JVH.01">
+                <correspAction type="sent">
+                    <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jacoba van Heemskerck</persName>
+                    <placeName key="O.0000001" ref="http://sws.geonames.org/2747373">35, Nassau Zuilensteinstraat, Den Haag</placeName>                   
+                    <date when="1915-11-13"/>               
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth Walden</persName>
+<placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>
+                </correspAction>
+            </correspDesc><correspDesc key="Bl.120-121" ref="https://sturm-edition.de/id/Q.01.19151115.JVH.01">
+                <correspAction type="sent">
+                    <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jacoba van Heemskerck</persName>
+                    <placeName key="O.0000001" ref="http://sws.geonames.org/2747373">35, Nassau Zuilensteinstraat, Den Haag</placeName>                    
+                    <date when="1915-11-15"/>               
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth Walden</persName>
+                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>
+                </correspAction>
+            </correspDesc><correspDesc key="Bl.90-91" ref="https://sturm-edition.de/id/Q.01.19150429.JVH.01">
+                <correspAction type="sent">
+                    <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jacoba van Heemskerck</persName>
+                    <placeName key="O.0000001" ref="http://sws.geonames.org/2747373">35, Nassau Zuilensteinstraat, Den Haag</placeName>                    
+                    <date when="1915-04-29"/>               
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth Walden</persName>
+<placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>
+                </correspAction>
+            </correspDesc><correspDesc key="Bl.77-78" ref="https://sturm-edition.de/id/Q.01.19150321.JVH.01">
+                <correspAction type="sent">
+                    <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jacoba van Heemskerck</persName>
+                    <placeName>
+                        <placeName key="O.0000001" ref="http://sws.geonames.org/2747373">35, Nassau Zuilensteinstraat, Den Haag</placeName>
+                    </placeName>
+                    <date when="1915-03-21"/>               
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth Walden</persName>
+                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>
+                </correspAction>
+            </correspDesc><correspDesc key="Bl.60-62" ref="https://sturm-edition.de/id/Q.01.19150228.JVH.01">
+                <correspAction type="sent">
+                    <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jacoba van Heemskerck</persName>
+                    <placeName key="O.0000001" ref="http://sws.geonames.org/2747373">35, Nassau Zuilensteinstraat, Den Haag</placeName>
+                    <date when="1915-02-28"/>
+               
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth Walden</persName>
+                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>
+                </correspAction>
+            </correspDesc><correspDesc key="Bl.51-52" ref="https://sturm-edition.de/id/Q.01.19150129.JVH.01">
+                <correspAction type="sent">
+                    <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jacoba van
+                        Heemskerck</persName>
+                    <placeName key="O.0000001" ref="http://sws.geonames.org/2747373">35, Nassau Zuilensteinstraat, Den
+                        Haag</placeName>
+                    <date when="1915-01-29"/>
+
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth
+                        Walden</persName>
+                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>
+                </correspAction>
+            </correspDesc><correspDesc key="Bl.67-68" ref="https://sturm-edition.de/id/Q.01.19150308.JVH.01">
+                <correspAction type="sent">
+                    <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jacoba van Heemskerck</persName>
+                    <placeName key="O.0000001" ref="http://sws.geonames.org/2747373">35, Nassau Zuilensteinstraat, Den Haag</placeName>  
+                    <date when="1915-03-08"/>               
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth Walden</persName>
+<placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>
+                </correspAction>
+            </correspDesc><correspDesc key="Bl.190" ref="https://sturm-edition.de/id/Q.01.19140610.FMA.01">
+                <correspAction type="sent">
+                    <persName key="P.0000003" ref="http://d-nb.info/gnd/11857745X">Franz Marc</persName>
+                    <placeName key="O.0000056" ref="http://sws.geonames.org/2951104">Benediktbeuren</placeName>
+                    <date when="1914-06-10"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth Walden</persName>
+                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>                  
+                </correspAction>
+            </correspDesc><correspDesc key="Bl.185" ref="https://sturm-edition.de/id/Q.01.19140414.FMA.01">
+                <correspAction type="sent">
+                    <persName key="P.0000003" ref="http://d-nb.info/gnd/11857745X">Franz Marc</persName>
+                    <placeName key="O.0000048" ref="http://sws.geonames.org/2831942">Sindelsdorf</placeName>
+                    <date when="1914-04-14"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth Walden</persName>
+                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>                  
+                </correspAction>
+            </correspDesc><correspDesc key="Bl.178" ref="https://sturm-edition.de/id/Q.01.19140119.FMA.01">
+                <correspAction type="sent">
+                    <persName key="P.0000003" ref="http://d-nb.info/gnd/11857745X">Franz Marc</persName>
+                    <placeName key="O.0000048" ref="http://sws.geonames.org/2831942">Sindelsdorf</placeName>
+                    <date when="1914-01-19"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth Walden</persName>
+                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>                  
+                </correspAction>
+            </correspDesc><correspDesc key="Bl.102-103" ref="https://sturm-edition.de/id/Q.01.19150710.JVH.01">
+                <correspAction type="sent">
+                    <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jacoba van Heemskerck</persName>
+                    <placeName key="O.0000004" ref="http://sws.geonames.org/2756746">Loverendale, Domburg</placeName>
+                    <date when="1915-07-10"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth Walden</persName>
+                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>
+                </correspAction>
+            </correspDesc><correspDesc key="Bl.115-116" ref="https://sturm-edition.de/id/Q.01.19151018.JVH.01">
+                <correspAction type="sent">
+                    <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jacoba van
+                        Heemskerck</persName>
+                    <placeName key="O.0000001" ref="http://sws.geonames.org/2747373">35, Nassau
+                        Zuilensteinstraat, Den Haag</placeName>
+                    <date when="1915-10-18"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth
+                        Walden</persName>
+                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>
+                </correspAction>
+            </correspDesc><correspDesc key="Bl.99-100" ref="https://sturm-edition.de/id/Q.01.19150618.JVH.01">
+                <correspAction type="sent">
+                    <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jacoba van
+                        Heemskerck</persName>
+                    <placeName key="O.0000004" ref="http://sws.geonames.org/2756746">Loverendale,
+                        Domburg</placeName>
+                    <date when="1915-06-18"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth
+                        Walden</persName>
+                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>
+                </correspAction>
+            </correspDesc><correspDesc key="Bl.97-98" ref="https://sturm-edition.de/id/Q.01.19150606.JVH.01">
+                <correspAction type="sent">
+                    <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jacoba van Heemskerck</persName>
+                    <placeName key="O.0000004" ref="http://sws.geonames.org/2756746">Loverendale, Domburg</placeName>                   
+                    <date when="1915-06-06"/>              
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth Walden</persName>
+                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>
+                </correspAction>
+            </correspDesc><correspDesc key="Bl.208" ref="https://sturm-edition.de/id/Q.01.19150710.FMA.01">
+                <correspAction type="sent">
+                    <persName key="P.0000003" ref="http://d-nb.info/gnd/11857745X">Franz Marc</persName>
+                    <placeName key="O.0000055" ref="http://sws.geonames.org/2847349">Ried</placeName>
+                    <date when="1915-07-10"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth Walden</persName>
+                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>                  
+                </correspAction>
+            </correspDesc><correspDesc key="Bl.13-14" ref="https://sturm-edition.de/id/Q.01.19140721.JVH.01">
+                <correspAction type="sent">
+                    <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jacoba van Heemskerck</persName>
+                    <placeName key="O.0000004" ref="http://sws.geonames.org/2756746">Loverendale, Domburg</placeName>                    
+                    <date when="1914-07-21"/>               
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth Walden</persName>
+                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>                  
+                </correspAction>
+            </correspDesc><correspDesc key="Bl.179-180" ref="https://sturm-edition.de/id/Q.01.19140121.FMA.01">
+                <correspAction type="sent">
+                    <persName key="P.0000003" ref="http://d-nb.info/gnd/11857745X">Franz Marc</persName>
+                    <placeName key="O.0000048" ref="http://sws.geonames.org/2831942">Sindelsdorf</placeName>
+                    <date when="1914-01-21"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth Walden</persName>
+                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>                  
+                </correspAction>
+            </correspDesc><correspDesc key="Bl.106-107" ref="https://sturm-edition.de/id/Q.01.19150818.JVH.01">
+                <correspAction type="sent">
+                    <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jacoba van Heemskerck</persName>
+                    <placeName key="O.0000004" ref="http://sws.geonames.org/2756746">Loverendale, Domburg</placeName>                   
+                    <date when="1915-08-18"/>              
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth Walden</persName>
+                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>
+                </correspAction>
+            </correspDesc><correspDesc key="Bl.136-137" ref="https://sturm-edition.de/id/Q.01.19151218.JVH.01">
+                <correspAction type="sent">
+                    <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jacoba van
+                        Heemskerck</persName>
+                    <placeName key="O.0000001" ref="http://sws.geonames.org/2747373">Den Haag</placeName>
+                    <date when="1915-12-18"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth
+                        Walden</persName>
+                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>
+                </correspAction>
+            </correspDesc><correspDesc key="Bl.58-59" ref="https://sturm-edition.de/id/Q.01.19150217.JVH.01">
+                <correspAction type="sent">
+                    <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jacoba van
+                        Heemskerck</persName>
+                    <placeName key="O.0000001" ref="http://sws.geonames.org/2747373">35, Nassau
+                        Zuilensteinstraat, Den Haag</placeName>
+                    <date when="1915-02-17"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth
+                        Walden</persName>
+                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>
+                </correspAction>
+            </correspDesc><correspDesc key="Bl.181" ref="https://sturm-edition.de/id/Q.01.19140124.FMA.01">
+                <correspAction type="sent">
+                    <persName key="P.0000003" ref="http://d-nb.info/gnd/11857745X">Franz Marc</persName>
+                    <placeName key="O.0000052" ref="http://sws.geonames.org/2867714">München</placeName>
+                    <date when="1914-01-24"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth Walden</persName>
+                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>                  
+                </correspAction>
+            </correspDesc><correspDesc key="Bl.204" ref="https://sturm-edition.de/id/Q.01.19140421.FMA.01">
+                <correspAction type="sent">
+                    <persName key="P.0000003" ref="http://d-nb.info/gnd/11857745X">Franz Marc</persName>
+                    <placeName key="O.0000048" ref="http://sws.geonames.org/2831942">Sindelsdorf</placeName>
+                    <date when="1914-04-21"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth Walden</persName>
+                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>                  
+                </correspAction>
+            </correspDesc><correspDesc key="Bl.49-50" ref="https://sturm-edition.de/id/Q.01.19150123.JVH.01">
+                <correspAction type="sent">
+                    <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jacoba van
+                        Heemskerck</persName>
+                    <placeName key="O.0000001" ref="http://sws.geonames.org/2747373">35, Nassau
+                        Zuilensteinstraat, Den Haag</placeName>
+                    <date when="1915-01-23"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth
+                        Walden</persName>
+                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>
+                </correspAction>
+            </correspDesc><correspDesc key="Bl.124" ref="https://sturm-edition.de/id/Q.01.19151124.JVH.01">
+                <correspAction type="sent">
+                    <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jacoba van Heemskerck</persName>
+                    <placeName key="O.0000001" ref="http://sws.geonames.org/2747373">35, Nassau Zuilensteinstraat, Den Haag</placeName>                    
+                    <date when="1915-11-24"/>              
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth Walden</persName>
+<placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>
+                </correspAction>
+            </correspDesc><correspDesc key="Bl.129" ref="https://sturm-edition.de/id/Q.01.19151206.JVH.01">
+                <correspAction type="sent">
+                    <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jacoba van Heemskerck</persName>
+                    <placeName key="O.0000001" ref="http://sws.geonames.org/2747373">35, Nassau Zuilensteinstraat, Den Haag</placeName>                   
+                    <date when="1915-12-06"/>               
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth Walden</persName>
+                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>
+                </correspAction>
+            </correspDesc><correspDesc key="Bl.138" ref="https://sturm-edition.de/id/Q.01.19151223.JVH.01">
+                <correspAction type="sent">
+                    <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jacoba van Heemskerck</persName>
+                    <placeName key="O.0000001" ref="http://sws.geonames.org/2747373">35, Nassau Zuilensteinstraat, Den Haag</placeName>                    
+                    <date when="1915-12-23"/>              
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth Walden</persName>
+                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>
+                </correspAction>
+            </correspDesc><correspDesc key="Bl.104-105" ref="https://sturm-edition.de/id/Q.01.19150723.JVH.01">
+                <correspAction type="sent">
+                    <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jacoba van Heemskerck</persName>
+                    <placeName key="O.0000004" ref="http://sws.geonames.org/2756746">Loverendale, Domburg</placeName>                   
+                    <date when="1915-07-23"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth Walden</persName>
+                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>
+                </correspAction>
+            </correspDesc><correspDesc key="Bl.93" ref="https://sturm-edition.de/id/Q.01.19150517.JVH.01">
+                <correspAction type="sent">
+                    <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jacoba van Heemskerck</persName>
+                    <placeName key="O.0000034" ref="http://sws.geonames.org/2759633">Assen</placeName>
+                    <date when="1915-05-17"/>
+               
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth Walden</persName>
+<placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>
+                </correspAction>
+            </correspDesc><correspDesc key="Bl.65-66" ref="https://sturm-edition.de/id/Q.01.19150303.JVH.01">
+                <correspAction type="sent">
+                    <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jacoba van Heemskerck</persName>
+                    <placeName key="O.0000001" ref="http://sws.geonames.org/2747373">35, Nassau Zuilensteinstraat, Den Haag</placeName>                    
+                    <date when="1915-03-03"/>               
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth Walden</persName>
+                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>
+                </correspAction>
+            </correspDesc><correspDesc key="Bl.94-96" ref="https://sturm-edition.de/id/Q.01.19150530.JVH.01">
+                <correspAction type="sent">
+                    <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jacoba van Heemskerck</persName>
+                    <placeName key="O.0000001" ref="http://sws.geonames.org/2747373">35, Nassau Zuilensteinstraat, Den Haag</placeName>                   
+                    <date when="1915-05-30"/>               
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth Walden</persName>
+                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>
+                </correspAction>
+            </correspDesc><correspDesc key="Bl.82-83" ref="https://sturm-edition.de/id/Q.01.19150403.JVH.01">
+                <correspAction type="sent">
+                    <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jacoba van Heemskerck</persName>
+                    <placeName key="O.0000001" ref="http://sws.geonames.org/2747373">35, Nassau Zuilensteinstraat, Den Haag</placeName>                   
+                   <date when="1915-04-03"/>               
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth Walden</persName>
+                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>
+                </correspAction>
+            </correspDesc><correspDesc key="Bl.216" ref="https://sturm-edition.de/id/Q.01.19151106.FMA.01">
+                <correspAction type="sent">
+                    <persName key="P.0000003" ref="http://d-nb.info/gnd/11857745X">Franz Marc</persName>
+                    <placeName key="O.0000052" ref="http://sws.geonames.org/2867714">München</placeName>
+                    <date when="1915-11-06"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth Walden</persName>
+                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>                  
+                </correspAction>
+            </correspDesc><correspDesc key="Bl.28" ref="https://sturm-edition.de/id/Q.01.19141014.JVH.01">
+                <correspAction type="sent">
+                    <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jacoba van Heemskerck</persName>
+                    <placeName key="O.0000001" ref="http://sws.geonames.org/2747373">35, Nassau Zuilensteinstraat, Den Haag</placeName>                    
+                    <date when="1914-10-14"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth Walden</persName>
+                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>                  
+                </correspAction>
+            </correspDesc><correspDesc key="Bl.203" ref="https://sturm-edition.de/id/Q.01.19150417.FMA.01">
+                <correspAction type="sent">
+                    <persName key="P.0000003" ref="http://d-nb.info/gnd/11857745X">Franz Marc</persName>
+                    <placeName>Unknown</placeName>
+                    <date when="1915-04-17"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth Walden</persName>
+                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>                  
+                </correspAction>
+            </correspDesc><correspDesc key="Bl.198" ref="https://sturm-edition.de/id/Q.01.19150303.FMA.01">
+                <correspAction type="sent">
+                    <persName key="P.0000003" ref="http://d-nb.info/gnd/11857745X">Franz Marc</persName>
+                    <placeName key="O.0000061" ref="http://sws.geonames.org/3020152">Ensisheim</placeName>
+                    <date when="1915-03-03"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth Walden</persName>
+                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>                  
+                </correspAction>
+            </correspDesc><correspDesc key="Bl.127-128" ref="https://sturm-edition.de/id/Q.01.19151126.JVH.01">
+                <correspAction type="sent">
+                    <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jacoba van Heemskerck</persName>
+                    <placeName key="O.0000001" ref="http://sws.geonames.org/2747373">35, Nassau Zuilensteinstraat, Den Haag</placeName>                   
+                    <date when="1915-11-26"/>              
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth Walden</persName>
+                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>
+                </correspAction>
+            </correspDesc><correspDesc key="Bl.110-111" ref="https://sturm-edition.de/id/Q.01.19150929.JVH.01">
+                <correspAction type="sent">
+                    <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jacoba van Heemskerck</persName>
+                    <placeName key="O.0000004" ref="http://sws.geonames.org/2756746">Loverendale, Domburg</placeName>                    
+                    <date when="1915-09-29"/>              
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth Walden</persName>
+                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>
+                </correspAction>
+            </correspDesc><correspDesc key="Bl.78-79" ref="https://sturm-edition.de/id/Q.01.19150323.JVH.01">
+                <correspAction type="sent">
+                    <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jacoba van Heemskerck</persName>
+                    <placeName key="O.0000001" ref="http://sws.geonames.org/2747373">35, Nassau Zuilensteinstraat, Den Haag</placeName>
+                    <date when="1915-03-23"/>
+               
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth Walden</persName>
+                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>
+                </correspAction>
+            </correspDesc><correspDesc key="Bl.92" ref="https://sturm-edition.de/id/Q.01.19150507.JVH.01">
+                <correspAction type="sent">
+                    <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jacoba van Heemskerck</persName>
+                    <placeName key="O.0000001" ref="http://sws.geonames.org/2747373">35, Nassau Zuilensteinstraat, Den Haag</placeName>
+                    <date when="1915-05-07"/>
+               
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth Walden</persName>
+                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>
+                </correspAction>
+            </correspDesc><correspDesc key="Bl.205" ref="https://sturm-edition.de/id/Q.01.19150501.FMA.01">
+                <correspAction type="sent">
+                    <persName key="P.0000003" ref="http://d-nb.info/gnd/11857745X">Franz Marc</persName>
+                    <placeName>Unknown</placeName>
+                    <date when="1915-05-01"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth Walden</persName>
+                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>                  
+                </correspAction>
+            </correspDesc><correspDesc key="Bl.201" ref="https://sturm-edition.de/id/Q.01.19150327.FMA.01">
+                <correspAction type="sent">
+                    <persName key="P.0000003" ref="http://d-nb.info/gnd/11857745X">Franz
+                        Marc</persName>
+                    <placeName>Unknown</placeName>
+                    <date when="1915-03-27"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth
+                        Walden</persName>
+                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>
+                </correspAction>
+            </correspDesc><correspDesc key="Bl.197" ref="https://sturm-edition.de/id/Q.01.19150121.FMA.01">
+                <correspAction type="sent">
+                    <persName key="P.0000003" ref="http://d-nb.info/gnd/11857745X">Franz Marc</persName>
+                    <placeName>Feldpoststation A.A. Falkenhausen</placeName>
+                    <date when="1915-01-26"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth Walden</persName>
+                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>                  
+                </correspAction>
+            </correspDesc><correspDesc key="Bl.108-109" ref="https://sturm-edition.de/id/Q.01.19150824.JVH.01">
+                <correspAction type="sent">
+                    <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jacoba van Heemskerck</persName>
+                    <placeName key="O.0000004" ref="http://sws.geonames.org/2756746">Loverendale, Domburg</placeName>                    
+                    <date when="1915-08-24"/>               
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth Walden</persName>
+                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>
+                </correspAction>
+            </correspDesc><correspDesc key="Bl.86-89" ref="https://sturm-edition.de/id/Q.01.19150413.JVH.01">
+                <correspAction type="sent">
+                    <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jacoba van Heemskerck</persName>
+                    <placeName key="O.0000001" ref="http://sws.geonames.org/2747373">35, Nassau Zuilensteinstraat, Den Haag</placeName>                   
+                    <date notBefore="1915-04-13"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth Walden</persName>
+                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>
+                </correspAction>
+            </correspDesc><correspDesc key="Bl.80-81" ref="https://sturm-edition.de/id/Q.01.19150328.JVH.01">
+                <correspAction type="sent">
+                    <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jacoba van Heemskerck</persName>
+                    <placeName>
+                        <placeName key="O.0000001" ref="http://sws.geonames.org/2747373">35, Nassau Zuilensteinstraat, Den Haag</placeName>
+                    </placeName>
+                    <date when="1915-03-28"/>              
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth Walden</persName>
+                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>
+                </correspAction>
+            </correspDesc><correspDesc key="Bl.84-85" ref="https://sturm-edition.de/id/Q.01.19150409.JVH.01">
+                <correspAction type="sent">
+                    <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jacoba van Heemskerck</persName>
+                    <placeName key="O.0000001" ref="http://sws.geonames.org/2747373">35, Nassau Zuilensteinstraat, Den Haag</placeName>                    
+                    <date when="1915-04-09"/>               
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth Walden</persName>
+                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>
+                </correspAction>
+            </correspDesc><correspDesc key="Bl.117" ref="https://sturm-edition.de/idQ.01.19151027.JVH.01">
+                <correspAction type="sent">
+                    <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jacoba van Heemskerck</persName>
+                    <placeName key="O.0000001" ref="http://sws.geonames.org/2747373">Den Haag</placeName>                    
+                    <date when="1915-10-27"/>
+               
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth Walden</persName>
+<placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>
+                </correspAction>
+            </correspDesc><correspDesc key="Bl.202" ref="https://sturm-edition.de/id/Q.01.19150906.FMA.01">
+                <correspAction type="sent">
+                    <persName key="P.0000003" ref="http://d-nb.info/gnd/11857745X">Franz Marc</persName>
+                    <placeName>Unknown</placeName>
+                    <date when="1915-09-06"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth Walden</persName>
+                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>                  
+                </correspAction>
+            </correspDesc><correspDesc key="Bl.213" ref="https://sturm-edition.de/id/Q.01.19151010.FMA.01">
+                <correspAction type="sent">
+                    <persName key="P.0000003" ref="http://d-nb.info/gnd/11857745X">Franz Marc</persName>
+                    <placeName>Unknown</placeName>
+                    <date when="1915-10-10"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth Walden</persName>
+                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>
+                </correspAction>
+            </correspDesc><correspDesc key="Bl.196" ref="https://sturm-edition.de/id/Q.01.19150116.FMA.01">
+                <correspAction type="sent">
+                    <persName key="P.0000003" ref="http://d-nb.info/gnd/11857745X">Franz Marc</persName>
+                    <placeName>Feldpoststation A.A. Falkenhausen</placeName>
+                    <date when="1915-01-16"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth Walden</persName>
+                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>                  
+                </correspAction>
+            </correspDesc><correspDesc key="Bl.199" ref="https://sturm-edition.de/id/Q.01.19150315.FMA.01">
+                <correspAction type="sent">
+                    <persName key="P.0000003" ref="http://d-nb.info/gnd/11857745X">Franz Marc</persName>
+                    <placeName>Unknown</placeName>
+                    <date when="1915-03-15"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth Walden</persName>
+                    <placeName>Potsdamerstrasse 134a <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Berlin</placeName>
+                        W.9.</placeName>
+                </correspAction>
+            </correspDesc><correspDesc key="Bl.206" ref="https://sturm-edition.de/id/Q.01.19150515.FMA.01">
+                <correspAction type="sent">
+                    <persName key="P.0000003" ref="http://d-nb.info/gnd/11857745X">Franz
+                        Marc</persName>
+                    <placeName>Unknown</placeName>
+                    <date when="1915-06-15"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth
+                        Walden</persName>
+                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>
+                </correspAction>
+            </correspDesc><correspDesc key="Bl.207" ref="https://sturm-edition.de/id/Q.01.19150703.FMA.01">
+                <correspAction type="sent">
+                    <persName key="P.0000003" ref="http://d-nb.info/gnd/11857745X">Franz Marc</persName>
+                    <placeName>Unknown</placeName>
+                    <date when="1915-07-03"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth Walden</persName>
+                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>                  
+                </correspAction>
+            </correspDesc><correspDesc key="Bl.211" ref="https://sturm-edition.de/id/Q.01.19150918.FMA.01">
+                <correspAction type="sent">
+                    <persName key="P.0000003" ref="http://d-nb.info/gnd/11857745X">Franz Marc</persName>
+                    <placeName>Unknown</placeName>
+                    <date when="1915-09-18"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth Walden</persName>
+                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>                  
+                </correspAction>
+            </correspDesc><correspDesc key="Bl.217" ref="https://sturm-edition.de/id/Q.01.19151125.FMA.01">
+                <correspAction type="sent">
+                    <persName key="P.0000003" ref="http://d-nb.info/gnd/11857745X">Franz Marc</persName>
+                    <placeName>Unknown</placeName>
+                    <date when="1915-11-25"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth Walden</persName>
+                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>                  
+                </correspAction>
+            </correspDesc><correspDesc key="Bl.194-195" ref="https://sturm-edition.de/id/Q.01.19150112.FMA.01">
+                <correspAction type="sent">
+                    <persName key="P.0000003" ref="http://d-nb.info/gnd/11857745X">Franz
+                        Marc</persName>
+                    <placeName>Feldpoststation A.A. Falkenhausen</placeName>
+                    <date when="1915-01-12"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth
+                        Walden</persName>
+                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>
+                </correspAction>
+            </correspDesc></profileDesc></teiHeader><text><body><p/></body></text></TEI>

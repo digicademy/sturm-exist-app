@@ -1,0 +1,85 @@
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Register</title>
+                <editor> Marjam Mahmoodzada <email>marjam.mahmoodzada@adwmainz.de</email>
+                </editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="marjam.mahmoodzada@adwmainz.de">Marjam Mahmoodzada</ref>
+                </publisher>
+                <idno type="file">register.xml</idno>
+                <date when="2017-03-29"/>
+                <availability>
+                    <!-- The CC BY 4.0 license is mandatory -->
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">This file is
+                        licensed under the terms of the Creative-Commons-License CC BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl type="hybrid">register.xml</bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="section" n="twelve">
+                <ab rend="h2">Register</ab>
+                <div type="row" rend="down-25">
+                    <div type="columns" n="four">
+                        <ab rend="h4">
+                            <ref target="register/personen.xml">Personenregister</ref>
+                        </ab>
+                        <p>
+                            <ref target="register/personen.xml" rend="black button">Aufschlagen</ref>
+                        </p>
+                    </div>
+                    <div type="columns" n="four">
+                        <ab rend="h4">
+                            <ref target="register/orte.xml">Ortsregister</ref>
+                        </ab>
+                        <p>
+                            <ref target="register/orte.xml" rend="black button">Aufschlagen</ref>
+                        </p>
+                    </div>
+                    <div type="columns" n="four">
+                        <ab rend="h4">
+                            <ref target="register/werke.xml">Werkregister</ref>
+                        </ab>
+                        <p>
+                            <ref target="register/werke.xml" rend="black button">Aufschlagen</ref>
+                        </p>
+                    </div>
+                </div>
+                <div type="row" rend="down-40">
+                    <div type="columns" n="six">
+                        <ab rend="h2">Anlage der Register</ab>
+                        <p> Die einzelnen Register umfassen alle in den bereits edierten Quellen
+                            erwähnten Orte, Personen und Werke (bisher: Kunstwerke, Schriften,
+                            Zeitungen, Zeitschriften). Auf vorhandene Normdatensätze wird
+                            gegebenenfalls über ein (i) nach dem entsprechenden Registerlemma
+                            referenziert. Die Register sind abteilungsübergreifend aufgebaut, die
+                            jeweiligen Quellenverweise sind ihrer spezifischen Abteilung zugeordnet
+                            und mit dem entsprechenden Datensatz verlinkt.</p><p>Die einzelnen Registerlemmata führen außerdem jeweils zu einem
+                            Stammdatenblatt, auf dem die jeweiligen Registerinformationen
+                            (Normdatenverweis, Auftreten in den Quellen) nochmals separat aufgeführt
+                            werden. Perspektivisch wird dieses mit weiteren Informationen,
+                            beispielsweise aus der GND und Wikipedia, automatisiert ergänzt.</p>
+                        
+                    </div>
+                    <div type="columns" n="six">
+<p>
+                            In der Quelle selbst sind die Entitäten mit ihrem jeweiligen
+                            Register-Stammdatenblatt verknüpft. Durch Anklicken gelangt man dorthin.</p>
+                        <p>Mit dem Ausbau der Quellenedition werden auch die einzelnen Register
+                            laufend angereichert. Des Weiteren ist eine Erweiterung der Register
+                            geplant, so durch die Erfassung von Ereignissen (bspw.
+                            STURM-Ausstellungen).</p>
+                    </div>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

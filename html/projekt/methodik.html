@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="description" content=""/>
+        <meta name="author" content="Marjam Mahmoodzada"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <title>Digitale Methodik : Der STURM. Digitale Quellenedition zur Geschichte der internationalen Avantgarde</title>
+        <link rel="stylesheet" type="text/css" href="../MyFontsWebfontsKit/MyFontsWebfontsKit.css"/>
+        <link href="https://fonts.googleapis.com/css?family=Tinos:400,700" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="../css/normalize.css"/>
+        <link rel="stylesheet" href="../css/skeleton.css"/>
+        <link rel="stylesheet" href="../css/magnific-popup.css"/>
+        <link rel="stylesheet" href="../css/atom-one-light.css"/>
+        <link rel="stylesheet" href="../css/style.css"/>
+        <link rel="icon" type="image/png" href="../images/favicon.png"/></head>
+    <body id="methodik">
+        <div class="container">
+            <header class="row header">
+                <div class="branding"><a href="/">
+                        <h1 class="title"><span class="tight">DER</span> STURM</h1>
+                        <h2 class="subtitle">Digitale Quellenedition zur Geschichte der internationalen Avantgarde</h2></a></div>
+                <nav class="navigation">
+                    <ul>
+                        <li><a class="active" href="../projekt.html">Projekt</a></li>
+                        <li><a class="normal" href="../edition.html">Edition</a></li>
+                        <li><a class="normal" href="../quellen.html">Quellen</a></li>
+                        <li><a class="normal" href="../register.html">Register</a></li>
+                        <li><a class="normal" href="../ressourcen.html">Ressourcen</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <main class="row content">
+                <section class="twelve columns">
+                <div class="row">
+                    <div class="columns eight">
+                        <h2>Digitale Methodik</h2>
+                        <p>
+                            Im Zentrum der digitalen Methodik des Projektes steht eine Systematisierung und Modellierung
+                            der zahlreichen unterschiedlichen Quellentypen des STURM in einem übergreifenden Datenmodell.
+                            Weiterhin werden verschiedene digitale Verfahren aus dem Bereich der Texttechnologien (bspw. die
+                            Verarbeitung von OCR-Daten der STURM-Quellen mittels TUSTEP und Methoden des Natural 
+                            Language Processing) angewendet und weiterentwickelt. Auch Analyseverfahren wie die 
+                            historische Netzwerkanalyse zu Künstlerinnen und Künstlern und ihren Werken kommen in der Edition zur Anwendung.
+                            Einen weiteren Arbeitsschwerpunkt bildet der Einsatz
+                            aktueller Webtechnologien für die Erschließung der historischen Quellenbestände sowie die Entwicklung 
+                            einer webbasierten Forschungsanwendung für den STURM einschließlich entsprechender technischer 
+                            Schnittstellen für die freie Nachnutzung der Forschungsdaten in den verschiedenen Forschungscommunities.
+                        </p>
+                    </div>
+                    <div class="columns four">
+                        <nav class="subnavigation">
+                                <ul>
+                                    <li><a href="einfuehrung.html" class="normal">Einführung</a></li>
+                                    <li><a href="ziel.html" class="normal">Projektziel</a></li>
+                                    <li><a href="team.html" class="normal">Projektteam</a></li>
+                                    <li><a href="methodik.html" class="active">Digitale Methodik</a></li>
+                                </ul>
+                            </nav>
+                        <h4>Editionsrichtlinien</h4>
+                        <p>
+                            Informationen zur konkreten Implementierung des hier beschriebenen Datenmodells innerhalb von
+                            TEI/XML finden sich in den <a class="internal" href="../../edition.html">Editionsrichtlinien</a>.
+                        </p>
+                    </div>
+                </div>
+                <div>
+                    <h3>Forschungsdaten</h3>
+                </div>
+                <div class="row">
+                    <div class="columns six">
+                        <p>
+                            Alle Quellen und Begleittexte der digitalen Edition werden standardkonform entlang der Richtlinien der 
+                            <a class="external internal" href="http://www.tei-c.org/index.xml">Text Encoding Initiative</a> erschlossen und mit Meta- und
+                            Normdaten versehen. Grundlage für die Transkription der Quellen im Volltext und die semantische Annotation in XML 
+                            sind die frei verfügbaren Digitalisate des STURM, die in den digitalen Sammlungen der Staatsbibliothek
+                            zu Berlin, der Universitätsbibliothek Heidelberg, des Zentralinstituts für Kunstgeschichte und anderer 
+                            Institutionen vorliegen. Die Edition der Quellen in XML erfolgt dezentral und webbasiert mittels einer für
+                            die <a class="external internal" href="http://exist-db.org">native XML-Datenbank eXist</a> entwickelten Webanwendung.
+                        </p>
+                    </div>
+                    <div class="columns six">
+                        <p>
+                            Das Projekt verfolgt einen „work in progress“ Ansatz. Dies bedeutet, 
+                            dass einzelne Quellenkorpora (bspw. ein Briefkorpus oder ein Jahrgang des STURM) vom Projektteam digital 
+                            bearbeitet und zeitnah veröffentlicht werden. Dies kommt den interessierten Forschungscommunities zugute, da
+                            somit ein schneller Zugriff auf eine beständig wachsende Gesamtedition gewährleistet ist. Ein weiterer Vorteil
+                            dieses iterativen Vorgehens ist, dass sich somit auch das Forschungsdatenmodell und die benötigten 
+                            Softwarekomponenten kontinuierlich und in Einklang mit den hinzukommenden Quellen und ihren jeweiligen 
+                            Spezifika weiterentwickeln können.
+                        </p>
+                    </div>
+                </div>
+                <div>
+                    <h4>Gesamtsystematik</h4>
+                </div>
+                <div class="row">
+                    <div class="columns six">
+                        <p>
+                            Die Gesamtsystematik der Quellenedition gliedert sich in fünf Abteilungen, in denen die grundlegenden Quellentypen
+                            des STURM ediert werden: die Künstlerbriefe, die Zeitschrift, die Ausstellungskataloge, die Theaterjahrbücher
+                            sowie die Schriften und Bücher des STURM. Innerhalb der fünf Abteilungen gelten zwei übergreifende Systematisierungskriterien: 
+                            eine Gesamtchronologie sowie die Zuordnung von Beiträgen bzw. „Werken“ zu Künstlerinnen und Künstlern des STURM.
+                            Durch den Nachweis jeder Person, jedes Ortes und jedes Werkes über einen persistenten Identifikator kann auf
+                            die STURM-Quellen über vier Zugänge zentral zugegriffen werden: Zeit, Person, Ort und Kunstwerk. Weiterhin werden 
+                            mittelfristig drei zusätzliche Quellenzugänge angestrebt: Ereignisse, Körperschaften und Sachbegriffe.
+                        </p> 
+                    </div>
+                    <div class="columns six">
+                        <p>
+                            Daneben werden auch die strukturellen Einheiten der Quellen wie beispielsweise ein Brief mit Adresse und Postscriptum, eine Seite, 
+                            ein Beitrag, eine Abbildung oder die Spalten und Absätze in der Zeitschrift, den Katalogen und Schriften als 
+                            Ordnungseinheiten aufgefasst und mit persistenten Identifikatoren versehen. Hierdurch ergibt sich eine 
+                            Gesamtsystematik, innerhalb derer sich alle Text- und Bildeinheiten des STURM zu den semantischen Ordnungs- und 
+                            Zugriffsdimensionen von Zeit, Ort, Raum, Kunstwerken, Personen, Körperschaften, Schlagworten und Ereignissen in 
+                            Beziehung setzen und dauerhaft adressieren lassen. Die Gesamtsystematik lässt sich über die zugewiesenen Identifikatoren
+                            schlüssig nachvollziehen. Nachfolgende Tabellen geben hierzu eine Aufschlüsselung.
+                        </p>
+                    </div>
+                </div>
+                <div>
+                    <h4>Persistente Identifikatoren und Permalinks</h4>
+                    <p>
+                        Alle semantischen und strukturellen Entitäten der STURM-Quellen werden mittels persistenter Identifikatoren dauerhaft referenziert.
+                        Die Identifikatoren sind gemäß einer „sprechenden“ Systematik angelegt, die Rückschlüsse auf das jeweilige Stück bzw. die jeweilige
+                        referenzierte Entität zulässt. Die Identifikatoren sind Bestandteile der kanonischen URLs (URIs) der Quellenedition. Dies bedeutet,
+                        dass der Aufruf einer URI immer zur aktuellen Version einer referenzierten Entität führt.
+                    </p>
+                    <p>
+                        <strong>Beispiel:</strong> <a class="external internal" href="https://sturm-edition.de/id/Q.01.19140115.FMA.01">https://sturm-edition.de/id/Q.01.19140115.FMA.01</a>
+                    </p>
+                    <p>
+                        Zur Gewährleistung der exakten Zitierfähigkeit der Edition gibt es für jede bezeichnete Entität versionierte Permalinks, über die sich
+                        stabil und dauerhaft eine bestimmte Version einer edierten Quelle abrufen lässt:
+                    </p>
+                    <p>
+                        <strong>Version 1:</strong> https://sturm-edition.de/id/Q.01.19140115.FMA.01/1 <br/>
+                        <strong>Version 2:</strong> https://sturm-edition.de/id/Q.01.19140115.FMA.01/2
+                    </p>
+                </div>
+                <div class="row">
+                    <div class="columns twelve">
+                        <p>
+                            Die Identifikatoren der Edition gliedern sich momentan in sieben unterschiedliche Typen, die über den 
+                            ersten Buchstaben eines Identifikators unterscheidbar sind:
+                        </p>
+                        <h4>Typen von Identifikatoren</h4>
+                        <table class="grid">
+                                <thead>
+                                    <tr>
+                                        <th>Sigle</th>
+                                        <th>Typ</th>
+                                        <th>Beispiel</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>E</td>
+                                        <td>Ereignis</td>
+                                        <td>E.0000001</td>
+                                    </tr>
+                                    <tr>
+                                        <td>K</td>
+                                        <td>Körperschaft</td>
+                                        <td>K.0000001</td>
+                                    </tr>
+                                    <tr>
+                                        <td>L</td>
+                                        <td>Lemma</td>
+                                        <td>L.0000001</td>
+                                    </tr>
+                                    <tr>
+                                        <td>P</td>
+                                        <td>Person</td>
+                                        <td>P.0000001</td>
+                                    </tr>
+                                    <tr>
+                                        <td>O</td>
+                                        <td>Ort</td>
+                                        <td>O.0000001</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Q</td>
+                                        <td>Quelle</td>
+                                        <td>Q.0000001</td>
+                                    </tr>
+                                    <tr>
+                                        <td>W</td>
+                                        <td>Werk</td>
+                                        <td>W.0000001</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        <h4>Quellenidentifikatoren</h4>
+                        <p>
+                            Die Quellenidentifikatoren orientieren sich an folgendem grundlegenden Schema (optionale Elemente in Winkelklammern):
+                        </p>
+                        <pre>
+                            <code class="txt">
+TYP.ABTEILUNG.DATIERUNG.SIGLE.LAUFNUMMER[#][ABSATZ/BILD].[KOLUMNE].[SEITE/FOLIO]
+                            </code>
+                        </pre>
+                        <p>
+                            Gemäß dieser Systematik verwendet jede Quellengattung folgende Identifikatoren, um Stücke oder Teile von Stücken zu bezeichnen:
+                        </p>
+                        <h5>Abteilung I, STURM-Briefe</h5>
+                        <table class="packed">
+                                <thead>
+                                    <tr>
+                                        <th>Typ</th>
+                                        <th>Beispiel</th>
+                                        <th>Aufschlüsselung</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Brief</td>
+                                        <td>
+                                    <a class="external internal" href="https://sturm-edition.de/id/Q.01.19140115.FMA.01">Q.01.19140115.FMA.01</a>
+                                </td>
+                                        <td>Abteilung I, 15. Januar 1914, Franz Marc, Laufnummer 1</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Briefseite</td>
+                                        <td>
+                                    <a class="external internal" href="https://sturm-edition.de/id/Q.01.19140115.FMA.01#S.177r">Q.01.19140115.FMA.01#S.177r</a>
+                                </td>
+                                        <td>Abteilung I, 15. Januar 1914, Franz Marc, Laufnummer 1, Blatt 177 recto</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        <h5>Abteilung II, STURM-Zeitschrift</h5>
+                        <table class="packed">
+                                <thead>
+                                    <tr>
+                                        <th>Typ</th>
+                                        <th>Beispiel</th>
+                                        <th>Aufschlüsselung</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Zeitschrift</td>
+                                        <td>
+                                    <a class="external internal" href="http://dfg-viewer.de/show/?tx_dlf%5Bpage%5D=5&amp;tx_dlf%5Bid%5D=http%3A%2F%2Fdigi.ub.uni-heidelberg.de%2Fdiglit%2Fsturm1910_1911%2Fmets&amp;tx_dlf%5Bdouble%5D=0&amp;cHash=5a5c7f222dafca72b0b2947c6d849d36">Q.02.19100310.STZ.01</a>
+                                </td>
+                                        <td>Abteilung II, 03. März 1910, STURM-Zeitschrift, Laufnummer 1</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Beitrag in Zeitschrift</td>
+                                        <td>Q.02.19100303.KKR.01</td>
+                                        <td>Abteilung II, 03. März 1910, Karl Kraus, Laufnummer 1 (Beitrag „Operette“)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Seite in Zeitschrift</td>
+                                        <td>Q.02.19100303.STZ.01#S.3</td>
+                                        <td>Abteilung II, 03. März 1910, STURM-Zeitschrift, Laufnummer 1, Seite 3</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Kolumne in Zeitschrift</td>
+                                        <td>Q.02.19100303.STZ.01#K.2.S.3</td>
+                                        <td>Abteilung II, 03. März 1910, STURM-Zeitschrift, Laufnummer 1, Kolumne 2, Seite 3</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Absatz auf Seite in Zeitschrift</td>
+                                        <td>Q.02.19100303.STZ.01#A.3.K.2.S.3</td>
+                                        <td>Abteilung II, 03. März 1910, STURM-Zeitschrift, Laufnummer 1, Absatz 3, Kolumne 2, Seite 3</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Abbildung in Zeitschrift</td>
+                                        <td>Q.02.19100421.STZ.01#B.1.K.2-3.S.61</td>
+                                        <td>Abteilung II, 21. April 1910, STURM-Zeitschrift, Laufnummer 1, Bild 1, Kolumnen 2-3, Seite 61</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        <h5>Abteilung III, STURM-Kataloge</h5>
+                        <table class="packed">
+                                <thead>
+                                    <tr>
+                                        <th>Typ</th>
+                                        <th>Beispiel</th>
+                                        <th>Aufschlüsselung</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Katalog</td>
+                                        <td>
+                                    <a class="external internal" href="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000002743">Q.03.19130920.STK.01</a>
+                                </td>
+                                        <td>Abteilung III, 20. September 1913, STURM-Katalog, Laufnummer 1</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Textbeitrag in Katalog</td>
+                                        <td>Q.03.19130920.HWA.01</td>
+                                        <td>Abteilung III, 20. September 1913, Beitrag von Herwarth Walden, Laufnummer 1 („Vorrede“)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Werk (Abbildung) in Katalog</td>
+                                        <td>Q.03.19130920.UBO.01</td>
+                                        <td>Abteilung III, 20. September 1913, Umberto Boccini, Laufnummer 1 („Spiralförmige Ausdehnung von Muskeln in Bewegung“)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Seite in Katalog</td>
+                                        <td>Q.03.19130920.STK.01#S.5</td>
+                                        <td>Abteilung III, 20. September 1913, STURM-Katalog, Laufnummer 1, Seite 5</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Absatz in Katalog</td>
+                                        <td>Q.03.19130920.STK.01#A.2.S.7</td>
+                                        <td>Abteilung III, 20. September 1913, STURM-Katalog, Laufnummer 1, Absatz 2, Seite 7</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        <h5>Abteilung IV, STURM-Bühne</h5>
+                        <table class="packed">
+                                <thead>
+                                    <tr>
+                                        <th>Typ</th>
+                                        <th>Beispiel</th>
+                                        <th>Aufschlüsselung</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Theaterjahrbuch</td>
+                                        <td>
+                                    <a class="external internal" href="http://bluemountain.princeton.edu/bluemtn/cgi-bin/bluemtn?a=d&amp;d=bmtnaal191801-01&amp;e=-------en-20--1--txt-txIN-------">Q.04.19180100.STB.01</a>
+                                </td>
+                                        <td>Abteilung IV, Januar 1918, STURM-Bühne, Laufnummer 1</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Beitrag in Theaterjahrbuch</td>
+                                        <td>Q.04.19180100.LSC.01</td>
+                                        <td>Abteilung IV, Januar 1918, Lothar Schreyer, Laufnummer 1 („Die Theaterleiche“)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Seite in Theaterjahrbuch</td>
+                                        <td>Q.04.19180100.STB.01#S.1</td>
+                                        <td>Abteilung IV, Januar 1918, STURM-Bühne, Laufnummer 1, Seite 1</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Kolumne in Theaterjahrbuch</td>
+                                        <td>Q.04.19180100.STB.01#K.2.S.1</td>
+                                        <td>Abteilung IV, Januar 1918, STURM-Bühne, Laufnummer 1, Kolumne 2, Seite 1</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Absatz in Theaterjahrbuch</td>
+                                        <td>Q.04.19180100.STB.01#A.16.K.2.S.1</td>
+                                        <td>Abteilung IV, Januar 1918, STURM-Bühne, Laufnummer 1, Absatz 16, Kolumne 2, Seite 1</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        <h5>Abteilung V, STURM-Schriften</h5>
+                        <table class="packed">
+                                <thead>
+                                    <tr>
+                                        <th>Typ</th>
+                                        <th>Beispiel</th>
+                                        <th>Aufschlüsselung</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Schrift</td>
+                                        <td>
+                                    <a class="external internal" href="http://dfg-viewer.de/show/?set%5Bmets%5D=http%3A%2F%2Fdigi.ub.uni-heidelberg.de%2Fdiglit%2Fstramm1914%2Fmets&amp;set%5Bimage%5D=3">Q.05.19140000.AST.01</a>
+                                </td>
+                                        <td>Abteilung V, 1914, August Stramm, Laufnummer 1 („Die Haidebraut“)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Seite in Schrift</td>
+                                        <td>Q.05.19140000.STS.01#S.5</td>
+                                        <td>Abteilung V, 1914, STURM-Schrift, Laufnummer 1, Seite 5</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Absatz in Schrift</td>
+                                        <td>Q.05.19140000.STS.01#A.3.S.5</td>
+                                        <td>Abteilung V, 1914, STURM-Schrift, Laufnummer 1, Absatz 3, Seite 5</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        <h4>Siglen der STURM-Künstlerinnen und -Künstler</h4>
+                        <p>
+                            Neben dem Zeitstempel beinhalten Identifikatoren, die ein spezifisches Objekt einer Künstlerin oder eines Künstlers (bspw. ein „Werk“, ein Brief,
+                            eine Schrift etc.) innerhalb des STURM bezeichnen, eine eindeutige, aus drei Großbuchstaben bestehende Sigle. 
+                            Dadurch lassen sich alle Objekte des STURM jenseits struktureller (Text-)einheiten chronologisch nach Personen selektieren und filtern.
+                            Bei den digitalen Ressourcen des Projektes findet sich eine <a class="internal" href="../../ressourcen/siglen.html">Übersicht der Siglen der STURM-Künstlerinnen und -Künstler</a>.
+                        </p>
+                    </div>
+                </div>
+                <div>
+                    <h3>Forschungssoftware</h3>
+                </div>
+                <div class="row">
+                    <div class="columns six">
+                        <p>
+                            Innerhalb des Projektes kommen verschiedene Softwarekomponenten zum Einsatz. Im Bereich der Verarbeitung von Textdaten
+                            ist dies vor allem <a class="external internal" href="http://www.tustep.uni-tuebingen.de/">TUSTEP</a>, das Tübinger System von Textverarbeitungs-Programmen. 
+                            Mit seiner inzwischen 40-jährigen Softwaregeschichte gehört TUSTEP 
+                            zu den einschlägigen und besonders nachhaltigen Anwendungen im Bereich der Digital Humanities. Die STURM-Edition setzt gemäß Single Source Prinzip 
+                            vollständig auf XML und die zugehörigen X-Technologien (XQuery, XPath, XSLT). Dazu wurde eine Webapplikation für die native XML-Datenbank <a class="external internal" href="http://exist-db.org/">eXist</a> 
+                            entwickelt, die sich an einem funktionalen Programmierparadigma orientiert. 
+                            In der eXist-Applikation erfolgt sowohl die XML-Editionsarbeit (mittels <a class="external internal" href="https://www.oxygenxml.com/">oXygen</a>) als auch die Webpublikation der STURM-Quellen und Begleittexte. 
+                            Die Webpublikation ist dabei inspiriert durch die aktuellen Entwicklungen im Bereich statischer Website-Generatoren und Flat-File CM Systeme (bspw. 
+                            <a class="external internal" href="https://jekyllrb.com/">Jekyll</a>, <a class="external internal" href="https://gohugo.io/">Hugo</a> oder auch <a class="external internal" href="https://getgrav.org/">Grav</a>). 
+                            Die STURM-Website und alle Navigations-, Zugriffs- und Ansichtsmöglichkeiten werden vollständig vorgeneriert und als statisches HTML aus eXist ausgeliefert 
+                            (Ausnahmen hierzu bilden die dynamischen APIs).
+                        </p>
+                    </div>
+                    <div class="columns six">
+                        <p>
+                            Neben der besseren Performance hat dieser Ansatz weitere Vorteile, beispielsweise eine gesteigerte Nachhaltigkeit.
+                            So können nicht nur die Forschungsdaten und der dazugehörige Programmcode sondern auch die 
+                            ansonsten relativ „flüchtige“ – weil meist an spezifische Softwarefunktionen gebundene – HTML-Präsentationsschicht der Edition 
+                            fertig generiert und über <a class="internal" href="../#">GitHub</a> und <a class="internal" href="../#">Zenodo</a> frei zum Download verfügbar gemacht werden.
+                            Für den Einsatz in der <a class="internal" href="../../ressourcen/lehre.html">Lehre</a> wurde zudem eine zweite STURM-Webanwendung entwickelt, die genau die gleiche Präsentationsschicht erzeugt. 
+                            Mit dem Unterschied, dass diese zweite Applikation in PHP unter Verwendung des objektorientierten Programmierparadigmas und entlang der Architekturprinzipien des
+                            Domain Driven Design implementiert ist. Dadurch ist es möglich, anhand <strong>einer</strong> digitalen Edition exemplarisch beide gängigen 
+                            Programmierparadigmen und Software-Architekturprinzipien vergleichend nachzuvollziehen.
+                            Weitere Details zu den beiden Webanwendungen finden sich in der <a class="internal" href="../../ressourcen/software.html">Software-Dokumentation</a>. 
+                        </p>
+                    </div>
+                </div>
+                <div>
+                    <h3>Technische Schnittstellen (APIs) und Nachnutzung</h3>
+                </div>
+                <div class="row">
+                    <div class="columns twelve">
+                        <p>
+                            Alle in der STURM-Edition bereitgestellten Forschungsdaten und Texte werden in Einklang mit dem 
+                            <a class="external internal" href="http://www.dfg.de/foerderung/info_wissenschaft/2014/info_wissenschaft_14_68/">Appell zur Nutzung offener 
+                                Lizenzen in der Wissenschaft</a> der DFG unter einer <a class="external internal" href="https://creativecommons.org/licenses/by/4.0/"> Creative Commons 
+                                Attribution 4.0 International Lizenz (CC-BY 4.0)</a> zur Nachnutzung zur Verfügung gestellt. Die Forschungsdaten können hierbei entweder zusammen 
+                            mit der Applikation <a class="internal" href="../#">heruntergeladen</a> oder on-the-fly über eine <a class="internal" href="../../ressourcen/schnittstellen.html">Schnittstelle</a> bezogen werden. Das Personenregister wird weiterhin in Form einer
+                            <a class="external internal" href="https://de.wikipedia.org/wiki/Wikipedia:BEACON">BEACON-Datei</a> zur Verfügung gestellt, die Korrespondenz-Metadaten der STURM-Künstlerbriefe stehen 
+                            als <a class="external internal" href="https://correspsearch.net/index.xql?id=participate_cmi-format&amp;l=de">CMIF</a> zur Verfügung.
+                        </p>
+                    </div>
+                </div>
+            </section>
+            </main>
+            <footer class="row footer">
+                <section class="six columns service">
+                    <h5>Links</h5>
+                    <ul class="standard">
+                        <li><a href="http://www.arthistoricum.net/themen/portale/sturm/">Themenportal „Herwarth Walden und DER STURM“</a></li>
+                        <li><a href="http://bluemountain.princeton.edu/exist/apps/bluemountain/title.html?titleURN=bmtnabg">Blue Mountain Project der Universität Princeton</a></li>
+                        <li><a href="http://kalliope.staatsbibliothek-berlin.de/de/findingaid_index?fa.id=DE-611-BF-4273&amp;fa.enum=111&amp;lastparam=true">STURM-Archiv der Staatsbibliothek zu Berlin</a></li>
+                        <li><a href="http://digi.ub.uni-heidelberg.de/diglit/sturm">STURM-Bestände der Universitätsbibliothek Heidelberg</a></li>
+                        <li><a href="http://www.zikg.eu/bibliothek/studienzentrum/digitalisierung/kataloge-sturm">STURM-Bestände des Zentralinstituts für Kunstgeschichte</a></li>
+                    </ul>
+                    <h5>Nachnutzung</h5>
+                    <p>
+                Edition und Forschungsdaten stehen unter einer 
+                <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International (CC-BY 4.0)</a> 
+                Lizenz und können unter Berücksichtigung der Lizenzbedingungen frei nachgenutzt werden. 
+                Die Editionssoftware dieses Projektes steht unter MIT-Lizenz und kann <a href="#">frei heruntergeladen</a> und 
+                weiterentwickelt werden.
+            </p>
+                </section>
+                <section class="six columns contact">
+                    <h5>Herausgeber</h5>
+                    <p>
+                DER STURM. Digitale Quellenedition zur Geschichte der internationalen Avantgarde, 
+                erarbeitet und herausgegeben von Marjam Trautmann, Thomas Kollatz und Torsten Schrade, 
+                Softwareversion 1.0.0 - 2018. <br/> URI: <a href="https://sturm-edition.de/">https://sturm-edition.de/</a></p><a href="http://www.adwmainz.de/"><img id="logo" src="../images/adwlogo.png"/></a>
+                    <address>
+                Akademie der Wissenschaften und der Literatur Mainz<br/>
+                Geschwister-Scholl-Str. 2<br/>
+                55131 Mainz<br/>
+                Tel: 06131 577 100<br/>
+                generalsekretariat@adwmainz.de<br/>
+                www.adwmainz.de<br/><a href="../impressum.html">Impressum</a><br/><a href="../datenschutz.html">Datenschutzerklärung</a></address>
+                </section>
+            </footer>
+        </div>
+        <script src="../js/jquery-1.12.4.min.js"></script>
+        <script src="../js/jquery.magnific-popup.min.js"></script>
+        <script src="../js/lightbox.js"></script>
+        <script src="../js/highlight.pack.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script>
+        <script src="../js/letters.js"></script>
+        <script src="../js/menu.js"></script>
+        <script type="text/javascript">
+                    var _paq = _paq || [];
+                    _paq.push(['trackPageView']);
+                    _paq.push(['enableLinkTracking']);
+                    (function() {
+                    var u="//stats.adwmainz.net/";
+                    _paq.push(['setTrackerUrl', u+'piwik.php']);
+                    _paq.push(['setSiteId', 29]);
+                    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+                    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+                    })();
+                </script>
+        <noscript>
+            <p><img src="//stats.adwmainz.net/piwik.php?idsite=29" style="border:0;" alt=""/></p>
+        </noscript>
+    </body>
+</html>

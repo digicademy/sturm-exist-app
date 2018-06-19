@@ -1,0 +1,1023 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Register referenzierter Entitäten mit aufgelösten Normdaten</title>
+                <editor>Marjam Mahmoodzada<email>marjam.mahmoodzada@adwmainz.de</email>
+                </editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="marjam.mahmoodzada@adwmainz.de">Marjam Mahmoodzada</ref>
+                </publisher>
+                <idno type="file">referenzen.xml</idno>
+                <date when="2017-12-25+01:00"/>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        This file is licensed under the terms of the Creative-Commons-License CC BY 4.0
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Enthält alle in den Briefen referenzierten Entitäten mit aufgelösten Normdaten bzw. Textstellen bei internen Referenzen</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <listPerson>
+                    <person xml:id="P.0000032">
+                        <persName type="pref">Alma</persName>
+                    </person>
+                    <person source="http://d-nb.info/gnd/2097840-6" xml:id="P.0000059">
+                        <persName type="pref">Arnold, Ernst (Galerie)</persName>
+                    </person>
+                    <person xml:id="P.0000083">
+                        <persName type="pref">August (Stramm?)</persName>
+                    </person>
+                    <person source="http://d-nb.info/gnd/13236056X" xml:id="P.0000063">
+                        <persName type="pref">Bechteev, Vladimir G.</persName>
+                    </person>
+                    <person source="http://d-nb.info/gnd/118888692" xml:id="P.0000072">
+                        <persName type="pref">Beckerath, Willy von</persName>
+                    </person>
+                    <person source="http://d-nb.info/gnd/141343133" xml:id="P.0000014">
+                        <persName type="pref">Beffie, Willem Wolff</persName>
+                    </person>
+                    <person source="http://d-nb.info/gnd/119191164" xml:id="P.0000021">
+                        <persName type="pref">Behne, Adolf</persName>
+                    </person>
+                    <person xml:id="P.0000060">
+                        <persName type="pref">Beneé</persName>
+                    </person>
+                    <person source="http://d-nb.info/gnd/116120894" xml:id="P.0000070">
+                        <persName type="pref">Benkard, Ernst</persName>
+                    </person>
+                    <person xml:id="P.0000069">
+                        <persName type="pref">Bock</persName>
+                    </person>
+                    <person source="http://www.wikidata.org/entity/Q2298253" xml:id="P.0000043">
+                        <persName type="pref">Bremmer, Henk</persName>
+                    </person>
+                    <person source="http://d-nb.info/gnd/118673998" xml:id="P.0000044">
+                        <persName type="pref">Breuer, Robert</persName>
+                    </person>
+                    <person xml:id="P.0000055">
+                        <persName type="pref">Bruder (von Francisca van Leer)</persName>
+                    </person>
+                    <person xml:id="P.0000090">
+                        <persName type="pref">Bruggen Cate, J.D. ten</persName>
+                    </person>
+                    <person xml:id="P.0000017">
+                        <persName type="pref">Bürgermeister (von Domburg/Seeland um 1914)</persName>
+                    </person>
+                    <person xml:id="P.0000067">
+                        <persName type="pref">C. Gebh.</persName>
+                    </person>
+                    <person source="http://d-nb.info/gnd/118518674" xml:id="P.0000062">
+                        <persName type="pref">Campendonk, Heinrich</persName>
+                    </person>
+                    <person xml:id="P.0000018">
+                        <persName type="pref">Capitän Christus</persName>
+                    </person>
+                    <person source="http://d-nb.info/gnd/118870645" xml:id="P.0000058">
+                        <persName type="pref">Cassirer, Paul</persName>
+                    </person>
+                    <person source="http://d-nb.info/gnd/118519980" xml:id="P.0000015">
+                        <persName type="pref">Chagall, Marc</persName>
+                    </person>
+                    <person source="http://d-nb.info/gnd/116012374" xml:id="P.0000088">
+                        <persName type="pref">Daffner, Hugo</persName>
+                    </person>
+                    <person source="http://d-nb.info/gnd/118524461" xml:id="P.0000092">
+                        <persName type="pref">Delacroix, Eugène</persName>
+                    </person>
+                    <person source="http://d-nb.info/gnd/118526405" xml:id="P.0000024">
+                        <persName type="pref">Doesburg, Theo van</persName>
+                    </person>
+                    <person source="http://d-nb.info/gnd/118530712" xml:id="P.0000066">
+                        <persName type="pref">Erbslöh, Adolf</persName>
+                    </person>
+                    <person xml:id="P.0000019">
+                        <persName type="pref">Famia</persName>
+                    </person>
+                    <person xml:id="P.0000056">
+                        <persName type="pref">Feige</persName>
+                    </person>
+                    <person xml:id="P.0000080">
+                        <persName type="pref">Feldmann</persName>
+                        <persName>F.</persName>
+                    </person>
+                    <person source="http://d-nb.info/gnd/118969161" xml:id="P.0000033">
+                        <persName type="pref">Filla, Emil</persName>
+                    </person>
+                    <person source="http://d-nb.info/gnd/121931005" xml:id="P.0000040">
+                        <persName type="pref">Gestel, Leo</persName>
+                    </person>
+                    <person source="http://d-nb.info/gnd/117543705" xml:id="P.0000035">
+                        <persName type="pref">Gevers, Willem</persName>
+                    </person>
+                    <person source="http://d-nb.info/gnd/5120121-5" xml:id="P.0000068">
+                        <persName type="pref">Goldschmidt</persName>
+                    </person>
+                    <person source="http://d-nb.info/gnd/118907689" xml:id="P.0000081">
+                        <persName type="pref">Hartley, Marsden</persName>
+                    </person>
+                    <person source="http://d-nb.info/gnd/118547488" xml:id="P.0000078">
+                        <persName type="pref">Heckel, Erich</persName>
+                    </person>
+                    <person source="http://d-nb.info/gnd/132815273" xml:id="P.0000006">
+                        <persName type="pref">Heemskerck van Beest, Eduard Jacob van</persName>
+                    </person>
+                    <person source="http://d-nb.info/gnd/11854764X" xml:id="P.0000004" n="JVH">
+                        <persName type="pref">Heemskerck van Beest, Jacoba van</persName>
+                        <persName type="fn">Jacoba van Heemskerck</persName>
+                    </person>
+                    <person xml:id="P.0000027">
+                        <persName type="pref">Hess</persName>
+                    </person>
+                    <person source="http://www.wikidata.org/entity/Q14856573" xml:id="P.0000037">
+                        <persName type="pref">Heurn, van</persName>
+                    </person>
+                    <person xml:id="P.0000022">
+                        <persName type="pref">Hüber, Roelofssen</persName>
+                    </person>
+                    <person source="http://d-nb.info/gnd/127466118" xml:id="P.0000051">
+                        <persName type="pref">Janssen, Miek</persName>
+                    </person>
+                    <person source="http://d-nb.info/gnd/118557157" xml:id="P.0000064">
+                        <persName type="pref">Jawlensky, Alexej von</persName>
+                    </person>
+                    <person source="http://d-nb.info/gnd/118714708" xml:id="P.0000030">
+                        <persName type="pref">Kahnweiler, Daniel-Henry</persName>
+                    </person>
+                    <person source="http://d-nb.info/gnd/118559737" xml:id="P.0000009" n="WKA">
+                        <persName type="pref">Kandinsky, Wassily</persName>
+                    </person>
+                    <person source="http://d-nb.info/gnd/1077780265" xml:id="P.0000012">
+                        <persName type="pref">Kickert, Conrad</persName>
+                    </person>
+                    <person source="http://d-nb.info/gnd/118562827" xml:id="P.0000076">
+                        <persName type="pref">Klee, Paul</persName>
+                    </person>
+                    <person xml:id="P.0000099">
+                        <persName type="pref">Klugen</persName>
+                    </person>
+                    <person source="http://d-nb.info/gnd/121452735" xml:id="P.0000073">
+                        <persName type="pref">Koehler, Bernhard</persName>
+                    </person>
+                    <person source="http://d-nb.info/gnd/118564722" xml:id="P.0000046">
+                        <persName type="pref">Kokoschka, Oskar</persName>
+                    </person>
+                    <person source="http://d-nb.info/gnd/118567365" xml:id="P.0000079">
+                        <persName type="pref">Kubin, Alfred</persName>
+                    </person>
+                    <person source="http://d-nb.info/gnd/118778153" xml:id="P.0000054">
+                        <persName type="pref">Kühlmann, Richard von</persName>
+                    </person>
+                    <person xml:id="P.0000050">
+                        <persName type="pref">Lapidoth, F.</persName>
+                    </person>
+                    <person source="http://d-nb.info/gnd/128866748" xml:id="P.0000010">
+                        <persName type="pref">Le Fauconnier, Henri</persName>
+                    </person>
+                    <person source="http://d-nb.info/gnd/122927486" xml:id="P.0000036">
+                        <persName type="pref">Leer, Francisca van</persName>
+                    </person>
+                    <person source="http://d-nb.info/gnd/118571516" xml:id="P.0000042">
+                        <persName type="pref">Lenbach, Franz von</persName>
+                    </person>
+                    <person source="http://d-nb.info/gnd/119218208" xml:id="P.0000029">
+                        <persName type="pref">Lotz, Ernst Wilhelm</persName>
+                    </person>
+                    <person source="http://d-nb.info/gnd/118575864" xml:id="P.0000025">
+                        <persName type="pref">Macke, August</persName>
+                    </person>
+                    <person source="http://d-nb.info/gnd/118575872" xml:id="P.0000075">
+                        <persName type="pref">Macke, Helmuth</persName>
+                    </person>
+                    <person source="http://d-nb.info/gnd/11857745X" xml:id="P.0000003" n="FMA">
+                        <persName type="pref">Marc, Franz</persName>
+                        <persName type="fn">Franz Marc</persName>
+                    </person>
+                    <person source="http://d-nb.info/gnd/119352435" xml:id="P.0000082">
+                        <persName type="pref">Marc, Maria</persName>
+                    </person>
+                    <person source="http://d-nb.info/gnd/119104091" xml:id="P.0000047">
+                        <persName type="pref">Mesdag, Hendrik Willem</persName>
+                    </person>
+                    <person source="http://d-nb.info/gnd/118583247" xml:id="P.0000077">
+                        <persName type="pref">Moilliet, Louis</persName>
+                    </person>
+                    <person source="http://d-nb.info/gnd/118583417" xml:id="P.0000085">
+                        <persName type="pref">Mombert, Alfred</persName>
+                    </person>
+                    <person source="http://d-nb.info/gnd/118583441" xml:id="P.0000031">
+                        <persName type="pref">Mondrian, Piet</persName>
+                    </person>
+                    <person xml:id="P.0000089">
+                        <persName type="pref">Mälinger</persName>
+                    </person>
+                    <person source="http://d-nb.info/gnd/120828871" xml:id="P.0000087">
+                        <persName type="pref">Niestlé, Jean-Bloé</persName>
+                    </person>
+                    <person source="http://d-nb.info/gnd/117022632" xml:id="P.0000086">
+                        <persName type="pref">Nissen, Benedikt Momme</persName>
+                    </person>
+                    <person source="http://d-nb.info/gnd/117159271" xml:id="P.0000084">
+                        <persName type="pref">Ostini, Fritz von</persName>
+                    </person>
+                    <person source="http://d-nb.info/gnd/118812645" xml:id="P.0000061">
+                        <persName type="pref">Pfemfert, Franz</persName>
+                    </person>
+                    <person source="http://d-nb.info/gnd/118594206" xml:id="P.0000049">
+                        <persName type="pref">Picasso, Pablo</persName>
+                    </person>
+                    <person source="http://d-nb.info/gnd/143669230" xml:id="P.0000057">
+                        <persName type="pref">Reiche, Richart</persName>
+                    </person>
+                    <person source="http://d-nb.info/gnd/11859964X" xml:id="P.0000091">
+                        <persName type="pref">Rembrandt, Harmensz van Rijn</persName>
+                    </person>
+                    <person xml:id="P.0000026">
+                        <persName type="pref">Ridderhof</persName>
+                        <persName>emballeur</persName>
+                    </person>
+                    <person source="http://viaf.org/viaf/284981785" xml:id="P.0000045">
+                        <persName type="pref">Saalborn</persName>
+                    </person>
+                    <person xml:id="P.0000023">
+                        <persName type="pref">Santen, van</persName>
+                    </person>
+                    <person source="http://d-nb.info/gnd/117103594" xml:id="P.0000007">
+                        <persName type="pref">Schames, Ludwig</persName>
+                    </person>
+                    <person source="http://d-nb.info/gnd/118606816" xml:id="P.0000013" n="PSC">
+                        <persName type="pref">Scheerbart, Paul</persName>
+                    </person>
+                    <person source="http://d-nb.info/gnd/124503063" xml:id="P.0000039">
+                        <persName type="pref">Schelfhout, Lodewijk</persName>
+                    </person>
+                    <person xml:id="P.0000038">
+                        <persName type="pref">Schuurman, Max</persName>
+                    </person>
+                    <person xml:id="P.0000005">
+                        <persName type="pref">Schwester (von Jacoba van Heemskerck van Beest)</persName>
+                    </person>
+                    <person source="http://d-nb.info/gnd/118613723" xml:id="P.0000074">
+                        <persName type="pref">Shakespeare, William</persName>
+                    </person>
+                    <person source="http://d-nb.info/gnd/118748475" xml:id="P.0000016">
+                        <persName type="pref">Sluyters, Jan</persName>
+                    </person>
+                    <person source="http://d-nb.info/gnd/118618830" xml:id="P.0000041" n="AST">
+                        <persName type="pref">Stramm, August</persName>
+                    </person>
+                    <person source="http://viaf.org/viaf/287860832" xml:id="P.0000034">
+                        <persName type="pref">Tak van Poortvliet, Johannes Pieter Roetert</persName>
+                    </person>
+                    <person source="http://d-nb.info/gnd/136128289" xml:id="P.0000008">
+                        <persName type="pref">Tak van Poortvliet, Marie</persName>
+                    </person>
+                    <person source="http://d-nb.info/gnd/118621041" xml:id="P.0000020">
+                        <persName type="pref">Taut, Bruno</persName>
+                    </person>
+                    <person source="http://d-nb.info/gnd/117299421" xml:id="P.0000071">
+                        <persName type="pref">Thannhauser, Heinrich</persName>
+                    </person>
+                    <person source="http://d-nb.info/gnd/119295954" xml:id="P.0000011">
+                        <persName type="pref">Toorop, Jan</persName>
+                    </person>
+                    <person source="http://www.wikidata.org/entity/Q23719055" xml:id="P.0000048">
+                        <persName type="pref">Versluys, W.</persName>
+                    </person>
+                    <person xml:id="P.0000028">
+                        <persName type="pref">Wagner, R.</persName>
+                    </person>
+                    <person source="http://d-nb.info/gnd/118770950" xml:id="P.0000001" n="HWA">
+                        <persName type="pref">Walden, Herwarth</persName>
+                    </person>
+                    <person source="http://d-nb.info/gnd/118891456" xml:id="P.0000002" n="NWA">
+                        <persName type="pref">Walden, Nell</persName>
+                    </person>
+                    <person source="http://d-nb.info/gnd/118631365" xml:id="P.0000065">
+                        <persName type="pref">Werefkin, Marianne von</persName>
+                    </person>
+                    <person xml:id="P.0000053">
+                        <persName type="pref">Wichert</persName>
+                    </person>
+                    <person source="http://d-nb.info/gnd/128951710" xml:id="P.0000052">
+                        <persName type="pref">Wiegand, Charmion von</persName>
+                    </person>
+                </listPerson>
+                <listPlace>
+                    <place source="http://sws.geonames.org/357994" xml:id="O.0000044">
+                        <placeName type="pref">Aegypten</placeName>
+                        <location>
+                            <geo>27 30</geo>
+                        </location>
+                    </place>
+                    <place source="http://sws.geonames.org/2759794" xml:id="O.0000009">
+                        <placeName type="pref">Amsterdam</placeName>
+                        <location>
+                            <geo>52.37403 4.88969</geo>
+                        </location>
+                    </place>
+                    <place source="http://sws.geonames.org/2803138" xml:id="O.0000017">
+                        <placeName type="pref">Antwerpen</placeName>
+                        <location>
+                            <geo>51.21989 4.40346</geo>
+                        </location>
+                    </place>
+                    <place source="http://sws.geonames.org/6458843" xml:id="O.0000029">
+                        <placeName type="pref">Arlesheim</placeName>
+                        <location>
+                            <geo>47.51668 7.58733</geo>
+                        </location>
+                    </place>
+                    <place source="http://sws.geonames.org/2759633" xml:id="O.0000034">
+                        <placeName type="pref">Assen</placeName>
+                        <location>
+                            <geo>52.99667 6.5625</geo>
+                        </location>
+                    </place>
+                    <place source="http://sws.geonames.org/685608" xml:id="O.0000041">
+                        <placeName type="pref">Balkan</placeName>
+                        <location>
+                            <geo>44 23</geo>
+                        </location>
+                    </place>
+                    <place source="http://sws.geonames.org/2952539" xml:id="O.0000045">
+                        <placeName type="pref">Barmen</placeName>
+                        <location>
+                            <geo>51.27737 7.19802</geo>
+                        </location>
+                    </place>
+                    <place source="http://sws.geonames.org/2661602" xml:id="O.0000030">
+                        <placeName type="pref">Basel</placeName>
+                        <location>
+                            <geo>47.5669 7.61519</geo>
+                        </location>
+                    </place>
+                    <place source="http://sws.geonames.org/3033791" xml:id="O.0000060">
+                        <placeName type="pref">Belfort</placeName>
+                        <location>
+                            <geo>47.63333 6.86667</geo>
+                        </location>
+                    </place>
+                    <place source="http://sws.geonames.org/2802361" xml:id="O.0000021">
+                        <placeName type="pref">Belgien</placeName>
+                        <location>
+                            <geo>50.75 4.5</geo>
+                        </location>
+                    </place>
+                    <place source="http://sws.geonames.org/2951104" xml:id="O.0000056">
+                        <placeName type="pref">Benediktbeuern</placeName>
+                        <location>
+                            <geo>47.70624 11.41522</geo>
+                        </location>
+                    </place>
+                    <place source="http://sws.geonames.org/2950157" xml:id="O.0000002">
+                        <placeName type="pref">Berlin</placeName>
+                        <location>
+                            <geo>52.5 13.41667</geo>
+                        </location>
+                    </place>
+                    <place source="http://sws.geonames.org/2949324" xml:id="O.0000054">
+                        <placeName type="pref">Bichl</placeName>
+                        <location>
+                            <geo>47.7201 11.41231</geo>
+                        </location>
+                    </place>
+                    <place source="http://sws.geonames.org/2945358" xml:id="O.0000046">
+                        <placeName type="pref">Brandenburg an der Havel</placeName>
+                        <location>
+                            <geo>52.41667 12.55</geo>
+                        </location>
+                    </place>
+                    <place source="http://sws.geonames.org/2944387" xml:id="O.0000049">
+                        <placeName type="pref">Bremen</placeName>
+                        <location>
+                            <geo>53.08333 8.83333</geo>
+                        </location>
+                    </place>
+                    <place source="http://sws.geonames.org/3030293" xml:id="O.0000006">
+                        <placeName type="pref">Bretagne</placeName>
+                        <location>
+                            <geo>48.16667 -2.83333</geo>
+                        </location>
+                    </place>
+                    <place source="http://sws.geonames.org/3054643" xml:id="O.0000040">
+                        <placeName type="pref">Budapest</placeName>
+                        <location>
+                            <geo>47.49801 19.03991</geo>
+                        </location>
+                    </place>
+                    <place source="http://sws.geonames.org/2747373" xml:id="O.0000001">
+                        <placeName type="pref">Den Haag</placeName>
+                        <location>
+                            <geo>52.07667 4.29861</geo>
+                        </location>
+                    </place>
+                    <place source="http://sws.geonames.org/2921044" xml:id="O.0000014">
+                        <placeName type="pref">Deutschland</placeName>
+                        <location>
+                            <geo>51.5 10.5</geo>
+                        </location>
+                    </place>
+                    <place source="http://sws.geonames.org/2756746" xml:id="O.0000004">
+                        <placeName type="pref">Domburg</placeName>
+                        <location>
+                            <geo>51.56333 3.49583</geo>
+                        </location>
+                    </place>
+                    <place source="http://sws.geonames.org/2935022" xml:id="O.0000032">
+                        <placeName type="pref">Dresden</placeName>
+                        <location>
+                            <geo>51.05089 13.73832</geo>
+                        </location>
+                    </place>
+                    <place source="http://sws.geonames.org/6269131" xml:id="O.0000023">
+                        <placeName type="pref">England</placeName>
+                        <location>
+                            <geo>52.16045 -0.70312</geo>
+                        </location>
+                    </place>
+                    <place source="http://sws.geonames.org/3020152" xml:id="O.0000061">
+                        <placeName type="pref">Ensisheim</placeName>
+                        <location>
+                            <geo>47.86695 7.35212</geo>
+                        </location>
+                    </place>
+                    <place source="http://sws.geonames.org/2925533" xml:id="O.0000018">
+                        <placeName type="pref">Frankfurt am Main</placeName>
+                        <location>
+                            <geo>50.11552 8.68417</geo>
+                        </location>
+                    </place>
+                    <place source="http://sws.geonames.org/3017382" xml:id="O.0000016">
+                        <placeName type="pref">Frankreich</placeName>
+                        <location>
+                            <geo>46 2</geo>
+                        </location>
+                    </place>
+                    <place source="http://sws.geonames.org/562153" xml:id="O.0000035">
+                        <placeName type="pref">Galizien</placeName>
+                        <location>
+                            <geo>49.5 23</geo>
+                        </location>
+                    </place>
+                    <place source="http://sws.geonames.org/2660646" xml:id="O.0000008">
+                        <placeName type="pref">Genf</placeName>
+                        <location>
+                            <geo>46.20222 6.14569</geo>
+                        </location>
+                    </place>
+                    <place source="http://sws.geonames.org/2920512" xml:id="O.0000050">
+                        <placeName type="pref">Giessen</placeName>
+                        <location>
+                            <geo>50.58727 8.67554</geo>
+                        </location>
+                    </place>
+                    <place source="http://sws.geonames.org/390903" xml:id="O.0000028">
+                        <placeName type="pref">Griechenland</placeName>
+                        <location>
+                            <geo>39 22</geo>
+                        </location>
+                    </place>
+                    <place source="http://sws.geonames.org/2912621" xml:id="O.0000047">
+                        <placeName type="pref">Hagen</placeName>
+                        <location>
+                            <geo>51.36081 7.47168</geo>
+                        </location>
+                    </place>
+                    <place source="http://sws.geonames.org/2911297" xml:id="O.0000007">
+                        <placeName type="pref">Hamburg</placeName>
+                        <location>
+                            <geo>53.58333 10</geo>
+                        </location>
+                    </place>
+                    <place source="http://sws.geonames.org/3013886" xml:id="O.0000062">
+                        <placeName type="pref">Hartmannsweilerkopf</placeName>
+                        <location>
+                            <geo>47.86083 7.1612</geo>
+                        </location>
+                    </place>
+                    <place source="http://sws.geonames.org/745044" xml:id="O.0000043">
+                        <placeName type="pref">Istanbul</placeName>
+                        <location>
+                            <geo>41.01384 28.94966</geo>
+                        </location>
+                    </place>
+                    <place source="http://sws.geonames.org/3175395" xml:id="O.0000025">
+                        <placeName type="pref">Italien</placeName>
+                        <location>
+                            <geo>42.83333 12.83333</geo>
+                        </location>
+                    </place>
+                    <place source="http://sws.geonames.org/598316" xml:id="O.0000039">
+                        <placeName type="pref">Kaunas</placeName>
+                        <location>
+                            <geo>54.90272 23.90961</geo>
+                        </location>
+                    </place>
+                    <place source="http://sws.geonames.org/2618425" xml:id="O.0000036">
+                        <placeName type="pref">Kopenhagen</placeName>
+                        <location>
+                            <geo>55.67594 12.56553</geo>
+                        </location>
+                    </place>
+                    <place source="http://sws.geonames.org/765876" xml:id="O.0000038">
+                        <placeName type="pref">Lublin</placeName>
+                        <location>
+                            <geo>51.25 22.56667</geo>
+                        </location>
+                    </place>
+                    <place source="http://sws.geonames.org/2792482" xml:id="O.0000015">
+                        <placeName type="pref">Löwen</placeName>
+                        <location>
+                            <geo>50.87959 4.70093</geo>
+                        </location>
+                    </place>
+                    <place source="http://sws.geonames.org/2750896" xml:id="O.0000013">
+                        <placeName type="pref">Middelburg</placeName>
+                        <location>
+                            <geo>51.5 3.61389</geo>
+                        </location>
+                    </place>
+                    <place source="http://sws.geonames.org/2867714" xml:id="O.0000052">
+                        <placeName type="pref">München</placeName>
+                        <location>
+                            <geo>48.13743 11.57549</geo>
+                        </location>
+                    </place>
+                    <place source="http://sws.geonames.org/2750405" xml:id="O.0000003">
+                        <placeName type="pref">Niederlande</placeName>
+                        <location>
+                            <geo>52.25 5.75</geo>
+                        </location>
+                    </place>
+                    <place source="http://sws.geonames.org/2960848" xml:id="O.0000019">
+                        <placeName type="pref">Nordsee</placeName>
+                        <location>
+                            <geo>55.33333 3</geo>
+                        </location>
+                    </place>
+                    <place source="http://sws.geonames.org/2857129" xml:id="O.0000042">
+                        <placeName type="pref">Oranienburg</placeName>
+                        <location>
+                            <geo>52.75577 13.24197</geo>
+                        </location>
+                    </place>
+                    <place source="http://sws.geonames.org/2988507" xml:id="O.0000010">
+                        <placeName type="pref">Paris</placeName>
+                        <location>
+                            <geo>48.85341 2.3488</geo>
+                        </location>
+                    </place>
+                    <place source="http://sws.geonames.org/798544" xml:id="O.0000022">
+                        <placeName type="pref">Polen</placeName>
+                        <location>
+                            <geo>52 20</geo>
+                        </location>
+                    </place>
+                    <place source="http://sws.geonames.org/2847349" xml:id="O.0000055">
+                        <placeName type="pref">Ried</placeName>
+                        <location>
+                            <geo>47.69185 11.40638</geo>
+                        </location>
+                    </place>
+                    <place source="http://sws.geonames.org/2747891" xml:id="O.0000011">
+                        <placeName type="pref">Rotterdam</placeName>
+                        <location>
+                            <geo>51.9225 4.47917</geo>
+                        </location>
+                    </place>
+                    <place source="http://sws.geonames.org/798549" xml:id="O.0000024">
+                        <placeName type="pref">Rumänien</placeName>
+                        <location>
+                            <geo>46 25</geo>
+                        </location>
+                    </place>
+                    <place source="http://sws.geonames.org/2017370" xml:id="O.0000020">
+                        <placeName type="pref">Russland</placeName>
+                        <location>
+                            <geo>60 100</geo>
+                        </location>
+                    </place>
+                    <place source="http://sws.geonames.org/2747599" xml:id="O.0000026">
+                        <placeName type="pref">Scheveningen</placeName>
+                        <location>
+                            <geo>52.10461 4.27557</geo>
+                        </location>
+                    </place>
+                    <place source="http://sws.geonames.org/2661886" xml:id="O.0000033">
+                        <placeName type="pref">Schweden</placeName>
+                        <location>
+                            <geo>62 15</geo>
+                        </location>
+                    </place>
+                    <place source="http://sws.geonames.org/2658434" xml:id="O.0000031">
+                        <placeName type="pref">Schweiz</placeName>
+                        <location>
+                            <geo>47.00016 8.01427</geo>
+                        </location>
+                    </place>
+                    <place source="http://sws.geonames.org/2744011" xml:id="O.0000005">
+                        <placeName type="pref">Seeland (Provinz)</placeName>
+                        <location>
+                            <geo>51.41667 3.75</geo>
+                        </location>
+                    </place>
+                    <place source="http://sws.geonames.org/2833866" xml:id="O.0000066">
+                        <placeName type="pref">Seefeld (Bayern)</placeName>
+                        <location>
+                            <geo>48.03505 11.21395</geo>
+                        </location>
+                    </place>
+                    <place source="http://sws.geonames.org/2831942" xml:id="O.0000048">
+                        <placeName type="pref">Sindelsdorf</placeName>
+                        <location>
+                            <geo>47.72458 11.33295</geo>
+                        </location>
+                    </place>
+                    <place source="http://sws.geonames.org/2673730" xml:id="O.0000037">
+                        <placeName type="pref">Stockholm</placeName>
+                        <location>
+                            <geo>59.33258 18.0649</geo>
+                        </location>
+                    </place>
+                    <place source="http://sws.geonames.org/2973783" xml:id="O.0000059">
+                        <placeName type="pref">Straßburg</placeName>
+                        <location>
+                            <geo>48.58392 7.74553</geo>
+                        </location>
+                    </place>
+                    <place source="http://sws.geonames.org/1850147" xml:id="O.0000051">
+                        <placeName type="pref">Tokio</placeName>
+                        <location>
+                            <geo>35.6895 139.69171</geo>
+                        </location>
+                    </place>
+                    <place source="http://sws.geonames.org/2464470" xml:id="O.0000057">
+                        <placeName type="pref">Tunis</placeName>
+                        <location>
+                            <geo>36.81897 10.16579</geo>
+                        </location>
+                    </place>
+                    <place source="http://sws.geonames.org/2745392" xml:id="O.0000012">
+                        <placeName type="pref">Vlissingen</placeName>
+                        <location>
+                            <geo>51.4425 3.57361</geo>
+                        </location>
+                    </place>
+                    <place source="http://sws.geonames.org/2808473" xml:id="O.0000058">
+                        <placeName type="pref">Wilmersdorf</placeName>
+                        <location>
+                            <geo>52.48333 13.31667</geo>
+                        </location>
+                    </place>
+                    <place source="http://sws.geonames.org/3081368" xml:id="O.0000053">
+                        <placeName type="pref">Wrocław</placeName>
+                        <location>
+                            <geo>51.1 17.03333</geo>
+                        </location>
+                    </place>
+                    <place source="http://sws.geonames.org/2743477" xml:id="O.0000027">
+                        <placeName type="pref">Zwolle</placeName>
+                        <location>
+                            <geo>52.5125 6.09444</geo>
+                        </location>
+                    </place>
+                </listPlace>
+                <list n="terms">
+                    <item n="artwork" xml:id="W.0000030">
+                        <name type="pref">Aktbild</name>
+                        <name>die Akte</name>
+                    </item>
+                    <item n="newspaper" xml:id="W.0000056">
+                        <name type="pref">Avondpost</name>
+                    </item>
+                    <item n="artwork" xml:id="W.0000025">
+                        <name type="pref">Barbaren</name>
+                    </item>
+                    <item n="article" xml:id="W.0000052">
+                        <ref target="https://doi.org/10.11588/diglit.37113#0070"/>
+                        <name type="pref">Behne, Adolf: Biologie und Kubismus. In: Der Sturm. Halbmonatsschrift für Kultur und die Künste 11/12 (1915), S. 68-71.</name>
+                    </item>
+                    <item n="article" xml:id="W.0000051">
+                        <name type="pref">Behne, Adolf: Der Krieg und die künstlerische Produktion. In: Umschau 19 (1915), S. 268-273.</name>
+                    </item>
+                    <item n="article" xml:id="W.0000050">
+                        <ref target="https://doi.org/10.11588/diglit.33880#0117"/>
+                        <name type="pref">Behne, Adolf: Deutsche Expressionisten. Vortrag zur Eröffnung der neuen Sturm-Ausstellung. In: Der Sturm. Halbmonatsschrift für Kultur und die Künste 17/18 (1914), S. 114-115.</name>
+                    </item>
+                    <item source="http://d-nb.info/578835940" n="book" xml:id="W.0000066">
+                        <ref target="https://doi.org/10.11588/diglit.27084"/>
+                        <name type="pref">Behne, Adolf: Zur Neuen Kunst. Berlin 1915.</name>
+                        <name>Buch</name>
+                        <name>Sturm-Buch</name>
+                    </item>
+                    <item n="artwork" xml:id="W.0000012">
+                        <name type="pref">Delacroix-Drucke</name>
+                    </item>
+                    <item n="artwork" xml:id="W.0000026">
+                        <name type="pref">Bild</name>
+                    </item>
+                    <item n="artwork" xml:id="W.0000027">
+                        <name type="pref">Bild</name>
+                    </item>
+                    <item n="artwork" xml:id="W.0000021">
+                        <name>100</name>
+                        <name type="pref">Bild 100</name>
+                    </item>
+                    <item n="artwork" xml:id="W.0000022">
+                        <name>101</name>
+                        <name type="pref">Bild 101</name>
+                    </item>
+                    <item n="artwork" xml:id="W.0000023">
+                        <name>102</name>
+                        <name type="pref">Bild 102</name>
+                    </item>
+                    <item n="artwork" xml:id="W.0000015">
+                        <name>11</name>
+                        <name type="pref">Bild 11</name>
+                    </item>
+                    <item n="artwork" xml:id="W.0000016">
+                        <name>12</name>
+                        <name type="pref">Bild 12</name>
+                    </item>
+                    <item n="artwork" xml:id="W.0000017">
+                        <name type="pref">Bild 14</name>
+                        <name>Zeichnung 14.</name>
+                        <name>14</name>
+                        <name>Zeichnung no 14.</name>
+                    </item>
+                    <item n="artwork" xml:id="W.0000028">
+                        <name type="pref">Bild 15</name>
+                        <name>Gemälde no 15.</name>
+                    </item>
+                    <item n="artwork" xml:id="W.0000018">
+                        <name>17</name>
+                        <name type="pref">Bild 17</name>
+                    </item>
+                    <item n="artwork" xml:id="W.0000019">
+                        <name>19</name>
+                        <name type="pref">Bild 19</name>
+                    </item>
+                    <item n="artwork" xml:id="W.0000013">
+                        <name type="pref">Bild 8</name>
+                        <name>Nr. 8</name>
+                    </item>
+                    <item n="artwork" xml:id="W.0000014">
+                        <name>9</name>
+                        <name type="pref">Bild 9</name>
+                    </item>
+                    <item n="artwork" xml:id="W.0000020">
+                        <name>98</name>
+                        <name type="pref">Bild 98</name>
+                    </item>
+                    <item n="artwork" xml:id="W.0000024">
+                        <name>99</name>
+                        <name type="pref">Bild 99</name>
+                    </item>
+                    <item n="artwork" xml:id="W.0000029">
+                        <name type="pref">Bleau noire Drucke</name>
+                    </item>
+                    <item source="http://d-nb.info/gnd/4384142-9" n="newspaper" xml:id="W.0000072">
+                        <name type="pref">Börsencourier</name>
+                    </item>
+                    <item source="http://www.wikidata.org/entity/Q2366892" n="newspaper" xml:id="W.0000079">
+                        <name type="pref">Dagblad van Zuid-Holland en 's Gravenhage</name>
+                    </item>
+                    <item n="newspaper" xml:id="W.0000057">
+                        <name type="pref">De Nieuwe Courant</name>
+                        <name>Nieuwe Courant</name>
+                        <name>Nieuve Courant</name>
+                    </item>
+                    <item n="newspaper" xml:id="W.0000058">
+                        <name type="pref">De Toekomst</name>
+                    </item>
+                    <item n="newspaper" xml:id="W.0000059">
+                        <name type="pref">De Toestand</name>
+                    </item>
+                    <item source="http://d-nb.info/gnd/4714366-6" n="newspaper" xml:id="W.0000073">
+                        <name type="pref">Der Telegraaf</name>
+                    </item>
+                    <item source="http://d-nb.info/gnd/4127687-5" n="journal" xml:id="W.0000070">
+                        <name type="pref">Die Aktion</name>
+                    </item>
+                    <item source="http://d-nb.info/1100192158" n="newspaper" xml:id="W.0000064">
+                        <name type="pref">Die Hilfe</name>
+                    </item>
+                    <item n="newspaper" xml:id="W.0000055">
+                        <name type="pref">Die Umschau</name>
+                    </item>
+                    <item n="artwork" xml:id="W.0000031">
+                        <name type="pref">Eber</name>
+                    </item>
+                    <item n="artwork" xml:id="W.0000032">
+                        <name type="pref">Eselfries</name>
+                    </item>
+                    <item n="newspaper" xml:id="W.0000060">
+                        <name type="pref">Flämische Zeitung</name>
+                    </item>
+                    <item source="http://d-nb.info/gnd/4129625-4" n="newspaper" xml:id="W.0000071">
+                        <name type="pref">Frankfurter Zeitung</name>
+                        <name>Frankf. Z.</name>
+                    </item>
+                    <item source="http://www.wikidata.org/entity/Q1218349" n="artwork" xml:id="W.0000074">
+                        <name>g. Kuh</name>
+                        <name type="pref">Gelbe Kuh</name>
+                    </item>
+                    <item n="artwork" xml:id="W.0000046">
+                        <name type="pref">Genesis</name>
+                    </item>
+                    <item source="http://www.wikidata.org/entity/Q2190868" n="newspaper" xml:id="W.0000078">
+                        <name type="pref">Haagsche Courant</name>
+                    </item>
+                    <item source="http://www.wikidata.org/entity/Q13649926" n="newspaper" xml:id="W.0000075">
+                        <name type="pref">Haagsche Post</name>
+                    </item>
+                    <item source="http://www.wikidata.org/entity/Q837919" n="newspaper" xml:id="W.0000081">
+                        <name type="pref">Handelsblad</name>
+                    </item>
+                    <item n="artwork" xml:id="W.0000033">
+                        <name type="pref">Hasenangstbild</name>
+                    </item>
+                    <item n="newspaper" xml:id="W.0000061">
+                        <name type="pref">Hofstad</name>
+                    </item>
+                    <item n="artwork" xml:id="W.0000004">
+                        <ref target="https://doi.org/10.11588/diglit.37113#0057"/>
+                        <name type="pref">Holzschnitt</name>
+                    </item>
+                    <item n="artwork" xml:id="W.0000005">
+                        <ref target="https://doi.org/10.11588/diglit.37113#0075"/>
+                        <name type="pref">Holzschnitt</name>
+                    </item>
+                    <item n="artwork" xml:id="W.0000006">
+                        <ref target="https://doi.org/10.11588/diglit.33880#0127"/>
+                        <name type="pref">Holzschnitt</name>
+                    </item>
+                    <item n="artwork" xml:id="W.0000007">
+                        <ref target="https://doi.org/10.11588/diglit.37113#0090"/>
+                        <name type="pref">Holzschnitt</name>
+                    </item>
+                    <item n="artwork" xml:id="W.0000008">
+                        <ref target="https://doi.org/10.11588/diglit.33880#0151"/>
+                        <name type="pref">Holzstock</name>
+                    </item>
+                    <item n="artwork" xml:id="W.0000034">
+                        <name type="pref">Holzträger</name>
+                    </item>
+                    <item n="artwork" xml:id="W.0000011">
+                        <name type="pref">Häringe</name>
+                    </item>
+                    <item source="http://anet.be/record/abraham/opacbnc/c:bnc:2494/N" n="newspaper" xml:id="W.0000063">
+                        <name type="pref">Journal des Réfugiés</name>
+                    </item>
+                    <item n="artwork" xml:id="W.0000036">
+                        <name type="pref">Katzen</name>
+                    </item>
+                    <item n="artwork" xml:id="W.0000001">
+                        <ref target="https://doi.org/10.11588/diglit.33880#0005"/>
+                        <name type="pref">Katzenblatt</name>
+                    </item>
+                    <item n="artwork" xml:id="W.0000038">
+                        <name type="pref">Kl. Kompos. I-III</name>
+                    </item>
+                    <item n="artwork" xml:id="W.0000037">
+                        <name>Komp. I</name>
+                        <name type="pref">Komposition I</name>
+                    </item>
+                    <item n="artwork" xml:id="W.0000009">
+                        <name>" II</name>
+                        <name type="pref">Komposition II</name>
+                    </item>
+                    <item n="artwork" xml:id="W.0000010">
+                        <name>" III</name>
+                        <name type="pref">Komposition III</name>
+                    </item>
+                    <item n="artwork" xml:id="W.0000035">
+                        <name type="pref">Kämpfende Kühe</name>
+                        <name>Kuhbildes</name>
+                    </item>
+                    <item n="artwork" xml:id="W.0000039">
+                        <name type="pref">Mandrill</name>
+                    </item>
+                    <item n="article" xml:id="W.0000053">
+                        <ref target="https://doi.org/10.11588/diglit.37113#0063"/>
+                        <name type="pref">Nachruf auf August Stramm. In: Der Sturm. Halbmonatsschrift für Kultur und die Künste 11/12 (1915).</name>
+                    </item>
+                    <item source="http://www.wikidata.org/entity/Q1989439" n="newspaper" xml:id="W.0000077">
+                        <name>Rotterdammer</name>
+                        <name>de N. Rotterdamsche Courant</name>
+                        <name type="pref">Nieuwe Rotterdamsche Courant</name>
+                        <name>N. Rotterdammer</name>
+                    </item>
+                    <item source="http://d-nb.info/361267355" n="book" xml:id="W.0000065">
+                        <name type="pref">Nissen, Benedikt Momme: Der Krieg und die deutsche Kunst. Den kunstliebenden Deutschen beider Kaiserreiche. Freiburg i. B. 1914.</name>
+                    </item>
+                    <item n="artwork" xml:id="W.0000047">
+                        <name type="pref">No 160</name>
+                    </item>
+                    <item n="artwork" xml:id="W.0000040">
+                        <name type="pref">No. 16 Figur</name>
+                    </item>
+                    <item n="artwork" xml:id="W.0000041">
+                        <name type="pref">Porträt</name>
+                    </item>
+                    <item n="newspaper" xml:id="W.0000062">
+                        <name type="pref">Residentie Bode</name>
+                    </item>
+                    <item n="artwork" xml:id="W.0000042">
+                        <name type="pref">Rinder</name>
+                    </item>
+                    <item source="http://www.wikidata.org/entity/Q27561770" n="artwork" xml:id="W.0000080">
+                        <name type="pref">Schafe</name>
+                        <name>Bild</name>
+                    </item>
+                    <item source="http://d-nb.info/361684770" n="book" xml:id="W.0000067">
+                        <ref target="https://doi.org/10.11588/diglit.27222"/>
+                        <name>Sturm Buch</name>
+                        <name>Buch</name>
+                        <name type="pref">Scheerbart, Paul: Glasarchitektur. Berlin 1914.</name>
+                    </item>
+                    <item n="artwork" xml:id="W.0000043">
+                        <name type="pref">Schweine</name>
+                    </item>
+                    <item source="http://d-nb.info/gnd/4099371-1" n="drama" xml:id="W.0000069">
+                        <name type="pref">Shakespeare, William: Sturm (1623).</name>
+                    </item>
+                    <item n="artwork" xml:id="W.0000044">
+                        <name type="pref">Stallungen</name>
+                    </item>
+                    <item n="article" xml:id="W.0000054">
+                        <ref target="https://doi.org/10.11588/diglit.37113#0076"/>
+                        <name type="pref">Stramm, August: Geschehen. In: Der Sturm. Halbmonatsschrift für Kultur und die Künste 13/14 (1915), S. 74-80.</name>
+                    </item>
+                    <item source="http://d-nb.info/gnd/4058273-5" n="journal" xml:id="W.0000068">
+                        <ref target="https://doi.org/10.11588/diglit.33880#0036"/>
+                        <name>Der Sturm</name>
+                        <ref target="https://doi.org/10.11588/diglit.33880.9"/>
+                        <ref target="https://doi.org/10.11588/diglit.33880.11"/>
+                        <name type="pref">Sturm (Zeitschrift)</name>
+                        <ref target="https://doi.org/10.11588/diglit.33880.12"/>
+                        <ref target="https://doi.org/10.11588/diglit.33880.13"/>
+                        <ref target="https://doi.org/10.11588/diglit.33880#0108"/>
+                        <name>der Sturm</name>
+                        <ref target="https://doi.org/10.11588/diglit.33880.14"/>
+                        <ref target="https://doi.org/10.11588/diglit.33880.15"/>
+                        <ref target="https://doi.org/10.11588/diglit.33880.17"/>
+                        <ref target="https://doi.org/10.11588/diglit.33880.16"/>
+                        <ref target="https://doi.org/10.11588/diglit.37113.2"/>
+                        <ref target="https://doi.org/10.11588/diglit.37113.3"/>
+                        <name>April-Nummer</name>
+                        <name>April nummer</name>
+                        <name>Mai nummer</name>
+                        <ref target="https://doi.org/10.11588/diglit.37113.5"/>
+                        <ref target="https://doi.org/10.11588/diglit.37113.6"/>
+                        <ref target="https://doi.org/10.11588/diglit.37113#0052"/>
+                        <ref target="https://doi.org/10.11588/diglit.37113.8"/>
+                        <name>nächsten Nummer</name>
+                        <ref target="https://doi.org/10.11588/diglit.37113.7"/>
+                        <ref target="https://doi.org/10.11588/diglit.37113#0064"/>
+                        <ref target="https://doi.org/10.11588/diglit.37113.9"/>
+                        <name>ein Nummer</name>
+                        <ref target="https://doi.org/10.11588/diglit.37113.10"/>
+                        <name>Sturmnummern</name>
+                        <name>Sturm nr.</name>
+                    </item>
+                    <item source="http://www.wikidata.org/entity/Q1616113" n="newspaper" xml:id="W.0000076">
+                        <name type="pref">Vaderland</name>
+                    </item>
+                    <item n="artwork" xml:id="W.0000048">
+                        <name type="pref">Wald</name>
+                    </item>
+                    <item n="artwork" xml:id="W.0000045">
+                        <name type="pref">Wasserfall</name>
+                        <name>Wasserfall am Eis</name>
+                        <name>Wasserfall im Eis</name>
+                    </item>
+                    <item n="artwork" xml:id="W.0000002">
+                        <ref target="https://doi.org/10.11588/diglit.33880#0069"/>
+                        <name type="pref">Zeichnung</name>
+                    </item>
+                    <item n="artwork" xml:id="W.0000003">
+                        <ref target="https://doi.org/10.11588/diglit.33880#0139"/>
+                        <name type="pref">Zeichnung</name>
+                    </item>
+                    <item n="artwork" xml:id="W.0000049">
+                        <name type="pref">Zeichnungen</name>
+                        <name>6. Zeichnungen</name>
+                    </item>
+                    <item n="book" xml:id="W.0000088">
+                        <name type="pref">Bibelausgabe</name>
+                    </item>
+                </list>
+            </div>
+        </body>
+    </text>
+</TEI>

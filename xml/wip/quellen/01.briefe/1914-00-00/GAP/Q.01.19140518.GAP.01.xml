@@ -1,0 +1,95 @@
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Q.01.19140518.GAP.01">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Briefe aus dem Sturm-Archiv I</title>
+                <editor>Lea Müller-Dannhausen <email>muelea@students.uni-mainz.de</email>
+                </editor>
+            </titleStmt>
+            <!-- Template for a TEI XML file according to the Corrspondence Metadata Interchange (CMI) format <-->
+            <publicationStmt>
+                <publisher>
+                    <ref target="muelea@students.uni-mainz.de">Lea Müller-Dannhausen</ref>
+                </publisher>
+                <idno>Q.01.19140518.GAP.01</idno>
+                <date when="2017-11-30"/>
+                <availability>
+                    <!-- The CC BY 4.0 license is mandatory -->
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">This file is
+                        licensed under the terms of the Creative-Commons-License CC BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>D</country>
+                        <settlement>Berlin</settlement>
+                        <repository>Staatsbibliothek zu Berlin Preußischer Kulturbesitz, Handschriftenabteilung, Sturm-Archiv I, Apollinaire, Guillaume</repository>
+                        <idno type="URI">http://kalliope-verbund.info/DE-611-HS-1910445</idno>
+                    </msIdentifier>
+                </msDesc>
+                <bibl type="hybrid">1914-05-18_GAp_HW.xml</bibl>
+            </sourceDesc>
+        </fileDesc>
+        <xenoData type="URL">http://digital.staatsbibliothek-berlin.de/metsresolver/PPN746597517</xenoData>
+        <profileDesc>
+            <correspDesc key="Bl.5" ref="https://sturm-edition.de/id/Q.01.19140518.GAP.01">
+                <correspAction type="sent">
+                    <persName ref="http://d-nb.info/gnd/118503634">Guillaume Apollinaire</persName>
+                    <placeName>202 Bd St Germain<placeName ref="http://sws.geonames.org/2988507">Paris</placeName>
+                    </placeName>
+                    <date when="1914-05-18"/>
+                    <!-- das Datum bezieht sich auf den Poststempel soweit kein handschriftliches Datum vorhanden-->
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="http://d-nb.info/gnd/118770950">Herwarth Walden</persName>
+                    <placeName>Potsdamerstrasse 134a <placeName ref="http://sws.geonames.org/2950157">Berlin</placeName>
+                        W.9.</placeName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <sourceDoc>
+        <graphic n="5r" url="http://content.staatsbibliothek-berlin.de/dms/PPN746597517/1200/0/00000001.jpg"/>
+        <graphic n="5v" url="http://content.staatsbibliothek-berlin.de/dms/PPN746597517/1200/0/00000002.jpg"/>
+        <graphic n="Farbkeil" url="http://content.staatsbibliothek-berlin.de/dms/PPN746597517/1200/0/00000003.jpg"/>
+    </sourceDoc>
+    <facsimile>
+        <graphic url="http://resolver.staatsbibliothek-berlin.de/SBB0000DA5500000000"/>
+    </facsimile>
+    <text type="postcard">
+        <body>
+					<pb n="5r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000DA5500000001"/>
+					<div>
+						<opener>
+                    <salute>Lieber <persName ref="http://d-nb.info/gnd/118770950">Freund</persName>
+                    </salute>.</opener>
+						<p>Ia natürlich, ich habe mit <persName ref="http://d-nb.info/gnd/118594184">Picabia</persName> gesprochen und er war Bestimmt für <date when="1915-01-15">Ianuar von 15<hi rend="super">ten</hi>
+                    </date> ab eine Austellungen von ihn zu machen. Wenn er noch nicht <hi rend="line-through">gesprochen</hi> geschrieben hat schreiben sie ihn. Schicken sie mir doch etwas für die
+						<term key="http://www.wikidata.org/entity/Q787187" type="journal" ref="http http://gallica.bnf.fr/ark:/12148/cb32870652c/date">
+                        <foreign xml:lang="fr">Soirées</foreign>
+                    </term>
+                    <note>Seit Ende 1913 leitet Apollinaire die Zeitschrift "Les Soirées de Paris". Vgl. Grimm, Jürgen: Guillaume Apollinaire. München 1993, S. 18f.</note>. Aber keine <foreign xml:lang="fr">déclaration</foreign>. – Ich schicke bald Artikel fur <persName ref="http://d-nb.info/gnd/118524208">Chirico</persName>, nachher ein ander für <persName ref="http://d-nb.info/gnd/118594184">Picabia</persName> und sende auch bald adresse von eine sehr gute mahlerin die noch ganz jung ist.
+						<pb n="5r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000DA5500000002"/>
+						Wann kommen meine poésien in der <term key="http://dnb.info/gnd/4058273-5" type="journal" ref="http://digi.ub.uni-heidelberg.de/diglit/sturm">Sturm</term>? Ich schreibe jetzt jeden tag in <term key="http://data.bnf.fr/32832579/paris-journal__paris__1908_/" type="newspaper">
+                        <hi rend="underline">Paris-Journal</hi>
+                    </term> nicht mehr in
+						<term key="http://www.wikidata.org/entity/Q3204265" type="newspaper" ref="http://gallica.bnf.fr/ark:/12148/cb32793876w/date1913">
+                        <foreign xml:lang="fr">
+                            <hi rend="underline">Intransigeant</hi>
+                        </foreign>
+                    </term> ich habe viel mehr platz und habe schon von de<hi rend="underline">s <term key="http://dnb.info/gnd/4058273-5" type="journal" ref="http://digi.ub.uni-heidelberg.de/diglit/sturm">Sturm</term>
+                    </hi> geschrieben, haben Sie das gelesen. Ich werde über jeden nummer des
+						<term key="http://dnb.info/gnd/4058273-5" type="journal" ref="http://digi.ub.uni-heidelberg.de/diglit/sturm">
+                        <hi rend="underline">Sturm</hi>
+                    </term> schreiben und auch ihre notizen un Kataloge inserieren <unclear>dann</unclear> schicken Sie mir alles.</p>
+						<closer>
+                    <salute>Ich Küss die hand ihrer schöne <persName ref="http://d-nb.info/gnd/118891456">Gattin</persName> und bin ihrer Freund.</salute>~<signed>
+                        <persName ref="http://d-nb.info/gnd/118503634">Guil<hi rend="underline">laume Apoll</hi>inaire</persName>
+                    </signed>
+                </closer>
+					</div>
+        </body>
+    </text>
+</TEI>
