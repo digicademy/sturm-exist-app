@@ -62,15 +62,6 @@ for $header in collection('/db/apps/sturm-edition/xml/quellen/01.briefe/')//tei:
                     </resp>
                 </respStmt>
                 <respStmt>
-                    <persName ref="https://orcid.org/0000-0003-1904-1841">
-                        <forename>Thomas</forename>
-                        <surname>Kollatz</surname>
-                    </persName>
-                    <resp>
-                        <note>Herausgeber</note>
-                    </resp>
-                </respStmt>
-                <respStmt>
                     <persName ref="https://orcid.org/0000-0003-2423-7144">
                         <forename>Marjam</forename>
                         <surname>Trautmann</surname>
@@ -99,7 +90,7 @@ for $header in collection('/db/apps/sturm-edition/xml/quellen/01.briefe/')//tei:
                 <bibl>
                     {concat(replace($idno, '.xml', ''), ', ', $finalTitle)}, 
                     bearbeitet von Marjam Mahmoodzada, in: Der STURM. Digitale Quellenedition zur Geschichte der internationalen 
-                    Avantgarde, erarbeitet und herausgegeben von Marjam Trautmann, Thomas Kollatz und Torsten Schrade. 
+                    Avantgarde, erarbeitet und herausgegeben von Marjam Trautmann und Torsten Schrade. 
                     Mainz, Akademie der Wissenschaften und der Literatur, 01.04.2018.
                     </bibl>
                 <msDesc>

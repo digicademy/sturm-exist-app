@@ -92,8 +92,8 @@
         </revisionDesc>
     </teiHeader>
     <facsimile>
-        <graphic n="177r" url="http://content.staatsbibliothek-berlin.de/dms/PPN746598521/800/0/00000001.jpg"/>
-        <graphic n="177v" url="http://content.staatsbibliothek-berlin.de/dms/PPN746598521/800/0/00000002.jpg"/>
+        <graphic n="177v" url="http://content.staatsbibliothek-berlin.de/dms/PPN746598521/800/0/00000001.jpg"/>
+        <graphic n="177r" url="http://content.staatsbibliothek-berlin.de/dms/PPN746598521/800/0/00000002.jpg"/>
         <graphic n="Farbkeil" url="http://content.staatsbibliothek-berlin.de/dms/PPN746598521/800/0/00000003.jpg"/>
     </facsimile>
     <text type="postcard">

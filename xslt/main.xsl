@@ -33,6 +33,8 @@
 
     <xsl:param name="transformation"/>
     <xsl:param name="sender"/>
+    <xsl:param name="senderKey"/>
+    <xsl:param name="senderPrefName"/>
     <xsl:param name="dateString"/>
     <xsl:param name="relativeToAppBase"/>
     <xsl:param name="sourceDocPath"/>
@@ -107,10 +109,7 @@
                                         </a>
                                     </p>
                                     <p class="msidentifier">
-                                        <strong>Quelle: </strong> Staatsbibliothek zu Berlin. Handschriftenabteilung ; Sturm-Archiv I,
-                                        <a class="external" href="{$uri}"> 
-                                            <xsl:value-of select="$folios"/>
-                                        </a>
+                                        <strong>Quelle: </strong> Staatsbibliothek zu Berlin, Handschriftenabteilung, Sturm-Archiv I, <xsl:value-of select="$senderPrefName"/>, <a class="external" href="{$uri}"><xsl:value-of select="$folios"/></a>
                                     </p>
                                 </div>
                                 <xsl:call-template name="toolbar"/>

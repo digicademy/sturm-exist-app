@@ -85,13 +85,6 @@
                                 </xsl:otherwise>
                             </xsl:choose>
                         </xsl:variable>
-                        <xsl:value-of select="$editor"/>:
-                        „<xsl:value-of select="subsequence(tokenize(string-join(//tei:title[1]/text(), ''), ','), 1, 1)"/>, 
-                        <xsl:value-of select="subsequence(tokenize(string-join(//tei:title[1]/text(), ''), ','), 2, 1)"/>“, in: 
-                        <xsl:text>
-                            DER STURM. Digitale Quellenedition zur Geschichte der internationalen Avantgarde, erarbeitet und herausgegeben von Marjam Trautmann, 
-                            Thomas Kollatz und Torsten Schrade. Mainz, Akademie der Wissenschaften und der Literatur, 
-                        </xsl:text>
                         <xsl:variable name="formattedDate">
                             <xsl:call-template name="dateTime-to-RFC-2822">
                                 <xsl:with-param name="dateTime">
@@ -99,6 +92,12 @@
                                 </xsl:with-param>
                             </xsl:call-template>
                         </xsl:variable>
+                        <xsl:value-of select="$editor"/>:
+                        „<xsl:value-of select="subsequence(tokenize(string-join(//tei:title[1]/text(), ''), ','), 1, 1)"/>, 
+                        <xsl:value-of select="subsequence(tokenize(string-join(//tei:title[1]/text(), ''), ','), 2, 1)"/>“, in: 
+                        <xsl:text>
+                            DER STURM. Digitale Quellenedition zur Geschichte der internationalen Avantgarde, erarbeitet und herausgegeben von Marjam Trautmann und Torsten Schrade. Mainz, Akademie der Wissenschaften und der Literatur, 
+                        </xsl:text>
                         <xsl:value-of select="$formattedDate"/>.
                     </p>
                     <p>
@@ -268,7 +267,6 @@
         <xsl:value-of select="substring('JanFebMrzAprMaiJunJulAugSepOktNovDez', 3 * ($month - 1) + 1, 3)"/>
         <xsl:text>. </xsl:text>
         <xsl:value-of select="$year"/>
-        <xsl:text> </xsl:text>
         <xsl:value-of select="substring-after($dateTime, 'T')"/>
     </xsl:template>
 

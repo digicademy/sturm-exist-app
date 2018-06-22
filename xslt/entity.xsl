@@ -112,8 +112,7 @@
                     Registereintrag
                     „<xsl:value-of select="$prefName"/>“, in: 
                     <xsl:text>
-                        Der STURM. Digitale Quellenedition zur Geschichte der internationalen Avantgarde, erarbeitet und herausgegeben von Marjam Trautmann, 
-                        Thomas Kollatz und Torsten Schrade. Mainz, Akademie der Wissenschaften und der Literatur 2018.
+                        Der STURM. Digitale Quellenedition zur Geschichte der internationalen Avantgarde, erarbeitet und herausgegeben von Marjam Trautmann und Torsten Schrade. Mainz, Akademie der Wissenschaften und der Literatur 2018.
                     </xsl:text>
                 </p>
                 <p>

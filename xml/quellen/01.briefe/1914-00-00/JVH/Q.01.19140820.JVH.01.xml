@@ -124,10 +124,8 @@
             <pb xml:id="S.19v" n="19v" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D94F00000002"/>          
                 <opener>
                     <dateline>
-                        <placeName key="O.0000004" ref="http://sws.geonames.org/2756746">Do<hi rend="underline">mburg</hi>
-                        </placeName>
-                        <hi rend="underline"> <date when="1914-08-20">20.8.14</date>
-                        </hi>
+                        <placeName key="O.0000004" ref="http://sws.geonames.org/2756746">Do<hi rend="underline">mburg</hi></placeName><hi rend="underline"><date when="1914-08-20">20.8.14</date></hi>
+                        
                     </dateline>
                     <salute>Sehr geehrter Herr <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Walden</persName>.
                     </salute>

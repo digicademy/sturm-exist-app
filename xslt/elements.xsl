@@ -303,7 +303,7 @@
     <xsl:template match="tei:ab[@type='sender']|tei:ab[@type='recipient']">
         <xsl:apply-templates select="node()"/>
     </xsl:template>
-    <xsl:template match="tei:address">
+    <xsl:template match="tei:ab/tei:address">
         <xsl:variable name="type">
             <xsl:choose>
                 <xsl:when test="parent::tei:ab[@type='sender']">
@@ -317,13 +317,28 @@
                 </xsl:otherwise>
             </xsl:choose>
         </xsl:variable>
-        <address class="{$type}">
-            <xsl:for-each select="tei:addrLine">
-                <span class="addrLine">
-                    <xsl:apply-templates select="node()"/>
-                </span>
-            </xsl:for-each>
-        </address>
+        <p class="address {$type}">
+            <xsl:apply-templates select="node()"/>
+        </p>
+    </xsl:template>
+    <xsl:template match="tei:p/tei:address">
+            <xsl:choose>
+                <xsl:when test="@rend='inline'">
+                    <span class="address inline">
+                        <xsl:apply-templates select="node()"/>
+                    </span>
+                </xsl:when>
+                <xsl:otherwise>
+                    <p class="address">
+                        <xsl:apply-templates select="node()"/>
+                    </p>
+                </xsl:otherwise>
+            </xsl:choose>
+    </xsl:template>
+    <xsl:template match="tei:addrLine">
+        <span class="addrLine">
+            <xsl:apply-templates select="node()"/>
+        </span>
     </xsl:template>
 
     <!-- footnotes -->

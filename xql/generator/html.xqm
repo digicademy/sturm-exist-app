@@ -120,6 +120,7 @@ declare function sturm_html:Letters($appRoot as xs:string, $appName as xs:string
     let $targetDir := concat($appRoot, $appName, $target)
     let $xsl := doc(concat($appRoot, $appName, '/xslt/main.xsl'))
     let $sources := doc(concat($appRoot, $appName, '/xml/register/quellen.xml'))
+    let $references := doc(concat($appRoot, $appName, '/xml/register/referenzen.xml'))
 
     let $sourcesByChronology :=
         for $doc in $sources//tei:ab[@n = '01']/tei:list[@n = 'chronological']//tei:item
@@ -128,7 +129,7 @@ declare function sturm_html:Letters($appRoot as xs:string, $appName as xs:string
             let $pagination := sturm_html:LetterPagination($doc, $sources//tei:ab[@n = '01']/tei:list[@n = 'chronological'], $sourceFile)
             let $finalTargetDir := concat($targetDir, 'chronologie/')
             let $relativeToAppBase := '../../../'
-        return sturm_html:LetterTransformation($sourceDir//tei:TEI[@xml:id = $source], $pagination, $xsl, $finalTargetDir, $relativeToAppBase)
+        return sturm_html:LetterTransformation($sourceDir//tei:TEI[@xml:id = $source], $references, $pagination, $xsl, $finalTargetDir, $relativeToAppBase)
 
     let $sourcesByArtists :=
         for $artist in $sources//tei:ab[@n = '01']/tei:list[@n = 'artists']//tei:list
@@ -138,7 +139,7 @@ declare function sturm_html:Letters($appRoot as xs:string, $appName as xs:string
                 let $pagination := sturm_html:LetterPagination($doc, $artist, $sourceFile)
                 let $finalTargetDir := concat($targetDir, lower-case($artist/@n), '/')
                 let $relativeToAppBase := '../../../'
-        return sturm_html:LetterTransformation($sourceDir//tei:TEI[@xml:id = $source], $pagination, $xsl, $finalTargetDir, $relativeToAppBase)
+        return sturm_html:LetterTransformation($sourceDir//tei:TEI[@xml:id = $source], $references, $pagination, $xsl, $finalTargetDir, $relativeToAppBase)
 
     return ($sourcesByChronology, $sourcesByArtists)
 };
@@ -166,13 +167,15 @@ declare function sturm_html:LetterPagination($doc as node(), $fileIndex as node(
     return $pagination
 };
 
-declare function sturm_html:LetterTransformation($doc as node(), $pagination as node(), $xsl as node(), $targetDir as xs:string, $relativeToAppBase as xs:string) {
+declare function sturm_html:LetterTransformation($doc as node(), $references as node(), $pagination as node(), $xsl as node(), $targetDir as xs:string, $relativeToAppBase as xs:string) {
 
     let $sourceDocPath := util:collection-name($doc)
     let $idno := $doc//tei:publicationStmt//tei:idno[@type = 'file']
     let $metadata := $doc//tei:xenoData/text()
 
     let $sender := $doc//tei:correspAction[@type = 'sent']/tei:persName/text()
+    let $senderKey := $doc//tei:correspAction[@type = 'sent']/tei:persName/@key
+    let $senderPrefName := $references//tei:person[@xml:id = $senderKey]/tei:persName[@type = 'pref']
     let $sourcetype := $doc//tei:text/@type
     let $repository := $doc//tei:repository/text()
     let $folios := data($doc//tei:correspDesc/@key)
@@ -204,6 +207,8 @@ declare function sturm_html:LetterTransformation($doc as node(), $pagination as 
             <parameters>
                 <param name="transformation" value="letter" />
                 <param name="sender" value="{$sender}"/>
+                <param name="senderKey" value="{$senderKey}"/>
+                <param name="senderPrefName" value="{$senderPrefName}"/>
                 <param name="sourcetype" value="{$sourcetype}"/>
                 <param name="repository" value="{$repository}"/>
                 <param name="folios" value="{$folios}"/>

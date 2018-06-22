@@ -17,4 +17,3 @@ MIT-Lizenz und kann frei heruntergeladen und weiterentwickelt werden.
 <a href="https://orcid.org/0000-0003-2423-7144">Marjam Trautmann</a>
 
 <a href="https://orcid.org/0000-0002-0953-2818">Torsten Schrade</a>
-

@@ -19,7 +19,7 @@ $(document).ready(function() {
                         folios += '<a href="../quellen/briefe/chronologie/'+ ptr['target'].replace('.xml', '.html') +'" style="display:block">'+ ptr['n'] +'</a>'
                     }
                 } else {
-                    folios += '<a href="../quellen/briefe/chronologie/briefe/'+ place.linkGrp.ptr['target'].replace('.xml', '.html') +'" style="display: block">'+ place.linkGrp.ptr['n'] +'</a>'
+                    folios += '<a href="../quellen/briefe/chronologie/'+ place.linkGrp.ptr['target'].replace('.xml', '.html') +'" style="display: block">'+ place.linkGrp.ptr['n'] +'</a>'
                 }
 
 console.log(place['placeName']['#text']);
