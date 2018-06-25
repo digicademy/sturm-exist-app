@@ -6,6 +6,23 @@
         <meta name="author" content="Marjam Mahmoodzada"/>
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
         <title>Schnittstellen : Der STURM. Digitale Quellenedition zur Geschichte der internationalen Avantgarde</title>
+        <script>
+                var Hyphenopoly = {
+                    require: {
+                        "de": "FORCEHYPHENOPOLY"
+                    },
+                    paths: {
+                    patterndir: "/Hyphenopoly/patterns/",
+                        maindir: "/Hyphenopoly/"
+                    },
+                    setup: {
+                        classnames: {
+                            "container": {}
+                        }
+                    }
+                };
+            </script>
+        <script src="../Hyphenopoly/Hyphenopoly_Loader.js"></script>
         <link rel="stylesheet" type="text/css" href="../MyFontsWebfontsKit/MyFontsWebfontsKit.css"/>
         <link href="https://fonts.googleapis.com/css?family=Tinos:400,700" rel="stylesheet" type="text/css"/>
         <link rel="stylesheet" href="../css/normalize.css"/>
@@ -30,12 +47,31 @@
                     </ul>
                 </nav>
             </header>
-            <main class="row content">
+            <main class="row content hyphenate">
                 <section class="eight columns">
                 <h2>Technische Schnittstellen (APIs)</h2>
                 <p>
                     Innerhalb der Quellenedition sind mehrere Schnittstellen für einen programmierenden bzw. maschinengestützten 
                     Zugriff auf die STURM-Forschungsdaten implementiert.
+                </p>
+                <h3>URI-Resolver</h3>
+                <p>
+                    Alle Entitäten der Edition (Quellen, Personen, Orte, Werke etc.) sind mittels persistenter 
+                    Identifikatoren (URIs) dauerhaft referenziert. Hierbei steht ein URI für die
+                    abstrakte digitale Ressource innerhalb der STURM-Edition, die in verschiedene konkrete Repräsentationen 
+                    aufgelöst werden kann.
+                </p>
+                <p>
+                    <strong>Beispiel:</strong> <a class="external internal" href="https://sturm-edition.de/id/Q.01.19140115.FMA.01">https://sturm-edition.de/id/Q.01.19140115.FMA.01</a>
+                </p>
+                <p>
+                    Für jeden URI ist ein Resolving mittels <a class="external internal" href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Content_negotiation">Content Negotiation</a>
+                    implementiert, über das verschiedene Formate (Repräsentationen) einer Ressource innerhalb der STURM-Edition bezogen werden können.
+                    Dazu sendet der Client beim Aufruf eines URI einen <code class="">Accept-Header</code> mit dem gewünschten Format (entweder <code class="">text/html</code>, <code class="">application/xml</code> 
+                    oder <code class="">application/json</code>). Der Resolver leitet auf Basis des <code class="">Accept-Header</code> die Anfrage
+                    zur jeweiligen URL weiter, unter der sich die formatspezifische Version der Ressource (HTML, XML, JSON) befindet. Hierbei sendet der Resolver den Status-Code <code class="">302 Found</code>
+                    sowie einen <code class="">Location-Header</code> mit der jeweiligen Ziel-URL. Sendet der Client keinen <code class="">Accept-Header</code> wird HTML als Standardformat für
+                    die jeweilige Ressource angenommen.
                 </p>
                 <h3>Datenschnittstelle (XML/JSON)</h3>
                 <p>
@@ -44,29 +80,30 @@
                 </p>
                 <p>
                     <code class="">
-https://sturm-edition.de/api/v1/
+https://sturm-edition.de/api/
                     </code>
                 </p>
                 <p>
-                    Die Schnittstelle implementiert <a class="external internal" href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Content_negotiation">Content Negotiation</a>
-                    und kann entweder – je nach dem vom Client gesendeten <code class="">Accept-Header</code> TEI/XML oder JSON ausliefern
-                    (<code class="">application/xml</code> oder <code class="">application/json</code>). Unterhalb des Einstiegspunktes
-                    stehen fünf unterschiedliche Auslieferungspunkte zur Verfügung:
+                    Die Schnittstelle orientiert sich an den Prinzipien der <a class="external internal" href="https://philsturgeon.uk/api/2018/05/02/api-evolution-for-rest-http-apis/">API Evolution</a>
+                    und bietet stabile, unveränderliche Auslieferungspunkte. Diese implementieren <a class="external internal" href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Content_negotiation">Content Negotiation</a>
+                    und können entweder – je nach dem vom Client gesendeten <code class="">Accept-Header</code> TEI/XML oder JSON ausliefern
+                    (<code class="">application/xml</code> oder <code class="">application/json</code>). Unterhalb des übergeordneten API-Einstiegspunktes
+                    stehen momentan die folgenden fünf Auslieferungspunkte zur Verfügung:
                 </p>
                 <pre>
                     <code class="">
-/api/v1/
-        letters
-               /Q.01.19140115.FMA.01
-        places
-               /O.0000009
-        persons
-               /P.0000021
-        works
-               /W.0000066
-        files
-               /Q.01.19140115.FMA.01.xml
-               /schnittstellen.xml
+/api/
+      letters
+             /Q.01.19140115.FMA.01
+      places
+             /O.0000009
+      persons
+             /P.0000021
+      works
+             /W.0000066
+      files
+             /Q.01.19140115.FMA.01.xml
+             /schnittstellen.xml
                     </code>
                 </pre>
                 <p>
@@ -95,40 +132,40 @@ https://sturm-edition.de/api/v1/
                             <tr>
                                 <td>Brief</td>
                                 <td>
-                            <a class="external internal" href="https://sturm-edition.de/api/v1/letters/Q.01.19140115.FMA.01">
-                                https://sturm-edition.de/api/v1/letters/Q.01.19140115.FMA.01
+                            <a class="external internal" href="https://sturm-edition.de/api/letters/Q.01.19140115.FMA.01">
+                                https://sturm-edition.de/api/letters/Q.01.19140115.FMA.01
                             </a>
                         </td>
                             </tr>
                             <tr>
                                 <td>Ort</td>
                                 <td>
-                            <a class="external internal" href="https://sturm-edition.de/api/v1/places/O.0000009">
-                                https://sturm-edition.de/api/v1/places/O.0000009
+                            <a class="external internal" href="https://sturm-edition.de/api/places/O.0000009">
+                                https://sturm-edition.de/api/places/O.0000009
                             </a>
                         </td>
                             </tr>
                             <tr>
                                 <td>Person</td>
                                 <td>
-                            <a class="external internal" href="https://sturm-edition.de/api/v1/persons/P.0000021">
-                                https://sturm-edition.de/api/v1/persons/P.0000021
+                            <a class="external internal" href="https://sturm-edition.de/api/persons/P.0000021">
+                                https://sturm-edition.de/api/persons/P.0000021
                             </a>
                         </td>
                             </tr>
                             <tr>
                                 <td>Werk</td>
                                 <td>
-                            <a class="external internal" href="https://sturm-edition.de/api/v1/works/W.0000066">
-                                https://sturm-edition.de/api/v1/works/W.0000066
+                            <a class="external internal" href="https://sturm-edition.de/api/works/W.0000066">
+                                https://sturm-edition.de/api/works/W.0000066
                             </a>
                         </td>
                             </tr>
                             <tr>
                                 <td>Datei</td>
                                 <td>
-                            <a class="external internal" href="https://sturm-edition.de/api/v1/files/Q.01.19140115.FMA.01.xml">
-                                https://sturm-edition.de/api/v1/files/Q.01.19140115.FMA.01.xml
+                            <a class="external internal" href="https://sturm-edition.de/api/files/Q.01.19140115.FMA.01.xml">
+                                https://sturm-edition.de/api/files/Q.01.19140115.FMA.01.xml
                             </a>
                         </td>
                             </tr>

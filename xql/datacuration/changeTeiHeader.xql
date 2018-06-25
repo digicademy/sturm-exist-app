@@ -49,7 +49,7 @@ for $header in collection('/db/apps/sturm-edition/xml/quellen/01.briefe/')//tei:
                 <editor>
                     <persName ref="https://orcid.org/0000-0003-2423-7144">
                         <forename>Marjam</forename>
-                        <surname>Mahmoodzada</surname>
+                        <surname>Trautmann</surname>
                     </persName>
                 </editor>
                 <respStmt>
@@ -89,7 +89,7 @@ for $header in collection('/db/apps/sturm-edition/xml/quellen/01.briefe/')//tei:
             <sourceDesc>
                 <bibl>
                     {concat(replace($idno, '.xml', ''), ', ', $finalTitle)}, 
-                    bearbeitet von Marjam Mahmoodzada, in: Der STURM. Digitale Quellenedition zur Geschichte der internationalen 
+                    bearbeitet von Marjam Trautmann, in: Der STURM. Digitale Quellenedition zur Geschichte der internationalen 
                     Avantgarde, erarbeitet und herausgegeben von Marjam Trautmann und Torsten Schrade. 
                     Mainz, Akademie der Wissenschaften und der Literatur, 01.04.2018.
                     </bibl>

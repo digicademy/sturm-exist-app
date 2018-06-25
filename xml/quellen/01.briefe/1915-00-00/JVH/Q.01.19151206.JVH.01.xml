@@ -12,17 +12,8 @@
                 </editor>
                 <respStmt>
                     <persName ref="https://orcid.org/0000-0002-0953-2818">
-                        <forename>Schrade</forename>
-                        <surname>Torsten</surname>
-                    </persName>
-                    <resp>
-                        <note>Herausgeber</note>
-                    </resp>
-                </respStmt>
-                <respStmt>
-                    <persName ref="https://orcid.org/0000-0003-1904-1841">
-                        <forename>Thomas</forename>
-                        <surname>Kollatz</surname>
+                        <forename>Torsten</forename>
+                        <surname>Schrade</surname>
                     </persName>
                     <resp>
                         <note>Herausgeber</note>
@@ -50,13 +41,12 @@
                 </availability>
                 <idno type="file">Q.01.19151206.JVH.01.xml</idno>
                 <idno type="uri">https://sturm-edition.de/id/Q.01.19151206.JVH.01</idno>
-                <idno type="xml">https://sturm-edition.de/api/v1/files/Q.01.19151206.JVH.01.xml</idno>
                 <date when="2018-04-01"/>
             </publicationStmt>
             <sourceDesc>
                 <bibl>Q.01.19151206.JVH.01, Jacoba van Heemskerck an Herwarth Walden, 6. Dezember 1915, 35, Nassau Zuilensteinstraat, Den Haag, 
                     bearbeitet von Marjam Trautmann, in: Der STURM. Digitale Quellenedition zur Geschichte der internationalen 
-                    Avantgarde, erarbeitet und herausgegeben von Marjam Trautmann, Thomas Kollatz und Torsten Schrade. 
+                    Avantgarde, erarbeitet und herausgegeben von Marjam Trautmann und Torsten Schrade. 
                     Mainz, Akademie der Wissenschaften und der Literatur, 01.04.2018.
                     </bibl>
                 <msDesc>
@@ -144,13 +134,7 @@
                   ist dann von „Sturmzetteln“ die Rede. Es wird hier angenommen, dass „Sturmzettel“
                   Vorlagen des Sturm-Unternehmens zur Bennennung und Nummerierung von Kunstwerken
                   waren.</note> gebeten. Wenn Sie nichts erhalten haben, bitte schicken Sie dann
-               jetzt Sturmzettel<note>Der Begriff „Sturmzettel“ ist in der Literatur nicht belegt.
-                   Van Heemskerck spricht in ihrem <ref target="Q.01.19141016.JVH.01">Brief</ref> an Walden vom 16. Oktober 1914 (Bl.29-30)
-                  davon, dass sie ihm mit Zetteln nummerierte Bilder schicken wolle: „die Bilder
-                  werde ich dann auch mit die Zettel vom Sturm nummerieren [...].“ In den folgenden
-                  Briefen ist dann von „Sturmzetteln“ die Rede. Es wird hier angenommen, dass
-                  „Sturmzettel“ Vorlagen des Sturm-Unternehmens zur Bennennung und Nummerierung von
-                  Kunstwerken waren.</note> und ist es Ihnen recht wenn ich am <date when="1915-12-16">
+               jetzt Sturmzettel und ist es Ihnen recht wenn ich am <date when="1915-12-16">
                         <hi rend="underline">16.</hi> Dec:</date> die Bilder abschicke?
                Ich habe Ihnen im Brief gefragt ob es auch besser ist die Ausstellung eine Woche
                früher zu öffnen da es sehr wenig Zeit ist von <date notBefore="1916-02" notAfter="1915-03-15">ende Februar bis 15. März</date> die Bilder nach hier zu

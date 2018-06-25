@@ -6,6 +6,23 @@
         <meta name="author" content="Marjam Mahmoodzada"/>
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
         <title>Jacoba van Heemskerck an Herwarth Walden, 7. Oktober 1915, Loverendale, Domburg : Der STURM. Digitale Quellenedition zur Geschichte der internationalen Avantgarde</title>
+        <script>
+                var Hyphenopoly = {
+                    require: {
+                        "de": "FORCEHYPHENOPOLY"
+                    },
+                    paths: {
+                    patterndir: "/Hyphenopoly/patterns/",
+                        maindir: "/Hyphenopoly/"
+                    },
+                    setup: {
+                        classnames: {
+                            "container": {}
+                        }
+                    }
+                };
+            </script>
+        <script src="../../../Hyphenopoly/Hyphenopoly_Loader.js"></script>
         <link rel="stylesheet" type="text/css" href="../../../MyFontsWebfontsKit/MyFontsWebfontsKit.css"/>
         <link href="https://fonts.googleapis.com/css?family=Tinos:400,700" rel="stylesheet" type="text/css"/>
         <link rel="stylesheet" href="../../../css/normalize.css"/>
@@ -30,7 +47,7 @@
                     </ul>
                 </nav>
             </header>
-            <main class="row content">
+            <main class="row content hyphenate">
                 <div class="department">
                     <h3><a href="../../../quellen/briefe.html">Abteilung I, Briefe</a></h3>
                     <p><strong>Dokumenttyp: </strong>Brief</p>
@@ -47,7 +64,7 @@
                         <li class="last"><a class="black button" href="Q.01.19151225.JVH.01.html" title="An das Ende">→|</a></li>
                     </ul>
                     <ul class="actions">
-                        <li class="xml"><a target="_blank" class="black button" href="/api/v1/files/Q.01.19151007.JVH.01.xml" title="XML Quelle ansehen">➚ XML</a></li>
+                        <li class="xml"><a target="_blank" class="black button" href="/api/files/Q.01.19151007.JVH.01.xml" title="XML Quelle ansehen">➚ XML</a></li>
                         <li class="metadata"><a target="_blank" class="black button" href="http://digital.staatsbibliothek-berlin.de/metsresolver/PPN746594879" title="Metadaten bei der Staatsbibliothek Berlin">➚ Metadaten</a></li>
                     </ul>
                 </section>
@@ -78,8 +95,7 @@
                seine Gemälde in der Moderne Kunstkring<sup class="fn"><a href="#ap-1" id="fn-1">1</a></sup> gesehen, man hatte die besten nicht
                ausgestellt und die wenigen nicht gut gehängt, eben seine Farben müssen prachtvoll
                sein. Bitte wollen Sie Ihre Briefe und <a class="journal" href="../../../register/werke/W.0000068.html">Der Sturm</a> <a class="external" href="http://d-nb.info/gnd/4058273-5" title="Weitere Informationen aus Normdatenrepositorium">(ℹ)</a> wieder nach 
-                    <span class="address inline"><span class="addrLine">Nassau Zuilensteinstraat 35.</span> <span class="addrLine"><a class="locality" href="../../../register/orte/O.0000001.html">Haag</a></span></span>
-                    <span id="S.113r" class="pb"><br/><a class="external" href="http://resolver.staatsbibliothek-berlin.de/SBB0000D97F00000003">[113r]</a><br/></span> schicken
+                    <span class="address inline"><span class="addrLine">Nassau Zuilensteinstraat 35.</span> <span class="addrLine"><a class="locality" href="../../../register/orte/O.0000001.html">Haag</a></span></span><span id="S.113r" class="pb"><br/><a class="external" href="http://resolver.staatsbibliothek-berlin.de/SBB0000D97F00000003">[113r]</a><br/></span> schicken
                und <a class="journal" href="../../../register/werke/W.0000068.html">Der Sturm</a> <a class="external" href="http://d-nb.info/gnd/4058273-5" title="Weitere Informationen aus Normdatenrepositorium">(ℹ)</a> für
                Fraulein <a class="person" href="../../../register/personen/P.0000008.html">Tak van Poortvliet</a>
                     nach <span class="address inline"><span class="addrLine">Wassenaarsche weg 33.</span> <span class="addrLine"><a class="locality" href="../../../register/orte/O.0000001.html">Haag</a></span></span>. Wir gehen <time datetime="1915-10-12">Dienstag 12 October</time>
@@ -102,7 +118,7 @@
             </div>
                         <div class="aparatus">
                             <ol class="footnotes">
-                                <li id="ap-1">Der Moderne Kunstkring (dt. Kunstring) war ein im Jahr 1910 von dem niederländischen Maler Conrad Kikkert (1882–1965) gegründeter niederländischer Kunstverein.<a href="#fn-1"> » </a></li>
+                                <li id="ap-1">Der „Moderne Kunstkring“ (dt. Kunstring) war ein im Jahr 1910 von dem niederländischen Maler Conrad Kikkert (1882–1965) gegründeter niederländischer Kunstverein.<a href="#fn-1"> » </a></li>
                                 <li id="ap-2">Am 6. Oktober 1915 begannen die Mittelmächte eine Offensive gegen Serbien
                   und nahmen am 9. Oktober 1915 Belgrad ein. Vgl. Frank, Susanne: Chronik 1914-1918. In:
                   Enzyklopädie Erster Weltkrieg. Hrsg. v. Gerhard Hirschfeld [u.a.]. Paderborn
@@ -112,14 +128,18 @@
                         </div>
                         <div class="info">
                             <p><strong>Zitierhinweis:</strong><br/>Trautmann,
-                                        Marjam:
+                                Marjam:
                         „Jacoba van Heemskerck an Herwarth Walden, 
                          7. Oktober 1915“, in: 
                         
                             DER STURM. Digitale Quellenedition zur Geschichte der internationalen Avantgarde, erarbeitet und herausgegeben von Marjam Trautmann und Torsten Schrade. Mainz, Akademie der Wissenschaften und der Literatur, 
-                        1. Apr. 2018.
+                        
+                        Version 1 vom 1. Apr. 2018.
                     </p>
                             <p><strong>URI:</strong><br/><a href="https://sturm-edition.de/id/Q.01.19151007.JVH.01">https://sturm-edition.de/id/Q.01.19151007.JVH.01</a></p>
+                            <p><strong>Versionen:</strong><br/><a href="https://sturm-edition.de/id/Q.01.19151007.JVH.01/1">
+                                https://sturm-edition.de/id/Q.01.19151007.JVH.01/1</a> (1. Apr. 2018)
+                        </p>
                             <p><strong>Nutzungshinweis:</strong><br/>
                         Edition und Forschungsdaten stehen unter einer <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International (CC-BY 4.0)</a> Lizenz. 
                         Freie Verwendung unter Angabe von Zitierhinweis, Permalink und Kenntlichmachung von Änderungen.

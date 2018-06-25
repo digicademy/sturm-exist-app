@@ -41,6 +41,7 @@ declare function sturm_html:Pages($appRoot as xs:string, $appName as xs:string, 
         let $sourceDocPath := util:collection-name($doc)
         let $docPathComponents := tokenize($sourceDocPath, '/')
         let $idno := $doc//tei:publicationStmt//tei:idno[@type = 'file']
+        let $version := $doc//tei:change[1]/tei:date/@n
 
         let $relativeToAppBase :=
             if (count($docPathComponents) eq 7) then '../'
@@ -92,7 +93,7 @@ declare function sturm_html:Pages($appRoot as xs:string, $appName as xs:string, 
             else ()
 
         let $files := 
-            <processed timestamp="{current-dateTime()}">{
+            <processed source="{replace($idno, '.xml', '')}" version="{$version}" timestamp="{current-dateTime()}">{
             sturm_html:TransformAndStoreHtml(
                 $xsl, 
                 <parameters>
@@ -129,7 +130,10 @@ declare function sturm_html:Letters($appRoot as xs:string, $appName as xs:string
             let $pagination := sturm_html:LetterPagination($doc, $sources//tei:ab[@n = '01']/tei:list[@n = 'chronological'], $sourceFile)
             let $finalTargetDir := concat($targetDir, 'chronologie/')
             let $relativeToAppBase := '../../../'
-        return sturm_html:LetterTransformation($sourceDir//tei:TEI[@xml:id = $source], $references, $pagination, $xsl, $finalTargetDir, $relativeToAppBase)
+            let $letter := $sourceDir//tei:TEI[@xml:id = $source]
+        return if (exists($letter)) then 
+            sturm_html:LetterTransformation($letter, $references, $pagination, $xsl, $finalTargetDir, $relativeToAppBase)
+        else ()
 
     let $sourcesByArtists :=
         for $artist in $sources//tei:ab[@n = '01']/tei:list[@n = 'artists']//tei:list
@@ -139,7 +143,10 @@ declare function sturm_html:Letters($appRoot as xs:string, $appName as xs:string
                 let $pagination := sturm_html:LetterPagination($doc, $artist, $sourceFile)
                 let $finalTargetDir := concat($targetDir, lower-case($artist/@n), '/')
                 let $relativeToAppBase := '../../../'
-        return sturm_html:LetterTransformation($sourceDir//tei:TEI[@xml:id = $source], $references, $pagination, $xsl, $finalTargetDir, $relativeToAppBase)
+                let $letter := $sourceDir//tei:TEI[@xml:id = $source]
+        return if ($letter and not(contains($letter//tei:idno[@type = 'file'], 'v'))) then 
+            sturm_html:LetterTransformation($letter, $references, $pagination, $xsl, $finalTargetDir, $relativeToAppBase)
+        else ()
 
     return ($sourcesByChronology, $sourcesByArtists)
 };
@@ -171,6 +178,7 @@ declare function sturm_html:LetterTransformation($doc as node(), $references as 
 
     let $sourceDocPath := util:collection-name($doc)
     let $idno := $doc//tei:publicationStmt//tei:idno[@type = 'file']
+    let $version := $doc//tei:change[1]/tei:date/@n
     let $metadata := $doc//tei:xenoData/text()
 
     let $sender := $doc//tei:correspAction[@type = 'sent']/tei:persName/text()
@@ -201,7 +209,7 @@ declare function sturm_html:LetterTransformation($doc as node(), $references as 
     let $last := $pagination//tei:item[@type = 'last']/@source
 
     let $file := 
-        <processed timestamp="{current-dateTime()}">{
+        <processed source="{substring($idno, 1, 20)}" version="{$version}" timestamp="{current-dateTime()}">{
         sturm_html:TransformAndStoreHtml(
             $xsl, 
             <parameters>
@@ -249,7 +257,7 @@ declare function sturm_html:Registers($appRoot as xs:string, $appName as xs:stri
 
         return 
             if ($doc//tei:publicationStmt/tei:idno[@type = 'file'] eq 'personen.xml') then
-                <processed timestamp="{current-dateTime()}">{
+                <processed source="{replace($idno, '.xml', '')}" version="1" timestamp="{current-dateTime()}">{
                 sturm_html:TransformAndStoreHtml(
                     $xsl, 
                     <parameters>
@@ -263,7 +271,7 @@ declare function sturm_html:Registers($appRoot as xs:string, $appName as xs:stri
                 )
                 }</processed>
             else if ($doc//tei:publicationStmt//tei:idno[@type = 'file'] eq 'orte.xml') then
-                <processed timestamp="{current-dateTime()}">{
+                <processed source="{replace($idno, '.xml', '')}" version="1" timestamp="{current-dateTime()}">{
                 sturm_html:TransformAndStoreHtml(
                     $xsl, 
                     <parameters>
@@ -277,7 +285,7 @@ declare function sturm_html:Registers($appRoot as xs:string, $appName as xs:stri
                 )
                 }</processed>
             else if ($doc//tei:publicationStmt//tei:idno[@type = 'file'] eq 'werke.xml') then
-                <processed timestamp="{current-dateTime()}">{
+                <processed source="{replace($idno, '.xml', '')}" version="1" timestamp="{current-dateTime()}">{
                 sturm_html:TransformAndStoreHtml(
                     $xsl, 
                     <parameters>
@@ -323,7 +331,7 @@ declare function sturm_html:Persons($appRoot as xs:string, $appName as xs:string
             )
 
             let $file := 
-                <processed timestamp="{current-dateTime()}">{
+                <processed source="{replace($idno, '.xml', '')}" version="1" timestamp="{current-dateTime()}">{
                 sturm_html:TransformAndStoreHtml(
                     $xsl, 
                     <parameters>
@@ -370,7 +378,7 @@ declare function sturm_html:Places($appRoot as xs:string, $appName as xs:string,
             )
 
             let $file := 
-                <processed timestamp="{current-dateTime()}">{
+                <processed source="{replace($idno, '.xml', '')}" version="1" timestamp="{current-dateTime()}">{
                 sturm_html:TransformAndStoreHtml(
                     $xsl, 
                     <parameters>
@@ -417,7 +425,7 @@ declare function sturm_html:Works($appRoot as xs:string, $appName as xs:string, 
             )
 
             let $file := 
-                <processed timestamp="{current-dateTime()}">{
+                <processed source="{replace($idno, '.xml', '')}" version="1" timestamp="{current-dateTime()}">{
                 sturm_html:TransformAndStoreHtml(
                     $xsl, 
                     <parameters>
@@ -497,7 +505,7 @@ declare function sturm_html:Sources($appRoot as xs:string, $appName as xs:string
             </TEI>
 
          let $files := 
-            <processed timestamp="{current-dateTime()}">{
+            <processed source="{replace($idno, '.xml', '')}" version="1" timestamp="{current-dateTime()}">{
             sturm_html:TransformAndStoreHtml(
                 $xsl, 
                 <parameters>

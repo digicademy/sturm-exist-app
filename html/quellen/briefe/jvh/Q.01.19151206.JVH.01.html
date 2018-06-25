@@ -6,6 +6,23 @@
         <meta name="author" content="Marjam Mahmoodzada"/>
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
         <title>Jacoba van Heemskerck an Herwarth Walden, 6. Dezember 1915, 35, Nassau Zuilensteinstraat, Den Haag : Der STURM. Digitale Quellenedition zur Geschichte der internationalen Avantgarde</title>
+        <script>
+                var Hyphenopoly = {
+                    require: {
+                        "de": "FORCEHYPHENOPOLY"
+                    },
+                    paths: {
+                    patterndir: "/Hyphenopoly/patterns/",
+                        maindir: "/Hyphenopoly/"
+                    },
+                    setup: {
+                        classnames: {
+                            "container": {}
+                        }
+                    }
+                };
+            </script>
+        <script src="../../../Hyphenopoly/Hyphenopoly_Loader.js"></script>
         <link rel="stylesheet" type="text/css" href="../../../MyFontsWebfontsKit/MyFontsWebfontsKit.css"/>
         <link href="https://fonts.googleapis.com/css?family=Tinos:400,700" rel="stylesheet" type="text/css"/>
         <link rel="stylesheet" href="../../../css/normalize.css"/>
@@ -30,7 +47,7 @@
                     </ul>
                 </nav>
             </header>
-            <main class="row content">
+            <main class="row content hyphenate">
                 <div class="department">
                     <h3><a href="../../../quellen/briefe.html">Abteilung I, Briefe</a></h3>
                     <p><strong>Dokumenttyp: </strong>Postkarte</p>
@@ -47,7 +64,7 @@
                         <li class="last"><a class="black button" href="Q.01.19151225.JVH.01.html" title="An das Ende">→|</a></li>
                     </ul>
                     <ul class="actions">
-                        <li class="xml"><a target="_blank" class="black button" href="/api/v1/files/Q.01.19151206.JVH.01.xml" title="XML Quelle ansehen">➚ XML</a></li>
+                        <li class="xml"><a target="_blank" class="black button" href="/api/files/Q.01.19151206.JVH.01.xml" title="XML Quelle ansehen">➚ XML</a></li>
                         <li class="metadata"><a target="_blank" class="black button" href="http://digital.staatsbibliothek-berlin.de/metsresolver/PPN746595042" title="Metadaten bei der Staatsbibliothek Berlin">➚ Metadaten</a></li>
                     </ul>
                 </section>
@@ -94,15 +111,15 @@
                 <p>Keine Briefe von Ihnen empfangen die letzte war vom <time datetime="1915-11-24"><span class="underline">24.</span>
                     November</time>. Ihnen <time datetime="1915-11-25"><span class="underline">25</span>. Nov.</time> eine <a class="letter internal" href="../../../quellen/briefe/chronologie/Q.01.19151124.JVH.01.html">Postkarte</a> und <time datetime="1915-11-27"><span class="underline">27</span> Nov.</time> ein <a class="letter internal" href="../../../quellen/briefe/chronologie/Q.01.19151126.JVH.01.html">lange Brief</a> geschrieben und um
                   Sturmzettel<sup class="fn"><a href="#ap-1" id="fn-1">1</a></sup> gebeten. Wenn Sie nichts erhalten haben, bitte schicken Sie dann
-               jetzt Sturmzettel<sup class="fn"><a href="#ap-2" id="fn-2">2</a></sup> und ist es Ihnen recht wenn ich am <time datetime="1915-12-16">
+               jetzt Sturmzettel und ist es Ihnen recht wenn ich am <time datetime="1915-12-16">
                         <span class="underline">16.</span> Dec:</time> die Bilder abschicke?
                Ich habe Ihnen im Brief gefragt ob es auch besser ist die Ausstellung eine Woche
                früher zu öffnen da es sehr wenig Zeit ist von <time datetime="">ende Februar bis 15. März</time> die Bilder nach hier zu
-                  schicken<sup class="fn"><a href="#ap-3" id="fn-3">3</a></sup> Sie wissen aber am besten<span id="S.129r.01" class="pb"><br/><a class="external" href="http://resolver.staatsbibliothek-berlin.de/SBB0000D98900000001">[129r]</a><br/></span> was
+                  schicken<sup class="fn"><a href="#ap-2" id="fn-2">2</a></sup> Sie wissen aber am besten<span id="S.129r.01" class="pb"><br/><a class="external" href="http://resolver.staatsbibliothek-berlin.de/SBB0000D98900000001">[129r]</a><br/></span> was
                geschehen muss</p> <div class="closer">
                                 <p>
                                     <salute>Für heute herzlichste Grüsse.</salute> Hoffentlich höre ich bald wie die
-               Ausstellung jetzt ist,<sup class="fn"><a href="#ap-4" id="fn-4">4</a></sup> gibt es Kritiken?
+               Ausstellung jetzt ist,<sup class="fn"><a href="#ap-3" id="fn-3">3</a></sup> gibt es Kritiken?
                 
                     <span class="signed">Ihre <a class="person" href="../../../register/personen/P.0000004.html">J<span class="twice-underline">acobavHeemskerck</span>
                         </a>
@@ -119,35 +136,32 @@
                   ist dann von „Sturmzetteln“ die Rede. Es wird hier angenommen, dass „Sturmzettel“
                   Vorlagen des Sturm-Unternehmens zur Bennennung und Nummerierung von Kunstwerken
                   waren.<a href="#fn-1"> » </a></li>
-                                <li id="ap-2">Der Begriff „Sturmzettel“ ist in der Literatur nicht belegt.
-                   Van Heemskerck spricht in ihrem <a class="letter internal" href="../../../quellen/briefe/chronologie/Q.01.19141016.JVH.01.html">Brief</a> an Walden vom 16. Oktober 1914 (Bl.29-30)
-                  davon, dass sie ihm mit Zetteln nummerierte Bilder schicken wolle: „die Bilder
-                  werde ich dann auch mit die Zettel vom Sturm nummerieren [...].“ In den folgenden
-                  Briefen ist dann von „Sturmzetteln“ die Rede. Es wird hier angenommen, dass
-                  „Sturmzettel“ Vorlagen des Sturm-Unternehmens zur Bennennung und Nummerierung von
-                  Kunstwerken waren.<a href="#fn-2"> » </a></li>
-                                <li id="ap-3">Im Februar 1916 fand die 38. Sturm-Ausstellung mit Werken Jacoba
+                                <li id="ap-2">Im Februar 1916 fand die 38. Sturm-Ausstellung mit Werken Jacoba
                   van Heemskercks in der Berliner Galerie statt. Vgl. Enders, Rainer:
                   Ausstellungskataloge der STURM-Galerie.
                   <a class="external internal" href="https://www.arthistoricum.net/themen/portale/sturm/ausstellungskataloge/">https://www.arthistoricum.net/themen/portale/sturm/ausstellungskataloge/</a> (Aufruf
-                  06.04.2017).<a href="#fn-3"> » </a></li>
-                                <li id="ap-4">Im Dezember 1915 fand die 36. Sturm-Ausstellung mit
+                  06.04.2017).<a href="#fn-2"> » </a></li>
+                                <li id="ap-3">Im Dezember 1915 fand die 36. Sturm-Ausstellung mit
                   graphischen Werken, unter anderem von Jacoba van Heemskerck, statt. Vgl. Enders,
                   Rainer: Ausstellungskataloge der STURM-Galerie.
                   <a class="external internal" href="https://www.arthistoricum.net/themen/portale/sturm/ausstellungskataloge/">https://www.arthistoricum.net/themen/portale/sturm/ausstellungskataloge/</a> (Aufruf
-                  06.04.2017).<a href="#fn-4"> » </a></li>
+                  06.04.2017).<a href="#fn-3"> » </a></li>
                             </ol>
                         </div>
                         <div class="info">
                             <p><strong>Zitierhinweis:</strong><br/>Trautmann,
-                                        Marjam:
+                                Marjam:
                         „Jacoba van Heemskerck an Herwarth Walden, 
                          6. Dezember 1915“, in: 
                         
                             DER STURM. Digitale Quellenedition zur Geschichte der internationalen Avantgarde, erarbeitet und herausgegeben von Marjam Trautmann und Torsten Schrade. Mainz, Akademie der Wissenschaften und der Literatur, 
-                        1. Apr. 2018.
+                        
+                        Version 1 vom 1. Apr. 2018.
                     </p>
                             <p><strong>URI:</strong><br/><a href="https://sturm-edition.de/id/Q.01.19151206.JVH.01">https://sturm-edition.de/id/Q.01.19151206.JVH.01</a></p>
+                            <p><strong>Versionen:</strong><br/><a href="https://sturm-edition.de/id/Q.01.19151206.JVH.01/1">
+                                https://sturm-edition.de/id/Q.01.19151206.JVH.01/1</a> (1. Apr. 2018)
+                        </p>
                             <p><strong>Nutzungshinweis:</strong><br/>
                         Edition und Forschungsdaten stehen unter einer <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International (CC-BY 4.0)</a> Lizenz. 
                         Freie Verwendung unter Angabe von Zitierhinweis, Permalink und Kenntlichmachung von Änderungen.

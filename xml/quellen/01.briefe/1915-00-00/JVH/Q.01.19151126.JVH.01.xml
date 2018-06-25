@@ -1,10 +1,29 @@
 <?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:id="Q.01.19151126.JVH.01">
-    <teiHeader><fileDesc><titleStmt><title>Jacoba van Heemskerck an Herwarth Walden, 26. November 1915, 35, Nassau Zuilensteinstraat, Den Haag</title><editor><persName ref="https://orcid.org/0000-0003-2423-7144"><forename>Marjam</forename><surname>Trautmann</surname></persName></editor><respStmt><persName ref="https://orcid.org/0000-0002-0953-2818"><forename>Schrade</forename><surname>Torsten</surname></persName><resp><note>Herausgeber</note></resp></respStmt><respStmt><persName ref="https://orcid.org/0000-0003-1904-1841"><forename>Thomas</forename><surname>Kollatz</surname></persName><resp><note>Herausgeber</note></resp></respStmt><respStmt><persName ref="https://orcid.org/0000-0003-2423-7144"><forename>Marjam</forename><surname>Trautmann</surname></persName><resp><note>Herausgeberin</note></resp></respStmt></titleStmt><publicationStmt><publisher><ref target="http://www.adwmainz.de">Akademie der Wissenschaften und der Literatur | Mainz</ref></publisher><pubPlace ref="http://sws.geonames.org/2874225">Mainz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0/">
+    <teiHeader><fileDesc><titleStmt><title>Jacoba van Heemskerck an Herwarth Walden, 26. November 1915, 35, Nassau Zuilensteinstraat, Den Haag</title><editor><persName ref="https://orcid.org/0000-0003-2423-7144"><forename>Marjam</forename><surname>Trautmann</surname></persName></editor>
+                        <respStmt>
+                    <persName ref="https://orcid.org/0000-0002-0953-2818">
+                        <forename>Torsten</forename>
+                        <surname>Schrade</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeber</note>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0003-2423-7144">
+                        <forename>Marjam</forename>
+                        <surname>Trautmann</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeberin</note>
+                    </resp>
+                </respStmt>
+    </titleStmt><publicationStmt><publisher><ref target="http://www.adwmainz.de">Akademie der Wissenschaften und der Literatur | Mainz</ref></publisher><pubPlace ref="http://sws.geonames.org/2874225">Mainz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0/">
                         This file is licensed under the terms of the Creative-Commons-License CC BY 4.0
-                    </licence></availability><idno type="file">Q.01.19151126.JVH.01.xml</idno><idno type="uri">https://sturm-edition.de/id/Q.01.19151126.JVH.01</idno><idno type="xml">https://sturm-edition.de/api/v1/files/Q.01.19151126.JVH.01.xml</idno><date when="2018-04-01"/></publicationStmt><sourceDesc><bibl>Q.01.19151126.JVH.01, Jacoba van Heemskerck an Herwarth Walden, 26. November 1915, 35, Nassau Zuilensteinstraat, Den Haag, 
+                    </licence></availability><idno type="file">Q.01.19151126.JVH.01.xml</idno><idno type="uri">https://sturm-edition.de/id/Q.01.19151126.JVH.01</idno><date when="2018-04-01"/></publicationStmt><sourceDesc><bibl>Q.01.19151126.JVH.01, Jacoba van Heemskerck an Herwarth Walden, 26. November 1915, 35, Nassau Zuilensteinstraat, Den Haag, 
                     bearbeitet von Marjam Trautmann, in: Der STURM. Digitale Quellenedition zur Geschichte der internationalen 
-                    Avantgarde, erarbeitet und herausgegeben von Marjam Trautmann, Thomas Kollatz und Torsten Schrade. 
+                    Avantgarde, erarbeitet und herausgegeben von Marjam Trautmann und Torsten Schrade. 
                     Mainz, Akademie der Wissenschaften und der Literatur, 01.04.2018.
                     </bibl><msDesc><msIdentifier><country>DE</country><settlement>Berlin</settlement><repository>Staatsbibliothek zu Berlin Preußischer Kulturbesitz,
                      Handschriftenabteilung, Sturm-Archiv I, Heemskerck, Jacoba van</repository><idno type="uri">http://kalliope-verbund.info/DE-611-HS-1911228</idno></msIdentifier></msDesc></sourceDesc></fileDesc><xenoData type="uri">http://digital.staatsbibliothek-berlin.de/metsresolver/PPN746595034</xenoData><profileDesc><correspDesc key="Bl.127-128" ref="https://sturm-edition.de/id/Q.01.19151126.JVH.01">
@@ -72,8 +91,7 @@
                herausgeber, hat mir sehr <foreign>enthousiast</foreign> über <term type="journal" key="W.0000068" source="https://doi.org/10.11588/diglit.37113.9" ref="http://d-nb.info/gnd/4058273-5">Der Sturm</term><note>Walden, Herwarth [Hrsg.]: Der Sturm. Halbmonatsschrift für
                   Kultur und die Künste 15/16 (1915).</note> geschrieben und über meine <term type="artwork" key="W.0000007" source="https://doi.org/10.11588/diglit.37113#0090">Holzschnitt</term><note>Walden, Herwarth [Hrsg.]: Der Sturm. Halbmonatsschrift
                   für Kultur und die Künste 15/16 (1915), S. 89.</note> wollen Sie ihm bitte
-               bisweile <term type="journal" key="W.0000068" source="https://doi.org/10.11588/diglit.37113.9" ref="http://d-nb.info/gnd/4058273-5">ein Nummer</term><note>Walden, Herwarth [Hrsg.]: Der Sturm. Halbmonatsschrift für
-                  Kultur und die Künste 15/16 (1915).</note> schicken Ich freue mich mit Ihnen das
+               bisweile <term type="journal" key="W.0000068" source="https://doi.org/10.11588/diglit.37113.9" ref="http://d-nb.info/gnd/4058273-5">ein Nummer</term> schicken Ich freue mich mit Ihnen das
                Buch über <persName key="P.0000011" ref="http://d-nb.info/gnd/119295954">Toorop</persName> zu sehen.
                Hoffentlich habe ich 20 Bilder fertig ich arbeite von früh bis spät. Wenn es Kritiken
                gibt dann schicken Sie die bitte gute und<pb xml:id="S.128v" n="128v" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D98800000004"/> schlechte.
@@ -88,9 +106,7 @@
                     </signed>
                 </closer>
                 <postscript>
-                    <p>In diese Monat ist meine <term type="artwork" key="W.0000007" source="https://doi.org/10.11588/diglit.37113#0090">Holzschnitt</term><note>Walden, Herwarth [Hrsg.]: Der Sturm. Halbmonatsschrift
-                     für Kultur und die Künste 15/16 (1915), S. 89.</note> im <term type="journal" key="W.0000068" source="https://doi.org/10.11588/diglit.37113.9" ref="http://d-nb.info/gnd/4058273-5">Sturm</term><note>Walden, Herwarth [Hrsg.]: Der Sturm. Halbmonatsschrift für
-                     Kultur und die Künste 15/16 (1915).</note> sehr schön viel Dank.</p>
+                    <p>In diese Monat ist meine <term type="artwork" key="W.0000007" source="https://doi.org/10.11588/diglit.37113#0090">Holzschnitt</term> im <term type="journal" key="W.0000068" source="https://doi.org/10.11588/diglit.37113.9" ref="http://d-nb.info/gnd/4058273-5">Sturm</term> sehr schön viel Dank.</p>
                 </postscript>
             </div>
         </body>

@@ -27,6 +27,23 @@
             <title>
                 <xsl:value-of select="$title"/>
             </title>
+            <script>
+                var Hyphenopoly = {
+                    require: {
+                        "de": "FORCEHYPHENOPOLY"
+                    },
+                    paths: {
+                    patterndir: "/Hyphenopoly/patterns/",
+                        maindir: "/Hyphenopoly/"
+                    },
+                    setup: {
+                        classnames: {
+                            "container": {}
+                        }
+                    }
+                };
+            </script>
+            <script src="{$relativeToAppBase}Hyphenopoly/Hyphenopoly_Loader.js"/>
             <link rel="stylesheet" type="text/css" href="{$relativeToAppBase}MyFontsWebfontsKit/MyFontsWebfontsKit.css"/>
             <link href="https://fonts.googleapis.com/css?family=Tinos:400,700" rel="stylesheet" type="text/css"/>
             <link rel="stylesheet" href="{$relativeToAppBase}css/normalize.css"/>

@@ -12,17 +12,8 @@
                 </editor>
                 <respStmt>
                     <persName ref="https://orcid.org/0000-0002-0953-2818">
-                        <forename>Schrade</forename>
-                        <surname>Torsten</surname>
-                    </persName>
-                    <resp>
-                        <note>Herausgeber</note>
-                    </resp>
-                </respStmt>
-                <respStmt>
-                    <persName ref="https://orcid.org/0000-0003-1904-1841">
-                        <forename>Thomas</forename>
-                        <surname>Kollatz</surname>
+                        <forename>Torsten</forename>
+                        <surname>Schrade</surname>
                     </persName>
                     <resp>
                         <note>Herausgeber</note>
@@ -50,13 +41,12 @@
                 </availability>
                 <idno type="file">Q.01.19151007.JVH.01.xml</idno>
                 <idno type="uri">https://sturm-edition.de/id/Q.01.19151007.JVH.01</idno>
-                <idno type="xml">https://sturm-edition.de/api/v1/files/Q.01.19151007.JVH.01.xml</idno>
                 <date when="2018-04-01"/>
             </publicationStmt>
             <sourceDesc>
                 <bibl>Q.01.19151007.JVH.01, Jacoba van Heemskerck an Herwarth Walden, 7. Oktober 1915, Loverendale, Domburg, 
                     bearbeitet von Marjam Trautmann, in: Der STURM. Digitale Quellenedition zur Geschichte der internationalen 
-                    Avantgarde, erarbeitet und herausgegeben von Marjam Trautmann, Thomas Kollatz und Torsten Schrade. 
+                    Avantgarde, erarbeitet und herausgegeben von Marjam Trautmann und Torsten Schrade. 
                     Mainz, Akademie der Wissenschaften und der Literatur, 01.04.2018.
                     </bibl>
                 <msDesc>
@@ -120,11 +110,10 @@
                Ausstellungen mit gute Presse sehen. Ich finde es wirklich ein sehr gute Kritik von
                Herrn <persName key="P.0000044" ref="http://d-nb.info/gnd/118673998">Robert Breuer</persName>, er
                fangt an uns zu verstehen. Ich musz unbedingt mehr von <persName key="P.0000003" ref="http://d-nb.info/gnd/11857745X">Marck</persName> sehen ich habe nur damals
-               seine Gemälde in der Moderne Kunstkring<note>Der Moderne Kunstkring (dt. Kunstring) war ein im Jahr 1910 von dem niederländischen Maler Conrad Kikkert (1882–1965) gegründeter niederländischer Kunstverein.</note> gesehen, man hatte die besten nicht
+               seine Gemälde in der Moderne Kunstkring<note>Der „Moderne Kunstkring“ (dt. Kunstring) war ein im Jahr 1910 von dem niederländischen Maler Conrad Kikkert (1882–1965) gegründeter niederländischer Kunstverein.</note> gesehen, man hatte die besten nicht
                ausgestellt und die wenigen nicht gut gehängt, eben seine Farben müssen prachtvoll
                sein. Bitte wollen Sie Ihre Briefe und <term type="journal" key="W.0000068" ref="http://d-nb.info/gnd/4058273-5">Der Sturm</term> wieder nach 
-                    <address rend="inline"><addrLine>Nassau Zuilensteinstraat 35.</addrLine> <addrLine><placeName key="O.0000001" ref="http://sws.geonames.org/2747373">Haag</placeName></addrLine></address>
-                    <pb xml:id="S.113r" n="113r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D97F00000003"/> schicken
+                    <address rend="inline"><addrLine>Nassau Zuilensteinstraat 35.</addrLine> <addrLine><placeName key="O.0000001" ref="http://sws.geonames.org/2747373">Haag</placeName></addrLine></address><pb xml:id="S.113r" n="113r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D97F00000003"/> schicken
                und <term type="journal" key="W.0000068" ref="http://d-nb.info/gnd/4058273-5">Der Sturm</term> für
                Fraulein <persName key="P.0000008" ref="http://d-nb.info/gnd/136128289">Tak van Poortvliet</persName>
                     nach <address rend="inline"><addrLine>Wassenaarsche weg 33.</addrLine> <addrLine><placeName key="O.0000001" ref="http://sws.geonames.org/2747373">Haag</placeName></addrLine></address>. Wir gehen <date when="1915-10-12">Dienstag 12 October</date>

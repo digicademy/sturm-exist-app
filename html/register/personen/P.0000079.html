@@ -6,6 +6,23 @@
         <meta name="author" content="Marjam Mahmoodzada"/>
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
         <title>Kubin, Alfred : Der STURM. Digitale Quellenedition zur Geschichte der internationalen Avantgarde</title>
+        <script>
+                var Hyphenopoly = {
+                    require: {
+                        "de": "FORCEHYPHENOPOLY"
+                    },
+                    paths: {
+                    patterndir: "/Hyphenopoly/patterns/",
+                        maindir: "/Hyphenopoly/"
+                    },
+                    setup: {
+                        classnames: {
+                            "container": {}
+                        }
+                    }
+                };
+            </script>
+        <script src="../../Hyphenopoly/Hyphenopoly_Loader.js"></script>
         <link rel="stylesheet" type="text/css" href="../../MyFontsWebfontsKit/MyFontsWebfontsKit.css"/>
         <link href="https://fonts.googleapis.com/css?family=Tinos:400,700" rel="stylesheet" type="text/css"/>
         <link rel="stylesheet" href="../../css/normalize.css"/>
@@ -30,7 +47,7 @@
                     </ul>
                 </nav>
             </header>
-            <main class="row content">
+            <main class="row content hyphenate">
                 <section class="eight columns maincontent">
                     <h2>Personenregister</h2>
                     <div class="toolbar">

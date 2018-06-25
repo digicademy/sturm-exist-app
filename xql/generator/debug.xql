@@ -24,8 +24,14 @@ import module namespace sturm_txt = 'https://sturm-edition.de/sturm_txt' at 'txt
 declare variable $appRoot := '/db/apps/';
 declare variable $appName := 'sturm-edition';
 
+(:
 let $xmlFiles := (
     sturm_xml:Cmif($appRoot, $appName, '/xml/quellen/01.briefe/', '/html/cmif/')
 )
+:)
 
-return <files>{$xmlFiles}</files>
+let $htmlFiles := (
+    sturm_html:Versions($appRoot, $appName, '/xml/versionen/01.briefe/', '/html/quellen/briefe/')
+)
+
+return <files>{$htmlFiles}</files>

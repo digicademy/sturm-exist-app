@@ -1,0 +1,113 @@
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Q.01.19140115.FMA.01">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Franz Marc an Herwarth Walden, 15. Januar 1914, Sindelsdorf</title>
+                <editor>
+                    <persName ref="https://orcid.org/0000-0003-2423-7144">
+                        <forename>Marjam</forename>
+                        <surname>Trautmann</surname>
+                    </persName>
+                </editor>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0002-0953-2818">
+                        <forename>Torsten</forename>
+                        <surname>Schrade</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeber</note>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0003-2423-7144">
+                        <forename>Marjam</forename>
+                        <surname>Trautmann</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeberin</note>
+                    </resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="http://www.adwmainz.de">Akademie der Wissenschaften und der Literatur | Mainz</ref>
+                </publisher>
+                <pubPlace ref="http://sws.geonames.org/2874225">Mainz</pubPlace>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        This file is licensed under the terms of the Creative-Commons-License CC BY 4.0
+                    </licence>
+                </availability>
+                <idno type="file">Q.01.19140115.FMA.01.v1.xml</idno>
+                <idno type="uri">https://sturm-edition.de/id/Q.01.19140115.FMA.01</idno>
+                <date when="2018-04-01"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Q.01.19140115.FMA.01, Franz Marc an Herwarth Walden, 15. Januar 1914, Sindelsdorf, 
+                    bearbeitet von Marjam Trautmann, in: Der STURM. Digitale Quellenedition zur Geschichte der internationalen 
+                    Avantgarde, erarbeitet und herausgegeben von Marjam Trautmann und Torsten Schrade. 
+                    Mainz, Akademie der Wissenschaften und der Literatur, 01.04.2018.
+                </bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <country>DE</country>
+                        <settlement>Berlin</settlement>
+                        <repository>Staatsbibliothek zu Berlin Preußischer Kulturbesitz, Handschriftenabteilung, Sturm-Archiv I, Marc, Franz</repository>
+                        <idno type="uri">http://kalliope-verbund.info/DE-611-HS-1916784</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <xenoData type="uri">http://digital.staatsbibliothek-berlin.de/metsresolver/PPN746598521</xenoData>
+        <profileDesc>
+            <correspDesc key="Bl.177" ref="https://sturm-edition.de/id/Q.01.19140115.FMA.01">
+                <correspAction type="sent">
+                    <persName key="P.0000003" ref="http://d-nb.info/gnd/11857745X">Franz Marc</persName>
+                    <placeName key="O.0000048" ref="http://sws.geonames.org/2831942">Sindelsdorf</placeName>
+                    <date when="1914-01-15"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth Walden</persName>
+                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>                   
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change>
+                    <date when="2018-04-01" n="1"/>
+                </change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic n="177v" url="http://content.staatsbibliothek-berlin.de/dms/PPN746598521/800/0/00000001.jpg"/>
+        <graphic n="177r" url="http://content.staatsbibliothek-berlin.de/dms/PPN746598521/800/0/00000002.jpg"/>
+        <graphic n="Farbkeil" url="http://content.staatsbibliothek-berlin.de/dms/PPN746598521/800/0/00000003.jpg"/>
+    </facsimile>
+    <text type="postcard">
+        <body>
+            <div type="content">
+                <pb xml:id="S.177r" n="177r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000DAA300000002"/>
+                <opener>
+                    <salute>Lieber <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Walden</persName>,</salute>
+                </opener>
+                <p>ich habe nicht das geringste vom Anwalt erhalten; Sie kennen mich ja, daß ich
+                    stets sofort antworte; es muß verloren gegangen sein. Grüßen Sie bitte D<hi rend="super"><hi rend="underline">r</hi></hi> <persName key="P.0000056" ref="P.0000056">Feige</persName> und sagen Sie ihm das.</p>
+                <p>In einer niederrheinischen
+                    Zeitung soll von einer bevorstehenden großen Ausstellung in <placeName key="O.0000045" ref="http://sws.geonames.org/2952539">Barmen</placeName> von <persName key="P.0000009" ref="http://d-nb.info/gnd/118559737">Kandinsky</persName>
+                    mir u.s.w. berichtet worden
+                    sein; ich kann mir nur denken, daß die <persName key="P.0000057" ref="http://d-nb.info/gnd/143669230">Reiche</persName>-<placeName key="O.0000032" ref="http://sws.geonames.org/2935022">Dresden</placeName> Collection dahin
+                    kommt;<pb xml:id="S.177v.02" n="177v" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000DAA300000001"/> ich bin natürlich einverstanden, nur soll die frei<hi rend="underline">e
+                        Rück</hi>fracht <placeName key="O.0000045" ref="http://sws.geonames.org/2952539">Barmen</placeName> - <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Berlin</placeName> gesichert sein.<note>Im Jahr 1913 fand in der Stadt Barmen eine Sturm-Ausstellung mit Werken der Künstlergruppe Der Blaue Reiter statt. In der Literatur gilt diese Ausstellung als nicht ausreichend nachgewiesen; dieser Brief gibt endgültigen Aufschluss über das tatsächliche Stattfinden der Ausstellung. Vgl. Enders, Rainer: Ausstellungen außerhalb der Berliner Galerie. URL: <ref target="https://www.arthistoricum.net/themen/portale/sturm/ausstellungen/">https://www.arthistoricum.net/themen/portale/sturm/ausstellungen/</ref> (Aufruf 06.04.2017).</note> Aber es ist natürlich nur Vermutung von
+                    mir. Von <persName key="P.0000057" ref="http://d-nb.info/gnd/143669230">Reiche</persName> höre
+                    ich gar nichts.</p>
+                <closer>
+                    <salute>Hrzl.</salute> <signed>Ihr <persName key="P.0000003" ref="http://d-nb.info/gnd/11857745X">F. Marc</persName>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

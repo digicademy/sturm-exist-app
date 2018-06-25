@@ -14,20 +14,20 @@ xquery version "3.0";
  : @version 1.0.0 
  : @licence MIT
  : 
- : API architecture: api-entry-point/version/collection/resource-id
+ : API architecture: api-entry-point/collection/resource-id
  :
- : /api/v1/
- :       letters
- :              /Q.01.19140115.FMA.01
- :       places
- :              /O.0000001
- :       persons
- :              /P.0000001
- :       works
- :              /W.0000001
- :       files
- :              /Q.01.19140115.FMA.01.xml
- :              /projekt.xml
+ : /api/
+ :     letters
+ :            /Q.01.19140115.FMA.01
+ :     places
+ :            /O.0000001
+ :     persons
+ :            /P.0000001
+ :     works
+ :            /W.0000001
+ :     files
+ :            /Q.01.19140115.FMA.01.xml
+ :            /projekt.xml
 :)
 
 import module namespace functx = 'http://www.functx.com';
@@ -56,7 +56,8 @@ declare function sturm_api:getResourceCollection($type as xs:string, $format as 
             <files>{(
                 collection(concat($appRoot, $appName, '/xml/seiten/'))//tei:publicationStmt/tei:idno,
                 collection(concat($appRoot, $appName, '/xml/register/'))//tei:publicationStmt/tei:idno,
-                collection(concat($appRoot, $appName, '/xml/quellen/01.briefe/'))//tei:publicationStmt/tei:idno[@type = 'file']
+                collection(concat($appRoot, $appName, '/xml/quellen/01.briefe/'))//tei:publicationStmt/tei:idno[@type = 'file'],
+                collection(concat($appRoot, $appName, '/xml/versionen/quellen/01.briefe/'))//tei:publicationStmt/tei:idno[@type = 'file']
             )}</files>
         else ()
 
@@ -98,15 +99,8 @@ declare function sturm_api:getResourceByIdentifier($identifier as xs:string, $ty
                         return <file id="{$page}" ref="{concat($appRoot, $appName, '/xml/seiten/', $page)}" />,
                     for $register in collection(concat($appRoot, $appName, '/xml/register/'))//tei:publicationStmt/tei:idno
                         return <file id="{$register}" ref="{concat($appRoot, $appName, '/xml/register/', $register)}" />,
-                    for $artist in xmldb:get-child-collections(concat($appRoot, $appName, '/xml/quellen/01.briefe/'))
-                        let $yearItems :=
-                            for $year in xmldb:get-child-collections(concat($appRoot, $appName, '/xml/quellen/01.briefe/', $artist, '/'))
-                                let $fileItems := 
-                                    for $file in collection(concat($appRoot, $appName, '/xml/quellen/01.briefe/', $artist, '/', $year, '/'))
-                                        let $itemName := $file//tei:publicationStmt/tei:idno[@type = 'file']/text()
-                                    return <file id="{$itemName}" ref="{concat($appRoot, $appName, '/xml/quellen/01.briefe/', $artist, '/', $year, '/', $itemName)}" />
-                             return $fileItems
-                    return $yearItems
+                    sturm_api:getSourcesFileIndex('/xml/quellen/01.briefe/'),
+                    sturm_api:getSourcesFileIndex('/xml/versionen/quellen/01.briefe/')
                 )}</files>
             return doc($fileIndex//file[@id = $identifier]/@ref)
         else ()
@@ -121,6 +115,18 @@ declare function sturm_api:getResourceByIdentifier($identifier as xs:string, $ty
     return $result
 };
 
+declare function sturm_api:getSourcesFileIndex($path as xs:string) {
+    for $artist in xmldb:get-child-collections(concat($appRoot, $appName, $path))
+        let $yearItems :=
+            for $year in xmldb:get-child-collections(concat($appRoot, $appName, $path, $artist, '/'))
+                let $fileItems := 
+                    for $file in collection(concat($appRoot, $appName, $path, $artist, '/', $year, '/'))
+                        let $itemName := $file//tei:publicationStmt/tei:idno[@type = 'file']/text()
+                    return <file id="{$itemName}" ref="{concat($appRoot, $appName, $path, $artist, '/', $year, '/', $itemName)}" />
+             return $fileItems
+    return $yearItems
+};
+
 (: ########## MAIN QUERY BODY ############################################################################################### :)
 
 (: set request and response format :)
@@ -129,7 +135,7 @@ let $format := functx:substring-after-last($requestFormat, '/')
 let $responseFormat := response:set-header('Content-Type', concat($requestFormat, ' ', 'charset=UTF-8'))
 
 (: analyse request path :)
-let $requestPath := replace(request:get-uri(), '/exist/apps/sturm-edition/html/api/v1/', '')
+let $requestPath := replace(request:get-uri(), '/exist/apps/sturm-edition/html/api/', '')
 let $requestSegments := xs:integer(count(tokenize($requestPath, '/')))
 
 (: generate response :)

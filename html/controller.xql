@@ -33,12 +33,13 @@ if ($exist:resource eq '' and $exist:path eq '/') then
             <set-header name="Content-Type" value="text/html"/>
         </forward>
     </dispatch>
+(: URI resolver :)
 else if (contains($exist:path, 'id/')) then
     <dispatch xmlns="http://exist.sourceforge.net/NS/exist">
         <redirect url="{sturm_resolver:resolveUri()}"/>
     </dispatch>
-(: forward to api.xql on REST entry point :)
-else if (contains($exist:path, 'api/v1')) then
+(: forward to api.xql on API entry point :)
+else if (contains($exist:path, 'api/')) then
     <dispatch xmlns="http://exist.sourceforge.net/NS/exist">
         <forward url="{concat($exist:controller, '/api.xql')}"/>
     </dispatch>
@@ -75,7 +76,9 @@ else if (
         $exist:resource ne '.woff' and ends-with($exist:resource, ".woff") or
         $exist:resource ne '.woff2' and ends-with($exist:resource, ".woff2") or
         $exist:resource ne '.xml' and ends-with($exist:resource, ".xml") or
-        $exist:resource ne '.txt' and ends-with($exist:resource, ".txt")
+        $exist:resource ne '.txt' and ends-with($exist:resource, ".txt") or
+        $exist:resource ne '.txt' and ends-with($exist:resource, ".wasm") or
+        $exist:resource ne '.txt' and ends-with($exist:resource, ".hpb")
     ) then
     <dispatch xmlns="http://exist.sourceforge.net/NS/exist">
         <cache-control cache="yes"/>

@@ -1,4 +1,4 @@
-<?xml-model href="https://raw.githubusercontent.com/TEI-Correspondence-SIG/CMIF/master/schema/cmi-customization.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader><fileDesc><titleStmt><title>Der STURM. Digitale Quellenedition zur Geschichte der europäischen Avantgarde. Abteilung I, Künstlerbriefe</title><editor>Torsten Schrade<email>Torsten.Schrade@adwmainz.de</email></editor></titleStmt><publicationStmt><publisher><ref target="http://www.adwmainz.de/">Akademie der Wissenschaften und der Literatur | Mainz</ref></publisher><idno type="url">https://sturm-edition.de/cmif/corresp.xml</idno><date when="2018-06-22+02:00"/><availability><licence target="https://creativecommons.org/licenses/by/4.0/">This file is licensed under the terms of the Creative-Commons-License CC BY 4.0</licence></availability></publicationStmt><sourceDesc><bibl type="online">Der STURM. Digitale Quellenedition zur Geschichte der internationalen Avantgarde, erarbeitet und herausgegeben von Marjam Trautmann und Torsten Schrade. Akademie der Wissenschaften und der Literatur | Mainz, 2018.</bibl></sourceDesc></fileDesc><profileDesc><correspDesc key="Bl.21-22" ref="https://sturm-edition.de/id/Q.01.19140908.JVH.01">
+<?xml-model href="https://raw.githubusercontent.com/TEI-Correspondence-SIG/CMIF/master/schema/cmi-customization.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader><fileDesc><titleStmt><title>Der STURM. Digitale Quellenedition zur Geschichte der europäischen Avantgarde. Abteilung I, Künstlerbriefe</title><editor>Torsten Schrade<email>Torsten.Schrade@adwmainz.de</email></editor></titleStmt><publicationStmt><publisher><ref target="http://www.adwmainz.de/">Akademie der Wissenschaften und der Literatur | Mainz</ref></publisher><idno type="url">https://sturm-edition.de/cmif/corresp.xml</idno><date when="2018-06-25+02:00"/><availability><licence target="https://creativecommons.org/licenses/by/4.0/">This file is licensed under the terms of the Creative-Commons-License CC BY 4.0</licence></availability></publicationStmt><sourceDesc><bibl type="online">Der STURM. Digitale Quellenedition zur Geschichte der internationalen Avantgarde, erarbeitet und herausgegeben von Marjam Trautmann und Torsten Schrade. Akademie der Wissenschaften und der Literatur | Mainz, 2018.</bibl></sourceDesc></fileDesc><profileDesc><correspDesc key="Bl.21-22" ref="https://sturm-edition.de/id/Q.01.19140908.JVH.01">
                 <correspAction type="sent">
                     <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jacoba van
                         Heemskerck</persName>
@@ -404,11 +404,11 @@
                     <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>
                 </correspAction>
             </correspDesc><correspDesc key="Bl.177" ref="https://sturm-edition.de/id/Q.01.19140115.FMA.01">
-                <correspAction type="sent">               
+                <correspAction type="sent">
                     <persName key="P.0000003" ref="http://d-nb.info/gnd/11857745X">Franz Marc</persName>
                     <placeName key="O.0000048" ref="http://sws.geonames.org/2831942">Sindelsdorf</placeName>
                     <date when="1914-01-15"/>
-                </correspAction>                
+                </correspAction>
                 <correspAction type="received">
                     <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth Walden</persName>
                     <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>                   

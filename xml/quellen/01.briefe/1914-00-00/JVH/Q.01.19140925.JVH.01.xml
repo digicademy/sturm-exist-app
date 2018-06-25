@@ -12,17 +12,8 @@
                 </editor>
                 <respStmt>
                     <persName ref="https://orcid.org/0000-0002-0953-2818">
-                        <forename>Schrade</forename>
-                        <surname>Torsten</surname>
-                    </persName>
-                    <resp>
-                        <note>Herausgeber</note>
-                    </resp>
-                </respStmt>
-                <respStmt>
-                    <persName ref="https://orcid.org/0000-0003-1904-1841">
-                        <forename>Thomas</forename>
-                        <surname>Kollatz</surname>
+                        <forename>Torsten</forename>
+                        <surname>Schrade</surname>
                     </persName>
                     <resp>
                         <note>Herausgeber</note>
@@ -51,14 +42,13 @@
                 </availability>
                 <idno type="file">Q.01.19140925.JVH.01.xml</idno>
                 <idno type="uri">https://sturm-edition.de/id/Q.01.19140925.JVH.01</idno>
-                <idno type="xml">https://sturm-edition.de/api/v1/files/Q.01.19140925.JVH.01.xml</idno>
                 <date when="2018-04-01"/>
             </publicationStmt>
             <sourceDesc>
                 <bibl>Q.01.19140925.JVH.01, Jacoba van Heemskerck an Herwarth Walden, 25. September
                     1914, Domburg, bearbeitet von Marjam Trautmann, in: Der STURM. Digitale
                     Quellenedition zur Geschichte der internationalen Avantgarde, erarbeitet und
-                    herausgegeben von Marjam Trautmann, Thomas Kollatz und Torsten Schrade. Mainz,
+                    herausgegeben von Marjam Trautmann und Torsten Schrade. Mainz,
                     Akademie der Wissenschaften und der Literatur, 01.04.2018. </bibl>
                 <msDesc>
                     <msIdentifier>
@@ -122,10 +112,7 @@
                         <addrLine>
                             <hi rend="underline">Firma Monton und Co. Herderstraat 5. <placeName key="O.0000001" ref="http://sws.geonames.org/2747373">Haag</placeName>.</hi> Firm<hi rend="underline">a <persName key="P.0000022" ref="P.0000022">Roelofssen Hüber</persName> und
                                     <persName key="P.0000023" ref="P.0000023">van
-                                    Santen</persName> <placeName key="O.0000009" ref="http://sws.geonames.org/2759794">Amsterdam</placeName>
-                            </hi>
-                        </addrLine>
-                    </address>. Beide sind die erste Geschäften von<pb xml:id="S.23v" n="23v" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D95200000002"/>
+                                    Santen</persName> <placeName key="O.0000009" ref="http://sws.geonames.org/2759794">Amsterdam</placeName></hi></addrLine></address>. Beide sind die erste Geschäften von<pb xml:id="S.23v" n="23v" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D95200000002"/>
                     <placeName key="O.0000003" ref="http://sws.geonames.org/2750405">Holland</placeName> ich weisz aber nicht ob sie Deutsch freundlich sind.
                     Ich habe Ihnen keine Zeitungen geschickt da es keine sehr wichtige Nachrichten
                     gab. Es dauert doch sehr lange ich hoffe mit Ihnen dasz der Krieg bis Ende

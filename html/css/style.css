@@ -111,17 +111,10 @@ figcaption,
 .footnotes li, 
 .content .info * {
     text-align: justify;
-    -ms-word-break: break-all;
-    word-break: break-word;
-    -webkit-hyphens: auto;
-    -moz-hyphens: auto;
-    hyphens: auto;
-
-    -webkit-hyphens: auto;
-    -moz-hyphens: auto;
     -ms-hyphens: auto;
+    -moz-hyphens: auto;
+    -webkit-hyphens: auto;
     hyphens: auto;
-
 }
 
 .postcard *, .letter *, .militaryMail *, .telegram * {
@@ -158,6 +151,12 @@ footer * {
     font-size: 1.6rem;
     line-height: 2rem;
 }
+
+.info li {
+    font-size: 1.6rem;
+    line-height: 2rem;
+}
+
 
 code, .hljs {
     font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
@@ -317,7 +316,6 @@ a, a:focus, a:active, a:hover, a:visited {
 }
 
 a.external:before {
-    display: inline-block;
     content: "➚";
     padding: 0 0.3rem;
 }
@@ -502,6 +500,11 @@ table td {
 
 #methodik .packed td:nth-child(3) {
     width: 42%;
+}
+
+#kataloge .packed td:nth-child(4), 
+#schriften .packed td:nth-child(4) {
+    width: 15%;
 }
 
 blockquote {
@@ -889,6 +892,16 @@ p .pb:after {
     margin-top: 6rem;
     border: 1px solid black;
     padding: 2rem 2rem 0 2rem;
+}
+
+.versions {
+    margin-bottom: 5rem;
+    padding: 1.5rem;
+    background: #EFEFEF;
+}
+
+.versions p + p {
+    margin-bottom: 0;
 }
 
 /* FOOTER */

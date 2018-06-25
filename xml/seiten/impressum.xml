@@ -22,14 +22,61 @@
                 <bibl type="hybrid">impressum.xml</bibl>
             </sourceDesc>
         </fileDesc>
+        <revisionDesc>
+            <listChange>
+                <change>
+                    <date when="2018-06-24" n="1"/>
+                </change>
+            </listChange>
+        </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <div>
                 <ab rend="h3">Impressum</ab>
-                <p>
-                    Hier folgt das Impressum.
+                <ab rend="h4">Herausgeber</ab>
+                <p>Das Projekt ist institutionell angebunden an die <ref target="http://www.adwmainz.de">Akademie der Wissenschaften und der
+                        Literatur Mainz</ref> und der dortigen <ref target="http://www.digitale-akademie.de/home/">Digitalen Akademie</ref>:</p>
+                <p> Torsten Schrade und Marjam Trautmann<lb/> Akademie der Wissenschaften und der
+                    Literatur Mainz<lb/> - Digitale Akademie -<lb/> Geschwister-Scholl-Str. 2<lb/>
+                    55131 Mainz<lb/> Telefon: 06131/577-119<lb/> Telefax: 06131/577-277<lb/>
+                    <ref target="mailto:schrade.torsten@adwmainz.de">E-Mail</ref>
                 </p>
+                <p>Die Akademie der Wissenschaften und der Literatur Mainz ist eine Körperschaft des
+                    öffentlichen Rechts. Vertretungsberechtigt ist der Präsident, Prof. Dr.-Ing.
+                    Reiner Anderl.</p>
+                <ab rend="h4">Urheberrecht</ab>
+                <p>Die auf dieser Website veröffentlichten Inhalte unterliegen dem deutschen
+                    Urheber- und Leistungsschutzrecht. Jede vom deutschen Urheber- und
+                    Leistungsschutzrecht nicht zugelassene Verwertung bedarf der vorherigen
+                    schriftlichen Zustimmung des Anbieters oder jeweiligen Rechteinhabers. Dies gilt
+                    insbesondere für Vervielfältigung, Bearbeitung, Übersetzung, Einspeicherung,
+                    Verarbeitung bzw. Wiedergabe von Inhalten in Datenbanken oder anderen
+                    elektronischen Medien und Systemen. Inhalte und Rechte Dritter sind dabei als
+                    solche gekennzeichnet. Die unerlaubte Vervielfältigung oder Weitergabe einzelner
+                    Inhalte oder kompletter Seiten ist nicht gestattet und strafbar. Lediglich die
+                    Herstellung von Kopien und Downloads für den persönlichen, privaten und nicht
+                    kommerziellen Gebrauch ist erlaubt.</p>
+                <ab rend="h4">Haftungsausschluss</ab>
+                <p>Die Inhalte dieses Internetangebotes wurden sorgfältig geprüft und nach bestem
+                    Wissen erstellt. Eine Haftung oder Garantie für die Aktualität, Richtigkeit und
+                    Vollständigkeit der zur Verfügung gestellten Informationen und Daten ist jedoch
+                    ausgeschlossen. In keinem Fall wird für Schäden, die sich aus der Verwendung der
+                    abgerufenen Informationen ergeben, eine Haftung übernommen.</p>
+                <ab rend="h4">Links</ab>
+                <p>Wir haben keinen Einfluss auf den Inhalt der von dieser Seite verlinkten externen
+                    Internetseiten und sind für diese auch nicht verantwortlich. Eine Prüfung bei
+                    der Verlinkung ergab keine strafbaren Inhalte auf diesen Seiten. Alle
+                    Linkangaben ohne Gewähr. Seitenaufrufe externer Seiten über diese Links erfolgen
+                    auf eigene Gefahr. Dies gilt für alle Links auf dieser Internetseite.</p>
+                <ab rend="h4">Seitenhinweise</ab>
+                <p>Diese Seiten wurden in weiten Teilen gemäß den Richtlinien für barrierefreie
+                    Internetmedien des World Wide Web Consortiums entwickelt. Die dazu verwendeten
+                    Techniken machen die Seite für alle Ausgabemedien, die HTML interpretieren
+                    können, zugänglich. Sollten Sie Probleme bei der Wiedergabe der Seiten haben
+                    (Seitenstruktur, grafische Darstellung, Anordnung der Navigation u.ä.), so
+                    könnte dies daran liegen, dass Sie einen älteren Browser benutzen, der die heute
+                    gängigen Techniken nicht oder nur fehlerhaft interpretieren kann.</p>
             </div>
         </body>
     </text>

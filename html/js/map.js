@@ -7,7 +7,7 @@ $(document).ready(function() {
             Accept: "application/json"
         },
         dataType: "json",
-        url: 'https://sturm-edition.de/api/v1/places',
+        url: 'https://sturm-edition.de/api/places',
         success: function(response) {
             for (let place of response.place) {
                 let geo = place.location.geo.split(' ');

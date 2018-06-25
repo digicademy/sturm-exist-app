@@ -43,6 +43,7 @@ let $txtFiles := (
 let $htmlFiles := (
     sturm_html:Pages($appRoot, $appName, '/xml/seiten/', '/html/'),
     sturm_html:Letters($appRoot, $appName, '/xml/quellen/01.briefe/', '/html/quellen/briefe/'),
+    sturm_html:Letters($appRoot, $appName, '/xml/versionen/quellen/01.briefe/', '/html/quellen/briefe/'),
     sturm_html:Registers($appRoot, $appName, '/xml/register/', '/html/register/'),
     sturm_html:Sources($appRoot, $appName, '/xml/templates/01.template.xml', '/html/quellen/briefe/'),
     sturm_html:Persons($appRoot, $appName, '/xml/register/personen.xml', '/html/register/personen/'),

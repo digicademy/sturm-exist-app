@@ -6,6 +6,23 @@
         <meta name="author" content="Marjam Mahmoodzada"/>
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
         <title>Digitale Methodik : Der STURM. Digitale Quellenedition zur Geschichte der internationalen Avantgarde</title>
+        <script>
+                var Hyphenopoly = {
+                    require: {
+                        "de": "FORCEHYPHENOPOLY"
+                    },
+                    paths: {
+                    patterndir: "/Hyphenopoly/patterns/",
+                        maindir: "/Hyphenopoly/"
+                    },
+                    setup: {
+                        classnames: {
+                            "container": {}
+                        }
+                    }
+                };
+            </script>
+        <script src="../Hyphenopoly/Hyphenopoly_Loader.js"></script>
         <link rel="stylesheet" type="text/css" href="../MyFontsWebfontsKit/MyFontsWebfontsKit.css"/>
         <link href="https://fonts.googleapis.com/css?family=Tinos:400,700" rel="stylesheet" type="text/css"/>
         <link rel="stylesheet" href="../css/normalize.css"/>
@@ -30,7 +47,7 @@
                     </ul>
                 </nav>
             </header>
-            <main class="row content">
+            <main class="row content hyphenate">
                 <section class="twelve columns">
                 <div class="row">
                     <div class="columns eight">
@@ -59,7 +76,7 @@
                             </nav>
                         <h4>Editionsrichtlinien</h4>
                         <p>
-                            Informationen zur konkreten Implementierung des hier beschriebenen Datenmodells innerhalb von
+                            Informationen zur Implementierung des hier beschriebenen Datenmodells innerhalb von
                             TEI/XML finden sich in den <a class="internal" href="../../edition.html">Editionsrichtlinien</a>.
                         </p>
                     </div>
@@ -413,7 +430,7 @@ TYP.ABTEILUNG.DATIERUNG.SIGLE.LAUFNUMMER[#][ABSATZ/BILD].[KOLUMNE].[SEITE/FOLIO]
                             Neben der besseren Performance hat dieser Ansatz weitere Vorteile, beispielsweise eine gesteigerte Nachhaltigkeit.
                             So können nicht nur die Forschungsdaten und der dazugehörige Programmcode sondern auch die 
                             ansonsten relativ „flüchtige“ – weil meist an spezifische Softwarefunktionen gebundene – HTML-Präsentationsschicht der Edition 
-                            fertig generiert und über <a class="internal" href="../#">GitHub</a> und <a class="internal" href="../#">Zenodo</a> frei zum Download verfügbar gemacht werden.
+                            fertig generiert und über <a class="external internal" href="https://github.com/digicademy/sturm-edition/">GitHub</a> und <a class="internal" href="../#">Zenodo</a> frei zum Download verfügbar gemacht werden.
                             Für den Einsatz in der <a class="internal" href="../../ressourcen/lehre.html">Lehre</a> wurde zudem eine zweite STURM-Webanwendung entwickelt, die genau die gleiche Präsentationsschicht erzeugt. 
                             Mit dem Unterschied, dass diese zweite Applikation in PHP unter Verwendung des objektorientierten Programmierparadigmas und entlang der Architekturprinzipien des
                             Domain Driven Design implementiert ist. Dadurch ist es möglich, anhand <strong>einer</strong> digitalen Edition exemplarisch beide gängigen 
@@ -432,7 +449,7 @@ TYP.ABTEILUNG.DATIERUNG.SIGLE.LAUFNUMMER[#][ABSATZ/BILD].[KOLUMNE].[SEITE/FOLIO]
                             <a class="external internal" href="http://www.dfg.de/foerderung/info_wissenschaft/2014/info_wissenschaft_14_68/">Appell zur Nutzung offener 
                                 Lizenzen in der Wissenschaft</a> der DFG unter einer <a class="external internal" href="https://creativecommons.org/licenses/by/4.0/"> Creative Commons 
                                 Attribution 4.0 International Lizenz (CC-BY 4.0)</a> zur Nachnutzung zur Verfügung gestellt. Die Forschungsdaten können hierbei entweder zusammen 
-                            mit der Applikation <a class="internal" href="../#">heruntergeladen</a> oder on-the-fly über eine <a class="internal" href="../../ressourcen/schnittstellen.html">Schnittstelle</a> bezogen werden. Das Personenregister wird weiterhin in Form einer
+                            mit der Applikation <a class="external internal" href="https://github.com/digicademy/sturm-edition/">heruntergeladen</a> oder on-the-fly über eine <a class="internal" href="../../ressourcen/schnittstellen.html">Schnittstelle</a> bezogen werden. Das Personenregister wird weiterhin in Form einer
                             <a class="external internal" href="https://de.wikipedia.org/wiki/Wikipedia:BEACON">BEACON-Datei</a> zur Verfügung gestellt, die Korrespondenz-Metadaten der STURM-Künstlerbriefe stehen 
                             als <a class="external internal" href="https://correspsearch.net/index.xql?id=participate_cmi-format&amp;l=de">CMIF</a> zur Verfügung.
                         </p>

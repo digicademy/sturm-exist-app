@@ -21,6 +21,13 @@
                 <bibl type="hybrid">schnittstellen.xml</bibl>
             </sourceDesc>
         </fileDesc>
+        <revisionDesc>
+            <listChange>
+                <change>
+                    <date when="2018-06-24" n="1"/>
+                </change>
+            </listChange>
+        </revisionDesc>
     </teiHeader>
     <text>
         <body>
@@ -30,6 +37,25 @@
                     Innerhalb der Quellenedition sind mehrere Schnittstellen für einen programmierenden bzw. maschinengestützten 
                     Zugriff auf die STURM-Forschungsdaten implementiert.
                 </p>
+                <ab rend="h3">URI-Resolver</ab>
+                <p>
+                    Alle Entitäten der Edition (Quellen, Personen, Orte, Werke etc.) sind mittels persistenter 
+                    Identifikatoren (URIs) dauerhaft referenziert. Hierbei steht ein URI für die
+                    abstrakte digitale Ressource innerhalb der STURM-Edition, die in verschiedene konkrete Repräsentationen 
+                    aufgelöst werden kann.
+                </p>
+                <p>
+                    <emph rend="strong">Beispiel:</emph> <ref target="https://sturm-edition.de/id/Q.01.19140115.FMA.01">https://sturm-edition.de/id/Q.01.19140115.FMA.01</ref>
+                </p>
+                <p>
+                    Für jeden URI ist ein Resolving mittels <ref target="https://developer.mozilla.org/en-US/docs/Web/HTTP/Content_negotiation">Content Negotiation</ref>
+                    implementiert, über das verschiedene Formate (Repräsentationen) einer Ressource innerhalb der STURM-Edition bezogen werden können.
+                    Dazu sendet der Client beim Aufruf eines URI einen <code>Accept-Header</code> mit dem gewünschten Format (entweder <code>text/html</code>, <code>application/xml</code> 
+                    oder <code>application/json</code>). Der Resolver leitet auf Basis des <code>Accept-Header</code> die Anfrage
+                    zur jeweiligen URL weiter, unter der sich die formatspezifische Version der Ressource (HTML, XML, JSON) befindet. Hierbei sendet der Resolver den Status-Code <code>302 Found</code>
+                    sowie einen <code>Location-Header</code> mit der jeweiligen Ziel-URL. Sendet der Client keinen <code>Accept-Header</code> wird HTML als Standardformat für
+                    die jeweilige Ressource angenommen.
+                </p>
                 <ab rend="h3">Datenschnittstelle (XML/JSON)</ab>
                 <p>
                     Über die Datenschnittstelle lassen sich sämtliche Text- und Registerdaten der Edition als TEI/XML 
@@ -37,29 +63,30 @@
                 </p>
                 <p>
                     <code>
-https://sturm-edition.de/api/v1/
+https://sturm-edition.de/api/
                     </code>
                 </p>
                 <p>
-                    Die Schnittstelle implementiert <ref target="https://developer.mozilla.org/en-US/docs/Web/HTTP/Content_negotiation">Content Negotiation</ref>
-                    und kann entweder – je nach dem vom Client gesendeten <code>Accept-Header</code> TEI/XML oder JSON ausliefern
-                    (<code>application/xml</code> oder <code>application/json</code>). Unterhalb des Einstiegspunktes
-                    stehen fünf unterschiedliche Auslieferungspunkte zur Verfügung:
+                    Die Schnittstelle orientiert sich an den Prinzipien der <ref target="https://philsturgeon.uk/api/2018/05/02/api-evolution-for-rest-http-apis/">API Evolution</ref>
+                    und bietet stabile, unveränderliche Auslieferungspunkte. Diese implementieren <ref target="https://developer.mozilla.org/en-US/docs/Web/HTTP/Content_negotiation">Content Negotiation</ref>
+                    und können entweder – je nach dem vom Client gesendeten <code>Accept-Header</code> TEI/XML oder JSON ausliefern
+                    (<code>application/xml</code> oder <code>application/json</code>). Unterhalb des übergeordneten API-Einstiegspunktes
+                    stehen momentan die folgenden fünf Auslieferungspunkte zur Verfügung:
                 </p>
                 <ab rend="pre">
                     <code>
-/api/v1/
-        letters
-               /Q.01.19140115.FMA.01
-        places
-               /O.0000009
-        persons
-               /P.0000021
-        works
-               /W.0000066
-        files
-               /Q.01.19140115.FMA.01.xml
-               /schnittstellen.xml
+/api/
+      letters
+             /Q.01.19140115.FMA.01
+      places
+             /O.0000009
+      persons
+             /P.0000021
+      works
+             /W.0000066
+      files
+             /Q.01.19140115.FMA.01.xml
+             /schnittstellen.xml
                     </code>
                 </ab>
                 <p>
@@ -85,40 +112,40 @@ https://sturm-edition.de/api/v1/
                     <row>
                         <cell>Brief</cell>
                         <cell>
-                            <ref target="https://sturm-edition.de/api/v1/letters/Q.01.19140115.FMA.01">
-                                https://sturm-edition.de/api/v1/letters/Q.01.19140115.FMA.01
+                            <ref target="https://sturm-edition.de/api/letters/Q.01.19140115.FMA.01">
+                                https://sturm-edition.de/api/letters/Q.01.19140115.FMA.01
                             </ref>
                         </cell>
                     </row>
                     <row>
                         <cell>Ort</cell>
                         <cell>
-                            <ref target="https://sturm-edition.de/api/v1/places/O.0000009">
-                                https://sturm-edition.de/api/v1/places/O.0000009
+                            <ref target="https://sturm-edition.de/api/places/O.0000009">
+                                https://sturm-edition.de/api/places/O.0000009
                             </ref>
                         </cell>
                     </row>
                     <row>
                         <cell>Person</cell>
                         <cell>
-                            <ref target="https://sturm-edition.de/api/v1/persons/P.0000021">
-                                https://sturm-edition.de/api/v1/persons/P.0000021
+                            <ref target="https://sturm-edition.de/api/persons/P.0000021">
+                                https://sturm-edition.de/api/persons/P.0000021
                             </ref>
                         </cell>
                     </row>
                     <row>
                         <cell>Werk</cell>
                         <cell>
-                            <ref target="https://sturm-edition.de/api/v1/works/W.0000066">
-                                https://sturm-edition.de/api/v1/works/W.0000066
+                            <ref target="https://sturm-edition.de/api/works/W.0000066">
+                                https://sturm-edition.de/api/works/W.0000066
                             </ref>
                         </cell>
                     </row>
                     <row>
                         <cell>Datei</cell>
                         <cell>
-                            <ref target="https://sturm-edition.de/api/v1/files/Q.01.19140115.FMA.01.xml">
-                                https://sturm-edition.de/api/v1/files/Q.01.19140115.FMA.01.xml
+                            <ref target="https://sturm-edition.de/api/files/Q.01.19140115.FMA.01.xml">
+                                https://sturm-edition.de/api/files/Q.01.19140115.FMA.01.xml
                             </ref>
                         </cell>
                     </row>

@@ -42,7 +42,7 @@
             </ul>
             <ul class="actions">
                 <li class="xml">
-                    <a target="_blank" class="black button" href="{concat('/api/v1/files/', //tei:publicationStmt/tei:idno[@type = 'file'])}" title="XML Quelle ansehen">➚ XML</a>
+                    <a target="_blank" class="black button" href="{concat('/api/files/', //tei:publicationStmt/tei:idno[@type = 'file'])}" title="XML Quelle ansehen">➚ XML</a>
                 </li>
                 <li class="metadata">
                     <a target="_blank" class="black button" href="{$metadata}" title="Metadaten bei der Staatsbibliothek Berlin">➚ Metadaten</a>

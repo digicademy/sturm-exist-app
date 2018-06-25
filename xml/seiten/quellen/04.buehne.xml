@@ -21,6 +21,13 @@
                 <bibl type="hybrid">abteilung-vier.xml</bibl>
             </sourceDesc>
         </fileDesc>
+        <revisionDesc>
+            <listChange>
+                <change>
+                    <date when="2018-06-24" n="1"/>
+                </change>
+            </listChange>
+        </revisionDesc>
     </teiHeader>
     <text>
         <body>

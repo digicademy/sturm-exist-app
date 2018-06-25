@@ -75,7 +75,7 @@
                         <xsl:call-template name="navigation"/>
                     </header>
 
-                    <main class="row content">
+                    <main class="row content hyphenate">
                         <xsl:choose>
                             <xsl:when test="$transformation eq 'letter'">
                                 <div class="department">

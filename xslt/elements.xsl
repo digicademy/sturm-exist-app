@@ -230,6 +230,11 @@
             </xsl:choose>
         </xsl:variable>
         <table class="{$class}">
+            <xsl:if test=".//tei:head">
+                <caption>
+                    <xsl:apply-templates select=".//tei:head"/>
+                </caption>
+            </xsl:if>
             <xsl:if test=".//tei:row[@rend='th']">
                 <thead>
                     <tr>

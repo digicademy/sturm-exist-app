@@ -23,6 +23,13 @@
                 <bibl type="hybrid">methodik.xml</bibl>
             </sourceDesc>
         </fileDesc>
+        <revisionDesc>
+            <listChange>
+                <change>
+                    <date when="2018-06-24" n="1"/>
+                </change>
+            </listChange>
+        </revisionDesc>
     </teiHeader>
     <text>
         <body>
@@ -47,7 +54,7 @@
                         <ab type="subNavigation" n="projekt"/>
                         <ab rend="h4">Editionsrichtlinien</ab>
                         <p>
-                            Informationen zur konkreten Implementierung des hier beschriebenen Datenmodells innerhalb von
+                            Informationen zur Implementierung des hier beschriebenen Datenmodells innerhalb von
                             TEI/XML finden sich in den <ref target="../edition.xml">Editionsrichtlinien</ref>.
                         </p>
                     </div>
@@ -377,7 +384,7 @@ TYP.ABTEILUNG.DATIERUNG.SIGLE.LAUFNUMMER[#][ABSATZ/BILD].[KOLUMNE].[SEITE/FOLIO]
                             Neben der besseren Performance hat dieser Ansatz weitere Vorteile, beispielsweise eine gesteigerte Nachhaltigkeit.
                             So können nicht nur die Forschungsdaten und der dazugehörige Programmcode sondern auch die 
                             ansonsten relativ „flüchtige“ – weil meist an spezifische Softwarefunktionen gebundene – HTML-Präsentationsschicht der Edition 
-                            fertig generiert und über <ref target="#">GitHub</ref> und <ref target="#">Zenodo</ref> frei zum Download verfügbar gemacht werden.
+                            fertig generiert und über <ref target="https://github.com/digicademy/sturm-edition/">GitHub</ref> und <ref target="#">Zenodo</ref> frei zum Download verfügbar gemacht werden.
                             Für den Einsatz in der <ref target="../ressourcen/lehre.xml">Lehre</ref> wurde zudem eine zweite STURM-Webanwendung entwickelt, die genau die gleiche Präsentationsschicht erzeugt. 
                             Mit dem Unterschied, dass diese zweite Applikation in PHP unter Verwendung des objektorientierten Programmierparadigmas und entlang der Architekturprinzipien des
                             Domain Driven Design implementiert ist. Dadurch ist es möglich, anhand <emph rend="strong">einer</emph> digitalen Edition exemplarisch beide gängigen 
@@ -396,7 +403,7 @@ TYP.ABTEILUNG.DATIERUNG.SIGLE.LAUFNUMMER[#][ABSATZ/BILD].[KOLUMNE].[SEITE/FOLIO]
                             <ref target="http://www.dfg.de/foerderung/info_wissenschaft/2014/info_wissenschaft_14_68/">Appell zur Nutzung offener 
                                 Lizenzen in der Wissenschaft</ref> der DFG unter einer <ref target="https://creativecommons.org/licenses/by/4.0/"> Creative Commons 
                                 Attribution 4.0 International Lizenz (CC-BY 4.0)</ref> zur Nachnutzung zur Verfügung gestellt. Die Forschungsdaten können hierbei entweder zusammen 
-                            mit der Applikation <ref target="#">heruntergeladen</ref> oder on-the-fly über eine <ref target="../ressourcen/schnittstellen.xml">Schnittstelle</ref> bezogen werden. Das Personenregister wird weiterhin in Form einer
+                            mit der Applikation <ref target="https://github.com/digicademy/sturm-edition/">heruntergeladen</ref> oder on-the-fly über eine <ref target="../ressourcen/schnittstellen.xml">Schnittstelle</ref> bezogen werden. Das Personenregister wird weiterhin in Form einer
                             <ref target="https://de.wikipedia.org/wiki/Wikipedia:BEACON">BEACON-Datei</ref> zur Verfügung gestellt, die Korrespondenz-Metadaten der STURM-Künstlerbriefe stehen 
                             als <ref target="https://correspsearch.net/index.xql?id=participate_cmi-format&amp;l=de">CMIF</ref> zur Verfügung.
                         </p>

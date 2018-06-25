@@ -31,6 +31,46 @@
         <section class="eight columns maincontent">
             <div class="{$sourcetype}">
 
+                <xsl:variable name="identifier">
+                    <xsl:value-of select="/tei:TEI/@xml:id"/>
+                </xsl:variable>
+
+                <xsl:variable name="editor">
+                    <xsl:choose>
+                        <xsl:when test="//tei:editor/tei:persName/@ref">
+                            <a href="{//tei:editor/tei:persName/@ref}">
+                                <xsl:value-of select="//tei:editor/tei:persName/tei:surname"/>,
+                                <xsl:value-of select="//tei:editor/tei:persName/tei:forename"/>
+                            </a>
+                        </xsl:when>
+                        <xsl:otherwise>
+                            <xsl:value-of select="//tei:editor/tei:persName/tei:surname"/>,
+                            <xsl:value-of select="//tei:editor/tei:persName/tei:forename"/>
+                        </xsl:otherwise>
+                    </xsl:choose>
+                </xsl:variable>
+
+                <xsl:variable name="formattedDate">
+                    <xsl:call-template name="dateTime-to-RFC-2822">
+                        <xsl:with-param name="dateTime">
+                            <xsl:value-of select="//tei:revisionDesc/tei:listChange/tei:change/tei:date[1]/@when"/>
+                        </xsl:with-param>
+                    </xsl:call-template>
+                </xsl:variable>
+
+                <xsl:if test="contains($idno, 'v')">
+                    <div class="versions">
+                        <p>
+                            <strong>Hinweis:</strong><br/> Sie betrachten gerade folgende ältere Version dieser Quelle: 
+                            Version <xsl:value-of select="//tei:revisionDesc/tei:listChange/tei:change/tei:date[1]/@n"/> vom <xsl:value-of select="$formattedDate"/>
+                        </p>
+                        <p>
+                            Die aktuelle Version dieser Quelle findet sich unter folgender URI: <br/>
+                            <a href="https://sturm-edition.de/id/{$identifier}">https://sturm-edition.de/id/<xsl:value-of select="$identifier"/></a>
+                        </p>
+                    </div>
+                </xsl:if>
+
                 <h4 class="dateline">
                     <xsl:if test="$dateString ne ''"> [<time datetime="{$dateISO}">
                             <xsl:value-of select="$dateString"/>
@@ -63,48 +103,38 @@
                     <xsl:call-template name="apparatus"/>
                 </xsl:if>
 
-                <xsl:variable name="identifier">
-                    <xsl:value-of select="/tei:TEI/@xml:id"/>
-                </xsl:variable>
-
                 <div class="info">
                     <p>
                         <strong>Zitierhinweis:</strong>
                         <br/>
-                        <xsl:variable name="editor">
-                            <xsl:choose>
-                                <xsl:when test="//tei:editor/tei:persName/@ref">
-                                    <a href="{//tei:editor/tei:persName/@ref}">
-                                        <xsl:value-of select="//tei:editor/tei:persName/tei:surname"/>,
-                                        <xsl:value-of select="//tei:editor/tei:persName/tei:forename"/>
-                                    </a>
-                                </xsl:when>
-                                <xsl:otherwise>
-                                    <xsl:value-of select="//tei:editor/tei:persName/tei:surname"/>,
-                                    <xsl:value-of select="//tei:editor/tei:persName/tei:forename"/>
-                                </xsl:otherwise>
-                            </xsl:choose>
-                        </xsl:variable>
-                        <xsl:variable name="formattedDate">
-                            <xsl:call-template name="dateTime-to-RFC-2822">
-                                <xsl:with-param name="dateTime">
-                                    <xsl:value-of select="//tei:publicationStmt/tei:date/@when"/>
-                                </xsl:with-param>
-                            </xsl:call-template>
-                        </xsl:variable>
                         <xsl:value-of select="$editor"/>:
                         „<xsl:value-of select="subsequence(tokenize(string-join(//tei:title[1]/text(), ''), ','), 1, 1)"/>, 
                         <xsl:value-of select="subsequence(tokenize(string-join(//tei:title[1]/text(), ''), ','), 2, 1)"/>“, in: 
                         <xsl:text>
                             DER STURM. Digitale Quellenedition zur Geschichte der internationalen Avantgarde, erarbeitet und herausgegeben von Marjam Trautmann und Torsten Schrade. Mainz, Akademie der Wissenschaften und der Literatur, 
                         </xsl:text>
-                        <xsl:value-of select="$formattedDate"/>.
+                        Version <xsl:value-of select="//tei:revisionDesc/tei:listChange/tei:change/tei:date[1]/@n"/> vom <xsl:value-of select="$formattedDate"/>.
                     </p>
                     <p>
                         <strong>URI:</strong>
                         <br/>
-                        <a href="https://sturm-edition.de/id/{$identifier}">https://sturm-edition.de/id/<xsl:value-of select="$identifier"/>
-                        </a>
+                        <a href="https://sturm-edition.de/id/{$identifier}">https://sturm-edition.de/id/<xsl:value-of select="$identifier"/></a>
+                    </p>
+                    <p>
+                        <strong>Versionen:</strong>
+                        <xsl:for-each select="//tei:revisionDesc/tei:listChange/tei:change/tei:date">
+                            <xsl:variable name="formattedDate">
+                                <xsl:call-template name="dateTime-to-RFC-2822">
+                                    <xsl:with-param name="dateTime">
+                                        <xsl:value-of select="@when"/>
+                                    </xsl:with-param>
+                                </xsl:call-template>
+                            </xsl:variable>
+                            <br/>
+                            <a href="https://sturm-edition.de/id/{$identifier}/{@n}">
+                                https://sturm-edition.de/id/<xsl:value-of select="$identifier"/>/<xsl:value-of select="@n"/>
+                            </a> (<xsl:value-of select="$formattedDate"/>)
+                        </xsl:for-each>
                     </p>
                     <p>
                         <strong>Nutzungshinweis:</strong>
@@ -237,7 +267,7 @@
         </span>
     </xsl:template>
 
-    <xsl:template match="tei:div[@type = 'attachement']/tei:div/tei:head">
+    <xsl:template match="tei:div[@type = 'attachment']/tei:div/tei:head">
         <p>
             <strong>
                 <xsl:apply-templates select="node()"/>
