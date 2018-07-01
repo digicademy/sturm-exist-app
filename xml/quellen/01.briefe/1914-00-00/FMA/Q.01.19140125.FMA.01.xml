@@ -82,14 +82,14 @@
         </revisionDesc>
     </teiHeader>
     <facsimile>
-        <graphic n="182v" url="http://content.staatsbibliothek-berlin.de/dms/PPN746598564/800/0/00000001.jpg"/>
-        <graphic n="182r" url="http://content.staatsbibliothek-berlin.de/dms/PPN746598564/800/0/00000002.jpg"/>
+        <graphic n="182r" url="http://content.staatsbibliothek-berlin.de/dms/PPN746598564/800/0/00000001.jpg"/>
+        <graphic n="182v" url="http://content.staatsbibliothek-berlin.de/dms/PPN746598564/800/0/00000002.jpg"/>
         <graphic n="Farbkeil" url="http://content.staatsbibliothek-berlin.de/dms/PPN746598564/800/0/00000003.jpg"/>
     </facsimile>
     <text type="telegram">
         <body>
             <div type="address">
-                <pb xml:id="S.182v" n="182v" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000DAA700000001"/>           
+                <pb xml:id="S.182r" n="182r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000DAA700000001"/>
             <ab type="recipient">
                 <address>
                     <addrLine>walden berlin potsdamerstr 1<hi rend="underline">3</hi>4 <hi rend="underline">a</hi> =</addrLine>

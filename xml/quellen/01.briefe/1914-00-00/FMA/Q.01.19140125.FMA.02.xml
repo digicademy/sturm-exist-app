@@ -82,14 +82,14 @@
         </revisionDesc>
     </teiHeader>
     <facsimile>
-        <graphic n="183v" url="http://content.staatsbibliothek-berlin.de/dms/PPN746598572/800/0/00000001.jpg"/>
-        <graphic n="183r" url="http://content.staatsbibliothek-berlin.de/dms/PPN746598572/800/0/00000002.jpg"/>
+        <graphic n="183r" url="http://content.staatsbibliothek-berlin.de/dms/PPN746598572/800/0/00000001.jpg"/>
+        <graphic n="183v" url="http://content.staatsbibliothek-berlin.de/dms/PPN746598572/800/0/00000002.jpg"/>
         <graphic n="Farbkeil" url="http://content.staatsbibliothek-berlin.de/dms/PPN746598572/800/0/00000003.jpg"/>
     </facsimile>
     <text type="letter">
         <body>
             <div>
-                <pb xml:id="S.183v" n="183v" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000DAA800000001"/>
+                <pb xml:id="S.183r" n="183r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000DAA800000001"/>
                 <opener>
                     <salute>L. <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Walden</persName>,
                     </salute>
@@ -107,7 +107,7 @@
                     allerdings, daß er vergangenen Sommer (cc. <date when="1913-06">Juni</date>, <date when="1913-07">Juli</date>) die „<term type="artwork" key="W.0000035">kämpfenden
                         Kühe</term>“ u. den „<term type="artwork" key="W.0000032">Eselfries</term>“ für 300 von
                     mir hätte kaufen können u. „<term type="artwork" key="W.0000030">die Akte</term>“ glaube ich
-                    für “ 400,–<pb xml:id="S.183r" n="183r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000DAA800000002"/> er hat es aber versäumt; sie waren ihm von mir auf seine Bitte zur Ansicht
+                    für “ 400,–<pb xml:id="S.183v" n="183v" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000DAA800000002"/> er hat es aber versäumt; sie waren ihm von mir auf seine Bitte zur Ansicht
                 zugesandt worden; ich brauchte furchtbar Geld. Inzwischen ist <date when="1913-01">Januar 1913 </date>das <term type="artwork" key="W.0000032">Eselfries</term> für <hi rend="underline">700</hi> (bei <persName key="P.0000071" ref="http://d-nb.info/gnd/117299421">Thannhauser</persName>) an eine Frau <persName key="P.0000072" ref="http://d-nb.info/gnd/118888692">Beckerath</persName><note>Für Frau Luise von Beckerath gibt es keinen Eintrag in der Gemeinsamen Normdatei (GND) der Deutschen Nationalbibliothek. Jedoch gibt es einen solchen für ihren Mann Willy von Beckerath, auf die im Register verwiesen wird.</note>, <unclear><placeName key="O.0000066" ref="http://sws.geonames.org/2833866">Seefeld</placeName></unclear>) verkauft worden; die
                 <term type="artwork" key="W.0000035">kämpfenden Kühe</term> gehören zu <persName key="P.0000070" ref="http://d-nb.info/gnd/116120894">Benkardt</persName>'s großem Schmerze <persName key="P.0000073" ref="http://d-nb.info/gnd/121452735">
                     <hi rend="underline">Köhl</hi>er</persName>, die <term type="artwork" key="W.0000030">Akte</term> sind eben wie <hi rend="twice-underline">alle mei</hi><hi rend="underline">ne Bild</hi>er teurer geworden; wenn er noch wartet, werden sie hoffentlich bald noch teurer. Ich

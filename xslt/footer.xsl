@@ -56,16 +56,19 @@
             <a href="http://www.adwmainz.de/">
                 <img id="logo" src="{$relativeToAppBase}images/adwlogo.png"/>
             </a>
-            <address>
-                Akademie der Wissenschaften und der Literatur Mainz<br/>
-                Geschwister-Scholl-Str. 2<br/>
-                55131 Mainz<br/>
-                Tel: 06131 577 100<br/>
-                generalsekretariat@adwmainz.de<br/>
-                www.adwmainz.de<br/>
+            <address x-ms-format-detection="none" vocab="http://schema.org/" typeof="Organization">
+                <span property="name">Akademie der Wissenschaften und der Literatur Mainz</span><br/>
+                <div property="address" typeof="PostalAddress">
+                    <span property="streetAddress">Geschwister-Scholl-Str. 2</span><br/>
+                    <span property="postalCode">55131</span> 
+                    <span property="addressLocality">Mainz</span>
+                </div>
+                Tel: 
+                <span property="telephone" class="telephone">06131 577 100</span><br/>
+                <span property="email">generalsekretariat@adwmainz.de</span><br/>
+                <a href="http://www.adwmainz.de">www.adwmainz.de</a><br/>
                 <a href="{$relativeToAppBase}impressum.html">Impressum</a><br/>
                 <a href="{$relativeToAppBase}datenschutz.html">Datenschutzerklärung</a>
-                
             </address>
         </section>
     </xsl:template>

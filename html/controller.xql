@@ -64,7 +64,7 @@ else if ($exist:resource ne '.html' and contains($fileIndex, $exist:resource)) t
         <set-header name="Accept-Encoding" value="gzip"/>
         <set-header name="Content-Type" value="text/html"/>
     </dispatch>
-(: css, js, png, jpg and pdf are allowed (but only if not just the file ending is given) :)
+(: allow specific files types :)
 else if (
         $exist:resource ne '.css' and ends-with($exist:resource, ".css") or 
         $exist:resource ne '.js' and ends-with($exist:resource, ".js") or
@@ -76,6 +76,7 @@ else if (
         $exist:resource ne '.woff' and ends-with($exist:resource, ".woff") or
         $exist:resource ne '.woff2' and ends-with($exist:resource, ".woff2") or
         $exist:resource ne '.xml' and ends-with($exist:resource, ".xml") or
+        $exist:resource ne '.svg' and ends-with($exist:resource, ".svg") or
         $exist:resource ne '.txt' and ends-with($exist:resource, ".txt") or
         $exist:resource ne '.txt' and ends-with($exist:resource, ".wasm") or
         $exist:resource ne '.txt' and ends-with($exist:resource, ".hpb")

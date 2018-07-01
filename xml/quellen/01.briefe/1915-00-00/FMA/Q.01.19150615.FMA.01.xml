@@ -86,14 +86,14 @@
         </revisionDesc>
     </teiHeader>
     <facsimile>
-        <graphic n="206v" url="http://content.staatsbibliothek-berlin.de/dms/PPN746598912/800/0/00000001.jpg"/>
-        <graphic n="206r" url="http://content.staatsbibliothek-berlin.de/dms/PPN746598912/800/0/00000002.jpg"/>
+        <graphic n="206r" url="http://content.staatsbibliothek-berlin.de/dms/PPN746598912/800/0/00000001.jpg"/>
+        <graphic n="206v" url="http://content.staatsbibliothek-berlin.de/dms/PPN746598912/800/0/00000002.jpg"/>
         <graphic n="Farbkeil" url="http://content.staatsbibliothek-berlin.de/dms/PPN746598912/800/0/00000003.jpg"/>
     </facsimile>
     <text type="militaryMail">
         <body>
             <div type="address">
-                <pb xml:id="S.206v" n="206v" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000DAC600000001"/>
+                <pb xml:id="S.206r" n="206r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000DAC600000001"/>
                 <ab type="sender">
                     <address>
                         <addrLine>Vizew. Marc / III. bayr. Armeecorps</addrLine>
@@ -126,12 +126,13 @@
                     <salute>Herzl. Grüße Ihnen beiden</salute>
                     <signed>Ihr <persName key="P.0000003" ref="http://d-nb.info/gnd/11857745X">Fz.
                             Marc</persName>
-                    </signed><note>Die Rückseite der Feldpostkarte zeigt einen Auszug aus der Zeitung „Die
-                        Hilfe“ unbekannten Datums mit dem Titel „Eine merkwürdige Prophezeiung aus
-                        des Philosophen Plato (geb. 429 v. Chr.) „Timaeus“ (S. 24 A-25 D) und
-                        „Critias“ (S. 110 C-121 C)“.</note>
+                    </signed>
                 </closer>
             </div>
+            <div type="attachment"><pb xml:id="S.206v" n="206v" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000DAC600000002"/><note>Die Rückseite der Feldpostkarte zeigt einen Auszug aus der Zeitung „Die
+                Hilfe“ unbekannten Datums mit dem Titel „Eine merkwürdige Prophezeiung aus
+                des Philosophen Plato (geb. 429 v. Chr.) „Timaeus“ (S. 24 A-25 D) und
+                „Critias“ (S. 110 C-121 C)“.</note></div>
         </body>
     </text>
 </TEI>

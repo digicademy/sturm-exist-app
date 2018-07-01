@@ -82,14 +82,14 @@
         </revisionDesc>
     </teiHeader>
     <facsimile>
-        <graphic n="200v" url="http://content.staatsbibliothek-berlin.de/dms/PPN746598750/800/0/00000001.jpg"/>
-        <graphic n="200r" url="http://content.staatsbibliothek-berlin.de/dms/PPN746598750/800/0/00000002.jpg"/>
+        <graphic n="200r" url="http://content.staatsbibliothek-berlin.de/dms/PPN746598750/800/0/00000001.jpg"/>
+        <graphic n="200v" url="http://content.staatsbibliothek-berlin.de/dms/PPN746598750/800/0/00000002.jpg"/>
         <graphic n="Farbkeil" url="http://content.staatsbibliothek-berlin.de/dms/PPN746598750/800/0/00000003.jpg"/>
     </facsimile>
     <text type="letter">
         <body>
             <div type="content">
-            <pb xml:id="S.200v" n="200v" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000DAB800000001"/>
+            <pb xml:id="S.200r" n="200r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000DAB800000001"/>
             <p>              
                 <table cols="5">
                     <head>Preisliste Franz Marc</head>

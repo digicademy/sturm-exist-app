@@ -83,16 +83,16 @@
         </revisionDesc>
     </teiHeader>
     <facsimile>
-        <graphic n="179v" url="http://content.staatsbibliothek-berlin.de/dms/PPN746598548/800/0/00000001.jpg"/>
-        <graphic n="179r" url="http://content.staatsbibliothek-berlin.de/dms/PPN746598548/800/0/00000002.jpg"/>
-        <graphic n="180v" url="http://content.staatsbibliothek-berlin.de/dms/PPN746598548/800/0/00000003.jpg"/>
-        <graphic n="180r" url="http://content.staatsbibliothek-berlin.de/dms/PPN746598548/800/0/00000004.jpg"/>
+        <graphic n="179r" url="http://content.staatsbibliothek-berlin.de/dms/PPN746598548/800/0/00000001.jpg"/>
+        <graphic n="179v" url="http://content.staatsbibliothek-berlin.de/dms/PPN746598548/800/0/00000002.jpg"/>
+        <graphic n="180r" url="http://content.staatsbibliothek-berlin.de/dms/PPN746598548/800/0/00000003.jpg"/>
+        <graphic n="180v" url="http://content.staatsbibliothek-berlin.de/dms/PPN746598548/800/0/00000004.jpg"/>
         <graphic n="Farbkeil" url="http://content.staatsbibliothek-berlin.de/dms/PPN746598548/800/0/00000005.jpg"/>
     </facsimile>
     <text type="letter">
         <body>
            <div type="address">
-               <pb xml:id="S.179v" n="179v" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000DAA500000001"/>
+               <pb xml:id="S.179r" n="179r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000DAA500000001"/>
                <ab type="recipient">
                    <address>
                        <addrLine>Herr</addrLine>
@@ -104,7 +104,7 @@
                </ab>
             </div> 
             <div type="content">
-                <pb xml:id="S.180v" n="180v" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000DAA500000003"/>
+                <pb xml:id="S.180r" n="180r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000DAA500000003"/>
                 <opener>
                     <salute>Lieber <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Walden</persName>,</salute>
                 </opener>
@@ -121,7 +121,7 @@
                     wütend aus <placeName key="O.0000032" ref="http://sws.geonames.org/2935022">Dresden</placeName>;
                     er hängt gar nicht (obwohl 2 Sachen im Katalog sind). Er frug im Büro nach den
                     Werken von <persName key="P.0000062" ref="http://d-nb.info/gnd/118518674">Campedonk</persName>,
-                    worauf man ihm versicherte: „Die Sachen waren doch<pb xml:id="S.180r" n="180r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000DAA500000004"/> zu
+                    worauf man ihm versicherte: „Die Sachen waren doch<pb xml:id="S.180v" n="180v" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000DAA500000004"/> zu
                     albern, das konnte nicht in diesem Rahmen gezeigt werden.“ Darauf stellte sich
                         <persName key="P.0000062" ref="http://d-nb.info/gnd/118518674">Campedonk</persName> vor, -
                     <foreign>tableau</foreign>! Meine Sachen hängen verstreut, an unmöglichen
@@ -148,7 +148,7 @@
                     <salute>Hrzl.</salute> <signed>Ihr <persName key="P.0000003" ref="http://d-nb.info/gnd/11857745X">FzMarc</persName>
                     </signed>
                 </closer>
-                <pb xml:id="S.179r" n="179r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000DAA500000002"/>
+                <pb xml:id="S.179v" n="179v" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000DAA500000002"/>
                 <postscript>
                     <p>
                         <label>P.S.</label> Verlangen Sie bitte von <placeName key="O.0000032" ref="http://sws.geonames.org/2935022">Dresden</placeName> meine 8 Bilder

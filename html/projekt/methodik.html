@@ -4,6 +4,7 @@
         <meta charset="utf-8"/>
         <meta name="description" content=""/>
         <meta name="author" content="Marjam Mahmoodzada"/>
+        <meta name="author" content="Torsten Schrade"/>
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
         <title>Digitale Methodik : Der STURM. Digitale Quellenedition zur Geschichte der internationalen Avantgarde</title>
         <script>
@@ -12,8 +13,8 @@
                         "de": "FORCEHYPHENOPOLY"
                     },
                     paths: {
-                    patterndir: "/Hyphenopoly/patterns/",
-                        maindir: "/Hyphenopoly/"
+                        patterndir: "/js/Hyphenopoly/patterns/",
+                        maindir: "/js/Hyphenopoly/"
                     },
                     setup: {
                         classnames: {
@@ -22,14 +23,16 @@
                     }
                 };
             </script>
-        <script src="../Hyphenopoly/Hyphenopoly_Loader.js"></script>
-        <link rel="stylesheet" type="text/css" href="../MyFontsWebfontsKit/MyFontsWebfontsKit.css"/>
-        <link href="https://fonts.googleapis.com/css?family=Tinos:400,700" rel="stylesheet" type="text/css"/>
-        <link rel="stylesheet" href="../css/normalize.css"/>
-        <link rel="stylesheet" href="../css/skeleton.css"/>
-        <link rel="stylesheet" href="../css/magnific-popup.css"/>
-        <link rel="stylesheet" href="../css/atom-one-light.css"/>
-        <link rel="stylesheet" href="../css/style.css"/>
+        <script src="../js/Hyphenopoly/Hyphenopoly_Loader.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Tinos:400,400i,700,700i&amp;subset=latin-ext" rel="stylesheet"/>
+        <link href="https://fonts.googleapis.com/css?family=Ramaraja" rel="stylesheet"/>
+        <link rel="stylesheet" type="text/css" href="../css/MyFontsWebfontsKit/MyFontsWebfontsKit.css"/>
+        <link rel="stylesheet" type="text/css" media="screen" href="../css/normalize.css"/>
+        <link rel="stylesheet" type="text/css" media="screen" href="../css/skeleton.css"/>
+        <link rel="stylesheet" type="text/css" media="screen" href="../css/magnific-popup.css"/>
+        <link rel="stylesheet" type="text/css" media="screen" href="../css/atom-one-light.css"/>
+        <link rel="stylesheet" type="text/css" media="screen" href="../css/style.css"/>
+        <link rel="stylesheet" type="text/css" media="print" href="../css/print.css"/>
         <link rel="icon" type="image/png" href="../images/favicon.png"/></head>
     <body id="methodik">
         <div class="container">
@@ -47,11 +50,11 @@
                     </ul>
                 </nav>
             </header>
-            <main class="row content hyphenate">
+            <main class="row content hyphenate" id="main">
                 <section class="twelve columns">
                 <div class="row">
                     <div class="columns eight">
-                        <h2>Digitale Methodik</h2>
+                        <h2 class="standard">Digitale Methodik</h2>
                         <p>
                             Im Zentrum der digitalen Methodik des Projektes steht eine Systematisierung und Modellierung
                             der zahlreichen unterschiedlichen Quellentypen des STURM in einem übergreifenden Datenmodell.
@@ -74,7 +77,7 @@
                                     <li><a href="methodik.html" class="active">Digitale Methodik</a></li>
                                 </ul>
                             </nav>
-                        <h4>Editionsrichtlinien</h4>
+                        <h4 class="standard">Editionsrichtlinien</h4>
                         <p>
                             Informationen zur Implementierung des hier beschriebenen Datenmodells innerhalb von
                             TEI/XML finden sich in den <a class="internal" href="../../edition.html">Editionsrichtlinien</a>.
@@ -82,7 +85,7 @@
                     </div>
                 </div>
                 <div>
-                    <h3>Forschungsdaten</h3>
+                    <h3 class="standard">Forschungsdaten</h3>
                 </div>
                 <div class="row">
                     <div class="columns six">
@@ -109,7 +112,7 @@
                     </div>
                 </div>
                 <div>
-                    <h4>Gesamtsystematik</h4>
+                    <h4 class="standard">Gesamtsystematik</h4>
                 </div>
                 <div class="row">
                     <div class="columns six">
@@ -136,7 +139,7 @@
                     </div>
                 </div>
                 <div>
-                    <h4>Persistente Identifikatoren und Permalinks</h4>
+                    <h4 class="standard">Persistente Identifikatoren und Permalinks</h4>
                     <p>
                         Alle semantischen und strukturellen Entitäten der STURM-Quellen werden mittels persistenter Identifikatoren dauerhaft referenziert.
                         Die Identifikatoren sind gemäß einer „sprechenden“ Systematik angelegt, die Rückschlüsse auf das jeweilige Stück bzw. die jeweilige
@@ -161,7 +164,7 @@
                             Die Identifikatoren der Edition gliedern sich momentan in sieben unterschiedliche Typen, die über den 
                             ersten Buchstaben eines Identifikators unterscheidbar sind:
                         </p>
-                        <h4>Typen von Identifikatoren</h4>
+                        <h4 class="standard">Typen von Identifikatoren</h4>
                         <table class="grid">
                                 <thead>
                                     <tr>
@@ -208,7 +211,7 @@
                                     </tr>
                                 </tbody>
                             </table>
-                        <h4>Quellenidentifikatoren</h4>
+                        <h4 class="standard">Quellenidentifikatoren</h4>
                         <p>
                             Die Quellenidentifikatoren orientieren sich an folgendem grundlegenden Schema (optionale Elemente in Winkelklammern):
                         </p>
@@ -220,7 +223,7 @@ TYP.ABTEILUNG.DATIERUNG.SIGLE.LAUFNUMMER[#][ABSATZ/BILD].[KOLUMNE].[SEITE/FOLIO]
                         <p>
                             Gemäß dieser Systematik verwendet jede Quellengattung folgende Identifikatoren, um Stücke oder Teile von Stücken zu bezeichnen:
                         </p>
-                        <h5>Abteilung I, STURM-Briefe</h5>
+                        <h5 class="standard">Abteilung I, STURM-Briefe</h5>
                         <table class="packed">
                                 <thead>
                                     <tr>
@@ -246,7 +249,7 @@ TYP.ABTEILUNG.DATIERUNG.SIGLE.LAUFNUMMER[#][ABSATZ/BILD].[KOLUMNE].[SEITE/FOLIO]
                                     </tr>
                                 </tbody>
                             </table>
-                        <h5>Abteilung II, STURM-Zeitschrift</h5>
+                        <h5 class="standard">Abteilung II, STURM-Zeitschrift</h5>
                         <table class="packed">
                                 <thead>
                                     <tr>
@@ -290,7 +293,7 @@ TYP.ABTEILUNG.DATIERUNG.SIGLE.LAUFNUMMER[#][ABSATZ/BILD].[KOLUMNE].[SEITE/FOLIO]
                                     </tr>
                                 </tbody>
                             </table>
-                        <h5>Abteilung III, STURM-Kataloge</h5>
+                        <h5 class="standard">Abteilung III, STURM-Kataloge</h5>
                         <table class="packed">
                                 <thead>
                                     <tr>
@@ -329,7 +332,7 @@ TYP.ABTEILUNG.DATIERUNG.SIGLE.LAUFNUMMER[#][ABSATZ/BILD].[KOLUMNE].[SEITE/FOLIO]
                                     </tr>
                                 </tbody>
                             </table>
-                        <h5>Abteilung IV, STURM-Bühne</h5>
+                        <h5 class="standard">Abteilung IV, STURM-Bühne</h5>
                         <table class="packed">
                                 <thead>
                                     <tr>
@@ -368,7 +371,7 @@ TYP.ABTEILUNG.DATIERUNG.SIGLE.LAUFNUMMER[#][ABSATZ/BILD].[KOLUMNE].[SEITE/FOLIO]
                                     </tr>
                                 </tbody>
                             </table>
-                        <h5>Abteilung V, STURM-Schriften</h5>
+                        <h5 class="standard">Abteilung V, STURM-Schriften</h5>
                         <table class="packed">
                                 <thead>
                                     <tr>
@@ -397,7 +400,7 @@ TYP.ABTEILUNG.DATIERUNG.SIGLE.LAUFNUMMER[#][ABSATZ/BILD].[KOLUMNE].[SEITE/FOLIO]
                                     </tr>
                                 </tbody>
                             </table>
-                        <h4>Siglen der STURM-Künstlerinnen und -Künstler</h4>
+                        <h4 class="standard">Siglen der STURM-Künstlerinnen und -Künstler</h4>
                         <p>
                             Neben dem Zeitstempel beinhalten Identifikatoren, die ein spezifisches Objekt einer Künstlerin oder eines Künstlers (bspw. ein „Werk“, ein Brief,
                             eine Schrift etc.) innerhalb des STURM bezeichnen, eine eindeutige, aus drei Großbuchstaben bestehende Sigle. 
@@ -407,7 +410,7 @@ TYP.ABTEILUNG.DATIERUNG.SIGLE.LAUFNUMMER[#][ABSATZ/BILD].[KOLUMNE].[SEITE/FOLIO]
                     </div>
                 </div>
                 <div>
-                    <h3>Forschungssoftware</h3>
+                    <h3 class="standard">Forschungssoftware</h3>
                 </div>
                 <div class="row">
                     <div class="columns six">
@@ -440,7 +443,7 @@ TYP.ABTEILUNG.DATIERUNG.SIGLE.LAUFNUMMER[#][ABSATZ/BILD].[KOLUMNE].[SEITE/FOLIO]
                     </div>
                 </div>
                 <div>
-                    <h3>Technische Schnittstellen (APIs) und Nachnutzung</h3>
+                    <h3 class="standard">Technische Schnittstellen (APIs) und Nachnutzung</h3>
                 </div>
                 <div class="row">
                     <div class="columns twelve">
@@ -482,13 +485,10 @@ TYP.ABTEILUNG.DATIERUNG.SIGLE.LAUFNUMMER[#][ABSATZ/BILD].[KOLUMNE].[SEITE/FOLIO]
                 DER STURM. Digitale Quellenedition zur Geschichte der internationalen Avantgarde, 
                 erarbeitet und herausgegeben von Marjam Trautmann und Torsten Schrade, 
                 Softwareversion 1.0.0 - 2018. <br/> URI: <a href="https://sturm-edition.de/">https://sturm-edition.de/</a></p><a href="http://www.adwmainz.de/"><img id="logo" src="../images/adwlogo.png"/></a>
-                    <address>
-                Akademie der Wissenschaften und der Literatur Mainz<br/>
-                Geschwister-Scholl-Str. 2<br/>
-                55131 Mainz<br/>
-                Tel: 06131 577 100<br/>
-                generalsekretariat@adwmainz.de<br/>
-                www.adwmainz.de<br/><a href="../impressum.html">Impressum</a><br/><a href="../datenschutz.html">Datenschutzerklärung</a></address>
+                    <address x-ms-format-detection="none" vocab="http://schema.org/" typeof="Organization"><span property="name">Akademie der Wissenschaften und der Literatur Mainz</span><br/>
+                        <div property="address" typeof="PostalAddress"><span property="streetAddress">Geschwister-Scholl-Str. 2</span><br/><span property="postalCode">55131</span><span property="addressLocality">Mainz</span></div>
+                Tel: 
+                <span property="telephone" class="telephone">06131 577 100</span><br/><span property="email">generalsekretariat@adwmainz.de</span><br/><a href="http://www.adwmainz.de">www.adwmainz.de</a><br/><a href="../impressum.html">Impressum</a><br/><a href="../datenschutz.html">Datenschutzerklärung</a></address>
                 </section>
             </footer>
         </div>

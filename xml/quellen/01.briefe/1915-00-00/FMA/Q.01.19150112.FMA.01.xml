@@ -89,8 +89,8 @@
     <facsimile>
         <graphic n="194v" url="http://content.staatsbibliothek-berlin.de/dms/PPN746598696/800/0/00000001.jpg"/>
         <graphic n="194r" url="http://content.staatsbibliothek-berlin.de/dms/PPN746598696/800/0/00000002.jpg"/>
-        <graphic n="195v" url="http://content.staatsbibliothek-berlin.de/dms/PPN746598696/800/0/00000003.jpg"/>
-        <graphic n="195r" url="http://content.staatsbibliothek-berlin.de/dms/PPN746598696/800/0/00000004.jpg"/>
+        <graphic n="195r" url="http://content.staatsbibliothek-berlin.de/dms/PPN746598696/800/0/00000003.jpg"/>
+        <graphic n="195v" url="http://content.staatsbibliothek-berlin.de/dms/PPN746598696/800/0/00000004.jpg"/>
         <graphic n="Farbkeil" url="http://content.staatsbibliothek-berlin.de/dms/PPN746598696/800/0/00000005.jpg"/>
     </facsimile>
     <text type="militaryMail">
@@ -126,11 +126,12 @@
                     <salute>Hrzl. Gruß Ihnen beiden</salute>
                     <signed>Ihr <persName key="P.0000003" ref="http://d-nb.info/gnd/11857745X">Fz.
                             M.</persName>
-                    </signed><note>Der Notiz liegt ein Zeitungsausschitt vom 2. Januar 1915 mit dem
-                        Titel „Bei Professor Karl v. Marr. Dem neuen Präsidenten der Münchner
-                        Künstlergenossenschaft“ einer unbekannten Zeitung bei.</note>
+                    </signed>
                 </closer>
             </div>
+            <div type="attachment"><pb xml:id="S.195r" n="196r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000DAB300000003"/><p>hauptsache<note>Der Notiz liegt ein Zeitungsausschitt vom 2. Januar 1915 mit dem
+                Titel „Bei Professor Karl v. Marr. Dem neuen Präsidenten der Münchner
+                Künstlergenossenschaft“ einer unbekannten Zeitung bei. Einige Zeilen sind von Marc hervorgehoben worden, außerdem findet sich der hier transkribierte Hinweis „hauptsache“.</note></p></div>
         </body>
     </text>
 </TEI>

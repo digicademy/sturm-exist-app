@@ -86,14 +86,14 @@
         </revisionDesc>
     </teiHeader>
     <facsimile>
-        <graphic n="215v" url="http://content.staatsbibliothek-berlin.de/dms/PPN746598823/800/0/00000001.jpg"/>
-        <graphic n="215r" url="http://content.staatsbibliothek-berlin.de/dms/PPN746598823/800/0/00000002.jpg"/>
+        <graphic n="215r" url="http://content.staatsbibliothek-berlin.de/dms/PPN746598823/800/0/00000001.jpg"/>
+        <graphic n="215v" url="http://content.staatsbibliothek-berlin.de/dms/PPN746598823/800/0/00000002.jpg"/>
         <graphic n="Farbkeil" url="http://content.staatsbibliothek-berlin.de/dms/PPN746598823/800/0/00000003.jpg"/>
     </facsimile>
     <text type="letter">
         <body>
             <div type="content">
-                <pb xml:id="S.215v" n="215v" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000DABD00000001"/>
+                <pb xml:id="S.215r" n="215r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000DABD00000001"/>
 
                 <opener>
                     <dateline>

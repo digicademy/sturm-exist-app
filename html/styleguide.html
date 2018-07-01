@@ -4,6 +4,7 @@
         <meta charset="utf-8"/>
         <meta name="description" content=""/>
         <meta name="author" content="Marjam Mahmoodzada"/>
+        <meta name="author" content="Torsten Schrade"/>
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
         <title>Styleguide
                             Zwei Worte, in: Der STURM, Erste Ausgabe 03. März 1910.
@@ -14,8 +15,8 @@
                         "de": "FORCEHYPHENOPOLY"
                     },
                     paths: {
-                    patterndir: "/Hyphenopoly/patterns/",
-                        maindir: "/Hyphenopoly/"
+                        patterndir: "/js/Hyphenopoly/patterns/",
+                        maindir: "/js/Hyphenopoly/"
                     },
                     setup: {
                         classnames: {
@@ -24,14 +25,16 @@
                     }
                 };
             </script>
-        <script src="Hyphenopoly/Hyphenopoly_Loader.js"></script>
-        <link rel="stylesheet" type="text/css" href="MyFontsWebfontsKit/MyFontsWebfontsKit.css"/>
-        <link href="https://fonts.googleapis.com/css?family=Tinos:400,700" rel="stylesheet" type="text/css"/>
-        <link rel="stylesheet" href="css/normalize.css"/>
-        <link rel="stylesheet" href="css/skeleton.css"/>
-        <link rel="stylesheet" href="css/magnific-popup.css"/>
-        <link rel="stylesheet" href="css/atom-one-light.css"/>
-        <link rel="stylesheet" href="css/style.css"/>
+        <script src="js/Hyphenopoly/Hyphenopoly_Loader.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Tinos:400,400i,700,700i&amp;subset=latin-ext" rel="stylesheet"/>
+        <link href="https://fonts.googleapis.com/css?family=Ramaraja" rel="stylesheet"/>
+        <link rel="stylesheet" type="text/css" href="css/MyFontsWebfontsKit/MyFontsWebfontsKit.css"/>
+        <link rel="stylesheet" type="text/css" media="screen" href="css/normalize.css"/>
+        <link rel="stylesheet" type="text/css" media="screen" href="css/skeleton.css"/>
+        <link rel="stylesheet" type="text/css" media="screen" href="css/magnific-popup.css"/>
+        <link rel="stylesheet" type="text/css" media="screen" href="css/atom-one-light.css"/>
+        <link rel="stylesheet" type="text/css" media="screen" href="css/style.css"/>
+        <link rel="stylesheet" type="text/css" media="print" href="css/print.css"/>
         <link rel="icon" type="image/png" href="images/favicon.png"/></head>
     <body id="styleguide">
         <div class="container">
@@ -49,11 +52,11 @@
                     </ul>
                 </nav>
             </header>
-            <main class="row content hyphenate">
+            <main class="row content hyphenate" id="main">
                 <section class="eight columns">
                 <div class="row">
                     <div class="columns twelve">
-                        <h1>Die Operette</h1>
+                        <h1 class="standard">Die Operette</h1>
                         <p>Sie wurde mit elf Jahren zur <i class="foreign">Tänzerin</i> bestimmt.<sup class="fn"><a href="#ap-1" id="fn-1">1</a></sup>
                             Bei ihrer Neigung zu Verrenkungen, <span class="underline">Grimassen</span> und bei ihrem sonderbaren Temperament
                             schien sie für diesen Beruf geeignet. Läppisch<sub>abc</sub> bis
@@ -64,13 +67,13 @@
                             der schlanken Arme, wachte lauernd über dem
                             Spiel des <a class="letter internal" href="quellen/briefe/chronologie/Q.01.19140115.FMA.01.html">straffen Leibes</a>. Es gelang ihr, über den
                             üppigsten Tanz Kälte zu sprühen.</p>
-                        <h2>Programmatisches </h2>
+                        <h2 class="standard">Programmatisches </h2>
                         <p>
                             Mit <time datetime="1918-01-01">achtzehn Jahren</time> hatte sie eine kleine <span class="small-caps">seidenleichte</span> Figur, übergroße schwarze Augen. Ihr Gesicht fast knabenhaft lang und scharfgeschnitten.
                             Die Stimme hell, ohne <em>Buhlerei</em> und <strong>Musik</strong>, abgehackt; ein rascher, ungeduldiger Qang. Sie war
                             lieblos, sah klar auf die unbefähigten Kolleginnen und langweilte sich bei ihren Klagen.
                         </p>
-                        <h3>Die Tänzerin und der Leib</h3>
+                        <h3 class="standard">Die Tänzerin und der Leib</h3>
                         <p>
                             Mit neunzehn Jahren befiel sie ein <del>bleiches Siechtum</del>, so daß ihr Qesicht abenteuerlich fahl vor dem
                             blauschwarzen Haarknoten schimmerte. Ihre Glieder wurden schwer, aber sie spielte weiter. Wenn
@@ -79,7 +82,7 @@
                             den Zähnen über das Dumme, Kindische, das sie
                             eben zu besiegen gelernt hatte.
                         </p>
-                        <h4>Ein Neugieriger</h4>
+                        <h4 class="standard">Ein Neugieriger</h4>
                         <p>
                             Als Ella sich in Schmerzen auf die Lippen biß, warf
                             sich die Mutter über das Sofa hin und weinte stundenlang. Nach einer Woche faßte die alte Frau
@@ -87,7 +90,7 @@
                             und ins Krankenhaus gehen. Worauf Ella kein Wort antwortete, nur einen gehässigen Blick auf
                             runzlige hoffnungslose Gesicht warf.
                         </p>
-                        <h5>Vegetation</h5>
+                        <h5 class="standard">Vegetation</h5>
                         <p>
                             Sie fuhr schon am nächsten Tage ins Krankenhaus.
                             Im Wagen weinte sie unter ihrer Decke vor Wut.
@@ -105,7 +108,7 @@
                         </figure>
                     </div>
                     <div class="columns four">
-                        <h6>Welt</h6>
+                        <h6 class="standard">Welt</h6>
                         <p>
                             Denn die Operette setzt eine
                             Welt voraus, in welcher die Ursächlichkeit aufgehoben ist, 
@@ -115,7 +118,7 @@
                         </p>
                     </div>
                     <div class="columns four">
-                        <h6>Funktion</h6>
+                        <h6 class="standard">Funktion</h6>
                         <p>
                             Die Funktion der Musik: den Krampf des Lebens
                             zu lösen, dem Verstand Erholung zu schaffen und
@@ -126,7 +129,7 @@
                 </div>
                 <div class="row">
                     <div class="columns twelve">
-                        <h3>Code</h3>
+                        <h3 class="standard">Code</h3>
                         <p>Die Revision dieses lebensfernen Stilbegriffs wird uns Qelegenheit zu anmutigen Scherzen geben.</p>
                         <pre>
                             <code class="xml">
@@ -137,8 +140,8 @@
                             </code>
                         </pre>
                         <p>Jede liberale Schüchternheit, inhaltlose Gebräuche zu erhalten, werden wir mit radikaler Sorgfalt ausrupfen.</p>
-                        <h3>Listen</h3>
-                        <h4>Ungeordnet</h4>
+                        <h3 class="standard">Listen</h3>
+                        <h4 class="standard">Ungeordnet</h4>
                         <ul class="standard">
                             <li>Eins</li>
                             <li>Zwei</li>
@@ -154,7 +157,7 @@
                             </li>
                             <li>Drei</li>
                         </ul>
-                        <h4>Geordnet</h4>
+                        <h4 class="standard">Geordnet</h4>
                         <ol class="standard">
                             <li>Eins</li>
                             <li>Zwei</li>
@@ -169,9 +172,9 @@
                     </div>
                 </div>
                 <div class="row">
-                    <h3>Tabellen</h3>
+                    <h3 class="standard">Tabellen</h3>
                     <div class="columns twelve">
-                        <h4>Standard</h4>
+                        <h4 class="standard">Standard</h4>
                         <table class="standard">
                                 <thead>
                                     <tr>
@@ -194,7 +197,7 @@
                                     </tr>
                                 </tbody>
                             </table>
-                        <h4>Lined</h4>
+                        <h4 class="standard">Lined</h4>
                         <table class="lined">
                                 <thead>
                                     <tr>
@@ -217,7 +220,7 @@
                                     </tr>
                                 </tbody>
                             </table>
-                        <h4>Grid</h4>
+                        <h4 class="standard">Grid</h4>
                         <table class="grid">
                                 <thead>
                                     <tr>
@@ -240,7 +243,7 @@
                                     </tr>
                                 </tbody>
                             </table>
-                        <h4>Packed</h4>
+                        <h4 class="standard">Packed</h4>
                         <table class="packed">
                                 <thead>
                                     <tr>
@@ -272,7 +275,7 @@
                     </div>
                 </section>
                 <section class="four columns">
-                <h4>Subnavigation</h4>
+                <h4 class="standard">Subnavigation</h4>
                 <nav class="subnavigation">
                         <ul>
                             <li><a href="projekt/einfuehrung.html" class="normal">Einführung</a></li>
@@ -281,7 +284,7 @@
                             <li><a href="projekt/methodik.html" class="normal">Digitale Methodik</a></li>
                         </ul>
                     </nav>
-                <h3>Der Unfug des Redens</h3>
+                <h3 class="standard">Der Unfug des Redens</h3>
                 <p>
                     Die Volksvertreter hatten ihre wohleinstudierten
                     Leitartikel mit zündender Beredsamkeit improvisiert, 
@@ -295,7 +298,7 @@
                     Keinem<br/>
                     sprach <br/> sie <br/> von <br/>ihrer <br/> Schwäche. <br/>
                 </p>
-                <h3>Zitate</h3>
+                <h3 class="standard">Zitate</h3>
                 <blockquote>
                         <p>
                             Zum vierten Male treten wir mit einer neuen Zeitschrift in die
@@ -312,8 +315,8 @@
                     <q>Die Tatsache einer neuen Zeitschrift mag ein Bemühen um Verständlichkeit entschuldigen</q>
                     und sollte damit recht behalten.
                 </p>
-                <h3>Verweise</h3>
-                <h4>Quellen</h4>
+                <h3 class="standard">Verweise</h3>
+                <h4 class="standard">Quellen</h4>
                 <ul class="standard">
                     <li>
                         <hi rend="strong">Brief:</hi>
@@ -426,7 +429,7 @@
                         <a class="internal" href="Q.05.19140000.STS.01#A.3.S.5">Q.05.19140000.STS.01#A.3.S.5</a>
                     </li>
                 </ul>
-                <h4>Entitäten</h4>
+                <h4 class="standard">Entitäten</h4>
                 <ul class="standard">
                     <li>
                         <hi rend="strong">Person:</hi>
@@ -459,7 +462,7 @@
                         <a class="internal" href="L.0000001">L.0000001</a>
                     </li>
                 </ul>
-                <h4>Externe Verweise</h4>
+                <h4 class="standard">Externe Verweise</h4>
                 <ul class="standard">
                     <li>
                         <hi rend="strong">Weblink:</hi>
@@ -494,13 +497,10 @@
                 DER STURM. Digitale Quellenedition zur Geschichte der internationalen Avantgarde, 
                 erarbeitet und herausgegeben von Marjam Trautmann und Torsten Schrade, 
                 Softwareversion 1.0.0 - 2018. <br/> URI: <a href="https://sturm-edition.de/">https://sturm-edition.de/</a></p><a href="http://www.adwmainz.de/"><img id="logo" src="images/adwlogo.png"/></a>
-                    <address>
-                Akademie der Wissenschaften und der Literatur Mainz<br/>
-                Geschwister-Scholl-Str. 2<br/>
-                55131 Mainz<br/>
-                Tel: 06131 577 100<br/>
-                generalsekretariat@adwmainz.de<br/>
-                www.adwmainz.de<br/><a href="impressum.html">Impressum</a><br/><a href="datenschutz.html">Datenschutzerklärung</a></address>
+                    <address x-ms-format-detection="none" vocab="http://schema.org/" typeof="Organization"><span property="name">Akademie der Wissenschaften und der Literatur Mainz</span><br/>
+                        <div property="address" typeof="PostalAddress"><span property="streetAddress">Geschwister-Scholl-Str. 2</span><br/><span property="postalCode">55131</span><span property="addressLocality">Mainz</span></div>
+                Tel: 
+                <span property="telephone" class="telephone">06131 577 100</span><br/><span property="email">generalsekretariat@adwmainz.de</span><br/><a href="http://www.adwmainz.de">www.adwmainz.de</a><br/><a href="impressum.html">Impressum</a><br/><a href="datenschutz.html">Datenschutzerklärung</a></address>
                 </section>
             </footer>
         </div>

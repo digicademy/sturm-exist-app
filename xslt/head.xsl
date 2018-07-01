@@ -23,6 +23,7 @@
             <meta charset="utf-8"/>
             <meta name="description" content=""/>
             <meta name="author" content="Marjam Mahmoodzada"/>
+            <meta name="author" content="Torsten Schrade"/>
             <meta name="viewport" content="width=device-width, initial-scale=1"/>
             <title>
                 <xsl:value-of select="$title"/>
@@ -33,8 +34,8 @@
                         "de": "FORCEHYPHENOPOLY"
                     },
                     paths: {
-                    patterndir: "/Hyphenopoly/patterns/",
-                        maindir: "/Hyphenopoly/"
+                        patterndir: "/js/Hyphenopoly/patterns/",
+                        maindir: "/js/Hyphenopoly/"
                     },
                     setup: {
                         classnames: {
@@ -43,17 +44,19 @@
                     }
                 };
             </script>
-            <script src="{$relativeToAppBase}Hyphenopoly/Hyphenopoly_Loader.js"/>
-            <link rel="stylesheet" type="text/css" href="{$relativeToAppBase}MyFontsWebfontsKit/MyFontsWebfontsKit.css"/>
-            <link href="https://fonts.googleapis.com/css?family=Tinos:400,700" rel="stylesheet" type="text/css"/>
-            <link rel="stylesheet" href="{$relativeToAppBase}css/normalize.css"/>
-            <link rel="stylesheet" href="{$relativeToAppBase}css/skeleton.css"/>
-            <link rel="stylesheet" href="{$relativeToAppBase}css/magnific-popup.css"/>
-            <link rel="stylesheet" href="{$relativeToAppBase}css/atom-one-light.css"/>
+            <script src="{$relativeToAppBase}js/Hyphenopoly/Hyphenopoly_Loader.js"/>
+            <link href="https://fonts.googleapis.com/css?family=Tinos:400,400i,700,700i&amp;subset=latin-ext" rel="stylesheet"/>
+            <link href="https://fonts.googleapis.com/css?family=Ramaraja" rel="stylesheet"/>
+            <link rel="stylesheet" type="text/css" href="{$relativeToAppBase}css/MyFontsWebfontsKit/MyFontsWebfontsKit.css"/>
+            <link rel="stylesheet" type="text/css" media="screen" href="{$relativeToAppBase}css/normalize.css"/>
+            <link rel="stylesheet" type="text/css" media="screen" href="{$relativeToAppBase}css/skeleton.css"/>
+            <link rel="stylesheet" type="text/css" media="screen" href="{$relativeToAppBase}css/magnific-popup.css"/>
+            <link rel="stylesheet" type="text/css" media="screen" href="{$relativeToAppBase}css/atom-one-light.css"/>
             <xsl:if test="//tei:publicationStmt/tei:idno[@type = 'file'] = 'orte.xml'">
-                <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.1/dist/leaflet.css" integrity="sha512-Rksm5RenBEKSKFjgI3a41vrjkw4EVPlJ3+OiI65vTjIdo9brlAacEuKOiQ5OFh7cOI1bkDwLqdLw3Zg0cRJAAQ==" crossorigin=""/>
+                <link rel="stylesheet" type="text/css" media="screen" href="https://unpkg.com/leaflet@1.3.1/dist/leaflet.css" integrity="sha512-Rksm5RenBEKSKFjgI3a41vrjkw4EVPlJ3+OiI65vTjIdo9brlAacEuKOiQ5OFh7cOI1bkDwLqdLw3Zg0cRJAAQ==" crossorigin=""/>
             </xsl:if>
-            <link rel="stylesheet" href="{$relativeToAppBase}css/style.css"/>
+            <link rel="stylesheet" type="text/css" media="screen" href="{$relativeToAppBase}css/style.css"/>
+            <link rel="stylesheet" type="text/css" media="print" href="{$relativeToAppBase}css/print.css"/>
             <link rel="icon" type="image/png" href="{$relativeToAppBase}images/favicon.png"/>
         </head>
     </xsl:template>

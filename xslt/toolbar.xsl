@@ -28,16 +28,16 @@
         <section class="twelve columns toolbar">
             <ul class="pagination">
                 <li class="first">
-                    <a class="black button" href="{$first}" title="An den Anfang">|←</a>
+                    <a class="black button" href="{$first}#main" title="An den Anfang">|←</a>
                 </li>
                 <li class="previous">
-                    <a class="black button" href="{$previous}" title="Vorheriger Brief">←</a>
+                    <a class="black button" href="{$previous}#main" title="Vorheriger Brief">←</a>
                 </li>
                 <li class="next">
-                    <a class="black button" href="{$next}" title="Nächster Brief">→</a>
+                    <a class="black button" href="{$next}#main" title="Nächster Brief">→</a>
                 </li>
                 <li class="last">
-                    <a class="black button" href="{$last}" title="An das Ende">→|</a>
+                    <a class="black button" href="{$last}#main" title="An das Ende">→|</a>
                 </li>
             </ul>
             <ul class="actions">

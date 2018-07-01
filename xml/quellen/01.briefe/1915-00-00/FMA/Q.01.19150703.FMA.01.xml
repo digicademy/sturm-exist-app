@@ -113,8 +113,7 @@
             <pb xml:id="S.207r" n="207r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000DA9E00000002"/>           
                 <opener>
                     <dateline>
-                        <date when="1915-07-03">3. VII 1915</date>,
-                    </dateline>
+                        <date when="1915-07-03">3. VII 1915</date>,</dateline>
                     <salute>Lieber <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Walden</persName>,
                     </salute>
                 </opener>

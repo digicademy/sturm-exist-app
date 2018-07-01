@@ -54,36 +54,100 @@
 
     <!-- headings -->
     <xsl:template match="tei:ab[@rend]">
+        <xsl:variable name="class">
+            <xsl:choose>
+                <xsl:when test="@style">
+                    <xsl:value-of select="@style"/>
+                </xsl:when>
+                <xsl:otherwise>
+                    <xsl:text>standard</xsl:text>
+                </xsl:otherwise>
+            </xsl:choose>
+        </xsl:variable>
         <xsl:choose>
             <xsl:when test="@rend = 'h1'">
-                <h1>
-                    <xsl:apply-templates select="node()"/>
-                </h1>
+                <xsl:choose>
+                    <xsl:when test="@xml:id">
+                        <h1 id="{@xml:id}" class="{$class}">
+                            <xsl:apply-templates select="node()"/>
+                        </h1>
+                    </xsl:when>
+                    <xsl:otherwise>
+                        <h1 class="{$class}">
+                            <xsl:apply-templates select="node()"/>
+                        </h1>
+                    </xsl:otherwise>
+                </xsl:choose>
             </xsl:when>
             <xsl:when test="@rend = 'h2'">
-                <h2>
-                    <xsl:apply-templates select="node()"/>
-                </h2>
+                <xsl:choose>
+                    <xsl:when test="@xml:id">
+                        <h2 id="{@xml:id}" class="{$class}">
+                            <xsl:apply-templates select="node()"/>
+                        </h2>
+                    </xsl:when>
+                    <xsl:otherwise>
+                        <h2 class="{$class}">
+                            <xsl:apply-templates select="node()"/>
+                        </h2>
+                    </xsl:otherwise>
+                </xsl:choose>
             </xsl:when>
             <xsl:when test="@rend = 'h3'">
-                <h3>
-                    <xsl:apply-templates select="node()"/>
-                </h3>
+                <xsl:choose>
+                    <xsl:when test="@xml:id">
+                        <h3 id="{@xml:id}" class="{$class}">
+                            <xsl:apply-templates select="node()"/>
+                        </h3>
+                    </xsl:when>
+                    <xsl:otherwise>
+                        <h3 class="{$class}">
+                            <xsl:apply-templates select="node()"/>
+                        </h3>
+                    </xsl:otherwise>
+                </xsl:choose>
             </xsl:when>
             <xsl:when test="@rend = 'h4'">
-                <h4>
-                    <xsl:apply-templates select="node()"/>
-                </h4>
+                <xsl:choose>
+                    <xsl:when test="@xml:id">
+                        <h4 id="{@xml:id}" class="{$class}">
+                            <xsl:apply-templates select="node()"/>
+                        </h4>
+                    </xsl:when>
+                    <xsl:otherwise>
+                        <h4 class="{$class}">
+                            <xsl:apply-templates select="node()"/>
+                        </h4>
+                    </xsl:otherwise>
+                </xsl:choose>
             </xsl:when>
             <xsl:when test="@rend = 'h5'">
-                <h5>
-                    <xsl:apply-templates select="node()"/>
-                </h5>
+                <xsl:choose>
+                    <xsl:when test="@xml:id">
+                        <h5 id="{@xml:id}" class="{$class}">
+                            <xsl:apply-templates select="node()"/>
+                        </h5>
+                    </xsl:when>
+                    <xsl:otherwise>
+                        <h5 class="{$class}">
+                            <xsl:apply-templates select="node()"/>
+                        </h5>
+                    </xsl:otherwise>
+                </xsl:choose>
             </xsl:when>
             <xsl:when test="@rend = 'h6'">
-                <h6>
-                    <xsl:apply-templates select="node()"/>
-                </h6>
+                <xsl:choose>
+                    <xsl:when test="@xml:id">
+                        <h6 id="{@xml:id}" class="{$class}">
+                            <xsl:apply-templates select="node()"/>
+                        </h6>
+                    </xsl:when>
+                    <xsl:otherwise>
+                        <h6 class="{$class}">
+                            <xsl:apply-templates select="node()"/>
+                        </h6>
+                    </xsl:otherwise>
+                </xsl:choose>
             </xsl:when>
             <xsl:when test="@rend = 'pre'">
                 <pre>

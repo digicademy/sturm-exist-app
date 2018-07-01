@@ -4,6 +4,7 @@
         <meta charset="utf-8"/>
         <meta name="description" content=""/>
         <meta name="author" content="Marjam Mahmoodzada"/>
+        <meta name="author" content="Torsten Schrade"/>
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
         <title>Jacoba van Heemskerck an Herwarth Walden, 3. März 1915, 35, Nassau Zuilensteinstraat, Den Haag : Der STURM. Digitale Quellenedition zur Geschichte der internationalen Avantgarde</title>
         <script>
@@ -12,8 +13,8 @@
                         "de": "FORCEHYPHENOPOLY"
                     },
                     paths: {
-                    patterndir: "/Hyphenopoly/patterns/",
-                        maindir: "/Hyphenopoly/"
+                        patterndir: "/js/Hyphenopoly/patterns/",
+                        maindir: "/js/Hyphenopoly/"
                     },
                     setup: {
                         classnames: {
@@ -22,14 +23,16 @@
                     }
                 };
             </script>
-        <script src="../../../Hyphenopoly/Hyphenopoly_Loader.js"></script>
-        <link rel="stylesheet" type="text/css" href="../../../MyFontsWebfontsKit/MyFontsWebfontsKit.css"/>
-        <link href="https://fonts.googleapis.com/css?family=Tinos:400,700" rel="stylesheet" type="text/css"/>
-        <link rel="stylesheet" href="../../../css/normalize.css"/>
-        <link rel="stylesheet" href="../../../css/skeleton.css"/>
-        <link rel="stylesheet" href="../../../css/magnific-popup.css"/>
-        <link rel="stylesheet" href="../../../css/atom-one-light.css"/>
-        <link rel="stylesheet" href="../../../css/style.css"/>
+        <script src="../../../js/Hyphenopoly/Hyphenopoly_Loader.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Tinos:400,400i,700,700i&amp;subset=latin-ext" rel="stylesheet"/>
+        <link href="https://fonts.googleapis.com/css?family=Ramaraja" rel="stylesheet"/>
+        <link rel="stylesheet" type="text/css" href="../../../css/MyFontsWebfontsKit/MyFontsWebfontsKit.css"/>
+        <link rel="stylesheet" type="text/css" media="screen" href="../../../css/normalize.css"/>
+        <link rel="stylesheet" type="text/css" media="screen" href="../../../css/skeleton.css"/>
+        <link rel="stylesheet" type="text/css" media="screen" href="../../../css/magnific-popup.css"/>
+        <link rel="stylesheet" type="text/css" media="screen" href="../../../css/atom-one-light.css"/>
+        <link rel="stylesheet" type="text/css" media="screen" href="../../../css/style.css"/>
+        <link rel="stylesheet" type="text/css" media="print" href="../../../css/print.css"/>
         <link rel="icon" type="image/png" href="../../../images/favicon.png"/></head>
     <body id="Q.01.19150303.JVH.01">
         <div class="container">
@@ -47,7 +50,7 @@
                     </ul>
                 </nav>
             </header>
-            <main class="row content hyphenate">
+            <main class="row content hyphenate" id="main">
                 <div class="department">
                     <h3><a href="../../../quellen/briefe.html">Abteilung I, Briefe</a></h3>
                     <p><strong>Dokumenttyp: </strong>Brief</p>
@@ -58,10 +61,10 @@
                 </div>
                 <section class="twelve columns toolbar">
                     <ul class="pagination">
-                        <li class="first"><a class="black button" href="Q.01.19140322.JVH.01.html" title="An den Anfang">|←</a></li>
-                        <li class="previous"><a class="black button" href="Q.01.19150228.JVH.01.html" title="Vorheriger Brief">←</a></li>
-                        <li class="next"><a class="black button" href="Q.01.19150308.JVH.01.html" title="Nächster Brief">→</a></li>
-                        <li class="last"><a class="black button" href="Q.01.19151225.JVH.01.html" title="An das Ende">→|</a></li>
+                        <li class="first"><a class="black button" href="Q.01.19140322.JVH.01.html#main" title="An den Anfang">|←</a></li>
+                        <li class="previous"><a class="black button" href="Q.01.19150228.JVH.01.html#main" title="Vorheriger Brief">←</a></li>
+                        <li class="next"><a class="black button" href="Q.01.19150308.JVH.01.html#main" title="Nächster Brief">→</a></li>
+                        <li class="last"><a class="black button" href="Q.01.19151225.JVH.01.html#main" title="An das Ende">→|</a></li>
                     </ul>
                     <ul class="actions">
                         <li class="xml"><a target="_blank" class="black button" href="/api/files/Q.01.19150303.JVH.01.xml" title="XML Quelle ansehen">➚ XML</a></li>
@@ -192,13 +195,10 @@
                 DER STURM. Digitale Quellenedition zur Geschichte der internationalen Avantgarde, 
                 erarbeitet und herausgegeben von Marjam Trautmann und Torsten Schrade, 
                 Softwareversion 1.0.0 - 2018. <br/> URI: <a href="https://sturm-edition.de/">https://sturm-edition.de/</a></p><a href="http://www.adwmainz.de/"><img id="logo" src="../../../images/adwlogo.png"/></a>
-                    <address>
-                Akademie der Wissenschaften und der Literatur Mainz<br/>
-                Geschwister-Scholl-Str. 2<br/>
-                55131 Mainz<br/>
-                Tel: 06131 577 100<br/>
-                generalsekretariat@adwmainz.de<br/>
-                www.adwmainz.de<br/><a href="../../../impressum.html">Impressum</a><br/><a href="../../../datenschutz.html">Datenschutzerklärung</a></address>
+                    <address x-ms-format-detection="none" vocab="http://schema.org/" typeof="Organization"><span property="name">Akademie der Wissenschaften und der Literatur Mainz</span><br/>
+                        <div property="address" typeof="PostalAddress"><span property="streetAddress">Geschwister-Scholl-Str. 2</span><br/><span property="postalCode">55131</span><span property="addressLocality">Mainz</span></div>
+                Tel: 
+                <span property="telephone" class="telephone">06131 577 100</span><br/><span property="email">generalsekretariat@adwmainz.de</span><br/><a href="http://www.adwmainz.de">www.adwmainz.de</a><br/><a href="../../../impressum.html">Impressum</a><br/><a href="../../../datenschutz.html">Datenschutzerklärung</a></address>
                 </section>
             </footer>
         </div>
