@@ -53,7 +53,7 @@
                 <xsl:variable name="formattedDate">
                     <xsl:call-template name="dateTime-to-RFC-2822">
                         <xsl:with-param name="dateTime">
-                            <xsl:value-of select="//tei:revisionDesc/tei:listChange/tei:change/tei:date[1]/@when"/>
+                            <xsl:value-of select="//tei:change[1]/tei:date[1]/@when"/>
                         </xsl:with-param>
                     </xsl:call-template>
                 </xsl:variable>
@@ -62,7 +62,7 @@
                     <div class="versions">
                         <p>
                             <strong>Hinweis:</strong><br/> Sie betrachten gerade folgende ältere Version dieser Quelle: 
-                            Version <xsl:value-of select="//tei:revisionDesc/tei:listChange/tei:change/tei:date[1]/@n"/> vom <xsl:value-of select="$formattedDate"/>
+                            Version <xsl:value-of select="//tei:change[1]/tei:date/@n"/> vom <xsl:value-of select="$formattedDate"/>
                         </p>
                         <p>
                             Die aktuelle Version dieser Quelle findet sich unter folgender URI: <br/>
@@ -113,7 +113,7 @@
                         <xsl:text>
                             DER STURM. Digitale Quellenedition zur Geschichte der internationalen Avantgarde, erarbeitet und herausgegeben von Marjam Trautmann und Torsten Schrade. Mainz, Akademie der Wissenschaften und der Literatur, 
                         </xsl:text>
-                        Version <xsl:value-of select="//tei:revisionDesc/tei:listChange/tei:change/tei:date[1]/@n"/> vom <xsl:value-of select="$formattedDate"/>.
+                        Version <xsl:value-of select="//tei:change[1]/tei:date/@n"/> vom <xsl:value-of select="$formattedDate"/>.
                     </p>
                     <p>
                         <strong>URI:</strong>
@@ -164,9 +164,11 @@
     <!-- structural templates -->
 
     <xsl:template name="apparatus">
+        <xsl:if test="//tei:text//tei:note">
         <div class="aparatus">
             <xsl:call-template name="footnotes"/>
         </div>
+        </xsl:if>
     </xsl:template>
 
     <xsl:template name="facsimile">

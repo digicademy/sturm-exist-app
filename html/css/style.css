@@ -1,29 +1,20 @@
+/*
+ * Styles for screen and mobile display
+ * @author: Torsten Schrade
+ */
+
 /* TYPOGRAPHY */
 
 body {
-    font-family: RomanaEF-Book, Ramaraja, Tinos, Times, "Times New Roman", serif;
+    font-family: RomanaEF-Book, Tinos, Times, "Times New Roman", serif;
 }
 
 .tight {
+    letter-spacing: -0.07em;
+}
+
+.tighter {
     letter-spacing: -0.09em;
-}
-
-.title {
-    font-family: RomanaEF-Book, Ramaraja, Tinos, Times, "Times New Roman", serif;
-    font-size: 15.3vw;
-    font-weight: normal;
-    line-height: 0.9;
-    letter-spacing: -0.03em;
-    text-align: center !important;
-}
-
-.subtitle {
-    font-size: 2.3rem;
-    font-weight: normal;
-    text-transform: uppercase;
-    letter-spacing: 0.03em;
-    line-height: 1;
-    text-align: center !important;
 }
 
 .navigation li {
@@ -42,46 +33,36 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
     font-size: 5.6rem;
-    /* letter-spacing: 0.03em; */
     margin: 3rem 0 0.1em 0;
 }
 
 h2 {
     font-size: 4.4rem;
-    /*  letter-spacing: 0.03em; */
     margin: 3rem 0 1rem 0;
 }
 
 h3 {
     font-size: 3.2rem;
-    /*  letter-spacing: 0.02em;  */
     margin: 3rem 0 1rem 0;
 }
 
 .department h3 {
-/* 
-    font-size: 2.2rem;
-    text-transform: uppercase;
-*/
     letter-spacing: 0.01em;
 }
 
 h4 {
     font-size: 2.6rem;
-    /*  letter-spacing: 0.02em;  */
     margin: 3rem 0 1rem 0;
 }
 
 h5 {
     font-size: 2.4rem;
-    /*  letter-spacing: 0.02em;  */
     margin: 3rem 0 1rem 0;
 }
 
 h5.salute {
     position: relative;
     top: -3px;
-    /* font-size: 2rem; */
 }
 
 footer h5 {
@@ -91,7 +72,6 @@ footer h5 {
 
 h6 {
     font-size: 2rem;
-    /*  letter-spacing: 0.02em;  */
     margin: 3rem 0 1rem 0;
 }
 
@@ -112,7 +92,6 @@ address,
 }
 
 p,
-.standard,
 blockquote,
 figcaption,
 .content .info * {
@@ -170,7 +149,6 @@ footer * {
     line-height: 2rem;
 }
 
-
 code, .hljs {
     font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
     font-size: 1.6rem;
@@ -205,20 +183,28 @@ p + cite {
 }
 
 .title {
-    margin: 20px 0 0 0;
-    padding: 0;
-    margin: 20px 0 0 -0.6vw;
+    margin: 2rem 0 -5.3rem -10px;
     padding: 0;
     color: #333;
+    font-family: RomanaEF-Book, Ramaraja, Times, "Times New Roman", serif;
+    font-size: 15.3vw;
+    line-height: 1;
+    font-weight: normal;
+    letter-spacing: -0.03em;
+    text-align: center;
 }
 
 .subtitle {
     position: relative;
     z-index: 10;
-    margin-top: -2rem;
-    margin-top: -1vw;
     padding: 0;
     color: #CD2526;
+    font-size: 2.2rem;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    line-height: 1;
+    text-align: center;
 }
 
 /* NAVIGATION */
@@ -237,6 +223,7 @@ p + cite {
     padding: 1rem 0 0.6rem 0;
     border-top: 4px solid black;
     border-bottom: 4px solid black;
+    text-align: center;
 }
 
 .navigation li {
@@ -831,21 +818,6 @@ p .pb:after {
     padding: 0 0 0 0.6rem;
 }
 
-/* 
-.address .pb:after {
-    display: none;
-}
-
-.pb:first-child:after {
-    display: none;
-}
-
-.closer + .pb:after {
-    display: none;
-}
-
- */
-
 .pb a {
     display: inline-block;
     position: absolute;
@@ -902,7 +874,6 @@ p .pb:after {
     position: relative;
     overflow: scroll;
     height: 320px;
-    /* border: 1px solid #000; */
     padding: 2rem 3rem;
     background: #EFEFEF;
 }
@@ -966,6 +937,10 @@ footer address {
     color: #000;
 }
 
+footer address {
+    margin-bottom: 0;
+}
+
 footer ul.standard {
     margin: 0 0 0 1rem;
     padding: 0;
@@ -986,13 +961,16 @@ footer .telephone {
 
 /* MEDIA QUERIES */
 
-@media (min-width: 1260px) {
+@media (min-width: 1250px) {
     .title { 
-        font-size: 19rem;
+        font-size: 19.3rem;
     }
 }
 
 @media (max-width: 1024px) {
+    .title { 
+        font-size: 16vw;
+    }
     .subtitle { 
         font-size: 1.95rem;
      }
@@ -1002,7 +980,8 @@ footer .telephone {
 
 @media (max-width: 900px) {
     .title {
-        font-size: 19vw;
+        font-size: 19.7vw;
+        margin-bottom: -4.8rem;
     }
     .subtitle { 
         font-size: 2rem;
@@ -1037,11 +1016,14 @@ footer .telephone {
 }
 
 @media (max-width: 800px) {
-    .navigation li { 
-        margin-right: 0;
-     }
+    .title {
+        margin-bottom: -4.2rem;
+    }
     .subtitle { 
         font-size: 1.9rem;
+     }
+    .navigation li { 
+        margin-right: 0;
      }
 }
 
@@ -1055,10 +1037,11 @@ footer .telephone {
 
 @media (max-width: 600px) {
     .title {
-        font-size: 19vw;
+        font-size: 18vw;
+        margin-bottom: -3.8rem;
     }
     .subtitle { 
-        font-size: 1.7rem;
+        font-size: 1.6rem;
      }
     .navigation ul { 
         min-height: 2.6rem;
@@ -1084,9 +1067,11 @@ footer .telephone {
         opacity: 1;
     }
     #hamburger:after {
+        position: relative;
         display: inline-block;
+        margin-left: 0.3rem;
         content: "☰";
-        font-size: 2.2rem;
+        font-size: 2rem;
     }
     #hamburger.hide {
         visibility: hidden;
@@ -1098,10 +1083,11 @@ footer .telephone {
 
 @media (max-width: 480px) {
     .title {
-        font-size: 19vw;
+        font-size: 17.6vw;
+        margin-bottom: -3.4rem;
     }
     .subtitle { 
-        font-size: 1.6rem;
+        font-size: 1.4rem;
     }
     h1 {
         font-size: 4.4rem;
@@ -1166,9 +1152,13 @@ footer .telephone {
         font-size: 1.6rem;
     }
 }
+
 @media (max-width: 450px) {
     .title {
-        font-size: 18.4vw;
+        font-size: 18vw;
+    }
+    .subtitle { 
+        font-size: 1.3rem;
     }
     .teaserbox img {
         width: auto;
@@ -1182,13 +1172,15 @@ footer .telephone {
         width: auto !important;
     }
 }
+
 @media (max-width: 320px) {
     .title {
         font-size: 17vw;
+        margin-bottom: 0;
     }
     .subtitle {
         margin-top: 0;
-        font-size: 1.5rem;
+        font-size: 1.2rem;
      }
     .footnotes li:first-child:before {
         width: 100%;
@@ -1198,29 +1190,3 @@ footer .telephone {
         padding: 0 16px;
     }
 }
-
-/*  old ipad compatibility */
-/* 
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) 
-and (orientation : landscape) {
-    .title {
-        font-size: 16rem;
-        font-size: 15.6vw;
-    }
-    .subtitle {
-        font-size: 1.9rem;
-    }
-}
-
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) 
-and (orientation : portrait) {
-    .title {
-        font-size: 15rem;
-        font-size: 19vw;
-    }
-}
- */

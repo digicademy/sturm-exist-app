@@ -21,7 +21,8 @@
         <div class="branding">
             <a href="/">
                 <h1 class="title">
-                    <span class="tight">DER</span> STURM</h1>
+                    <span class="tighter">DER</span><xsl:text> </xsl:text><span class="tight">ST</span><span class="normal">URM</span>
+                </h1>
                 <h2 class="subtitle">Digitale Quellenedition zur Geschichte der internationalen Avantgarde</h2>
             </a>
         </div>

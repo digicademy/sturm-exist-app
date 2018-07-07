@@ -3666,7 +3666,7 @@
                             </row>
                         </table>
 
-                        <ab rend="h5" xml:id="jg_21_1932">Jahrgang 21, 1932</ab>
+                        <ab rend="h5" xml:id="jg_21_1932" style="year">Jahrgang 21, 1932</ab>
                         <table type="packed">
                             <row rend="th">
                                 <cell>Nr.</cell>

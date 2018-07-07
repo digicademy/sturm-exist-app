@@ -43,14 +43,13 @@
                 </availability>
                 <idno type="file">Q.01.19140822.JVH.01.xml</idno>
                 <idno type="uri">https://sturm-edition.de/id/Q.01.19140822.JVH.01</idno>
-                <date when="2018-04-01"/>
             </publicationStmt>
             <sourceDesc>
                 <bibl>Q.01.19140822.JVH.01, Jacoba van Heemskerck an Herwarth Walden, 23. August
                     1914, Loverendale, Domburg, bearbeitet von Marjam Trautmann, in: Der STURM.
                     Digitale Quellenedition zur Geschichte der internationalen Avantgarde,
                     erarbeitet und herausgegeben von Marjam Trautmann und Torsten
-                    Schrade. Mainz, Akademie der Wissenschaften und der Literatur, 01.04.2018. </bibl>
+                    Schrade. Mainz, Akademie der Wissenschaften und der Literatur. </bibl>
                 <msDesc>
                     <msIdentifier>
                         <country>DE</country>
@@ -84,7 +83,7 @@
         <revisionDesc>
             <listChange>
                 <change>
-                    <date when="2018-04-01" n="1"/>
+                    <date when="2018-07-16" n="1"/>
                 </change>
             </listChange>
         </revisionDesc>

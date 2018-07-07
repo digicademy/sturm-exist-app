@@ -53,6 +53,7 @@
                 erarbeitet und herausgegeben von Marjam Trautmann und Torsten Schrade, 
                 Softwareversion 1.0.0 - 2018. <br/> URI: <a href="https://sturm-edition.de/">https://sturm-edition.de/</a>
             </p>
+            <h5>Kontakt</h5>
             <a href="http://www.adwmainz.de/">
                 <img id="logo" src="{$relativeToAppBase}images/adwlogo.png"/>
             </a>
@@ -60,15 +61,14 @@
                 <span property="name">Akademie der Wissenschaften und der Literatur Mainz</span><br/>
                 <div property="address" typeof="PostalAddress">
                     <span property="streetAddress">Geschwister-Scholl-Str. 2</span><br/>
-                    <span property="postalCode">55131</span> 
+                    <span property="postalCode">55131</span><xsl:text> </xsl:text>
                     <span property="addressLocality">Mainz</span>
                 </div>
                 Tel: 
-                <span property="telephone" class="telephone">06131 577 100</span><br/>
-                <span property="email">generalsekretariat@adwmainz.de</span><br/>
-                <a href="http://www.adwmainz.de">www.adwmainz.de</a><br/>
-                <a href="{$relativeToAppBase}impressum.html">Impressum</a><br/>
-                <a href="{$relativeToAppBase}datenschutz.html">Datenschutzerklärung</a>
+                <span property="telephone" class="telephone">06131 577 119</span><br/>
+                <span property="email"><a href="mailto:redaktion@sturm-edition.de">redaktion@sturm-edition.de</a></span><br/>
+                <a class="imprint" href="{$relativeToAppBase}impressum.html">Impressum</a><br/>
+                <a class="privacy" href="{$relativeToAppBase}datenschutz.html">Datenschutzerklärung</a>
             </address>
         </section>
     </xsl:template>

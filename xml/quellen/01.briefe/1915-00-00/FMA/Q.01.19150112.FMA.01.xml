@@ -43,14 +43,13 @@
                 </availability>
                 <idno type="file">Q.01.19150112.FMA.01.xml</idno>
                 <idno type="uri">https://sturm-edition.de/id/Q.01.19150112.FMA.01</idno>
-                <date when="2018-04-01"/>
             </publicationStmt>
             <sourceDesc>
                 <bibl>Q.01.19150112.FMA.01, Franz Marc an Herwarth Walden, 12. Januar 1915,
                     Feldpoststation A.A. Falkenhausen, bearbeitet von Marjam Trautmann, in: Der
                     STURM. Digitale Quellenedition zur Geschichte der internationalen Avantgarde,
                     erarbeitet und herausgegeben von Marjam Trautmann und Torsten
-                    Schrade. Mainz, Akademie der Wissenschaften und der Literatur, 01.04.2018. </bibl>
+                    Schrade. Mainz, Akademie der Wissenschaften und der Literatur. </bibl>
                 <msDesc>
                     <msIdentifier>
                         <country>DE</country>
@@ -81,7 +80,7 @@
         <revisionDesc>
             <listChange>
                 <change>
-                    <date when="2018-04-01" n="1"/>
+                    <date when="2018-07-16" n="1"/>
                 </change>
             </listChange>
         </revisionDesc>

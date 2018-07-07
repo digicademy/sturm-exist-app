@@ -83,7 +83,7 @@
                                         <a href="{$relativeToAppBase}quellen/briefe.html">Abteilung I, Briefe</a>
                                     </h3>
                                     <p>
-                                        <strong>Dokumenttyp: </strong>
+                                        <strong>Dokumenttyp: </strong> 
                                         <xsl:choose>
                                             <xsl:when test="$sourcetype = 'postcard'">Postkarte</xsl:when>
                                             <xsl:when test="$sourcetype = 'militaryMail'">Feldpost</xsl:when>
@@ -92,15 +92,11 @@
                                         </xsl:choose>
                                     </p>
                                     <p>
-                                        <strong>Chronologie:</strong>
-                                        <a href="{concat($relativeToAppBase, 'quellen/briefe/chronologie.html')}">
-                                            Briefe von 1914 bis 1915 <xsl:if test="contains($targetDir, 'chronologie')">
-                                                <span title="Aktuell gewählte Ansicht"> ←</span>
-                                            </xsl:if>
-                                        </a>
+                                        <strong>Chronologie: </strong> 
+                                        <a href="{concat($relativeToAppBase, 'quellen/briefe/chronologie.html')}">Briefe von 1914 bis 1915 <xsl:if test="contains($targetDir, 'chronologie')"><span title="Aktuell gewählte Ansicht"> ←</span></xsl:if></a>
                                     </p>
                                     <p>
-                                        <strong>Briefwechsel: </strong>
+                                        <strong>Briefwechsel: </strong> 
                                         <a href="{concat($relativeToAppBase, 'quellen/briefe/', lower-case(substring($idno, 15, 3)), '.html')}">
                                             <xsl:value-of select="concat(//tei:correspAction[@type = 'sent']/tei:persName, ' an Herwarth Walden')"/>
                                             <xsl:if test="not(contains($targetDir, 'chronologie'))">
@@ -109,7 +105,7 @@
                                         </a>
                                     </p>
                                     <p class="msidentifier">
-                                        <strong>Quelle: </strong> Staatsbibliothek zu Berlin, Handschriftenabteilung, Sturm-Archiv I, <xsl:value-of select="$senderPrefName"/>, <a class="external" href="{$uri}"><xsl:value-of select="$folios"/></a>
+                                        <strong>Quelle: </strong>Staatsbibliothek zu Berlin, Handschriftenabteilung, Sturm-Archiv I, <xsl:value-of select="$senderPrefName"/>, <a class="external" href="{$uri}"><xsl:value-of select="$folios"/></a>
                                     </p>
                                 </div>
                                 <xsl:call-template name="toolbar"/>
