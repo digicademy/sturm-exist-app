@@ -1,6 +1,21 @@
-// @see: http://api.jquery.com/hide/
-// @see: http://api.jquery.com/show/
-// @see: http://api.jquery.com/slidetoggle/
+/* 
+ * Letters from the STURM-Archive I
+ * A Digital Edition of Sources from the International Avantgarde
+ *
+ * Edited and developed by Marjam Mahmoodzada and Torsten Schrade
+ * Academy of Sciences and Literature | Mainz
+ *
+ * Open/Close script for lists of letters. Currently not used.
+ *
+ * @author Torsten Schrade
+ * @email <Torsten.Schrade@adwmainz.de>
+ * @version 1.0.0 
+ * @licence MIT
+ * 
+ * @see: http://api.jquery.com/hide/
+ * @see: http://api.jquery.com/show/
+ * @see: http://api.jquery.com/slidetoggle/
+ */
 /* 
 $(document).ready(function() {
     // all ol.letters are hidden first

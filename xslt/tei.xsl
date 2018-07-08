@@ -1,11 +1,11 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:exslt="http://exslt.org/common" exclude-result-prefixes="xs tei exslt" version="2.0">
 
-<!-- 
-(:~
+<!--
+(:
  : Der STURM
  : A Digital Edition of Sources from the International Avantgarde
  :
- : Edited and developed by Marjam Mahmoodzada, Thomas Kollatz and Torsten Schrade
+ : Edited and developed by Marjam Mahmoodzada and Torsten Schrade
  : Academy of Sciences and Literature | Mainz
  :
  : This stylesheet is used for the generation of TEI/XML files

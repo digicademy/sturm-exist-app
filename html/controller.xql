@@ -1,10 +1,10 @@
 xquery version "3.0";
 
-(:~
- : Letters from the STURM-Archive I
- : A Digital Edition
+(:
+ : Der STURM
+ : A Digital Edition of Sources from the International Avantgarde
  :
- : Edited and developed by Marjam Mahmoodzada, Thomas Kollatz and Torsten Schrade
+ : Edited and developed by Marjam Mahmoodzada and Torsten Schrade
  : Academy of Sciences and Literature | Mainz
  :
  : XQuery controller for serving static HTML content out of an eXist webapp.

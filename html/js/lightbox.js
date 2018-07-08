@@ -1,3 +1,17 @@
+/* 
+ * Letters from the STURM-Archive I
+ * A Digital Edition of Sources from the International Avantgarde
+ *
+ * Edited and developed by Marjam Mahmoodzada and Torsten Schrade
+ * Academy of Sciences and Literature | Mainz
+ *
+ * Lightbox script for viewing facsimiles
+ *
+ * @author Torsten Schrade
+ * @email <Torsten.Schrade@adwmainz.de>
+ * @version 1.0.0 
+ * @licence MIT
+ */
 $('.mfp-lightbox').magnificPopup({
     delegate: 'a', // child items selector, by clicking on it popup will open
     type: 'image',

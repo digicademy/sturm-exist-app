@@ -183,12 +183,12 @@ p + cite {
 }
 
 .title {
-    margin: 2rem 0 -5.3rem -10px;
+    margin: 4rem 0 0 -10px;
     padding: 0;
     color: #333;
     font-family: RomanaEF-Book, Ramaraja, Times, "Times New Roman", serif;
     font-size: 15.3vw;
-    line-height: 1;
+    line-height: 0.75;
     font-weight: normal;
     letter-spacing: -0.03em;
     text-align: center;
@@ -197,6 +197,7 @@ p + cite {
 .subtitle {
     position: relative;
     z-index: 10;
+    margin: 0;
     padding: 0;
     color: #CD2526;
     font-size: 2.2rem;
@@ -206,6 +207,19 @@ p + cite {
     line-height: 1;
     text-align: center;
 }
+
+/* Change to this if RomanaEF-Book is not available
+
+.title {
+	margin-top: 6rem;
+	line-height: 0.5;
+}
+
+.tight {
+	letter-spacing: inherit;
+}
+
+*/
 
 /* NAVIGATION */
 
@@ -981,7 +995,6 @@ footer .telephone {
 @media (max-width: 900px) {
     .title {
         font-size: 19.7vw;
-        margin-bottom: -4.8rem;
     }
     .subtitle { 
         font-size: 2rem;
@@ -1016,9 +1029,6 @@ footer .telephone {
 }
 
 @media (max-width: 800px) {
-    .title {
-        margin-bottom: -4.2rem;
-    }
     .subtitle { 
         font-size: 1.9rem;
      }
@@ -1038,7 +1048,7 @@ footer .telephone {
 @media (max-width: 600px) {
     .title {
         font-size: 18vw;
-        margin-bottom: -3.8rem;
+        margin-top: 3rem;
     }
     .subtitle { 
         font-size: 1.6rem;
@@ -1084,7 +1094,8 @@ footer .telephone {
 @media (max-width: 480px) {
     .title {
         font-size: 17.6vw;
-        margin-bottom: -3.4rem;
+        margin-top: 2.5rem;
+        line-height: 0.9;
     }
     .subtitle { 
         font-size: 1.4rem;
@@ -1156,6 +1167,7 @@ footer .telephone {
 @media (max-width: 450px) {
     .title {
         font-size: 18vw;
+        margin-top: 2rem;
     }
     .subtitle { 
         font-size: 1.3rem;
@@ -1176,7 +1188,6 @@ footer .telephone {
 @media (max-width: 320px) {
     .title {
         font-size: 17vw;
-        margin-bottom: 0;
     }
     .subtitle {
         margin-top: 0;

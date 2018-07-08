@@ -4,10 +4,10 @@ xquery version "3.0";
  : Der STURM
  : A Digital Edition of Sources from the International Avantgarde
  :
- : Edited and developed by Marjam Mahmoodzada, Thomas Kollatz and Torsten Schrade
+ : Edited and developed by Marjam Mahmoodzada and Torsten Schrade
  : Academy of Sciences and Literature | Mainz
  :
- : XQuery based REST API version 1
+ : XQuery based REST API
  :
  : @author Torsten Schrade
  : @email <Torsten.Schrade@adwmainz.de>

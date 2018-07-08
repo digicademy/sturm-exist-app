@@ -1,10 +1,10 @@
 xquery version "3.0";
 
-(:~
+(:
  : Der STURM
  : A Digital Edition of Sources from the International Avantgarde
  :
- : Edited and developed by Marjam Mahmoodzada, Thomas Kollatz and Torsten Schrade
+ : Edited and developed by Marjam Mahmoodzada and Torsten Schrade
  : Academy of Sciences and Literature | Mainz
  :
  : Core module of the STURM website generator. Contains the HTML generation functions

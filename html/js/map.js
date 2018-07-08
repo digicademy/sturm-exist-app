@@ -1,5 +1,20 @@
 'use strict';
 
+/* 
+ * Letters from the STURM-Archive I
+ * A Digital Edition of Sources from the International Avantgarde
+ *
+ * Edited and developed by Marjam Mahmoodzada and Torsten Schrade
+ * Academy of Sciences and Literature | Mainz
+ *
+ * Visualizes mentioned places on a Leaflet map using the STURM API.
+ *
+ * @author Torsten Schrade
+ * @email <Torsten.Schrade@adwmainz.de>
+ * @version 1.0.0 
+ * @licence MIT
+ */
+
 $(document).ready(function() {
 
     $.ajax({
@@ -21,9 +36,6 @@ $(document).ready(function() {
                 } else {
                     folios += '<a href="../quellen/briefe/chronologie/'+ place.linkGrp.ptr['target'].replace('.xml', '.html') +'" style="display: block">'+ place.linkGrp.ptr['n'] +'</a>'
                 }
-
-console.log(place['placeName']['#text']);
-
                 L.marker([latitude,longitude]).addTo(map).bindPopup('<a href="'+ place['source'] +'" style="display: block; font-size: larger; margin-bottom: 0.3em;">' + place['placeName']['#text'] + '</a>' + folios);
             }
         }
