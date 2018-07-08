@@ -3,7 +3,7 @@
         <fileDesc>
             <titleStmt>
                 <title>Schnittstellen</title>
-                <editor>Marjam Mahmoodzada <email>marjam.mahmoodzada@adwmainz.de</email>
+                <editor>Torsten Schrade <email>Torsten.Schrade@adwmainz.de</email>
                 </editor>
             </titleStmt>
             <publicationStmt>
@@ -11,7 +11,6 @@
                     <ref target="marjam.mahmoodzada@adwmainz.de">Marjam Mahmoodzada</ref>
                 </publisher>
                 <idno type="file">schnittstellen.xml</idno>
-                <date when="2018-03-30"/>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by/4.0/">This file is
                         licensed under the terms of the Creative-Commons-License CC BY 4.0</licence>
@@ -24,7 +23,7 @@
         <revisionDesc>
             <listChange>
                 <change>
-                    <date when="2018-06-24" n="1"/>
+                    <date when="2018-07-16" n="1"/>
                 </change>
             </listChange>
         </revisionDesc>

@@ -1,0 +1,44 @@
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Abteilung I, STURM-Briefe</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="http://www.adwmainz.de">Akademie der Wissenschaften und der Literatur | Mainz</ref>
+                </publisher>
+                <pubPlace ref="http://sws.geonames.org/2874225">Mainz</pubPlace>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        This file is licensed under the terms of the Creative-Commons-License CC BY 4.0
+                    </licence>
+                </availability>
+                <idno type="file">briefe.xml</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <p>
+                    XML-Template für die dynamische Erstellung der HTML-Brieflisten. Die Inhalt im TEI-Body 
+                    (renderContent) werden bei der Seitengenerierung ersetzt.
+                </p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="section" n="eight">
+                <ab rend="h2">Abteilung I, STURM-Briefe</ab>
+                <ab type="renderContent"/>
+            </div>
+            <div type="section" n="four">
+                <ab type="subNavigation" n="quellen" select="briefe"/>
+                <ab rend="h4">Editionsrichtlinien der Abteilung I</ab>
+                <p>
+                    Neben den <ref target="edition.xml">abteilungsübergreifenden Editionsrichtlinien</ref>
+                    werden die Briefe nach den folgenden <ref target="edition/briefe.xml">abteilungsspezifischen Richtlinen</ref>
+                    ediert.
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -2,11 +2,12 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Software</title>
+                <title>###SEITENTITEL###</title>
+                <!-- <title type="navigation">###NAVIGATIONSTITEL###</title> -->
                 <editor>
-                    <persName ref="https://orcid.org/0000-0002-0953-2818">
-                        <forename>Torsten</forename>
-                        <surname>Schrade</surname>
+                    <persName ref="###REF###">
+                        <forename>###FIRST_NAME###</forename>
+                        <surname>###LAST_NAME###</surname>
                     </persName>
                 </editor>
                 <respStmt>
@@ -38,10 +39,10 @@
                         This file is licensed under the terms of the Creative-Commons-License CC BY 4.0
                     </licence>
                 </availability>
-                <idno type="file">software.xml</idno>
+                <idno type="file">###FILENAME.XML###</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl>Torsten Schrade: "Software", in: Der STURM. Digitale Quellenedition zur Geschichte der 
+                <bibl>Torsten Schrade: "###TITEL###", in: Der STURM. Digitale Quellenedition zur Geschichte der 
                     internationalen Avantgarde, erarbeitet und herausgegeben von Marjam Trautmann und 
                     Torsten Schrade. Mainz, Akademie der Wissenschaften und der Literatur.
                 </bibl>
@@ -50,8 +51,8 @@
         <revisionDesc>
             <listChange>
                 <change>
-                    <date when="2018-07-16" n="1"/>
-                    <p>Initiale Version</p>
+                    <date when="###YYYY-MM-TT###" n="###NUMBER###"/>
+                    <p>###CHANGE_DESCRIPTION###</p>
                 </change>
             </listChange>
         </revisionDesc>
@@ -59,24 +60,10 @@
     <text>
         <body>
             <div type="section" n="eight">
-                <ab rend="h2">Forschungssoftware</ab>
-                <ab rend="h3">Download</ab>
-                <p>
-                    <ref target="https://github.com/digicademy/sturm-edition">https://github.com/digicademy/sturm-edition</ref>
-                    <ref target="https://github.com/digicademy/sturm-edition/releases/tag/v1.0.0">https://github.com/digicademy/sturm-edition/releases/tag/v1.0.0</ref>
-                </p>
-                <ab rend="h3">Backend (eXist Applikation)</ab>
-                <ab rend="h4">Datenmodell</ab>
-                <ab rend="h4">Softwarearchitektur</ab>
-                <ab rend="h4">Gestaltung</ab>
-                <ab rend="h3">Frontend (Webpräsentation)</ab>
-                <ab rend="h4">Gestaltung</ab>
-                <ab rend="h4">Typographie</ab>
-                <ab rend="h4">Webtechnologien</ab>
-                <ab rend="h3">PHP Applikation (Beispielanwendung)</ab>
+                <ab rend="h2">###HEADING###</ab>
             </div>
             <div type="section" n="four">
-                <ab type="subNavigation" n="ressourcen"/>
+                <ab type="subNavigation" n="###FOLDER###"/>
             </div>
         </body>
     </text>
