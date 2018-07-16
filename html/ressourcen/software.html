@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="description" content=""/>
+        <meta name="author" content="Marjam Mahmoodzada"/>
+        <meta name="author" content="Torsten Schrade"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <title>Forschungssoftware : DER STURM. Digitale Quellenedition zur Geschichte der internationalen Avantgarde</title>
+        <script>
+                var Hyphenopoly = {
+                    require: {
+                        "de": "FORCEHYPHENOPOLY"
+                    },
+                    paths: {
+                        patterndir: "../js/Hyphenopoly/patterns/",
+                        maindir: "../js/Hyphenopoly/"
+                    },
+                    setup: {
+                        classnames: {
+                            "container": {}
+                        }
+                    }
+                };
+                </script>
+        <script src="../js/Hyphenopoly/Hyphenopoly_Loader.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Tinos:400,400i,700,700i&amp;subset=latin-ext" rel="stylesheet"/>
+        <link href="https://fonts.googleapis.com/css?family=Ramaraja" rel="stylesheet"/>
+        <link rel="stylesheet" type="text/css" media="screen" href="../css/normalize.css"/>
+        <link rel="stylesheet" type="text/css" media="screen" href="../css/skeleton.css"/>
+        <link rel="stylesheet" type="text/css" media="screen" href="../css/magnific-popup.css"/>
+        <link rel="stylesheet" type="text/css" media="screen" href="../css/atom-one-light.css"/>
+        <link rel="stylesheet" type="text/css" media="screen" href="../css/style.css"/>
+        <link rel="stylesheet" type="text/css" media="print" href="../css/print.css"/>
+        <link rel="icon" type="image/png" href="../images/favicon.png"/></head>
+    <body id="software">
+        <div class="container">
+            <header class="row header">
+                <div class="branding"><a href="../index.html">
+                        <h1 class="title"><span class="tighter">DER</span> <span class="tight">ST</span><span class="normal">URM</span></h1>
+                        <h2 class="subtitle">Digitale Quellenedition zur Geschichte der internationalen Avantgarde</h2></a></div>
+                <nav class="navigation">
+                    <ul>
+                        <li><a class="normal" href="../projekt.html">Projekt</a></li>
+                        <li><a class="normal" href="../edition.html">Edition</a></li>
+                        <li><a class="normal" href="../quellen.html">Quellen</a></li>
+                        <li><a class="normal" href="../register.html">Register</a></li>
+                        <li><a class="active" href="../ressourcen.html">Ressourcen</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <main class="row content hyphenate" id="main">
+                <section class="twelve columns">
+                <div class="row">
+                    <div class="columns eight">
+                        <h2 class="standard">Forschungssoftware</h2>
+                        <p> Die Forschungssoftware des STURM-Projektes wird kollaborativ über die
+                            Code-Hosting Plattform GitHub entwickelt. Auf der <a class="external internal" href="https://github.com/orgs/digicademy/teams/sturm/">Team-Seite</a> finden sich dabei die neuesten technischen
+                            Entwicklungen und alle <a class="external internal" href="https://github.com/orgs/digicademy/teams/sturm/repositories">Code-Repositorien</a>. Alle Komponenten werden in regelmäßigen
+                            Abständen zitierfähig auf der Plattform <a class="external internal" href="https://zenodo.org/">Zenodo</a> veröffentlicht. </p>
+                        <table class="packed">
+                                <thead>
+                                    <tr>
+                                        <th>Komponente</th>
+                                        <th>Download</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>eXist Webapp (Hauptsoftware)</td>
+                                        <td>
+                                    <a class="external internal" href="https://github.com/digicademy/sturm-exist-app/releases/">GitHub</a>
+                                </td>
+                                    </tr>
+                                    <tr>
+                                        <td>PHP Webapp (Beispielanwendung)</td>
+                                        <td>
+                                    <a class="external internal" href="https://github.com/digicademy/sturm-php-app/releases/">GitHub</a>
+                                </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                    </div>
+                    <div class="columns four">
+                        <nav class="subnavigation">
+                                <ul>
+                                    <li><a href="bibliographie.html" class="normal">Projektbibliographie</a></li>
+                                    <li><a href="publikationen.html" class="normal">Publikationen</a></li>
+                                    <li><a href="siglen.html" class="normal">Künstler-Siglen</a></li>
+                                    <li><a href="schnittstellen.html" class="normal">Schnittstellen</a></li>
+                                    <li><a href="software.html" class="active">Software</a></li>
+                                </ul>
+                            </nav>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="standard">eXist-Applikation</h3>
+                </div>
+                <div class="row">
+                    <div class="columns six">
+                        <h4 class="standard">Softwarearchitektur</h4>
+                        <p> Die STURM-Edition ist als Webanwendung für die native XML-Datenbank <a class="external internal" href="http://exist-db.org/">eXist</a> realisiert. Innerhalb der
+                            Anwendung erfolgen sowohl die Editionsarbeiten mit <a class="external internal" href="https://www.oxygenxml.com/">oXygen</a> als auch die
+                            Online-Publikation der STURM-Quellen und Begleittexte. Die
+                            eXist-Applikation ist inspiriert durch aktuelle Entwicklungen im Bereich
+                            statischer Website-Generatoren und Flat-File CM Systeme (bspw. <a class="external internal" href="https://jekyllrb.com/">Jekyll</a>, <a class="external internal" href="https://gohugo.io/">Hugo</a> oder auch <a class="external internal" href="https://getgrav.org/">Grav</a>). Sämtliche Komponenten der
+                            Edition werden vollständig aus XML vorgeneriert und als statisches HTML
+                            ausgeliefert (Ausnahmen hierzu bilden die dynamischen APIs). </p>
+                    </div>
+                    <div class="columns six">
+                        <figure class="mfp-lightbox">
+                            <a href="../images/sturm-exist-app.png"><img src="../images/sturm-exist-app.png"/></a>
+                            <figcaption> XQuery/XSLT (funktional programmierte) Version der
+                                STURM-Webanwendung. Implementierung in Form eines Static Site
+                                Generators. Zur Vergrößerung der Grafik klicken. </figcaption>
+                        </figure>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="columns twelve">
+                        <p> Neben einer deutlich besseren Performance hat dieser Ansatz weitere
+                            Vorteile, zum Beispiel eine gesteigerte Nachhaltigkeit der digitalen
+                            Edition, da nicht nur die Forschungsdaten und der dazugehörige
+                            Programmcode sondern auch die daraus erzeugte Präsentationsschicht und
+                            die aus den Daten abgeleiteten Formate (bspw. CMIF, JSON etc.) in einem
+                            ‚Gesamtpaket‘ systemneutral verfügbar gemacht werden können. <sup class="fn"><a href="#ap-1" id="fn-1">1</a></sup>
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="columns twelve">
+                        <h4 class="standard">Webtechnologien</h4>
+                        <p> Für die Präsentationsschicht der Digitalen Edition kommen einschlägige
+                            Programmbibliotheken zum Einsatz. Entlang der Prinzipien des <a class="external internal" href="https://de.wikipedia.org/wiki/Progressive_Verbesserung">progressive enhancement</a> werden die Forschungsdaten in
+                            statisches, semantisches HTML unter Berücksichtigung der Barrierearmut
+                            umgewandelt. Dadurch kann die Edition in ihrer grundlegenden Form mit
+                            jedem Webbrowser bzw. internetfähigem Gerät rezipiert werden. Hierauf
+                            aufbauend werden für modernere Browser mit Hilfe bestimmter JavaScript-
+                            und CSS-Bibliotheken zusätzliche Funktionalitäten bereitgestellt (bspw.
+                            eine Klickvergrößerung der Digitalisate, ein Mehrspaltensatz oder
+                            interaktive Karten im Ortsregister). Insgesamt werden folgende
+                            Bibliotheken und Frameworks eingesetzt: </p>
+                        <ul class="standard">
+                            <li>
+                                <a class="external internal" href="https://jquery.com/">jQuery (Klickvergrößerung, Karten,
+                                    Navigation für Smartphones und Tablets)</a>
+                            </li>
+                            <li>
+                                <a class="external internal" href="http://dimsemenov.com/plugins/magnific-popup/">Magnific
+                                    Popup (Klickvergrößerung für Digitalisate)</a>
+                            </li>
+                            <li>
+                                <a class="external internal" href="https://leafletjs.com/">Leaflet (interaktive Karte im
+                                    Ortsregister)</a>
+                            </li>
+                            <li>
+                                <a class="external internal" href="https://highlightjs.org/">highlight.js (Darstellung von
+                                    XML-Markup in den Editionsrichtlinien)</a>
+                            </li>
+                            <li>
+                                <a class="external internal" href="http://mnater.github.io/Hyphenopoly/">Hyphenopoly
+                                    (optimierte Silbentrennung für sauberen Blocksatz)</a>
+                            </li>
+                            <li>
+                                <a class="external internal" href="http://getskeleton.com/">Skeleton (CSS Grid für den
+                                    Spaltensatz)</a>
+                            </li>
+                        </ul>
+                        <h4 class="standard">Typographie &amp; Gestaltung</h4>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="columns six">
+                        <p> Die Präsentationsschicht der digitalen Edition legt besonderes Augenmerk
+                            auf eine ansprechende Darbietung unter Einbeziehung typographischer
+                            Gestaltungselemente aus der Zeit des ‚Sturm‘, eine gute Benutzbarkeit
+                            sowie einen optimalen Zugriff sowohl mit Desktop- als auch mit mobilen
+                            Endgeräten. Eine Schriftanalyse der ersten Ausgabe des ‚Sturm‘ von 1910
+                            zeigt, dass die ersten Ausgaben mit der damals in Amerika und Europa
+                            weit verbreiteten Schriftfamilie ‚Romana‘ des deutsch-amerikanischen
+                            Schriftdesigners <a class="external internal" href="http://www.klingspor-museum.de/KlingsporKuenstler/Schriftdesigner/Schroeder/GustavFSchroeder.pdf">Gustaf F. Schroeder</a> gesetzt wurden. <sup class="fn"><a href="#ap-2" id="fn-2">2</a></sup>
+                        </p>
+                    </div>
+                    <div class="columns six">
+                        <figure class="mfp-lightbox">
+                            <a href="../images/typographie.jpg"><img src="../images/typographie.jpg"/></a>
+                            <figcaption> Schriftvergleich der ersten STURM-Ausgabe vom 03. März 1910
+                                und der Romana (Elsner + Flake) als Webfont. </figcaption>
+                        </figure>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="columns twelve">
+                        <p> Die STURM-Edition greift gestalterisch das historische Schriftbild des
+                            ‚Sturm‘ auf und überführt es in das digitale Zeitalter. Zum Einsatz
+                            kommt ‚Romana EF Book‘ (Elsner + Flake), die als moderner Webfont
+                            eingebunden wird. Die typographische Gestaltung der Texte wird ergänzt
+                            durch Ornamente (bspw. Trenner zur Seitenaufteilung), die ebenfalls
+                            inspiriert sind durch die Druckgestalt der STURM-Zeitschrift. Genau wie
+                            seinerzeit im Druck kommt in der webbasierten Version ein
+                            Mehrspaltensystem zum Einsatz (Grid), das in der eXist-Anwendung durch
+                            eine spezifische TEI/XML-Annotationsstruktur der Begleittexte
+                            codiert und in der Präsentationsschicht mit Hilfe des <a class="external internal" href="http://getskeleton.com/">Skeleton CSS-Grid-Systems</a>
+                            implementiert ist. </p>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="standard">PHP-Applikation</h3>
+                </div>
+                <div class="row">
+                    <div class="columns six">
+                        <p> Für den Einsatz in der Lehre wird neben der eXist-Applikation eine
+                            zweite Webanwendung entwickelt, die eine gleiche – wenn auch in der Funktionalität für Lernzwecke 
+                            etwas reduzierte – Präsentationsschicht aus den XML-Daten erzeugt. Die Anwendung
+                            beruht jedoch auf einer gänzlich anderen Softwarearchitektur. Während die eXist-Applikation 
+                            durchgängig X-Technologien verwendet (TEI/XML, XQuery, XSLT) und einem
+                            funktionalen Programmierparadigma folgt, ist diese Anwendung in PHP
+                            unter Einsatz des objektorientierten Programmierparadigmas entlang
+                            der Architekturprinzipien des Domain Driven Design implementiert. 
+                            In diesem Rahmen demonstriert die Anwendung gängige Software-Entwurfsmuster, wie beispielsweise
+                            das Model-View-Controller Prinzip und zeigt unterschiedliche Möglichkeiten 
+                            HTTP-basierter Schnittstellenprogrammierung auf.
+                            Im Rahmen des Moduls ‚Webtechnologien‘ des Masterstudiengangs ‚Digitale
+                            Methodik in den Geistes- und Kulturwissenschaften‘ können somit beide
+                            Programmierparadigmen und Software-Architekturprinzipien anhand einer
+                            einzigen Digitalen Edition vergleichend nachvollzogen werden. </p>
+                    </div>
+                    <div class="columns six">
+                        <figure class="mfp-lightbox">
+                            <a href="../images/sturm-php-app.png"><img src="../images/sturm-php-app.png"/></a>
+                            <figcaption> PHP (objektorientiert programmierte) Version der
+                                STURM-Webanwendung unter Verwendung von Domain Driven Design und
+                                MVC-Prinzipien. Zur Vergrößerung der Grafik klicken. </figcaption>
+                        </figure>
+                    </div>
+                </div>
+            <div class="aparatus">
+                        <ol class="footnotes">
+                            <li id="ap-1"> Vgl.
+                                hierzu aktuell auch den Beitrag von Fabian Cremer, Lisa Klaffki und
+                                Timo Steyer: „Der Chimäre auf der Spur: Forschungsdaten in den
+                                Geisteswissenschaften“, in: obib, Das offene Bibliotheksjournal, Bd.
+                                5, Nr. 2 (2018), DOI <a class="external internal" href="https://doi.org/10.5282/o-bib/2018H2S142-162">https://doi.org/10.5282/o-bib/2018H2S142-162</a>. <a href="#fn-1"> » </a></li>
+                            <li id="ap-2"> Schroeder
+                                entwickelte die Schrift 1892 im Rahmen seiner Tätigkeiten als
+                                Stempelschneider bei der <a class="external internal" href="http://www.klingspor-museum.de/KlingsporKuenstler/Schriftgiessereien/Central/CentralTF.pdf">Central Type Foundry </a> auf Basis älterer Versionen, die
+                                bereits in den 1860er Jahren entworfen wurden. Siehe <a class="external internal" href="https://www.myfonts.com/fonts/bitstream/romana/">https://www.myfonts.com/fonts/bitstream/romana/</a>. <a href="#fn-2"> » </a></li>
+                        </ol>
+                    </div>
+                </section>
+            </main>
+            <footer class="row footer">
+                <section class="six columns service">
+                    <h5>Links</h5>
+                    <ul class="standard">
+                        <li><a href="http://www.arthistoricum.net/themen/portale/sturm/">Themenportal „Herwarth Walden und DER STURM“</a></li>
+                        <li><a href="http://bluemountain.princeton.edu/exist/apps/bluemountain/title.html?titleURN=bmtnabg">Blue Mountain Project der Universität Princeton</a></li>
+                        <li><a href="http://kalliope.staatsbibliothek-berlin.de/de/findingaid_index?fa.id=DE-611-BF-4273&amp;fa.enum=111&amp;lastparam=true">STURM-Archiv der Staatsbibliothek zu Berlin</a></li>
+                        <li><a href="http://digi.ub.uni-heidelberg.de/diglit/sturm">STURM-Bestände der Universitätsbibliothek Heidelberg</a></li>
+                        <li><a href="http://www.zikg.eu/bibliothek/studienzentrum/digitalisierung/kataloge-sturm">STURM-Bestände des Zentralinstituts für Kunstgeschichte</a></li>
+                    </ul>
+                    <h5>Nachnutzung</h5>
+                    <p>
+                Edition und Forschungsdaten stehen unter einer 
+                <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International (CC-BY 4.0)</a> 
+                Lizenz und können unter Berücksichtigung der Lizenzbedingungen frei nachgenutzt werden. 
+                Die Editionssoftware dieses Projektes steht unter MIT-Lizenz und kann <a href="../ressourcen/software.html">frei heruntergeladen</a> und 
+                weiterentwickelt werden.
+            </p>
+                </section>
+                <section class="six columns contact">
+                    <h5>Herausgeber</h5>
+                    <p>
+                DER STURM. Digitale Quellenedition zur Geschichte der internationalen Avantgarde, 
+                erarbeitet und herausgegeben von Marjam Trautmann und Torsten Schrade, Mainz, Akademie
+                der Wissenschaften und der Literatur, 2018.
+            </p>
+                    <h5>Kontakt</h5><a href="http://www.adwmainz.de/"><img id="logo" src="../images/adwlogo.png"/></a>
+                    <address x-ms-format-detection="none" vocab="http://schema.org/" typeof="Organization"><span property="name">Akademie der Wissenschaften und der Literatur Mainz</span><br/>
+                        <div property="address" typeof="PostalAddress"><span property="streetAddress">Geschwister-Scholl-Str. 2</span><br/><span property="postalCode">55131</span> <span property="addressLocality">Mainz</span></div>
+                Tel: 
+                <span property="telephone" class="telephone">06131 577 119</span><br/>
+                E-Mail: <span property="email"><a href="mailto:redaktion@sturm-edition.de">redaktion@sturm-edition.de</a></span><br/>
+                Twitter: <a class="twitter" href="https://twitter.com/SturmEdition">@SturmEdition</a><br/><a class="imprint" href="../impressum.html">Impressum</a><span class="dash"> / </span><a class="privacy" href="../datenschutz.html">Datenschutzerklärung</a></address>
+                </section>
+            </footer>
+        </div>
+        <script src="../js/jquery-1.12.4.min.js"></script>
+        <script src="../js/jquery.magnific-popup.min.js"></script>
+        <script src="../js/lightbox.js"></script>
+        <script src="../js/highlight.pack.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script>
+        <script src="../js/letters.js"></script>
+        <script src="../js/menu.js"></script>
+    </body>
+</html>

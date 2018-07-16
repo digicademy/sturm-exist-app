@@ -1,0 +1,611 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Chronologische Liste der edierten Briefe</title>
+                <editor>Marjam Trautmann<email>Marjam.Trautmann@adwmainz.de</email>
+                </editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="http://www.adwmainz.de/">Akademie der Wissenschaften und der Literatur | Mainz</ref>
+                </publisher>
+                <idno type="file">briefe.xml</idno>
+                <date when="2018-07-16+02:00"/>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">This file is licensed under the terms of the Creative-Commons-License CC BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Register aller publizierten Briefe sortiert nach Künstlern und Jahren</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <list n="letters">
+                    <item n="1915-00-00">
+                        <list n="FMA">
+                            <item source="https://sturm-edition.de/id/Q.01.19150112.FMA.01" xml:id="Q.01.19150112.FMA.01" n="letter">
+                                <ref target="Q.01.19150112.FMA.01.xml">
+                                    <time when="1915-01-12">1915-01-12</time>, <placeName>Feldpoststation A.A. Falkenhausen</placeName>
+                                </ref>,<ref target="http://kalliope-verbund.info/DE-611-HS-1917498">Sturm Archiv I, Bl.194-195</ref>
+                            </item>
+                            <item source="https://sturm-edition.de/id/Q.01.19150116.FMA.01" xml:id="Q.01.19150116.FMA.01" n="letter">
+                                <ref target="Q.01.19150116.FMA.01.xml">
+                                    <time when="1915-01-16">1915-01-16</time>, <placeName>Feldpoststation A.A. Falkenhausen</placeName>
+                                </ref>,<ref target="http://kalliope-verbund.info/DE-611-HS-1917503">Sturm Archiv I, Bl.196</ref>
+                            </item>
+                            <item source="https://sturm-edition.de/id/Q.01.19150121.FMA.01" xml:id="Q.01.19150121.FMA.01" n="letter">
+                                <ref target="Q.01.19150121.FMA.01.xml">
+                                    <time when="1915-01-26">1915-01-26</time>, <placeName>Feldpoststation A.A. Falkenhausen</placeName>
+                                </ref>,<ref target="http://kalliope-verbund.info/DE-611-HS-1917505">Sturm Archiv I, Bl.197</ref>
+                            </item>
+                            <item source="https://sturm-edition.de/id/Q.01.19150303.FMA.01" xml:id="Q.01.19150303.FMA.01" n="letter">
+                                <ref target="Q.01.19150303.FMA.01.xml">
+                                    <time when="1915-03-03">1915-03-03</time>, <placeName>Ensisheim</placeName>
+                                </ref>,<ref target="http://kalliope-verbund.info/DE-611-HS-1917509">Sturm Archiv I, Bl.198</ref>
+                            </item>
+                            <item source="https://sturm-edition.de/id/Q.01.19150315.FMA.01" xml:id="Q.01.19150315.FMA.01" n="letter">
+                                <ref target="Q.01.19150315.FMA.01.xml">
+                                    <time when="1915-03-15">1915-03-15</time>, <placeName>Unknown</placeName>
+                                </ref>,<ref target="http://kalliope-verbund.info/DE-611-HS-1924687">Sturm Archiv I, Bl.199</ref>
+                            </item>
+                            <item source="https://sturm-edition.de/id/Q.01.19150315.FMA.02" xml:id="Q.01.19150315.FMA.02" n="letter">
+                                <ref target="Q.01.19150315.FMA.02.xml">
+                                    <time when="1915-03-15">1915-03-15</time>, <placeName>Unknown</placeName>
+                                </ref>,<ref target="http://kalliope-verbund.info/DE-611-HS-1924688">Sturm Archiv I, Bl.200</ref>
+                            </item>
+                            <item source="https://sturm-edition.de/id/Q.01.19150327.FMA.01" xml:id="Q.01.19150327.FMA.01" n="letter">
+                                <ref target="Q.01.19150327.FMA.01.xml">
+                                    <time when="1915-03-27">1915-03-27</time>, <placeName>Unknown</placeName>
+                                </ref>,<ref target="http://kalliope-verbund.info/DE-611-HS-1914562">Sturm Archiv I, Bl.201</ref>
+                            </item>
+                            <item source="https://sturm-edition.de/id/Q.01.19150417.FMA.01" xml:id="Q.01.19150417.FMA.01" n="letter">
+                                <ref target="Q.01.19150417.FMA.01.xml">
+                                    <time when="1915-04-17">1915-04-17</time>, <placeName>Unknown</placeName>
+                                </ref>,<ref target="http://kalliope-verbund.info/DE-611-HS-1914453">Sturm Archiv I, Bl.203</ref>
+                            </item>
+                            <item source="https://sturm-edition.de/id/Q.01.19150501.FMA.01" xml:id="Q.01.19150501.FMA.01" n="letter">
+                                <ref target="Q.01.19150501.FMA.01.xml">
+                                    <time when="1915-05-01">1915-05-01</time>, <placeName>Unknown</placeName>
+                                </ref>,<ref target="http://kalliope-verbund.info/DE-611-HS-1914576">Sturm Archiv I, Bl.205</ref>
+                            </item>
+                            <item source="https://sturm-edition.de/id/Q.01.19150615.FMA.01" xml:id="Q.01.19150615.FMA.01" n="letter">
+                                <ref target="Q.01.19150615.FMA.01.xml">
+                                    <time when="1915-06-15">1915-06-15</time>, <placeName>Unknown</placeName>
+                                </ref>,<ref target="http://kalliope-verbund.info/DE-611-HS-1925439">Sturm Archiv I, Bl.206</ref>
+                            </item>
+                            <item source="https://sturm-edition.de/id/Q.01.19150703.FMA.01" xml:id="Q.01.19150703.FMA.01" n="letter">
+                                <ref target="Q.01.19150703.FMA.01.xml">
+                                    <time when="1915-07-03">1915-07-03</time>, <placeName>Unknown</placeName>
+                                </ref>,<ref target="http://kalliope-verbund.info/DE-611-HS-1914583">Sturm Archiv I, Bl.207</ref>
+                            </item>
+                            <item source="https://sturm-edition.de/id/Q.01.19150710.FMA.01" xml:id="Q.01.19150710.FMA.01" n="letter">
+                                <ref target="Q.01.19150710.FMA.01.xml">
+                                    <time when="1915-07-10">1915-07-10</time>, <placeName>Ried</placeName>
+                                </ref>,<ref target="http://kalliope-verbund.info/DE-611-HS-1925450">Sturm Archiv I, Bl.208</ref>
+                            </item>
+                            <item source="https://sturm-edition.de/id/Q.01.19150827.FMA.01" xml:id="Q.01.19150827.FMA.01" n="letter">
+                                <ref target="Q.01.19150827.FMA.01.xml">
+                                    <time when="1915-08-27">1915-08-27</time>, <placeName>Unknown</placeName>
+                                </ref>,<ref target="http://kalliope-verbund.info/DE-611-HS-1914598">Sturm Archiv I, Bl.209</ref>
+                            </item>
+                            <item source="https://sturm-edition.de/id/Q.01.19150906.FMA.01" xml:id="Q.01.19150906.FMA.01" n="letter">
+                                <ref target="Q.01.19150906.FMA.01.xml">
+                                    <time when="1915-09-06">1915-09-06</time>, <placeName>Unknown</placeName>
+                                </ref>,<ref target="http://kalliope-verbund.info/DE-611-HS-1925416">Sturm Archiv I, Bl.202</ref>
+                            </item>
+                            <item source="https://sturm-edition.de/id/Q.01.19150911.FMA.01" xml:id="Q.01.19150911.FMA.01" n="letter">
+                                <ref target="Q.01.19150911.FMA.01.xml">
+                                    <time when="1915-09-11">1915-09-11</time>, <placeName>Unknown</placeName>
+                                </ref>,<ref target="http://kalliope-verbund.info/DE-611-HS-1925471">Sturm Archiv I, Bl.210</ref>
+                            </item>
+                            <item source="https://sturm-edition.de/id/Q.01.19150918.FMA.01" xml:id="Q.01.19150918.FMA.01" n="letter">
+                                <ref target="Q.01.19150918.FMA.01.xml">
+                                    <time when="1915-09-18">1915-09-18</time>, <placeName>Unknown</placeName>
+                                </ref>,<ref target="http://kalliope-verbund.info/DE-611-HS-1924695">Sturm Archiv I, Bl.211</ref>
+                            </item>
+                            <item source="https://sturm-edition.de/id/Q.01.19150922.FMA.01" xml:id="Q.01.19150922.FMA.01" n="letter">
+                                <ref target="Q.01.19150922.FMA.01.xml">
+                                    <time when="1915-09-22">1915-09-22</time>, <placeName>Unknown</placeName>
+                                </ref>,<ref target="http://kalliope-verbund.info/DE-611-HS-1924699">Sturm Archiv I, Bl.212</ref>
+                            </item>
+                            <item source="https://sturm-edition.de/id/Q.01.19151001.FMA.01" xml:id="Q.01.19151001.FMA.01" n="letter">
+                                <ref target="Q.01.19151001.FMA.01.xml">
+                                    <time when="1915-10-01">1915-10-01</time>, <placeName>Unknown</placeName>
+                                </ref>,<ref target="http://kalliope-verbund.info/DE-611-HS-1924916">Sturm Archiv I, Bl.214</ref>
+                            </item>
+                            <item source="https://sturm-edition.de/id/Q.01.19151010.FMA.01" xml:id="Q.01.19151010.FMA.01" n="letter">
+                                <ref target="Q.01.19151010.FMA.01.xml">
+                                    <time when="1915-10-10">1915-10-10</time>, <placeName>Unknown</placeName>
+                                </ref>,<ref target="http://kalliope-verbund.info/DE-611-HS-1924700">Sturm Archiv I, Bl.213</ref>
+                            </item>
+                            <item source="https://sturm-edition.de/id/Q.01.19151016.FMA.01" xml:id="Q.01.19151016.FMA.01" n="letter">
+                                <ref target="Q.01.19151016.FMA.01.xml">
+                                    <time when="1915-10-16">1915-10-16</time>, <placeName>Unknown</placeName>
+                                </ref>,<ref target="http://kalliope-verbund.info/DE-611-HS-1925405">Sturm Archiv I, Bl.215</ref>
+                            </item>
+                            <item source="https://sturm-edition.de/id/Q.01.19151106.FMA.01" xml:id="Q.01.19151106.FMA.01" n="letter">
+                                <ref target="Q.01.19151106.FMA.01.xml">
+                                    <time when="1915-11-06">1915-11-06</time>, <placeName>München</placeName>
+                                </ref>,<ref target="http://kalliope-verbund.info/DE-611-HS-1925406">Sturm Archiv I, Bl.216</ref>
+                            </item>
+                            <item source="https://sturm-edition.de/id/Q.01.19151125.FMA.01" xml:id="Q.01.19151125.FMA.01" n="letter">
+                                <ref target="Q.01.19151125.FMA.01.xml">
+                                    <time when="1915-11-25">1915-11-25</time>, <placeName>Unknown</placeName>
+                                </ref>,<ref target="http://kalliope-verbund.info/DE-611-HS-1925407">Sturm Archiv I, Bl.217</ref>
+                            </item>
+                        </list>
+                        <list n="JVH">
+                            <item source="https://sturm-edition.de/id/Q.01.19150123.JVH.01" xml:id="Q.01.19150123.JVH.01" n="letter">
+                                <ref target="Q.01.19150123.JVH.01.xml">
+                                    <time when="1915-01-23">1915-01-23</time>, <placeName>35, Nassau
+                        Zuilensteinstraat, Den Haag</placeName>
+                                </ref>,<ref target="http://kalliope-verbund.info/DE-611-HS-1910729">Sturm Archiv I, Bl.49-50</ref>
+                            </item>
+                            <item source="https://sturm-edition.de/id/Q.01.19150129.JVH.01" xml:id="Q.01.19150129.JVH.01" n="letter">
+                                <ref target="Q.01.19150129.JVH.01.xml">
+                                    <time when="1915-01-29">1915-01-29</time>, <placeName>35, Nassau Zuilensteinstraat, Den
+                        Haag</placeName>
+                                </ref>,<ref target="http://kalliope-verbund.info/DE-611-HS-1910754">Sturm Archiv I, Bl.51-52</ref>
+                            </item>
+                            <item source="https://sturm-edition.de/id/Q.01.19150131.JVH.01" xml:id="Q.01.19150131.JVH.01" n="letter">
+                                <ref target="Q.01.19150131.JVH.01.xml">
+                                    <time when="1915-01-31">1915-01-31</time>, <placeName>35, Nassau
+                        Zuilensteinstraat, Den Haag</placeName>
+                                </ref>,<ref target="http://kalliope-verbund.info/DE-611-HS-1910757">Sturm Archiv I, Bl.53-55</ref>
+                            </item>
+                            <item source="https://sturm-edition.de/id/Q.01.19150209.JVH.01" xml:id="Q.01.19150209.JVH.01" n="letter">
+                                <ref target="Q.01.19150209.JVH.01.xml">
+                                    <time when="1915-02-09">1915-02-09</time>, <placeName>35, Nassau
+                        Zuilensteinstraat, Den Haag</placeName>
+                                </ref>,<ref target="http://kalliope-verbund.info/DE-611-HS-1910761">Sturm Archiv I, Bl.56-57</ref>
+                            </item>
+                            <item source="https://sturm-edition.de/id/Q.01.19150217.JVH.01" xml:id="Q.01.19150217.JVH.01" n="letter">
+                                <ref target="Q.01.19150217.JVH.01.xml">
+                                    <time when="1915-02-17">1915-02-17</time>, <placeName>35, Nassau
+                        Zuilensteinstraat, Den Haag</placeName>
+                                </ref>,<ref target="http://kalliope-verbund.info/DE-611-HS-1910775">Sturm Archiv I, Bl.58-59</ref>
+                            </item>
+                            <item source="https://sturm-edition.de/id/Q.01.19150228.JVH.01" xml:id="Q.01.19150228.JVH.01" n="letter">
+                                <ref target="Q.01.19150228.JVH.01.xml">
+                                    <time when="1915-02-28">1915-02-28</time>, <placeName>35, Nassau Zuilensteinstraat, Den Haag</placeName>
+                                </ref>,<ref target="http://kalliope-verbund.info/DE-611-HS-1910783">Sturm Archiv I, Bl.60-62</ref>
+                            </item>
+                            <item source="https://sturm-edition.de/id/Q.01.19150303.JVH.01" xml:id="Q.01.19150303.JVH.01" n="letter">
+                                <ref target="Q.01.19150303.JVH.01.xml">
+                                    <time when="1915-03-03">1915-03-03</time>, <placeName>35, Nassau Zuilensteinstraat, Den Haag</placeName>
+                                </ref>,<ref target="http://kalliope-verbund.info/DE-611-HS-1910814">Sturm Archiv I, Bl.65-66</ref>
+                            </item>
+                            <item source="https://sturm-edition.de/id/Q.01.19150308.JVH.01" xml:id="Q.01.19150308.JVH.01" n="letter">
+                                <ref target="Q.01.19150308.JVH.01.xml">
+                                    <time when="1915-03-08">1915-03-08</time>, <placeName>35, Nassau Zuilensteinstraat, Den Haag</placeName>
+                                </ref>,<ref target="http://kalliope-verbund.info/DE-611-HS-1910820">Sturm Archiv I, Bl.67-68</ref>
+                            </item>
+                            <item source="https://sturm-edition.de/id/Q.01.19150310.JVH.01" xml:id="Q.01.19150310.JVH.01" n="letter">
+                                <ref target="Q.01.19150310.JVH.01.xml">
+                                    <time when="1915-03-10">1915-03-10</time>, <placeName>35, Nassau Zuilensteinstraat, Den Haag</placeName>
+                                </ref>,<ref target="http://kalliope-verbund.info/DE-611-HS-1910835">Sturm Archiv I, Bl.71-72</ref>
+                            </item>
+                            <item source="https://sturm-edition.de/id/Q.01.19150313.JVH.01" xml:id="Q.01.19150313.JVH.01" n="letter">
+                                <ref target="Q.01.19150313.JVH.01.xml">
+                                    <time when="1915-03-13">1915-03-13</time>, <placeName>35, Nassau
+                        Zuilensteinstraat, Den Haag</placeName>
+                                </ref>,<ref target="http://kalliope-verbund.info/DE-611-HS-1910841">Sturm Archiv I, Bl.73-74</ref>
+                            </item>
+                            <item source="https://sturm-edition.de/id/Q.01.19150317.JVH.01" xml:id="Q.01.19150317.JVH.01" n="letter">
+                                <ref target="Q.01.19150317.JVH.01.xml">
+                                    <time when="1915-03-17">1915-03-17</time>, <placeName>35, Nassau Zuilensteinstraat, Den Haag</placeName>
+                                </ref>,<ref target="http://kalliope-verbund.info/DE-611-HS-1910847">Sturm Archiv I, Bl.75-76</ref>
+                            </item>
+                            <item source="https://sturm-edition.de/id/Q.01.19150321.JVH.01" xml:id="Q.01.19150321.JVH.01" n="letter">
+                                <ref target="Q.01.19150321.JVH.01.xml">
+                                    <time when="1915-03-21">1915-03-21</time>, <placeName>35, Nassau Zuilensteinstraat, Den Haag</placeName>
+                                </ref>,<ref target="http://kalliope-verbund.info/DE-611-HS-1910853">Sturm Archiv I, Bl.77-78</ref>
+                            </item>
+                            <item source="https://sturm-edition.de/id/Q.01.19150323.JVH.01" xml:id="Q.01.19150323.JVH.01" n="letter">
+                                <ref target="Q.01.19150323.JVH.01.xml">
+                                    <time when="1915-03-23">1915-03-23</time>, <placeName>35, Nassau Zuilensteinstraat, Den Haag</placeName>
+                                </ref>,<ref target="http://kalliope-verbund.info/DE-611-HS-1910855">Sturm Archiv I, Bl.78-79</ref>
+                            </item>
+                            <item source="https://sturm-edition.de/id/Q.01.19150328.JVH.01" xml:id="Q.01.19150328.JVH.01" n="letter">
+                                <ref target="Q.01.19150328.JVH.01.xml">
+                                    <time when="1915-03-28">1915-03-28</time>, <placeName>35, Nassau Zuilensteinstraat, Den Haag</placeName>
+                                </ref>,<ref target="http://kalliope-verbund.info/DE-611-HS-1910857">Sturm Archiv I, Bl.80-81</ref>
+                            </item>
+                            <item source="https://sturm-edition.de/id/Q.01.19150403.JVH.01" xml:id="Q.01.19150403.JVH.01" n="letter">
+                                <ref target="Q.01.19150403.JVH.01.xml">
+                                    <time when="1915-04-03">1915-04-03</time>, <placeName>35, Nassau Zuilensteinstraat, Den Haag</placeName>
+                                </ref>,<ref target="http://kalliope-verbund.info/DE-611-HS-1910860">Sturm Archiv I, Bl.82-83</ref>
+                            </item>
+                            <item source="https://sturm-edition.de/id/Q.01.19150409.JVH.01" xml:id="Q.01.19150409.JVH.01" n="letter">
+                                <ref target="Q.01.19150409.JVH.01.xml">
+                                    <time when="1915-04-09">1915-04-09</time>, <placeName>35, Nassau Zuilensteinstraat, Den Haag</placeName>
+                                </ref>,<ref target="http://kalliope-verbund.info/DE-611-HS-1910875">Sturm Archiv I, Bl.84-85</ref>
+                            </item>
+                            <item source="https://sturm-edition.de/id/Q.01.19150413.JVH.01" xml:id="Q.01.19150413.JVH.01" n="letter">
+                                <ref target="Q.01.19150413.JVH.01.xml">
+                                    <time when="1915-04-13">1915-04-13</time>, <placeName>35, Nassau Zuilensteinstraat, Den Haag</placeName>
+                                </ref>,<ref target="http://kalliope-verbund.info/DE-611-HS-1910879">Sturm Archiv I, Bl.86-89</ref>
+                            </item>
+                            <item source="https://sturm-edition.de/id/Q.01.19150429.JVH.01" xml:id="Q.01.19150429.JVH.01" n="letter">
+                                <ref target="Q.01.19150429.JVH.01.xml">
+                                    <time when="1915-04-29">1915-04-29</time>, <placeName>35, Nassau Zuilensteinstraat, Den Haag</placeName>
+                                </ref>,<ref target="http://kalliope-verbund.info/DE-611-HS-1910882">Sturm Archiv I, Bl.90-91</ref>
+                            </item>
+                            <item source="https://sturm-edition.de/id/Q.01.19150507.JVH.01" xml:id="Q.01.19150507.JVH.01" n="letter">
+                                <ref target="Q.01.19150507.JVH.01.xml">
+                                    <time when="1915-05-07">1915-05-07</time>, <placeName>35, Nassau Zuilensteinstraat, Den Haag</placeName>
+                                </ref>,<ref target="http://kalliope-verbund.info/DE-611-HS-1910891">Sturm Archiv I, Bl.92</ref>
+                            </item>
+                            <item source="https://sturm-edition.de/id/Q.01.19150517.JVH.01" xml:id="Q.01.19150517.JVH.01" n="letter">
+                                <ref target="Q.01.19150517.JVH.01.xml">
+                                    <time when="1915-05-17">1915-05-17</time>, <placeName>Assen</placeName>
+                                </ref>,<ref target="http://kalliope-verbund.info/DE-611-HS-1910917">Sturm Archiv I, Bl.93</ref>
+                            </item>
+                            <item source="https://sturm-edition.de/id/Q.01.19150530.JVH.01" xml:id="Q.01.19150530.JVH.01" n="letter">
+                                <ref target="Q.01.19150530.JVH.01.xml">
+                                    <time when="1915-05-30">1915-05-30</time>, <placeName>35, Nassau Zuilensteinstraat, Den Haag</placeName>
+                                </ref>,<ref target="http://kalliope-verbund.info/DE-611-HS-1910922">Sturm Archiv I, Bl.94-96</ref>
+                            </item>
+                            <item source="https://sturm-edition.de/id/Q.01.19150606.JVH.01" xml:id="Q.01.19150606.JVH.01" n="letter">
+                                <ref target="Q.01.19150606.JVH.01.xml">
+                                    <time when="1915-06-06">1915-06-06</time>, <placeName>Loverendale, Domburg</placeName>
+                                </ref>,<ref target="http://kalliope-verbund.info/DE-611-HS-1910928">Sturm Archiv I, Bl.97-98</ref>
+                            </item>
+                            <item source="https://sturm-edition.de/id/Q.01.19150618.JVH.01" xml:id="Q.01.19150618.JVH.01" n="letter">
+                                <ref target="Q.01.19150618.JVH.01.xml">
+                                    <time when="1915-06-18">1915-06-18</time>, <placeName>Loverendale,
+                        Domburg</placeName>
+                                </ref>,<ref target="http://kalliope-verbund.info/DE-611-HS-1910935">Sturm Archiv I, Bl.99-100</ref>
+                            </item>
+                            <item source="https://sturm-edition.de/id/Q.01.19150624.JVH.01" xml:id="Q.01.19150624.JVH.01" n="letter">
+                                <ref target="Q.01.19150624.JVH.01.xml">
+                                    <time when="1915-06-24">1915-06-24</time>, <placeName>Loverendale, Domburg</placeName>
+                                </ref>,<ref target="http://kalliope-verbund.info/DE-611-HS-1910943">Sturm Archiv I, Bl.101</ref>
+                            </item>
+                            <item source="https://sturm-edition.de/id/Q.01.19150710.JVH.01" xml:id="Q.01.19150710.JVH.01" n="letter">
+                                <ref target="Q.01.19150710.JVH.01.xml">
+                                    <time when="1915-07-10">1915-07-10</time>, <placeName>Loverendale, Domburg</placeName>
+                                </ref>,<ref target="http://kalliope-verbund.info/DE-611-HS-1910946">Sturm Archiv I, Bl.102-103</ref>
+                            </item>
+                            <item source="https://sturm-edition.de/id/Q.01.19150723.JVH.01" xml:id="Q.01.19150723.JVH.01" n="letter">
+                                <ref target="Q.01.19150723.JVH.01.xml">
+                                    <time when="1915-07-23">1915-07-23</time>, <placeName>Loverendale, Domburg</placeName>
+                                </ref>,<ref target="http://kalliope-verbund.info/DE-611-HS-1910736">Sturm Archiv I, Bl.104-105</ref>
+                            </item>
+                            <item source="https://sturm-edition.de/id/Q.01.19150818.JVH.01" xml:id="Q.01.19150818.JVH.01" n="letter">
+                                <ref target="Q.01.19150818.JVH.01.xml">
+                                    <time when="1915-08-18">1915-08-18</time>, <placeName>Loverendale, Domburg</placeName>
+                                </ref>,<ref target="http://kalliope-verbund.info/DE-611-HS-1910885">Sturm Archiv I, Bl.106-107</ref>
+                            </item>
+                            <item source="https://sturm-edition.de/id/Q.01.19150824.JVH.01" xml:id="Q.01.19150824.JVH.01" n="letter">
+                                <ref target="Q.01.19150824.JVH.01.xml">
+                                    <time when="1915-08-24">1915-08-24</time>, <placeName>Loverendale, Domburg</placeName>
+                                </ref>,<ref target="http://kalliope-verbund.info/DE-611-HS-1911087">Sturm Archiv I, Bl.108-109</ref>
+                            </item>
+                            <item source="https://sturm-edition.de/id/Q.01.19150929.JVH.01" xml:id="Q.01.19150929.JVH.01" n="letter">
+                                <ref target="Q.01.19150929.JVH.01.xml">
+                                    <time when="1915-09-29">1915-09-29</time>, <placeName>Loverendale, Domburg</placeName>
+                                </ref>,<ref target="http://kalliope-verbund.info/DE-611-HS-1911088">Sturm Archiv I, Bl.110-111</ref>
+                            </item>
+                            <item source="https://sturm-edition.de/id/Q.01.19151007.JVH.01" xml:id="Q.01.19151007.JVH.01" n="letter">
+                                <ref target="Q.01.19151007.JVH.01.xml">
+                                    <time when="1915-10-07">1915-10-07</time>, <placeName>Loverendale, Domburg</placeName>
+                                </ref>,<ref target="http://kalliope-verbund.info/DE-611-HS-1911089">Sturm Archiv I, Bl.112-113</ref>
+                            </item>
+                            <item source="https://sturm-edition.de/id/Q.01.19151014.JVH.01" xml:id="Q.01.19151014.JVH.01" n="letter">
+                                <ref target="Q.01.19151014.JVH.01.xml">
+                                    <time when="1915-10-14">1915-10-14</time>, <placeName>35, Nassau Zuilensteinstraat, Den Haag</placeName>
+                                </ref>,<ref target="http://kalliope-verbund.info/DE-611-HS-1911090">Sturm Archiv I, Bl.114</ref>
+                            </item>
+                            <item source="https://sturm-edition.de/id/Q.01.19151018.JVH.01" xml:id="Q.01.19151018.JVH.01" n="letter">
+                                <ref target="Q.01.19151018.JVH.01.xml">
+                                    <time when="1915-10-18">1915-10-18</time>, <placeName>35, Nassau
+                        Zuilensteinstraat, Den Haag</placeName>
+                                </ref>,<ref target="http://kalliope-verbund.info/DE-611-HS-1911091">Sturm Archiv I, Bl.115-116</ref>
+                            </item>
+                            <item source="https://sturm-edition.de/id/Q.01.19151027.JVH.01" xml:id="Q.01.19151027.JVH.01" n="letter">
+                                <ref target="Q.01.19151027.JVH.01.xml">
+                                    <time when="1915-10-27">1915-10-27</time>, <placeName>Den Haag</placeName>
+                                </ref>,<ref target="http://kalliope-verbund.info/DE-611-HS-1911092">Sturm Archiv I, Bl.117</ref>
+                            </item>
+                            <item source="https://sturm-edition.de/id/Q.01.19151113.JVH.01" xml:id="Q.01.19151113.JVH.01" n="letter">
+                                <ref target="Q.01.19151113.JVH.01.xml">
+                                    <time when="1915-11-13">1915-11-13</time>, <placeName>35, Nassau Zuilensteinstraat, Den Haag</placeName>
+                                </ref>,<ref target="http://kalliope-verbund.info/DE-611-HS-1911093">Sturm Archiv I, Bl.118-119</ref>
+                            </item>
+                            <item source="https://sturm-edition.de/id/Q.01.19151115.JVH.01" xml:id="Q.01.19151115.JVH.01" n="letter">
+                                <ref target="Q.01.19151115.JVH.01.xml">
+                                    <time when="1915-11-15">1915-11-15</time>, <placeName>35, Nassau Zuilensteinstraat, Den Haag</placeName>
+                                </ref>,<ref target="http://kalliope-verbund.info/DE-611-HS-1911096">Sturm Archiv I, Bl.120-121</ref>
+                            </item>
+                            <item source="https://sturm-edition.de/id/Q.01.19151124.JVH.01" xml:id="Q.01.19151124.JVH.01" n="letter">
+                                <ref target="Q.01.19151124.JVH.01.xml">
+                                    <time when="1915-11-24">1915-11-24</time>, <placeName>35, Nassau Zuilensteinstraat, Den Haag</placeName>
+                                </ref>,<ref target="http://kalliope-verbund.info/DE-611-HS-1911099">Sturm Archiv I, Bl.124</ref>
+                            </item>
+                            <item source="https://sturm-edition.de/id/Q.01.19151126.JVH.01" xml:id="Q.01.19151126.JVH.01" n="letter">
+                                <ref target="Q.01.19151126.JVH.01.xml">
+                                    <time when="1915-11-26">1915-11-26</time>, <placeName>35, Nassau Zuilensteinstraat, Den Haag</placeName>
+                                </ref>,<ref target="http://kalliope-verbund.info/DE-611-HS-1911228">Sturm Archiv I, Bl.127-128</ref>
+                            </item>
+                            <item source="https://sturm-edition.de/id/Q.01.19151206.JVH.01" xml:id="Q.01.19151206.JVH.01" n="letter">
+                                <ref target="Q.01.19151206.JVH.01.xml">
+                                    <time when="1915-12-06">1915-12-06</time>, <placeName>35, Nassau Zuilensteinstraat, Den Haag</placeName>
+                                </ref>,<ref target="http://kalliope-verbund.info/DE-611-HS-1911232">Sturm Archiv I, Bl.129</ref>
+                            </item>
+                            <item source="https://sturm-edition.de/id/Q.01.19151209.JVH.01" xml:id="Q.01.19151209.JVH.01" n="letter">
+                                <ref target="Q.01.19151209.JVH.01.xml">
+                                    <time when="1915-12-09">1915-12-09</time>, <placeName>Den Haag</placeName>
+                                </ref>,<ref target="http://kalliope-verbund.info/DE-611-HS-1911237">Sturm Archiv I, Bl.132-133</ref>
+                            </item>
+                            <item source="https://sturm-edition.de/id/Q.01.19151218.JVH.01" xml:id="Q.01.19151218.JVH.01" n="letter">
+                                <ref target="Q.01.19151218.JVH.01.xml">
+                                    <time when="1915-12-18">1915-12-18</time>, <placeName>Den Haag</placeName>
+                                </ref>,<ref target="http://kalliope-verbund.info/DE-611-HS-1911242">Sturm Archiv I, Bl.136-137</ref>
+                            </item>
+                            <item source="https://sturm-edition.de/id/Q.01.19151223.JVH.01" xml:id="Q.01.19151223.JVH.01" n="letter">
+                                <ref target="Q.01.19151223.JVH.01.xml">
+                                    <time when="1915-12-23">1915-12-23</time>, <placeName>35, Nassau Zuilensteinstraat, Den Haag</placeName>
+                                </ref>,<ref target="http://kalliope-verbund.info/DE-611-HS-1911254">Sturm Archiv I, Bl.138</ref>
+                            </item>
+                            <item source="https://sturm-edition.de/id/Q.01.19151225.JVH.01" xml:id="Q.01.19151225.JVH.01" n="letter">
+                                <ref target="Q.01.19151225.JVH.01.xml">
+                                    <time when="1915-12-25">1915-12-25</time>, <placeName>35, Nassau Zuilensteinstraat, Den Haag</placeName>
+                                </ref>,<ref target="http://kalliope-verbund.info/DE-611-HS-1911255">Sturm Archiv I, Bl.139-140</ref>
+                            </item>
+                        </list>
+                    </item>
+                    <item n="1914-00-00">
+                        <list n="FMA">
+                            <item source="https://sturm-edition.de/id/Q.01.19140115.FMA.01" xml:id="Q.01.19140115.FMA.01" n="letter">
+                                <ref target="Q.01.19140115.FMA.01.xml">
+                                    <time when="1914-01-15">1914-01-15</time>, <placeName>Sindelsdorf</placeName>
+                                </ref>,<ref target="http://kalliope-verbund.info/DE-611-HS-1916784">Sturm Archiv I, Bl.177</ref>
+                            </item>
+                            <item source="https://sturm-edition.de/id/Q.01.19140119.FMA.01" xml:id="Q.01.19140119.FMA.01" n="letter">
+                                <ref target="Q.01.19140119.FMA.01.xml">
+                                    <time when="1914-01-19">1914-01-19</time>, <placeName>Sindelsdorf</placeName>
+                                </ref>,<ref target="http://kalliope-verbund.info/DE-611-HS-1916897">Sturm Archiv I, Bl.178</ref>
+                            </item>
+                            <item source="https://sturm-edition.de/id/Q.01.19140121.FMA.01" xml:id="Q.01.19140121.FMA.01" n="letter">
+                                <ref target="Q.01.19140121.FMA.01.xml">
+                                    <time when="1914-01-21">1914-01-21</time>, <placeName>Sindelsdorf</placeName>
+                                </ref>,<ref target="http://kalliope-verbund.info/DE-611-HS-1916908">Sturm Archiv I, Bl.179-180</ref>
+                            </item>
+                            <item source="https://sturm-edition.de/id/Q.01.19140124.FMA.01" xml:id="Q.01.19140124.FMA.01" n="letter">
+                                <ref target="Q.01.19140124.FMA.01.xml">
+                                    <time when="1914-01-24">1914-01-24</time>, <placeName>München</placeName>
+                                </ref>,<ref target="http://kalliope-verbund.info/DE-611-HS-1916914">Sturm Archiv I, Bl.181</ref>
+                            </item>
+                            <item source="https://sturm-edition.de/id/Q.01.19140125.FMA.01" xml:id="Q.01.19140125.FMA.01" n="letter">
+                                <ref target="Q.01.19140125.FMA.01.xml">
+                                    <time when="1914-01-25">1914-01-25</time>, <placeName>Bichl</placeName>
+                                </ref>,<ref target="http://kalliope-verbund.info/DE-611-HS-1916917">Sturm Archiv I, Bl.182</ref>
+                            </item>
+                            <item source="https://sturm-edition.de/id/Q.01.19140125.FMA.02" xml:id="Q.01.19140125.FMA.02" n="letter">
+                                <ref target="Q.01.19140125.FMA.02.xml">
+                                    <time when="1914-01-25">1914-01-25</time>, <placeName>Sindelsdorf</placeName>
+                                </ref>,<ref target="http://kalliope-verbund.info/DE-611-HS-1916921">Sturm Archiv I, Bl.183</ref>
+                            </item>
+                            <item source="https://sturm-edition.de/id/Q.01.19140409.FMA.01" xml:id="Q.01.19140409.FMA.01" n="letter">
+                                <ref target="Q.01.19140409.FMA.01.xml">
+                                    <time when="1914-04-09">1914-04-09</time>, <placeName>Sindelsdorf</placeName>
+                                </ref>,<ref target="http://kalliope-verbund.info/DE-611-HS-1916926">Sturm Archiv I, Bl.184</ref>
+                            </item>
+                            <item source="https://sturm-edition.de/id/Q.01.19140414.FMA.01" xml:id="Q.01.19140414.FMA.01" n="letter">
+                                <ref target="Q.01.19140414.FMA.01.xml">
+                                    <time when="1914-04-14">1914-04-14</time>, <placeName>Sindelsdorf</placeName>
+                                </ref>,<ref target="http://kalliope-verbund.info/DE-611-HS-1916931">Sturm Archiv I, Bl.185</ref>
+                            </item>
+                            <item source="https://sturm-edition.de/id/Q.01.19140421.FMA.01" xml:id="Q.01.19140421.FMA.01" n="letter">
+                                <ref target="Q.01.19140421.FMA.01.xml">
+                                    <time when="1914-04-21">1914-04-21</time>, <placeName>Sindelsdorf</placeName>
+                                </ref>,<ref target="http://kalliope-verbund.info/DE-611-HS-1925432">Sturm Archiv I, Bl.204</ref>
+                            </item>
+                            <item source="https://sturm-edition.de/id/Q.01.19140507.FMA.01" xml:id="Q.01.19140507.FMA.01" n="letter">
+                                <ref target="Q.01.19140507.FMA.01.xml">
+                                    <time when="1914-05-07">1914-05-07</time>, <placeName>Benediktbeuren</placeName>
+                                </ref>,<ref target="http://kalliope-verbund.info/DE-611-HS-1916947">Sturm Archiv I, Bl.186</ref>
+                            </item>
+                            <item source="https://sturm-edition.de/id/Q.01.19140512.FMA.01" xml:id="Q.01.19140512.FMA.01" n="letter">
+                                <ref target="Q.01.19140512.FMA.01.xml">
+                                    <time when="1914-05-12">1914-05-12</time>, <placeName>Benediktbeuren</placeName>
+                                </ref>,<ref target="http://kalliope-verbund.info/DE-611-HS-1916953">Sturm Archiv I, Bl.187</ref>
+                            </item>
+                            <item source="https://sturm-edition.de/id/Q.01.19140606.FMA.01" xml:id="Q.01.19140606.FMA.01" n="letter">
+                                <ref target="Q.01.19140606.FMA.01.xml">
+                                    <time when="1914-06-06">1914-06-06</time>, <placeName>Benediktbeuren</placeName>
+                                </ref>,<ref target="http://kalliope-verbund.info/DE-611-HS-1917488">Sturm Archiv I, Bl.188</ref>
+                            </item>
+                            <item source="https://sturm-edition.de/id/Q.01.19140608.FMA.01" xml:id="Q.01.19140608.FMA.01" n="letter">
+                                <ref target="Q.01.19140608.FMA.01.xml">
+                                    <time when="1914-06-08">1914-06-08</time>, <placeName>Benediktbeuren</placeName>
+                                </ref>,<ref target="http://kalliope-verbund.info/DE-611-HS-1917489">Sturm Archiv I, Bl.189</ref>
+                            </item>
+                            <item source="https://sturm-edition.de/id/Q.01.19140610.FMA.01" xml:id="Q.01.19140610.FMA.01" n="letter">
+                                <ref target="Q.01.19140610.FMA.01.xml">
+                                    <time when="1914-06-10">1914-06-10</time>, <placeName>Benediktbeuren</placeName>
+                                </ref>,<ref target="http://kalliope-verbund.info/DE-611-HS-1917490">Sturm Archiv I, Bl.190</ref>
+                            </item>
+                            <item source="https://sturm-edition.de/id/Q.01.19140627.FMA.01" xml:id="Q.01.19140627.FMA.01" n="letter">
+                                <ref target="Q.01.19140627.FMA.01.xml">
+                                    <time when="1914-06-27">1914-06-27</time>, <placeName>Benediktbeuren</placeName>
+                                </ref>,<ref target="http://kalliope-verbund.info/DE-611-HS-1917491">Sturm Archiv I, Bl.191</ref>
+                            </item>
+                            <item source="https://sturm-edition.de/id/Q.01.19140831.FMA.01" xml:id="Q.01.19140831.FMA.01" n="letter">
+                                <ref target="Q.01.19140831.FMA.01.xml">
+                                    <time when="1914-08-31">1914-08-31</time>, <placeName>Straßburg</placeName>
+                                </ref>,<ref target="http://kalliope-verbund.info/DE-611-HS-1917493">Sturm Archiv I, Bl.192</ref>
+                            </item>
+                            <item source="https://sturm-edition.de/id/Q.01.19141113.FMA.01" xml:id="Q.01.19141113.FMA.01" n="letter">
+                                <ref target="Q.01.19141113.FMA.01.xml">
+                                    <time when="1914-11-13">1914-11-13</time>, <placeName>Unknown</placeName>
+                                </ref>,<ref target="http://kalliope-verbund.info/DE-611-HS-1917496">Sturm Archiv I, Bl.193</ref>
+                            </item>
+                        </list>
+                        <list n="JVH">
+                            <item source="https://sturm-edition.de/id/Q.01.19140322.JVH.01" xml:id="Q.01.19140322.JVH.01" n="letter">
+                                <ref target="Q.01.19140322.JVH.01.xml">
+                                    <time when="1914-03-22">1914-03-22</time>, <placeName>35, Nassau Zuilensteinstraat, Den Haag</placeName>
+                                </ref>,<ref target="http://kalliope-verbund.info/DE-611-HS-1910510">Sturm Archiv I, Bl.1-3</ref>
+                            </item>
+                            <item source="https://sturm-edition.de/id/Q.01.19140514.JVH.01" xml:id="Q.01.19140514.JVH.01" n="letter">
+                                <ref target="Q.01.19140514.JVH.01.xml">
+                                    <time when="1914-05-14">1914-05-14</time>, <placeName>Bretagne</placeName>
+                                </ref>,<ref target="http://kalliope-verbund.info/DE-611-HS-1910519">Sturm Archiv I, Bl.4</ref>
+                            </item>
+                            <item source="https://sturm-edition.de/id/Q.01.19140601.JVH.01" xml:id="Q.01.19140601.JVH.01" n="letter">
+                                <ref target="Q.01.19140601.JVH.01.xml">
+                                    <time when="1914-06-01">1914-06-01</time>, <placeName>Loverendale,
+                        Domburg</placeName>
+                                </ref>,<ref target="http://kalliope-verbund.info/DE-611-HS-1910530">Sturm Archiv I, Bl.5-6</ref>
+                            </item>
+                            <item source="https://sturm-edition.de/id/Q.01.19140612.JVH.01" xml:id="Q.01.19140612.JVH.01" n="letter">
+                                <ref target="Q.01.19140612.JVH.01.xml">
+                                    <time when="1914-06-12">1914-06-12</time>, <placeName>Loverendale,
+                        Domburg</placeName>
+                                </ref>,<ref target="http://kalliope-verbund.info/DE-611-HS-1910535">Sturm Archiv I, Bl.7-8</ref>
+                            </item>
+                            <item source="https://sturm-edition.de/id/Q.01.19140703.JVH.01" xml:id="Q.01.19140703.JVH.01" n="letter">
+                                <ref target="Q.01.19140703.JVH.01.xml">
+                                    <time when="1914-07-03">1914-07-03</time>, <placeName>Loverendale, Domburg</placeName>
+                                </ref>,<ref target="http://kalliope-verbund.info/DE-611-HS-1910546">Sturm Archiv I, Bl.9-10</ref>
+                            </item>
+                            <item source="https://sturm-edition.de/id/Q.01.19140704.JVH.01" xml:id="Q.01.19140704.JVH.01" n="letter">
+                                <ref target="Q.01.19140704.JVH.01.xml">
+                                    <time when="1914-07-04">1914-07-04</time>, <placeName>Loverendale, Domburg</placeName>
+                                </ref>,<ref target="http://kalliope-verbund.info/DE-611-HS-1910548">Sturm Archiv I, Bl.11</ref>
+                            </item>
+                            <item source="https://sturm-edition.de/id/Q.01.19140708.JVH.01" xml:id="Q.01.19140708.JVH.01" n="letter">
+                                <ref target="Q.01.19140708.JVH.01.xml">
+                                    <time when="1914-07-08">1914-07-08</time>, <placeName>Loverendale, Domburg</placeName>
+                                </ref>,<ref target="http://kalliope-verbund.info/DE-611-HS-1910549">Sturm Archiv I, Bl.12</ref>
+                            </item>
+                            <item source="https://sturm-edition.de/id/Q.01.19140721.JVH.01" xml:id="Q.01.19140721.JVH.01" n="letter">
+                                <ref target="Q.01.19140721.JVH.01.xml">
+                                    <time when="1914-07-21">1914-07-21</time>, <placeName>Loverendale, Domburg</placeName>
+                                </ref>,<ref target="http://kalliope-verbund.info/DE-611-HS-1910553">Sturm Archiv I, Bl.13-14</ref>
+                            </item>
+                            <item source="https://sturm-edition.de/id/Q.01.19140727.JVH.01" xml:id="Q.01.19140727.JVH.01" n="letter">
+                                <ref target="Q.01.19140727.JVH.01.xml">
+                                    <time when="1914-07-27">1914-07-27</time>, <placeName>Domburg</placeName>
+                                </ref>,<ref target="http://kalliope-verbund.info/DE-611-HS-1910556">Sturm Archiv I, Bl.15</ref>
+                            </item>
+                            <item source="https://sturm-edition.de/id/Q.01.19140730.JVH.01" xml:id="Q.01.19140730.JVH.01" n="letter">
+                                <ref target="Q.01.19140730.JVH.01.xml">
+                                    <time when="1914-07-30">1914-07-30</time>, <placeName>Loverendale, Domburg</placeName>
+                                </ref>,<ref target="http://kalliope-verbund.info/DE-611-HS-1910567">Sturm Archiv I, Bl.16-17</ref>
+                            </item>
+                            <item source="https://sturm-edition.de/id/Q.01.19140807.JVH.01" xml:id="Q.01.19140807.JVH.01" n="letter">
+                                <ref target="Q.01.19140807.JVH.01.xml">
+                                    <time when="1914-08-09">1914-08-09</time>, <placeName>Loverendale, Domburg</placeName>
+                                </ref>,<ref target="http://kalliope-verbund.info/DE-611-HS-1910570">Sturm Archiv I, Bl.18</ref>
+                            </item>
+                            <item source="https://sturm-edition.de/id/Q.01.19140820.JVH.01" xml:id="Q.01.19140820.JVH.01" n="letter">
+                                <ref target="Q.01.19140820.JVH.01.xml">
+                                    <time when="1914-08-21">1914-08-21</time>, <placeName>Domburg</placeName>
+                                </ref>,<ref target="http://kalliope-verbund.info/DE-611-HS-1910573">Sturm Archiv I, Bl.19</ref>
+                            </item>
+                            <item source="https://sturm-edition.de/id/Q.01.19140822.JVH.01" xml:id="Q.01.19140822.JVH.01" n="letter">
+                                <ref target="Q.01.19140822.JVH.01.xml">
+                                    <time when="1914-08-23">1914-08-23</time>, <placeName>Domburg</placeName>
+                                </ref>,<ref target="http://kalliope-verbund.info/DE-611-HS-1910574">Sturm Archiv I, Bl.20</ref>
+                            </item>
+                            <item source="https://sturm-edition.de/id/Q.01.19140908.JVH.01" xml:id="Q.01.19140908.JVH.01" n="letter">
+                                <ref target="Q.01.19140908.JVH.01.xml">
+                                    <time when="1914-09-08">1914-09-08</time>, <placeName>Loverendale,
+                        Domburg</placeName>
+                                </ref>,<ref target="http://kalliope-verbund.info/DE-611-HS-1910585">Sturm Archiv I, Bl.21-22</ref>
+                            </item>
+                            <item source="https://sturm-edition.de/id/Q.01.19140925.JVH.01" xml:id="Q.01.19140925.JVH.01" n="letter">
+                                <ref target="Q.01.19140925.JVH.01.xml">
+                                    <time when="1914-09-25">1914-09-25</time>, <placeName>Loverendale,
+                        Domburg</placeName>
+                                </ref>,<ref target="http://kalliope-verbund.info/DE-611-HS-1910591">Sturm Archiv I, Bl.23-24</ref>
+                            </item>
+                            <item source="https://sturm-edition.de/id/Q.01.19141005.JVH.01" xml:id="Q.01.19141005.JVH.01" n="letter">
+                                <ref target="Q.01.19141005.JVH.01.xml">
+                                    <time when="1914-10-06">1914-10-06</time>, <placeName>Domburg</placeName>
+                                </ref>,<ref target="http://kalliope-verbund.info/DE-611-HS-1910592">Sturm Archiv I, Bl.25</ref>
+                            </item>
+                            <item source="https://sturm-edition.de/id/Q.01.19141009.JVH.01" xml:id="Q.01.19141009.JVH.01" n="letter">
+                                <ref target="Q.01.19141009.JVH.01.xml">
+                                    <time when="1914-10-09">1914-10-09</time>, <placeName>35, Nassau
+                        Zuilensteinstraat, Den Haag</placeName>
+                                </ref>,<ref target="http://kalliope-verbund.info/DE-611-HS-1910596">Sturm Archiv I, Bl.26-27</ref>
+                            </item>
+                            <item source="https://sturm-edition.de/id/Q.01.19141014.JVH.01" xml:id="Q.01.19141014.JVH.01" n="letter">
+                                <ref target="Q.01.19141014.JVH.01.xml">
+                                    <time when="1914-10-14">1914-10-14</time>, <placeName>35, Nassau Zuilensteinstraat, Den Haag</placeName>
+                                </ref>,<ref target="http://kalliope-verbund.info/DE-611-HS-1910663">Sturm Archiv I, Bl.28</ref>
+                            </item>
+                            <item source="https://sturm-edition.de/id/Q.01.19141016.JVH.01" xml:id="Q.01.19141016.JVH.01" n="letter">
+                                <ref target="Q.01.19141016.JVH.01.xml">
+                                    <time when="1914-10-16">1914-10-16</time>, <placeName>35, Nassau
+                        Zuilensteinstraat, Den Haag</placeName>
+                                </ref>,<ref target="http://kalliope-verbund.info/DE-611-HS-1910668">Sturm Archiv I, Bl.29-30</ref>
+                            </item>
+                            <item source="https://sturm-edition.de/id/Q.01.19141023.JVH.01" xml:id="Q.01.19141023.JVH.01" n="letter">
+                                <ref target="Q.01.19141023.JVH.01.xml">
+                                    <time when="1914-10-23">1914-10-23</time>, <placeName>35, Nassau
+                        Zuilensteinstraat, Den Haag</placeName>
+                                </ref>,<ref target="http://kalliope-verbund.info/DE-611-HS-1910672">Sturm Archiv I, Bl.31-32</ref>
+                            </item>
+                            <item source="https://sturm-edition.de/id/Q.01.19141027.JVH.01" xml:id="Q.01.19141027.JVH.01" n="letter">
+                                <ref target="Q.01.19141027.JVH.01.xml">
+                                    <time when="1914-10-27">1914-10-27</time>, <placeName>35, Nassau
+                        Zuilensteinstraat, Den Haag</placeName>
+                                </ref>,<ref target="http://kalliope-verbund.info/DE-611-HS-1910677">Sturm Archiv I, Bl.33-34</ref>
+                            </item>
+                            <item source="https://sturm-edition.de/id/Q.01.19141105.JVH.01" xml:id="Q.01.19141105.JVH.01" n="letter">
+                                <ref target="Q.01.19141105.JVH.01.xml">
+                                    <time when="1914-11-05">1914-11-05</time>, <placeName>35, Nassau
+                        Zuilensteinstraat, Den Haag</placeName>
+                                </ref>,<ref target="http://kalliope-verbund.info/DE-611-HS-1910680">Sturm Archiv I, Bl.35-36</ref>
+                            </item>
+                            <item source="https://sturm-edition.de/id/Q.01.19141111.JVH.01" xml:id="Q.01.19141111.JVH.01" n="letter">
+                                <ref target="Q.01.19141111.JVH.01.xml">
+                                    <time when="1914-11-11">1914-11-11</time>, <placeName>35, Nassau Zuilensteinstraat, Den Haag</placeName>
+                                </ref>,<ref target="http://kalliope-verbund.info/DE-611-HS-1910698">Sturm Archiv I, Bl.37-38</ref>
+                            </item>
+                            <item source="https://sturm-edition.de/id/Q.01.19141117.JVH.01" xml:id="Q.01.19141117.JVH.01" n="letter">
+                                <ref target="Q.01.19141117.JVH.01.xml">
+                                    <time when="1914-11-17">1914-11-17</time>, <placeName>35, Nassau Zuilensteinstraat, Den
+                        Haag</placeName>
+                                </ref>,<ref target="http://kalliope-verbund.info/DE-611-HS-1910704">Sturm Archiv I, Bl.39-40</ref>
+                            </item>
+                            <item source="https://sturm-edition.de/id/Q.01.19141129.JVH.01" xml:id="Q.01.19141129.JVH.01" n="letter">
+                                <ref target="Q.01.19141129.JVH.01.xml">
+                                    <time when="1914-11-29">1914-11-29</time>, <placeName>35, Nassau
+                            Zuilensteinstraat, Den Haag</placeName>
+                                </ref>,<ref target="http://kalliope-verbund.info/DE-611-HS-1910707">Sturm Archiv I, Bl.41-42</ref>
+                            </item>
+                            <item source="https://sturm-edition.de/id/Q.01.19141203.JVH.01" xml:id="Q.01.19141203.JVH.01" n="letter">
+                                <ref target="Q.01.19141203.JVH.01.xml">
+                                    <time when="1914-12-03">1914-12-03</time>, <placeName>35, Nassau
+                        Zuilensteinstraat, Den Haag</placeName>
+                                </ref>,<ref target="http://kalliope-verbund.info/DE-611-HS-1910711">Sturm Archiv I, Bl.43-44</ref>
+                            </item>
+                            <item source="https://sturm-edition.de/id/Q.01.19141210.JVH.01" xml:id="Q.01.19141210.JVH.01" n="letter">
+                                <ref target="Q.01.19141210.JVH.01.xml">
+                                    <time when="1914-12-10">1914-12-10</time>, <placeName>35, Nassau Zuilensteinstraat, Den Haag</placeName>
+                                </ref>,<ref target="http://kalliope-verbund.info/DE-611-HS-1910713">Sturm Archiv I, Bl.45-46</ref>
+                            </item>
+                            <item source="https://sturm-edition.de/id/Q.01.19141219.JVH.01" xml:id="Q.01.19141219.JVH.01" n="letter">
+                                <ref target="Q.01.19141219.JVH.01.xml">
+                                    <time when="1914-12-19">1914-12-19</time>, <placeName>35, Nassau
+                        Zuilensteinstraat, Den Haag</placeName>
+                                </ref>,<ref target="http://kalliope-verbund.info/DE-611-HS-1910725">Sturm Archiv I, Bl.47-48</ref>
+                            </item>
+                        </list>
+                    </item>
+                </list>
+            </div>
+        </body>
+    </text>
+</TEI>

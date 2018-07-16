@@ -1,0 +1,9 @@
+#FORMAT: BEACON
+#PREFIX: http://d-nb.info/gnd/
+#RELATION: http://www.w3.org/2000/01/rdf-schema#seeAlso
+#DESCRIPTION: DER STURM. Digitale Quellenedition zur Geschichte der internationalen Avantgarde
+#CREATOR: Torsten Schrade &lt;Torsten.Schrade@adwmainz.de&gt;
+#CONTACT: Torsten Schrade &lt;Torsten.Schrade@adwmainz.de&gt;
+#FEED: https://sturm-edition.de/beacon/orte.txt
+#UPDATE: monthly
+#INSTITUTION: Digital Academy - Academy of Sciences and Literature Mainz

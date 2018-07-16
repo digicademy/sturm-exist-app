@@ -1,0 +1,75 @@
+#FORMAT: BEACON
+#PREFIX: http://d-nb.info/gnd/
+#RELATION: http://www.w3.org/2000/01/rdf-schema#seeAlso
+#DESCRIPTION: DER STURM. Digitale Quellenedition zur Geschichte der internationalen Avantgarde
+#CREATOR: Torsten Schrade &lt;Torsten.Schrade@adwmainz.de&gt;
+#CONTACT: Torsten Schrade &lt;Torsten.Schrade@adwmainz.de&gt;
+#FEED: https://sturm-edition.de/beacon/personen.txt
+#UPDATE: monthly
+#INSTITUTION: Digital Academy - Academy of Sciences and Literature Mainz
+
+2097840-6||https://sturm-edition.de/id/P.0000059
+13236056X||https://sturm-edition.de/id/P.0000063
+118888692||https://sturm-edition.de/id/P.0000072
+141343133||https://sturm-edition.de/id/P.0000014
+119191164||https://sturm-edition.de/id/P.0000021
+116120894||https://sturm-edition.de/id/P.0000070
+118673998||https://sturm-edition.de/id/P.0000044
+118518674||https://sturm-edition.de/id/P.0000062
+118870645||https://sturm-edition.de/id/P.0000058
+118519980||https://sturm-edition.de/id/P.0000015
+116012374||https://sturm-edition.de/id/P.0000088
+118524461||https://sturm-edition.de/id/P.0000092
+118526405||https://sturm-edition.de/id/P.0000024
+118530712||https://sturm-edition.de/id/P.0000066
+118969161||https://sturm-edition.de/id/P.0000033
+121931005||https://sturm-edition.de/id/P.0000040
+117543705||https://sturm-edition.de/id/P.0000035
+5120121-5||https://sturm-edition.de/id/P.0000068
+118907689||https://sturm-edition.de/id/P.0000081
+118547488||https://sturm-edition.de/id/P.0000078
+132815273||https://sturm-edition.de/id/P.0000006
+11854764X||https://sturm-edition.de/id/P.0000004
+127466118||https://sturm-edition.de/id/P.0000051
+118557157||https://sturm-edition.de/id/P.0000064
+118714708||https://sturm-edition.de/id/P.0000030
+118559737||https://sturm-edition.de/id/P.0000009
+1077780265||https://sturm-edition.de/id/P.0000012
+118562827||https://sturm-edition.de/id/P.0000076
+121452735||https://sturm-edition.de/id/P.0000073
+118564722||https://sturm-edition.de/id/P.0000046
+118567365||https://sturm-edition.de/id/P.0000079
+118778153||https://sturm-edition.de/id/P.0000054
+128866748||https://sturm-edition.de/id/P.0000010
+122927486||https://sturm-edition.de/id/P.0000036
+118571516||https://sturm-edition.de/id/P.0000042
+119218208||https://sturm-edition.de/id/P.0000029
+118575864||https://sturm-edition.de/id/P.0000025
+118575872||https://sturm-edition.de/id/P.0000075
+11857745X||https://sturm-edition.de/id/P.0000003
+119352435||https://sturm-edition.de/id/P.0000082
+119104091||https://sturm-edition.de/id/P.0000047
+118583247||https://sturm-edition.de/id/P.0000077
+118583417||https://sturm-edition.de/id/P.0000085
+118583441||https://sturm-edition.de/id/P.0000031
+120828871||https://sturm-edition.de/id/P.0000087
+117022632||https://sturm-edition.de/id/P.0000086
+117159271||https://sturm-edition.de/id/P.0000084
+118812645||https://sturm-edition.de/id/P.0000061
+118594206||https://sturm-edition.de/id/P.0000049
+143669230||https://sturm-edition.de/id/P.0000057
+11859964X||https://sturm-edition.de/id/P.0000091
+117103594||https://sturm-edition.de/id/P.0000007
+118606816||https://sturm-edition.de/id/P.0000013
+124503063||https://sturm-edition.de/id/P.0000039
+118613723||https://sturm-edition.de/id/P.0000074
+118748475||https://sturm-edition.de/id/P.0000016
+118618830||https://sturm-edition.de/id/P.0000041
+136128289||https://sturm-edition.de/id/P.0000008
+118621041||https://sturm-edition.de/id/P.0000020
+117299421||https://sturm-edition.de/id/P.0000071
+119295954||https://sturm-edition.de/id/P.0000011
+118770950||https://sturm-edition.de/id/P.0000001
+118891456||https://sturm-edition.de/id/P.0000002
+118631365||https://sturm-edition.de/id/P.0000065
+128951710||https://sturm-edition.de/id/P.0000052

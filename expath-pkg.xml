@@ -1,0 +1,4 @@
+<package xmlns="http://expath.org/ns/pkg" name="https://sturm-edition.de" abbrev="sturm-edition" version="1.0.0" spec="1.0">
+    <title>STURM Edition</title>
+    <dependency package="http://www.functx.com" semver-min="1.0"/>
+</package>

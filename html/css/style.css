@@ -1,0 +1,1221 @@
+/*
+ * Styles for screen and mobile display
+ * @author: Torsten Schrade
+ */
+
+/* TYPOGRAPHY */
+
+body {
+    font-family: RomanaEF-Book, Tinos, Times, "Times New Roman", serif;
+}
+
+.tight {
+    letter-spacing: -0.07em;
+}
+
+.tighter {
+    letter-spacing: -0.09em;
+}
+
+.navigation li {
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+}
+
+.spaced {
+    letter-spacing: 0.2em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 5.6rem;
+    margin: 3rem 0 0.1em 0;
+}
+
+h2 {
+    font-size: 4.4rem;
+    margin: 3rem 0 1rem 0;
+}
+
+h3 {
+    font-size: 3.2rem;
+    margin: 3rem 0 1rem 0;
+}
+
+.department h3 {
+    letter-spacing: 0.01em;
+}
+
+h4 {
+    font-size: 2.6rem;
+    margin: 3rem 0 1rem 0;
+}
+
+h5 {
+    font-size: 2.4rem;
+    margin: 3rem 0 1rem 0;
+}
+
+h5.salute {
+    position: relative;
+    top: -3px;
+}
+
+footer h5 {
+    text-transform: uppercase;
+    font-size: 2rem;
+}
+
+h6 {
+    font-size: 2rem;
+    margin: 3rem 0 1rem 0;
+}
+
+.opener h6 {
+    margin-bottom: -2rem;
+}
+
+p,
+blockquote,
+li, dt, dd,
+label, legend, input, select, textarea,
+caption, th, td,
+address,
+.date,
+.text {
+    font-size: 2rem;
+    line-height: 2.6rem;
+}
+
+p,
+blockquote,
+figcaption,
+.content .info * {
+    text-align: justify;
+    -ms-hyphens: auto;
+    -moz-hyphens: auto;
+    -webkit-hyphens: auto;
+    hyphens: auto;
+}
+
+h1, h2, h3, h4, h5, h6,
+.title,
+.subtitle,
+.postcard *, 
+.letter *, 
+.militaryMail *, 
+.telegram *, 
+.department * {
+    text-align: left;
+    -webkit-hyphens: none;
+    -moz-hyphens: none;
+    -ms-hyphens: none;
+    hyphens: none;
+}
+
+.button, 
+.footnotes li, 
+.postscript:before,
+.pb {
+    font-size: 1.6rem;
+}
+
+sup, sub {
+    font-size: 1.2rem;
+}
+
+.footnotes li {
+    font-size: 1.6rem;
+    line-height: 2rem;
+}
+
+footer * {
+    font-size: 1.6rem;
+    line-height: 2rem;
+}
+
+.info p {
+    font-size: 1.6rem;
+    line-height: 2rem;
+}
+
+.info li {
+    font-size: 1.6rem;
+    line-height: 2rem;
+}
+
+code, .hljs {
+    font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+    font-size: 1.6rem;
+    line-height: 1;
+}
+
+p + cite {
+    display: block;
+    font-style: italic;
+    font-size: 1.6rem;
+    text-align: right;
+    margin-top: -1rem;
+    line-height: 1;
+}
+
+.doi, .orcid {
+    font-size: 1.6rem;
+}
+
+figcaption {
+    line-height: 1.3;
+}
+
+/* HEADER */
+
+.branding a {
+    display: block;
+    color: #333;
+}
+
+.branding a:visited,
+.branding a:active,
+.branding a:focus,
+.branding a:hover {
+    color: #333;
+}
+
+.title {
+    margin: 4rem 0 0 -10px;
+    padding: 0;
+    color: #333;
+    font-family: RomanaEF-Book, Ramaraja, Times, "Times New Roman", serif;
+    font-size: 15.3vw;
+    line-height: 0.75;
+    font-weight: normal;
+    letter-spacing: -0.03em;
+    text-align: center;
+}
+
+.subtitle {
+    position: relative;
+    z-index: 10;
+    margin: 0;
+    padding: 0;
+    color: #CD2526;
+    font-size: 2.2rem;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    line-height: 1;
+    text-align: center;
+}
+
+/* Use the following for the download version without Romana EF Book */
+
+body {
+    font-family: Tinos, Times, "Times New Roman", serif;
+}
+
+.title {
+    font-family: Ramaraja, Times, "Times New Roman", serif;
+    margin-top: 6rem;
+    line-height: 0.5;
+}
+
+.subtitle {
+    font-size: 2.1rem;
+}
+
+.tight {
+    letter-spacing: inherit;
+}
+
+/* NAVIGATION */
+
+.navigation {
+    position: relative;
+    margin: 1.2rem 0 0 0;
+    padding: 2px 0;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    z-index: 10;
+}
+
+.navigation ul {
+    margin: 0;
+    padding: 1rem 0 0.6rem 0;
+    border-top: 4px solid black;
+    border-bottom: 4px solid black;
+    text-align: center;
+}
+
+.navigation li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 0 2rem 0 0;
+    padding: 0;
+}
+
+.navigation a,
+.navigation a:link,
+.navigation a:visited {
+    color: black;
+    padding: 1rem 1rem 0.6rem 1rem;
+}
+
+.navigation a.active,
+.navigation a:active,
+.navigation a:hover {
+    background: #CD2526;
+    color: #FFF;
+}
+
+#hamburger {
+    display: none;
+}
+
+.subnavigation {
+    margin: 0 0 2rem 0;
+    padding: 0;
+}
+
+.subnavigation ul {
+    margin-left: 0;
+}
+
+.subnavigation li {
+    margin: 0;
+    border-bottom: 2px solid black;
+    padding: 0.3rem 0;
+    text-transform: uppercase;
+    letter-spacing: 0.02rem;
+}
+
+.subnavigation a,
+.subnavigation a:link,
+.subnavigation a:visited {
+    color: black;
+    display: block;
+    padding: 0.3rem 1rem 0 1rem;
+    text-align: right;
+}
+
+.subnavigation a.active,
+.subnavigation a:active,
+.subnavigation a:hover {
+    background: #CD2526;
+    color: #FFF;
+}
+
+.navigation li:before, 
+.subnavigation li:before {
+    content: "";
+    margin: 0;
+    padding: 0;
+}
+
+/* CONTENT */
+
+.content {
+    margin: 0 0 8rem 0;
+    padding-top: 4rem;
+}
+
+.content .content {
+    margin: 0;
+}
+
+div > h1:first-child, section > h1:first-child,
+div > h2:first-child, section > h2:first-child,
+div > h3:first-child, section > h3:first-child,
+div > h4:first-child, section > h4:first-child,
+div > h5:first-child, section > h5:first-child,
+div > h6:first-child, section > h6:first-child {
+    margin-top: 0;
+}
+
+a, a:focus, a:active, a:hover, a:visited {
+    text-decoration: none;
+    color: #CD2526;
+}
+
+a.external:before {
+    content: "➚";
+    padding: 0 0.3rem;
+}
+
+figure a.external:before {
+    content: "";
+    padding: 0;
+}
+
+.eight.columns.maincontent {
+    margin-left: 0;
+}
+
+figure {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+figcaption {
+    margin-bottom: 2.5rem;
+}
+
+.facsimile figcaption {
+    margin-bottom: 0;
+}
+
+img {
+    width: 100%;
+}
+
+address {
+    font-style: normal;
+    margin: 0 0 2rem 0;
+}
+
+.content ul {
+    list-style-type: none;
+}
+
+.content li {
+    margin-bottom: 0;
+}
+
+sub {
+    position: relative;
+}
+
+sup {
+    position: relative;
+}
+
+pre {
+    margin: -2rem 0;
+}
+
+code, .hljs {
+    margin: 0;
+    border: none;
+    background: transparent;
+}
+
+.hljs {
+    border: 4px double black;
+    border-radius: 0;
+    padding: 0 2rem;
+}
+
+.hljs-tag .hljs-name {
+    color: #CD2526;
+}
+
+ol.standard, ul.standard {
+    margin: 0 0 2rem 4rem;
+}
+
+ol.standard ol, ul.standard ul {
+    margin: 0 0 0 1rem;
+}
+
+ol.standard {
+    counter-reset: section;
+}
+
+ol.standard, 
+ul.standard li {
+    position: relative;
+    list-style-type: none;
+    counter-increment: section;
+    padding-left: 0.8rem;
+}
+
+ol.standard li,
+ul.standard li {
+    margin: 0 0 1rem 0;
+}
+
+ol.standard li:before, ul.standard li:before {
+    position: absolute;
+    left: -1rem;
+    color: #CD2526;
+}
+
+ul.standard li:before {
+    content: "■";
+    font-size: 1.2rem;
+}
+
+ol.standard li:before {
+    content: counters(section,".")".";
+}
+
+ol.standard ol li {
+    padding-left: 2rem;
+}
+
+ul.standard li.nested:before, 
+ol.standard li.nested:before {
+    content: "";
+}
+
+dl {
+    margin: 0;
+    padding: 0;
+}
+
+dt {
+    font-weight: 700;
+    margin-bottom: 0.3rem;
+}
+
+.content dd + dt {
+    margin-top: 0.5rem;
+}
+
+table {
+    width: 100%;
+    margin: 0 0 5rem 0;
+}
+
+table.standard {
+    margin-bottom: 3rem;
+}
+
+table th, 
+table td {
+    margin: 0;
+    border: none;
+    padding: 0.5rem 0 0.3rem 0;
+}
+
+.lined th,
+.lined td {
+    border-bottom: 1px solid black;
+}
+
+.grid th,
+.grid td,
+.packed th,
+.packed td {
+    border: 1px solid black;
+    padding: 0.5rem 1rem 0 1rem;
+}
+
+.grid th,
+.packed th {
+    border-right: 1px solid #FFF;
+    background: #000;
+    color: #FFF;
+}
+
+.grid th:last-child,
+.packed th:last-child {
+    border-right-color: #000;
+}
+
+.packed th,
+.packed td {
+    padding: 0.5rem 1rem 0 1rem;
+    line-height: 1;
+}
+
+#methodik .packed td:nth-child(1) {
+    width: 20%;
+}
+
+#methodik .packed td:nth-child(2) {
+    width: 38%;
+}
+
+#methodik .packed td:nth-child(3) {
+    width: 42%;
+}
+
+#zeitschrift .packed td:nth-child(1) {
+    width: 10%;
+}
+
+#zeitschrift .packed td:nth-child(2) {
+    width: 30%;
+}
+
+#kataloge .packed td:nth-child(3) {
+    width: 13%;
+}
+
+#kataloge .packed td:nth-child(2) {
+    width: 14%;
+}
+
+#schriften .packed td:nth-child(1) {
+    width: 25%;
+}
+
+#schriften .packed td:nth-child(3) {
+    width: 13%;
+}
+
+blockquote {
+    margin-left: 0;
+    margin-right: 0;
+    padding: 1.5rem;
+    background: #EFEFEF;
+    quotes: "„" "“" "‚" "‘";
+}
+
+blockquote .author + .bibl:before {
+    display: inline-block;
+    content: "/";
+    margin: 0 0.5rem 0 0.3rem;
+}
+
+q {
+    quotes: "„" "“" "‚" "‘";
+    font-style: italic;
+}
+
+.down-25 {
+    margin-top: 2.5rem;
+}
+
+.down-30 {
+    margin-top: 3rem;
+}
+
+.down-40 {
+    margin-top: 4rem;
+}
+
+/* TEASER BOX */
+
+.teasercontainer {
+    text-decoration: none;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 2rem;
+    min-height: 34rem;
+    background: #000;
+}
+
+.teaserbox img {
+    width: auto;
+    position: absolute;
+}
+
+.teaserbox .teaserheader {
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #FFF;
+    background: rgba(0,0,0,1);
+    width: 100%;
+    padding: 2rem 0 2rem 2rem;
+    margin: 0;
+}
+
+.teasertext {
+    display: block;
+    position: relative;
+    margin-top: 26%;
+    background: rgba(0,0,0,0.8);
+    color: #FFF;
+    width: 80%;
+    padding: 1rem 2rem;
+}
+
+.teaserbox:hover .teaserheader,
+.teaserbox:hover .teasertext {
+    background: rgba(0,0,0,0.4);
+}
+
+.preface {
+    margin-top: 2rem;
+}
+
+/* TOOLBAR */
+
+.toolbar {
+    margin: 1rem 0 2rem 0;
+}
+
+.black.button {
+    display: inline-block;
+    border: 0;
+    border-radius: 0;
+    padding: 0 22px;
+    margin-right: 0.5rem;
+    background: #000;
+    color: #FFF;
+}
+
+.toolbar ul {
+    display: inline-block;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.toolbar li {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+.toolbar li a,
+.toolbar li a:active,
+.toolbar li a:visited,
+.toolbar li a:focus {
+    background: #000;
+    color: #FFF;
+    outline: 1px solid #000;
+    text-decoration: none;
+}
+
+.toolbar li a:hover {
+    background: #FFF;
+    color: #000;
+    outline: 1px solid #000;
+}
+
+.toolbar .pagination {
+/* 
+    position: relative;
+    top: -0.15rem;
+ */ 
+    margin-right: 3rem;
+}
+
+.pagination .previous,
+.pagination .next {
+    font-weight: 700;
+}
+
+/* 
+.pagination a {
+    font-size: 1rem;
+    letter-spacing: -0.1rem;
+}
+ */
+
+.alphabet .button {
+    padding: 0;
+    width: 4rem;
+}
+
+/* SOURCE */
+
+.chronology li {
+    display: inline-block;
+}
+
+.chronology li a:hover {
+    background: #FFF;
+    color: #000;
+    outline: 1px solid #000;
+}
+
+/* REGISTERS */
+
+.alphabet .letter a {
+    text-decoration: none;
+    text-align: center;
+}
+
+.lemmalist li {
+    list-style: none;
+    margin-bottom: 0.5rem;
+}
+
+ol.letters {
+    position: relative;
+    list-style-type: none;
+    counter-reset: item;
+}
+
+ol.letters li {
+    counter-increment: item;
+    margin: 0 0 1.4rem 0;
+    padding: 0 0 0 4.8rem;
+}
+
+ol.letters li:before {
+    position: absolute;
+    left: 0;
+    display: inline-block;
+    content: counter(item);
+    background: #000;
+    color: #FFF;
+    margin: -0.5rem 0 0 0;
+    width: 3.4rem;
+    padding: 0.5rem 0 0 0;
+    text-align: center;
+}
+
+.year {
+    display: table;
+    background: #CD2526;
+    color: #FFF;
+    cursor: pointer;
+    padding: 0.9rem 0.8rem 0.4rem 0.6rem;
+    margin: 4rem 0;
+    line-height: 1;
+    text-align: center;
+}
+
+/* LEAFLET MAP */
+
+#map {
+    height: 380px;
+    margin-bottom: 3rem;
+}
+
+/* TRANSCRIPTION */
+
+.department p {
+    margin-bottom: 0;
+/*  font-size: 1.6rem;  
+    line-height: 2rem; */
+}
+
+.department .msidentifier {
+    margin-bottom: 1rem;
+}
+
+.department + .toolbar {
+    margin-bottom: 6rem;
+}
+
+.dateline {
+    margin-top: -1rem;
+    margin-bottom: 3rem;
+}
+
+div.address {
+    overflow: auto;
+    margin-bottom: 1rem;
+}
+
+.address .sender {
+    float: left;
+    margin-right: 3rem;
+    line-height: 1.2;
+}
+
+.address .sender:before {
+    content: "[Absender]";
+    font-size: 1.6rem;
+}
+
+.address .recipient {
+    float: right;
+    line-height: 1.2;
+}
+
+.address .recipient:before {
+    content: "[Empfänger]";
+    font-size: 1.6rem;
+}
+
+div.address .addrLine {
+    display: block;
+}
+
+.underline {
+    border-bottom: 1px solid #000;
+}
+
+.twice-underline {
+    border-bottom: 3px double #000;
+}
+
+.sic:after {
+    display: inline-block;
+    content: "[sic!]";
+    padding: 0 0.5rem;
+}
+
+.unclear {
+    border-bottom: 1px dotted #000;
+    cursor: help;
+    font-style: normal;
+}
+ 
+p .pb:after {
+    display: inline-block;
+    content: "|";
+    padding: 0 0 0 0.6rem;
+}
+
+.pb a {
+    display: inline-block;
+    position: absolute;
+    width: 6.5rem;
+    left: -7rem;
+    text-align: right;
+    font-style: normal;
+}
+
+.pb br {
+    display: none !important;
+}
+
+.closer .signed {
+    display: block;
+}
+
+.postscript {
+    margin-top: 3rem;
+}
+
+.postscript:before {
+    content: "[Postscript]";
+    display: block;
+    margin-top: -0.5rem;
+}
+
+.footnotes {
+    position: relative;
+    margin: 5em 0 0 0;
+}
+
+.footnotes li:first-child:before {
+    position: absolute;
+    left: 0;
+    top: -1em;
+    content: " ";
+    width: 30rem;
+    height: 10px;
+    border-top: 1px solid black;
+}
+
+.footnotes li {
+    margin: 0 0 1em 0;
+}
+
+.facsimile-header {
+    text-transform: uppercase;
+    font-size: 2rem;
+    letter-spacing: 0.02rem;
+}
+
+.facsimile {
+    position: relative;
+    overflow: scroll;
+    height: 320px;
+    padding: 2rem 3rem;
+    background: #EFEFEF;
+}
+
+.facsimile a {
+    display: block;
+}
+
+.dfg-viewer .button {
+    width: 100%;
+}
+
+.rights {
+    margin-top: 0.5rem;
+    font-size: 1.6rem;
+    line-height: 1.2;
+}
+
+.info {
+    margin-top: 6rem;
+    border: 1px solid black;
+    padding: 2rem 2rem 0 2rem;
+}
+
+.versions {
+    margin-bottom: 5rem;
+    padding: 1.5rem;
+    background: #EFEFEF;
+}
+
+.versions p + p {
+    margin-bottom: 0;
+}
+
+/* FOOTER */
+
+footer {
+    margin: 0 0 5rem 0;
+    border-top: 4px solid black;
+}
+
+footer:before {
+    display: block;
+    content: " ";
+    margin: 2px 0 0 0;
+    border-top: 2px solid black;
+}
+
+footer section {
+    margin-top: 4rem;
+}
+
+footer img {
+    float: left;
+    width: 23%;
+}
+
+footer address {
+    margin-left: 23%;
+    padding-left: 1.5rem;
+    color: #000;
+}
+
+footer address {
+    margin-bottom: 0;
+}
+
+footer ul.standard {
+    margin: 0 0 0 1rem;
+    padding: 0;
+}
+
+footer ul, footer li {
+    list-style: none;
+}
+
+footer li {
+    margin-bottom: 0.5rem;
+}
+
+footer .telephone {
+    text-decoration: none !important;
+    color: #000;
+}
+
+/* MEDIA QUERIES */
+
+@media (min-width: 1250px) {
+    .title { 
+        font-size: 19.5rem;
+    }
+}
+
+@media (max-width: 1024px) {
+    .title { 
+        font-size: 16vw;
+    }
+    .subtitle { 
+        font-size: 1.95rem;
+     }
+}
+
+/*  one column layout from 900px downwards */
+
+@media (max-width: 900px) {
+    .title {
+        font-size: 19.7vw;
+    }
+    .subtitle { 
+        font-size: 2rem;
+     }
+    .navigation li {
+        font-size: 1.8rem;
+     }
+    .teaserbox img {
+        width: 100%;
+    }
+    .pb:after {
+        display: none !important;
+        content: "";
+        padding: 0;
+    }
+    .pb a {
+        display: inline;
+        position: static;
+        width: auto;
+        left: 0;
+        text-align: left;
+    }
+    .address .pb {
+        display: block;
+    }
+    .facsimile-header {
+        margin-top: 3rem !important;
+    }
+    .contact {
+        margin-top: 0;
+    }
+}
+
+@media (max-width: 800px) {
+    .subtitle { 
+        font-size: 1.9rem;
+     }
+    .navigation li { 
+        margin-right: 0;
+     }
+}
+
+@media (max-width: 768px) {
+    .subtitle { 
+        font-size: 1.8rem;
+     }
+}
+
+/* mobile navigation from 600px downwards */
+
+@media (max-width: 600px) {
+    .title {
+        font-size: 18vw;
+        margin-top: 3rem;
+    }
+    .subtitle { 
+        font-size: 1.6rem;
+     }
+    .navigation ul { 
+        min-height: 2.6rem;
+        padding: 3px 0;
+     }
+    .navigation li {
+        display: none;
+        font-size: 1.6rem;
+        margin-bottom: 2px;
+     }
+    .open li, .open li a {
+        display: block;
+    }
+    #hamburger {
+        position: absolute;
+        display: inline-block;
+        top: 0.6rem;
+        right: 0;
+        font-size: 1.6rem;
+        text-transform: uppercase;
+        cursor: pointer;
+        visibility: visible;
+        opacity: 1;
+    }
+    #hamburger:after {
+        position: relative;
+        display: inline-block;
+        margin-left: 0.3rem;
+        content: "☰";
+        font-size: 2rem;
+    }
+    #hamburger.hide {
+        visibility: hidden;
+        opacity: 0;
+    }
+}
+
+/* smaller font size on mobile portrait/landscape */
+
+@media (max-width: 480px) {
+    .title {
+        font-size: 17.6vw;
+        margin-top: 2.5rem;
+        line-height: 0.9;
+    }
+    .subtitle { 
+        font-size: 1.4rem;
+    }
+    h1 {
+        font-size: 4.4rem;
+    }
+    h2 {
+        font-size: 3.2rem;
+    }
+    h3 {
+        font-size: 2.6rem;
+    }
+    h4 {
+        font-size: 2.2rem;
+    }
+    h5 {
+        font-size: 2rem;
+    }
+    h1, h2, h3, h4, h5, h6 {
+        line-height: 1;
+    }
+    p,
+    blockquote,
+    li, dt, dd,
+    label, legend, input, select, textarea,
+    caption, th, td,
+    address,
+    .date,
+    .text {
+        font-size: 2rem;
+        line-height: 2.4rem;
+    }
+    .button, 
+    .footnotes li, 
+    .postscript:before,
+    .pb {
+        font-size: 1.6rem;
+    }
+    .toolbar .pagination {
+        margin-right: 0;
+    }
+    sup, sub {
+        font-size: 1.2rem;
+    }
+    .footnotes li {
+        font-size: 1.6rem;
+        line-height: 1.6rem;
+    }
+    footer * {
+        font-size: 1.6rem;
+        line-height: 1.6rem;
+    }
+    .info p {
+        font-size: 1.6rem;
+        line-height: 1.6rem;
+    }
+    code, .hljs {
+        font-size: 1.6rem;
+    }
+    p + cite {
+        font-size: 1.6rem;
+    }
+    .doi {
+        font-size: 1.6rem;
+    }
+}
+
+@media (max-width: 450px) {
+    .title {
+        font-size: 18vw;
+        margin-top: 2rem;
+    }
+    .subtitle { 
+        font-size: 1.3rem;
+    }
+    .teaserbox img {
+        width: auto;
+    }
+    .address address {
+        float: none !important;
+    }
+    #zeitschrift .packed td,
+    #kataloge .packed td, 
+    #schriften .packed td {
+        width: auto !important;
+    }
+}
+
+@media (max-width: 320px) {
+    .title {
+        font-size: 17vw;
+    }
+    .subtitle {
+        margin-top: 0;
+        font-size: 1.2rem;
+     }
+    .footnotes li:first-child:before {
+        width: 100%;
+    }
+    .pagination .black.button,
+    .actions .black.button {
+        padding: 0 16px;
+    }
+}
