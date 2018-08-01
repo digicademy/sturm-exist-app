@@ -333,13 +333,17 @@ declare function sturm_xml:Cmif($appRoot as xs:string, $appName as xs:string, $s
     let $targetDir := concat($appRoot, $appName, $target)
 
     let $letters := 
-        for $correspDesc in collection($sourceDir)//tei:correspDesc
+        for $letter in collection($sourceDir)//tei:correspDesc
+            let $correspDesc := 
+                <correspDesc key="{$letter/@key}" ref="{$letter/@ref}" source="STURM">
+                    {$letter/*}
+                </correspDesc>
         return $correspDesc
 
     let $transformationParameters := 
         <parameters>
             <param name="type" value="cmif" />
-            <param name="title" value="DER STURM. Digitale Quellenedition zur Geschichte der internationalen Avantgarde. Abteilung I, Künstlerbriefe" />
+            <param name="title" value="DER STURM. Digitale Quellenedition zur Geschichte der internationalen Avantgarde, Abteilung I, Briefe." />
             <param name="editorName" value="Torsten Schrade" />
             <param name="editorEmail" value="Torsten.Schrade@adwmainz.de" />
             <param name="url" value="https://sturm-edition.de/cmif/corresp.xml" />

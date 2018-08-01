@@ -24,6 +24,7 @@
     <xsl:param name="file"/>
     <xsl:param name="date"/>
     <xsl:param name="bibl"/>
+    <xsl:param name="biblRef"/>
     <xsl:param name="description"/>
 
     <xsl:output method="xml" encoding="UTF-8" indent="yes" xml:space="preserve"/>
@@ -81,8 +82,8 @@
                     </publicationStmt>
                     <sourceDesc>
                         <xsl:if test="$bibl">
-                            <bibl type="online">
-                                <xsl:value-of select="$bibl"/>
+                            <bibl type="online" xml:id="STURM">
+                                <xsl:value-of select="$bibl"/> <ref target="https://sturm-edition.de/">https://sturm-edition.de/</ref>
                             </bibl>
                         </xsl:if>
                         <xsl:if test="$description">
