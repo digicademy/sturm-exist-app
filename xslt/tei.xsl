@@ -24,7 +24,6 @@
     <xsl:param name="file"/>
     <xsl:param name="date"/>
     <xsl:param name="bibl"/>
-    <xsl:param name="biblRef"/>
     <xsl:param name="description"/>
 
     <xsl:output method="xml" encoding="UTF-8" indent="yes" xml:space="preserve"/>
