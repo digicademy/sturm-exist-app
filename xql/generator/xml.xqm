@@ -335,7 +335,7 @@ declare function sturm_xml:Cmif($appRoot as xs:string, $appName as xs:string, $s
     let $letters := 
         for $letter in collection($sourceDir)//tei:correspDesc
             let $correspDesc := 
-                <correspDesc key="{$letter/@key}" ref="{$letter/@ref}" source="STURM">
+                <correspDesc xmlns="http://www.tei-c.org/ns/1.0" key="{$letter/@key}" ref="{$letter/@ref}" source="STURM">
                     {$letter/*}
                 </correspDesc>
         return $correspDesc
