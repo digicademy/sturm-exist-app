@@ -55,12 +55,13 @@
                         <country>DE</country>
                         <settlement>Berlin</settlement>
                         <repository>Staatsbibliothek zu Berlin Preußischer Kulturbesitz, Handschriftenabteilung, Sturm-Archiv I, Heemskerck, Jacoba van</repository>
-                        <idno type="uri">http://kalliope-verbund.info/DE-611-HS-1911255</idno>
+                        <idno type="uri">http://resolver.staatsbibliothek-berlin.de/SBB0000D98F00000000</idno>
                     </msIdentifier>
                 </msDesc>
             </sourceDesc>
         </fileDesc>
-        <xenoData type="uri">http://digital.staatsbibliothek-berlin.de/metsresolver/PPN746595123</xenoData>
+        <xenoData type="uri">http://kalliope-verbund.info/DE-611-HS-1911255</xenoData>
+        <xenoData type="url">http://content.staatsbibliothek-berlin.de/dc/PPN746595123.mets.xml</xenoData>
         <profileDesc>
             <correspDesc key="Bl.139-140" ref="https://sturm-edition.de/id/Q.01.19151225.JVH.01">
                 <correspAction type="sent">
@@ -70,12 +71,19 @@
                 </correspAction>
                 <correspAction type="received">
                     <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth Walden</persName>
-                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>
+                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950159">Potsdamerstrasse 134a, Berlin W.9.</placeName>
                 </correspAction>
             </correspDesc>
         </profileDesc>
         <revisionDesc>
             <listChange>
+                <change>
+                    <date when="2019-07-25" n="2"/>
+                    <p>URL zur METS-Datei der Staatsbibliothek zu Berlin aktualisiert innerhalb von :xenoData und zusätzliches :xenoData mit permanenter URI zum Kalliope-Findbucheintrag.</p>
+                    <p>:idno URL innerhalb von :msIdentifier durch permanente URL zum entsprechenden Datensatz der Staatsbibliothek zu Berlin gesetzt</p>
+                    <p>Standardisierung der Kommentierungstiefe, keine spezifischen Erklärungen von Fremdwörtern außerhalb des Sturm-Kontextes</p>
+                    <p>Normdaten (Geonames) zu Stadt Berlin korrigiert (zuvor fälschlicherweise Verweis auf "Land Berlin")</p>
+                </change>
                 <change>
                     <date when="2018-07-16" n="1"/>
                 </change>
@@ -107,7 +115,7 @@
                 <p>Ihnen und <persName key="P.0000002" ref="http://d-nb.info/gnd/118891456">Nell</persName> herzlich Dank für die schöne
             Weihnachtskarte ich bin so froh wieder ein Bild von Sie beiden zu haben. Meine beste
             Wünsche für Weihnachten und 1916. hoffen wir endlich auf Frieden und dasz es ein schönes
-            Jahr für der<pb xml:id="S.139v" n="139v" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D98F00000002"/> Sturm sein soll. Ueber fünf Wochen sind wir in <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Berlin</placeName> und dann
+            Jahr für der<pb xml:id="S.139v" n="139v" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D98F00000002"/> Sturm sein soll. Ueber fünf Wochen sind wir in <placeName key="O.0000002" ref="http://sws.geonames.org/2950159">Berlin</placeName> und dann
             Sie beiden in <date when="1916-03">März</date> wieder hier wirklich es kommen schöne
             Zeiten. Bitte schreiben Sie genau Name und strasse von das Hotel da ich dasz dem Konsul
             sagen musz. <date when="1915-12-27">Montag</date> werden wir Dr
@@ -115,7 +123,7 @@
                alles. Wann werden die Gemälde eintreffen, ich denke<pb xml:id="S.140r" n="140r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D98F00000003"/> jetzt wird es wieder sehr lange
             dauern. Nebenbei die Zeitungsausschnitt für Frl. <persName key="P.0000036" ref="http://d-nb.info/gnd/122927486">van Leer</persName> Sonntag habe ich ihr <persName key="P.0000055" ref="P.0000055">Bruder</persName>
             aus <placeName key="O.0000018" ref="http://sws.geonames.org/2925533">Frankfurt</placeName> gesprochen er
-            wird in Januar auch nach <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Berlin</placeName> kommen und
+            wird in Januar auch nach <placeName key="O.0000002" ref="http://sws.geonames.org/2950159">Berlin</placeName> kommen und
                Ihnen und seine <persName key="P.0000036" ref="http://d-nb.info/gnd/122927486">Schwester</persName> besuchen er möchte dann auch gern meine Bilder sehen.
                <persName key="P.0000002" ref="http://d-nb.info/gnd/118891456">Nell</persName> wenn mein Photo fertig
             ist schicke ich dir auch verschiedene Photo's von meine Gemälde. Ich arbeite jetzt sehr

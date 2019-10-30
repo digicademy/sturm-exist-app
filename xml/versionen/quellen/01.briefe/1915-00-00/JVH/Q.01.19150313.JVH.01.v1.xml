@@ -1,0 +1,179 @@
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Q.01.19150313.JVH.01">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Jacoba van Heemskerck an Herwarth Walden, 13. März 1915, 35, Nassau
+                    Zuilensteinstraat, Den Haag</title>
+                <editor>
+                    <persName ref="https://orcid.org/0000-0003-2423-7144">
+                        <forename>Marjam</forename>
+                        <surname>Trautmann</surname>
+                    </persName>
+                </editor>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0002-0953-2818">
+                        <forename>Torsten</forename>
+                        <surname>Schrade</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeber</note>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0003-2423-7144">
+                        <forename>Marjam</forename>
+                        <surname>Trautmann</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeberin</note>
+                    </resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="http://www.adwmainz.de">Akademie der Wissenschaften und der
+                        Literatur | Mainz</ref>
+                </publisher>
+                <pubPlace ref="http://sws.geonames.org/2874225">Mainz</pubPlace>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/"> This file is
+                        licensed under the terms of the Creative-Commons-License CC BY 4.0
+                    </licence>
+                </availability>
+                <idno type="file">Q.01.19150313.JVH.01.v1.xml</idno>
+                <idno type="uri">https://sturm-edition.de/id/Q.01.19150313.JVH.01</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Q.01.19150313.JVH.01, Jacoba van Heemskerck an Herwarth Walden, 13. März 1915,
+                    35, Nassau Zuilensteinstraat, Den Haag, bearbeitet von Marjam Trautmann, in:
+                    Der STURM. Digitale Quellenedition zur Geschichte der internationalen
+                    Avantgarde, erarbeitet und herausgegeben von Marjam Trautmann 
+                    und Torsten Schrade. Mainz, Akademie der Wissenschaften und der Literatur.</bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <country>DE</country>
+                        <settlement>Berlin</settlement>
+                        <repository>Staatsbibliothek zu Berlin Preußischer Kulturbesitz,
+                            Handschriftenabteilung, Sturm-Archiv I, Heemskerck, Jacoba
+                            van</repository>
+                        <idno type="uri">http://kalliope-verbund.info/DE-611-HS-1910841</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <xenoData type="uri">http://digital.staatsbibliothek-berlin.de/metsresolver/PPN746594593</xenoData>
+        <profileDesc>
+            <correspDesc key="Bl.73-74" ref="https://sturm-edition.de/id/Q.01.19150313.JVH.01">
+                <correspAction type="sent">
+                    <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jacoba van
+                        Heemskerck</persName>
+                    <placeName key="O.0000001" ref="http://sws.geonames.org/2747373">35, Nassau
+                        Zuilensteinstraat, Den Haag</placeName>
+                    <date when="1915-03-13"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth
+                        Walden</persName>
+                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change>
+                    <date when="2018-07-16" n="1"/>
+                </change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic n="73r" url="http://content.staatsbibliothek-berlin.de/dms/PPN746594593/800/0/00000001.jpg"/>
+        <graphic n="73v" url="http://content.staatsbibliothek-berlin.de/dms/PPN746594593/800/0/00000002.jpg"/>
+        <graphic n="74r" url="http://content.staatsbibliothek-berlin.de/dms/PPN746594593/800/0/00000003.jpg"/>
+        <graphic n="74v" url="http://content.staatsbibliothek-berlin.de/dms/PPN746594593/800/0/00000004.jpg"/>
+        <graphic n="Farbkeil" url="http://content.staatsbibliothek-berlin.de/dms/PPN746594593/800/0/00000005.jpg"/>
+    </facsimile>
+    <text type="letter">
+        <body>
+            <div type="content">
+                <pb xml:id="S.73r.01" n="73r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D96C00000001"/>
+                <opener>
+                    <dateline>
+                        <date when="1915-03-13">
+                            <hi rend="underline">13. <foreign>Maart</foreign> 1915.</hi>
+                        </date>
+                    </dateline>
+                    <salute>Sehr wehrter Herr <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Walden</persName>
+                    </salute>
+                </opener>
+                <p>Vielen Dank für Ihren Brief von den <date when="1915-03-12">12. März</date>. Sie
+                    haben ein prachtvolles Entschluss genommen und ich bin ganz damit einverstanden,
+                    so liebenswürdig mir ein Honorar von 20% zalhlen zu wollen. Sie haben ganz recht
+                    so wird das Verein besser geholfen das wichtigste ist unbedingt der Sturm
+                    bekommt neue Mitglieder<pb xml:id="S.73v.01" n="73v" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D96C00000002"/> und
+                    wenn Sie von die 6. Holzstöcke mehrere exemplaren wünschen dann sagen Sie es
+                    bitte die Holzstöcke sind Ihr Eigenthum Es macht mir sehr viel Freude dasz die
+                    Holzdrucke Ihnen gefallen dasz ist überhaupt doch dasz wichtigste von alles.</p>
+                <p>Sie wissen vielleicht noch dasz ich Ihnen letztes Jahr bei meiner Ausstellung ein
+                        <term type="artwork" key="W.0000027">Bild</term> schickte <term type="artwork" key="W.0000041">P<hi rend="underline">ortr</hi>ät</term> dasz
+                    Sie nicht so sehr gut fanden und damals in <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Berlin</placeName> nicht ausstellten.
+                    Das <term type="artwork" key="W.0000027">Bild</term> gehört Fraulein <persName key="P.0000008" ref="http://d-nb.info/gnd/136128289">Tak</persName>, wenn
+                        Sie<pb xml:id="S.74r" n="74r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D96C00000003"/> das
+                    Bild in <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Berlin</placeName> haben wollen Sie dann so freundlich sein es zusammen mit
+                        <term type="artwork" key="W.0000028">Bild 15</term> später zurück zu
+                    schicken, wenn es aber nicht in <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Berlin</placeName> ist macht es nichts
+                    aus und bekommt sie es später einmal zurück. Dann wollte ich Ihnen auch noch
+                    fragen glauben Sie nicht dasz es am besten ist dasz Sie alle meine Bilder auch
+                    vom letzten Jahr ruhig behalten wenn es vielleicht über einige Jahren Ihre idee
+                    ist von meine Arbeiten so gesammt Ausstellungen zu machen wie Sie dasz von
+                        <persName key="P.0000009" ref="http://d-nb.info/gnd/118559737">Kandinsky</persName> gemacht haben, dann ist<pb xml:id="S.74v" n="74v" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D96C00000004"/> es
+                    am besten alles bleibt bei Ihnen und Sie haben dann auch eine grössere Auswahl
+                    für Ausstellungen in andere Städte. Ich habe so die Idee alles was ich mache
+                    Bilder, Zeichnungen, Holzschnitte schicke ich Ihnen ein oder zwei mal jährlich,
+                    und wenn man hier vielleicht später auf mein Atelier Bilder kaufen will dann
+                    sage ich immer Der Sturm arrangiert alles für mich ich werde Der Sturm schreiben
+                    dann bekommen die Leute von Ihnen nachricht über die Preise etc: Bitte schreiben
+                    Sie ob es Ihnen so recht ist, finden Sie es besser meine Bilder nicht zu
+                    behalten dann schicken Sie zurück, bitte ganz offen zu sagen was Sie am besten
+                    finden.</p>
+                <p>Es ist herrlich dasz <placeName key="O.0000025" ref="http://sws.geonames.org/3175395">Italien</placeName> und <placeName key="O.0000028" ref="http://sws.geonames.org/390903">Griechenland</placeName> neutral bleiben dasz hat man in <placeName key="O.0000023" ref="http://sws.geonames.org/6269131">England</placeName>
+                    auch anders gehofft.<note>Am 23. Mai 1915 erklärte Italien Österreich-Ungarn, am
+                        21. August dem Osmanischen Reich den Krieg. Am 28. August 1916 folgte die
+                        Kriegserklärung an das Deutsche Kaiserreich. Am 29. Juni 1917 trat
+                        Griechenland mit einer Kriegserklärung gegen Deutschland in den Krieg ein.
+                        In Italien gingen dem Kriegseintritt intensive innenpolitische sowie
+                        gesellschaftliche Debatten und Veränderungen voraus. Vgl. Isenghi, Mario:
+                        Italien. In: Enzyklopädie Erster Weltkrieg. Hrsg. v. Gerhard Hirschfeld
+                        [u.a.]. Paderborn [u.a.] 2004, S. 97–104; Pohlmann, Markus:
+                        Kriegserklärungen. In: Enzyklopädie Erster Weltkrieg. Hrsg. v. Gerhard
+                        Hirschfeld [u.a.]. Paderborn [u.a.] 2004, S. 637–638; Lablance, Nicola: The
+                        Italian Front. In: The Cambridge History of The First World War. Bd. 1
+                        Global War. Cambridge 2014, S. 266–296.</note>
+                    <pb xml:id="S.73r.02" n="73r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D96C00000001"/> Ja
+                    hoffentlich dass der Krieg in absehbarer Zeit ein Ende nimmt.</p>
+                <closer>
+                    <salute>Mit herzlichsten Grüssen</salute>
+                    <signed>Ihr <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jac<hi rend="twice-underline">obavHeemskerck</hi>
+                        </persName>
+                    </signed>
+                </closer>
+                <postscript>
+                    <p>Ich lese Ihr Brief noch einmal und jetzt glaube ich dasz Sie nicht eine Mappe
+                        für Ihre <persName key="P.0000002" ref="http://d-nb.info/gnd/118891456">Frau</persName> dabei haben Bitte denken Sie daran dasz ganz bestimmt
+                        Ihre <persName key="P.0000002" ref="http://d-nb.info/gnd/118891456">Frau</persName> e<hi rend="underline">ine</hi> Ma<hi rend="underline">ppe</hi> h<hi rend="underline">aben</hi>
+                        <hi rend="twice-underline">musz</hi>. In die holländische Zeitungen hat noch
+                        nichts gestanden, Sie haben<pb xml:id="S.73v.02" n="73v" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D96C00000002"/>
+                        recht: es macht so wenig aus, was und ob man schreibt persönliche Propaganda
+                        ist dasz Wichtigste. Das Bild hat im Catalog <date when="1914">1914</date>
+                        gestanden: <term type="artwork" key="W.0000040">n<hi rend="super">
+                                <hi rend="twice-underline">o</hi>
+                            </hi>
+                            <hi rend="underline">16</hi> Figur</term> (aus der Kollektion <persName key="P.0000008" ref="http://d-nb.info/gnd/136128289">Tak van
+                            Poortvliet</persName>).</p>
+                </postscript>
+            </div>
+        </body>
+    </text>
+</TEI>

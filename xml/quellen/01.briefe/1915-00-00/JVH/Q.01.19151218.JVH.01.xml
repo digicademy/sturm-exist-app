@@ -58,12 +58,13 @@
                         <repository>Staatsbibliothek zu Berlin Preußischer Kulturbesitz,
                             Handschriftenabteilung, Sturm-Archiv I, Heemskerck, Jacoba
                             van</repository>
-                        <idno type="uri">http://kalliope-verbund.info/DE-611-HS-1911242</idno>
+                        <idno type="uri">http://resolver.staatsbibliothek-berlin.de/SBB0000D98D00000000</idno>
                     </msIdentifier>
                 </msDesc>
             </sourceDesc>
         </fileDesc>
-        <xenoData type="uri">http://digital.staatsbibliothek-berlin.de/metsresolver/PPN746595107</xenoData>
+        <xenoData type="uri">http://kalliope-verbund.info/DE-611-HS-1911242</xenoData>
+        <xenoData type="url">http://content.staatsbibliothek-berlin.de/dc/PPN746595107.mets.xml</xenoData>
         <profileDesc>
             <correspDesc key="Bl.136-137" ref="https://sturm-edition.de/id/Q.01.19151218.JVH.01">
                 <correspAction type="sent">
@@ -75,12 +76,20 @@
                 <correspAction type="received">
                     <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth
                         Walden</persName>
-                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>
+                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950159">Potsdamerstrasse 134a, Berlin W.9.</placeName>
                 </correspAction>
             </correspDesc>
         </profileDesc>
         <revisionDesc>
             <listChange>
+                <change>
+                    <date when="2019-07-25" n="2"/>
+                    <p>URL zur METS-Datei der Staatsbibliothek zu Berlin aktualisiert innerhalb von :xenoData und zusätzliches :xenoData mit permanenter URI zum Kalliope-Findbucheintrag.</p>
+                    <p>:idno URL innerhalb von :msIdentifier durch permanente URL zum entsprechenden Datensatz der Staatsbibliothek zu Berlin gesetzt</p>
+                    <p>Standardisierung der Kommentierungstiefe, keine spezifischen Erklärungen von Fremdwörtern außerhalb des Sturm-Kontextes</p>
+                    <p>Normdaten (Geonames) zu Stadt Berlin korrigiert (zuvor fälschlicherweise Verweis auf "Land Berlin")</p>
+                    <p>GND-Normdatensatz zur Zeitung "Het Vaderland" hinzugefügt</p>
+                </change>
                 <change>
                     <date when="2018-07-16" n="1"/>
                 </change>
@@ -121,10 +130,7 @@
                         <date when="1915-12-09">9. Dez:</date>
                     </ref> erhalten? <date when="1915-12-16">Donnerstag 16. Dez:</date> sind die 20
                     Bilder mit <foreign>grande Vitesse</foreign>
-                    <note>„Grande vitesse“ (frz.) heißt
-                        im Deutschen „Hochgeschwindigkeit“. Es ist davon auszugehen, dass Jacoba van
-                        Heemskerck hiermit den postalischen Versand per Eilpost meinte.</note>
-                    abgeschickt, hoffentlich wird es jetzt nicht so lange dauern. Wir wollen <date when="1916-01-27">Donnerstag 27. Januar</date> abends in <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Berlin</placeName>
+                    abgeschickt, hoffentlich wird es jetzt nicht so lange dauern. Wir wollen <date when="1916-01-27">Donnerstag 27. Januar</date> abends in <placeName key="O.0000002" ref="http://sws.geonames.org/2950159">Berlin</placeName>
                     eintreffen und dann bleiben bis <date when="1916-02-06">Sonntag 6.
                         Februar</date> ich muss dann unbedingt zurück gehen da meine <persName key="P.0000005" ref="P.0000005">Schwester</persName>
                     <date when="1916-02-07">Montag</date> ihre Geburtstag hat. Wir haben dann schöne
@@ -141,10 +147,10 @@
                     dann direct nach Weinachten damit anfangen bisweilen dauert es 3. bis 4. Wochen
                     bis alles fertig ist und dann noch ist es noch gestern passiert dass man im
                     letzten Moment doch wieder in <placeName key="O.0000009" ref="http://sws.geonames.org/2759794">Amsterdam</placeName> kein Erlaubnis
-                    bekommt ein Bekannte ist drei Mahl hingefahren. Aber wir müssen nach <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Berlin</placeName>, so
+                    bekommt ein Bekannte ist drei Mahl hingefahren. Aber wir müssen nach <placeName key="O.0000002" ref="http://sws.geonames.org/2950159">Berlin</placeName>, so
                     schreiben Sie Ihre Meinung<pb xml:id="S.137v" n="137v" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D98D00000004"/>
                     Prachtvoll dass Sie ein Kollektion von mir in <placeName key="O.0000047" ref="http://sws.geonames.org/2912621">Hagen</placeName> ausstelle, ich bin
-                    sehr froh darüber.<note>Im April 1916 fand in Hagen eine Sturm-Ausstellung mit
+                    sehr froh darüber.<note>Im April 1916 fand in Hagen eine STURM-Ausstellung mit
                         Werken Jacoba van Heemskercks statt. Vgl. Enders, Rainer: Ausstellungen
                         außerhalb der Berliner Galerie. URL: <ref target="https://www.arthistoricum.net/themen/portale/sturm/ausstellungen/">https://www.arthistoricum.net/themen/portale/sturm/ausstellungen/</ref>
                         (Aufruf 06.04.2017).</note> Viel Dank für die Karte mit das Bild von
@@ -154,7 +160,7 @@
                     schicke Ihnen dann die Probe dann können Sie urtheilen, müssen Sie dann die
                     Platte haben oder können Sie ein <foreign>cliché</foreign> vom Photographie
                     haben? Werde ich dann die Photo unterzeichnen dann hat man auch mein Autograph
-                    dazu. Heute schicke ich Ihnen: ein no. von <term type="newspaper" key="W.0000057">Nieuwe Courant</term>, <term type="newspaper" key="W.0000076" ref="http://www.wikidata.org/entity/Q1616113">Vaderland</term>, <term type="newspaper" key="W.0000077" ref="http://www.wikidata.org/entity/Q1989439">N. Rotterdammer</term>, <term type="newspaper" key="W.0000081" ref="http://www.wikidata.org/entity/Q837919">Handelsblad</term>
+                    dazu. Heute schicke ich Ihnen: ein no. von <term type="newspaper" key="W.0000057">Nieuwe Courant</term>, <term type="newspaper" key="W.0000076" ref="http://d-nb.info/gnd/4543675-7">Vaderland</term>, <term type="newspaper" key="W.0000077" ref="http://www.wikidata.org/entity/Q1989439">N. Rotterdammer</term>, <term type="newspaper" key="W.0000081" ref="http://www.wikidata.org/entity/Q837919">Handelsblad</term>
                     <term type="newspaper" key="W.0000056">Avondpost</term>, <term type="newspaper" key="W.0000078" ref="http://www.wikidata.org/entity/Q2190868">Haagsche
                         Courant</term>, <term type="newspaper" key="W.0000061">Hofstad</term>, <term type="newspaper" key="W.0000062">Residentie Bode</term>, <term type="newspaper" key="W.0000075" ref="http://www.wikidata.org/entity/Q13649926">Haagsche Post</term>, <term type="newspaper" key="W.0000079" ref="http://www.wikidata.org/entity/Q2366892">Dagblad van Zuid-Holland en ’s
                         Gravenhage</term>. Wenn Sie mehr haben wollen bitte schreibe mir.</p>

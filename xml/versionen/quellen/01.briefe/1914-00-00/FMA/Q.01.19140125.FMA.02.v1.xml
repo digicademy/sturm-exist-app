@@ -1,0 +1,140 @@
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Q.01.19140125.FMA.02">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Franz Marc an Herwarth Walden, 25. Januar 1914, Sindelsdorf</title>
+                <editor>
+                    <persName ref="https://orcid.org/0000-0003-2423-7144">
+                        <forename>Marjam</forename>
+                        <surname>Trautmann</surname>
+                    </persName>
+                </editor>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0002-0953-2818">
+                        <forename>Torsten</forename>
+                        <surname>Schrade</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeber</note>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0003-2423-7144">
+                        <forename>Marjam</forename>
+                        <surname>Trautmann</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeberin</note>
+                    </resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="http://www.adwmainz.de">Akademie der Wissenschaften und der Literatur | Mainz</ref>
+                </publisher>
+                <pubPlace ref="http://sws.geonames.org/2874225">Mainz</pubPlace>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        This file is licensed under the terms of the Creative-Commons-License CC BY 4.0
+                    </licence>
+                </availability>
+                <idno type="file">Q.01.19140125.FMA.02.v1.xml</idno>
+                <idno type="uri">https://sturm-edition.de/id/Q.01.19140125.FMA.02</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Q.01.19140125.FMA.02, Franz Marc an Herwarth Walden, 25. Januar 1914, Sindelsdorf, 
+                    bearbeitet von Marjam Trautmann, in: Der STURM. Digitale Quellenedition zur Geschichte der internationalen 
+                    Avantgarde, erarbeitet und herausgegeben von Marjam Trautmann und Torsten Schrade. 
+                    Mainz, Akademie der Wissenschaften und der Literatur.
+                    </bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <country>DE</country>
+                        <settlement>Berlin</settlement>
+                        <repository>Staatsbibliothek zu Berlin Preußischer Kulturbesitz, Handschriftenabteilung, Sturm-Archiv I, Marc, Franz</repository>
+                        <idno type="uri">http://kalliope-verbund.info/DE-611-HS-1916921</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <xenoData type="uri">http://digital.staatsbibliothek-berlin.de/metsresolver/PPN746598572</xenoData>
+        <profileDesc>
+            <correspDesc key="Bl.183" ref="https://sturm-edition.de/id/Q.01.19140125.FMA.02">
+                <correspAction type="sent">
+                    <persName key="P.0000003" ref="http://d-nb.info/gnd/11857745X">Franz Marc</persName>
+                    <placeName key="O.0000048" ref="http://sws.geonames.org/2831942">Sindelsdorf</placeName>
+                    <date notBefore="1914-01-25"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth Walden</persName>
+                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>                  
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change>
+                    <date when="2018-07-16" n="1"/>
+                </change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic n="183r" url="http://content.staatsbibliothek-berlin.de/dms/PPN746598572/800/0/00000001.jpg"/>
+        <graphic n="183v" url="http://content.staatsbibliothek-berlin.de/dms/PPN746598572/800/0/00000002.jpg"/>
+        <graphic n="Farbkeil" url="http://content.staatsbibliothek-berlin.de/dms/PPN746598572/800/0/00000003.jpg"/>
+    </facsimile>
+    <text type="letter">
+        <body>
+            <div>
+                <pb xml:id="S.183r" n="183r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000DAA800000001"/>
+                <opener>
+                    <salute>L. <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Walden</persName>, </salute>
+                </opener>
+                <p>anbei eine famose Karte von <persName key="P.0000069" ref="P.0000069">Bock</persName> u. Sohn, <hi rend="underline">29 Mk</hi>! eine einzige,
+                    verhältnismäßig kleine Kiste. Muß <persName key="P.0000069" ref="P.0000069">Bock</persName> die Fracht nicht zahlen? Ich schreibe ihm gleichzeitig, daß
+                    Sie als geschäftl. Vertreter die Angelegenheit zu regeln hätten. Momentan kann
+                    ich keinesfalls zahlen: ich bin völlig trocken, nachdem dieser <persName key="P.0000070" ref="http://d-nb.info/gnd/116120894">Benkardt</persName>
+                    seine Götterhand ungnädig zurückgezogen. Aber ich will mutig bleiben u. <hi rend="underline">nicht</hi> unter 800 gehen. Es fällt mir ja gar nicht ein,
+                    im Atelier billiger zu verkaufen. <persName key="P.0000070" ref="http://d-nb.info/gnd/116120894">Benkardt</persName> hat vor 2 Monaten
+                    hier ein <hi rend="underline">kleines</hi> Bild (größer wie die „<term type="artwork" key="W.0000043">Schweine</term>“ od. „die <term type="artwork" key="W.0000025">Barbaren</term>“) für bar 300 Mk (die <term type="artwork" key="W.0000031">Eber</term>) gekauft, – es ist im Verhältnis
+                    zum <term type="artwork" key="W.0000030">Aktbild</term> vielmehr <hi rend="underline">teue</hi>r. Richtig ist allerdings, daß er vergangenen
+                    Sommer (cc. <date when="1913-06">Juni</date>, <date when="1913-07">Juli</date>)
+                    die „<term type="artwork" key="W.0000035">kämpfenden Kühe</term>“ u. den „<term type="artwork" key="W.0000032">Eselfries</term>“ für 300 von mir „hätte
+                    kaufen können“ u. „<term type="artwork" key="W.0000030">die Akte</term>“ glaube
+                    ich für 400,–<pb xml:id="S.183v" n="183v" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000DAA800000002"/> er
+                    hat es aber versäumt; sie waren ihm von mir auf seine Bitte zur Ansicht
+                    zugesandt worden; ich brauchte furchtbar Geld. Inzwischen ist <date when="1913-01">Januar 1913 </date>das <term type="artwork" key="W.0000032">Eselfries</term> für <hi rend="underline">700</hi> (bei <persName key="P.0000071" ref="http://d-nb.info/gnd/117299421">Thannhauser</persName>)
+                    an eine Frau <persName key="P.0000072" ref="http://d-nb.info/gnd/118888692">Beckerath</persName><!--<note>Für Frau Luise von Beckerath gibt es keinen
+                        Eintrag in der Gemeinsamen Normdatei (GND) der Deutschen Nationalbibliothek.
+                        Jedoch gibt es einen solchen für ihren Mann Willy von Beckerath, auf die im
+                        Register verwiesen wird.</note>-->, <unclear>
+                        <placeName key="O.0000066" ref="http://sws.geonames.org/2833866">Seefeld</placeName>
+                    </unclear>)
+                    verkauft worden; die <term type="artwork" key="W.0000035">kämpfenden Kühe</term>
+                    gehören zu <persName key="P.0000070" ref="http://d-nb.info/gnd/116120894">Benkardt</persName>’s großem Schmerze 
+                    <persName key="P.0000073" ref="http://d-nb.info/gnd/121452735">
+                        <hi rend="underline">Köhl</hi>er</persName>, die <term type="artwork" key="W.0000030">Akte</term> sind eben wie <hi rend="twice-underline">alle
+                        mei</hi>
+                    <hi rend="underline">ne Bild</hi>er teurer geworden; wenn er noch
+                    wartet, werden sie hoffentlich bald noch teurer. Ich wirtschafte mit meinem
+                    Bilderkapital einfach ab, wenn ich so billig verschleudre wie früher; ich hab
+                    ihm das schon hier in <placeName key="O.0000048" ref="http://sws.geonames.org/2831942">Sindelsdorf</placeName> letzthin
+                    gesagt, – Sie können ihm die oben aufgestellten Thatsachen ruhig wiederholen u.
+                    ihm sagen, daß ich mich ehrlich dagegen verwahre, aus der Hand billiger zu
+                    verkaufen. Bei <persName key="P.0000068" ref="http://d-nb.info/gnd/5120121-5">Goldschmidt</persName>-Frankfurt hat er, also beim „Händler“ ein großes
+                    Bild für 200 Mk „<term type="artwork" key="W.0000034">Holzträger</term>“ <date notAfter="1912-06">Frühjahr 1912</date> gekauft! Denk meiner damaligen
+                    Notlage!</p>
+                <closer>
+                    <salute>Hrzl. Gruß</salute>
+                    <signed>
+                        <persName key="P.0000003" ref="http://d-nb.info/gnd/11857745X">F.
+                            M.</persName>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

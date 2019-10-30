@@ -1,0 +1,128 @@
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Q.01.19140124.FMA.01">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Franz Marc an Herwarth Walden, 24. Januar 1914, München</title>
+                <editor>
+                    <persName ref="https://orcid.org/0000-0003-2423-7144">
+                        <forename>Marjam</forename>
+                        <surname>Trautmann</surname>
+                    </persName>
+                </editor>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0002-0953-2818">
+                        <forename>Torsten</forename>
+                        <surname>Schrade</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeber</note>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0003-2423-7144">
+                        <forename>Marjam</forename>
+                        <surname>Trautmann</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeberin</note>
+                    </resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="http://www.adwmainz.de">Akademie der Wissenschaften und der Literatur | Mainz</ref>
+                </publisher>
+                <pubPlace ref="http://sws.geonames.org/2874225">Mainz</pubPlace>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        This file is licensed under the terms of the Creative-Commons-License CC BY 4.0
+                    </licence>
+                </availability>
+                <idno type="file">Q.01.19140124.FMA.01.v1.xml</idno>
+                <idno type="uri">https://sturm-edition.de/id/Q.01.19140124.FMA.01</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Q.01.19140124.FMA.01, Franz Marc an Herwarth Walden, 24. Januar 1914, München, 
+                    bearbeitet von Marjam Trautmann, in: Der STURM. Digitale Quellenedition zur Geschichte der internationalen 
+                    Avantgarde, erarbeitet und herausgegeben von Marjam Trautmann und Torsten Schrade. 
+                    Mainz, Akademie der Wissenschaften und der Literatur.
+                    </bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <country>DE</country>
+                        <settlement>Berlin</settlement>
+                        <repository>Staatsbibliothek zu Berlin Preußischer Kulturbesitz, Handschriftenabteilung, Sturm-Archiv I, Marc, Franz</repository>
+                        <idno type="uri">http://kalliope-verbund.info/DE-611-HS-1916914</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <xenoData type="uri">http://digital.staatsbibliothek-berlin.de/metsresolver/PPN746598556</xenoData>
+        <profileDesc>
+            <correspDesc key="Bl.181" ref="https://sturm-edition.de/id/Q.01.19140124.FMA.01">
+                <correspAction type="sent">
+                    <persName key="P.0000003" ref="http://d-nb.info/gnd/11857745X">Franz Marc</persName>
+                    <placeName key="O.0000052" ref="http://sws.geonames.org/2867714">München</placeName>
+                    <date when="1914-01-24"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth Walden</persName>
+                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>                  
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change>
+                    <date when="2018-07-16" n="1"/>
+                </change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic n="181v" url="http://content.staatsbibliothek-berlin.de/dms/PPN746598556/800/0/00000001.jpg"/>
+        <graphic n="181r" url="http://content.staatsbibliothek-berlin.de/dms/PPN746598556/800/0/00000002.jpg"/>
+        <graphic n="Farbkeil" url="http://content.staatsbibliothek-berlin.de/dms/PPN746598556/800/0/00000003.jpg"/>
+    </facsimile>
+    <text type="postcard">
+        <body>
+            <div type="address">
+                <pb xml:id="S.181v.01" n="181v" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000DAA600000001"/>
+                <ab type="recipient">
+                    <address>
+                        <addrLine>Herr</addrLine>
+                        <addrLine>H<hi rend="underline">erw. Wald</hi>en.</addrLine>
+                        <addrLine>Verlg. Sturm</addrLine>
+                        <addrLine>Berlin W. 9.</addrLine>
+                        <addrLine>Potsdamerstr. 134/a</addrLine>
+                    </address>
+                </ab>
+            </div>
+            <div type="content">
+                <pb xml:id="S.181r" n="181r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000DAA600000002"/>
+                <opener>
+                    <salute>L. <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">W.</persName>
+                    </salute>
+                </opener>
+                <p>Wie mir <persName key="P.0000009" ref="http://d-nb.info/gnd/118559737">Kandinsky</persName> sagt, soll die von
+                    <persName key="P.0000059" ref="http://d-nb.info/gnd/2097840-6">Arnold</persName> geplante
+                    Ausstelg – in <placeName key="O.0000053" ref="http://sws.geonames.org/3081368">B<hi rend="underline">resl</hi>au</placeName>
+                    <note>Ausstellung unter dem Titel „Die Futuristen“
+                            im Jahr 1914, unbekannter Monat. Vgl. Enders, Rainer: Ausstellungen außerhalb der Berliner Galerie. URL: <ref target="https://www.arthistoricum.net/themen/portale/sturm/ausstellungen/">https://www.arthistoricum.net/themen/portale/sturm/ausstellungen/</ref> (Aufruf 06.04.2017).</note> ga<hi rend="underline">nz unabhä</hi>ngig von <persName key="P.0000057" ref="http://d-nb.info/gnd/143669230">Reiche</persName> sein; – in diesem Falle kann
+                ich ja mitthun. <persName key="P.0000057" ref="http://d-nb.info/gnd/143669230">Reiche</persName> hat
+                ja bereits gehörigen Bescheid vor mir. Ich schreibe also <persName key="P.0000059" ref="http://d-nb.info/gnd/2097840-6">Arnold</persName>, daß wenn es lediglich
+                von ihm ausgeht, ich einverstanden bin, wenn die drei von ihm erbetenen Bilder n<hi rend="underline">ebeneinander p</hi>lacirt werden; von dort frei Rücksendung nach<pb xml:id="S.181v.02" n="181v" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000DAA600000001"/> <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Berlin</placeName>. Entschuldigen Sie daß ich so meine <foreign>ordre</foreign> ändere, aber ich
+                hoffe immer auf einen mögl. Verkauf. Mein Ärger richtet sich ja auch nur gegen <persName key="P.0000057" ref="http://d-nb.info/gnd/143669230">Reiche</persName> mit seinen
+                großen Reden an mich u. schwachen Thaten. Wenn also nur ein Teil der dresdner Bilder
+                bei Ihnen eintrifft, der andre später, ist es in Ordnung, in Eile
+                </p>
+                <closer>
+                    <signed>Ihr <persName key="P.0000003" ref="http://d-nb.info/gnd/11857745X">F.M.</persName>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

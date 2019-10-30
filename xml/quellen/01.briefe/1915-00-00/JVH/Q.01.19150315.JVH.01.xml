@@ -1,0 +1,116 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Q.01.19150315.JVH.02">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Jacoba van Heemskerck an Nell Walden, 15. März 1915, Den Haag</title>
+            <editor>
+               <persName ref="http://d-nb.info/gnd/1013156242">
+                  <forename>Lea</forename>
+                  <surname>Müller-Dannhausen</surname>
+               </persName>
+            </editor>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-0953-2818">
+                  <forename>Torsten</forename>
+                  <surname>Schrade</surname>
+               </persName>
+               <resp>
+                  <note>Herausgeber</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0003-2423-7144">
+                  <forename>Marjam</forename>
+                  <surname>Trautmann</surname>
+               </persName>
+               <resp>
+                  <note>Herausgeberin</note>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.adwmainz.de">Akademie der Wissenschaften und der Literatur | Mainz</ref>
+            </publisher>
+            <pubPlace ref="http://sws.geonames.org/2874225">Mainz</pubPlace>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">This file is
+                  licensed under the terms of the Creative-Commons-License CC BY 4.0
+               </licence>
+            </availability>
+            <idno type="file">Q.01.19150315.JVH.02.xml</idno>
+            <idno type="uri">https://sturm-edition.de/id/Q.01.19150315.JVH.02</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>Q.01.19150315.JVH.02, Jacoba van Heemskerck an Nell Walden, 15. März
+               1915, Den Haag, bearbeitet von Lea Müller-Dannhausen, in: Der STURM. Digitale
+               Quellenedition zur Geschichte der internationalen Avantgarde, erarbeitet und
+               herausgegeben von Marjam Trautmann und Torsten Schrade. Mainz, Akademie der
+               Wissenschaften und der Literatur.</bibl>
+            <msDesc>
+               <msIdentifier>
+                  <country>DE</country>
+                  <settlement>Berlin</settlement>
+                  <repository>Staatsbibliothek zu Berlin Preußischer Kulturbesitz,
+                     Handschriftenabteilung, Sturm-Archiv I, Heemskerck, Jacoba
+                     van</repository>
+                  <idno type="uri">http://resolver.staatsbibliothek-berlin.de/SBB0000D96A00000000</idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <xenoData type="uri">http://kalliope-verbund.info/DE-611-HS-1910821</xenoData>
+      <xenoData type="url">https://content.staatsbibliothek-berlin.de/dc/PPN746594577.mets.xml</xenoData>
+      <profileDesc>
+         <correspDesc key="Bl.69-70" ref="https://sturm-edition.de/id/Q.01.19150315.JVH.02">
+            <correspAction type="sent">
+               <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jacoba van Heemskerck</persName>
+               <placeName key="O.0000001" ref="http://sws.geonames.org/2747373">35, Nassau Zuilensteinstraat, Den Haag</placeName>
+               <date when="1915-03-15"/>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="P.0000002" ref="http://d-nb.info/gnd/118891456">Nell Walden</persName>
+               <placeName key="O.0000002" ref="http://sws.geonames.org/2950159">Potsdamerstrasse 134a, Berlin W.9.</placeName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change>
+               <date when="2019-10-30" n="1"/>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic n="69r" url="http://content.staatsbibliothek-berlin.de/dms/PPN746594577/1200/0/00000001.jpg"/>
+      <graphic n="69v" url="http://content.staatsbibliothek-berlin.de/dms/PPN746594577/1200/0/00000002.jpg"/>
+      <graphic n="70r" url="http://content.staatsbibliothek-berlin.de/dms/PPN746594577/1200/0/00000003.jpg"/>
+      <graphic n="70v" url="http://content.staatsbibliothek-berlin.de/dms/PPN746594577/1200/0/00000004.jpg"/>
+      <graphic n="Farbkeil" url="http://content.staatsbibliothek-berlin.de/dms/PPN746594577/1200/0/00000005.jpg"/>
+   </facsimile>
+   <text type="letter">
+      <body>
+         <div type="content">
+            <pb xml:id="S.69r" n="69r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D96A00000001"/>
+            <opener>
+               <dateline>
+                  <date when="1915-03-15">8.-3-15. </date>
+               </dateline>
+               <salute>Liebe Frau <persName key="P.0000002" ref="http://d-nb.info/gnd/118891456">Walden</persName>
+               </salute>
+            </opener>
+            <p>Herzlich Dank für die 300 Mark eben empfangen dasz war ja schnell gezahlt. Ich bin sehr froh dasz die <term type="artwork" key="W.0000049">6. Zeichnungen</term> in Ihre Kollektion sind, und dasz Sie sich auch ein Bild aussuchen werde. Dasz war ja prachtvoll dasz ein von den Journalisten fand dass ich beeinflusst sein sollte von <persName key="P.0000011" ref="http://d-nb.info/gnd/119295954">Toorop</persName>
+                    <pb xml:id="S.69v" n="69v" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D96A00000002"/> hier in <placeName key="O.0000003" ref="http://sws.geonames.org/2750405">Holland</placeName> ist man immer von ein beeinflusst, nie originell dass ist einmal Sitte. Aber bitte fragen Sie Herr
+               <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Walden</persName> ob er dann auch wie bei <persName key="P.0000011" ref="http://d-nb.info/gnd/119295954">Toorop</persName> eine Komposition auf mein <term type="catalogue" key="W.0000165" ref="http://nbn-resolving.org/urn:nbn:de:bvb:255-dtl-0000002284">Katalog</term> macht und dann auch die Preise dazu Komponirt, wie in <placeName key="O.0000004" ref="http://sws.geonames.org/2756746">Domburg</placeName>. dasz war damals ein lustige Zeit und jetzt im idee schon so lange her. Ja, wie schön wenn Sie vielleicht in <date when="1915-04">April</date> hier kommen. Was denken Sie jetzt von <placeName key="O.0000025" ref="http://sws.geonames.org/3175395">Italien</placeName> und
+               <placeName key="O.0000028" ref="http://sws.geonames.org/390903">Griechenland</placeName> ich glaube es steht heute etwas besser und die werden neutral bleiben<note>Am 23. Mai 1915 erklärte Italien Österreich-Ungarn, am 21. August dem Osmanischen Reich den Krieg. Am 28. August 1916 folgte die Kriegserklärung an das Deutsche Kaiserreich. Am 29. Juni 1917 trat Griechenland mit einer Kriegserklärung gegen Deutschland in den Krieg ein. In Italien gingen dem Kriegseintritt intensive innenpolitische sowie gesellschaftliche Debatten und Veränderungen voraus. Vgl. Isenghi, Mario: Italien. In: Enzyklopädie Erster Weltkrieg. Hrsg. v. Gerhard Hirschfeld [u.a.]. Paderborn [u.a.] 2004, S. 97–104; Pohlmann, Markus: Kriegserklärungen. In: Enzyklopädie Erster Weltkrieg. Hrsg. v. Gerhard Hirschfeld [u.a.]. Paderborn [u.a.] 2004, S. 637–638; Lablance, Nicola: The Italian Front. In: The Cambridge History of The First World War. Bd. 1 Global War. Cambridge 2014, S. 266–296.</note>,
+               ich fürchte auch es wird lange dauern und wenn man alles eindenkt ist es doch nicht möglich. Ende dieser Woche<pb xml:id="S.70r" n="70r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D96A00000003"/> schicke ich die Auflag von je 10. stück von 4. Holzstöcke und dann wie immer von jeder ein nicht nummerierte für Ihnen. Ich bin so glücklich dasz Sie finden dass ich mich entwickelt habe. Sie haben ein ausserordentlich guten Blick und Ihr Urteil halte ich für sehr wichtig. Jetzt denke ich an Kompositionen für einige grosse Gemälde hoffentlich werde ich in <date when="1915-04">April</date> einige zeigen zu können. Ich habe jetzt wo ich fühle dasz man in <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Berlin</placeName> anfangt meine Bilder zu verstehen wieder eine grosse innerliche Kraft grosse Dinge zu komponieren.</p>
+            <closer>
+               <salute>Herzliche Grüssen</salute> <signed>Ihre <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jac<hi rend="twice-underline">oba vHeemskerck</hi>
+                        </persName>.</signed>
+                </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

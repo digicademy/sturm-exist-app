@@ -55,12 +55,13 @@
                         <settlement>Berlin</settlement>
                         <repository>Staatsbibliothek zu Berlin Preußischer Kulturbesitz,
                      Handschriftenabteilung, Sturm-Archiv I, Heemskerck, Jacoba van</repository>
-                        <idno type="uri">http://kalliope-verbund.info/DE-611-HS-1910879</idno>
+                        <idno type="uri">http://resolver.staatsbibliothek-berlin.de/SBB0000D97300000000</idno>
                     </msIdentifier>
                 </msDesc>
             </sourceDesc>
         </fileDesc>
-        <xenoData type="uri">http://digital.staatsbibliothek-berlin.de/metsresolver/PPN746594704</xenoData>
+        <xenoData type="uri">http://kalliope-verbund.info/DE-611-HS-1910879</xenoData>
+        <xenoData type="url">http://content.staatsbibliothek-berlin.de/dc/PPN746594704.mets.xml</xenoData>
         <profileDesc>
             <correspDesc key="Bl.86-89" ref="https://sturm-edition.de/id/Q.01.19150413.JVH.01">
                 <correspAction type="sent">
@@ -70,12 +71,19 @@
                 </correspAction>
                 <correspAction type="received">
                     <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth Walden</persName>
-                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>
+                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950159">Potsdamerstrasse 134a, Berlin W.9.</placeName>
                 </correspAction>
             </correspDesc>
         </profileDesc>
         <revisionDesc>
             <listChange>
+                <change>
+                    <date when="2019-07-25" n="2"/>
+                    <p>URL zur METS-Datei der Staatsbibliothek zu Berlin aktualisiert innerhalb von :xenoData und zusätzliches :xenoData mit permanenter URI zum Kalliope-Findbucheintrag.</p>
+                    <p>:idno URL innerhalb von :msIdentifier durch permanente URL zum entsprechenden Datensatz der Staatsbibliothek zu Berlin gesetzt</p>
+                    <p>Standardisierung der Kommentierungstiefe, keine spezifischen Erklärungen von Fremdwörtern außerhalb des Sturm-Kontextes</p>
+                    <p>Normdaten (Geonames) zu Stadt Berlin korrigiert (zuvor fälschlicherweise Verweis auf "Land Berlin")</p>
+                </change>
                 <change>
                     <date when="2018-07-16" n="1"/>
                 </change>
@@ -109,7 +117,7 @@
                dasz Sie ein Katalog von Ihre Sammlung haben. Es macht mir sehr viel Freude dasz Sie
                   <term type="artwork" key="W.0000013">Bild 8</term> gewählt haben erst dachte ich Sie
                wollte <term type="artwork" key="W.0000017">Bild 14</term> haben. Nächstes Jahr hoffe ich
-               jedenfalls doch in <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Berlin</placeName> kommen zu können und wenn ich dann
+               jedenfalls doch in <placeName key="O.0000002" ref="http://sws.geonames.org/2950159">Berlin</placeName> kommen zu können und wenn ich dann
                   verschiedene Bilder mit Schiffe ausstelle dann schenke ich dasz
                direct an Sie beiden unbedingt müssen Sie so eine auch haben Ich habe sehr viel im
                Kopf dasz langsam heraus kommen wird Morgen schicke ich ihre <persName key="P.0000002" ref="http://d-nb.info/gnd/118891456">Frau</persName> die Zeichnungen für die Mappe
@@ -119,7 +127,7 @@
                Sommer noch dann können Sie auch erst Ihre Geschäften in <placeName key="O.0000001" ref="http://sws.geonames.org/2747373">Haag</placeName>, <placeName key="O.0000009" ref="http://sws.geonames.org/2759794">Amsterdam</placeName> und so weiter machen
                und dann nach <placeName key="O.0000004" ref="http://sws.geonames.org/2756746">Domburg</placeName>
                kommen von <placeName key="O.0000004" ref="http://sws.geonames.org/2756746">Domburg</placeName>
-               können Sie dann direct nach <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Berlin</placeName> fahren. Wir werden aber sehen wie alles geht ich bin so pro
+               können Sie dann direct nach <placeName key="O.0000002" ref="http://sws.geonames.org/2950159">Berlin</placeName> fahren. Wir werden aber sehen wie alles geht ich bin so pro
                Deutsch, ich hoffe so dasz alles so glänzend bleibt wie jetzt. Schade von das
                holländische Schiff Katwijk, die Zeitungen hier sind heute Abend empört, aber dasz<pb xml:id="S.87v" n="87v" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D97300000004"/>
                wird alles wieder gut werden, ich bin sicher dasz man recht hätte, oder dasz es ein
@@ -138,7 +146,7 @@
                Schön dasz meine Bilder nach <placeName key="O.0000007" ref="http://sws.geonames.org/2911297">Hamburg</placeName> oder <placeName key="O.0000032" ref="http://sws.geonames.org/2935022">Dresden</placeName> gehen, wie gut machen Sie doch alles für uns. Und jetzt noch
                vergessen dasz ich so froh bin dasz Fräulein <persName key="P.0000008" ref="http://d-nb.info/gnd/136128289">Tak</persName> <term type="artwork" key="W.0000017">Zeichnung 14.</term> gekauft hat, ich hätte gar kein
                Idee darauf. Wirklich ich bin ausserordentlich zufrieden mit meine Aus<hi rend="underline">stellung</hi> in diese Zeiten so viel verkauft.<note>Im März 1915
-                  eröffnete in der Sturm-Galerie die 31. Sturm-Ausstellung mit Werken Jacoba van
+                  eröffnete in der STURM-Galerie die 31. STURM-Ausstellung mit Werken Jacoba van
                   Heemskercks. Vgl. Enders, Rainer: Ausstellungskataloge der STURM-Galerie. URL:
                   <ref target="https://www.arthistoricum.net/themen/portale/sturm/ausstellungskataloge/">https://www.arthistoricum.net/themen/portale/sturm/ausstellungskataloge/</ref> (Aufruf
                   06.04.2017).</note> Wenn Sie ein mal Zeit haben schreiben Sie bitte über die
@@ -146,7 +154,7 @@
                Gehen Sie mit der Sturm Ausstellungen auch einmal nach <placeName key="O.0000033" ref="http://sws.geonames.org/2661886">Schweden</placeName>? Sie haben dort allein
                graphische Ausstellungen gemacht nicht wahr? Heute ein so freundliche Karte von Dr
                   <persName key="P.0000021" ref="http://d-nb.info/gnd/119191164">Behne</persName> empfangen, ich
-               freue mich so dasz meine Arbeiten ihm gefallen, wenn ich wieder nach <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Berlin</placeName> komme will ich ihm einmal
+               freue mich so dasz meine Arbeiten ihm gefallen, wenn ich wieder nach <placeName key="O.0000002" ref="http://sws.geonames.org/2950159">Berlin</placeName> komme will ich ihm einmal
                ein Zeichnung oder ein kleines Bild schenken dasz suche ich dann mit Ihnen aus. Er
                schreibt dasz Sie, Ihre <persName key="P.0000002" ref="http://d-nb.info/gnd/118891456">Frau</persName> und er, mir eine Karte<pb xml:id="S.86r.02" n="86r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D97300000001"/>
                geschrieben haben, die habe ich aber nie empfangen. Gestern hatte im <term type="newspaper" key="W.0000077" ref="http://www.wikidata.org/entity/Q1989439">Nieuwe
@@ -157,9 +165,10 @@
                         </persName> 
                     </signed>
                 </closer>
-            </div>
+            </div> 
+            <pb xml:id="S.88r" n="88r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D97300000005"/>
             <div type="attachment">
-                <pb xml:id="S.88r" n="88r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D97300000005"/>
+               
                 <div>
                     <head>
                         <term type="artwork" key="W.0000013">Zeichnung. 8.</term>

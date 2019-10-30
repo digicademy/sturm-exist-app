@@ -1,0 +1,172 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Q.01.19210605.JVH.01">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Jacoba van Heemskerck an Herwarth Walden, 5. Juni 1921, Loverendale, Domburg,
+                    Zeeland</title>
+                <editor>
+                    <persName ref="https://orcid.org/0000-0003-1208-6131">
+                        <forename>Anne</forename>
+                        <surname>Lorenz</surname>
+                    </persName>
+                </editor>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0002-0953-2818">
+                        <forename>Torsten</forename>
+                        <surname>Schrade</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeber</note>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0003-2423-7144">
+                        <forename>Marjam</forename>
+                        <surname>Trautmann</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeberin</note>
+                    </resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="http://www.adwmainz.de">Akademie der Wissenschaften und der
+                        Literatur | Mainz</ref>
+                </publisher>
+                <pubPlace ref="http://sws.geonames.org/2874225">Mainz</pubPlace>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">This file is
+                        licensed under the terms of the Creative-Commons-License CC BY 4.0
+                    </licence>
+                </availability>
+                <idno type="file">Q.01.19210605.JVH.01.xml</idno>
+                <idno type="uri">https://sturm-edition.de/id/Q.01.19210605.JVH.01</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Q.01.19210605.JVH.01, Jacoba van Heemskerck an Herwarth Walden, 5. Juni 1921,
+                    Loverendale, Domburg, bearbeitet von Anne Lorenz, in: Der STURM. Digitale
+                    Quellenedition zur Geschichte der internationalen Avantgarde, erarbeitet und
+                    herausgegeben von Marjam Trautmann und Torsten Schrade. Mainz, Akademie der
+                    Wissenschaften und der Literatur.</bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <country>DE</country>
+                        <settlement>Berlin</settlement>
+                        <repository>Staatsbibliothek zu Berlin Preußischer Kulturbesitz,
+                            Handschriftenabteilung, Sturm-Archiv I, Heemskerck, Jacoba
+                            van</repository>
+                        <idno type="uri">http://resolver.staatsbibliothek-berlin.de/SBB0000DA4400000000</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <xenoData type="uri">http://kalliope-verbund.info/DE-611-HS-1913895</xenoData>
+        <xenoData type="url">https://content.staatsbibliothek-berlin.de/dc/PPN746597320.mets.xml</xenoData>
+        <profileDesc>
+            <correspDesc key="Bl.393" ref="https://sturm-edition.de/id/Q.01.19210605.JVH.01">
+                <correspAction type="sent">
+                    <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jacoba van
+                        Heemskerck</persName>
+                    <placeName key="O.0000004" ref="http://sws.geonames.org/2747373">Loverendale,
+                        Domburg</placeName>
+                    <date when="1921-06-05"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth
+                        Walden</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change>
+                    <date when="2019-08-26" n="1"/>
+                </change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic n="393r" url="http://content.staatsbibliothek-berlin.de/dms/PPN746597320/500/0/00000001.jpg"/>
+        <graphic n="393v" url="http://content.staatsbibliothek-berlin.de/dms/PPN746597320/500/0/00000002.jpg"/>
+        <graphic n="Farbkeil" url="http://content.staatsbibliothek-berlin.de/dms/PPN746597320/500/0/00000003.jpg"/>
+    </facsimile>
+    <text type="postcard">
+        <body>
+            <div type="address">
+                <pb xml:id="S.393r" n="393r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000DA4400000001"/>
+                <ab type="sender">
+                    <address>
+                        <addrLine>Loverendale</addrLine>
+                        <addrLine>Domburg Zeeland</addrLine>
+                        <addrLine>Holland</addrLine>
+                    </address>
+                </ab>
+                <ab type="recipient">
+                    <address>
+                        <addrLine>Herrn Direktor</addrLine>
+                        <addrLine>
+                            <hi rend="underline">Herwarth Walden</hi>
+                        </addrLine>
+                        <addrLine>Verlag der Sturm</addrLine>
+                        <addrLine>134<hi rend="super">
+                                <hi rend="twice-underline">a</hi>
+                            </hi> Potsdamerstrasse</addrLine>
+                        <addrLine>Be<hi rend="underline">rlin</hi> W.</addrLine>
+                        <addrLine>Deutschland.</addrLine>
+                    </address>
+                </ab>
+            </div>
+            <div type="content">
+                <pb xml:id="S.393v" n="393v" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000DA4400000002"/>
+                <opener>
+                    <salute>L <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">H.</persName>
+                    </salute>
+                </opener>
+                <p>Herr <persName key="P.0000103">H van Assendelft</persName>
+                    <note>Hendrikus van
+                        Assendelft war neben Marie Tak van Portvliet und Willem Beffie ein für die
+                        Werke der STURM-Künstler bedeutender holländischer Kunstsammler. Vgl.
+                        Huebner, Friedrich Markus: Holland. Moderne Kunst in den Holländischen
+                        Privatsammlungen, Leipzig 1922, S. 79.</note>
+                    <placeName key="O.0000084" ref="http://sws.geonames.org/2755420">Gouda</placeName> schreibt mir dass er die neue Jahrgang von <term type="journal" key="W.0000068" source="http://bluemountain.princeton.edu/bluemtn/cgi-bin/bluemtn?a=d&amp;d=bmtnabg19211005-01.1.12&amp;e=-------en-20--1--txt-txIN-------" ref="http://d-nb.info/gnd/4058273-5">der Sturm</term> nicht mehr empfangt ob
+                    ich darüber an dich schreiben will. Willst du bitte sagen dass man ihm
+                    regelmässig die Nummern schickt von <term type="journal" key="W.0000068" source="http://bluemountain.princeton.edu/bluemtn/cgi-bin/bluemtn?a=d&amp;d=bmtnabg19211005-01.1.12&amp;e=-------en-20--1--txt-txIN-------" ref="http://d-nb.info/gnd/4058273-5">N<hi rend="super">
+                            <hi rend="twice-underline">o</hi>
+                        </hi> 1.</term>
+                    <note>Walden, Herwarth
+                        [Hrsg.]: Der Sturm. Monatsschrift für Kultur und die Künste 1 (1921).</note>
+                    an. Wie geht es dir, hoffentlich recht gut, ich habe so viel zu arbeiten. Eine
+                    grosse Bestellung für Glasfenstern neuen grosse Fenstern. Mit die <date when="1921-11">
+                        <hi rend="underline">November</hi>
+                    </date> Ausstellung<note>Im
+                        November 1921 fand die 102. STURM-Ausstellung „Jacoba van Heemskerck.
+                        Gemälde/Aquarelle, Gesamtschau des Sturm“ statt, auf der van Heemskerck mit
+                        einundfünzig im Katalog aufgeführten Werken prominent vertreten war. Vgl. den <ref target="https://nbn-resolving.org/urn:nbn:de:bvb:255-dtl-0000001661">Katalog zur Ausstellung</ref>,
+                        Walden, Herwarth [Hrsg.]: Der Sturm. Hundertzweite Ausstellung. Jacoba van
+                        Heemskerck. Gemälde/Aquarelle, Gesamtschau des Sturm. Berlin 1921.</note>
+                    bin ich auch sehr beschäftigt, muss man eine Einfuhr Bewilligung haben? Bitte
+                    schreibe das einmal. Wir sind jetzt wieder für den ganzen Sommer in <placeName key="O.0000004" ref="http://sws.geonames.org/2756746">Domburg</placeName>.
+                    Wie war die Pariser Ausstellung?<note>Die STURM-Ausstellung in Paris wurde in
+                        der März-Ausgabe der STURM-Zeitschrift nicht eingehend beworben und ohne
+                        konkrete Ortsangabe und Begleitprogramm angekündigt. Vgl. Walden, Herwarth
+                        [Hrsg.]: Der Sturm. Monatsschrift für Kultur und die Künste 12
+                        (1921).</note> So bald ich Holzschnitten habe schicke ich dir einige
+                    Exemplaren. Ich freue mich sehr in <date when="1921-11">November</date> in
+                        <placeName key="O.0000002" ref="http://sws.geonames.org/2950159">Berlin</placeName> zu sein.</p>
+                <closer>
+                    <salute>Mit viel Grüssen für euch auch von <persName key="P.0000008" ref="http://d-nb.info/gnd/136128289">Marie</persName>
+                    </salute>
+                        <signed>Deine <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X"> Jacobav<hi rend="twice-underline">Heemskerck</hi>
+                        </persName>
+                    </signed>
+                </closer>
+                <dateline>
+                    <date when="1921-06-05">5.6.21</date>
+                </dateline>
+
+            </div>
+        </body>
+    </text>
+</TEI>

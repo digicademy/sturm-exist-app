@@ -1,0 +1,156 @@
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Q.01.19141203.JVH.01">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Jacoba van Heemskerck an Herwarth Walden, 3. Dezember 1914, 35, Nassau
+                    Zuilensteinstraat, Den Haag</title>
+                <editor>
+                    <persName ref="https://orcid.org/0000-0003-2423-7144">
+                        <forename>Marjam</forename>
+                        <surname>Trautmann</surname>
+                    </persName>
+                </editor>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0002-0953-2818">
+                        <forename>Torsten</forename>
+                        <surname>Schrade</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeber</note>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0003-2423-7144">
+                        <forename>Marjam</forename>
+                        <surname>Trautmann</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeberin</note>
+                    </resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="http://www.adwmainz.de">Akademie der Wissenschaften und der
+                        Literatur | Mainz</ref>
+                </publisher>
+                <pubPlace ref="http://sws.geonames.org/2874225">Mainz</pubPlace>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/"> This file is
+                        licensed under the terms of the Creative-Commons-License CC BY 4.0
+                    </licence>
+                </availability>
+                <idno type="file">Q.01.19141203.JVH.01.v1.xml</idno>
+                <idno type="uri">https://sturm-edition.de/id/Q.01.19141203.JVH.01</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Q.01.19141203.JVH.01, Jacoba van Heemskerck an Herwarth Walden, 3. Dezember
+                    1914, 35, Nassau Zuilensteinstraat, Den Haag, bearbeitet von Marjam Trautmann,
+                    in: Der STURM. Digitale Quellenedition zur Geschichte der internationalen
+                    Avantgarde, erarbeitet und herausgegeben von Marjam Trautmann 
+                    und Torsten Schrade. Mainz, Akademie der Wissenschaften und der Literatur.</bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <country>DE</country>
+                        <settlement>Berlin</settlement>
+                        <repository>Staatsbibliothek zu Berlin Preußischer Kulturbesitz,
+                            Handschriftenabteilung, Sturm-Archiv I, Heemskerck, Jacoba
+                            van</repository>
+                        <idno type="uri">http://kalliope-verbund.info/DE-611-HS-1910711</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <xenoData type="uri">http://digital.staatsbibliothek-berlin.de/metsresolver/PPN746594364</xenoData>
+        <profileDesc>
+            <correspDesc key="Bl.43-44" ref="https://sturm-edition.de/id/Q.01.19141203.JVH.01">
+                <correspAction type="sent">
+                    <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jacoba van
+                        Heemskerck</persName>
+                    <placeName key="O.0000001" ref="http://sws.geonames.org/2747373">35, Nassau
+                        Zuilensteinstraat, Den Haag</placeName>
+                    <date when="1914-12-03"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth
+                        Walden</persName>
+                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change>
+                    <date when="2018-07-16" n="1"/>
+                </change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic n="43r" url="http://content.staatsbibliothek-berlin.de/dms/PPN746594364/800/0/00000001.jpg"/>
+        <graphic n="43v" url="http://content.staatsbibliothek-berlin.de/dms/PPN746594364/800/0/00000002.jpg"/>
+        <graphic n="44r" url="http://content.staatsbibliothek-berlin.de/dms/PPN746594364/800/0/00000003.jpg"/>
+        <graphic n="44v" url="http://content.staatsbibliothek-berlin.de/dms/PPN746594364/800/0/00000004.jpg"/>
+        <graphic n="Farbkeil" url="http://content.staatsbibliothek-berlin.de/dms/PPN746594364/800/0/00000005.jpg"/>
+    </facsimile>
+    <text type="letter">
+        <body>
+            <div type="content">
+                <pb xml:id="S.43r" n="43r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D95D00000001"/>
+
+                <opener>
+                    <dateline>
+                        <date when="1914-12-03">
+                            <hi rend="underline">3. Dec 1914</hi>
+                        </date>
+                    </dateline>
+                    <salute>Werther Herr <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Walden</persName>
+                    </salute>
+                </opener>
+                <p>Das macht mir aber sehr viel Freude das ein <term type="artwork" key="W.0000026">Bild</term> von mir verkauft ist, dass hatte ich gar nicht gedacht in diese
+                    schwere Zeiten. Sehr viel Dank für Ihre Bemühungen Ich denke dass Sie jetzt mein
+                        <ref target="Q.01.19141129.JVH.01">Brief</ref> und die Zeichnungen empfangen
+                    haben. <date when="1914-12-03">Heute</date> schicke<pb xml:id="S.44r" n="44r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D95D00000003"/> ich
+                    Ihnen eine Zeitung, ich habe ein Nachricht angestrichen über die internierte
+                    Belgier die fortlaufen wollten, verschiedene sind durch unsere Soldaten getötet
+                    und verwundet worden.<note>Zahlreiche Belgier flohen seit der deutschen Invasion
+                        im August 1914 vor allem nach Großbritannien, Frankreich und in die
+                        Niederlande. Der Vormarsch der deutschen Truppen in Belgien war mit brutalen
+                        Übergriffen auf die Zivilbevölkerung verbunden, mit Geiselnahmen (auch
+                        Geiselerschießungen) und Deportationen belgischer Bürger zur Zwangsarbeit
+                        nach Deutschland. Die kämpferischen Auseinandersetzungen um Antwerpen im
+                        Oktober 1914 verursachten die Flucht von knapp 1. Mio. Belgiern in die
+                        niederländische Provinz Holland (zu der auch Domburg/Zeeland gehört).
+                        Insgesamt erreichte die Zahl der belgischen Flüchtlinge im Sommer und Herbst
+                        1914 etwa 1,5 Mio. Viele von ihnen kehrten zu Beginn des neuen Jahres wieder
+                        zurück, da die Deutschen Besatzer in Gent ein Dekret erließen, das die
+                        Konfiszierung des Eigentums der Geflüchteten erlaubte, wenn diese nicht bis
+                        zum 1. März 1915 zurückkehrten. Auch die niederländische Regierung setzte
+                        die Flüchtlinge unter Druck, in ihr Heimatland zurückzukehren, so dass deren
+                        Zahl dort im Sommer 1915 auf 85,000 gesunken war. Sie fürchteten, dass die
+                        Aufnahme von Flüchtlingen ihre Neutralität gefährde. Das erste
+                        Internierungslager für belgische Flüchtlinge in den Niederlanden wurde im
+                        November 1914 gegründet, wo diese unter unzureichender Beheizung und
+                        medizinischer Versorgung in gefängnisähnlichen Zuständen leben mussten. Vgl.
+                        Daniel, Ute: Frauen. In: Enzyklopädie Erster Weltkrieg. Hrsg. v. Gerhard
+                        Hirschfeld [u.a.]. Paderborn [u.a.] 2004, S. 116–134, hier S. 117 u. S. 126;
+                        Blom, J.C.H.: Niederlande. In: Enzyklopädie Erster Weltkrieg. Hrsg. v.
+                        Gerhard Hirschfeld [u.a.]. Paderborn [u.a.] 2004, S. 738–741, hier S. 740;
+                        Amara, Michaël: Refugees (Belgium). In: 1914-1918-online. International
+                        Encyclopedia of the First World War. Hrsg. v. Ute Daniel [u.a.]. Berlin
+                        2014; Gartell, Peter; Nivet, Philippe: Refugees and Exiles. In: The
+                        Cambridge History of the First World War. Bd. 3, Civil Society. Hrsg. v. Jay
+                        Winter. Cambridge 2014, S.186–251, hier S. 189f. u. 194f.</note>
+                </p>
+                <closer>
+                    <salute>In grösser Eile mit herzlichste Grüssen</salute>
+                    <signed>Ihre <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jacoba <hi rend="twice-underline">vanHeemskerck</hi>
+                        </persName>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,168 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Q.01.19191107.JVH.01">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Jacoba van Heemskerck an Herwarth Walden, 7. November 1919, Den Haag</title>
+                <editor>
+                    <persName ref="https://orcid.org/0000-0003-1208-6131">
+                        <forename>Anne</forename>
+                        <surname>Lorenz</surname>
+                    </persName>
+                </editor>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0002-0953-2818">
+                        <forename>Torsten</forename>
+                        <surname>Schrade</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeber</note>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0003-2423-7144">
+                        <forename>Marjam</forename>
+                        <surname>Trautmann</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeberin</note>
+                    </resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="http://www.adwmainz.de">Akademie der Wissenschaften und der
+                        Literatur | Mainz</ref>
+                </publisher>
+                <pubPlace ref="http://sws.geonames.org/2874225">Mainz</pubPlace>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">This file is
+                        licensed under the terms of the Creative-Commons-License CC BY 4.0
+                    </licence>
+                </availability>
+                <idno type="file">Q.01.19191107.JVH.01.xml</idno>
+                <idno type="uri">https://sturm-edition.de/id/Q.01.19191107.JVH.01</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Q.01.19191107.JVH.01, Jacoba van Heemskerck an Herwarth Walden, 7. November
+                    1919, Den Haag, bearbeitet von Anne Lorenz, in: Der STURM. Digitale
+                    Quellenedition zur Geschichte der internationalen Avantgarde, erarbeitet und
+                    herausgegeben von Marjam Trautmann und Torsten Schrade. Mainz, Akademie der
+                    Wissenschaften und der Literatur.</bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <country>DE</country>
+                        <settlement>Berlin</settlement>
+                        <repository>Staatsbibliothek zu Berlin Preußischer Kulturbesitz,
+                            Handschriftenabteilung, Sturm-Archiv I, Heemskerck, Jacoba
+                            van</repository>
+                        <idno type="uri">http://resolver.staatsbibliothek-berlin.de/SBB0000DA2E00000000</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <xenoData type="uri">http://kalliope-verbund.info/DE-611-HS-1913523</xenoData>
+        <xenoData type="url">https://content.staatsbibliothek-berlin.de/dc/PPN74659707X.mets.xml</xenoData>
+
+        <profileDesc>
+            <correspDesc key="Bl.371" ref="https://sturm-edition.de/id/Q.01.19191107.JVH.01">
+                <correspAction type="sent">
+                    <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jacoba van
+                        Heemskerck</persName>
+                    <placeName key="O.0000001" ref="http://sws.geonames.org/2747373">Den
+                        Haag</placeName>
+                    <date when="1919-11-07"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth
+                        Walden</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change>
+                    <date when="2019-08-26" n="1"/>
+                </change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic n="371r" url="http://content.staatsbibliothek-berlin.de/dms/PPN74659707X/500/0/00000001.jpg"/>
+        <graphic n="371v" url="http://content.staatsbibliothek-berlin.de/dms/PPN74659707X/500/0/00000002.jpg"/>
+        <graphic n="Farbkeil" url="http://content.staatsbibliothek-berlin.de/dms/PPN74659707X/500/0/00000003.jpg"/>
+    </facsimile>
+    <text type="letter">
+        <body>
+
+
+            <div type="content">
+                <pb xml:id="S.371r" n="371r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000DA2E00000001"/>
+
+                <opener>
+                    <dateline>
+                        <placeName key="O.0000001" ref="http://sws.geonames.org/2747373">
+                            <hi rend="twice-underline">Haag</hi>
+                        </placeName>. <date when="1919-11-07">7.11.19.</date>
+                    </dateline>
+                    <salute>Lieber <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth</persName>.</salute>
+                </opener>
+
+                <p>Wir sind gut angekommen und sehr zufrieden über unseren Aufenthalt in <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Berlin</placeName> es
+                    war so schön euch beiden wieder zusehen. Hoffentlich wird es jetzt nicht mehr so
+                    lange dauern bis wir zurückkommen, mit den Verkehrsschwierigkeiten sind wir froh
+                    jetzt zu hause zu sein. Du kannst auch nicht nach <placeName key="O.0000068" ref="http://sws.geonames.org/2825297">Stuttgart</placeName> für dein
+                        Vortrag.<note>In Folge des Krieges kam es 1919 zu Transportengpässen im
+                        Eisenbahnverkehr, sodass als Maßnahme der Personenverkehr mit Zustimmung
+                        des Preussischen Eisenbahnministeriums erheblich eingeschränkt wurde. Vgl.
+                        „4. Zur Beseitigung der Transportnot“, Kabinettssitzung vom 24. Oktober
+                        1919, Nr. 86. In: „Akten der Reichskanzlei. Weimarer Republik” online, Das
+                        Kabinett Bauer, Bd. 1. Hg. für die Historische Kommission bei der
+                        Bayerischen Akademie der Wissenschaften v. Karl Dietrich Erdmann u. für das
+                        Bundesarchiv v. Wolfgang Mommsen u. Hans Booms. URL: <ref target="http://www.bundesarchiv.de/aktenreichskanzlei/1919-1933/01a/bau/bau1p/kap1_2/kap2_87/para3_3.html">http://www.bundesarchiv.de/aktenreichskanzlei/1919-1933/01a/bau/bau1p/kap1_2/kap2_87/para3_3.html</ref> (Aufruf 31.08.2019).</note>
+                    Vom <persName key="P.0000175" ref="http://d-nb.info/gnd/128547111">Reichskommissär</persName>
+                    <note>In ihrem nachfolgenden <ref target="Q.01.19191116.JVH.01">Brief</ref> vom 16. November 1919
+                        informiert van Heemskerck Walden, dass ihr das Reichskommissariat für Aus-
+                        und Einfuhrbewilligung, das Ernst Trendelenburg leitete, die Einfuhr ihrer Werke für die Dauer von zwei
+                        Monaten bewilligt hat.</note> noch nichts erhalten. Ich bin so froh das der
+                    Sturm sich in diese Jahren so glänzend gehalten hat. Jetzt durchsetzen und die
+                    Gegner zeichen dass der Sturm immer an der Spitze bleiben wird, so schön dass
+                    ich jetzt alles selbst gesehen habe und davon fest überzeugt bin. Über die
+                    Ausstellung bei <persName key="P.0000104">d’Audretsch</persName> habe ich schon
+                    aus <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Berlin</placeName> Herrn <persName key="P.0000115" ref="http://d-nb.info/gnd/118520873">Citroen</persName> geschrieben und kein
+                    Antwort bekommen. Bitte schreibst du ihm das er zu mir kommen soll und über die
+                    Zeichnungen alles verabreden. Vielleicht habe ich seine Adresse nicht richtig
+                    geschrieben. Ich habe einige fertig und es ist schön die jetzt hier ausstellen
+                    zu können.<note>Im Dezember 1919 fand im Kunstsalon „D’Audretsch“ in Den Haag eine
+                        STURM-Gesamtschau statt. Vgl. Enders, Rainer: <ref target="https://www.arthistoricum.net/themen/portale/sturm/ausstellungen">Herwarth Walden und DER STURM. Ausstellungen außerhalb der Berliner
+                            Galerie</ref> (Aufruf 08.02.2019).</note> Wegen das einrahmen ist es
+                    jetzt die höchste Zeit. Dann habe ich vergessen dir für die neue Gemälde um
+                    Sturm Zettel<note>Der Begriff „Sturmzettel“ ist in der Literatur nicht belegt.
+                        Van Heemskerck spricht in ihrem <ref target="Q.01.19141016.JVH.01">Brief</ref> an Walden vom 16. Oktober 1914 davon, dass sie ihm mit
+                        Zetteln nummerierte Bilder schicken wolle: „die Bilder werde ich dann auch
+                        mit die Zettel vom Sturm nummerieren [...].“ In den folgenden Briefen ist
+                        dann von „Sturmzetteln“ die Rede. Es ist anzunehmen, dass „Sturmzettel“
+                        Vorlagen des STURM-​Unternehmens zur Benennung und Nummerierung von
+                        Kunstwerken waren.</note> zu bitten, So bitte schicke sie. <term type="article" key="W.0000117">Besprechung</term>
+                    <note>Cohn-Wiener, Ernst:
+                        Ausstellungsbesprechung zum Sturm. In: Der Cicerone 1919, XI, S. 707, <ref target="https://doi.org/10.11588/diglit.21394.231">https://doi.org/10.11588/diglit.21394.231</ref>.</note>
+                    <persName key="P.0000116" ref="http://d-nb.info/gnd/123242231">Cohn
+                        Wiener</persName>
+                    <date when="1919-11-06">gestern</date> empfangen. Sage <persName key="P.0000002" ref="http://d-nb.info/gnd/118891456">Nell</persName> dass das Brot, die
+                    Butter und Marmelade sehr schön war. An der Grenze waren furchtbar viel
+                    Leute.</p>
+
+
+                <closer>
+                    <salute>Herzlichste Grüssen für euch beiden und <persName key="P.0000108" ref="http://d-nb.info/gnd/11620589X">Dr Blümner</persName> auch von
+                            <persName key="P.0000008" ref="http://d-nb.info/gnd/136128289">Marie</persName>
+                    </salute>
+                    <signed>deine <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">
+                                JacobavanHeemsk<hi rend="twice-underline">erck</hi>
+                        </persName>.</signed>
+                </closer>
+
+            </div>
+        </body>
+    </text>
+</TEI>

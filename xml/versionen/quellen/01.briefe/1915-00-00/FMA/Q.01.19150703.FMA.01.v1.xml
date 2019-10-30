@@ -1,0 +1,135 @@
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Q.01.19150703.FMA.01">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Franz Marc an Herwarth Walden, 3. Juli 1915, unbekannter Ort</title>
+                <editor>
+                    <persName ref="https://orcid.org/0000-0003-2423-7144">
+                        <forename>Marjam</forename>
+                        <surname>Trautmann</surname>
+                    </persName>
+                </editor>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0002-0953-2818">
+                        <forename>Torsten</forename>
+                        <surname>Schrade</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeber</note>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0003-2423-7144">
+                        <forename>Marjam</forename>
+                        <surname>Trautmann</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeberin</note>
+                    </resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="http://www.adwmainz.de">Akademie der Wissenschaften und der Literatur | Mainz</ref>
+                </publisher>
+                <pubPlace ref="http://sws.geonames.org/2874225">Mainz</pubPlace>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        This file is licensed under the terms of the Creative-Commons-License CC BY 4.0
+                    </licence>
+                </availability>
+                <idno type="file">Q.01.19150703.FMA.01.v1.xml</idno>
+                <idno type="uri">https://sturm-edition.de/id/Q.01.19150703.FMA.01</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Q.01.19150703.FMA.01, Franz Marc an Herwarth Walden, 3. Juli 1915, unbekannter Ort, 
+                    bearbeitet von Marjam Trautmann, in: Der STURM. Digitale Quellenedition zur Geschichte der internationalen 
+                    Avantgarde, erarbeitet und herausgegeben von Marjam Trautmann und Torsten Schrade. 
+                    Mainz, Akademie der Wissenschaften und der Literatur.
+                    </bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <country>DE</country>
+                        <settlement>Berlin</settlement>
+                        <repository>Staatsbibliothek zu Berlin Preußischer Kulturbesitz, Handschriftenabteilung, Sturm-Archiv I, Marc, Franz</repository>
+                        <idno type="uri">http://kalliope-verbund.info/DE-611-HS-1914583</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <xenoData type="uri">http://digital.staatsbibliothek-berlin.de/metsresolver/PPN746598467</xenoData>
+        <profileDesc>
+            <correspDesc key="Bl.207" ref="https://sturm-edition.de/id/Q.01.19150703.FMA.01">
+                <correspAction type="sent">
+                    <persName key="P.0000003" ref="http://d-nb.info/gnd/11857745X">Franz Marc</persName>
+                    <placeName>Unknown</placeName>
+                    <date when="1915-07-03"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth Walden</persName>
+                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>                  
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change>
+                    <date when="2018-07-16" n="1"/>
+                </change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic n="207v" url="http://content.staatsbibliothek-berlin.de/dms/PPN746598467/800/0/00000001.jpg"/>
+        <graphic n="207r" url="http://content.staatsbibliothek-berlin.de/dms/PPN746598467/800/0/00000002.jpg"/>
+        <graphic n="Farbkeil" url="http://content.staatsbibliothek-berlin.de/dms/PPN746598467/800/0/00000003.jpg"/>
+    </facsimile>
+    <text type="militaryMail">
+        <body>
+            <div type="address">
+                <pb xml:id="S.207v" n="207v" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000DA9E00000001"/>
+                <ab type="sender">
+                   <address>
+                        <addrLine>Vizew. Marc</addrLine>
+                        <addrLine>III. bayr. Armeekorps</addrLine>
+                        <addrLine>bayr. Ersatz Division</addrLine>
+                        <addrLine>1. Feld Art. Ersatz Abteilung Schilling</addrLine>
+                        <addrLine>L. M. Kolonne</addrLine>
+                    </address> 
+                </ab>
+                <ab type="recipient">
+                 <address>
+                     <addrLine>Herrn</addrLine>
+                        <addrLine>Herw. Walden</addrLine>
+                        <addrLine>Verlag „Sturm“</addrLine>
+                        <addrLine>Berlin W. 9.</addrLine>
+                        <addrLine>134/a Potsdamerstr. 134/a</addrLine>
+                 </address>   
+                </ab>
+            </div>
+            <div type="content">
+            <pb xml:id="S.207r" n="207r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000DA9E00000002"/>           
+                <opener>
+                    <dateline>
+                        <date when="1915-07-03">3. VII 1915</date>,</dateline>
+                    <salute>Lieber <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Walden</persName>,
+                    </salute>
+                </opener>
+                <p>ich habe Urlaub vom
+                    <date notBefore="1915-07-08" notAfter="1915-07-17">8–17. Juli</date>. Richten
+                Sie also bitte ev. Korrespondenz für diese Tage schon nach <placeName key="O.0000055" ref="http://sws.geonames.org/2847349">Ried</placeName>. – Ich bin sehr traurig,
+                    daß die Platte des <persName key="P.0000092" ref="http://d-nb.info/gnd/118524461">Delacroix</persName>-<term type="artwork" key="W.0000012">Druckes</term> nun auch in der Presse gerissen ist,
+                wie so manche andere. Ich darf solche großen Stücke nicht mehr durch die Presse
+                gehen lassen. Ich werde die 10 Drucke jetzt in <placeName key="O.0000055" ref="http://sws.geonames.org/2847349">Ried</placeName> signiren. – Die Tage
+                werden schnell vorbei sein!!</p>
+                <closer>
+                    <salute>Ihnen beiden herzl. Gruß!</salute> <signed>
+                        <persName key="P.0000003" ref="http://d-nb.info/gnd/11857745X">Fz. Marc</persName>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

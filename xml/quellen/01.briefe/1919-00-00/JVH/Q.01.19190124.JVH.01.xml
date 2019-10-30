@@ -1,0 +1,160 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Q.01.19190124.JVH.01">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Jacoba van Heemskerck an Herwarth Walden, 24. Januar 1919, Den Haag</title>
+                <editor>
+                    <persName ref="https://orcid.org/0000-0003-1208-6131">
+                        <forename>Anne</forename>
+                        <surname>Lorenz</surname>
+                    </persName>
+                </editor>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0002-0953-2818">
+                        <forename>Torsten</forename>
+                        <surname>Schrade</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeber</note>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0003-2423-7144">
+                        <forename>Marjam</forename>
+                        <surname>Trautmann</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeberin</note>
+                    </resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="http://www.adwmainz.de">Akademie der Wissenschaften und der
+                        Literatur | Mainz</ref>
+                </publisher>
+                <pubPlace ref="http://sws.org/2874225">Mainz</pubPlace>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">This file is
+                        licensed under the terms of the Creative-Commons-License CC BY 4.0
+                    </licence>
+                </availability>
+                <idno type="file">Q.01.19190124.JVH.01.xml</idno>
+                <idno type="uri">https://sturm-edition.de/id/Q.01.19190124.JVH.01</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Q.01.19190124.JVH.01, Jacoba van Heemskerck an Herwarth Walden, 24. Januar
+                    1919, Den Haag, bearbeitet von Anne Lorenz, in: Der STURM. Digitale
+                    Quellenedition zur Geschichte der internationalen Avantgarde, erarbeitet und
+                    herausgegeben von Marjam Trautmann und Torsten Schrade. Mainz, Akademie der
+                    Wissenschaften und der Literatur.</bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <country>DE</country>
+                        <settlement>Berlin</settlement>
+                        <repository>Staatsbibliothek zu Berlin Preußischer Kulturbesitz,
+                            Handschriftenabteilung, Sturm-Archiv I, Heemskerck, Jacoba
+                            van</repository>
+                        <idno type="uri">http://resolver.staatsbibliothek-berlin.de/SBB0000DA1D00000000</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <xenoData type="uri">http://kalliope-verbund.info/DE-611-HS-1913109</xenoData>
+        <xenoData type="url">https://content.staatsbibliothek-berlin.de/dc/PPN746596863.mets.xml</xenoData>
+        <profileDesc>
+            <correspDesc key="Bl.352" ref="https://sturm-edition.de/id/Q.01.19190124.JVH.01">
+                <correspAction type="sent">
+                    <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jacoba van
+                        Heemskerck</persName>
+                    <placeName key="O.0000001" ref="http://sws.geonames.org/2747373">Den
+                        Haag</placeName>
+                    <date when="1919-01-24"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth
+                        Walden</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change>
+                    <date when="2019-08-26" n="1"/>
+                </change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic n="352r" url="http://content.staatsbibliothek-berlin.de/dms/PPN746596863/500/0/00000001.jpg"/>
+        <graphic n="352v" url="http://content.staatsbibliothek-berlin.de/dms/PPN746596863/500/0/00000002.jpg"/>
+        <graphic n="Farbkeil" url="http://content.staatsbibliothek-berlin.de/dms/PPN746596863/500/0/00000003.jpg"/>
+    </facsimile>
+    <text type="letter">
+        <body>
+
+
+
+            <div type="content">
+                <pb xml:id="S.352r" n="352r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000DA1D00000001"/>
+                <opener>
+                    <dateline>
+                        <placeName key="O.0000001" ref="http://sws.geonames.org/2747373">Den <hi rend="twice-underline">Haag</hi>
+                        </placeName>. <date when="1919-01-24">24-1-19</date>.</dateline>
+                    <salute>Lieber <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth</persName>
+                    </salute>
+                </opener>
+
+                <p>Viel Dank für deinen Brief vom <date when="1919-01-10">10. Januar</date> <date when="1919-01-23">gestern</date> erhalten und deine vorige Briefe kamen
+                    auch gut an.</p>
+
+                <p>Es ist schrecklich so wenig als ich bekomme für die verbrennte 14. Bilder, aber
+                    du hast recht es angenommen zu haben, in diese Zeiten ist es viel besser die
+                    Sachen so möglich schnell zu
+                    erledigen. Wann denkst du das ich wieder regelmässig mein Geld bekommen kann? Bis dann bitte die
+                    Zinsen dazu kommen lassen. Vorläufig warte ich noch mit die Holzschnitten zu
+                    schicken es ist noch so unruhig.</p>
+
+
+                <p>Wenn du in <placeName key="O.0000003" ref="http://sws.geonames.org/2750405">Holland</placeName> kommst dann bitte anfang <date when="1919-04">april</date> ende <date when="1919-04">april</date> bin ich nicht im
+                        <placeName key="O.0000001" ref="http://sws.geonames.org/2747373">Haag</placeName>. Soschön dir und <persName key="P.0000002" ref="http://d-nb.info/gnd/118891456">Nell</persName> hier zu sehen aber
+                    geschäftlich wird es sich gar nicht lohnen hier ist momentan nichts los und ich
+                    glaube es wäre viel besser bis <date when="1919-11">november</date> zu warten.
+                    Ich sage dies dir ganz offen weil das Reisen so beschwerlich und teuer ist.</p>
+
+                <p>Was sagst du von diese traurige Zeiten, wird es sehr schlecht mit der Kunst
+                    gehen? Wenn werden wir nach <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Berlin</placeName> kommen das wird
+                    sicher noch wohl über ein Jahr dauern.</p>
+
+                <p>Schade das es dies Jahr keine ausstellung von mir geben wird.</p>
+
+
+                <closer>
+                    <salute>Mit herzlichste Grüssen</salute>
+                    <signed>deine <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">
+                                JacobavanHee<hi rend="twice-underline">mskerck</hi>.</persName>
+                    </signed>
+                </closer>
+
+                <postscript>
+                    <p>Ich sah im <term type="catalogue" key="W.0000103" source="http://nbn-resolving.org/urn:nbn:de:bvb:255-dtl-0000003076">Kopenhagen Katalog</term> meine
+                            Zeichnungen<note type="index">
+                            <term type="artwork" key="W.0000147">Zeichnung 28</term>, <term type="artwork" key="W.0000148">Zeichnung
+                                24</term>, <term type="artwork" key="W.0000149">Zeichnung
+                            22</term>
+                        </note>
+                        <note>Die Ausstellung „Der Sturm – International Kunst
+                                Ekspressionister og Kubister“, die im Dezember 1918 in der Galerie „Georg Kleis
+                                Kunsthandel“ in Kopenhagen stattfand, zeigte neben Werken anderer
+                            STURM-Künstler wie Kandinsky, Campendonk und Marc Chagall drei
+                            Zeichnungen und neun Gemälde van Heemskercks. Vgl. den <ref target="https://nbn-resolving.org/urn:nbn:de:bvb:255-dtl-0000003076">Katalog zur
+                                Ausstellung</ref>, Walden, Herwarth: Der Sturm – International Kunst
+                            Ekspressionister og Kubister. Kopenhagen 1918.</note> für
+                        150. Mark bitte verkaufe meine Zeichnungen <hi rend="underline">nicht</hi>
+                        <hi rend="underline">unter</hi> <hi rend="underline">250. mark</hi>.</p>
+                </postscript>
+            </div>
+        </body>
+    </text>
+</TEI>

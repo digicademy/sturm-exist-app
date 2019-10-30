@@ -12,7 +12,7 @@
                     <ref target="http://www.adwmainz.de/">Akademie der Wissenschaften und der Literatur | Mainz</ref>
                 </publisher>
                 <idno type="file">werke.xml</idno>
-                <date when="2018-07-16+02:00"/>
+                <date when="2019-10-30+01:00"/>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by/4.0/">This file is licensed under the terms of the Creative-Commons-License CC BY 4.0</licence>
                 </availability>
@@ -27,11 +27,35 @@
             <div>
                 <list n="works">
                     <head>A</head>
+                    <item n="artwork" xml:id="W.0000141">
+                        <name type="pref">Abbildungen von Holzschnitten</name>
+                        <name>Abbildungen von meinen Holzschnitten</name>
+                        <listRelation>
+                            <relation type="http://erlangen-crm.org/current/" name="P14_carried_out_by" active="#P.0000004" passive="#W.0000141"/>
+                        </listRelation>
+                        <linkGrp type="files">
+                            <ptr n="Bl.405" target="Q.01.19220402.JVH.01.xml"/>
+                        </linkGrp>
+                    </item>
                     <item n="artwork" xml:id="W.0000030">
                         <name type="pref">Aktbild</name>
                         <name>die Akte</name>
+                        <listRelation>
+                            <relation type="http://erlangen-crm.org/current/" name="P14_carried_out_by" active="#P.0000003" passive="#W.0000030"/>
+                        </listRelation>
                         <linkGrp type="files">
                             <ptr n="Bl.183" target="Q.01.19140125.FMA.02.xml"/>
+                        </linkGrp>
+                    </item>
+                    <item source="http://d-nb.info/578763435" n="book" xml:id="W.0000151">
+                        <ref target="https://digi.ub.uni-heidelberg.de/diglit/archipenko1917"/>
+                        <name type="pref">Archipenko, Alexander: Sturm Bilderbücher II. Alexander
+                            Archipenko. Berlin, Der Sturm, 1917.</name>
+                        <listRelation>
+                            <relation type="http://erlangen-crm.org/current/" name="P14_carried_out_by" active="#P.0000117" passive="#W.0000151"/>
+                        </listRelation>
+                        <linkGrp type="files">
+                            <ptr n="Bl.375" target="Q.01.19191212.JVH.01.xml"/>
                         </linkGrp>
                     </item>
                     <item n="newspaper" xml:id="W.0000056">
@@ -45,26 +69,53 @@
                     <head>B</head>
                     <item n="artwork" xml:id="W.0000025">
                         <name type="pref">Barbaren</name>
+                        <listRelation>
+                            <relation type="http://erlangen-crm.org/current/" name="P14_carried_out_by" active="#P.0000003" passive="#W.0000025"/>
+                        </listRelation>
                         <linkGrp type="files">
                             <ptr n="Bl.183" target="Q.01.19140125.FMA.02.xml"/>
                         </linkGrp>
                     </item>
+                    <item n="article" xml:id="W.0000163">
+                        <name type="pref">Behne, Adolf: Ausstellungen.
+                            In: Freiheit, Nr. 534/B 239, 29. Oktober 1919, S. 3.</name>
+                        <listRelation>
+                            <relation type="http://erlangen-crm.org/current/" name="P14_carried_out_by" active="#P.0000021" passive="#W.0000163"/>
+                        </listRelation>
+                        <linkGrp type="files">
+                            <ptr n="Bl.372" target="Q.01.19191116.JVH.01.xml"/>
+                        </linkGrp>
+                    </item>
                     <item n="article" xml:id="W.0000052">
                         <ref target="https://doi.org/10.11588/diglit.37113#0070"/>
-                        <name type="pref">Behne, Adolf: Biologie und Kubismus. In: Der Sturm. Halbmonatsschrift für Kultur und die Künste 11/12 (1915), S. 68-71.</name>
+                        <name type="pref">Behne, Adolf: Biologie und Kubismus. In: Der Sturm.
+                            Halbmonatsschrift für Kultur und die Künste 11/12 (1915), S.
+                            68-71.</name>
+                        <listRelation>
+                            <relation type="http://erlangen-crm.org/current/" name="P14_carried_out_by" active="#P.0000021" passive="#W.0000052"/>
+                        </listRelation>
                         <linkGrp type="files">
                             <ptr n="Bl.110-111" target="Q.01.19150929.JVH.01.xml"/>
                         </linkGrp>
                     </item>
                     <item n="article" xml:id="W.0000051">
-                        <name type="pref">Behne, Adolf: Der Krieg und die künstlerische Produktion. In: Umschau 19 (1915), S. 268-273.</name>
+                        <name type="pref">Behne, Adolf: Der Krieg und die künstlerische Produktion.
+                            In: Umschau 19 (1915), S. 268-273.</name>
+                        <listRelation>
+                            <relation type="http://erlangen-crm.org/current/" name="P14_carried_out_by" active="#P.0000021" passive="#W.0000051"/>
+                        </listRelation>
                         <linkGrp type="files">
                             <ptr n="Bl.84-85" target="Q.01.19150409.JVH.01.xml"/>
                         </linkGrp>
                     </item>
                     <item n="article" xml:id="W.0000050">
                         <ref target="https://doi.org/10.11588/diglit.33880#0117"/>
-                        <name type="pref">Behne, Adolf: Deutsche Expressionisten. Vortrag zur Eröffnung der neuen Sturm-Ausstellung. In: Der Sturm. Halbmonatsschrift für Kultur und die Künste 17/18 (1914), S. 114-115.</name>
+                        <name type="pref">Behne, Adolf: Deutsche Expressionisten. Vortrag zur
+                            Eröffnung der neuen Sturm-Ausstellung. In: Der Sturm. Halbmonatsschrift
+                            für Kultur und die Künste 17/18 (1914), S. 114-115.</name>
+                        <listRelation>
+                            <relation type="http://erlangen-crm.org/current/" name="P14_carried_out_by" active="#P.0000021" passive="#W.0000050"/>
+                        </listRelation>
                         <linkGrp type="files">
                             <ptr n="Bl.47-48" target="Q.01.19141219.JVH.01.xml"/>
                         </linkGrp>
@@ -74,11 +125,20 @@
                         <name type="pref">Behne, Adolf: Zur Neuen Kunst. Berlin 1915.</name>
                         <name>Buch</name>
                         <name>Sturm-Buch</name>
+                        <listRelation>
+                            <relation type="http://erlangen-crm.org/current/" name="P14_carried_out_by" active="#P.0000021" passive="#W.0000066"/>
+                        </listRelation>
                         <linkGrp type="files">
-                            <ptr n="Bl.53-55" target="Q.01.19150131.JVH.01.xml"/>
-                            <ptr n="Bl.51-52" target="Q.01.19150129.JVH.01.xml"/>
                             <ptr n="Bl.49-50" target="Q.01.19150123.JVH.01.xml"/>
+                            <ptr n="Bl.51-52" target="Q.01.19150129.JVH.01.xml"/>
+                            <ptr n="Bl.53-55" target="Q.01.19150131.JVH.01.xml"/>
                             <ptr n="Bl.47-48" target="Q.01.19141219.JVH.01.xml"/>
+                        </linkGrp>
+                    </item>
+                    <item source="http://d-nb.info/gnd/4006406-2" n="book" xml:id="W.0000167">
+                        <name type="pref">Bibel</name>
+                        <linkGrp type="files">
+                            <ptr n="Bl.130-131" target="Q.01.19151209.JVH.02.xml"/>
                         </linkGrp>
                     </item>
                     <item n="book" xml:id="W.0000088">
@@ -87,28 +147,60 @@
                             <ptr n="Bl.204" target="Q.01.19140421.FMA.01.xml"/>
                         </linkGrp>
                     </item>
+                    <item n="artwork" xml:id="W.0000027">
+                        <name type="pref">Bild</name>
+                        <listRelation>
+                            <relation type="http://erlangen-crm.org/current/" name="P14_carried_out_by" active="#P.0000004" passive="#W.0000027"/>
+                        </listRelation>
+                        <linkGrp type="files">
+                            <ptr n="Bl.73-74" target="Q.01.19150313.JVH.01.xml"/>
+                        </linkGrp>
+                    </item>
                     <item n="artwork" xml:id="W.0000026">
                         <name type="pref">Bild</name>
+                        <listRelation>
+                            <relation type="http://erlangen-crm.org/current/" name="P14_carried_out_by" active="#P.0000004" passive="#W.0000026"/>
+                        </listRelation>
                         <linkGrp type="files">
                             <ptr n="Bl.43-44" target="Q.01.19141203.JVH.01.xml"/>
                         </linkGrp>
                     </item>
-                    <item n="artwork" xml:id="W.0000027">
-                        <name type="pref">Bild</name>
+                    <item n="artwork" xml:id="W.0000107">
+                        <name type="pref">Bild 1</name>
+                        <listRelation>
+                            <relation type="http://erlangen-crm.org/current/" name="P14_carried_out_by" active="#P.0000004" passive="#W.0000107"/>
+                        </listRelation>
                         <linkGrp type="files">
-                            <ptr n="Bl.73-74" target="Q.01.19150313.JVH.01.xml"/>
+                            <ptr n="Bl.356" target="Q.01.19190509.JVH.01.xml"/>
                         </linkGrp>
                     </item>
                     <item n="artwork" xml:id="W.0000021">
                         <name>100</name>
                         <name type="pref">Bild 100</name>
+                        <listRelation>
+                            <relation type="http://erlangen-crm.org/current/" name="P14_carried_out_by" active="#P.0000003" passive="#W.0000021"/>
+                        </listRelation>
                         <linkGrp type="files">
                             <ptr n="Bl.179-180" target="Q.01.19140121.FMA.01.xml"/>
+                        </linkGrp>
+                    </item>
+                    <item n="artwork" xml:id="W.0000139">
+                        <name>101.</name>
+                        <name type="pref">Bild 101</name>
+                        <listRelation>
+                            <relation type="http://erlangen-crm.org/current/" name="P14_carried_out_by" active="#P.0000004" passive="#W.0000139"/>
+                        </listRelation>
+                        <linkGrp type="files">
+                            <ptr n="Bl.380" target="Q.01.19200414.JVH.01.xml"/>
+                            <ptr n="Bl.377" target="Q.01.19200114.JVH.01.xml"/>
                         </linkGrp>
                     </item>
                     <item n="artwork" xml:id="W.0000022">
                         <name>101</name>
                         <name type="pref">Bild 101</name>
+                        <listRelation>
+                            <relation type="http://erlangen-crm.org/current/" name="P14_carried_out_by" active="#P.0000003" passive="#W.0000022"/>
+                        </listRelation>
                         <linkGrp type="files">
                             <ptr n="Bl.179-180" target="Q.01.19140121.FMA.01.xml"/>
                         </linkGrp>
@@ -116,13 +208,37 @@
                     <item n="artwork" xml:id="W.0000023">
                         <name>102</name>
                         <name type="pref">Bild 102</name>
+                        <listRelation>
+                            <relation type="http://erlangen-crm.org/current/" name="P14_carried_out_by" active="#P.0000003" passive="#W.0000023"/>
+                        </listRelation>
                         <linkGrp type="files">
                             <ptr n="Bl.179-180" target="Q.01.19140121.FMA.01.xml"/>
+                        </linkGrp>
+                    </item>
+                    <item n="artwork" xml:id="W.0000159">
+                        <name type="pref">Bild 106</name>
+                        <listRelation>
+                            <relation type="http://erlangen-crm.org/current/" name="P14_carried_out_by" active="#P.0000004" passive="#W.0000159"/>
+                        </listRelation>
+                        <linkGrp type="files">
+                            <ptr n="Bl.394" target="Q.01.19210804.JVH.01.xml"/>
+                        </linkGrp>
+                    </item>
+                    <item n="artwork" xml:id="W.0000158">
+                        <name type="pref">Bild 109</name>
+                        <listRelation>
+                            <relation type="http://erlangen-crm.org/current/" name="P14_carried_out_by" active="#P.0000004" passive="#W.0000158"/>
+                        </listRelation>
+                        <linkGrp type="files">
+                            <ptr n="Bl.394" target="Q.01.19210804.JVH.01.xml"/>
                         </linkGrp>
                     </item>
                     <item n="artwork" xml:id="W.0000015">
                         <name>11</name>
                         <name type="pref">Bild 11</name>
+                        <listRelation>
+                            <relation type="http://erlangen-crm.org/current/" name="P14_carried_out_by" active="#P.0000004" passive="#W.0000015"/>
+                        </listRelation>
                         <linkGrp type="files">
                             <ptr n="Bl.86-89" target="Q.01.19150413.JVH.01.xml"/>
                         </linkGrp>
@@ -130,6 +246,9 @@
                     <item n="artwork" xml:id="W.0000016">
                         <name>12</name>
                         <name type="pref">Bild 12</name>
+                        <listRelation>
+                            <relation type="http://erlangen-crm.org/current/" name="P14_carried_out_by" active="#P.0000004" passive="#W.0000016"/>
+                        </listRelation>
                         <linkGrp type="files">
                             <ptr n="Bl.86-89" target="Q.01.19150413.JVH.01.xml"/>
                         </linkGrp>
@@ -139,6 +258,9 @@
                         <name>Zeichnung 14.</name>
                         <name>14</name>
                         <name>Zeichnung no 14.</name>
+                        <listRelation>
+                            <relation type="http://erlangen-crm.org/current/" name="P14_carried_out_by" active="#P.0000004" passive="#W.0000017"/>
+                        </listRelation>
                         <linkGrp type="files">
                             <ptr n="Bl.94-96" target="Q.01.19150530.JVH.01.xml"/>
                             <ptr n="Bl.86-89" target="Q.01.19150413.JVH.01.xml"/>
@@ -147,16 +269,23 @@
                     <item n="artwork" xml:id="W.0000028">
                         <name type="pref">Bild 15</name>
                         <name>Gemälde no 15.</name>
+                        <listRelation>
+                            <relation type="http://erlangen-crm.org/current/" name="P14_carried_out_by" active="#P.0000004" passive="#W.0000028"/>
+                        </listRelation>
                         <linkGrp type="files">
+                            <ptr n="Bl.394" target="Q.01.19210804.JVH.01.xml"/>
                             <ptr n="Bl.60-62" target="Q.01.19150228.JVH.01.xml"/>
                             <ptr n="Bl.56-57" target="Q.01.19150209.JVH.01.xml"/>
-                            <ptr n="Bl.73-74" target="Q.01.19150313.JVH.01.xml"/>
                             <ptr n="Bl.94-96" target="Q.01.19150530.JVH.01.xml"/>
+                            <ptr n="Bl.73-74" target="Q.01.19150313.JVH.01.xml"/>
                         </linkGrp>
                     </item>
                     <item n="artwork" xml:id="W.0000018">
                         <name>17</name>
                         <name type="pref">Bild 17</name>
+                        <listRelation>
+                            <relation type="http://erlangen-crm.org/current/" name="P14_carried_out_by" active="#P.0000004" passive="#W.0000018"/>
+                        </listRelation>
                         <linkGrp type="files">
                             <ptr n="Bl.86-89" target="Q.01.19150413.JVH.01.xml"/>
                         </linkGrp>
@@ -164,34 +293,259 @@
                     <item n="artwork" xml:id="W.0000019">
                         <name>19</name>
                         <name type="pref">Bild 19</name>
+                        <listRelation>
+                            <relation type="http://erlangen-crm.org/current/" name="P14_carried_out_by" active="#P.0000004" passive="#W.0000019"/>
+                        </listRelation>
                         <linkGrp type="files">
                             <ptr n="Bl.86-89" target="Q.01.19150413.JVH.01.xml"/>
+                        </linkGrp>
+                    </item>
+                    <item n="artwork" xml:id="W.0000109">
+                        <name type="pref">Bild 24</name>
+                        <listRelation>
+                            <relation type="http://erlangen-crm.org/current/" name="P14_carried_out_by" active="#P.0000004" passive="#W.0000109"/>
+                        </listRelation>
+                        <linkGrp type="files">
+                            <ptr n="Bl.358" target="Q.01.19190628.JVH.01.xml"/>
+                        </linkGrp>
+                    </item>
+                    <item n="artwork" xml:id="W.0000160">
+                        <name type="pref">Bild 32</name>
+                        <listRelation>
+                            <relation type="http://erlangen-crm.org/current/" name="P14_carried_out_by" active="#P.0000004" passive="#W.0000160"/>
+                        </listRelation>
+                        <linkGrp type="files">
+                            <ptr n="Bl.394" target="Q.01.19210804.JVH.01.xml"/>
+                        </linkGrp>
+                    </item>
+                    <item n="artwork" xml:id="W.0000121">
+                        <name>No. 65.</name>
+                        <name type="pref">Bild 65</name>
+                        <listRelation>
+                            <relation type="http://erlangen-crm.org/current/" name="P14_carried_out_by" active="#P.0000004" passive="#W.0000121"/>
+                        </listRelation>
+                        <linkGrp type="files">
+                            <ptr n="Bl.391" target="Q.01.19210204.JVH.01.xml"/>
+                            <ptr n="Bl.377" target="Q.01.19200114.JVH.01.xml"/>
+                        </linkGrp>
+                    </item>
+                    <item n="artwork" xml:id="W.0000162">
+                        <name>67.</name>
+                        <name type="pref">Bild 67</name>
+                        <listRelation>
+                            <relation type="http://erlangen-crm.org/current/" name="P14_carried_out_by" active="#P.0000004" passive="#W.W.0000162"/>
+                        </listRelation>
+                        <linkGrp type="files">
+                            <ptr n="Bl.377" target="Q.01.19200114.JVH.01.xml"/>
+                        </linkGrp>
+                    </item>
+                    <item n="artwork" xml:id="W.0000122">
+                        <name>68.</name>
+                        <name type="pref">Bild 68</name>
+                        <listRelation>
+                            <relation type="http://erlangen-crm.org/current/" name="P14_carried_out_by" active="#P.0000004" passive="#W.0000122"/>
+                        </listRelation>
+                        <linkGrp type="files">
+                            <ptr n="Bl.377" target="Q.01.19200114.JVH.01.xml"/>
+                            <ptr n="Bl.383" target="Q.01.19200528.JVH.01.xml"/>
+                        </linkGrp>
+                    </item>
+                    <item n="artwork" xml:id="W.0000123">
+                        <name>69.</name>
+                        <name type="pref">Bild 69</name>
+                        <listRelation>
+                            <relation type="http://erlangen-crm.org/current/" name="P14_carried_out_by" active="#P.0000004" passive="#W.0000123"/>
+                        </listRelation>
+                        <linkGrp type="files">
+                            <ptr n="Bl.377" target="Q.01.19200114.JVH.01.xml"/>
+                        </linkGrp>
+                    </item>
+                    <item n="artwork" xml:id="W.0000124">
+                        <name>71.</name>
+                        <name type="pref">Bild 71</name>
+                        <listRelation>
+                            <relation type="http://erlangen-crm.org/current/" name="P14_carried_out_by" active="#P.0000004" passive="#W.0000124"/>
+                        </listRelation>
+                        <linkGrp type="files">
+                            <ptr n="Bl.377" target="Q.01.19200114.JVH.01.xml"/>
+                        </linkGrp>
+                    </item>
+                    <item n="artwork" xml:id="W.0000125">
+                        <name>73.</name>
+                        <name type="pref">Bild 73</name>
+                        <listRelation>
+                            <relation type="http://erlangen-crm.org/current/" name="P14_carried_out_by" active="#P.0000004" passive="#W.0000125"/>
+                        </listRelation>
+                        <linkGrp type="files">
+                            <ptr n="Bl.377" target="Q.01.19200114.JVH.01.xml"/>
+                        </linkGrp>
+                    </item>
+                    <item n="artwork" xml:id="W.0000126">
+                        <name>74.</name>
+                        <name type="pref">Bild 74</name>
+                        <listRelation>
+                            <relation type="http://erlangen-crm.org/current/" name="P14_carried_out_by" active="#P.0000004" passive="#W.0000126"/>
+                        </listRelation>
+                        <linkGrp type="files">
+                            <ptr n="Bl.377" target="Q.01.19200114.JVH.01.xml"/>
+                        </linkGrp>
+                    </item>
+                    <item n="artwork" xml:id="W.0000127">
+                        <name>78.</name>
+                        <name type="pref">Bild 78</name>
+                        <listRelation>
+                            <relation type="http://erlangen-crm.org/current/" name="P14_carried_out_by" active="#P.0000004" passive="#W.0000127"/>
+                        </listRelation>
+                        <linkGrp type="files">
+                            <ptr n="Bl.377" target="Q.01.19200114.JVH.01.xml"/>
                         </linkGrp>
                     </item>
                     <item n="artwork" xml:id="W.0000013">
                         <name type="pref">Bild 8</name>
                         <name>Nr. 8</name>
+                        <listRelation>
+                            <relation type="http://erlangen-crm.org/current/" name="P14_carried_out_by" active="#P.0000004" passive="#W.0000013"/>
+                        </listRelation>
                         <linkGrp type="files">
                             <ptr n="Bl.86-89" target="Q.01.19150413.JVH.01.xml"/>
+                        </linkGrp>
+                    </item>
+                    <item n="artwork" xml:id="W.0000128">
+                        <name>81.</name>
+                        <name type="pref">Bild 81</name>
+                        <listRelation>
+                            <relation type="http://erlangen-crm.org/current/" name="P14_carried_out_by" active="#P.0000004" passive="#W.0000128"/>
+                        </listRelation>
+                        <linkGrp type="files">
+                            <ptr n="Bl.377" target="Q.01.19200114.JVH.01.xml"/>
+                        </linkGrp>
+                    </item>
+                    <item n="artwork" xml:id="W.0000129">
+                        <name>82.</name>
+                        <name type="pref">Bild 82</name>
+                        <listRelation>
+                            <relation type="http://erlangen-crm.org/current/" name="P14_carried_out_by" active="#P.0000004" passive="#W.0000129"/>
+                        </listRelation>
+                        <linkGrp type="files">
+                            <ptr n="Bl.377" target="Q.01.19200114.JVH.01.xml"/>
+                        </linkGrp>
+                    </item>
+                    <item n="artwork" xml:id="W.0000130">
+                        <name>83.</name>
+                        <name type="pref">Bild 83</name>
+                        <listRelation>
+                            <relation type="http://erlangen-crm.org/current/" name="P14_carried_out_by" active="#P.0000004" passive="#W.0000130"/>
+                        </listRelation>
+                        <linkGrp type="files">
+                            <ptr n="Bl.377" target="Q.01.19200114.JVH.01.xml"/>
+                        </linkGrp>
+                    </item>
+                    <item n="artwork" xml:id="W.0000131">
+                        <name>85.</name>
+                        <name type="pref">Bild 85</name>
+                        <listRelation>
+                            <relation type="http://erlangen-crm.org/current/" name="P14_carried_out_by" active="#P.0000004" passive="#W.0000131"/>
+                        </listRelation>
+                        <linkGrp type="files">
+                            <ptr n="Bl.377" target="Q.01.19200114.JVH.01.xml"/>
+                        </linkGrp>
+                    </item>
+                    <item n="artwork" xml:id="W.0000132">
+                        <name>86.</name>
+                        <name type="pref">Bild 86</name>
+                        <listRelation>
+                            <relation type="http://erlangen-crm.org/current/" name="P14_carried_out_by" active="#P.0000004" passive="#W.0000132"/>
+                        </listRelation>
+                        <linkGrp type="files">
+                            <ptr n="Bl.377" target="Q.01.19200114.JVH.01.xml"/>
+                        </linkGrp>
+                    </item>
+                    <item n="artwork" xml:id="W.0000133">
+                        <name>89.</name>
+                        <name type="pref">Bild 89</name>
+                        <listRelation>
+                            <relation type="http://erlangen-crm.org/current/" name="P14_carried_out_by" active="#P.0000004" passive="#W.0000133"/>
+                        </listRelation>
+                        <linkGrp type="files">
+                            <ptr n="Bl.377" target="Q.01.19200114.JVH.01.xml"/>
                         </linkGrp>
                     </item>
                     <item n="artwork" xml:id="W.0000014">
                         <name>9</name>
                         <name type="pref">Bild 9</name>
+                        <listRelation>
+                            <relation type="http://erlangen-crm.org/current/" name="P14_carried_out_by" active="#P.0000004" passive="#W.0000014"/>
+                        </listRelation>
                         <linkGrp type="files">
                             <ptr n="Bl.86-89" target="Q.01.19150413.JVH.01.xml"/>
+                        </linkGrp>
+                    </item>
+                    <item n="artwork" xml:id="W.0000134">
+                        <name>90.</name>
+                        <name type="pref">Bild 90</name>
+                        <listRelation>
+                            <relation type="http://erlangen-crm.org/current/" name="P14_carried_out_by" active="#P.0000004" passive="#W.0000134"/>
+                        </listRelation>
+                        <linkGrp type="files">
+                            <ptr n="Bl.377" target="Q.01.19200114.JVH.01.xml"/>
+                        </linkGrp>
+                    </item>
+                    <item n="artwork" xml:id="W.0000135">
+                        <name>94.</name>
+                        <name type="pref">Bild 94</name>
+                        <listRelation>
+                            <relation type="http://erlangen-crm.org/current/" name="P14_carried_out_by" active="#P.0000004" passive="#W.0000135"/>
+                        </listRelation>
+                        <linkGrp type="files">
+                            <ptr n="Bl.377" target="Q.01.19200114.JVH.01.xml"/>
+                        </linkGrp>
+                    </item>
+                    <item n="artwork" xml:id="W.0000136">
+                        <name>97.</name>
+                        <name type="pref">Bild 97</name>
+                        <listRelation>
+                            <relation type="http://erlangen-crm.org/current/" name="P14_carried_out_by" active="#P.0000004" passive="#W.0000136"/>
+                        </listRelation>
+                        <linkGrp type="files">
+                            <ptr n="Bl.377" target="Q.01.19200114.JVH.01.xml"/>
+                        </linkGrp>
+                    </item>
+                    <item n="artwork" xml:id="W.0000137">
+                        <name>98.</name>
+                        <name type="pref">Bild 98</name>
+                        <listRelation>
+                            <relation type="http://erlangen-crm.org/current/" name="P14_carried_out_by" active="#P.0000004" passive="#W.0000137"/>
+                        </listRelation>
+                        <linkGrp type="files">
+                            <ptr n="Bl.377" target="Q.01.19200114.JVH.01.xml"/>
                         </linkGrp>
                     </item>
                     <item n="artwork" xml:id="W.0000020">
                         <name>98</name>
                         <name type="pref">Bild 98</name>
+                        <listRelation>
+                            <relation type="http://erlangen-crm.org/current/" name="P14_carried_out_by" active="#P.0000003" passive="#W.0000020"/>
+                        </listRelation>
                         <linkGrp type="files">
                             <ptr n="Bl.179-180" target="Q.01.19140121.FMA.01.xml"/>
+                        </linkGrp>
+                    </item>
+                    <item n="artwork" xml:id="W.0000138">
+                        <name>99.</name>
+                        <name type="pref">Bild 99</name>
+                        <listRelation>
+                            <relation type="http://erlangen-crm.org/current/" name="P14_carried_out_by" active="#P.0000004" passive="#W.0000138"/>
+                        </listRelation>
+                        <linkGrp type="files">
+                            <ptr n="Bl.377" target="Q.01.19200114.JVH.01.xml"/>
                         </linkGrp>
                     </item>
                     <item n="artwork" xml:id="W.0000024">
                         <name>99</name>
                         <name type="pref">Bild 99</name>
+                        <listRelation>
+                            <relation type="http://erlangen-crm.org/current/" name="P14_carried_out_by" active="#P.0000003" passive="#W.0000024"/>
+                        </listRelation>
                         <linkGrp type="files">
                             <ptr n="Bl.179-180" target="Q.01.19140121.FMA.01.xml"/>
                         </linkGrp>
@@ -200,6 +554,33 @@
                         <name type="pref">Börsencourier</name>
                         <linkGrp type="files">
                             <ptr n="Bl.138" target="Q.01.19151223.JVH.01.xml"/>
+                        </linkGrp>
+                    </item>
+                </list>
+                <list n="works">
+                    <head>C</head>
+                    <item n="book" xml:id="W.0000152">
+                        <ref target="https://archive.org/details/marcchagall00berl/page/n2"/>
+                        <name>Sturm Bilderbücher I.</name>
+                        <name type="pref">Chagall, Marc: Sturm Bilderbücher I. Marc Chagall. Berlin,
+                            Der Sturm, 1914.</name>
+                        <listRelation>
+                            <relation type="http://erlangen-crm.org/current/" name="P14_carried_out_by" active="#P.0000117" passive="#W.0000152"/>
+                        </listRelation>
+                        <linkGrp type="files">
+                            <ptr n="Bl.375" target="Q.01.19191212.JVH.01.xml"/>
+                        </linkGrp>
+                    </item>
+                    <item n="article" xml:id="W.0000117">
+                        <ref target="https://doi.org/10.11588/diglit.21394.231"/>
+                        <name>Besprechung</name>
+                        <name type="pref">Cohn-Wiener, Ernst: Ausstellungsbesprechung zum Sturm. In:
+                            Der Cicerone 1919, XI, S. 707.</name>
+                        <listRelation>
+                            <relation type="http://erlangen-crm.org/current/" name="P14_carried_out_by" active="#P.0000116" passive="#W.0000117"/>
+                        </listRelation>
+                        <linkGrp type="files">
+                            <ptr n="Bl.371" target="Q.01.19191107.JVH.01.xml"/>
                         </linkGrp>
                     </item>
                 </list>
@@ -213,6 +594,9 @@
                     </item>
                     <item n="artwork" xml:id="W.0000012">
                         <name type="pref">Delacroix-Drucke</name>
+                        <listRelation>
+                            <relation type="http://erlangen-crm.org/current/" name="P14_carried_out_by" active="#P.0000092" passive="#W.0000012"/>
+                        </listRelation>
                         <linkGrp type="files">
                             <ptr n="Bl.208" target="Q.01.19150710.FMA.01.xml"/>
                             <ptr n="Bl.207" target="Q.01.19150703.FMA.01.xml"/>
@@ -223,9 +607,9 @@
                         <name>Nieuwe Courant</name>
                         <name>Nieuve Courant</name>
                         <linkGrp type="files">
-                            <ptr n="Bl.29-30" target="Q.01.19141016.JVH.01.xml"/>
                             <ptr n="Bl.136-137" target="Q.01.19151218.JVH.01.xml"/>
                             <ptr n="Bl.33-34" target="Q.01.19141027.JVH.01.xml"/>
+                            <ptr n="Bl.29-30" target="Q.01.19141016.JVH.01.xml"/>
                         </linkGrp>
                     </item>
                     <item source="http://d-nb.info/gnd/4714366-6" n="newspaper" xml:id="W.0000073">
@@ -258,6 +642,13 @@
                             <ptr n="Bl.37-38" target="Q.01.19141111.JVH.01.xml"/>
                         </linkGrp>
                     </item>
+                    <item source="http://d-nb.info/gnd/4181967-6" n="journal" xml:id="W.0000102">
+                        <ref target="http://library.fes.de/sozmon/"/>
+                        <name type="pref">Die sozialistischen Monatshefte</name>
+                        <linkGrp type="files">
+                            <ptr n="Bl.350" target="Q.01.19190106.JVH.01.xml"/>
+                        </linkGrp>
+                    </item>
                     <item n="newspaper" xml:id="W.0000055">
                         <name type="pref">Die Umschau</name>
                         <linkGrp type="files">
@@ -269,12 +660,148 @@
                     <head>E</head>
                     <item n="artwork" xml:id="W.0000031">
                         <name type="pref">Eber</name>
+                        <listRelation>
+                            <relation type="http://erlangen-crm.org/current/" name="P14_carried_out_by" active="#P.0000003" passive="#W.0000031"/>
+                        </listRelation>
                         <linkGrp type="files">
                             <ptr n="Bl.183" target="Q.01.19140125.FMA.02.xml"/>
                         </linkGrp>
                     </item>
+                    <item source="http://d-nb.info/gnd/4737924-8" n="book" xml:id="W.0000120">
+                        <name type="pref">Einstein, Carl: Negerplastik. Leipzig 1915.</name>
+                        <listRelation>
+                            <relation type="http://erlangen-crm.org/current/" name="P14_carried_out_by" active="#P.0000122" passive="#W.0000120"/>
+                        </listRelation>
+                        <linkGrp type="files">
+                            <ptr n="Bl.377" target="Q.01.19200114.JVH.01.xml"/>
+                        </linkGrp>
+                    </item>
+                    <item n="artwork" xml:id="W.0000092">
+                        <name type="pref">Entwurf Glasfenster 10</name>
+                        <listRelation>
+                            <relation type="http://erlangen-crm.org/current/" name="P14_carried_out_by" active="#P.0000004" passive="#W.0000092"/>
+                        </listRelation>
+                        <linkGrp type="files">
+                            <ptr n="Bl.363-364" target="Q.01.19190828.JVH.01.xml"/>
+                            <ptr n="Bl.362" target="Q.01.19190821.JVH.01.xml"/>
+                            <ptr n="Bl.367" target="Q.01.19190924.JVH.01.xml"/>
+                            <ptr n="Bl.361" target="Q.01.19190807.JVH.01.xml"/>
+                        </linkGrp>
+                    </item>
+                    <item n="artwork" xml:id="W.0000093">
+                        <name type="pref">Entwurf Glasfenster 17</name>
+                        <listRelation>
+                            <relation type="http://erlangen-crm.org/current/" name="P14_carried_out_by" active="#P.0000004" passive="#W.0000093"/>
+                        </listRelation>
+                        <linkGrp type="files">
+                            <ptr n="Bl.363-364" target="Q.01.19190828.JVH.01.xml"/>
+                            <ptr n="Bl.362" target="Q.01.19190821.JVH.01.xml"/>
+                            <ptr n="Bl.367" target="Q.01.19190924.JVH.01.xml"/>
+                            <ptr n="Bl.361" target="Q.01.19190807.JVH.01.xml"/>
+                        </linkGrp>
+                    </item>
+                    <item n="artwork" xml:id="W.0000094">
+                        <name type="pref">Entwurf Glasfenster 19</name>
+                        <listRelation>
+                            <relation type="http://erlangen-crm.org/current/" name="P14_carried_out_by" active="#P.0000004" passive="#W.0000094"/>
+                        </listRelation>
+                        <linkGrp type="files">
+                            <ptr n="Bl.376" target="Q.01.19191230.JVH.01.xml"/>
+                            <ptr n="Bl.363-364" target="Q.01.19190828.JVH.01.xml"/>
+                            <ptr n="Bl.362" target="Q.01.19190821.JVH.01.xml"/>
+                            <ptr n="Bl.367" target="Q.01.19190924.JVH.01.xml"/>
+                            <ptr n="Bl.361" target="Q.01.19190807.JVH.01.xml"/>
+                        </linkGrp>
+                    </item>
+                    <item n="artwork" xml:id="W.0000095">
+                        <name type="pref">Entwurf Glasfenster 20</name>
+                        <listRelation>
+                            <relation type="http://erlangen-crm.org/current/" name="P14_carried_out_by" active="#P.0000004" passive="#W.0000095"/>
+                        </listRelation>
+                        <linkGrp type="files">
+                            <ptr n="Bl.363-364" target="Q.01.19190828.JVH.01.xml"/>
+                            <ptr n="Bl.362" target="Q.01.19190821.JVH.01.xml"/>
+                            <ptr n="Bl.367" target="Q.01.19190924.JVH.01.xml"/>
+                            <ptr n="Bl.361" target="Q.01.19190807.JVH.01.xml"/>
+                        </linkGrp>
+                    </item>
+                    <item n="artwork" xml:id="W.0000096">
+                        <name type="pref">Entwurf Glasfenster 21</name>
+                        <listRelation>
+                            <relation type="http://erlangen-crm.org/current/" name="P14_carried_out_by" active="#P.0000004" passive="#W.0000096"/>
+                        </listRelation>
+                        <linkGrp type="files">
+                            <ptr n="Bl.363-364" target="Q.01.19190828.JVH.01.xml"/>
+                            <ptr n="Bl.362" target="Q.01.19190821.JVH.01.xml"/>
+                            <ptr n="Bl.367" target="Q.01.19190924.JVH.01.xml"/>
+                            <ptr n="Bl.361" target="Q.01.19190807.JVH.01.xml"/>
+                        </linkGrp>
+                    </item>
+                    <item n="artwork" xml:id="W.0000097">
+                        <name type="pref">Entwurf Glasfenster 22</name>
+                        <listRelation>
+                            <relation type="http://erlangen-crm.org/current/" name="P14_carried_out_by" active="#P.0000004" passive="#W.0000097"/>
+                        </listRelation>
+                        <linkGrp type="files">
+                            <ptr n="Bl.363-364" target="Q.01.19190828.JVH.01.xml"/>
+                            <ptr n="Bl.362" target="Q.01.19190821.JVH.01.xml"/>
+                            <ptr n="Bl.367" target="Q.01.19190924.JVH.01.xml"/>
+                            <ptr n="Bl.361" target="Q.01.19190807.JVH.01.xml"/>
+                        </linkGrp>
+                    </item>
+                    <item n="artwork" xml:id="W.0000098">
+                        <name type="pref">Entwurf Glasfenster 23</name>
+                        <listRelation>
+                            <relation type="http://erlangen-crm.org/current/" name="P14_carried_out_by" active="#P.0000004" passive="#W.0000098"/>
+                        </listRelation>
+                        <linkGrp type="files">
+                            <ptr n="Bl.363-364" target="Q.01.19190828.JVH.01.xml"/>
+                            <ptr n="Bl.362" target="Q.01.19190821.JVH.01.xml"/>
+                            <ptr n="Bl.367" target="Q.01.19190924.JVH.01.xml"/>
+                            <ptr n="Bl.361" target="Q.01.19190807.JVH.01.xml"/>
+                        </linkGrp>
+                    </item>
+                    <item n="artwork" xml:id="W.0000099">
+                        <name type="pref">Entwurf Glasfenster 24</name>
+                        <listRelation>
+                            <relation type="http://erlangen-crm.org/current/" name="P14_carried_out_by" active="#P.0000004" passive="#W.0000099"/>
+                        </listRelation>
+                        <linkGrp type="files">
+                            <ptr n="Bl.363-364" target="Q.01.19190828.JVH.01.xml"/>
+                            <ptr n="Bl.362" target="Q.01.19190821.JVH.01.xml"/>
+                            <ptr n="Bl.367" target="Q.01.19190924.JVH.01.xml"/>
+                            <ptr n="Bl.361" target="Q.01.19190807.JVH.01.xml"/>
+                        </linkGrp>
+                    </item>
+                    <item n="artwork" xml:id="W.0000100">
+                        <name type="pref">Entwurf Glasfenster 25</name>
+                        <listRelation>
+                            <relation type="http://erlangen-crm.org/current/" name="P14_carried_out_by" active="#P.0000004" passive="#W.0000100"/>
+                        </listRelation>
+                        <linkGrp type="files">
+                            <ptr n="Bl.363-364" target="Q.01.19190828.JVH.01.xml"/>
+                            <ptr n="Bl.362" target="Q.01.19190821.JVH.01.xml"/>
+                            <ptr n="Bl.367" target="Q.01.19190924.JVH.01.xml"/>
+                            <ptr n="Bl.361" target="Q.01.19190807.JVH.01.xml"/>
+                        </linkGrp>
+                    </item>
+                    <item n="artwork" xml:id="W.0000101">
+                        <name type="pref">Entwurf Glasfenster 26</name>
+                        <listRelation>
+                            <relation type="http://erlangen-crm.org/current/" name="P14_carried_out_by" active="#P.0000004" passive="#W.0000101"/>
+                        </listRelation>
+                        <linkGrp type="files">
+                            <ptr n="Bl.363-364" target="Q.01.19190828.JVH.01.xml"/>
+                            <ptr n="Bl.362" target="Q.01.19190821.JVH.01.xml"/>
+                            <ptr n="Bl.367" target="Q.01.19190924.JVH.01.xml"/>
+                            <ptr n="Bl.361" target="Q.01.19190807.JVH.01.xml"/>
+                        </linkGrp>
+                    </item>
                     <item n="artwork" xml:id="W.0000032">
                         <name type="pref">Eselfries</name>
+                        <listRelation>
+                            <relation type="http://erlangen-crm.org/current/" name="P14_carried_out_by" active="#P.0000003" passive="#W.0000032"/>
+                        </listRelation>
                         <linkGrp type="files">
                             <ptr n="Bl.183" target="Q.01.19140125.FMA.02.xml"/>
                         </linkGrp>
@@ -296,12 +823,21 @@
                             <ptr n="Bl.179-180" target="Q.01.19140121.FMA.01.xml"/>
                         </linkGrp>
                     </item>
+                    <item source="http://d-nb.info/012046744" n="journal" xml:id="W.0000150">
+                        <name type="pref">Freiheit</name>
+                        <linkGrp type="files">
+                            <ptr n="Bl.372" target="Q.01.19191116.JVH.01.xml"/>
+                        </linkGrp>
+                    </item>
                 </list>
                 <list n="works">
                     <head>G</head>
                     <item source="http://www.wikidata.org/entity/Q1218349" n="artwork" xml:id="W.0000074">
                         <name>g. Kuh</name>
                         <name type="pref">Gelbe Kuh</name>
+                        <listRelation>
+                            <relation type="http://erlangen-crm.org/current/" name="P14_carried_out_by" active="#P.0000003" passive="#W.0000074"/>
+                        </listRelation>
                         <linkGrp type="files">
                             <ptr n="Bl.203" target="Q.01.19150417.FMA.01.xml"/>
                             <ptr n="Bl.213" target="Q.01.19151010.FMA.01.xml"/>
@@ -309,6 +845,9 @@
                     </item>
                     <item n="artwork" xml:id="W.0000046">
                         <name type="pref">Genesis</name>
+                        <listRelation>
+                            <relation type="http://erlangen-crm.org/current/" name="P14_carried_out_by" active="#P.0000003" passive="#W.0000046"/>
+                        </listRelation>
                         <linkGrp type="files">
                             <ptr n="Bl.185" target="Q.01.19140414.FMA.01.xml"/>
                         </linkGrp>
@@ -336,8 +875,21 @@
                     </item>
                     <item n="artwork" xml:id="W.0000033">
                         <name type="pref">Hasenangstbild</name>
+                        <listRelation>
+                            <relation type="http://erlangen-crm.org/current/" name="P14_carried_out_by" active="#P.0000003" passive="#W.0000033"/>
+                        </listRelation>
                         <linkGrp type="files">
                             <ptr n="Bl.213" target="Q.01.19151010.FMA.01.xml"/>
+                        </linkGrp>
+                    </item>
+                    <item source="http://d-nb.info/361483708" n="book" xml:id="W.0000112">
+                        <name type="pref">Heinersdorff, Gottfried: Die Glasmalerei, ihre Technik und
+                            ihre Geschichte. Berlin: 1914.</name>
+                        <listRelation>
+                            <relation type="http://erlangen-crm.org/current/" name="P14_carried_out_by" active="#P.0000100" passive="#W.0000112"/>
+                        </listRelation>
+                        <linkGrp type="files">
+                            <ptr n="Bl.361" target="Q.01.19190807.JVH.01.xml"/>
                         </linkGrp>
                     </item>
                     <item n="newspaper" xml:id="W.0000061">
@@ -346,52 +898,146 @@
                             <ptr n="Bl.136-137" target="Q.01.19151218.JVH.01.xml"/>
                         </linkGrp>
                     </item>
-                    <item n="artwork" xml:id="W.0000005">
-                        <ref target="https://doi.org/10.11588/diglit.37113#0075"/>
+                    <item n="artwork" xml:id="W.0000108">
+                        <ref target="https://doi.org/10.11588/diglit.37115#0015"/>
                         <name type="pref">Holzschnitt</name>
+                        <listRelation>
+                            <relation type="http://erlangen-crm.org/current/" name="P14_carried_out_by" active="#P.0000004" passive="#W.0000108"/>
+                        </listRelation>
                         <linkGrp type="files">
-                            <ptr n="Bl.115-116" target="Q.01.19151018.JVH.01.xml"/>
-                        </linkGrp>
-                    </item>
-                    <item n="artwork" xml:id="W.0000006">
-                        <ref target="https://doi.org/10.11588/diglit.33880#0127"/>
-                        <name type="pref">Holzschnitt</name>
-                        <linkGrp type="files">
-                            <ptr n="Bl.49-50" target="Q.01.19150123.JVH.01.xml"/>
-                        </linkGrp>
-                    </item>
-                    <item n="artwork" xml:id="W.0000007">
-                        <ref target="https://doi.org/10.11588/diglit.37113#0090"/>
-                        <name type="pref">Holzschnitt</name>
-                        <linkGrp type="files">
-                            <ptr n="Bl.127-128" target="Q.01.19151126.JVH.01.xml"/>
+                            <ptr n="Bl.356" target="Q.01.19190509.JVH.01.xml"/>
                         </linkGrp>
                     </item>
                     <item n="artwork" xml:id="W.0000004">
                         <ref target="https://doi.org/10.11588/diglit.37113#0057"/>
                         <name type="pref">Holzschnitt</name>
+                        <listRelation>
+                            <relation type="http://erlangen-crm.org/current/" name="P14_carried_out_by" active="#P.0000004" passive="#W.0000004"/>
+                        </listRelation>
                         <linkGrp type="files">
-                            <ptr n="Bl.108-109" target="Q.01.19150824.JVH.01.xml"/>
                             <ptr n="Bl.106-107" target="Q.01.19150818.JVH.01.xml"/>
+                            <ptr n="Bl.108-109" target="Q.01.19150824.JVH.01.xml"/>
+                        </linkGrp>
+                    </item>
+                    <item n="artwork" xml:id="W.0000006">
+                        <ref target="https://doi.org/10.11588/diglit.33880#0127"/>
+                        <name type="pref">Holzschnitt</name>
+                        <listRelation>
+                            <relation type="http://erlangen-crm.org/current/" name="P14_carried_out_by" active="#P.0000004" passive="#W.0000006"/>
+                        </listRelation>
+                        <linkGrp type="files">
+                            <ptr n="Bl.49-50" target="Q.01.19150123.JVH.01.xml"/>
+                        </linkGrp>
+                    </item>
+                    <item n="artwork" xml:id="W.0000005">
+                        <ref target="https://doi.org/10.11588/diglit.37113#0075"/>
+                        <name type="pref">Holzschnitt</name>
+                        <listRelation>
+                            <relation type="http://erlangen-crm.org/current/" name="P14_carried_out_by" active="#P.0000004" passive="#W.0000005"/>
+                        </listRelation>
+                        <linkGrp type="files">
+                            <ptr n="Bl.115-116" target="Q.01.19151018.JVH.01.xml"/>
+                        </linkGrp>
+                    </item>
+                    <item n="artwork" xml:id="W.0000007">
+                        <ref target="https://doi.org/10.11588/diglit.37113#0090"/>
+                        <name type="pref">Holzschnitt</name>
+                        <listRelation>
+                            <relation type="http://erlangen-crm.org/current/" name="P14_carried_out_by" active="#P.0000004" passive="#W.0000007"/>
+                        </listRelation>
+                        <linkGrp type="files">
+                            <ptr n="Bl.127-128" target="Q.01.19151126.JVH.01.xml"/>
+                        </linkGrp>
+                    </item>
+                    <item n="artwork" xml:id="W.0000114">
+                        <name>6. Holzschnitte</name>
+                        <name type="pref">Holzschnitte</name>
+                        <listRelation>
+                            <relation type="http://erlangen-crm.org/current/" name="P14_carried_out_by" active="#P.0000004" passive="#W.0000114"/>
+                        </listRelation>
+                        <linkGrp type="files">
+                            <ptr n="Bl.370" target="Q.01.19191004.JVH.01.xml"/>
+                            <ptr n="Bl.369" target="Q.01.19190930.JVH.01.xml"/>
+                        </linkGrp>
+                    </item>
+                    <item n="artwork" xml:id="W.0000104">
+                        <name type="pref">Holzschnitt No. 1</name>
+                        <listRelation>
+                            <relation type="http://erlangen-crm.org/current/" name="P14_carried_out_by" active="#P.0000004" passive="#W.0000104"/>
+                        </listRelation>
+                        <linkGrp type="files">
+                            <ptr n="Bl.354" target="Q.01.19190217.JVH.01.xml"/>
+                        </linkGrp>
+                    </item>
+                    <item n="artwork" xml:id="W.0000105">
+                        <name type="pref">Holzschnitt No. 2</name>
+                        <listRelation>
+                            <relation type="http://erlangen-crm.org/current/" name="P14_carried_out_by" active="#P.0000004" passive="#W.0000105"/>
+                        </listRelation>
+                        <linkGrp type="files">
+                            <ptr n="Bl.354" target="Q.01.19190217.JVH.01.xml"/>
+                        </linkGrp>
+                    </item>
+                    <item n="artwork" xml:id="W.0000106">
+                        <name type="pref">Holzschnitt No. 3</name>
+                        <listRelation>
+                            <relation type="http://erlangen-crm.org/current/" name="P14_carried_out_by" active="#P.0000004" passive="#W.0000106"/>
+                        </listRelation>
+                        <linkGrp type="files">
+                            <ptr n="Bl.354" target="Q.01.19190217.JVH.01.xml"/>
                         </linkGrp>
                     </item>
                     <item n="artwork" xml:id="W.0000008">
                         <ref target="https://doi.org/10.11588/diglit.33880#0151"/>
                         <name type="pref">Holzstock</name>
+                        <name>Holzstöck</name>
+                        <listRelation>
+                            <relation type="http://erlangen-crm.org/current/" name="P14_carried_out_by" active="#P.0000004" passive="#W.0000008"/>
+                        </listRelation>
                         <linkGrp type="files">
                             <ptr n="Bl.60-62" target="Q.01.19150228.JVH.01.xml"/>
+                            <ptr n="Bl.63-64" target="Q.01.19150228.JVH.02.xml"/>
                         </linkGrp>
                     </item>
                     <item n="artwork" xml:id="W.0000034">
                         <name type="pref">Holzträger</name>
+                        <listRelation>
+                            <relation type="http://erlangen-crm.org/current/" name="P14_carried_out_by" active="#P.0000003" passive="#W.0000034"/>
+                        </listRelation>
                         <linkGrp type="files">
                             <ptr n="Bl.183" target="Q.01.19140125.FMA.02.xml"/>
                         </linkGrp>
                     </item>
                     <item n="artwork" xml:id="W.0000011">
                         <name type="pref">Häringe</name>
+                        <listRelation>
+                            <relation type="http://erlangen-crm.org/current/" name="P14_carried_out_by" active="#P.0000033" passive="#W.0000011"/>
+                        </listRelation>
                         <linkGrp type="files">
                             <ptr n="Bl.178" target="Q.01.19140119.FMA.01.xml"/>
+                        </linkGrp>
+                    </item>
+                    <item source="http://d-nb.info/580245071" n="book" xml:id="W.0000090">
+                        <name type="pref">Hübner, Friedrich Markus: Die neue Malerei in Holland.
+                            Leipzig 1921.</name>
+                        <listRelation>
+                            <relation type="http://erlangen-crm.org/current/" name="P14_carried_out_by" active="#P.0000102" passive="#W.0000090"/>
+                        </listRelation>
+                        <linkGrp type="files">
+                            <ptr n="Bl.394" target="Q.01.19210804.JVH.01.xml"/>
+                        </linkGrp>
+                    </item>
+                </list>
+                <list n="works">
+                    <head>I</head>
+                    <item source="http://d-nb.info/gnd/4133052-3" n="artwork" xml:id="W.0000170">
+                        <ref target="https://commons.wikimedia.org/wiki/File:Grunewald_Isenheim.jpg"/>
+                        <name type="pref">Isenheimer Altar</name>
+                        <listRelation>
+                            <relation type="http://erlangen-crm.org/current/" name="P14_carried_out_by" active="#P.0000183" passive="#W.0000170"/>
+                        </listRelation>
+                        <linkGrp type="files">
+                            <ptr n="Bl.134-135" target="Q.01.19151218.JVH.02.xml"/>
                         </linkGrp>
                     </item>
                 </list>
@@ -406,8 +1052,21 @@
                 </list>
                 <list n="works">
                     <head>K</head>
+                    <item source="http://d-nb.info/361026382" n="book" xml:id="W.0000155">
+                        <name type="pref">Kandinsky, Wassily: Kandinsky 1901-1913. Berlin, Der
+                            Sturm, 1913.</name>
+                        <listRelation>
+                            <relation type="http://erlangen-crm.org/current/" name="P14_carried_out_by" active="#P.0000009" passive="#W.0000155"/>
+                        </listRelation>
+                        <linkGrp type="files">
+                            <ptr n="Bl.375" target="Q.01.19191212.JVH.01.xml"/>
+                        </linkGrp>
+                    </item>
                     <item n="artwork" xml:id="W.0000036">
                         <name type="pref">Katzen</name>
+                        <listRelation>
+                            <relation type="http://erlangen-crm.org/current/" name="P14_carried_out_by" active="#P.0000003" passive="#W.0000036"/>
+                        </listRelation>
                         <linkGrp type="files">
                             <ptr n="Bl.213" target="Q.01.19151010.FMA.01.xml"/>
                         </linkGrp>
@@ -415,13 +1074,30 @@
                     <item n="artwork" xml:id="W.0000001">
                         <ref target="https://doi.org/10.11588/diglit.33880#0005"/>
                         <name type="pref">Katzenblatt</name>
+                        <listRelation>
+                            <relation type="http://erlangen-crm.org/current/" name="P14_carried_out_by" active="#P.0000003" passive="#W.0000001"/>
+                        </listRelation>
                         <linkGrp type="files">
                             <ptr n="Bl.184" target="Q.01.19140409.FMA.01.xml"/>
+                        </linkGrp>
+                    </item>
+                    <item source="http://d-nb.info/58038408X" n="book" xml:id="W.0000153">
+                        <ref target="https://archive.org/details/paulk00klee/page/n4"/>
+                        <name type="pref">Klee, Paul: Sturm Bilderbücher III. Paul Klee. Berlin, Der
+                            Sturm, 1918.</name>
+                        <listRelation>
+                            <relation type="http://erlangen-crm.org/current/" name="P14_carried_out_by" active="#P.0000076" passive="#W.0000153"/>
+                        </listRelation>
+                        <linkGrp type="files">
+                            <ptr n="Bl.375" target="Q.01.19191212.JVH.01.xml"/>
                         </linkGrp>
                     </item>
                     <item n="artwork" xml:id="W.0000037">
                         <name>Komp. I</name>
                         <name type="pref">Komposition I</name>
+                        <listRelation>
+                            <relation type="http://erlangen-crm.org/current/" name="P14_carried_out_by" active="#P.0000003" passive="#W.0000037"/>
+                        </listRelation>
                         <linkGrp type="files">
                             <ptr n="Bl.199" target="Q.01.19150315.FMA.01.xml"/>
                             <ptr n="Bl.200" target="Q.01.19150315.FMA.02.xml"/>
@@ -431,6 +1107,9 @@
                     <item n="artwork" xml:id="W.0000009">
                         <name>" II</name>
                         <name type="pref">Komposition II</name>
+                        <listRelation>
+                            <relation type="http://erlangen-crm.org/current/" name="P14_carried_out_by" active="#P.0000003" passive="#W.0000009"/>
+                        </listRelation>
                         <linkGrp type="files">
                             <ptr n="Bl.199" target="Q.01.19150315.FMA.01.xml"/>
                             <ptr n="Bl.200" target="Q.01.19150315.FMA.02.xml"/>
@@ -440,15 +1119,27 @@
                     <item n="artwork" xml:id="W.0000010">
                         <name>" III</name>
                         <name type="pref">Komposition III</name>
+                        <listRelation>
+                            <relation type="http://erlangen-crm.org/current/" name="P14_carried_out_by" active="#P.0000003" passive="#W.0000010"/>
+                        </listRelation>
                         <linkGrp type="files">
                             <ptr n="Bl.199" target="Q.01.19150315.FMA.01.xml"/>
                             <ptr n="Bl.200" target="Q.01.19150315.FMA.02.xml"/>
                             <ptr n="Bl.179-180" target="Q.01.19140121.FMA.01.xml"/>
                         </linkGrp>
                     </item>
+                    <item source="http://d-nb.info/gnd/4166017-1" n="journal" xml:id="W.0000169">
+                        <name type="pref">Kunst und Künstler</name>
+                        <linkGrp type="files">
+                            <ptr n="Bl.134-135" target="Q.01.19151218.JVH.02.xml"/>
+                        </linkGrp>
+                    </item>
                     <item n="artwork" xml:id="W.0000035">
                         <name type="pref">Kämpfende Kühe</name>
                         <name>Kuhbildes</name>
+                        <listRelation>
+                            <relation type="http://erlangen-crm.org/current/" name="P14_carried_out_by" active="#P.0000003" passive="#W.0000035"/>
+                        </listRelation>
                         <linkGrp type="files">
                             <ptr n="Bl.208" target="Q.01.19150710.FMA.01.xml"/>
                             <ptr n="Bl.183" target="Q.01.19140125.FMA.02.xml"/>
@@ -456,9 +1147,34 @@
                     </item>
                 </list>
                 <list n="works">
+                    <head>L</head>
+                    <item n="artwork" xml:id="W.0000111">
+                        <name type="pref">Lithografie</name>
+                        <listRelation>
+                            <relation type="http://erlangen-crm.org/current/" name="P14_carried_out_by" active="#P.0000004" passive="#W.0000111"/>
+                        </listRelation>
+                        <linkGrp type="files">
+                            <ptr n="Bl.361" target="Q.01.19190807.JVH.01.xml"/>
+                        </linkGrp>
+                    </item>
+                    <item n="artwork" xml:id="W.0000113">
+                        <name>3. Lithografien</name>
+                        <name type="pref">Lithografien</name>
+                        <listRelation>
+                            <relation type="http://erlangen-crm.org/current/" name="P14_carried_out_by" active="#P.0000004" passive="#W.0000113"/>
+                        </listRelation>
+                        <linkGrp type="files">
+                            <ptr n="Bl.368" target="Q.01.19190927.JVH.01.xml"/>
+                        </linkGrp>
+                    </item>
+                </list>
+                <list n="works">
                     <head>M</head>
                     <item n="artwork" xml:id="W.0000039">
                         <name type="pref">Mandrill</name>
+                        <listRelation>
+                            <relation type="http://erlangen-crm.org/current/" name="P14_carried_out_by" active="#P.0000003" passive="#W.0000039"/>
+                        </listRelation>
                         <linkGrp type="files">
                             <ptr n="Bl.199" target="Q.01.19150315.FMA.01.xml"/>
                             <ptr n="Bl.200" target="Q.01.19150315.FMA.02.xml"/>
@@ -467,11 +1183,11 @@
                 </list>
                 <list n="works">
                     <head>N</head>
-                    <item n="article" xml:id="W.0000053">
-                        <ref target="https://doi.org/10.11588/diglit.37113#0063"/>
-                        <name type="pref">Nachruf auf August Stramm. In: Der Sturm. Halbmonatsschrift für Kultur und die Künste 11/12 (1915).</name>
+                    <item source="http://d-nb.info/gnd/4735095-7" n="newspaper" xml:id="W.0000110">
+                        <name>Nationalzeitung</name>
+                        <name type="pref">National-Zeitung</name>
                         <linkGrp type="files">
-                            <ptr n="Bl.213" target="Q.01.19151010.FMA.01.xml"/>
+                            <ptr n="Bl.359" target="Q.01.19190702.JVH.01.xml"/>
                         </linkGrp>
                     </item>
                     <item source="http://www.wikidata.org/entity/Q1989439" n="newspaper" xml:id="W.0000077">
@@ -480,26 +1196,38 @@
                         <name type="pref">Nieuwe Rotterdamsche Courant</name>
                         <name>N. Rotterdammer</name>
                         <linkGrp type="files">
+                            <ptr n="Bl.363-364" target="Q.01.19190828.JVH.01.xml"/>
                             <ptr n="Bl.65-66" target="Q.01.19150303.JVH.01.xml"/>
-                            <ptr n="Bl.29-30" target="Q.01.19141016.JVH.01.xml"/>
                             <ptr n="Bl.136-137" target="Q.01.19151218.JVH.01.xml"/>
                             <ptr n="Bl.86-89" target="Q.01.19150413.JVH.01.xml"/>
+                            <ptr n="Bl.29-30" target="Q.01.19141016.JVH.01.xml"/>
                         </linkGrp>
                     </item>
                     <item source="http://d-nb.info/361267355" n="book" xml:id="W.0000065">
-                        <name type="pref">Nissen, Benedikt Momme: Der Krieg und die deutsche Kunst. Den kunstliebenden Deutschen beider Kaiserreiche. Freiburg i. B. 1914.</name>
+                        <name type="pref">Nissen, Benedikt Momme: Der Krieg und die deutsche Kunst.
+                            Den kunstliebenden Deutschen beider Kaiserreiche. Freiburg i. B.
+                            1914.</name>
+                        <listRelation>
+                            <relation type="http://erlangen-crm.org/current/" name="P14_carried_out_by" active="#P.0000086" passive="#W.0000065"/>
+                        </listRelation>
                         <linkGrp type="files">
                             <ptr n="Bl.202" target="Q.01.19150906.FMA.01.xml"/>
                         </linkGrp>
                     </item>
                     <item n="artwork" xml:id="W.0000040">
                         <name type="pref">No. 16 Figur</name>
+                        <listRelation>
+                            <relation type="http://erlangen-crm.org/current/" name="P14_carried_out_by" active="#P.0000004" passive="#W.0000040"/>
+                        </listRelation>
                         <linkGrp type="files">
                             <ptr n="Bl.73-74" target="Q.01.19150313.JVH.01.xml"/>
                         </linkGrp>
                     </item>
                     <item n="artwork" xml:id="W.0000047">
                         <name type="pref">No 160</name>
+                        <listRelation>
+                            <relation type="http://erlangen-crm.org/current/" name="P14_carried_out_by" active="#P.0000003" passive="#W.0000047"/>
+                        </listRelation>
                         <linkGrp type="files">
                             <ptr n="Bl.179-180" target="Q.01.19140121.FMA.01.xml"/>
                         </linkGrp>
@@ -509,8 +1237,18 @@
                     <head>P</head>
                     <item n="artwork" xml:id="W.0000041">
                         <name type="pref">Porträt</name>
+                        <listRelation>
+                            <relation type="http://erlangen-crm.org/current/" name="P14_carried_out_by" active="#P.0000004" passive="#W.0000041"/>
+                        </listRelation>
                         <linkGrp type="files">
                             <ptr n="Bl.73-74" target="Q.01.19150313.JVH.01.xml"/>
+                        </linkGrp>
+                    </item>
+                    <item n="journal" xml:id="W.0000140">
+                        <name>Gesellsch: Sturmfreunde Prospekt</name>
+                        <name type="pref">Prospekt der Gesellschaft Sturmfreunde</name>
+                        <linkGrp type="files">
+                            <ptr n="Bl.382" target="Q.01.19200428.JVH.01.xml"/>
                         </linkGrp>
                     </item>
                 </list>
@@ -524,6 +1262,9 @@
                     </item>
                     <item n="artwork" xml:id="W.0000042">
                         <name type="pref">Rinder</name>
+                        <listRelation>
+                            <relation type="http://erlangen-crm.org/current/" name="P14_carried_out_by" active="#P.0000003" passive="#W.0000042"/>
+                        </listRelation>
                         <linkGrp type="files">
                             <ptr n="Bl.199" target="Q.01.19150315.FMA.01.xml"/>
                             <ptr n="Bl.200" target="Q.01.19150315.FMA.02.xml"/>
@@ -535,10 +1276,13 @@
                     <item source="http://www.wikidata.org/entity/Q27561770" n="artwork" xml:id="W.0000080">
                         <name type="pref">Schafe</name>
                         <name>Bild</name>
+                        <listRelation>
+                            <relation type="http://erlangen-crm.org/current/" name="P14_carried_out_by" active="#P.0000003" passive="#W.0000080"/>
+                        </listRelation>
                         <linkGrp type="files">
                             <ptr n="Bl.199" target="Q.01.19150315.FMA.01.xml"/>
-                            <ptr n="Bl.201" target="Q.01.19150327.FMA.01.xml"/>
                             <ptr n="Bl.200" target="Q.01.19150315.FMA.02.xml"/>
+                            <ptr n="Bl.201" target="Q.01.19150327.FMA.01.xml"/>
                         </linkGrp>
                     </item>
                     <item source="http://d-nb.info/361684770" n="book" xml:id="W.0000067">
@@ -546,33 +1290,72 @@
                         <name>Sturm Buch</name>
                         <name>Buch</name>
                         <name type="pref">Scheerbart, Paul: Glasarchitektur. Berlin 1914.</name>
+                        <listRelation>
+                            <relation type="http://erlangen-crm.org/current/" name="P14_carried_out_by" active="#P.0000013" passive="#W.0000067"/>
+                        </listRelation>
                         <linkGrp type="files">
                             <ptr n="Bl.7-8" target="Q.01.19140612.JVH.01.xml"/>
                         </linkGrp>
                     </item>
+                    <item n="poem" xml:id="W.0000115">
+                        <name>Gedicht</name>
+                        <name type="pref">Schlichtkrull, Wilhelm: Gedichte. Für Jacoba van
+                            Heemskerck. In: Der Sturm. Halbmonatsschrift für Kultur und die Künste 5
+                            (1919), S. 70f.</name>
+                        <listRelation>
+                            <relation type="http://erlangen-crm.org/current/" name="P14_carried_out_by" active="#P.0000101" passive="#W.0000115"/>
+                        </listRelation>
+                        <linkGrp type="files">
+                            <ptr n="Bl.365" target="Q.01.19190905.JVH.01.xml"/>
+                        </linkGrp>
+                    </item>
                     <item n="artwork" xml:id="W.0000043">
                         <name type="pref">Schweine</name>
+                        <listRelation>
+                            <relation type="http://erlangen-crm.org/current/" name="P14_carried_out_by" active="#P.0000003" passive="#W.0000043"/>
+                        </listRelation>
                         <linkGrp type="files">
                             <ptr n="Bl.183" target="Q.01.19140125.FMA.02.xml"/>
                         </linkGrp>
                     </item>
                     <item source="http://d-nb.info/gnd/4099371-1" n="drama" xml:id="W.0000069">
                         <name type="pref">Shakespeare, William: Sturm (1623).</name>
+                        <listRelation>
+                            <relation type="http://erlangen-crm.org/current/" name="P14_carried_out_by" active="#P.0000074" passive="#W.0000069"/>
+                        </listRelation>
                         <linkGrp type="files">
-                            <ptr n="Bl.204" target="Q.01.19140421.FMA.01.xml"/>
                             <ptr n="Bl.184" target="Q.01.19140409.FMA.01.xml"/>
+                            <ptr n="Bl.204" target="Q.01.19140421.FMA.01.xml"/>
                         </linkGrp>
                     </item>
                     <item n="artwork" xml:id="W.0000044">
                         <name type="pref">Stallungen</name>
+                        <listRelation>
+                            <relation type="http://erlangen-crm.org/current/" name="P14_carried_out_by" active="#P.0000003" passive="#W.0000044"/>
+                        </listRelation>
                         <linkGrp type="files">
                             <ptr n="Bl.199" target="Q.01.19150315.FMA.01.xml"/>
                             <ptr n="Bl.200" target="Q.01.19150315.FMA.02.xml"/>
                         </linkGrp>
                     </item>
+                    <item n="artwork" xml:id="W.0000118">
+                        <name>2. Steinzeichnungen</name>
+                        <name type="pref">Steinzeichnungen</name>
+                        <listRelation>
+                            <relation type="http://erlangen-crm.org/current/" name="P14_carried_out_by" active="#P.0000004" passive="#W.0000118"/>
+                        </listRelation>
+                        <linkGrp type="files">
+                            <ptr n="Bl.373-374" target="Q.01.19191209.JVH.01.xml"/>
+                        </linkGrp>
+                    </item>
                     <item n="article" xml:id="W.0000054">
                         <ref target="https://doi.org/10.11588/diglit.37113#0076"/>
-                        <name type="pref">Stramm, August: Geschehen. In: Der Sturm. Halbmonatsschrift für Kultur und die Künste 13/14 (1915), S. 74-80.</name>
+                        <name type="pref">Stramm, August: Geschehen. In: Der Sturm.
+                            Halbmonatsschrift für Kultur und die Künste 13/14 (1915), S.
+                            74-80.</name>
+                        <listRelation>
+                            <relation type="http://erlangen-crm.org/current/" name="P14_carried_out_by" active="#P.0000041" passive="#W.0000054"/>
+                        </listRelation>
                         <linkGrp type="files">
                             <ptr n="Bl.215" target="Q.01.19151016.FMA.01.xml"/>
                         </linkGrp>
@@ -607,50 +1390,78 @@
                         <name>ein Nummer</name>
                         <ref target="https://doi.org/10.11588/diglit.37113.10"/>
                         <name>Sturmnummern</name>
+                        <name>Sturm nummer</name>
                         <name>Sturm nr.</name>
+                        <listRelation>
+                            <relation type="http://erlangen-crm.org/current/" name="P14_carried_out_by" active="#P.0000001" passive="#W.0000068"/>
+                        </listRelation>
                         <linkGrp type="files">
-                            <ptr n="Bl.114" target="Q.01.19151014.JVH.01.xml"/>
-                            <ptr n="Bl.112-113" target="Q.01.19151007.JVH.01.xml"/>
-                            <ptr n="Bl.115-116" target="Q.01.19151018.JVH.01.xml"/>
-                            <ptr n="Bl.118-119" target="Q.01.19151113.JVH.01.xml"/>
+                            <ptr n="Bl.395" target="Q.01.19210824.JVH.01.xml"/>
+                            <ptr n="Bl.393" target="Q.01.19210605.JVH.01.xml"/>
+                            <ptr n="Bl.394" target="Q.01.19210804.JVH.01.xml"/>
+                            <ptr n="Bl.380" target="Q.01.19200414.JVH.01.xml"/>
+                            <ptr n="Bl.383" target="Q.01.19200528.JVH.01.xml"/>
+                            <ptr n="Bl.382" target="Q.01.19200428.JVH.01.xml"/>
+                            <ptr n="Bl.389" target="Q.01.19201223.JVH.01.xml"/>
+                            <ptr n="Bl.356" target="Q.01.19190509.JVH.01.xml"/>
+                            <ptr n="Bl.362" target="Q.01.19190821.JVH.01.xml"/>
+                            <ptr n="Bl.361" target="Q.01.19190807.JVH.01.xml"/>
+                            <ptr n="Bl.351" target="Q.01.19190106.JVH.02.xml"/>
+                            <ptr n="Bl.365" target="Q.01.19190905.JVH.01.xml"/>
+                            <ptr n="Bl.357" target="Q.01.19190618.JVH.01.xml"/>
+                            <ptr n="Bl.209" target="Q.01.19150827.FMA.01.xml"/>
                             <ptr n="Bl.198" target="Q.01.19150303.FMA.01.xml"/>
                             <ptr n="Bl.196" target="Q.01.19150116.FMA.01.xml"/>
-                            <ptr n="Bl.39-40" target="Q.01.19141117.JVH.01.xml"/>
-                            <ptr n="Bl.5-6" target="Q.01.19140601.JVH.01.xml"/>
-                            <ptr n="Bl.51-52" target="Q.01.19150129.JVH.01.xml"/>
-                            <ptr n="Bl.60-62" target="Q.01.19150228.JVH.01.xml"/>
-                            <ptr n="Bl.49-50" target="Q.01.19150123.JVH.01.xml"/>
-                            <ptr n="Bl.215" target="Q.01.19151016.FMA.01.xml"/>
-                            <ptr n="Bl.209" target="Q.01.19150827.FMA.01.xml"/>
-                            <ptr n="Bl.75-76" target="Q.01.19150317.JVH.01.xml"/>
-                            <ptr n="Bl.132-133" target="Q.01.19151209.JVH.01.xml"/>
                             <ptr n="Bl.201" target="Q.01.19150327.FMA.01.xml"/>
-                            <ptr n="Bl.26-27" target="Q.01.19141009.JVH.01.xml"/>
-                            <ptr n="Bl.20" target="Q.01.19140822.JVH.01.xml"/>
-                            <ptr n="Bl.47-48" target="Q.01.19141219.JVH.01.xml"/>
+                            <ptr n="Bl.215" target="Q.01.19151016.FMA.01.xml"/>
+                            <ptr n="Bl.106-107" target="Q.01.19150818.JVH.01.xml"/>
+                            <ptr n="Bl.49-50" target="Q.01.19150123.JVH.01.xml"/>
+                            <ptr n="Bl.60-62" target="Q.01.19150228.JVH.01.xml"/>
+                            <ptr n="Bl.75-76" target="Q.01.19150317.JVH.01.xml"/>
+                            <ptr n="Bl.58-59" target="Q.01.19150217.JVH.01.xml"/>
+                            <ptr n="Bl.104-105" target="Q.01.19150723.JVH.01.xml"/>
+                            <ptr n="Bl.51-52" target="Q.01.19150129.JVH.01.xml"/>
+                            <ptr n="Bl.115-116" target="Q.01.19151018.JVH.01.xml"/>
+                            <ptr n="Bl.71-72" target="Q.01.19150310.JVH.01.xml"/>
+                            <ptr n="Bl.132-133" target="Q.01.19151209.JVH.01.xml"/>
+                            <ptr n="Bl.90-91" target="Q.01.19150429.JVH.01.xml"/>
+                            <ptr n="Bl.118-119" target="Q.01.19151113.JVH.01.xml"/>
+                            <ptr n="Bl.112-113" target="Q.01.19151007.JVH.01.xml"/>
+                            <ptr n="Bl.94-96" target="Q.01.19150530.JVH.01.xml"/>
+                            <ptr n="Bl.92" target="Q.01.19150507.JVH.01.xml"/>
+                            <ptr n="Bl.77-78" target="Q.01.19150321.JVH.01.xml"/>
+                            <ptr n="Bl.102-103" target="Q.01.19150710.JVH.01.xml"/>
+                            <ptr n="Bl.114" target="Q.01.19151014.JVH.01.xml"/>
+                            <ptr n="Bl.108-109" target="Q.01.19150824.JVH.01.xml"/>
                             <ptr n="Bl.127-128" target="Q.01.19151126.JVH.01.xml"/>
                             <ptr n="Bl.110-111" target="Q.01.19150929.JVH.01.xml"/>
-                            <ptr n="Bl.23-24" target="Q.01.19140925.JVH.01.xml"/>
-                            <ptr n="Bl.29-30" target="Q.01.19141016.JVH.01.xml"/>
-                            <ptr n="Bl.58-59" target="Q.01.19150217.JVH.01.xml"/>
-                            <ptr n="Bl.71-72" target="Q.01.19150310.JVH.01.xml"/>
-                            <ptr n="Bl.90-91" target="Q.01.19150429.JVH.01.xml"/>
-                            <ptr n="Bl.92" target="Q.01.19150507.JVH.01.xml"/>
                             <ptr n="Bl.139-140" target="Q.01.19151225.JVH.01.xml"/>
-                            <ptr n="Bl.94-96" target="Q.01.19150530.JVH.01.xml"/>
-                            <ptr n="Bl.77-78" target="Q.01.19150321.JVH.01.xml"/>
-                            <ptr n="Bl.108-109" target="Q.01.19150824.JVH.01.xml"/>
-                            <ptr n="Bl.106-107" target="Q.01.19150818.JVH.01.xml"/>
-                            <ptr n="Bl.104-105" target="Q.01.19150723.JVH.01.xml"/>
-                            <ptr n="Bl.102-103" target="Q.01.19150710.JVH.01.xml"/>
                             <ptr n="Bl.193" target="Q.01.19141113.FMA.01.xml"/>
                             <ptr n="Bl.185" target="Q.01.19140414.FMA.01.xml"/>
+                            <ptr n="Bl.47-48" target="Q.01.19141219.JVH.01.xml"/>
+                            <ptr n="Bl.20" target="Q.01.19140822.JVH.01.xml"/>
+                            <ptr n="Bl.39-40" target="Q.01.19141117.JVH.01.xml"/>
+                            <ptr n="Bl.26-27" target="Q.01.19141009.JVH.01.xml"/>
+                            <ptr n="Bl.23-24" target="Q.01.19140925.JVH.01.xml"/>
+                            <ptr n="Bl.5-6" target="Q.01.19140601.JVH.01.xml"/>
+                            <ptr n="Bl.29-30" target="Q.01.19141016.JVH.01.xml"/>
+                            <ptr n="Bl.63-64" target="Q.01.19150228.JVH.02.xml"/>
+                            <ptr n="Bl.134-135" target="Q.01.19151218.JVH.02.xml"/>
+                        </linkGrp>
+                    </item>
+                </list>
+                <list n="works">
+                    <head>T</head>
+                    <item source="http://d-nb.info/gnd/4382699-4" n="journal" xml:id="W.0000091">
+                        <name type="pref">The Dial</name>
+                        <linkGrp type="files">
+                            <ptr n="Bl.405" target="Q.01.19220402.JVH.01.xml"/>
                         </linkGrp>
                     </item>
                 </list>
                 <list n="works">
                     <head>V</head>
-                    <item source="http://www.wikidata.org/entity/Q1616113" n="newspaper" xml:id="W.0000076">
+                    <item source="http://d-nb.info/gnd/4543675-7" n="newspaper" xml:id="W.0000076">
                         <name type="pref">Vaderland</name>
                         <linkGrp type="files">
                             <ptr n="Bl.136-137" target="Q.01.19151218.JVH.01.xml"/>
@@ -661,46 +1472,226 @@
                     <head>W</head>
                     <item n="artwork" xml:id="W.0000048">
                         <name type="pref">Wald</name>
+                        <listRelation>
+                            <relation type="http://erlangen-crm.org/current/" name="P14_carried_out_by" active="#P.0000003" passive="#W.0000048"/>
+                        </listRelation>
                         <linkGrp type="files">
                             <ptr n="Bl.199" target="Q.01.19150315.FMA.01.xml"/>
                             <ptr n="Bl.200" target="Q.01.19150315.FMA.02.xml"/>
+                        </linkGrp>
+                    </item>
+                    <item n="catalogue" xml:id="W.0000165">
+                        <ref target="http://nbn-resolving.org/urn:nbn:de:bvb:255-dtl-0000002284"/>
+                        <name>Katalog</name>
+                        <name type="pref">Walden, Herwarth (Hrsg.): Der Sturm. Einunddreißigste Ausstellung. Jacoba van Heemskerck.
+                            Berlin 1915 (Ausstellungskatalog).</name>
+                        <listRelation>
+                            <relation type="http://erlangen-crm.org/current/" name="P14_carried_out_by" active="#P.0000001" passive="#W.0000165"/>
+                        </listRelation>
+                        <linkGrp type="files">
+                            <ptr n="Bl.69-70" target="Q.01.19150315.JVH.02.xml"/>
+                        </linkGrp>
+                    </item>
+                    <item n="catalogue" xml:id="W.0000166">
+                        <ref target="http://nbn-resolving.org/urn:nbn:de:bvb:255-dtl-0000002843"/>
+                        <name>Katalog</name>
+                        <name type="pref">Walden, Herwarth (Hrsg.): Der Sturm. Gemäldeausstellung in Brandenburg/Havel. Neue Kunst.
+                            Berlin 1915 (Ausstellungskatalog).</name>
+                        <listRelation>
+                            <relation type="http://erlangen-crm.org/current/" name="P14_carried_out_by" active="#P.0000001" passive="#W.0000166"/>
+                        </listRelation>
+                        <linkGrp type="files">
+                            <ptr n="Bl.122-123" target="Q.01.19151120.JVH.02.xml"/>
+                        </linkGrp>
+                    </item>
+                    <item n="catalogue" xml:id="W.0000103">
+                        <ref target="https://nbn-resolving.org/urn:nbn:de:bvb:255-dtl-0000003076"/>
+                        <name>Katalog</name>
+                        <name type="pref">Walden, Herwarth (Hrsg.): Der Sturm. International Kunst.
+                            Ekspressionister Og Kubister. Malerier Og Skulpturer. Kopenhagen 1918
+                            (Ausstellungskatalog).</name>
+                        <listRelation>
+                            <relation type="http://erlangen-crm.org/current/" name="P14_carried_out_by" active="#P.0000001" passive="#W.0000103"/>
+                        </listRelation>
+                        <linkGrp type="files">
+                            <ptr n="Bl.352" target="Q.01.19190124.JVH.01.xml"/>
+                            <ptr n="Bl.351" target="Q.01.19190106.JVH.02.xml"/>
+                        </linkGrp>
+                    </item>
+                    <item n="catalogue" xml:id="W.0000116">
+                        <ref target="https://nbn-resolving.org/urn:nbn:de:bvb:255-dtl-0000001350"/>
+                        <name>Katalog</name>
+                        <name type="pref">Walden, Herwarth (Hrsg.): Der Sturm. Neunundsiebzigste
+                            Ausstellung. Johannes Molzahn, Karl Herrmann, Jacoba van Heemskerck.
+                            Berlin 1919 (Ausstellungskatalog).</name>
+                        <listRelation>
+                            <relation type="http://erlangen-crm.org/current/" name="P14_carried_out_by" active="#P.0000001" passive="#W.0000116"/>
+                        </listRelation>
+                        <linkGrp type="files">
+                            <ptr n="Bl.365" target="Q.01.19190905.JVH.01.xml"/>
+                        </linkGrp>
+                    </item>
+                    <item n="catalogue" xml:id="W.0000168">
+                        <ref target="http://nbn-resolving.org/urn:nbn:de:bvb:255-dtl-0000002325"/>
+                        <name>Katalog</name>
+                        <name type="pref">Walden, Herwarth (Hrsg.): Der Sturm. Sechsunddreißigste Ausstellung. Graphische Werke. Berlin 1915 (Ausstellungskatalog).</name>
+                        <listRelation>
+                            <relation type="http://erlangen-crm.org/current/" name="P14_carried_out_by" active="#P.0000001" passive="#W.0000168"/>
+                        </listRelation>
+                        <linkGrp type="files">
+                            <ptr n="Bl.130-131" target="Q.01.19151209.JVH.02.xml"/>
+                        </linkGrp>
+                    </item>
+                    <item n="catalogue" xml:id="W.0000157">
+                        <ref target="https://nbn-resolving.org/urn:nbn:de:bvb:255-dtl-0000002561"/>
+                        <name type="pref">Walden, Herwarth (Hrsg.): Der Sturm. Sechsundvierzigste
+                            Ausstellung – Franz Marc. Gedächtnis-Ausstellung. Berlin, Der Sturm,
+                            1916 (Ausstellungskatalog).</name>
+                        <listRelation>
+                            <relation type="http://erlangen-crm.org/current/" name="P14_carried_out_by" active="#P.0000001" passive="#W.0000157"/>
+                        </listRelation>
+                        <linkGrp type="files">
+                            <ptr n="Bl.375" target="Q.01.19191212.JVH.01.xml"/>
+                        </linkGrp>
+                    </item>
+                    <item n="catalogue" xml:id="W.0000156">
+                        <ref target="https://nbn-resolving.org/urn:nbn:de:bvb:255-dtl-0000002303"/>
+                        <name type="pref">Walden, Herwarth (Hrsg.): Der Sturm. Vierunddreißigste
+                            Ausstellung – Franz Marc. Berlin, Der Sturm, 1915
+                            (Ausstellungskatalog).</name>
+                        <listRelation>
+                            <relation type="http://erlangen-crm.org/current/" name="P14_carried_out_by" active="#P.0000001" passive="#W.0000156"/>
+                        </listRelation>
+                        <linkGrp type="files">
+                            <ptr n="Bl.375" target="Q.01.19191212.JVH.01.xml"/>
+                        </linkGrp>
+                    </item>
+                    <item n="book" xml:id="W.0000154">
+                        <name>Expressionismus. Die Kunstwende.</name>
+                        <name type="pref">Walden, Herwarth (Hrsg.): Expressionismus. Die Kunstwende.
+                            Berlin 1918.</name>
+                        <listRelation>
+                            <relation type="http://erlangen-crm.org/current/" name="P14_carried_out_by" active="#P.0000001" passive="#W.0000154"/>
+                        </listRelation>
+                        <linkGrp type="files">
+                            <ptr n="Bl.375" target="Q.01.19191212.JVH.01.xml"/>
+                        </linkGrp>
+                    </item>
+                    <item n="article" xml:id="W.0000053">
+                        <ref target="https://doi.org/10.11588/diglit.37113#0063"/>
+                        <name type="pref">Walden, Herwarth: Nachruf auf August Stramm. In: Der
+                            Sturm. Halbmonatsschrift für Kultur und die Künste 11/12 (1915).</name>
+                        <listRelation>
+                            <relation type="http://erlangen-crm.org/current/" name="P14_carried_out_by" active="#P.0000001" passive="#W.0000053"/>
+                        </listRelation>
+                        <linkGrp type="files">
+                            <ptr n="Bl.213" target="Q.01.19151010.FMA.01.xml"/>
                         </linkGrp>
                     </item>
                     <item n="artwork" xml:id="W.0000045">
                         <name type="pref">Wasserfall</name>
                         <name>Wasserfall am Eis</name>
                         <name>Wasserfall im Eis</name>
+                        <listRelation>
+                            <relation type="http://erlangen-crm.org/current/" name="P14_carried_out_by" active="#P.0000003" passive="#W.0000045"/>
+                        </listRelation>
                         <linkGrp type="files">
+                            <ptr n="Bl.217" target="Q.01.19151125.FMA.01.xml"/>
                             <ptr n="Bl.199" target="Q.01.19150315.FMA.01.xml"/>
                             <ptr n="Bl.200" target="Q.01.19150315.FMA.02.xml"/>
-                            <ptr n="Bl.217" target="Q.01.19151125.FMA.01.xml"/>
                             <ptr n="Bl.185" target="Q.01.19140414.FMA.01.xml"/>
                         </linkGrp>
                     </item>
                 </list>
                 <list n="works">
                     <head>Z</head>
+                    <item n="artwork" xml:id="W.0000003">
+                        <ref target="https://doi.org/10.11588/diglit.33880#0139"/>
+                        <name type="pref">Zeichnung</name>
+                        <listRelation>
+                            <relation type="http://erlangen-crm.org/current/" name="P14_carried_out_by" active="#P.0000025" passive="#W.0000003"/>
+                        </listRelation>
+                        <linkGrp type="files">
+                            <ptr n="Bl.58-59" target="Q.01.19150217.JVH.01.xml"/>
+                        </linkGrp>
+                    </item>
                     <item n="artwork" xml:id="W.0000002">
                         <ref target="https://doi.org/10.11588/diglit.33880#0069"/>
                         <name type="pref">Zeichnung</name>
+                        <listRelation>
+                            <relation type="http://erlangen-crm.org/current/" name="P14_carried_out_by" active="#P.0000004" passive="#W.0000002"/>
+                        </listRelation>
                         <linkGrp type="files">
                             <ptr n="Bl.20" target="Q.01.19140822.JVH.01.xml"/>
                         </linkGrp>
                     </item>
-                    <item n="artwork" xml:id="W.0000003">
-                        <ref target="https://doi.org/10.11588/diglit.33880#0139"/>
-                        <name type="pref">Zeichnung</name>
+                    <item n="artwork" xml:id="W.0000149">
+                        <name type="pref">Zeichnung 22</name>
+                        <listRelation>
+                            <relation type="http://erlangen-crm.org/current/" name="P14_carried_out_by" active="#P.0000004" passive="#W.0000149"/>
+                        </listRelation>
                         <linkGrp type="files">
-                            <ptr n="Bl.58-59" target="Q.01.19150217.JVH.01.xml"/>
+                            <ptr n="Bl.352" target="Q.01.19190124.JVH.01.xml"/>
+                        </linkGrp>
+                    </item>
+                    <item n="artwork" xml:id="W.0000148">
+                        <name type="pref">Zeichnung 24</name>
+                        <listRelation>
+                            <relation type="http://erlangen-crm.org/current/" name="P14_carried_out_by" active="#P.0000004" passive="#W.0000148"/>
+                        </listRelation>
+                        <linkGrp type="files">
+                            <ptr n="Bl.352" target="Q.01.19190124.JVH.01.xml"/>
+                        </linkGrp>
+                    </item>
+                    <item n="artwork" xml:id="W.0000147">
+                        <name type="pref">Zeichnung 28</name>
+                        <listRelation>
+                            <relation type="http://erlangen-crm.org/current/" name="P14_carried_out_by" active="#P.0000004" passive="#W.0000147"/>
+                        </listRelation>
+                        <linkGrp type="files">
+                            <ptr n="Bl.352" target="Q.01.19190124.JVH.01.xml"/>
+                        </linkGrp>
+                    </item>
+                    <item n="artwork" xml:id="W.0000119">
+                        <name type="pref">Zeichnung 39</name>
+                        <listRelation>
+                            <relation type="http://erlangen-crm.org/current/" name="P14_carried_out_by" active="#P.0000004" passive="#W.0000119"/>
+                        </listRelation>
+                        <linkGrp type="files">
+                            <ptr n="Bl.377" target="Q.01.19200114.JVH.01.xml"/>
                         </linkGrp>
                     </item>
                     <item n="artwork" xml:id="W.0000049">
                         <name type="pref">Zeichnungen</name>
                         <name>6. Zeichnungen</name>
+                        <name>Zeichnungen</name>
+                        <listRelation>
+                            <relation type="http://erlangen-crm.org/current/" name="P14_carried_out_by" active="#P.0000004" passive="#W.0000049"/>
+                        </listRelation>
                         <linkGrp type="files">
-                            <ptr n="Bl.67-68" target="Q.01.19150308.JVH.01.xml"/>
                             <ptr n="Bl.60-62" target="Q.01.19150228.JVH.01.xml"/>
                             <ptr n="Bl.65-66" target="Q.01.19150303.JVH.01.xml"/>
+                            <ptr n="Bl.67-68" target="Q.01.19150308.JVH.01.xml"/>
+                            <ptr n="Bl.63-64" target="Q.01.19150228.JVH.02.xml"/>
+                            <ptr n="Bl.69-70" target="Q.01.19150315.JVH.02.xml"/>
+                        </linkGrp>
+                    </item>
+                    <item n="artwork" xml:id="W.0000089">
+                        <name type="pref">Zwei Glasmosaiken</name>
+                        <listRelation>
+                            <relation type="http://erlangen-crm.org/current/" name="P14_carried_out_by" active="#P.0000004" passive="#W.0000089"/>
+                        </listRelation>
+                        <linkGrp type="files">
+                            <ptr n="Bl.391" target="Q.01.19210204.JVH.01.xml"/>
+                        </linkGrp>
+                    </item>
+                    <item n="artwork" xml:id="W.0000161">
+                        <name type="pref">zwei Holzschnitte</name>
+                        <listRelation>
+                            <relation type="http://erlangen-crm.org/current/" name="P14_carried_out_by" active="#P.0000004" passive="#W.0000161"/>
+                        </listRelation>
+                        <linkGrp type="files">
+                            <ptr n="Bl.395" target="Q.01.19210824.JVH.01.xml"/>
                         </linkGrp>
                     </item>
                 </list>

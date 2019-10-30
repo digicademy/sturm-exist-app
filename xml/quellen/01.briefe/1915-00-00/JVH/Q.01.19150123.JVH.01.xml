@@ -58,12 +58,13 @@
                         <repository>Staatsbibliothek zu Berlin Preußischer Kulturbesitz,
                             Handschriftenabteilung, Sturm-Archiv I, Heemskerck, Jacoba
                             van</repository>
-                        <idno type="uri">http://kalliope-verbund.info/DE-611-HS-1910729</idno>
+                        <idno type="uri">http://resolver.staatsbibliothek-berlin.de/SBB0000D96000000000</idno>
                     </msIdentifier>
                 </msDesc>
             </sourceDesc>
         </fileDesc>
-        <xenoData type="uri">http://digital.staatsbibliothek-berlin.de/metsresolver/PPN746594429</xenoData>
+        <xenoData type="uri">http://kalliope-verbund.info/DE-611-HS-1910729</xenoData>
+        <xenoData type="url">http://content.staatsbibliothek-berlin.de/dc/PPN746594429.mets.xml</xenoData>
         <profileDesc>
             <correspDesc key="Bl.49-50" ref="https://sturm-edition.de/id/Q.01.19150123.JVH.01">
                 <correspAction type="sent">
@@ -76,12 +77,19 @@
                 <correspAction type="received">
                     <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth
                         Walden</persName>
-                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>
+                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950159">Potsdamerstrasse 134a, Berlin W.9.</placeName>
                 </correspAction>
             </correspDesc>
         </profileDesc>
         <revisionDesc>
             <listChange>
+                <change>
+                    <date when="2019-07-25" n="2"/>
+                    <p>URL zur METS-Datei der Staatsbibliothek zu Berlin aktualisiert innerhalb von :xenoData und zusätzliches :xenoData mit permanenter URI zum Kalliope-Findbucheintrag.</p>
+                    <p>:idno URL innerhalb von :msIdentifier durch permanente URL zum entsprechenden Datensatz der Staatsbibliothek zu Berlin gesetzt</p>
+                    <p>Standardisierung der Kommentierungstiefe, keine spezifischen Erklärungen von Fremdwörtern außerhalb des Sturm-Kontextes</p>
+                    <p>Normdaten (Geonames) zu Stadt Berlin korrigiert (zuvor fälschlicherweise Verweis auf "Land Berlin")</p>
+                </change>
                 <change>
                     <date when="2018-07-16" n="1"/>
                 </change>
@@ -110,7 +118,7 @@
                     jetzt alle ausländische Zeitungen lesen. Was dauert es doch lange und ich
                     fürchte so dasz es nicht bald vorüber sein wird. Was sagen Sie<pb xml:id="S.49v" n="49v" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D96000000002"/> von
                     meine Ausstellung soll die in <date when="1915-03">März</date> oder <date when="1915-04">April</date> sein oder wollen wir bis <date when="1915-10">October</date> warten.<note>Im März 1915 fand in der Sturm-Galerie die 31.
-                        Sturm-Ausstellung mit Werken Jacoba van Heemskercks statt. Vgl. Enders,
+                        STURM-Ausstellung mit Werken Jacoba van Heemskercks statt. Vgl. Enders,
                         Rainer: Ausstellungskataloge der STURM-Galerie. URL: <ref target="https://www.arthistoricum.net/themen/portale/sturm/ausstellungskataloge/">https://www.arthistoricum.net/themen/portale/sturm/ausstellungskataloge/</ref>
                         (Aufruf 06.04.2017).</note> Was finden Sie am besten, ist es besser dasz das
                     Publikum mein Arbeiten öfters bleibt sehen, oder denkt man jetzt nicht an Kunst.
@@ -120,8 +128,8 @@
                     grosse Kräft von <placeName key="O.0000014" ref="http://sws.geonames.org/2921044">Deutschland</placeName> nicht fühlt,
                     die Maler hatten in<pb xml:id="S.50r" n="50r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D96000000003"/>
                     Monaten nichts verkauft, ich fand es so schön sagen zu können dasz ich in
-                        <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Berlin</placeName> auf ein Ausstellung in <date when="1914-12">December</date> verkauft hätte.<note>Von November bis Dezember 1914 fand
-                        die 29. Sturm-Ausstellung statt, unter anderem mit Werken Jacoba van
+                        <placeName key="O.0000002" ref="http://sws.geonames.org/2950159">Berlin</placeName> auf ein Ausstellung in <date when="1914-12">December</date> verkauft hätte.<note>Von November bis Dezember 1914 fand
+                        die 29. STURM-Ausstellung statt, unter anderem mit Werken Jacoba van
                         Heemskercks. Vgl. Enders, Rainer: Ausstellungskataloge der STURM-Galerie.
                         URL: <ref target="https://www.arthistoricum.net/themen/portale/sturm/ausstellungskataloge/">https://www.arthistoricum.net/themen/portale/sturm/ausstellungskataloge/</ref>
                         (Aufruf 06.04.2017).</note> Mit die Mappe bin ich eben sehr beschäftigt, und

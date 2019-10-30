@@ -1,0 +1,146 @@
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Q.01.19211020.JVH.01">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Jacoba van Heemskerck an Herwarth Walden, 20. Oktober 1921, Hotel Erbprinz,
+                    Weimar</title>
+                <editor>
+                    <persName ref="https://orcid.org/0000-0003-1208-6131">
+                        <forename>Anne</forename>
+                        <surname>Lorenz</surname>
+                    </persName>
+                </editor>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0002-0953-2818">
+                        <forename>Torsten</forename>
+                        <surname>Schrade</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeber</note>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0003-2423-7144">
+                        <forename>Marjam</forename>
+                        <surname>Trautmann</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeberin</note>
+                    </resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="http://www.adwmainz.de">Akademie der Wissenschaften und der
+                        Literatur | Mainz</ref>
+                </publisher>
+                <pubPlace ref="http://sws.geonames.org/2874225">Mainz</pubPlace>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/"> This file is
+                        licensed under the terms of the Creative-Commons-License CC BY 4.0
+                    </licence>
+                </availability>
+                <idno type="file">Q.01.19211020.JVH.01.xml</idno>
+                <idno type="uri">https://sturm-edition.de/id/Q.01.19211020.JVH.01</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Q.01.19211020.JVH.01, Jacoba van Heemskerck an Herwarth Walden, 20. Oktober
+                    1921, Hotel Erbprinz, Weimar, bearbeitet von Anne Lorenz, in: Der STURM.
+                    Digitale Quellenedition zur Geschichte der internationalen Avantgarde,
+                    erarbeitet und herausgegeben von Marjam Trautmann und Torsten Schrade. Mainz,
+                    Akademie der Wissenschaften und der Literatur.</bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <country>DE</country>
+                        <settlement>Berlin</settlement>
+                        <repository>Staatsbibliothek zu Berlin Preußischer Kulturbesitz,
+                            Handschriftenabteilung, Sturm-Archiv I, Heemskerck, Jacoba
+                            van</repository>
+                        <idno type="uri">http://resolver.staatsbibliothek-berlin.de/SBB0000DA4B00000000</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <xenoData type="uri">http://kalliope-verbund.info/DE-611-HS-1914090</xenoData>
+        <xenoData type="url">https://content.staatsbibliothek-berlin.de/dc/PPN746597401.mets.xml</xenoData>
+        <profileDesc>
+            <correspDesc key="Bl.400" ref="https://sturm-edition.de/id/Q.01.19211020.JVH.01">
+                <correspAction type="sent">
+                    <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jacoba van
+                        Heemskerck</persName>
+                    <placeName key="O.0000085" ref="http://sws.geonames.org/2812482">Hotel Erbprinz,
+                        Weimar</placeName>
+                    <date when="1921-10-20"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth
+                        Walden</persName>
+                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change>
+                    <date when="2019-08-26" n="1"/>
+                </change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic n="400r" url="http://content.staatsbibliothek-berlin.de/dms/PPN746597401/500/0/00000001.jpg"/>
+        <graphic n="400v" url="http://content.staatsbibliothek-berlin.de/dms/PPN746597401/500/0/00000002.jpg"/>
+        <graphic n="Farbkeil" url="http://content.staatsbibliothek-berlin.de/dms/PPN746597401/500/0/00000003.jpg"/>
+    </facsimile>
+    <text type="postcard">
+        <body>
+            <div type="address">
+                <pb xml:id="S.400r" n="400r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000DA4B00000001"/>
+                <ab type="recipient">
+                    <address>
+                        <addrLine>Herrn Direktor</addrLine>
+                        <addrLine>Herwarth Walden</addrLine>
+                        <addrLine>Verlag der Sturm.</addrLine>
+                        <addrLine>Berlin W 9/</addrLine>
+                        <addrLine>134<hi rend="super">
+                                <hi rend="twice-underline">a</hi>
+                            </hi> Potsdamerstrasse.</addrLine>
+                    </address>
+                </ab>
+            </div>
+            <div type="content">
+                <pb xml:id="S.400v" n="400v" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000DA4B00000002"/>
+                <opener>
+                    <dateline>Hotel Erbprinz <placeName key="O.0000085" ref="http://sws.geonames.org/2812482">Weimar</placeName>. <date when="1921-10-20">20.10.21</date>
+                    </dateline>
+                    <salute>L. <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">H.</persName>
+                    </salute>
+                </opener>
+                <p>Schreibe bitte an meine oben stehende Adresse ob du meine Bilder in <hi rend="underline">eine</hi> Kiste verpackt in guter Ordnung empfangen hast.
+                    Ich werde bestimmt <date when="1921-11-06">6. November</date> bei die Eröffnung
+                    der ausstellung in <placeName key="O.0000002" ref="http://sws.geonames.org/2950159">Berlin</placeName> sein und eine Woche
+                        bleiben<note>Die 102. STURM-Ausstellung war Jacoba van Heemskerck gewidmet
+                        und zeigte laut Katalog einundfünzig ihrer Werke. Vgl. den <ref target="https://nbn-resolving.org/urn:nbn:de:bvb:255-dtl-0000001661">Katalog zur Ausstellung</ref>, Walden, Herwarth [Hrsg.]: Der Sturm.
+                        Hundertzweite Ausstellung. Jacoba van Heemskerck. Gemälde/Aquarelle,
+                        Gesamtschau des Sturm. Berlin 1921.</note> Können wir ruhig hin gehen oder
+                    gibt es zu viel Streiks?<note>Durch die einsetzende Geldentwertung begann bis
+                        zur deutschen Hyperinflation 1923 ein massiver Lohnabbau, der immer wieder
+                        zu organisierten Proteststreiks führte. Am 1. Oktober 1921 begann der große
+                        Streik im Berliner Gastgewerbe, der erst am 7. November beigelegt wurde.
+                        Vgl. „Der Kampf der gastwirtschaftlichen Arbeitnehmer“. In: Vorwärts, Jg.
+                        38, Nr. 463, 1.10.1921, S. 4, URL: <ref target="http://fes.imageware.de/fes/web/index.html?open=VW38462&amp;page=3">http://fes.imageware.de/fes/web/index.html?open=VW38462&amp;page=3</ref> (Aufruf 31.08.2019)
+                        u. „Gewerkschaftbewegung“. In: Vorwärts, Jg. 38, Nr. 527, 8.11.1921, S. 4,
+                        URL: <ref target="http://fes.imageware.de/fes/web/index.html?open=VW38527&amp;page=3;">http://fes.imageware.de/fes/web/index.html?open=VW38527&amp;page=3</ref> (Aufruf 31.08.2019).</note>
+                    Möglich komme ich früher. Deine Antwort entgegen sehend</p>
+                <closer>
+                    <salute>mit viele Grüsse</salute>
+                    <signed>deine <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">
+                                JacobavanHeem<hi rend="twice-underline">skerck</hi>
+                        </persName>.</signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

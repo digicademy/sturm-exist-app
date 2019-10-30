@@ -1,0 +1,155 @@
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Q.01.19150123.JVH.01">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Jacoba van Heemskerck an Herwarth Walden, 23. Januar 1915, 35, Nassau
+                    Zuilensteinstraat, Den Haag</title>
+                <editor>
+                    <persName ref="https://orcid.org/0000-0003-2423-7144">
+                        <forename>Marjam</forename>
+                        <surname>Trautmann</surname>
+                    </persName>
+                </editor>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0002-0953-2818">
+                        <forename>Torsten</forename>
+                        <surname>Schrade</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeber</note>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0003-2423-7144">
+                        <forename>Marjam</forename>
+                        <surname>Trautmann</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeberin</note>
+                    </resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="http://www.adwmainz.de">Akademie der Wissenschaften und der
+                        Literatur | Mainz</ref>
+                </publisher>
+                <pubPlace ref="http://sws.geonames.org/2874225">Mainz</pubPlace>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/"> This file is
+                        licensed under the terms of the Creative-Commons-License CC BY 4.0
+                    </licence>
+                </availability>
+                <idno type="file">Q.01.19150123.JVH.01.v1.xml</idno>
+                <idno type="uri">https://sturm-edition.de/id/Q.01.19150123.JVH.01</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Q.01.19150123.JVH.01, Jacoba van Heemskerck an Herwarth Walden, 23. Januar
+                    1915, 35, Nassau Zuilensteinstraat, Den Haag, bearbeitet von Marjam Trautmann,
+                    in: Der STURM. Digitale Quellenedition zur Geschichte der internationalen
+                    Avantgarde, erarbeitet und herausgegeben von Marjam Trautmann 
+                    und Torsten Schrade. Mainz, Akademie der Wissenschaften und der Literatur.</bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <country>DE</country>
+                        <settlement>Berlin</settlement>
+                        <repository>Staatsbibliothek zu Berlin Preußischer Kulturbesitz,
+                            Handschriftenabteilung, Sturm-Archiv I, Heemskerck, Jacoba
+                            van</repository>
+                        <idno type="uri">http://kalliope-verbund.info/DE-611-HS-1910729</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <xenoData type="uri">http://digital.staatsbibliothek-berlin.de/metsresolver/PPN746594429</xenoData>
+        <profileDesc>
+            <correspDesc key="Bl.49-50" ref="https://sturm-edition.de/id/Q.01.19150123.JVH.01">
+                <correspAction type="sent">
+                    <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jacoba van
+                        Heemskerck</persName>
+                    <placeName key="O.0000001" ref="http://sws.geonames.org/2747373">35, Nassau
+                        Zuilensteinstraat, Den Haag</placeName>
+                    <date when="1915-01-23"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth
+                        Walden</persName>
+                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change>
+                    <date when="2018-07-16" n="1"/>
+                </change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic n="49r" url="http://content.staatsbibliothek-berlin.de/dms/PPN746594429/800/0/00000001.jpg"/>
+        <graphic n="49v" url="http://content.staatsbibliothek-berlin.de/dms/PPN746594429/800/0/00000002.jpg"/>
+        <graphic n="50r" url="http://content.staatsbibliothek-berlin.de/dms/PPN746594429/800/0/00000003.jpg"/>
+        <graphic n="50v" url="http://content.staatsbibliothek-berlin.de/dms/PPN746594429/800/0/00000004.jpg"/>
+        <graphic n="Farbkeil" url="http://content.staatsbibliothek-berlin.de/dms/PPN746594429/800/0/00000005.jpg"/>
+    </facsimile>
+    <text type="letter">
+        <body>
+            <div type="content">
+                <pb xml:id="S.49r" n="49r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D96000000001"/>
+
+                <opener>
+                    <dateline>
+                        <date when="1915-01-23">23. Jan 1915</date>.</dateline>
+                    <salute> Sehr wehrter Herr <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Walden</persName>. </salute>
+                </opener>
+                <p>Viel Dank für die Zeitungen, schreiben Sie doch ob Sie wieder holländische
+                    Zeitungen wünschen, ich habe Ihnen keine mehr geschickt da ich dachte dasz Sie
+                    jetzt alle ausländische Zeitungen lesen. Was dauert es doch lange und ich
+                    fürchte so dasz es nicht bald vorüber sein wird. Was sagen Sie<pb xml:id="S.49v" n="49v" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D96000000002"/> von
+                    meine Ausstellung soll die in <date when="1915-03">März</date> oder <date when="1915-04">April</date> sein oder wollen wir bis <date when="1915-10">October</date> warten.<note>Im März 1915 fand in der Sturm-Galerie die 31.
+                        STURM-Ausstellung mit Werken Jacoba van Heemskercks statt. Vgl. Enders,
+                        Rainer: Ausstellungskataloge der STURM-Galerie. URL: <ref target="https://www.arthistoricum.net/themen/portale/sturm/ausstellungskataloge/">https://www.arthistoricum.net/themen/portale/sturm/ausstellungskataloge/</ref>
+                        (Aufruf 06.04.2017).</note> Was finden Sie am besten, ist es besser dasz das
+                    Publikum mein Arbeiten öfters bleibt sehen, oder denkt man jetzt nicht an Kunst.
+                    Für Verkauf denke ich dasz nichts umgehen wird. Ich habe eben viele Holländer
+                    gesprochen die immer in <placeName key="O.0000010" ref="http://sws.geonames.org/2988507">Paris</placeName> arbeiten und
+                    natürlich sehr für die Franzosen sind, dasz finde ich immer so dumm dasz man die
+                    grosse Kräft von <placeName key="O.0000014" ref="http://sws.geonames.org/2921044">Deutschland</placeName> nicht fühlt,
+                    die Maler hatten in<pb xml:id="S.50r" n="50r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D96000000003"/>
+                    Monaten nichts verkauft, ich fand es so schön sagen zu können dasz ich in
+                        <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Berlin</placeName> auf ein Ausstellung in <date when="1914-12">December</date> verkauft hätte.<note>Von November bis Dezember 1914 fand
+                        die 29. STURM-Ausstellung statt, unter anderem mit Werken Jacoba van
+                        Heemskercks. Vgl. Enders, Rainer: Ausstellungskataloge der STURM-Galerie.
+                        URL: <ref target="https://www.arthistoricum.net/themen/portale/sturm/ausstellungskataloge/">https://www.arthistoricum.net/themen/portale/sturm/ausstellungskataloge/</ref>
+                        (Aufruf 06.04.2017).</note> Mit die Mappe bin ich eben sehr beschäftigt, und
+                    dann werde ich auch mehrere Holzschnitten machen. Viel dank für das Sturm <term type="book" key="W.0000066" ref="http://d-nb.info/578835940" source="https://doi.org/10.11588/diglit.27084">Buch</term>
+                    <note>Behne,
+                        Adolf: Zur Neuen Kunst. Berlin 1915.</note> von Dr <persName key="P.0000021" ref="http://d-nb.info/gnd/119191164">Behne</persName> ich werde die 50 Pf:
+                    schicken. Das <term type="book" key="W.0000066" ref="http://d-nb.info/578835940" source="https://doi.org/10.11588/diglit.27084">Buch</term> ist ganz gut
+                    geschrieben und für jeden zu verstehen, wir kommen doch immer weiter. Sehr viel
+                    Dank das Sie meine <term type="artwork" key="W.0000006" source="https://doi.org/10.11588/diglit.33880#0127">Holzschnitt</term>
+                    <note>Walden, Herwarth [Hrsg.]: Der Sturm.
+                        Halbmonatsschrift für Kultur und die Künste 19/20 (1915), S. 125.</note> im
+                        <term type="journal" key="W.0000068" source="https://doi.org/10.11588/diglit.33880.15" ref="http://d-nb.info/gnd/4058273-5">Sturm</term>
+                    <note>Walden, Herwarth
+                        [Hrsg.]: Der Sturm. Halbmonatsschrift für Kultur und die Künste 19/20
+                        (1915).</note> veröffentlicht haben. Schade dasz Sie nicht nach <placeName key="O.0000003" ref="http://sws.geonames.org/2750405">Holland</placeName>
+                    komme es wäre schön über alles<pb xml:id="S.50v" n="50v" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D96000000004"/>
+                    plaudern. Wie geht es Ihre <persName key="P.0000002" ref="http://d-nb.info/gnd/118891456">Frau</persName> ist sie wieder ganz
+                    gesund? Ich habe gehört dasz <persName key="P.0000030" ref="http://d-nb.info/gnd/118714708">Kahnweiler</persName> kein Geschäft
+                    mehr hat in <placeName key="O.0000010" ref="http://sws.geonames.org/2988507">Paris</placeName> er konnte sich nicht halten. Wenn Sie Zeit haben höre ich
+                    dann was am besten ist. Sie können thun was Sie wollen ich folge Ihre Rath
+                    auf.</p>
+                <closer>
+                    <salute>Herzlichste Grüssen für Sie beiden</salute>
+                    <signed>Ihre <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jaco<hi rend="twice-underline">ba vanHeemskerck</hi>
+                        </persName>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

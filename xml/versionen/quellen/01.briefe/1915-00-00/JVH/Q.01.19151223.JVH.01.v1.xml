@@ -1,0 +1,153 @@
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Q.01.19151223.JVH.01">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Jacoba van Heemskerck an Herwarth Walden, 23. Dezember 1915, 35, Nassau Zuilensteinstraat, Den Haag</title>
+                <editor>
+                    <persName ref="https://orcid.org/0000-0003-2423-7144">
+                        <forename>Marjam</forename>
+                        <surname>Trautmann</surname>
+                    </persName>
+                </editor>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0002-0953-2818">
+                        <forename>Torsten</forename>
+                        <surname>Schrade</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeber</note>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0003-2423-7144">
+                        <forename>Marjam</forename>
+                        <surname>Trautmann</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeberin</note>
+                    </resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="http://www.adwmainz.de">Akademie der Wissenschaften und der Literatur | Mainz</ref>
+                </publisher>
+                <pubPlace ref="http://sws.geonames.org/2874225">Mainz</pubPlace>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        This file is licensed under the terms of the Creative-Commons-License CC BY 4.0
+                    </licence>
+                </availability>
+                <idno type="file">Q.01.19151223.JVH.01.v1.xml</idno>
+                <idno type="uri">https://sturm-edition.de/id/Q.01.19151223.JVH.01</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Q.01.19151223.JVH.01, Jacoba van Heemskerck an Herwarth Walden, 23. Dezember 1915, 35, Nassau Zuilensteinstraat, Den Haag, 
+                    bearbeitet von Marjam Trautmann, in: Der STURM. Digitale Quellenedition zur Geschichte der internationalen 
+                    Avantgarde, erarbeitet und herausgegeben von Marjam Trautmann und Torsten Schrade. 
+                    Mainz, Akademie der Wissenschaften und der Literatur.
+                    </bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <country>DE</country>
+                        <settlement>Berlin</settlement>
+                        <repository>Staatsbibliothek zu Berlin Preußischer Kulturbesitz,
+                     Handschriftenabteilung, Sturm-Archiv I, Heemskerck, Jacoba van</repository>
+                        <idno type="uri">http://kalliope-verbund.info/DE-611-HS-1911254</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <xenoData type="uri">http://digital.staatsbibliothek-berlin.de/metsresolver/PPN746595115</xenoData>
+        <profileDesc>
+            <correspDesc key="Bl.138" ref="https://sturm-edition.de/id/Q.01.19151223.JVH.01">
+                <correspAction type="sent">
+                    <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jacoba van Heemskerck</persName>
+                    <placeName key="O.0000001" ref="http://sws.geonames.org/2747373">35, Nassau Zuilensteinstraat, Den Haag</placeName>                    
+                    <date when="1915-12-23"/>              
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth Walden</persName>
+                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change>
+                    <date when="2018-07-16" n="1"/>
+                </change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic n="138r" url="http://content.staatsbibliothek-berlin.de/dms/PPN746595115/800/0/00000001.jpg"/>
+        <graphic n="138v" url="http://content.staatsbibliothek-berlin.de/dms/PPN746595115/800/0/00000002.jpg"/>
+        <graphic n="Farbkeil" url="http://content.staatsbibliothek-berlin.de/dms/PPN746595115/800/0/00000003.jpg"/>
+    </facsimile>
+    <text type="postcard">
+        <body>
+            <div type="address">
+                <pb xml:id="S.138r.01" n="138r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D98E00000001"/>
+                <ab type="sender">
+                    <address>
+                        <addrLine>35. Nassau Zuilensteinstraat</addrLine>
+                        <addrLine>Haag. Holland</addrLine>
+                    </address>
+                </ab>
+                <ab type="recipient">
+                    <address>
+                        <addrLine>Herr<hi rend="underline">n Herwarth Walden</hi>
+                        </addrLine>
+                        <addrLine>Verlag Der Sturm.</addrLine>
+                        <addrLine>134<hi rend="super">
+                                <hi rend="underline">a</hi>
+                            </hi> Potsdamerstrasse</addrLine>
+                        <addrLine>
+                            <hi rend="underline">Berlin</hi> W 9/.</addrLine>
+                        <addrLine>Deuts<hi rend="underline">chland</hi>
+                        </addrLine>
+                    </address>
+                </ab>
+            </div>
+            <div type="content">
+            <pb xml:id="S.138v" n="138v" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D98E00000002"/>
+            
+                <opener>
+                    <salute>Sehr wehrter Herr <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">W</persName>.</salute>
+                </opener>
+                <p>Heute morgen Ihr Brief vom <date when="1915-12-21">21. Dez:</date> erhalten. <date when="1915-12-18">Sonnabend</date> habe ich 5. Briefe von Ihnen zusammen empfangen
+               von <date when="1915-12-09">9.</date> bis <date when="1915-12-13">13. Dez:</date>
+               Abends habe ich direct geschrieben ein <ref target="Q.01.19151218.JVH.01">langen Brief</ref> an Ihnen und ein
+               langen Brief an <persName key="P.0000002" ref="http://d-nb.info/gnd/118891456">Nell</persName>. Ich
+               habe sehr vieles verschiedenes gefragt dann auch über uns gehen nach <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Berlin</placeName> man sagt hier dasz es
+               fasst unmöglich ist hin zu kommen und man glaubt dasz bisonders für Frl: <persName key="P.0000008" ref="http://d-nb.info/gnd/136128289">T.</persName> kein Erlaubnis gegeben wird dar
+                    man das Besuch nicht für notwendig halten wird. In mein <ref target="Q.01.19151218.JVH.01">Brief</ref> schrieb ich über alles,
+               bitte schreiben Sie was wir thun müszen wir möchten so s<hi rend="twice-underline">eh</hi>r ge<hi rend="underline">r</hi>n kommen. Selbst diejenigen die schwer
+               Kranken besuchen wollen bekommen am Consulat kein Erlaubniss. Die Bilder sind am <date when="1915-12-15">
+                        <hi rend="underline">15. Dez</hi>:</date> abgeschickt worden mit
+                    <foreign>grande Vitesse</foreign>
+                    <note>„Grande vitesse“ (frz.) heißt im Deutschen
+                  „Hochgeschwindigkeit“. Es ist davon auszugehen, dass Jacoba van Heemskerck hiermit den postalischen Versand per Eilpost meinte.</note>.
+               Ich danke die Damen für die liebe Briefe. Frl: <persName key="P.0000036" ref="http://d-nb.info/gnd/122927486">v. L.</persName> werde ich die Zeitung mit
+               Besprechung schicken. Dank für erhaltene Kritik im <term type="newspaper" key="W.0000072" ref="http://d-nb.info/gnd/4384142-9">Börsencourier</term>. Ich
+               wollte eben ein Brief mit beste Weinachts und Neujahr Wünsche schicken ich will aber
+               warten bis ich von Ihnen höre ob mein Brief<pb xml:id="S.138r.02" n="138r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D98E00000001"/> angekommen
+               ist, so nicht dann werde ich alles wieder schreiben.</p>
+                <closer>
+                    <salute>Herzlichste Wünschen für Sie beiden</salute>
+                    <signed>Ihre <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Ja<hi rend="twice-underline">coba vHeemskerck</hi>
+                        </persName>
+                    </signed>
+                    <dateline>
+                        <date when="1915-12-23">23. De<hi rend="underline">z: 1915</hi>
+                        </date>
+                        <hi rend="underline">.</hi>
+                    </dateline>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

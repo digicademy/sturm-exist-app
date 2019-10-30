@@ -1,0 +1,181 @@
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Q.01.19140925.JVH.01">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Jacoba van Heemskerck an Herwarth Walden, 25. September 1914, Domburg</title>
+                <editor>
+                    <persName ref="https://orcid.org/0000-0003-2423-7144">
+                        <forename>Marjam</forename>
+                        <surname>Trautmann</surname>
+                    </persName>
+                </editor>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0002-0953-2818">
+                        <forename>Torsten</forename>
+                        <surname>Schrade</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeber</note>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0003-2423-7144">
+                        <forename>Marjam</forename>
+                        <surname>Trautmann</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeberin</note>
+                    </resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="http://www.adwmainz.de">Akademie der Wissenschaften und der
+                        Literatur | Mainz</ref>
+                </publisher>
+                <pubPlace ref="http://sws.geonames.org/2874225">Mainz</pubPlace>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/"> This file is
+                        licensed under the terms of the Creative-Commons-License CC BY 4.0
+                    </licence>
+                </availability>
+                <idno type="file">Q.01.19140925.JVH.01.v1.xml</idno>
+                <idno type="uri">https://sturm-edition.de/id/Q.01.19140925.JVH.01</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Q.01.19140925.JVH.01, Jacoba van Heemskerck an Herwarth Walden, 25. September
+                    1914, Domburg, bearbeitet von Marjam Trautmann, in: Der STURM. Digitale
+                    Quellenedition zur Geschichte der internationalen Avantgarde, erarbeitet und
+                    herausgegeben von Marjam Trautmann und Torsten Schrade. Mainz,
+                    Akademie der Wissenschaften und der Literatur. </bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <country>DE</country>
+                        <settlement>Berlin</settlement>
+                        <repository>Staatsbibliothek zu Berlin Preußischer Kulturbesitz,
+                            Handschriftenabteilung, Sturm-Archiv I, Heemskerck, Jacoba
+                            van</repository>
+                        <idno type="uri">http://kalliope-verbund.info/DE-611-HS-1910591</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <xenoData type="uri">http://digital.staatsbibliothek-berlin.de/metsresolver/PPN746594232</xenoData>
+        <profileDesc>
+            <correspDesc key="Bl.23-24" ref="https://sturm-edition.de/id/Q.01.19140925.JVH.01">
+                <correspAction type="sent">
+                    <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jacoba van
+                        Heemskerck</persName>
+                    <placeName key="O.0000004" ref="http://sws.geonames.org/2756746">Loverendale,
+                        Domburg</placeName>
+                    <date when="1914-09-25"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth
+                        Walden</persName>
+                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Berlin</placeName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change>
+                    <date when="2018-07-16" n="1"/>
+                </change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic n="23r" url="http://content.staatsbibliothek-berlin.de/dms/PPN746594232/800/0/00000001.jpg"/>
+        <graphic n="23v" url="http://content.staatsbibliothek-berlin.de/dms/PPN746594232/800/0/00000002.jpg"/>
+        <graphic n="24r" url="http://content.staatsbibliothek-berlin.de/dms/PPN746594232/800/0/00000003.jpg"/>
+        <graphic n="24v" url="http://content.staatsbibliothek-berlin.de/dms/PPN746594232/800/0/00000004.jpg"/>
+        <graphic n="Farbkeil" url="http://content.staatsbibliothek-berlin.de/dms/PPN746594232/800/0/00000005.jpg"/>
+    </facsimile>
+    <text type="letter">
+        <body>
+            <div type="content">
+                <pb xml:id="S.23r" n="23r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D95200000001"/>
+
+                <opener>
+                    <dateline>
+                        <date when="1914-09-25">25. Sept: 1914.</date>
+                    </dateline>
+                    <salute>Sehr geehrter Herr <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Walden</persName>. </salute>
+                </opener>
+
+                <p>Ihr Brief vom <date when="1914-09-11">11 Sept:</date> habe ich am <date when="1914-09-18">18. Sept:</date> empfangen dasz hat sehr lange gedauert.
+                    Ich habe direct um Adressen geschrieben da ich keine Drucker Geschäfte kenne und
+                    erst heute Antwort bekommen. <address rend="inline">
+                        <addrLine>
+                            <hi rend="underline">Firma Monton und Co. Herderstraat 5. <placeName key="O.0000001" ref="http://sws.geonames.org/2747373">Haag</placeName>.</hi> Firm<hi rend="underline">a <persName key="P.0000022" ref="P.0000022">Roelofssen Hüber</persName> und
+                                    <persName key="P.0000023" ref="P.0000023">van
+                                    Santen</persName> <placeName key="O.0000009" ref="http://sws.geonames.org/2759794">Amsterdam</placeName>
+                            </hi>
+                        </addrLine>
+                    </address>. Beide sind die erste Geschäften von<pb xml:id="S.23v" n="23v" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D95200000002"/>
+                    <placeName key="O.0000003" ref="http://sws.geonames.org/2750405">Holland</placeName> ich weisz aber nicht ob sie Deutsch freundlich sind.
+                    Ich habe Ihnen keine Zeitungen geschickt da es keine sehr wichtige Nachrichten
+                    gab. Es dauert doch sehr lange ich hoffe mit Ihnen dasz der Krieg bis Ende
+                    dieses Jahres aus sein wird. Ich arbeite sehr viel Ihr Brief hat mir wieder viel
+                    Mut gegeben. Ich habe wieder einige neue Gemälde fertig und sehr viele Skizzen
+                    und Entwürfen für Gemälde und Zeichnungen gemacht um diesen Winter fertig zu
+                    machen. Die Artisten arbeiten alle so wenig, jetzt sind auch<pb xml:id="S.24r" n="24r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D95200000003"/> hier
+                    einige holländer aus <placeName key="O.0000010" ref="http://sws.geonames.org/2988507">Paris</placeName> aber es ist
+                    schrecklich so wenig Energie immer dasselbe die modernen schlafen ein in
+                        <placeName key="O.0000016" ref="http://sws.geonames.org/3017382">Frankreich</placeName>, und dann so gegen <placeName key="O.0000014" ref="http://sws.geonames.org/2921044">Deutschland</placeName> es ist
+                    lächerlich wir müssen mit und durch <placeName key="O.0000014" ref="http://sws.geonames.org/2921044">Deutschland</placeName> in unsere
+                    Kunst weiter kommen, Sie sind es dem wir dass alles danken, und ich habe viel
+                    mehr vertrauen in Ihnen dann in ganz <placeName key="O.0000010" ref="http://sws.geonames.org/2988507">Paris</placeName>. Das Ende soll
+                    lernen wer recht hat ich oder die Pariser Holländer. Es ist zu dumm ein Krieg
+                    mit Kunst zu mischen. Bitte wenn Sie Zeit haben sagen sie mir dann ob das Holz
+                    für ein Druck <hi rend="underline">23.m.m</hi> sein musz. Sie haben es gesagt
+                    ich habe es<pb xml:id="S.24v" n="24v" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D95200000004"/> aber
+                    vergessen. Hier in <placeName key="O.0000003" ref="http://sws.geonames.org/2750405">Holland</placeName> ist man stets sehr
+                    ernst über Politik unsere Neutralität ist immer eine sehr Ernste sache man
+                    glaubt aber jetzt dass wir neutral beiben können ich hoffe so dass es so bleibt.
+                    Für Handel und alles ist auch für uns der Krieg schrecklich und alles wird noch
+                    so viel schwerer werden wenn es lange dauert.<note>Der Niederlande gelang es,
+                        über die gesamte Kriegszeit hinweg ihre politische und militärische
+                        Neutralität beizubehalten, vor allem wegen der Entscheidung Großbritanniens
+                        und Deutschlands, nicht in die Niederlande einzufallen. Die niederländische
+                        Regierung machte den verschiedenen Kriegsparteien gegenüber wirtschaftliche
+                        Zugeständnisse und reagierte sehr zurückhaltend auf Verletzungen ihrer
+                        Neutralität durch diese. Der wachsenden Gefahr einer deutschen Invasion
+                        entgegenwirkend, tolerierte die niederländische Regierung logistische
+                        Unterstützungen Deutschlands durch die Binnenschiffahrt und die
+                        Verproviantierung deutscher Truppen über das niederländische Eisenbahnnetz.
+                        Vgl. Blom, J.C.H.: Niederlande. In: Enzyklopädie Erster Weltkrieg. Hrsg. v.
+                        Gerhard Hirschfeld [u.a.]. Paderborn [u.a.] 2004, S. 738–741, hier S. 739f;
+                        außerdem zur Situation der Niederlande und weiterer neutraler Staaten wie
+                        der Schweiz und Dänemark siehe: Kruizinga, Samuël: Neutrality. In: The
+                        Cambridge History of the First World War. Bd. 2 The State. Hrsg. v. Jay
+                        Winter. Cambridge 2014, S. 542–575.</note> Prachtvoll dass die Kriegsleihe
+                    4. 20. Milliard gegeben hat,<note>Kriegsanleihen sind eine Form der
+                        Staatsanleihe zur Deckung von Kriegskosten. In Deutschland wurden von 1914
+                        bis 1918 insgesamt neun Kriegsanleihen beworben, die 98 Milliarden Mark
+                        einbrachten. Die Einwerbung von Kriegsanleihen durch den Staat fand über
+                        eine massive Propaganda v.a. über Zeitungen und das Appellieren an den
+                        Patriotismus statt. Die Gläubiger erhofften sich im Falle eines Sieges den
+                        Erhalt hoher Zinsbeträge (die über Reparationszahlungen der Verliererstaaten
+                        gedeckt würden). Vgl. Zilch, Reinhold: Kriegsanleihen. In: Enzyklopädie
+                        Erster Weltkrieg. Hrsg. v. Gerhard Hirschfeld [u.a.]. Paderborn [u.a.] 2004,
+                        S. 627–628.</note> die Einheit vom deutschen Volk ist ist so stark dass es
+                    siegen musz. Jetzt musz ich aufhöre, bitte schreiben Sie auch ob Ihre <persName key="P.0000002" ref="http://d-nb.info/gnd/118891456">Frau</persName> ganz
+                    besser ist. Viele herzliche Grüssen, der neue <term type="journal" key="W.0000068" source="https://doi.org/10.11588/diglit.33880.11" ref="http://d-nb.info/gnd/4058273-5">Sturm</term>
+                    <note>Walden, Herwarth
+                        [Hrsg.]: Der Sturm. Halbmonatsschrift für Kultur und die Künste 12
+                        (1914).</note> habe ich empfangen dass gibt auch wieder Mut.</p>
+
+                <closer>
+                    <salute>Viel liebes für Sie beiden</salute>
+                    <signed>Ihre <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jacoca va<hi rend="twice-underline">nHeemskerck</hi>
+                        </persName>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

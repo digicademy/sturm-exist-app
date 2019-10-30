@@ -54,29 +54,35 @@
                         <country>DE</country>
                         <settlement>Berlin</settlement>
                         <repository>Staatsbibliothek zu Berlin Preußischer Kulturbesitz, Handschriftenabteilung, Sturm-Archiv I, Heemskerck, Jacoba van</repository>
-                        <idno type="uri">http://kalliope-verbund.info/DE-611-HS-1910857</idno>
+                        <idno type="uri">http://resolver.staatsbibliothek-berlin.de/SBB0000D97000000000</idno>
                     </msIdentifier>
                 </msDesc>
             </sourceDesc>
         </fileDesc>
-        <xenoData type="uri">http://digital.staatsbibliothek-berlin.de/metsresolver/PPN746594666</xenoData>
+        <xenoData type="uri">http://kalliope-verbund.info/DE-611-HS-1910857</xenoData>
+        <xenoData type="url">http://content.staatsbibliothek-berlin.de/dc/PPN746594666.mets.xml</xenoData>
         <profileDesc>
             <correspDesc key="Bl.80-81" ref="https://sturm-edition.de/id/Q.01.19150328.JVH.01">
                 <correspAction type="sent">
                     <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jacoba van Heemskerck</persName>
-                    <placeName>
-                        <placeName key="O.0000001" ref="http://sws.geonames.org/2747373">35, Nassau Zuilensteinstraat, Den Haag</placeName>
-                    </placeName>
+                        <placeName key="O.0000001" ref="http://sws.geonames.org/2747373">35, Nassau Zuilensteinstraat, Den Haag</placeName>                  
                     <date when="1915-03-28"/>              
                 </correspAction>
                 <correspAction type="received">
                     <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth Walden</persName>
-                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>
+                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950159">Potsdamerstrasse 134a, Berlin W.9.</placeName>
                 </correspAction>
             </correspDesc>
         </profileDesc>
         <revisionDesc>
             <listChange>
+                <change>
+                    <date when="2019-07-25" n="2"/>
+                    <p>URL zur METS-Datei der Staatsbibliothek zu Berlin aktualisiert innerhalb von :xenoData und zusätzliches :xenoData mit permanenter URI zum Kalliope-Findbucheintrag.</p>
+                    <p>:idno URL innerhalb von :msIdentifier durch permanente URL zum entsprechenden Datensatz der Staatsbibliothek zu Berlin gesetzt</p>
+                    <p>Standardisierung der Kommentierungstiefe, keine spezifischen Erklärungen von Fremdwörtern außerhalb des Sturm-Kontextes</p>
+                    <p>Normdaten (Geonames) zu Stadt Berlin korrigiert (zuvor fälschlicherweise Verweis auf "Land Berlin")</p>
+                </change>
                 <change>
                     <date when="2018-07-16" n="1"/>
                 </change>
@@ -103,7 +109,7 @@
                 </opener>
                 <p>Dank für Ihren Brief vom <date when="1915-03-26">26. März</date>. Ich bin sehr froh dasz Sie mit meine Ansichten
             über die Titelangelegenheit ganz einverstanden sind. Es ist mir sehr angenehm dasz die die
-            Ausstellung noch bis zum <date when="1915-04-15">15. April</date> geöffnet bleibt.<note>Im März 1915 eröffnete in der Sturm-Galerie die 31. Sturm-Ausstellung mit Werken Jacoba van Heemskercks. Vgl. Enders, Rainer: Ausstellungskataloge der STURM-Galerie. URL: <ref target="https://www.arthistoricum.net/themen/portale/sturm/ausstellungskataloge/">https://www.arthistoricum.net/themen/portale/sturm/ausstellungskataloge/</ref> (Aufruf 06.04.2017).</note>
+            Ausstellung noch bis zum <date when="1915-04-15">15. April</date> geöffnet bleibt.<note>Im März 1915 eröffnete in der STURM-Galerie die 31. STURM-Ausstellung mit Werken Jacoba van Heemskercks. Vgl. Enders, Rainer: Ausstellungskataloge der STURM-Galerie. URL: <ref target="https://www.arthistoricum.net/themen/portale/sturm/ausstellungskataloge/">https://www.arthistoricum.net/themen/portale/sturm/ausstellungskataloge/</ref> (Aufruf 06.04.2017).</note>
                 </p>
                 <p>
             Fräulein <persName key="P.0000008" ref="http://d-nb.info/gnd/136128289">Tak</persName> hat Ihnen

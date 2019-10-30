@@ -1,0 +1,137 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Q.01.19190106.JVH.02">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Jacoba van Heemskerck an Herwarth Walden, 6. Januar 1919, Den Haag</title>
+                <editor>
+                    <persName ref="https://orcid.org/0000-0003-1208-6131">
+                        <forename>Anne</forename>
+                        <surname>Lorenz</surname>
+                    </persName>
+                </editor>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0002-0953-2818">
+                        <forename>Torsten</forename>
+                        <surname>Schrade</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeber</note>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0003-2423-7144">
+                        <forename>Marjam</forename>
+                        <surname>Trautmann</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeberin</note>
+                    </resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="http://www.adwmainz.de">Akademie der Wissenschaften und der
+                        Literatur | Mainz</ref>
+                </publisher>
+                <pubPlace ref="http://sws.geonames.org/2874225">Mainz</pubPlace>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">This file is
+                        licensed under the terms of the Creative-Commons-License CC BY 4.0
+                    </licence>
+                </availability>
+                <idno type="file">Q.01.19190106.JVH.02.xml</idno>
+                <idno type="uri">https://sturm-edition.de/id/Q.01.19190106.JVH.02</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Q.01.19190106.JVH.02, Jacoba van Heemskerck an Herwarth Walden, 6. Januar
+                    1919, Den Haag, bearbeitet von Anne Lorenz, in: Der STURM. Digitale
+                    Quellenedition zur Geschichte der internationalen Avantgarde, erarbeitet und
+                    herausgegeben von Marjam Trautmann und Torsten Schrade. Mainz, Akademie der
+                    Wissenschaften und der Literatur.</bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <country>DE</country>
+                        <settlement>Berlin</settlement>
+                        <repository>Staatsbibliothek zu Berlin Preußischer Kulturbesitz,
+                            Handschriftenabteilung, Sturm-Archiv I, Heemskerck, Jacoba
+                            van</repository>
+                        <idno type="uri">http://resolver.staatsbibliothek-berlin.de/SBB0000DA1D00000000</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <xenoData type="uri">http://kalliope-verbund.info/DE-611-HS-1913104</xenoData>
+        <xenoData type="url">https://content.staatsbibliothek-berlin.de/dc/PPN746596855.mets.xml</xenoData>
+        <profileDesc>
+            <correspDesc key="Bl.351" ref="https://sturm-edition.de/id/Q.01.19190106.JVH.02">
+                <correspAction type="sent">
+                    <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jacoba van
+                        Heemskerck</persName>
+                    <placeName key="O.0000001" ref="http://sws.geonames.org/2747373">Den
+                        Haag</placeName>
+                    <date when="1919-01-06"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth
+                        Walden</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change>
+                    <date when="2019-08-26" n="1"/>
+                </change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic n="351r" url="http://content.staatsbibliothek-berlin.de/dms/PPN746596855/500/0/00000001.jpg"/>
+        <graphic n="351v" url="http://content.staatsbibliothek-berlin.de/dms/PPN746596855/500/0/00000002.jpg"/>
+        <graphic n="Farbkeil" url="http://content.staatsbibliothek-berlin.de/dms/PPN746596855/500/0/00000003.jpg"/>
+    </facsimile>
+    <text type="letter">
+        <body>
+            <div type="content">
+                <pb xml:id="S.351r" n="351r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000DA1D00000001"/>
+                <opener>
+                    <dateline>
+                        <placeName key="O.0000001" ref="http://sws.geonames.org/2747373">den <hi rend="twice-underline">Haag</hi>
+                        </placeName>. <date when="1919-01-06">6. Januar 1919</date>.</dateline>
+                    <salute>Lieber <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth</persName>.</salute>
+                </opener>
+                <p>Zwei <ref target="Q.01.19190106.JVH.01">Briefe</ref> in ein Tag und dann sagt man
+                    das es schlecht mit der Kunst steht, ich bin aber sicher das es mit der Sturm
+                    glänzend steht. Soeben die <term type="catalogue" key="W.0000103" source="http://nbn-resolving.org/urn:nbn:de:bvb:255-dtl-0000003076">Kopenhager Katalog</term> erhalten
+                    wirklich die sieht ja sehr gut aus und solche schöne reproduktionen.<note>Im
+                        Dezember 1918 fand in der Galerie „Georg Kleis Kunsthandel“ in Kopenhagen
+                        die von Walden organisierte Ausstellung „Der Sturm – International Kunst
+                        Ekspressionister og Kubister“ statt. Sie zeigte u.a. Werke von Jacoba van
+                        Heemskerck. Vgl. den <ref target="https://nbn-resolving.org/urn:nbn:de:bvb:255-dtl-0000003076">Katalog
+                            zur Ausstellung</ref>, Walden, Herwarth: Der Sturm – International Kunst
+                        Ekspressionister og Kubister. Kopenhagen 1918.</note> Ich bin
+                    so neugierig ob die Sammlung so weiter geht nach <placeName key="O.0000037" ref="http://sws.geonames.org/2673730">Stockholm</placeName>. Ist es nicht
+                    möglich das der Sturm permanente ausstellungen in <placeName key="O.0000036" ref="http://sws.geonames.org/2618425">Kopenhagen</placeName> hat, das wäre
+                    vielleicht sehr gut.</p>
+                <p>Hoffentlich schicke ich dir Anfang nächster Woche, eingeschrieben drei neue
+                    Holzschnitten und dann einige Drucken wegen Papier mangel wenn die dann verkauft
+                    sind, schicke ich wieder mehrere. Kannst du die dann vielleicht so wie
+                    Zeichnungen in <term type="journal" key="W.0000068" source="http://bluemountain.princeton.edu/bluemtn/cgi-bin/bluemtn?a=d&amp;d=bmtnabg19181215-01&amp;e=-------en-20--1--txt-txIN-------" ref="http://d-nb.info/gnd/4058273-5">der Sturm</term> reproduziren, ich habe
+                    wegen das teuere Holz zwei auf eine Holzplatte gemacht an die beide Seiten. Nun
+                    geht das für Handdruck glänzend aber für Zeitschriften reproduktion ist es
+                    glaube ich sehr beschwerlich.</p>
+                <p>Wenn ich kleine Linoleumschnitte mache muss das dann immer erwähnt werden kann
+                    man nicht einfach sagen Holzschnitt, vielleicht schicke ich dir später einige
+                    ist Linoleumschnitt künstlerisch nicht so wertvoll?</p>
+                <closer>
+                    <salute>Herzlichste Grüssen</salute>
+                    <signed>deine <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">
+                            Jacoba vanHeemsk<hi rend="twice-underline">erck</hi>.</persName>
+                    </signed>
+                </closer>
+
+            </div>
+        </body>
+    </text>
+</TEI>

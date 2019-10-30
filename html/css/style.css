@@ -79,6 +79,10 @@ h6 {
     margin-bottom: -2rem;
 }
 
+div[class=attachment] div[class=opener] h6 {
+    margin-bottom: 5rem;
+}
+
 p,
 blockquote,
 li, dt, dd,
@@ -211,7 +215,7 @@ figcaption {
     text-align: center;
 }
 
-/* Use the following for the download version without Romana EF Book */
+/* Use the following for the download version without Romana EF book */
 
 body {
     font-family: Tinos, Times, "Times New Roman", serif;
@@ -350,7 +354,8 @@ figure a.external:before {
     padding: 0;
 }
 
-.eight.columns.maincontent {
+.eight.columns.maincontent,
+.versions + .eight.columns {
     margin-left: 0;
 }
 
@@ -995,7 +1000,7 @@ footer .telephone {
 
 @media (min-width: 1250px) {
     .title { 
-        font-size: 19.5rem;
+        font-size: 19.3rem;
     }
 }
 

@@ -1,10 +1,9 @@
-<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Q.01.19140512.FMA.01">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Franz Marc an Herwarth Walden, 12. Mai 1914, Benediktbeuren</title>
+                <title>Franz Marc an Herwarth Walden, 12. Mai 1914, Benediktbeuern</title>
                 <editor>
                     <persName ref="https://orcid.org/0000-0003-2423-7144">
                         <forename>Marjam</forename>
@@ -44,7 +43,7 @@
                 <idno type="uri">https://sturm-edition.de/id/Q.01.19140512.FMA.01</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl>Q.01.19140512.FMA.01, Franz Marc an Herwarth Walden, 12. Mai 1914, Benediktbeuren, 
+                <bibl>Q.01.19140512.FMA.01, Franz Marc an Herwarth Walden, 12. Mai 1914, Benediktbeuern, 
                     bearbeitet von Marjam Trautmann, in: Der STURM. Digitale Quellenedition zur Geschichte der internationalen 
                     Avantgarde, erarbeitet und herausgegeben von Marjam Trautmann und Torsten Schrade. 
                     Mainz, Akademie der Wissenschaften und der Literatur.
@@ -54,27 +53,35 @@
                         <country>DE</country>
                         <settlement>Berlin</settlement>
                         <repository>Staatsbibliothek zu Berlin Preußischer Kulturbesitz, Handschriftenabteilung, Sturm-Archiv I, Marc, Franz</repository>
-                        <idno type="uri">http://kalliope-verbund.info/DE-611-HS-1916953</idno>
+                        <idno type="uri">http://resolver.staatsbibliothek-berlin.de/SBB0000DAAC00000000</idno>
                     </msIdentifier>
                 </msDesc>
             </sourceDesc>
         </fileDesc>
-        <xenoData type="uri">http://digital.staatsbibliothek-berlin.de/metsresolver/PPN746598610</xenoData>
+        <xenoData type="uri">http://kalliope-verbund.info/DE-611-HS-1916953</xenoData>
+        <xenoData type="url">http://content.staatsbibliothek-berlin.de/dc/PPN746598610.mets.xml</xenoData>
         <profileDesc>
             <correspDesc key="Bl.187" ref="https://sturm-edition.de/id/Q.01.19140512.FMA.01">
                 <correspAction type="sent">
                     <persName key="P.0000003" ref="http://d-nb.info/gnd/11857745X">Franz Marc</persName>
-                    <placeName key="O.0000056" ref="http://sws.geonames.org/2951104">Benediktbeuren</placeName>
+                    <placeName key="O.0000056" ref="http://sws.geonames.org/2951104">Benediktbeuern</placeName>
                     <date when="1914-05-12"/>
                 </correspAction>
                 <correspAction type="received">
                     <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth Walden</persName>
-                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>                  
+                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950159">Potsdamerstrasse 134a, Berlin W.9.</placeName>                  
                 </correspAction>
             </correspDesc>
         </profileDesc>
         <revisionDesc>
             <listChange>
+                <change>
+                    <date when="2019-07-25" n="2"/>
+                    <p>URL zur METS-Datei der Staatsbibliothek zu Berlin aktualisiert innerhalb von :xenoData und zusätzliches :xenoData mit permanenter URI zum Kalliope-Findbucheintrag.</p>
+                    <p>:idno URL innerhalb von :msIdentifier durch permanente URL zum entsprechenden Datensatz der Staatsbibliothek zu Berlin gesetzt</p>
+                    <p>Standardisierung der Kommentierungstiefe, keine spezifischen Erklärungen von Fremdwörtern außerhalb des Sturm-Kontextes</p>
+                    <p>Normdaten (Geonames) zu Stadt Berlin korrigiert (zuvor fälschlicherweise Verweis auf "Land Berlin")</p>
+                </change>
                 <change>
                     <date when="2018-07-16" n="1"/>
                 </change>
@@ -123,7 +130,7 @@
             nicht gerade auf die 3 Pfingstfeiertage; da haben wir Familienbesuch, ich könnte da
             wenigstens keinesfalls nach <placeName key="O.0000052" ref="http://sws.geonames.org/2867714">München</placeName> u. heraußen wär es auch nicht gemütlich. – <persName key="P.0000020" ref="http://d-nb.info/gnd/118621041">Taut</persName>
                     <pb xml:id="S.187v.02" n="187v" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000DAAC00000001"/> hat noch nicht geschrieben. – So
-            muß ich meinen gelben Hunger (besser: blauen oder braunen) auch auf die <date when="1914-10">Oktober</date>ausstellung<note>29. Sturm-Ausstellung November bis Dezember
+            muß ich meinen gelben Hunger (besser: blauen oder braunen) auch auf die <date when="1914-10">Oktober</date>ausstellung<note>29. STURM-Ausstellung November bis Dezember
                   1914. Vgl. Enders, Rainer: Ausstellungen außerhalb der Berliner Galerie. URL: <ref target="https://www.arthistoricum.net/themen/portale/sturm/ausstellungen/">https://www.arthistoricum.net/themen/portale/sturm/ausstellungen/</ref> (Aufruf 06.04.2017).</note>
             vertrösten.</p>
                 <closer>

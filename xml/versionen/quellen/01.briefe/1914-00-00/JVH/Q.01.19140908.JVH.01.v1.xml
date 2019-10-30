@@ -1,0 +1,177 @@
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Q.01.19140908.JVH.01">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Jacoba van Heemskerck an Herwarth Walden, 8. September 1914, Loverendale,
+                    Domburg</title>
+                <editor>
+                    <persName ref="https://orcid.org/0000-0003-2423-7144">
+                        <forename>Marjam</forename>
+                        <surname>Trautmann</surname>
+                    </persName>
+                </editor>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0002-0953-2818">
+                        <forename>Torsten</forename>
+                        <surname>Schrade</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeber</note>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0003-2423-7144">
+                        <forename>Marjam</forename>
+                        <surname>Trautmann</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeberin</note>
+                    </resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="http://www.adwmainz.de">Akademie der Wissenschaften und der
+                        Literatur | Mainz</ref>
+                </publisher>
+                <pubPlace ref="http://sws.geonames.org/2874225">Mainz</pubPlace>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/"> This file is
+                        licensed under the terms of the Creative-Commons-License CC BY 4.0
+                    </licence>
+                </availability>
+                <idno type="file">Q.01.19140908.JVH.01.v1.xml</idno>
+                <idno type="uri">https://sturm-edition.de/id/Q.01.19140908.JVH.01</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Q.01.19140908.JVH.01, Jacoba van Heemskerck an Herwarth Walden, 8. September
+                    1914, Loverendale, Domburg, bearbeitet von Marjam Trautmann, in: Der STURM.
+                    Digitale Quellenedition zur Geschichte der internationalen Avantgarde,
+                    erarbeitet und herausgegeben von Marjam Trautmann und Torsten
+                    Schrade. Mainz, Akademie der Wissenschaften und der Literatur. </bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <country>DE</country>
+                        <settlement>Berlin</settlement>
+                        <repository>Staatsbibliothek zu Berlin Preußischer Kulturbesitz,
+                            Handschriftenabteilung, Sturm-Archiv I, Heemskerck, Jacoba
+                            van</repository>
+                        <idno type="uri">http://kalliope-verbund.info/DE-611-HS-1910585</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <xenoData type="uri">http://digital.staatsbibliothek-berlin.de/metsresolver/PPN746594216</xenoData>
+        <profileDesc>
+            <correspDesc key="Bl.21-22" ref="https://sturm-edition.de/id/Q.01.19140908.JVH.01">
+                <correspAction type="sent">
+                    <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jacoba van
+                        Heemskerck</persName>
+                    <placeName key="O.0000004" ref="http://sws.geonames.org/2756746">Loverendale,
+                        Domburg</placeName>
+                    <date when="1914-09-08"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth
+                        Walden</persName>
+                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change>
+                    <date when="2018-07-16" n="1"/>
+                </change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic n="21r" url="http://content.staatsbibliothek-berlin.de/dms/PPN746594216/800/0/00000001.jpg"/>
+        <graphic n="21v" url="http://content.staatsbibliothek-berlin.de/dms/PPN746594216/800/0/00000002.jpg"/>
+        <graphic n="22r" url="http://content.staatsbibliothek-berlin.de/dms/PPN746594216/800/0/00000003.jpg"/>
+        <graphic n="22v" url="http://content.staatsbibliothek-berlin.de/dms/PPN746594216/800/0/00000004.jpg"/>
+        <graphic n="Farbkeil" url="http://content.staatsbibliothek-berlin.de/dms/PPN746594216/800/0/00000005.jpg"/>
+    </facsimile>
+    <text type="letter">
+        <body>
+            <div type="content">
+                <pb xml:id="S.21r.01" n="21r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D95100000001"/>
+                <opener>
+                    <dateline>
+                        <date when="1914-09-08">8. Sept 1914.</date>
+                    </dateline>
+                    <salute>Sehr geehrter Herr <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Walden</persName>
+                    </salute>
+                </opener>
+                <p>Viel Dank für die Zeitungen bitte wenn es interessante Nachrichten gibt Schicken
+                    Sie dann mehrere. Hoffentlich haben Sie die holländische auch regelmäszig
+                    empfangen gestern habe ich wieder einige geschickt. Bitte wenn Sie wieder
+                    schreiben sagen Sie dann ob Herr <persName key="P.0000020" ref="http://d-nb.info/gnd/118621041">Taut</persName> und Herr Dr <persName key="P.0000021" ref="http://d-nb.info/gnd/119191164">Behne</persName>
+                    <pb xml:id="S.21r.02" n="21r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D95100000002"/>
+                    aufrücken müssen. Ich sah dasz der Landsturm auch schon auf ist. Schrecklich
+                    dasz in <placeName key="O.0000015" ref="http://sws.geonames.org/2792482">Leuven</placeName> so viel verdorben ist.<note>Die belgische
+                        Universitätsstadt Löwen wurde vom 25. bis 27. August 1914 von deutschen
+                        Truppen überfallen, wobei 248 Zivilisten getötet und ein Sechstel der
+                        Gebäude zerstört wurden. Die Universitätsbibliothek brannte samt wertvoller
+                        mittelalterlicher Handschriften nieder. Vgl. Deperchin, Annie: The Laws of
+                        War. In: The Cambridge History of The First World War. Bd. 1 Global War.
+                        Hrsg. v. Jay Winter [u.a.], S. 615–638, hier S. 615; Kramer, Alan: Löwen.
+                        In: Enzyklopädie Erster Weltkrieg. Hrsg. v. Gerhard Hirschfeld [u.a.].
+                        Paderborn [u.a.] 2004, S. 682–683, hier S. 682.</note> Krieg ist doch das
+                    schrecklichste dasz man sich denken kann, und wann wird es Frieden sein, im
+                    Anfang dachte ich mir es kann nicht lange dauern aber jetzt fürchte ich dasz wir
+                    noch nicht so bald am Ende sind. Hier in <placeName key="O.0000004" ref="http://sws.geonames.org/2756746">Domburg</placeName> ist es schön und
+                    ruhig sehr viel Belgier kommen jetzt hin und werden hier den ganzen Winter
+                        bleiben.<note>Zahlreiche Belgier flohen seit der deutschen Invasion im
+                        August 1914 vor allem nach Großbritannien, Frankreich und in die
+                        Niederlande. Der Vormarsch der deutschen Truppen in Belgien war mit brutalen
+                        Übergriffen auf die Zivilbevölkerung verbunden, mit Geiselnahmen (auch
+                        Geiselerschießungen) und Deportationen belgischer Bürger zur Zwangsarbeit
+                        nach Deutschland. Die kämpferischen Auseinandersetzungen um Antwerpen im
+                        Oktober 1914 verursachten die Flucht von knapp 1. Mio. Belgiern in die
+                        niederländische Provinz Holland (zu der auch Domburg/Zeeland gehört).
+                        Insgesamt erreichte die Zahl der belgischen Flüchtlinge im Sommer und Herbst
+                        1914 etwa 1,5 Mio. Viele von ihnen kehrten zu Beginn des neuen Jahres wieder
+                        zurück, da die Deutschen Besatzer in Gent ein Dekret erließen, das die
+                        Konfiszierung des Eigentums der Geflüchteten erlaubte, wenn diese nicht bis
+                        zum 1. März 1915 zurückkehrten. Auch die niederländische Regierung setzte
+                        die Flüchtlinge unter Druck, in ihr Heimatland zurückzukehren, so dass deren
+                        Zahl dort im Sommer 1915 auf 85,000 gesunken war. Sie fürchteten, dass die
+                        Aufnahme von Flüchtlingen ihre Neutralität gefährde. Das erste
+                        Internierungslager für belgische Flüchtlinge in den Niederlanden wurde im
+                        November 1914 gegründet, wo diese unter unzureichender Beheizung und
+                        medizinischer Versorgung in gefängnisähnlichen Zuständen leben mussten. Vgl.
+                        Daniel, Ute: Frauen. In: Enzyklopädie Erster Weltkrieg. Hrsg. v. Gerhard
+                        Hirschfeld [u.a.]. Paderborn [u.a.] 2004, S. 116–134, hier S. 117 u. S. 126;
+                        Blom, J.C.H.: Niederlande. In: Enzyklopädie Erster Weltkrieg. Hrsg. v.
+                        Gerhard Hirschfeld [u.a.]. Paderborn [u.a.] 2004, S. 738–741, hier S. 740;
+                        Amara, Michaël: Refugees (Belgium). In: 1914–1918-online. International
+                        Encyclopedia of the First World War. Hrsg. v. Ute Daniel [u.a.]. Berlin
+                        2014; Gartell, Peter; Nivet, Philippe: Refugees and Exiles. In: The
+                        Cambridge History of the First World War. Bd. 3, Civil Society. Hrsg. v. Jay
+                        Winter. Cambridge 2014, S.186–251, hier S. 189f. u. 194f.</note>
+                    <pb xml:id="S.22r" n="22r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D95100000003"/> Ich
+                    habe ein neues Gemälde angefangen und viele skizzen gemacht aber wann wird es
+                    wieder Ausstellungen geben. Wie lange dauert es schon so in Gedanken, und es ist
+                    nur fünf Wochen, vor zwei Monaten waren Sie beiden hier es waren solche schöne
+                    Tagen, unglaublich um acht Wochen her es scheint schon so viel länger. Da wir
+                    offene Briefe schicken müszen kann ich nicht so alles schreiben über Kunst
+                    später viel mehr darüber ich lese viel und werde Ihnen davon wieder
+                        ausführlich<pb xml:id="S.22v" n="22v" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D95100000004"/> alle
+                    meine Gedanken über uns Streben schreiben.</p>
+                <p>Wie geht es <persName key="P.0000003" ref="http://d-nb.info/gnd/11857745X">Marck</persName>, ist er noch zu hause? Bitte bald wieder Nachricht ich
+                    schreibe auch bald wieder es ist gut diese Zeiten viel von einander zu hören</p>
+                <closer>
+                    <salute>Viele herzlichsten Grussen für Sie beiden</salute> auch von Frl
+                        <persName key="P.0000008" ref="http://d-nb.info/gnd/136128289">Tak</persName> und meine <persName key="P.0000005" ref="P.0000005">Schwester</persName>
+                    <signed>Ihre <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jacoba vanH<hi rend="underline">eemskerck</hi>
+                        </persName>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

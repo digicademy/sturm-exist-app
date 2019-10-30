@@ -1,0 +1,147 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Q.01.19200414.JVH.01">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Jacoba van Heemskerck an Herwarth Walden, 14. April 1920, 35, Nassau
+                    Zuilensteinstraat, Den Haag</title>
+                <editor>
+                    <persName ref="https://orcid.org/0000-0003-1208-6131">
+                        <forename>Anne</forename>
+                        <surname>Lorenz</surname>
+                    </persName>
+                </editor>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0002-0953-2818">
+                        <forename>Torsten</forename>
+                        <surname>Schrade</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeber</note>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0003-2423-7144">
+                        <forename>Marjam</forename>
+                        <surname>Trautmann</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeberin</note>
+                    </resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="http://www.adwmainz.de">Akademie der Wissenschaften und der
+                        Literatur | Mainz</ref>
+                </publisher>
+                <pubPlace ref="http://sws.geonames.org/2874225">Mainz</pubPlace>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">This file is
+                        licensed under the terms of the Creative-Commons-License CC BY 4.0
+                    </licence>
+                </availability>
+                <idno type="file">Q.01.19200414.JVH.01.xml</idno>
+                <idno type="uri">https://sturm-edition.de/id/Q.01.19200414.JVH.01</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Q.01.19200414.JVH.01, Jacoba van Heemskerck an Herwarth Walden, 14. April
+                    1920, 35, Nassau Zuilensteinstraat, Den Haag, bearbeitet von Anne Lorenz, in:
+                    Der STURM. Digitale Quellenedition zur Geschichte der internationalen
+                    Avantgarde, erarbeitet und herausgegeben von Marjam Trautmann und Torsten
+                    Schrade. Mainz, Akademie der Wissenschaften und der Literatur.</bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <country>DE</country>
+                        <settlement>Berlin</settlement>
+                        <repository>Staatsbibliothek zu Berlin Preußischer Kulturbesitz,
+                            Handschriftenabteilung, Sturm-Archiv I, Heemskerck, Jacoba
+                            van</repository>
+                        <idno type="uri">http://resolver.staatsbibliothek-berlin.de/SBB0000DA3700000000</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <xenoData type="uri">http://kalliope-verbund.info/DE-611-HS-1913654</xenoData>
+        <xenoData type="url">https://content.staatsbibliothek-berlin.de/dc/PPN746597169.mets.xml</xenoData>
+        <profileDesc>
+            <correspDesc key="Bl.380" ref="https://sturm-edition.de/id/Q.01.19200414.JVH.01">
+                <correspAction type="sent">
+                    <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jacoba van
+                        Heemskerck</persName>
+                    <placeName key="O.0000001" ref="http://sws.geonames.org/2747373">35, Nassau
+                        Zuilensteinstraat, Den
+                        Haag</placeName>
+                    <date when="1920-04-14"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth
+                        Walden</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change>
+                    <date when="2019-08-26" n="1"/>
+                </change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic n="380r" url="http://content.staatsbibliothek-berlin.de/dms/PPN746597169/500/0/00000001.jpg"/>
+        <graphic n="380v" url="http://content.staatsbibliothek-berlin.de/dms/PPN746597169/500/0/00000002.jpg"/>
+        <graphic n="Farbkeil" url="http://content.staatsbibliothek-berlin.de/dms/PPN746597169/500/0/00000003.jpg"/>
+    </facsimile>
+    <text type="letter">
+        <body>
+            <div type="content">
+                <pb xml:id="S.380r" n="380r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000DA3700000001"/>
+                <opener>
+                    <dateline>35. Nassau Zuilensteinstraat <placeName key="O.0000001" ref="http://sws.geonames.org/2747373">den <hi rend="twice-underline">Haag</hi>.</placeName>
+                        <date when="1920-04-14">14.4.20.</date>
+                    </dateline>
+                    <salute>Lieber <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth</persName>
+                    </salute>
+                </opener>
+
+                <p>Deine beide Briefen erhalten der erste war 16. Tage unterwegs. Schön dass wieder
+                    3. Bilder verkauft sind Bitte sage, kannst du so im Herbst einige Zeichnungen
+                    brauchen dann schicke ich die dann aus <placeName key="O.0000004" ref="http://sws.geonames.org/2756746">Domburg</placeName> in eine Rolle als
+                    Drucksache, die sind dann nicht eingerahmt aber so schicken ist doch am
+                    einfachsten. Wäre es vielleicht so zu machen dass ich dann im <date when="1920-11">November</date> oder <date when="1920-10">Oktober</date> eine
+                    wand mit Zeichnungen habe?<note>Laut Ausstellungskatalog war
+                        van Heemskerck in der „Graphischen Gesamtschau“, der 90. STURM-Ausstellung
+                        im Oktober 1920 mit acht Zeichnungen und fünf Holzschnitten vertreten. Vgl.
+                        den <ref target="https://nbn-resolving.org/urn:nbn:de:bvb:255-dtl-0000001672">Katalog zur Ausstellung</ref>, Walden, Herwarth [Hrsg.]: Der Sturm. Neunzigste Ausstellung, Graphische
+                        Gesamtschau. Berlin 1920.</note>
+                    Aber wie machen wir dann das einrahmen, das wird so schrecklich teuer sein.
+                    Spreche einmal mit <persName key="P.0000108" ref="http://d-nb.info/gnd/11620589X">Dr Blümner</persName> wie das zu machen
+                    wäre. Sind noch genügend farbige Holzschnitten da oder werde ich im <date when="1920-06">Juni</date> noch mehrere Exemplaren schicken, später bekommst
+                    du auch wieder neu Drucken Der Sturm hat aber von meine farbige Holzschnitten
+                    von jeden bloss 5. Stück und von die neuesten 3. Stück. Ich denke dass für viele
+                    Ausstellungen du doch mehrere brauchst. Dann bitte schreibe ob ich den <persName key="P.0000175" ref="http://d-nb.info/gnd/128547111">Reichskommissär</persName> nun schreiben soll dass in diese 3. Monaten
+                    nichts verkauft ist oder ist es nicht nötig. Du schreibst alles ist in Ordnung.
+                    Kannst du dass nicht alle drei Monaten<pb xml:id="S.380v" n="380v" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000DA3700000002"/>
+                    machen. Nun muss ich dann auch schreiben das <term type="artwork" key="W.0000139">Bild 101</term> verkauft ist, wirklich es ist viel besser
+                    das der Sturm es macht. Die Holzstöcke alle schön angekommen.</p>
+
+
+                <closer>
+                    <salute>Herzlichste Grüssen</salute>
+                    <signed>deine <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">
+                                JacobavanHeemsker<hi rend="twice-underline">ck</hi>
+                        </persName>.</signed>
+                </closer>
+                <postscript>
+                    <p>In <date when="1920-03">März</date> kein <term type="journal" key="W.0000068" source="https://doi.org/10.11588/diglit.37115.14" ref="http://d-nb.info/gnd/4058273-5">Sturm</term> erhalten bitte schicke
+                        diesmal noch zwei <term type="journal" key="W.0000068" source="https://doi.org/10.11588/diglit.37115.14" ref="http://d-nb.info/gnd/4058273-5">Nummern</term>
+                        <note>Walden,
+                            Herwarth [Hrsg.]: Der Sturm. Halbmonatsschrift für Kultur und die Künste
+                            12 (1920).</note>
+                    </p>
+                </postscript>
+            </div>
+        </body>
+    </text>
+</TEI>

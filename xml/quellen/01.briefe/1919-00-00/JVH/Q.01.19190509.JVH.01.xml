@@ -1,0 +1,149 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Q.01.19190509.JVH.01">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Jacoba van Heemskerck an Herwarth Walden, 9. Mai 1919, Wageningen</title>
+                <editor>
+                    <persName ref="https://orcid.org/0000-0003-1208-6131">
+                        <forename>Anne</forename>
+                        <surname>Lorenz</surname>
+                    </persName>
+                </editor>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0002-0953-2818">
+                        <forename>Torsten</forename>
+                        <surname>Schrade</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeber</note>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0003-2423-7144">
+                        <forename>Marjam</forename>
+                        <surname>Trautmann</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeberin</note>
+                    </resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="http://www.adwmainz.de">Akademie der Wissenschaften und der
+                        Literatur | Mainz</ref>
+                </publisher>
+                <pubPlace ref="http://sws.geonames.org/2874225">Mainz</pubPlace>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">This file is
+                        licensed under the terms of the Creative-Commons-License CC BY 4.0
+                    </licence>
+                </availability>
+                <idno type="file">Q.01.19190509.JVH.01.xml</idno>
+                <idno type="uri">https://sturm-edition.de/id/Q.01.19190509.JVH.01</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Q.01.19190509.JVH.01, Jacoba van Heemskerck an Herwarth Walden, 9. Mai 1919,
+                    Wageningen, bearbeitet von Anne Lorenz, in: Der STURM. Digitale Quellenedition
+                    zur Geschichte der internationalen Avantgarde, erarbeitet und herausgegeben von
+                    Marjam Trautmann und Torsten Schrade. Mainz, Akademie der Wissenschaften und der
+                    Literatur.</bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <country>DE</country>
+                        <settlement>Berlin</settlement>
+                        <repository>Staatsbibliothek zu Berlin Preußischer Kulturbesitz,
+                            Handschriftenabteilung, Sturm-Archiv I, Heemskerck, Jacoba
+                            van</repository>
+                        <idno type="uri">http://resolver.staatsbibliothek-berlin.de/SBB0000DA2100000000</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <xenoData type="uri">http://kalliope-verbund.info/DE-611-HS-1913475</xenoData>
+        <xenoData type="url">https://content.staatsbibliothek-berlin.de/dc/PPN746596901.mets.xml</xenoData>
+        <profileDesc>
+            <correspDesc key="Bl.356" ref="https://sturm-edition.de/id/Q.01.19190509.JVH.01">
+                <correspAction type="sent">
+                    <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jacoba van
+                        Heemskerck</persName>
+                    <placeName key="O.0000072" ref="http://sws.geonames.org/2745088">Wageningen</placeName>
+                    <date when="1919-05-09"/>
+
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth
+                        Walden</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change>
+                    <date when="2019-08-26" n="1"/>
+                </change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic n="356r" url="http://content.staatsbibliothek-berlin.de/dms/PPN746596901/500/0/00000001.jpg"/>
+        <graphic n="356v" url="http://content.staatsbibliothek-berlin.de/dms/PPN746596901/500/0/00000002.jpg"/>
+        <graphic n="Farbkeil" url="http://content.staatsbibliothek-berlin.de/dms/PPN746596901/500/0/00000003.jpg"/>
+    </facsimile>
+    <text type="letter">
+        <body>
+
+            <div type="address">
+                <pb xml:id="S.356r" n="356r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000DA2100000001"/>
+                <ab type="sender">
+                    <address>
+                        <addrLine>Hotel</addrLine>
+                        <addrLine>„De Wageningsche Berg“</addrLine>
+                        <addrLine>B. Flothuis.</addrLine>
+                    </address>
+                </ab>
+
+            </div>
+
+            <div type="content">
+                <opener>
+                    <dateline>
+                        <placeName key="O.0000072" ref="http://sws.geonames.org/2745088">Wageningen</placeName>, <date when="1919-05-09">9. Mai. 1919</date>. </dateline>
+                    <salute>Lieber <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth</persName>
+                    </salute>
+                </opener>
+
+                <p>Dank für dein Brief vom <date when="1919-05-03">3. Mai</date>. Schön das <term type="artwork" key="W.0000107">Bild 1.</term> in <placeName key="O.0000032" ref="http://sws.geonames.org/2935022">Dresden</placeName> verkauft
+                        ist.<note>In der Dresdner Galerie „Ernst Arnold“ fand im April 1919 die
+                        Sonderausstellung „Der Sturm. Expressionisten, Futuristen, Kubisten“ statt,
+                        die neben dem erwähnten Bild zwanzig weitere Werke van Heemskercks zeigte.
+                        Vgl. den <ref target="https://nbn-resolving.org/urn:nbn:de:bvb:255-dtl-0000002924">Katalog zur Ausstellung</ref>, Walden, Herwarth: Sonderausstellung Der
+                        Sturm. Expressionisten, Futuristen, Kubisten. Dresden 1919, S. 10.</note>
+                    Sehr interessante Besprechung von Prof. <persName key="P.0000109" ref="http://d-nb.info/gnd/118663119">Georg Biermann</persName>. <persName key="P.0000008" ref="http://d-nb.info/gnd/136128289">Marie</persName> hat
+                    soeben <term type="journal" key="W.0000068" source="https://doi.org/10.11588/diglit.37115.3" ref="http://d-nb.info/gnd/4058273-5">der Sturm</term> erhalten und da ist
+                    die <term type="artwork" key="W.0000108" source="https://doi.org/10.11588/diglit.37115#0015">
+                        Holzschnitt</term>
+                    <note>Walden,
+                        Herwarth [Hrsg.]: Der Sturm. Monatsschrift für Kultur und die Künste 1
+                        (1919), S. 9.</note> richtig eingeklebt, verstehst du dass das nicht alles
+                    gleich ist. Die Farbe ist so möglich noch schlechter.</p>
+
+                <p>Wir sind so empört über die Friedens vorschläge ich habe keine Worte für so
+                    etwas. <placeName key="O.0000014" ref="http://sws.geonames.org/2921044">Deutschland</placeName> wird aber <hi rend="underline">nie</hi> untergehen
+                    und im gegenteil stets starker werden. Auch Der Sturm geht <hi rend="twice-underline">nie</hi> unter.</p>
+
+
+                <closer>
+                    <salute>Herzlichste Grüssen für euch beiden</salute>
+                    <signed>deine <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">
+                                JacobavHeemsk<hi rend="twice-underline">erck</hi>
+                        </persName>
+                    </signed>
+                </closer>
+
+
+            </div>
+        </body>
+    </text>
+</TEI>

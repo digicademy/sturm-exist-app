@@ -1,0 +1,173 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Q.01.19190807.JVH.01">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Jacoba van Heemskerck an Herwarth Walden, 7. August 1919, Domburg</title>
+                <editor>
+                    <persName ref="https://orcid.org/0000-0003-1208-6131">
+                        <forename>Anne</forename>
+                        <surname>Lorenz</surname>
+                    </persName>
+                </editor>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0002-0953-2818">
+                        <forename>Torsten</forename>
+                        <surname>Schrade</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeber</note>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0003-2423-7144">
+                        <forename>Marjam</forename>
+                        <surname>Trautmann</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeberin</note>
+                    </resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="http://www.adwmainz.de">Akademie der Wissenschaften und der
+                        Literatur | Mainz</ref>
+                </publisher>
+                <pubPlace ref="http://sws.geonames.org/2874225">Mainz</pubPlace>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">This file is
+                        licensed under the terms of the Creative-Commons-License CC BY 4.0
+                    </licence>
+                </availability>
+                <idno type="file">Q.01.19190807.JVH.01.xml</idno>
+                <idno type="uri">https://sturm-edition.de/id/Q.01.19190807.JVH.01</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Q.01.19190807.JVH.01, Jacoba van Heemskerck an Herwarth Walden, 7. August
+                    1919, Domburg, bearbeitet von Anne Lorenz, in: Der STURM. Digitale
+                    Quellenedition zur Geschichte der internationalen Avantgarde, erarbeitet und
+                    herausgegeben von Marjam Trautmann und Torsten Schrade. Mainz, Akademie der
+                    Wissenschaften und der Literatur.</bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <country>DE</country>
+                        <settlement>Berlin</settlement>
+                        <repository>Staatsbibliothek zu Berlin Preußischer Kulturbesitz,
+                            Handschriftenabteilung, Sturm-Archiv I, Heemskerck, Jacoba
+                            van</repository>
+                        <idno type="uri">http://resolver.staatsbibliothek-berlin.de/SBB0000DA2500000000</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <xenoData type="uri">http://kalliope-verbund.info/DE-611-HS-1913485</xenoData>
+        <xenoData type="url">https://content.staatsbibliothek-berlin.de/dc/PPN746596944.mets.xml</xenoData>
+        <profileDesc>
+            <correspDesc key="Bl.361" ref="https://sturm-edition.de/id/Q.01.19190807.JVH.01">
+                <correspAction type="sent">
+                    <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jacoba van
+                        Heemskerck</persName>
+                    <placeName key="O.0000004" ref="http://sws.geonames.org/2756746">Domburg</placeName>
+                    <date when="1919-08-07"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth
+                        Walden</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change>
+                    <date when="2019-08-26" n="1"/>
+                </change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic n="361r" url="http://content.staatsbibliothek-berlin.de/dms/PPN746596944/500/0/00000001.jpg"/>
+        <graphic n="361v" url="http://content.staatsbibliothek-berlin.de/dms/PPN746596944/500/0/00000002.jpg"/>
+        <graphic n="Farbkeil" url="http://content.staatsbibliothek-berlin.de/dms/PPN746596944/500/0/00000003.jpg"/>
+    </facsimile>
+    <text type="letter">
+        <body>
+
+            <div type="content">
+                <pb xml:id="S.361r" n="361r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000DA2500000001"/>
+
+
+                <opener>
+                    <dateline>
+                        <placeName key="O.0000004" ref="http://sws.geonames.org/2756746">Dom<hi rend="twice-underline">burg</hi>
+                        </placeName>
+                        <hi rend="twice-underline">.</hi>
+                        <date when="1919-08-07">7.8.19</date>
+                    </dateline>
+                    <salute>Lieber <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth</persName>.</salute>
+                </opener>
+
+                <p>Hoffentlich bist du jetzt in <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Berlin</placeName> zurück und möchte
+                    ich gern <hi rend="underline">umgehend</hi> deine Antwort auf meine Fragen
+                    erhalten. Kann ich dir gegen <date when="1919-08-20">20. August</date> 10.
+                    grosse Entwürfe für Glasfenster<note>In ihrem nachfolgenden <ref target="Q.01.19190821.JVH.01">Brief</ref> an Walden vom 21. August 1919
+                        nennt van Heemskerck die Nummern der einzelnen Entwürfe: <term type="artwork" key="W.0000093">Entwurf Glasfenster 17</term>, <term type="artwork" key="W.0000092">Entwurf Glasfenster 10</term>, <term type="artwork" key="W.0000094">Entwurf Glasfenster 19</term>, <term type="artwork" key="W.0000095">Entwurf Glasfenster 20</term>, <term type="artwork" key="W.0000096">Entwurf Glasfenster 21</term>, <term type="artwork" key="W.0000097">Entwurf Glasfenster 22</term>, <term type="artwork" key="W.0000098">Entwurf Glasfenster 23</term>, <term type="artwork" key="W.0000099">Entwurf Glasfenster 24</term>, <term type="artwork" key="W.0000100">Entwurf Glasfenster 25</term>, <term type="artwork" key="W.0000101">Entwurf Glasfenster 26</term>.</note>
+                    schicken in ein kleine Kiste in zwei Rollen <foreign>Grande Vitesse</foreign>,
+                    kannst du die dann s<hi rend="underline">ehr</hi> einfach einrahmen lassen,
+                    bloss mit gewöhnliche Holz enkadriert und Pappe hinter die Zeichnungen so wie
+                    man es mit Entwürfe macht. Dann gern die Ausstellung in <date when="1919-10">Oktober</date> und dann so möglich meine Entwürfe allein zusammen in ein
+                    Saal, sie sind gross, alle 1.25 x 1.m. Ich möchte gern dass Architekten
+                    eingeladen werden und dann müssen die Entwürfe nicht so verkauft werden ich muss
+                    selbst das Glas wählen und die Entwürfe von die Gebäuden sehen, so gewünscht
+                    kann ich es auch ganz machen da ich in <placeName key="O.0000001" ref="http://sws.geonames.org/2747373">Haag</placeName> alles selbst gemacht
+                    habe. In jedenfall muss ich persönlich mit die Architekten sprechen oder
+                    schreiben. Glaubst du es wird sich lohnen jetzt solch eine Ausstellung zu machen
+                    in <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Berlin</placeName> hier in <placeName key="O.0000001" ref="http://sws.geonames.org/2747373">Haag</placeName> habe ich schon viele
+                    Architekten im Atelier gehabt die entzückt sind. Wenn du es nicht lohnend
+                    findest dann mache ich es in <date when="1919-10">Oktober</date> oder <date when="1919-11">November</date> in <placeName key="O.0000001" ref="http://sws.geonames.org/2747373">Haag</placeName> man hat es mir schon
+                    gefragt, aber du weisst das ich immer viel lieber habe dass du<pb xml:id="S.361v" n="361v" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000DA2500000002"/> es
+                    in <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Berlin</placeName> machst und dass ich so in <placeName key="O.0000014" ref="http://sws.geonames.org/2921044">Deutschland</placeName> Glasfenster
+                    Bestellungen habe ich arbeite viel lieber mit dir. Dann zweitens, denkst du dass
+                    wir so gegen <date when="1919-10-12">12</date> oder <date when="1919-10-15">15
+                        Oktober</date> nach <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Berlin</placeName> kommen können
+                    möglich schon früher können wir irgendwo ein Zimmer mit Frühstück z.B. im Hospiz
+                    Budapesterstrasse haben wir waren schon früher dort. drittens kann ich direkt
+                    bei Ankunft das Geld von mein Konto bekommen dann nehme ich nur sehr wenig Reise
+                    geld mit. Ich bin so froh wenn es möglich ist dir und <persName key="P.0000002" ref="http://d-nb.info/gnd/118891456">Nell</persName> zu sehen und alles zu
+                    besprechen.</p>
+
+                <p>So bitte umgehend Antwort dann schicke ich direkt ab und hast du die Entwürfe
+                    dann in 14 Tagen in <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Berlin</placeName>, ich bin sehr
+                    neugierig dein Urteil über mein Arbeit zu hören. Ich habe auch ein <term type="artwork" key="W.0000111">Lithografie</term> fertig, die ich dann in
+                        <date when="1919-10">Oktober</date> mit nehme. Wir denken sicher vierzehn
+                    Tage zu bleiben Hast du Schüler in die Sturm schule dass ich noch Unterricht
+                    geben kann.<note>Jacoba van Heemskerck leitete die Dependance der
+                        „Sturm“-Kunstschule in Den Haag. Vgl. Pirsich, Volker: Der Sturm. Eine
+                        Monographie. Herzberg 1985, S. 384 u. die Selbstanzeigen im
+                        „Sturm“ ab <term type="journal" key="W.0000068" source="https://doi.org/10.11588/diglit.37111#0168" ref="http://d-nb.info/gnd/4058273-5">Heft 6 des 9. Jahrgangs
+                            (1918/19)</term>.</note>
+                </p>
+
+                <closer>
+                    <salute>Viele Grüssen für euch
+                            beiden auch von <persName key="P.0000008" ref="http://d-nb.info/gnd/136128289">Marie</persName>
+                    </salute>, danke
+                                <persName key="P.0000002" ref="http://d-nb.info/gnd/118891456">Nell</persName> für die schöne Karte ist <persName key="P.0000002" ref="http://d-nb.info/gnd/118891456">Nell</persName> in
+                            <date when="1919-10">Oktober</date> in <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Berlin</placeName> sie ist doch
+                        hoffentlich nicht in <placeName key="O.0000036" ref="http://sws.geonames.org/2618425">Kopenhagen</placeName> dass wäre
+                        ja sehr schade wir müssen <persName key="P.0000002" ref="http://d-nb.info/gnd/118891456">Nell</persName> auch sehen.                
+                    Können wir <persName key="P.0000100" ref="http://d-nb.info/gnd/11939877X">Heinersdorff</persName> auch einladen ich habe sein <term type="book" key="W.0000112" ref="http://d-nb.info/361483708">Buch</term>
+                    <note>Heinersdorff, Gottfried: Die Glasmalerei, ihre Technik
+                            und ihre Geschichte. Berlin 1914.</note> über Glasmalerei
+                        und er hat so viele Glasfenster von Moderne Maler gemacht?.
+                    <signed>Deine <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">
+                                JacobavanHeemsk<hi rend="twice-underline">erck</hi>
+                        </persName>
+                    </signed>
+                </closer>
+
+
+            </div>
+        </body>
+    </text>
+</TEI>

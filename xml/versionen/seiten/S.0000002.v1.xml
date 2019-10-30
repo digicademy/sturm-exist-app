@@ -1,0 +1,366 @@
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="S.0000003">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Editionsrichtlinien</title>
+                <editor>
+                    <persName ref="https://orcid.org/0000-0003-2423-7144">
+                        <forename>Marjam</forename>
+                        <surname>Trautmann</surname>
+                    </persName>
+                </editor>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0002-0953-2818">
+                        <forename>Torsten</forename>
+                        <surname>Schrade</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeber</note>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0003-2423-7144">
+                        <forename>Marjam</forename>
+                        <surname>Trautmann</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeberin</note>
+                    </resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="http://www.adwmainz.de">Akademie der Wissenschaften und der Literatur | Mainz</ref>
+                </publisher>
+                <pubPlace ref="http://sws.geonames.org/2874225">Mainz</pubPlace>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        This file is licensed under the terms of the Creative-Commons-License CC BY 4.0
+                    </licence>
+                </availability>
+                <idno type="file">edition.v1.xml</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Marjam Trautmann: "Editionsrichtlinien", in: Der STURM. Digitale Quellenedition zur Geschichte der 
+                    internationalen Avantgarde, erarbeitet und herausgegeben von Marjam Trautmann und 
+                    Torsten Schrade. Mainz, Akademie der Wissenschaften und der Literatur.
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <listChange>
+                <change>
+                    <date when="2018-07-16" n="1"/>
+                    <p>Initiale Version</p>
+                </change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="section" n="eight">
+                <ab rend="h2">Editionsrichtlinien</ab>
+                <p>Die Editionsrichtlinien – abteilungsübergreifend sowie spezifisch – entwickeln sich im Laufe des Projektes stets weiter. Dies
+                    ist bedingt durch die iterative Evaluation der Datenmodelle und die sukzessive
+                    Bearbeitung und Bereitstellung der Daten. Die Codierung folgt den Guidelines der TEI (P5).</p>
+                <ab rend="h3">Codierung der Metadaten</ab>
+                <p>Die gesamten Metadaten eines Datensatzes werden im <code rend="xml">teiHeader</code> codiert:</p>
+                <ab rend="pre">
+                    <code rend="xml">
+&lt;TEI&gt;
+  &lt;teiHeader&gt;
+  ...
+  &lt;/teiHeader&gt;
+  ...
+&lt;/TEI&gt;
+                    </code>
+                </ab> 
+                <ab rend="h3">Bibliographie des Datensatzes</ab>
+                <p>Die einzelnen bibliographischen Informationen werden in folgendem Element erfasst:</p>
+                <ab rend="pre">
+                    <code rend="xml">
+&lt;fileDesc&gt;
+...
+&lt;/fileDesc&gt;
+                    </code>
+                </ab>
+                <ab rend="h4">Titel und Verantwortlichkeiten</ab>
+                <p>Der Titel des jeweiligen Datensatzes und der Bearbeiter oder die Bearbeiterin der Quelle:</p>
+                <ab rend="pre">
+                    <code rend="xml">
+&lt;titleStmt&gt;
+ &lt;title&gt;Titel des Datensatzes.&lt;/title&gt;
+ &lt;editor&gt;
+  &lt;persName ref="ORCID-ID/GND"&gt;
+   &lt;forename&gt;Vorname des Bearbeiters oder der Bearbeiterin&lt;/forename&gt;
+   &lt;surname&gt;Nachname des Bearbeiters oder der Bearbeiterin&lt;/surname&gt;
+  &lt;/persName&gt;
+ &lt;/editor&gt;
+ ...
+&lt;/titleStmt&gt;
+                    </code>
+                </ab>
+                <p>Verantwortlich für Datenmodell und Konzeption:</p>
+                <ab rend="pre">
+                    <code rend="xml">
+&lt;titleStmt&gt;
+ ...
+ &lt;respStmt&gt;
+  &lt;persName ref="ORCID-ID"&gt;
+   &lt;forename&gt;Vorname&lt;/forename&gt;
+   &lt;surname&gt;Nachname&lt;/surname&gt;
+  &lt;/persName&gt;
+  &lt;resp&gt;
+   &lt;note&gt;Anmerkung zur Rolle des oder der Verantwortlichen, bspw. "Herausgeber".&lt;note&gt;
+  &lt;/resp&gt;
+ &lt;/respStmt&gt;
+ ...
+&lt;/titleStmt&gt;
+                    </code>
+                </ab>               
+              <p>Publikation und Bereitstellung:</p>
+              <ab rend="pre">
+                    <code rend="xml">
+&lt;titleStmt&gt;
+ ...
+ &lt;publicationStmt&gt;
+  &lt;publisher&gt;
+    &lt;ref target="http://www.adwmainz.de"&gt;Akademie der Wissenschaften und der Literatur | Mainz&lt;/ref&gt;
+  &lt;/publisher&gt;
+  &lt;pubPlace ref="http://sws.geonames.org/2874225"&gt;Mainz&lt;/pubPlace&gt;
+  &lt;availability&gt;
+   &lt;licence target="https://creativecommons.org/licenses/by/4.0"&gt;This file is licensed under the terms of the Creative-Commons-License CC BY 4.0&lt;/licence&gt;
+  &lt;/availability&gt;
+  &lt;idno type="file"&gt;Datensatz.xml&lt;/idno&gt;
+  &lt;idno type="uri"&gt;Permalink zur HTML-Ansicht&lt;/idno&gt;
+  &lt;idno type="xml"&gt;Permalink zum XML-Datensatz&lt;/idno&gt;
+  &lt;date when="2018-04-28"/&gt;
+ &lt;/publicationStmt&gt;
+ ...
+&lt;/titleStmt&gt;
+                    </code>
+              </ab>
+              <ab rend="h4">Hinweise zur Quelle</ab>
+                <p>Vollständiger Titel des Datensatzes und Informationen zur bestandshaltenden Institution der Quelle:</p>
+              <ab rend="pre">
+                    <code rend="xml">
+&lt;fileDesc&gt;
+...
+&lt;sourceDesc&gt;
+ &lt;bibl&gt;Voller bibliographischer Titel des vorliegenden Datensatzes&lt;/bibl&gt;
+ &lt;msDesc&gt;
+  &lt;msIdentifier&gt;
+   &lt;country&gt;Land nach ISO, in dem sich die bestandshaltende Institution befindet&lt;/country&gt;
+   &lt;settlement&gt;Ort, in dem sich die bestandshaltende Institution befindet&lt;/settlement&gt;
+   &lt;repository&gt;Bestandshaltende Institution&lt;/repository&gt;
+   &lt;idno type="uri"&gt;Signatur bzw. URI zur Archivsignatur unter Kalliope&lt;/idno&gt;
+  &lt;/msIdentifier&gt;
+ &lt;/msDesc&gt;
+&lt;/sourceDesc&gt;
+&lt;/fileDesc&gt;
+                    </code>
+              </ab>
+                <ab rend="h4">Externe Metadaten zum jeweiligen Datensatz (falls vorhanden)</ab> 
+                <ab rend="pre">
+                    <code rend="xml">
+&lt;teiHeader&gt;
+...
+ &lt;xenoData type="uri"&gt;http://digital.staatsbibliothek-berlin.de/metsresolver/PPN74659853X&lt;/xenoData&gt;
+...
+&lt;/teiHeader&gt;
+                    </code>
+                </ab>
+                <ab rend="h4">Revisionsverwaltung des Datensatzes</ab>
+                <ab rend="pre">
+                    <code rend="xml">
+&lt;teiHeader&gt;
+ ...
+ &lt;revisionDesc&gt;
+  &lt;listChange&gt;
+   &lt;change&gt;
+    &lt;date when="2018-03-31" n="1"/&gt;
+    &lt;p&gt;Kommentar&lt;/p&gt;
+   &lt;/change&gt;
+  &lt;/listChange&gt;
+ &lt;/revisionDesc&gt;
+&lt;/teiHeader&gt; 
+                  </code>
+                </ab>    
+                <ab rend="h4">Digitalisate</ab>
+                <p>Die digitalen Faksimiles werden über das <code rend="xml">facsimile</code>-Element in den Datensatz eingebunden:</p>
+                <ab rend="pre">
+   <code rend="xml">
+&lt;/teiHeader&gt;
+&lt;facsimile&gt;
+    &lt;graphic n="Seiten-/Blattnummer" url="Permalink zum Digitalisat"/&gt;
+&lt;/facsimile&gt;
+&lt;text&gt;
+...
+   </code>
+                </ab>
+                <ab rend="h3">Codierung der Textstruktur</ab>
+                <p>Der edierte Text eines Textträgers wird innerhalb des <code rend="xml">text</code>-  und<code rend="xml">body</code>-Elements codiert:</p>
+                <ab rend="pre">
+                    <code rend="xml">
+&lt;text type="Bezeichnung der jeweiligen Textgattung, bspw. 'letter'"&gt;
+ &lt;body&gt;
+ ...
+ &lt;/body&gt;
+&lt;/text&gt;
+                    </code>
+                </ab>
+                <ab rend="h4">Textteile</ab>
+                <p>Einzelne, semantisch voneinander zu unterscheidende Textteile werden durch <code rend="xml">div</code>-Elemente gekennzeichnet:</p>
+                <ab rend="pre">
+                    <code rend="xml">
+&lt;body&gt;                        
+ &lt;div&gt;
+ ...
+ &lt;/div&gt;
+ &lt;div&gt;
+ ...
+ &lt;/div&gt;
+ ...
+&lt;/body&gt;
+                    </code>
+                </ab>
+                <ab rend="h4">Absätze</ab>
+                <p>Absätze werden durch <code>p</code>-Elemente gekennzeichnet:</p>
+                <ab rend="pre">
+                    <code rend="xml">
+&lt;body&gt;
+...
+ &lt;p&gt;
+ ...
+ &lt;/p&gt;
+ &lt;p&gt;
+ ...
+ &lt;/p&gt;
+ ...
+&lt;/body&gt;
+                    </code>
+                </ab>
+                <ab rend="h4">Seitenwechsel</ab>
+                <p>Der Beginn einer neuen Seite wird über das <code>pb</code>-Element codiert und besitzt jeweils einen eindeutigen Identifikator über das Attribut <code rend="xml">xml:id</code>. Das <code rend="xml">n</code>-Attribut beinhaltet die jeweilige Blatt- bzw. Seitenzählung. Im Attribut <code rend="xml">facs</code> wird auf das entsprechende digitale Faksimile der Seite verwiesen:</p>
+                <ab rend="pre">
+                    <code rend="xml">
+&lt;pb xml:id="" n="" facs=""/&gt;
+                    </code>
+                </ab>
+        <ab rend="h4">Zeilenwechsel</ab>      
+                <p>Wird der Beginn einer neuen Zeile, entsprechend der abteilungsspezifischen Editionsrichtlinien, in das Datenmodell aufgenommen, ist dieser durch ein <code rend="xml">lb</code>-Element codiert:</p>
+                <ab rend="pre">
+                    <code rend="xml">
+&lt;lb/&gt;
+                    </code>
+                </ab>
+        <ab rend="h4">Tabellen</ab> 
+                <p>Neben der Tabelle (<code rend="xml">table</code>) als Gesamtes werden die einzelnen Zeilen (<code rend="xml">row</code>) und Spalten (<code rend="xml">cell</code>) erfasst:</p>
+                <ab rend="pre">
+                    <code rend="xml">
+&lt;table&gt;
+  &lt;row&gt;
+    &lt;cell&gt;Eins&lt;/cell&gt;
+    &lt;cell&gt;Zwei&lt;/cell&gt;
+  &lt;/row&gt;
+  &lt;row&gt;
+    &lt;cell&gt;Drei&lt;/cell&gt;
+    &lt;cell&gt;Vier&lt;/cell&gt;
+  &lt;/row&gt;
+  &lt;row&gt;
+    &lt;cell&gt;Fünf&lt;/cell&gt;
+    &lt;cell&gt;Sechs&lt;/cell&gt;
+  &lt;/row&gt;
+&lt;/table&gt;
+                    </code>
+                </ab>
+                <ab rend="h3">Textbearbeitungen durch den Urheber oder die Urheberin der edierten Quelle</ab>
+                <ab rend="h4">Einfache Unterstreichung</ab>
+                <ab rend="pre">
+                    <code rend="xml">
+&lt;hi rend="underline"&gt;...&lt;/hi&gt;
+                    </code>
+                </ab>
+                <ab rend="h4">Doppelte Unterstreichung</ab>
+                <ab rend="pre">
+                    <code rend="xml">
+&lt;hi rend="twice-underline"&gt;...&lt;/hi&gt;
+                    </code>
+                </ab>          
+                <ab rend="h4">Hochstellung</ab>
+                <ab rend="pre">
+                    <code rend="xml">
+&lt;hi rend="super"&gt;...&lt;/hi&gt;
+                    </code>
+                </ab>                
+                <ab rend="h4">Durchstreichung</ab>
+                <ab rend="pre">
+                    <code rend="xml">
+&lt;hi rend="line-through"&gt;...&lt;/hi&gt;
+                    </code>
+                </ab>
+                <ab rend="h3">Textbearbeitungen durch den Editor oder die Editorin der Quelle</ab>
+                <ab rend="h4">Datumsangaben</ab>
+                <p>Datierungen werden mit einem <code rend="xml">date</code>-Element und entsprechend den Attributen <code rend="xml">when</code> oder <code rend="xml">notBefore</code> und/oder <code rend="xml">notAfter</code> samt maschinenlesbarem Datum nach ISO-Standard codiert:</p>
+                <ab rend="pre">
+                    <code rend="xml">
+&lt;date when="1915-11-25"&gt;25. November 1915&lt;/date&gt;
+&lt;date notBefore="1915-08-01" notAfter="1915-08-31"&gt;August 1915&lt;/date&gt;
+                    </code>
+                </ab>
+                <ab rend="h4">Genannte Personen</ab>
+                <p>Erwähnte Personen in der edierten Quelle werden mit <code rend="xml">persName</code> codiert. In einem Attribut <code rend="xml">key</code> wird die Person über den projektinternen Identifikator identifiziert. Falls ein Eintrag zu der Person in der <ref target="http://www.dnb.de/DE/Standardisierung/GND/gnd_node.html">Gemeinsamen Normdatei</ref> (GND) der Deutschen Nationalbibliothek vorhanden ist, wird darauf in einem <code rend="xml">ref</code>-Attribut verwiesen – ansonsten wird die korpusinterne ID angeführt (um in der technischen Umsetzung die Verlinkung auf das Register zu gewährleisten). Auf den digitalen Normdatensatz der Person gelangt man in der HTML-Ansicht über das Personenregister.</p>
+                <ab rend="pre">
+                    <code rend="xml">
+&lt;persName key="P.0000001" ref="http://d-nb.info/gnd/118770950"&gt;Herwarth Walden&lt;/persName&gt;
+                    </code>
+                </ab>
+                <ab rend="h4">Genannte Orte</ab>
+                <p>Auf genannte Orte wird mittels <code rend="xml">placeName</code> und einem Verweis auf den entsprechenden Eintrag bei <ref target="http://www.geonames.org/">Geonames</ref> über das <code rend="xml">ref</code>-Attribut referenziert. Das <code rend="xml">key</code>-Attribut umfasst die projektinterne ID, über die auf das Ortsregister verwiesen wird:</p>
+                <ab rend="pre">
+                    <code rend="xml">
+&lt;placeName key="O.0000002" ref="http://sws.geonames.org/2950157"&gt;Berlin&lt;/placeName&gt;
+                    </code>
+                </ab>
+                <ab rend="h4">Genannte Werke</ab>
+                <p>Als Werke im Element <code rend="xml">term</code> codierte Entitäten umfassen Kunstwerke, literarische Werke, Zeitungen und Zeitschriften. Im Attribut <code rend="xml">type</code> wird die Gattung des Werkes näher spezifiziert. Bisherige Attribut-Werte sind: <code rend="xml">artwork</code>, <code rend="xml">book</code>, <code rend="xml">drama</code>, <code rend="xml">newspaper</code>, <code rend="xml">article</code>, <code rend="xml">journal</code>.
+                    Über <code rend="xml">ref</code> wird – falls vorhanden – auf einen Normdatensatz (v.a. GND, Wikidata) verwiesen. Ist ein permanent referenzierbares Digitalisat des Werkes vorhanden, dann steht dies in einem <code rend="xml">source</code>-Attribut. Das Digitalisat ist über einen Link in der HTML-Ansicht des Datensatzes aufrufbar. Das Attribut <code rend="xml">key</code> enthält die Projektinterne ID des Werkes, die auf das Werkregister verweist.</p>             
+                <ab rend="pre">
+                    <code rend="xml">
+&lt;term type="journal" key="W.0000068" source="https://doi.org/10.11588/diglit.37113.2" ref="http://d-nb.info/gnd/4058273-5"&gt;April-Nummer&lt;/term&gt;
+                    </code>
+              </ab>
+                <ab rend="h4">Unsichere Lesungen</ab>
+                <p>Durch den Editor oder die Editorin unsicher gelesene Textstellen werden als solche mit dem Element <code rend="xml">unclear</code> codiert.</p>
+                <ab rend="pre">
+                    <code rend="xml">
+&lt;unclear&gt;[Unsicher transkribierter Text]&lt;/unclear&gt;
+                    </code>
+                </ab>
+                <ab rend="h4">Von der Hauptsprache des Textes (meist Deutsch) abweichende Sprache</ab>
+                <ab rend="pre">
+                <code rend="xml">
+&lt;foreign&gt;Grande Vitesse&lt;/foreign&gt;
+
+</code>
+                </ab>
+                <ab rend="h4">In ediertem Text genannte Quellen im Korpus der STURM-Edition</ab>
+                <p>Wird in einem Text auf eine bereits edierte Quelle hingewiesen, beispielsweise auf bereits versandte Briefe, wird auf den entsprechenden edierten Datensatz verwiesen. Folgendes Beispiel stammt aus einem Brief Jacoba van Heemskercks an Herwarth Walden vom 23. Dezember 1915 (<ref target="https://sturm-edition.de/id/Q.01.19151223.JVH.01">https://sturm-edition.de/id/Q.01.19151223.JVH.01</ref>):</p>
+                <ab rend="pre">
+                    <code rend="xml">
+[...] geschrieben ein &lt;ref target="https://sturm-edition.de/id/Q.01.19151218.JVH.01"&gt;lange Brief&lt;/ref&gt; [...]
+                    </code>
+                </ab>     
+            </div>
+            <div type="section" n="four">
+                <ab type="subNavigation" n="edition"/>
+                <ab rend="h4">Digitale Methodik</ab>
+                <p>
+                    Weitere Informationen einschließlich einer Darstellung der im Projekt verwendeten Gesamtsystematik
+                    finden sich im Begleittext zur <ref target="projekt/methodik.xml">Digitalen Methodik</ref>.
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

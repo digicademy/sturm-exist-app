@@ -12,7 +12,7 @@
                     <ref target="http://www.adwmainz.de/">Akademie der Wissenschaften und der Literatur | Mainz</ref>
                 </publisher>
                 <idno type="file">personen.xml</idno>
-                <date when="2018-07-16+02:00"/>
+                <date when="2019-10-30+01:00"/>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by/4.0/">This file is licensed under the terms of the Creative-Commons-License CC BY 4.0</licence>
                 </availability>
@@ -28,19 +28,42 @@
                 <listPerson>
                     <listPerson>
                         <head>A</head>
-                        <person xml:id="P.0000032">
-                            <persName type="pref">Alma</persName>
+                        <person source="http://d-nb.info/gnd/119262177" xml:id="P.0000032">
+                            <persName type="pref">Alma, Peter</persName>
                             <linkGrp type="files">
-                                <ptr n="Bl.53-55" target="Q.01.19150131.JVH.01.xml"/>
+                                <ptr n="Bl.363-364" target="Q.01.19190828.JVH.01.xml"/>
                                 <ptr n="Bl.56-57" target="Q.01.19150209.JVH.01.xml"/>
+                                <ptr n="Bl.53-55" target="Q.01.19150131.JVH.01.xml"/>
+                            </linkGrp>
+                        </person>
+                        <person source="http://d-nb.info/gnd/118649949" xml:id="P.0000117">
+                            <persName type="pref">Archipenko, Alexander</persName>
+                            <linkGrp type="files">
+                                <ptr n="Bl.375" target="Q.01.19191212.JVH.01.xml"/>
                             </linkGrp>
                         </person>
                         <person source="http://d-nb.info/gnd/2097840-6" xml:id="P.0000059">
                             <persName type="pref">Arnold, Ernst (Galerie)</persName>
                             <linkGrp type="files">
-                                <ptr n="Bl.185" target="Q.01.19140414.FMA.01.xml"/>
-                                <ptr n="Bl.181" target="Q.01.19140124.FMA.01.xml"/>
                                 <ptr n="Bl.178" target="Q.01.19140119.FMA.01.xml"/>
+                                <ptr n="Bl.181" target="Q.01.19140124.FMA.01.xml"/>
+                                <ptr n="Bl.185" target="Q.01.19140414.FMA.01.xml"/>
+                            </linkGrp>
+                        </person>
+                        <person xml:id="P.0000103">
+                            <persName type="pref">Assendelft, Hendricus van</persName>
+                            <linkGrp type="files">
+                                <ptr n="Bl.393" target="Q.01.19210605.JVH.01.xml"/>
+                            </linkGrp>
+                        </person>
+                        <person xml:id="P.0000104">
+                            <persName type="pref">Audretsch, Herman Eduard d’</persName>
+                            <linkGrp type="files">
+                                <ptr n="Bl.388" target="Q.01.19201219.JVH.01.xml"/>
+                                <ptr n="Bl.350" target="Q.01.19190106.JVH.01.xml"/>
+                                <ptr n="Bl.375" target="Q.01.19191212.JVH.01.xml"/>
+                                <ptr n="Bl.371" target="Q.01.19191107.JVH.01.xml"/>
+                                <ptr n="Bl.372" target="Q.01.19191116.JVH.01.xml"/>
                             </linkGrp>
                         </person>
                         <person xml:id="P.0000083">
@@ -52,14 +75,20 @@
                     </listPerson>
                     <listPerson>
                         <head>B</head>
+                        <person source="http://d-nb.info/gnd/123805767" xml:id="P.0000179">
+                            <persName type="pref">Bauer, Marius</persName>
+                            <linkGrp type="files">
+                                <ptr n="Bl.130-131" target="Q.01.19151209.JVH.02.xml"/>
+                            </linkGrp>
+                        </person>
                         <person source="http://d-nb.info/gnd/13236056X" xml:id="P.0000063">
                             <persName type="pref">Bechteev, Vladimir G.</persName>
                             <linkGrp type="files">
                                 <ptr n="Bl.179-180" target="Q.01.19140121.FMA.01.xml"/>
                             </linkGrp>
                         </person>
-                        <person source="http://d-nb.info/gnd/118888692" xml:id="P.0000072">
-                            <persName type="pref">Beckerath, Willy von</persName>
+                        <person xml:id="P.0000072">
+                            <persName type="pref">Beckerath, Luise von</persName>
                             <linkGrp type="files">
                                 <ptr n="Bl.183" target="Q.01.19140125.FMA.02.xml"/>
                             </linkGrp>
@@ -67,28 +96,28 @@
                         <person source="http://d-nb.info/gnd/141343133" xml:id="P.0000014">
                             <persName type="pref">Beffie, Willem Wolff</persName>
                             <linkGrp type="files">
-                                <ptr n="Bl.13-14" target="Q.01.19140721.JVH.01.xml"/>
-                                <ptr n="Bl.16-17" target="Q.01.19140730.JVH.01.xml"/>
                                 <ptr n="Bl.189" target="Q.01.19140608.FMA.01.xml"/>
+                                <ptr n="Bl.16-17" target="Q.01.19140730.JVH.01.xml"/>
+                                <ptr n="Bl.13-14" target="Q.01.19140721.JVH.01.xml"/>
                             </linkGrp>
                         </person>
                         <person source="http://d-nb.info/gnd/119191164" xml:id="P.0000021">
                             <persName type="pref">Behne, Adolf</persName>
                             <linkGrp type="files">
                                 <ptr n="Bl.196" target="Q.01.19150116.FMA.01.xml"/>
-                                <ptr n="Bl.37-38" target="Q.01.19141111.JVH.01.xml"/>
-                                <ptr n="Bl.51-52" target="Q.01.19150129.JVH.01.xml"/>
-                                <ptr n="Bl.67-68" target="Q.01.19150308.JVH.01.xml"/>
                                 <ptr n="Bl.49-50" target="Q.01.19150123.JVH.01.xml"/>
-                                <ptr n="Bl.21-22" target="Q.01.19140908.JVH.01.xml"/>
-                                <ptr n="Bl.47-48" target="Q.01.19141219.JVH.01.xml"/>
-                                <ptr n="Bl.110-111" target="Q.01.19150929.JVH.01.xml"/>
-                                <ptr n="Bl.99-100" target="Q.01.19150618.JVH.01.xml"/>
+                                <ptr n="Bl.84-85" target="Q.01.19150409.JVH.01.xml"/>
+                                <ptr n="Bl.51-52" target="Q.01.19150129.JVH.01.xml"/>
                                 <ptr n="Bl.71-72" target="Q.01.19150310.JVH.01.xml"/>
                                 <ptr n="Bl.136-137" target="Q.01.19151218.JVH.01.xml"/>
                                 <ptr n="Bl.86-89" target="Q.01.19150413.JVH.01.xml"/>
-                                <ptr n="Bl.84-85" target="Q.01.19150409.JVH.01.xml"/>
+                                <ptr n="Bl.99-100" target="Q.01.19150618.JVH.01.xml"/>
                                 <ptr n="Bl.102-103" target="Q.01.19150710.JVH.01.xml"/>
+                                <ptr n="Bl.67-68" target="Q.01.19150308.JVH.01.xml"/>
+                                <ptr n="Bl.110-111" target="Q.01.19150929.JVH.01.xml"/>
+                                <ptr n="Bl.47-48" target="Q.01.19141219.JVH.01.xml"/>
+                                <ptr n="Bl.21-22" target="Q.01.19140908.JVH.01.xml"/>
+                                <ptr n="Bl.37-38" target="Q.01.19141111.JVH.01.xml"/>
                             </linkGrp>
                         </person>
                         <person xml:id="P.0000060">
@@ -103,6 +132,44 @@
                                 <ptr n="Bl.183" target="Q.01.19140125.FMA.02.xml"/>
                             </linkGrp>
                         </person>
+                        <person source="http://d-nb.info/gnd/118509640" xml:id="P.0000151">
+                            <persName type="pref">Berlage, Hendrik Petrus</persName>
+                            <linkGrp type="files">
+                                <ptr n="Bl.363-364" target="Q.01.19190828.JVH.01.xml"/>
+                            </linkGrp>
+                        </person>
+                        <person source="http://d-nb.info/gnd/142220078" xml:id="P.0000171">
+                            <persName type="pref">Bieling, Herman Frederik</persName>
+                            <linkGrp type="files">
+                                <ptr n="Bl.363-364" target="Q.01.19190828.JVH.01.xml"/>
+                            </linkGrp>
+                        </person>
+                        <person source="http://d-nb.info/gnd/118663119" xml:id="P.0000109">
+                            <persName type="pref">Biermann, Georg</persName>
+                            <linkGrp type="files">
+                                <ptr n="Bl.356" target="Q.01.19190509.JVH.01.xml"/>
+                            </linkGrp>
+                        </person>
+                        <person xml:id="P.0000112">
+                            <persName type="pref">Blaesing (dt. Gesandtschaft in Den Haag)</persName>
+                            <linkGrp type="files">
+                                <ptr n="Bl.367" target="Q.01.19190924.JVH.01.xml"/>
+                            </linkGrp>
+                        </person>
+                        <person source="http://d-nb.info/gnd/11620589X" xml:id="P.0000108">
+                            <persName type="pref">Blümner, Rudolf</persName>
+                            <linkGrp type="files">
+                                <ptr n="Bl.380" target="Q.01.19200414.JVH.01.xml"/>
+                                <ptr n="Bl.377" target="Q.01.19200114.JVH.01.xml"/>
+                                <ptr n="Bl.371" target="Q.01.19191107.JVH.01.xml"/>
+                            </linkGrp>
+                        </person>
+                        <person source="http://d-nb.info/gnd/118512188" xml:id="P.0000118">
+                            <persName type="pref">Boccioni, Umberto</persName>
+                            <linkGrp type="files">
+                                <ptr n="Bl.375" target="Q.01.19191212.JVH.01.xml"/>
+                            </linkGrp>
+                        </person>
                         <person xml:id="P.0000069">
                             <persName type="pref">Bock</persName>
                             <linkGrp type="files">
@@ -110,7 +177,14 @@
                                 <ptr n="Bl.183" target="Q.01.19140125.FMA.02.xml"/>
                             </linkGrp>
                         </person>
-                        <person source="http://www.wikidata.org/entity/Q2298253" xml:id="P.0000043">
+                        <person source="http://d-nb.info/gnd/119102277" xml:id="P.0000110">
+                            <persName type="pref">Brass, Hans</persName>
+                            <linkGrp type="files">
+                                <ptr n="Bl.359" target="Q.01.19190702.JVH.01.xml"/>
+                                <ptr n="Bl.358" target="Q.01.19190628.JVH.01.xml"/>
+                            </linkGrp>
+                        </person>
+                        <person source="http://d-nb.info/gnd/121668053" xml:id="P.0000043">
                             <persName type="pref">Bremmer, Henk</persName>
                             <linkGrp type="files">
                                 <ptr n="Bl.110-111" target="Q.01.19150929.JVH.01.xml"/>
@@ -134,11 +208,17 @@
                                 <ptr n="Bl.118-119" target="Q.01.19151113.JVH.01.xml"/>
                             </linkGrp>
                         </person>
-                        <person xml:id="P.0000017">
-                            <persName type="pref">Bürgermeister (von Domburg/Seeland um 1914)</persName>
+                        <person source="http://d-nb.info/gnd/101835825" xml:id="P.0000185">
+                            <persName type="pref">Byvanck, Willem G. C. </persName>
                             <linkGrp type="files">
-                                <ptr n="Bl.13-14" target="Q.01.19140721.JVH.01.xml"/>
+                                <ptr n="Bl.134-135" target="Q.01.19151218.JVH.02.xml"/>
+                            </linkGrp>
+                        </person>
+                        <person xml:id="P.0000017">
+                            <persName type="pref">Bürgermeister (von Domburg/Zeeland um 1914)</persName>
+                            <linkGrp type="files">
                                 <ptr n="Bl.16-17" target="Q.01.19140730.JVH.01.xml"/>
+                                <ptr n="Bl.13-14" target="Q.01.19140721.JVH.01.xml"/>
                             </linkGrp>
                         </person>
                     </listPerson>
@@ -165,16 +245,42 @@
                         <person source="http://d-nb.info/gnd/118870645" xml:id="P.0000058">
                             <persName type="pref">Cassirer, Paul</persName>
                             <linkGrp type="files">
-                                <ptr n="Bl.185" target="Q.01.19140414.FMA.01.xml"/>
-                                <ptr n="Bl.179-180" target="Q.01.19140121.FMA.01.xml"/>
                                 <ptr n="Bl.178" target="Q.01.19140119.FMA.01.xml"/>
+                                <ptr n="Bl.179-180" target="Q.01.19140121.FMA.01.xml"/>
+                                <ptr n="Bl.185" target="Q.01.19140414.FMA.01.xml"/>
                             </linkGrp>
                         </person>
                         <person source="http://d-nb.info/gnd/118519980" xml:id="P.0000015">
                             <persName type="pref">Chagall, Marc</persName>
                             <linkGrp type="files">
-                                <ptr n="Bl.13-14" target="Q.01.19140721.JVH.01.xml"/>
+                                <ptr n="Bl.375" target="Q.01.19191212.JVH.01.xml"/>
                                 <ptr n="Bl.189" target="Q.01.19140608.FMA.01.xml"/>
+                                <ptr n="Bl.13-14" target="Q.01.19140721.JVH.01.xml"/>
+                            </linkGrp>
+                        </person>
+                        <person source="http://d-nb.info/gnd/118520873" xml:id="P.0000115">
+                            <persName type="pref">Citroen, Paul Roelof</persName>
+                            <linkGrp type="files">
+                                <ptr n="Bl.371" target="Q.01.19191107.JVH.01.xml"/>
+                                <ptr n="Bl.372" target="Q.01.19191116.JVH.01.xml"/>
+                            </linkGrp>
+                        </person>
+                        <person source="http://d-nb.info/gnd/123242231" xml:id="P.0000116">
+                            <persName type="pref">Cohn-Wiener, Ernst</persName>
+                            <linkGrp type="files">
+                                <ptr n="Bl.371" target="Q.01.19191107.JVH.01.xml"/>
+                            </linkGrp>
+                        </person>
+                        <person source="http://d-nb.info/gnd/136469264" xml:id="P.0000162">
+                            <persName type="pref">Collette, Joan</persName>
+                            <linkGrp type="files">
+                                <ptr n="Bl.363-364" target="Q.01.19190828.JVH.01.xml"/>
+                            </linkGrp>
+                        </person>
+                        <person xml:id="P.0000153">
+                            <persName type="pref">Colnot, Arnout Jacobus Gustaaf</persName>
+                            <linkGrp type="files">
+                                <ptr n="Bl.363-364" target="Q.01.19190828.JVH.01.xml"/>
                             </linkGrp>
                         </person>
                     </listPerson>
@@ -193,20 +299,70 @@
                                 <ptr n="Bl.207" target="Q.01.19150703.FMA.01.xml"/>
                             </linkGrp>
                         </person>
+                        <person source="http://d-nb.info/gnd/118524496" xml:id="P.0000123">
+                            <persName type="pref">Delaunay, Robert</persName>
+                            <linkGrp type="files">
+                                <ptr n="Bl.379" target="Q.01.19200301.JVH.01.xml"/>
+                            </linkGrp>
+                        </person>
                         <person source="http://d-nb.info/gnd/118526405" xml:id="P.0000024">
                             <persName type="pref">Doesburg, Theo van</persName>
                             <linkGrp type="files">
+                                <ptr n="Bl.363-364" target="Q.01.19190828.JVH.01.xml"/>
+                                <ptr n="Bl.350" target="Q.01.19190106.JVH.01.xml"/>
                                 <ptr n="Bl.114" target="Q.01.19151014.JVH.01.xml"/>
                                 <ptr n="Bl.28" target="Q.01.19141014.JVH.01.xml"/>
+                            </linkGrp>
+                        </person>
+                        <person source="http://d-nb.info/gnd/118638858" xml:id="P.0000150">
+                            <persName type="pref">Dongen, Kees van</persName>
+                            <linkGrp type="files">
+                                <ptr n="Bl.363-364" target="Q.01.19190828.JVH.01.xml"/>
+                            </linkGrp>
+                        </person>
+                        <person source="https://rkd.nl/explore/artists/126139" xml:id="P.0000163">
+                            <persName type="pref">Duursma, Djurre</persName>
+                            <linkGrp type="files">
+                                <ptr n="Bl.363-364" target="Q.01.19190828.JVH.01.xml"/>
                             </linkGrp>
                         </person>
                     </listPerson>
                     <listPerson>
                         <head>E</head>
+                        <person source="http://d-nb.info/gnd/118528610" xml:id="P.0000120">
+                            <persName type="pref">Ebert, Friedrich</persName>
+                            <linkGrp type="files">
+                                <ptr n="Bl.377" target="Q.01.19200114.JVH.01.xml"/>
+                            </linkGrp>
+                        </person>
+                        <person source="http://d-nb.info/gnd/118688189" xml:id="P.0000176">
+                            <persName type="pref">Ehmcke, F. H.</persName>
+                            <linkGrp type="files">
+                                <ptr n="Bl.220" target="Q.01.19160115.FMA.01.xml"/>
+                            </linkGrp>
+                        </person>
+                        <person source="http://d-nb.info/gnd/118529587" xml:id="P.0000122">
+                            <persName type="pref">Einstein, Carl</persName>
+                            <linkGrp type="files">
+                                <ptr n="Bl.377" target="Q.01.19200114.JVH.01.xml"/>
+                            </linkGrp>
+                        </person>
+                        <person source="http://d-nb.info/gnd/118722778" xml:id="P.0000182">
+                            <persName type="pref">El Greco</persName>
+                            <linkGrp type="files">
+                                <ptr n="Bl.134-135" target="Q.01.19151218.JVH.02.xml"/>
+                            </linkGrp>
+                        </person>
                         <person source="http://d-nb.info/gnd/118530712" xml:id="P.0000066">
                             <persName type="pref">Erbslöh, Adolf</persName>
                             <linkGrp type="files">
                                 <ptr n="Bl.179-180" target="Q.01.19140121.FMA.01.xml"/>
+                            </linkGrp>
+                        </person>
+                        <person source="http://d-nb.info/gnd/119071312" xml:id="P.0000177">
+                            <persName type="pref">Erdmann-Macke, Elisabeth</persName>
+                            <linkGrp type="files">
+                                <ptr n="Bl.221" target="Q.01.19160122.FMA.01.xml"/>
                             </linkGrp>
                         </person>
                     </listPerson>
@@ -235,8 +391,8 @@
                         <person source="http://d-nb.info/gnd/118969161" xml:id="P.0000033">
                             <persName type="pref">Filla, Emil</persName>
                             <linkGrp type="files">
-                                <ptr n="Bl.53-55" target="Q.01.19150131.JVH.01.xml"/>
                                 <ptr n="Bl.56-57" target="Q.01.19150209.JVH.01.xml"/>
+                                <ptr n="Bl.53-55" target="Q.01.19150131.JVH.01.xml"/>
                                 <ptr n="Bl.178" target="Q.01.19140119.FMA.01.xml"/>
                             </linkGrp>
                         </person>
@@ -246,8 +402,9 @@
                         <person source="http://d-nb.info/gnd/121931005" xml:id="P.0000040">
                             <persName type="pref">Gestel, Leo</persName>
                             <linkGrp type="files">
-                                <ptr n="Bl.110-111" target="Q.01.19150929.JVH.01.xml"/>
+                                <ptr n="Bl.363-364" target="Q.01.19190828.JVH.01.xml"/>
                                 <ptr n="Bl.78-79" target="Q.01.19150323.JVH.01.xml"/>
+                                <ptr n="Bl.110-111" target="Q.01.19150929.JVH.01.xml"/>
                             </linkGrp>
                         </person>
                         <person source="http://d-nb.info/gnd/117543705" xml:id="P.0000035">
@@ -257,11 +414,29 @@
                                 <ptr n="Bl.58-59" target="Q.01.19150217.JVH.01.xml"/>
                             </linkGrp>
                         </person>
+                        <person source="https://rkd.nl/explore/artists/32008" xml:id="P.0000165">
+                            <persName type="pref">Gits, Bernard Toon</persName>
+                            <linkGrp type="files">
+                                <ptr n="Bl.363-364" target="Q.01.19190828.JVH.01.xml"/>
+                            </linkGrp>
+                        </person>
                         <person source="http://d-nb.info/gnd/5120121-5" xml:id="P.0000068">
                             <persName type="pref">Goldschmidt</persName>
                             <linkGrp type="files">
-                                <ptr n="Bl.183" target="Q.01.19140125.FMA.02.xml"/>
                                 <ptr n="Bl.179-180" target="Q.01.19140121.FMA.01.xml"/>
+                                <ptr n="Bl.183" target="Q.01.19140125.FMA.02.xml"/>
+                            </linkGrp>
+                        </person>
+                        <person source="http://d-nb.info/gnd/1055475877" xml:id="P.0000181">
+                            <persName type="pref">Gratama, G. D.</persName>
+                            <linkGrp type="files">
+                                <ptr n="Bl.134-135" target="Q.01.19151218.JVH.02.xml"/>
+                            </linkGrp>
+                        </person>
+                        <person source="http://d-nb.info/gnd/118542907" xml:id="P.0000183">
+                            <persName type="pref">Grünewald, Matthias</persName>
+                            <linkGrp type="files">
+                                <ptr n="Bl.134-135" target="Q.01.19151218.JVH.02.xml"/>
                             </linkGrp>
                         </person>
                     </listPerson>
@@ -271,6 +446,12 @@
                             <persName type="pref">Hartley, Marsden</persName>
                             <linkGrp type="files">
                                 <ptr n="Bl.191" target="Q.01.19140627.FMA.01.xml"/>
+                            </linkGrp>
+                        </person>
+                        <person source="https://rkd.nl/explore/artists/36582" xml:id="P.0000166">
+                            <persName type="pref">Havermans, Jan</persName>
+                            <linkGrp type="files">
+                                <ptr n="Bl.363-364" target="Q.01.19190828.JVH.01.xml"/>
                             </linkGrp>
                         </person>
                         <person source="http://d-nb.info/gnd/118547488" xml:id="P.0000078">
@@ -290,83 +471,156 @@
                             <persName type="pref">Heemskerck van Beest, Jacoba van</persName>
                             <persName type="fn">Jacoba van Heemskerck</persName>
                             <linkGrp type="files">
-                                <ptr n="Bl.114" target="Q.01.19151014.JVH.01.xml"/>
-                                <ptr n="Bl.112-113" target="Q.01.19151007.JVH.01.xml"/>
-                                <ptr n="Bl.115-116" target="Q.01.19151018.JVH.01.xml"/>
-                                <ptr n="Bl.124" target="Q.01.19151124.JVH.01.xml"/>
-                                <ptr n="Bl.118-119" target="Q.01.19151113.JVH.01.xml"/>
-                                <ptr n="Bl.53-55" target="Q.01.19150131.JVH.01.xml"/>
-                                <ptr n="Bl.15" target="Q.01.19140727.JVH.01.xml"/>
-                                <ptr n="Bl.13-14" target="Q.01.19140721.JVH.01.xml"/>
-                                <ptr n="Bl.45-46" target="Q.01.19141210.JVH.01.xml"/>
-                                <ptr n="Bl.18" target="Q.01.19140807.JVH.01.xml"/>
-                                <ptr n="Bl.16-17" target="Q.01.19140730.JVH.01.xml"/>
+                                <ptr n="Bl.396" target="Q.01.19210830.JVH.01.xml"/>
+                                <ptr n="Bl.398" target="Q.01.19210921.JVH.01.xml"/>
+                                <ptr n="Bl.399" target="Q.01.19210930.JVH.01.xml"/>
+                                <ptr n="Bl.395" target="Q.01.19210824.JVH.01.xml"/>
+                                <ptr n="Bl.397" target="Q.01.19210914.JVH.01.xml"/>
+                                <ptr n="Bl.391" target="Q.01.19210204.JVH.01.xml"/>
+                                <ptr n="Bl.390" target="Q.01.19210129.JVH.01.xml"/>
+                                <ptr n="Bl.392" target="Q.01.19210412.JVH.01.xml"/>
+                                <ptr n="Bl.403" target="Q.01.19211223.JVH.01.xml"/>
+                                <ptr n="Bl.400" target="Q.01.19211020.JVH.01.xml"/>
+                                <ptr n="Bl.402" target="Q.01.19211211.JVH.01.xml"/>
+                                <ptr n="Bl.393" target="Q.01.19210605.JVH.01.xml"/>
+                                <ptr n="Bl.401" target="Q.01.19211025.JVH.01.xml"/>
+                                <ptr n="Bl.394" target="Q.01.19210804.JVH.01.xml"/>
+                                <ptr n="Bl.380" target="Q.01.19200414.JVH.01.xml"/>
+                                <ptr n="Bl.385" target="Q.01.19200902.JVH.01.xml"/>
+                                <ptr n="Bl.378" target="Q.01.19200201.JVH.01.xml"/>
+                                <ptr n="Bl.386" target="Q.01.19201104.JVH.01.xml"/>
+                                <ptr n="Bl.379" target="Q.01.19200301.JVH.01.xml"/>
+                                <ptr n="Bl.381" target="Q.01.19200417.JVH.01.xml"/>
+                                <ptr n="Bl.384" target="Q.01.19200818.JVH.01.xml"/>
+                                <ptr n="Bl.377" target="Q.01.19200114.JVH.01.xml"/>
+                                <ptr n="Bl.383" target="Q.01.19200528.JVH.01.xml"/>
+                                <ptr n="Bl.382" target="Q.01.19200428.JVH.01.xml"/>
+                                <ptr n="Bl.387" target="Q.01.19201208.JVH.01.xml"/>
+                                <ptr n="Bl.389" target="Q.01.19201223.JVH.01.xml"/>
+                                <ptr n="Bl.388" target="Q.01.19201219.JVH.01.xml"/>
+                                <ptr n="Bl.405" target="Q.01.19220402.JVH.01.xml"/>
+                                <ptr n="Bl.404" target="Q.01.19220217.JVH.01.xml"/>
+                                <ptr n="Bl.359" target="Q.01.19190702.JVH.01.xml"/>
+                                <ptr n="Bl.376" target="Q.01.19191230.JVH.01.xml"/>
+                                <ptr n="Bl.352" target="Q.01.19190124.JVH.01.xml"/>
+                                <ptr n="Bl.370" target="Q.01.19191004.JVH.01.xml"/>
+                                <ptr n="Bl.363-364" target="Q.01.19190828.JVH.01.xml"/>
+                                <ptr n="Bl.356" target="Q.01.19190509.JVH.01.xml"/>
+                                <ptr n="Bl.368" target="Q.01.19190927.JVH.01.xml"/>
+                                <ptr n="Bl.354" target="Q.01.19190217.JVH.01.xml"/>
+                                <ptr n="Bl.358" target="Q.01.19190628.JVH.01.xml"/>
+                                <ptr n="Bl.369" target="Q.01.19190930.JVH.01.xml"/>
+                                <ptr n="Bl.350" target="Q.01.19190106.JVH.01.xml"/>
+                                <ptr n="Bl.362" target="Q.01.19190821.JVH.01.xml"/>
+                                <ptr n="Bl.375" target="Q.01.19191212.JVH.01.xml"/>
+                                <ptr n="Bl.367" target="Q.01.19190924.JVH.01.xml"/>
+                                <ptr n="Bl.361" target="Q.01.19190807.JVH.01.xml"/>
+                                <ptr n="Bl.351" target="Q.01.19190106.JVH.02.xml"/>
+                                <ptr n="Bl.366" target="Q.01.19190923.JVH.01.xml"/>
+                                <ptr n="Bl.353" target="Q.01.19190207.JVH.01.xml"/>
+                                <ptr n="Bl.355" target="Q.01.19190302.JVH.01.xml"/>
+                                <ptr n="Bl.365" target="Q.01.19190905.JVH.01.xml"/>
+                                <ptr n="Bl.373-374" target="Q.01.19191209.JVH.01.xml"/>
+                                <ptr n="Bl.357" target="Q.01.19190618.JVH.01.xml"/>
+                                <ptr n="Bl.371" target="Q.01.19191107.JVH.01.xml"/>
+                                <ptr n="Bl.372" target="Q.01.19191116.JVH.01.xml"/>
+                                <ptr n="Bl.106-107" target="Q.01.19150818.JVH.01.xml"/>
+                                <ptr n="Bl.49-50" target="Q.01.19150123.JVH.01.xml"/>
+                                <ptr n="Bl.60-62" target="Q.01.19150228.JVH.01.xml"/>
+                                <ptr n="Bl.75-76" target="Q.01.19150317.JVH.01.xml"/>
+                                <ptr n="Bl.65-66" target="Q.01.19150303.JVH.01.xml"/>
+                                <ptr n="Bl.58-59" target="Q.01.19150217.JVH.01.xml"/>
+                                <ptr n="Bl.82-83" target="Q.01.19150403.JVH.01.xml"/>
+                                <ptr n="Bl.93" target="Q.01.19150517.JVH.01.xml"/>
+                                <ptr n="Bl.138" target="Q.01.19151223.JVH.01.xml"/>
+                                <ptr n="Bl.104-105" target="Q.01.19150723.JVH.01.xml"/>
+                                <ptr n="Bl.80-81" target="Q.01.19150328.JVH.01.xml"/>
+                                <ptr n="Bl.84-85" target="Q.01.19150409.JVH.01.xml"/>
+                                <ptr n="Bl.120-121" target="Q.01.19151115.JVH.01.xml"/>
                                 <ptr n="Bl.117" target="Q.01.19151027.JVH.01.xml"/>
-                                <ptr n="Bl.43-44" target="Q.01.19141203.JVH.01.xml"/>
-                                <ptr n="Bl.41-42" target="Q.01.19141129.JVH.01.xml"/>
+                                <ptr n="Bl.56-57" target="Q.01.19150209.JVH.01.xml"/>
+                                <ptr n="Bl.51-52" target="Q.01.19150129.JVH.01.xml"/>
+                                <ptr n="Bl.115-116" target="Q.01.19151018.JVH.01.xml"/>
+                                <ptr n="Bl.71-72" target="Q.01.19150310.JVH.01.xml"/>
+                                <ptr n="Bl.101" target="Q.01.19150624.JVH.01.xml"/>
+                                <ptr n="Bl.132-133" target="Q.01.19151209.JVH.01.xml"/>
+                                <ptr n="Bl.90-91" target="Q.01.19150429.JVH.01.xml"/>
+                                <ptr n="Bl.136-137" target="Q.01.19151218.JVH.01.xml"/>
+                                <ptr n="Bl.118-119" target="Q.01.19151113.JVH.01.xml"/>
+                                <ptr n="Bl.124" target="Q.01.19151124.JVH.01.xml"/>
+                                <ptr n="Bl.112-113" target="Q.01.19151007.JVH.01.xml"/>
+                                <ptr n="Bl.94-96" target="Q.01.19150530.JVH.01.xml"/>
+                                <ptr n="Bl.92" target="Q.01.19150507.JVH.01.xml"/>
+                                <ptr n="Bl.86-89" target="Q.01.19150413.JVH.01.xml"/>
+                                <ptr n="Bl.73-74" target="Q.01.19150313.JVH.01.xml"/>
+                                <ptr n="Bl.77-78" target="Q.01.19150321.JVH.01.xml"/>
+                                <ptr n="Bl.99-100" target="Q.01.19150618.JVH.01.xml"/>
+                                <ptr n="Bl.102-103" target="Q.01.19150710.JVH.01.xml"/>
+                                <ptr n="Bl.114" target="Q.01.19151014.JVH.01.xml"/>
+                                <ptr n="Bl.108-109" target="Q.01.19150824.JVH.01.xml"/>
+                                <ptr n="Bl.129" target="Q.01.19151206.JVH.01.xml"/>
+                                <ptr n="Bl.127-128" target="Q.01.19151126.JVH.01.xml"/>
+                                <ptr n="Bl.78-79" target="Q.01.19150323.JVH.01.xml"/>
+                                <ptr n="Bl.67-68" target="Q.01.19150308.JVH.01.xml"/>
+                                <ptr n="Bl.110-111" target="Q.01.19150929.JVH.01.xml"/>
+                                <ptr n="Bl.97-98" target="Q.01.19150606.JVH.01.xml"/>
+                                <ptr n="Bl.53-55" target="Q.01.19150131.JVH.01.xml"/>
+                                <ptr n="Bl.139-140" target="Q.01.19151225.JVH.01.xml"/>
+                                <ptr n="Bl.47-48" target="Q.01.19141219.JVH.01.xml"/>
+                                <ptr n="Bl.12" target="Q.01.19140708.JVH.01.xml"/>
+                                <ptr n="Bl.20" target="Q.01.19140822.JVH.01.xml"/>
                                 <ptr n="Bl.39-40" target="Q.01.19141117.JVH.01.xml"/>
-                                <ptr n="Bl.37-38" target="Q.01.19141111.JVH.01.xml"/>
+                                <ptr n="Bl.16-17" target="Q.01.19140730.JVH.01.xml"/>
+                                <ptr n="Bl.26-27" target="Q.01.19141009.JVH.01.xml"/>
+                                <ptr n="Bl.13-14" target="Q.01.19140721.JVH.01.xml"/>
+                                <ptr n="Bl.19" target="Q.01.19140820.JVH.01.xml"/>
+                                <ptr n="Bl.33-34" target="Q.01.19141027.JVH.01.xml"/>
+                                <ptr n="Bl.23-24" target="Q.01.19140925.JVH.01.xml"/>
+                                <ptr n="Bl.1-3" target="Q.01.19140322.JVH.01.xml"/>
+                                <ptr n="Bl.15" target="Q.01.19140727.JVH.01.xml"/>
+                                <ptr n="Bl.45-46" target="Q.01.19141210.JVH.01.xml"/>
+                                <ptr n="Bl.21-22" target="Q.01.19140908.JVH.01.xml"/>
+                                <ptr n="Bl.11" target="Q.01.19140704.JVH.01.xml"/>
+                                <ptr n="Bl.5-6" target="Q.01.19140601.JVH.01.xml"/>
+                                <ptr n="Bl.29-30" target="Q.01.19141016.JVH.01.xml"/>
+                                <ptr n="Bl.41-42" target="Q.01.19141129.JVH.01.xml"/>
                                 <ptr n="Bl.35-36" target="Q.01.19141105.JVH.01.xml"/>
                                 <ptr n="Bl.9-10" target="Q.01.19140703.JVH.01.xml"/>
-                                <ptr n="Bl.7-8" target="Q.01.19140612.JVH.01.xml"/>
-                                <ptr n="Bl.120-121" target="Q.01.19151115.JVH.01.xml"/>
-                                <ptr n="Bl.5-6" target="Q.01.19140601.JVH.01.xml"/>
-                                <ptr n="Bl.51-52" target="Q.01.19150129.JVH.01.xml"/>
-                                <ptr n="Bl.67-68" target="Q.01.19150308.JVH.01.xml"/>
-                                <ptr n="Bl.60-62" target="Q.01.19150228.JVH.01.xml"/>
-                                <ptr n="Bl.56-57" target="Q.01.19150209.JVH.01.xml"/>
-                                <ptr n="Bl.49-50" target="Q.01.19150123.JVH.01.xml"/>
-                                <ptr n="Bl.75-76" target="Q.01.19150317.JVH.01.xml"/>
-                                <ptr n="Bl.12" target="Q.01.19140708.JVH.01.xml"/>
-                                <ptr n="Bl.11" target="Q.01.19140704.JVH.01.xml"/>
-                                <ptr n="Bl.138" target="Q.01.19151223.JVH.01.xml"/>
-                                <ptr n="Bl.132-133" target="Q.01.19151209.JVH.01.xml"/>
-                                <ptr n="Bl.129" target="Q.01.19151206.JVH.01.xml"/>
-                                <ptr n="Bl.65-66" target="Q.01.19150303.JVH.01.xml"/>
-                                <ptr n="Bl.28" target="Q.01.19141014.JVH.01.xml"/>
-                                <ptr n="Bl.26-27" target="Q.01.19141009.JVH.01.xml"/>
-                                <ptr n="Bl.21-22" target="Q.01.19140908.JVH.01.xml"/>
-                                <ptr n="Bl.20" target="Q.01.19140822.JVH.01.xml"/>
-                                <ptr n="Bl.19" target="Q.01.19140820.JVH.01.xml"/>
-                                <ptr n="Bl.47-48" target="Q.01.19141219.JVH.01.xml"/>
-                                <ptr n="Bl.127-128" target="Q.01.19151126.JVH.01.xml"/>
-                                <ptr n="Bl.110-111" target="Q.01.19150929.JVH.01.xml"/>
-                                <ptr n="Bl.99-100" target="Q.01.19150618.JVH.01.xml"/>
+                                <ptr n="Bl.43-44" target="Q.01.19141203.JVH.01.xml"/>
+                                <ptr n="Bl.18" target="Q.01.19140807.JVH.01.xml"/>
                                 <ptr n="Bl.25" target="Q.01.19141005.JVH.01.xml"/>
-                                <ptr n="Bl.23-24" target="Q.01.19140925.JVH.01.xml"/>
-                                <ptr n="Bl.31-32" target="Q.01.19141023.JVH.01.xml"/>
-                                <ptr n="Bl.29-30" target="Q.01.19141016.JVH.01.xml"/>
-                                <ptr n="Bl.73-74" target="Q.01.19150313.JVH.01.xml"/>
-                                <ptr n="Bl.58-59" target="Q.01.19150217.JVH.01.xml"/>
-                                <ptr n="Bl.71-72" target="Q.01.19150310.JVH.01.xml"/>
-                                <ptr n="Bl.136-137" target="Q.01.19151218.JVH.01.xml"/>
-                                <ptr n="Bl.33-34" target="Q.01.19141027.JVH.01.xml"/>
-                                <ptr n="Bl.90-91" target="Q.01.19150429.JVH.01.xml"/>
-                                <ptr n="Bl.92" target="Q.01.19150507.JVH.01.xml"/>
-                                <ptr n="Bl.139-140" target="Q.01.19151225.JVH.01.xml"/>
-                                <ptr n="Bl.94-96" target="Q.01.19150530.JVH.01.xml"/>
-                                <ptr n="Bl.93" target="Q.01.19150517.JVH.01.xml"/>
-                                <ptr n="Bl.86-89" target="Q.01.19150413.JVH.01.xml"/>
-                                <ptr n="Bl.84-85" target="Q.01.19150409.JVH.01.xml"/>
-                                <ptr n="Bl.82-83" target="Q.01.19150403.JVH.01.xml"/>
-                                <ptr n="Bl.80-81" target="Q.01.19150328.JVH.01.xml"/>
-                                <ptr n="Bl.78-79" target="Q.01.19150323.JVH.01.xml"/>
-                                <ptr n="Bl.77-78" target="Q.01.19150321.JVH.01.xml"/>
-                                <ptr n="Bl.108-109" target="Q.01.19150824.JVH.01.xml"/>
-                                <ptr n="Bl.106-107" target="Q.01.19150818.JVH.01.xml"/>
-                                <ptr n="Bl.104-105" target="Q.01.19150723.JVH.01.xml"/>
-                                <ptr n="Bl.102-103" target="Q.01.19150710.JVH.01.xml"/>
-                                <ptr n="Bl.101" target="Q.01.19150624.JVH.01.xml"/>
+                                <ptr n="Bl.7-8" target="Q.01.19140612.JVH.01.xml"/>
+                                <ptr n="Bl.37-38" target="Q.01.19141111.JVH.01.xml"/>
                                 <ptr n="Bl.4" target="Q.01.19140514.JVH.01.xml"/>
-                                <ptr n="Bl.1-3" target="Q.01.19140322.JVH.01.xml"/>
-                                <ptr n="Bl.97-98" target="Q.01.19150606.JVH.01.xml"/>
+                                <ptr n="Bl.31-32" target="Q.01.19141023.JVH.01.xml"/>
+                                <ptr n="Bl.28" target="Q.01.19141014.JVH.01.xml"/>
+                                <ptr n="Bl.122-123" target="Q.01.19151120.JVH.02.xml"/>
+                                <ptr n="Bl.63-64" target="Q.01.19150228.JVH.02.xml"/>
+                                <ptr n="Bl.69-70" target="Q.01.19150315.JVH.02.xml"/>
+                                <ptr n="Bl.134-135" target="Q.01.19151218.JVH.02.xml"/>
+                                <ptr n="Bl.130-131" target="Q.01.19151209.JVH.02.xml"/>
+                                <ptr n="Bl.125-126" target="Q.01.19151126.JVH.02.xml"/>
+                            </linkGrp>
+                        </person>
+                        <person source="http://d-nb.info/gnd/11939877X" xml:id="P.0000100">
+                            <persName type="pref">Heinersdorff, Gottfried</persName>
+                            <linkGrp type="files">
+                                <ptr n="Bl.399" target="Q.01.19210930.JVH.01.xml"/>
+                                <ptr n="Bl.391" target="Q.01.19210204.JVH.01.xml"/>
+                                <ptr n="Bl.383" target="Q.01.19200528.JVH.01.xml"/>
+                                <ptr n="Bl.376" target="Q.01.19191230.JVH.01.xml"/>
+                                <ptr n="Bl.361" target="Q.01.19190807.JVH.01.xml"/>
+                                <ptr n="Bl.365" target="Q.01.19190905.JVH.01.xml"/>
                             </linkGrp>
                         </person>
                         <person xml:id="P.0000027">
-                            <persName type="pref">Hess</persName>
+                            <persName type="pref">Hess, Leopold</persName>
                             <linkGrp type="files">
-                                <ptr n="Bl.37-38" target="Q.01.19141111.JVH.01.xml"/>
+                                <ptr n="Bl.384" target="Q.01.19200818.JVH.01.xml"/>
                                 <ptr n="Bl.35-36" target="Q.01.19141105.JVH.01.xml"/>
+                                <ptr n="Bl.37-38" target="Q.01.19141111.JVH.01.xml"/>
+                                <ptr n="Bl.130-131" target="Q.01.19151209.JVH.02.xml"/>
+                                <ptr n="Bl.125-126" target="Q.01.19151126.JVH.02.xml"/>
                             </linkGrp>
                         </person>
                         <person source="http://www.wikidata.org/entity/Q14856573" xml:id="P.0000037">
@@ -376,10 +630,28 @@
                                 <ptr n="Bl.80-81" target="Q.01.19150328.JVH.01.xml"/>
                             </linkGrp>
                         </person>
+                        <person source="http://d-nb.info/gnd/14179044X" xml:id="P.0000172">
+                            <persName type="pref">Hoff, Robert van’t</persName>
+                            <linkGrp type="files">
+                                <ptr n="Bl.363-364" target="Q.01.19190828.JVH.01.xml"/>
+                            </linkGrp>
+                        </person>
+                        <person source="https://rkd.nl/explore/artists/40835" xml:id="P.0000154">
+                            <persName type="pref">Huysmans, Franciscus Johannes</persName>
+                            <linkGrp type="files">
+                                <ptr n="Bl.363-364" target="Q.01.19190828.JVH.01.xml"/>
+                            </linkGrp>
+                        </person>
                         <person xml:id="P.0000022">
                             <persName type="pref">Hüber, Roelofssen</persName>
                             <linkGrp type="files">
                                 <ptr n="Bl.23-24" target="Q.01.19140925.JVH.01.xml"/>
+                            </linkGrp>
+                        </person>
+                        <person source="http://d-nb.info/gnd/117037508" xml:id="P.0000102">
+                            <persName type="pref">Hübner, Friedrich Markus</persName>
+                            <linkGrp type="files">
+                                <ptr n="Bl.394" target="Q.01.19210804.JVH.01.xml"/>
                             </linkGrp>
                         </person>
                     </listPerson>
@@ -409,36 +681,38 @@
                         <person source="http://d-nb.info/gnd/118559737" xml:id="P.0000009">
                             <persName type="pref">Kandinsky, Wassily</persName>
                             <linkGrp type="files">
-                                <ptr n="Bl.53-55" target="Q.01.19150131.JVH.01.xml"/>
-                                <ptr n="Bl.15" target="Q.01.19140727.JVH.01.xml"/>
-                                <ptr n="Bl.13-14" target="Q.01.19140721.JVH.01.xml"/>
-                                <ptr n="Bl.16-17" target="Q.01.19140730.JVH.01.xml"/>
-                                <ptr n="Bl.37-38" target="Q.01.19141111.JVH.01.xml"/>
-                                <ptr n="Bl.5-6" target="Q.01.19140601.JVH.01.xml"/>
+                                <ptr n="Bl.375" target="Q.01.19191212.JVH.01.xml"/>
+                                <ptr n="Bl.106-107" target="Q.01.19150818.JVH.01.xml"/>
                                 <ptr n="Bl.56-57" target="Q.01.19150209.JVH.01.xml"/>
                                 <ptr n="Bl.73-74" target="Q.01.19150313.JVH.01.xml"/>
+                                <ptr n="Bl.53-55" target="Q.01.19150131.JVH.01.xml"/>
                                 <ptr n="Bl.139-140" target="Q.01.19151225.JVH.01.xml"/>
-                                <ptr n="Bl.106-107" target="Q.01.19150818.JVH.01.xml"/>
-                                <ptr n="Bl.204" target="Q.01.19140421.FMA.01.xml"/>
                                 <ptr n="Bl.181" target="Q.01.19140124.FMA.01.xml"/>
                                 <ptr n="Bl.177" target="Q.01.19140115.FMA.01.xml"/>
+                                <ptr n="Bl.204" target="Q.01.19140421.FMA.01.xml"/>
+                                <ptr n="Bl.16-17" target="Q.01.19140730.JVH.01.xml"/>
+                                <ptr n="Bl.13-14" target="Q.01.19140721.JVH.01.xml"/>
+                                <ptr n="Bl.15" target="Q.01.19140727.JVH.01.xml"/>
+                                <ptr n="Bl.5-6" target="Q.01.19140601.JVH.01.xml"/>
+                                <ptr n="Bl.37-38" target="Q.01.19141111.JVH.01.xml"/>
                             </linkGrp>
                         </person>
                         <person source="http://d-nb.info/gnd/1077780265" xml:id="P.0000012">
                             <persName type="pref">Kickert, Conrad</persName>
                             <linkGrp type="files">
+                                <ptr n="Bl.99-100" target="Q.01.19150618.JVH.01.xml"/>
+                                <ptr n="Bl.127-128" target="Q.01.19151126.JVH.01.xml"/>
+                                <ptr n="Bl.78-79" target="Q.01.19150323.JVH.01.xml"/>
+                                <ptr n="Bl.110-111" target="Q.01.19150929.JVH.01.xml"/>
                                 <ptr n="Bl.53-55" target="Q.01.19150131.JVH.01.xml"/>
                                 <ptr n="Bl.13-14" target="Q.01.19140721.JVH.01.xml"/>
                                 <ptr n="Bl.7-8" target="Q.01.19140612.JVH.01.xml"/>
-                                <ptr n="Bl.127-128" target="Q.01.19151126.JVH.01.xml"/>
-                                <ptr n="Bl.110-111" target="Q.01.19150929.JVH.01.xml"/>
-                                <ptr n="Bl.99-100" target="Q.01.19150618.JVH.01.xml"/>
-                                <ptr n="Bl.78-79" target="Q.01.19150323.JVH.01.xml"/>
                             </linkGrp>
                         </person>
                         <person source="http://d-nb.info/gnd/118562827" xml:id="P.0000076">
                             <persName type="pref">Klee, Paul</persName>
                             <linkGrp type="files">
+                                <ptr n="Bl.375" target="Q.01.19191212.JVH.01.xml"/>
                                 <ptr n="Bl.204" target="Q.01.19140421.FMA.01.xml"/>
                                 <ptr n="Bl.185" target="Q.01.19140414.FMA.01.xml"/>
                             </linkGrp>
@@ -452,18 +726,36 @@
                         <person source="http://d-nb.info/gnd/121452735" xml:id="P.0000073">
                             <persName type="pref">Koehler, Bernhard</persName>
                             <linkGrp type="files">
+                                <ptr n="Bl.217" target="Q.01.19151125.FMA.01.xml"/>
                                 <ptr n="Bl.199" target="Q.01.19150315.FMA.01.xml"/>
                                 <ptr n="Bl.200" target="Q.01.19150315.FMA.02.xml"/>
-                                <ptr n="Bl.217" target="Q.01.19151125.FMA.01.xml"/>
                                 <ptr n="Bl.183" target="Q.01.19140125.FMA.02.xml"/>
                             </linkGrp>
                         </person>
                         <person source="http://d-nb.info/gnd/118564722" xml:id="P.0000046">
                             <persName type="pref">Kokoschka, Oskar</persName>
                             <linkGrp type="files">
-                                <ptr n="Bl.115-116" target="Q.01.19151018.JVH.01.xml"/>
                                 <ptr n="Bl.215" target="Q.01.19151016.FMA.01.xml"/>
+                                <ptr n="Bl.115-116" target="Q.01.19151018.JVH.01.xml"/>
                                 <ptr n="Bl.204" target="Q.01.19140421.FMA.01.xml"/>
+                            </linkGrp>
+                        </person>
+                        <person source="http://d-nb.info/gnd/136238378" xml:id="P.0000152">
+                            <persName type="pref">Konijnenburg, Willem van</persName>
+                            <linkGrp type="files">
+                                <ptr n="Bl.363-364" target="Q.01.19190828.JVH.01.xml"/>
+                            </linkGrp>
+                        </person>
+                        <person source="http://d-nb.info/gnd/119256630" xml:id="P.0000170">
+                            <persName type="pref">Kramer, Piet</persName>
+                            <linkGrp type="files">
+                                <ptr n="Bl.363-364" target="Q.01.19190828.JVH.01.xml"/>
+                            </linkGrp>
+                        </person>
+                        <person source="http://d-nb.info/gnd/119254522" xml:id="P.0000169">
+                            <persName type="pref">Krop, Hildo</persName>
+                            <linkGrp type="files">
+                                <ptr n="Bl.363-364" target="Q.01.19190828.JVH.01.xml"/>
                             </linkGrp>
                         </person>
                         <person source="http://d-nb.info/gnd/118567365" xml:id="P.0000079">
@@ -472,10 +764,18 @@
                                 <ptr n="Bl.204" target="Q.01.19140421.FMA.01.xml"/>
                             </linkGrp>
                         </person>
+                        <person source="http://viaf.org/viaf/317290941" xml:id="P.0000105">
+                            <persName type="pref">Kuik, Laurens van</persName>
+                            <linkGrp type="files">
+                                <ptr n="Bl.363-364" target="Q.01.19190828.JVH.01.xml"/>
+                                <ptr n="Bl.350" target="Q.01.19190106.JVH.01.xml"/>
+                            </linkGrp>
+                        </person>
                         <person source="http://d-nb.info/gnd/118778153" xml:id="P.0000054">
                             <persName type="pref">Kühlmann, Richard von</persName>
                             <linkGrp type="files">
                                 <ptr n="Bl.136-137" target="Q.01.19151218.JVH.01.xml"/>
+                                <ptr n="Bl.134-135" target="Q.01.19151218.JVH.02.xml"/>
                             </linkGrp>
                         </person>
                     </listPerson>
@@ -490,30 +790,48 @@
                         <person source="http://d-nb.info/gnd/128866748" xml:id="P.0000010">
                             <persName type="pref">Le Fauconnier, Henri</persName>
                             <linkGrp type="files">
-                                <ptr n="Bl.53-55" target="Q.01.19150131.JVH.01.xml"/>
-                                <ptr n="Bl.13-14" target="Q.01.19140721.JVH.01.xml"/>
-                                <ptr n="Bl.16-17" target="Q.01.19140730.JVH.01.xml"/>
-                                <ptr n="Bl.7-8" target="Q.01.19140612.JVH.01.xml"/>
-                                <ptr n="Bl.5-6" target="Q.01.19140601.JVH.01.xml"/>
+                                <ptr n="Bl.84-85" target="Q.01.19150409.JVH.01.xml"/>
                                 <ptr n="Bl.56-57" target="Q.01.19150209.JVH.01.xml"/>
                                 <ptr n="Bl.127-128" target="Q.01.19151126.JVH.01.xml"/>
                                 <ptr n="Bl.110-111" target="Q.01.19150929.JVH.01.xml"/>
-                                <ptr n="Bl.84-85" target="Q.01.19150409.JVH.01.xml"/>
+                                <ptr n="Bl.53-55" target="Q.01.19150131.JVH.01.xml"/>
+                                <ptr n="Bl.16-17" target="Q.01.19140730.JVH.01.xml"/>
+                                <ptr n="Bl.13-14" target="Q.01.19140721.JVH.01.xml"/>
+                                <ptr n="Bl.5-6" target="Q.01.19140601.JVH.01.xml"/>
+                                <ptr n="Bl.7-8" target="Q.01.19140612.JVH.01.xml"/>
+                            </linkGrp>
+                        </person>
+                        <person source="http://d-nb.info/gnd/119224496" xml:id="P.0000161">
+                            <persName type="pref">Leck, Bart van der</persName>
+                            <linkGrp type="files">
+                                <ptr n="Bl.363-364" target="Q.01.19190828.JVH.01.xml"/>
                             </linkGrp>
                         </person>
                         <person source="http://d-nb.info/gnd/122927486" xml:id="P.0000036">
-                            <persName type="pref">Leer, Francisca van</persName>
+                            <persName type="pref">Leer, Francisca van</persName>
                             <linkGrp type="files">
-                                <ptr n="Bl.67-68" target="Q.01.19150308.JVH.01.xml"/>
                                 <ptr n="Bl.138" target="Q.01.19151223.JVH.01.xml"/>
-                                <ptr n="Bl.139-140" target="Q.01.19151225.JVH.01.xml"/>
+                                <ptr n="Bl.67-68" target="Q.01.19150308.JVH.01.xml"/>
                                 <ptr n="Bl.97-98" target="Q.01.19150606.JVH.01.xml"/>
+                                <ptr n="Bl.139-140" target="Q.01.19151225.JVH.01.xml"/>
                             </linkGrp>
                         </person>
                         <person source="http://d-nb.info/gnd/118571516" xml:id="P.0000042">
-                            <persName type="pref">Lenbach, Franz von</persName>
+                            <persName type="pref">Lenbach, Franz von</persName>
                             <linkGrp type="files">
                                 <ptr n="Bl.110-111" target="Q.01.19150929.JVH.01.xml"/>
+                            </linkGrp>
+                        </person>
+                        <person source="http://d-nb.info/gnd/118572695" xml:id="P.0000126">
+                            <persName type="pref">Liebermann, Max</persName>
+                            <linkGrp type="files">
+                                <ptr n="Bl.388" target="Q.01.19201219.JVH.01.xml"/>
+                            </linkGrp>
+                        </person>
+                        <person source="http://d-nb.info/gnd/11857275X" xml:id="P.0000121">
+                            <persName type="pref">Liebknecht, Karl</persName>
+                            <linkGrp type="files">
+                                <ptr n="Bl.377" target="Q.01.19200114.JVH.01.xml"/>
                             </linkGrp>
                         </person>
                         <person source="http://d-nb.info/gnd/119218208" xml:id="P.0000029">
@@ -528,11 +846,11 @@
                         <person source="http://d-nb.info/gnd/118575864" xml:id="P.0000025">
                             <persName type="pref">Macke, August</persName>
                             <linkGrp type="files">
-                                <ptr n="Bl.41-42" target="Q.01.19141129.JVH.01.xml"/>
-                                <ptr n="Bl.31-32" target="Q.01.19141023.JVH.01.xml"/>
                                 <ptr n="Bl.58-59" target="Q.01.19150217.JVH.01.xml"/>
                                 <ptr n="Bl.190" target="Q.01.19140610.FMA.01.xml"/>
                                 <ptr n="Bl.185" target="Q.01.19140414.FMA.01.xml"/>
+                                <ptr n="Bl.41-42" target="Q.01.19141129.JVH.01.xml"/>
+                                <ptr n="Bl.31-32" target="Q.01.19141023.JVH.01.xml"/>
                             </linkGrp>
                         </person>
                         <person source="http://d-nb.info/gnd/118575872" xml:id="P.0000075">
@@ -545,79 +863,98 @@
                             <persName type="pref">Marc, Franz</persName>
                             <persName type="fn">Franz Marc</persName>
                             <linkGrp type="files">
-                                <ptr n="Bl.112-113" target="Q.01.19151007.JVH.01.xml"/>
-                                <ptr n="Bl.53-55" target="Q.01.19150131.JVH.01.xml"/>
-                                <ptr n="Bl.212" target="Q.01.19150922.FMA.01.xml"/>
-                                <ptr n="Bl.198" target="Q.01.19150303.FMA.01.xml"/>
-                                <ptr n="Bl.199" target="Q.01.19150315.FMA.01.xml"/>
-                                <ptr n="Bl.16-17" target="Q.01.19140730.JVH.01.xml"/>
-                                <ptr n="Bl.196" target="Q.01.19150116.FMA.01.xml"/>
-                                <ptr n="Bl.194-195" target="Q.01.19150112.FMA.01.xml"/>
-                                <ptr n="Bl.41-42" target="Q.01.19141129.JVH.01.xml"/>
-                                <ptr n="Bl.56-57" target="Q.01.19150209.JVH.01.xml"/>
-                                <ptr n="Bl.216" target="Q.01.19151106.FMA.01.xml"/>
-                                <ptr n="Bl.215" target="Q.01.19151016.FMA.01.xml"/>
-                                <ptr n="Bl.210" target="Q.01.19150911.FMA.01.xml"/>
-                                <ptr n="Bl.202" target="Q.01.19150906.FMA.01.xml"/>
-                                <ptr n="Bl.209" target="Q.01.19150827.FMA.01.xml"/>
-                                <ptr n="Bl.208" target="Q.01.19150710.FMA.01.xml"/>
-                                <ptr n="Bl.207" target="Q.01.19150703.FMA.01.xml"/>
-                                <ptr n="Bl.206" target="Q.01.19150615.FMA.01.xml"/>
-                                <ptr n="Bl.205" target="Q.01.19150501.FMA.01.xml"/>
+                                <ptr n="Bl.377" target="Q.01.19200114.JVH.01.xml"/>
+                                <ptr n="Bl.375" target="Q.01.19191212.JVH.01.xml"/>
                                 <ptr n="Bl.203" target="Q.01.19150417.FMA.01.xml"/>
+                                <ptr n="Bl.216" target="Q.01.19151106.FMA.01.xml"/>
                                 <ptr n="Bl.211" target="Q.01.19150918.FMA.01.xml"/>
-                                <ptr n="Bl.201" target="Q.01.19150327.FMA.01.xml"/>
-                                <ptr n="Bl.21-22" target="Q.01.19140908.JVH.01.xml"/>
-                                <ptr n="Bl.200" target="Q.01.19150315.FMA.02.xml"/>
-                                <ptr n="Bl.214" target="Q.01.19151001.FMA.01.xml"/>
-                                <ptr n="Bl.213" target="Q.01.19151010.FMA.01.xml"/>
+                                <ptr n="Bl.209" target="Q.01.19150827.FMA.01.xml"/>
+                                <ptr n="Bl.198" target="Q.01.19150303.FMA.01.xml"/>
+                                <ptr n="Bl.212" target="Q.01.19150922.FMA.01.xml"/>
                                 <ptr n="Bl.217" target="Q.01.19151125.FMA.01.xml"/>
                                 <ptr n="Bl.197" target="Q.01.19150121.FMA.01.xml"/>
+                                <ptr n="Bl.196" target="Q.01.19150116.FMA.01.xml"/>
+                                <ptr n="Bl.214" target="Q.01.19151001.FMA.01.xml"/>
+                                <ptr n="Bl.205" target="Q.01.19150501.FMA.01.xml"/>
+                                <ptr n="Bl.199" target="Q.01.19150315.FMA.01.xml"/>
+                                <ptr n="Bl.213" target="Q.01.19151010.FMA.01.xml"/>
+                                <ptr n="Bl.200" target="Q.01.19150315.FMA.02.xml"/>
+                                <ptr n="Bl.202" target="Q.01.19150906.FMA.01.xml"/>
+                                <ptr n="Bl.201" target="Q.01.19150327.FMA.01.xml"/>
+                                <ptr n="Bl.215" target="Q.01.19151016.FMA.01.xml"/>
+                                <ptr n="Bl.210" target="Q.01.19150911.FMA.01.xml"/>
+                                <ptr n="Bl.206" target="Q.01.19150615.FMA.01.xml"/>
+                                <ptr n="Bl.208" target="Q.01.19150710.FMA.01.xml"/>
+                                <ptr n="Bl.194-195" target="Q.01.19150112.FMA.01.xml"/>
+                                <ptr n="Bl.207" target="Q.01.19150703.FMA.01.xml"/>
                                 <ptr n="Bl.106-107" target="Q.01.19150818.JVH.01.xml"/>
-                                <ptr n="Bl.189" target="Q.01.19140608.FMA.01.xml"/>
-                                <ptr n="Bl.193" target="Q.01.19141113.FMA.01.xml"/>
-                                <ptr n="Bl.192" target="Q.01.19140831.FMA.01.xml"/>
-                                <ptr n="Bl.191" target="Q.01.19140627.FMA.01.xml"/>
-                                <ptr n="Bl.190" target="Q.01.19140610.FMA.01.xml"/>
-                                <ptr n="Bl.188" target="Q.01.19140606.FMA.01.xml"/>
-                                <ptr n="Bl.204" target="Q.01.19140421.FMA.01.xml"/>
-                                <ptr n="Bl.185" target="Q.01.19140414.FMA.01.xml"/>
-                                <ptr n="Bl.184" target="Q.01.19140409.FMA.01.xml"/>
-                                <ptr n="Bl.183" target="Q.01.19140125.FMA.02.xml"/>
-                                <ptr n="Bl.182" target="Q.01.19140125.FMA.01.xml"/>
-                                <ptr n="Bl.187" target="Q.01.19140512.FMA.01.xml"/>
-                                <ptr n="Bl.186" target="Q.01.19140507.FMA.01.xml"/>
-                                <ptr n="Bl.181" target="Q.01.19140124.FMA.01.xml"/>
-                                <ptr n="Bl.179-180" target="Q.01.19140121.FMA.01.xml"/>
+                                <ptr n="Bl.56-57" target="Q.01.19150209.JVH.01.xml"/>
+                                <ptr n="Bl.112-113" target="Q.01.19151007.JVH.01.xml"/>
+                                <ptr n="Bl.53-55" target="Q.01.19150131.JVH.01.xml"/>
                                 <ptr n="Bl.178" target="Q.01.19140119.FMA.01.xml"/>
+                                <ptr n="Bl.187" target="Q.01.19140512.FMA.01.xml"/>
+                                <ptr n="Bl.189" target="Q.01.19140608.FMA.01.xml"/>
+                                <ptr n="Bl.181" target="Q.01.19140124.FMA.01.xml"/>
+                                <ptr n="Bl.192" target="Q.01.19140831.FMA.01.xml"/>
+                                <ptr n="Bl.184" target="Q.01.19140409.FMA.01.xml"/>
+                                <ptr n="Bl.179-180" target="Q.01.19140121.FMA.01.xml"/>
                                 <ptr n="Bl.177" target="Q.01.19140115.FMA.01.xml"/>
+                                <ptr n="Bl.204" target="Q.01.19140421.FMA.01.xml"/>
+                                <ptr n="Bl.193" target="Q.01.19141113.FMA.01.xml"/>
+                                <ptr n="Bl.190" target="Q.01.19140610.FMA.01.xml"/>
+                                <ptr n="Bl.191" target="Q.01.19140627.FMA.01.xml"/>
+                                <ptr n="Bl.186" target="Q.01.19140507.FMA.01.xml"/>
+                                <ptr n="Bl.188" target="Q.01.19140606.FMA.01.xml"/>
+                                <ptr n="Bl.185" target="Q.01.19140414.FMA.01.xml"/>
+                                <ptr n="Bl.182" target="Q.01.19140125.FMA.01.xml"/>
+                                <ptr n="Bl.183" target="Q.01.19140125.FMA.02.xml"/>
+                                <ptr n="Bl.16-17" target="Q.01.19140730.JVH.01.xml"/>
+                                <ptr n="Bl.21-22" target="Q.01.19140908.JVH.01.xml"/>
+                                <ptr n="Bl.41-42" target="Q.01.19141129.JVH.01.xml"/>
+                                <ptr n="Bl.219" target="Q.01.19160128.FMA.01.xml"/>
+                                <ptr n="Bl.222" target="Q.01.19160205.FMA.01.xml"/>
+                                <ptr n="Bl.223" target="Q.01.19160302.FMA.01.xml"/>
+                                <ptr n="Bl.218" target="Q.01.19160101.FMA.01.xml"/>
+                                <ptr n="Bl.221" target="Q.01.19160122.FMA.01.xml"/>
+                                <ptr n="Bl.220" target="Q.01.19160115.FMA.01.xml"/>
                             </linkGrp>
                         </person>
                         <person source="http://d-nb.info/gnd/119352435" xml:id="P.0000082">
                             <persName type="pref">Marc, Maria</persName>
                             <linkGrp type="files">
-                                <ptr n="Bl.199" target="Q.01.19150315.FMA.01.xml"/>
-                                <ptr n="Bl.196" target="Q.01.19150116.FMA.01.xml"/>
-                                <ptr n="Bl.202" target="Q.01.19150906.FMA.01.xml"/>
                                 <ptr n="Bl.209" target="Q.01.19150827.FMA.01.xml"/>
-                                <ptr n="Bl.208" target="Q.01.19150710.FMA.01.xml"/>
-                                <ptr n="Bl.201" target="Q.01.19150327.FMA.01.xml"/>
-                                <ptr n="Bl.200" target="Q.01.19150315.FMA.02.xml"/>
                                 <ptr n="Bl.217" target="Q.01.19151125.FMA.01.xml"/>
                                 <ptr n="Bl.197" target="Q.01.19150121.FMA.01.xml"/>
+                                <ptr n="Bl.196" target="Q.01.19150116.FMA.01.xml"/>
+                                <ptr n="Bl.199" target="Q.01.19150315.FMA.01.xml"/>
+                                <ptr n="Bl.200" target="Q.01.19150315.FMA.02.xml"/>
+                                <ptr n="Bl.202" target="Q.01.19150906.FMA.01.xml"/>
+                                <ptr n="Bl.201" target="Q.01.19150327.FMA.01.xml"/>
+                                <ptr n="Bl.208" target="Q.01.19150710.FMA.01.xml"/>
                                 <ptr n="Bl.193" target="Q.01.19141113.FMA.01.xml"/>
+                                <ptr n="Bl.219" target="Q.01.19160128.FMA.01.xml"/>
+                                <ptr n="Bl.221" target="Q.01.19160122.FMA.01.xml"/>
+                                <ptr n="Bl.220" target="Q.01.19160115.FMA.01.xml"/>
+                            </linkGrp>
+                        </person>
+                        <person xml:id="P.0000113">
+                            <persName type="pref">Mentjes van Hoorn (aus Groningen)</persName>
+                            <linkGrp type="files">
+                                <ptr n="Bl.367" target="Q.01.19190924.JVH.01.xml"/>
                             </linkGrp>
                         </person>
                         <person source="http://d-nb.info/gnd/119104091" xml:id="P.0000047">
                             <persName type="pref">Mesdag, Hendrik Willem</persName>
                             <linkGrp type="files">
                                 <ptr n="Bl.118-119" target="Q.01.19151113.JVH.01.xml"/>
+                                <ptr n="Bl.130-131" target="Q.01.19151209.JVH.02.xml"/>
                             </linkGrp>
                         </person>
                         <person source="http://d-nb.info/gnd/118583247" xml:id="P.0000077">
                             <persName type="pref">Moilliet, Louis</persName>
                             <linkGrp type="files">
                                 <ptr n="Bl.185" target="Q.01.19140414.FMA.01.xml"/>
+                                <ptr n="Bl.221" target="Q.01.19160122.FMA.01.xml"/>
                             </linkGrp>
                         </person>
                         <person source="http://d-nb.info/gnd/118583417" xml:id="P.0000085">
@@ -629,9 +966,11 @@
                         <person source="http://d-nb.info/gnd/118583441" xml:id="P.0000031">
                             <persName type="pref">Mondrian, Piet</persName>
                             <linkGrp type="files">
-                                <ptr n="Bl.53-55" target="Q.01.19150131.JVH.01.xml"/>
+                                <ptr n="Bl.363-364" target="Q.01.19190828.JVH.01.xml"/>
+                                <ptr n="Bl.350" target="Q.01.19190106.JVH.01.xml"/>
                                 <ptr n="Bl.56-57" target="Q.01.19150209.JVH.01.xml"/>
                                 <ptr n="Bl.110-111" target="Q.01.19150929.JVH.01.xml"/>
+                                <ptr n="Bl.53-55" target="Q.01.19150131.JVH.01.xml"/>
                             </linkGrp>
                         </person>
                         <person xml:id="P.0000089">
@@ -665,6 +1004,12 @@
                                 <ptr n="Bl.198" target="Q.01.19150303.FMA.01.xml"/>
                             </linkGrp>
                         </person>
+                        <person source="http://d-nb.info/gnd/118738860" xml:id="P.0000174">
+                            <persName type="pref">Oud, Jacobus J. P.</persName>
+                            <linkGrp type="files">
+                                <ptr n="Bl.363-364" target="Q.01.19190828.JVH.01.xml"/>
+                            </linkGrp>
+                        </person>
                     </listPerson>
                     <listPerson>
                         <head>P</head>
@@ -680,15 +1025,36 @@
                                 <ptr n="Bl.127-128" target="Q.01.19151126.JVH.01.xml"/>
                             </linkGrp>
                         </person>
+                        <person source="http://d-nb.info/gnd/118988751" xml:id="P.0000180">
+                            <persName type="pref">Plasschaert, Albert August</persName>
+                            <linkGrp type="files">
+                                <ptr n="Bl.130-131" target="Q.01.19151209.JVH.02.xml"/>
+                            </linkGrp>
+                        </person>
+                    </listPerson>
+                    <listPerson>
+                        <head>Q</head>
+                        <person xml:id="P.0000173">
+                            <persName type="pref">Querido, A.</persName>
+                            <linkGrp type="files">
+                                <ptr n="Bl.363-364" target="Q.01.19190828.JVH.01.xml"/>
+                            </linkGrp>
+                        </person>
                     </listPerson>
                     <listPerson>
                         <head>R</head>
+                        <person source="https://rkd.nl/explore/artists/65412" xml:id="P.0000168">
+                            <persName type="pref">Raedecker, John</persName>
+                            <linkGrp type="files">
+                                <ptr n="Bl.363-364" target="Q.01.19190828.JVH.01.xml"/>
+                            </linkGrp>
+                        </person>
                         <person source="http://d-nb.info/gnd/143669230" xml:id="P.0000057">
                             <persName type="pref">Reiche, Richart</persName>
                             <linkGrp type="files">
+                                <ptr n="Bl.178" target="Q.01.19140119.FMA.01.xml"/>
                                 <ptr n="Bl.181" target="Q.01.19140124.FMA.01.xml"/>
                                 <ptr n="Bl.179-180" target="Q.01.19140121.FMA.01.xml"/>
-                                <ptr n="Bl.178" target="Q.01.19140119.FMA.01.xml"/>
                                 <ptr n="Bl.177" target="Q.01.19140115.FMA.01.xml"/>
                             </linkGrp>
                         </person>
@@ -698,13 +1064,19 @@
                                 <ptr n="Bl.132-133" target="Q.01.19151209.JVH.01.xml"/>
                             </linkGrp>
                         </person>
+                        <person xml:id="P.0000106">
+                            <persName type="pref">Resink, Emilie Johanna</persName>
+                            <linkGrp type="files">
+                                <ptr n="Bl.350" target="Q.01.19190106.JVH.01.xml"/>
+                            </linkGrp>
+                        </person>
                         <person xml:id="P.0000026">
                             <persName type="pref">Ridderhof</persName>
                             <persName>emballeur</persName>
                             <linkGrp type="files">
-                                <ptr n="Bl.118-119" target="Q.01.19151113.JVH.01.xml"/>
                                 <ptr n="Bl.60-62" target="Q.01.19150228.JVH.01.xml"/>
                                 <ptr n="Bl.56-57" target="Q.01.19150209.JVH.01.xml"/>
+                                <ptr n="Bl.118-119" target="Q.01.19151113.JVH.01.xml"/>
                                 <ptr n="Bl.127-128" target="Q.01.19151126.JVH.01.xml"/>
                                 <ptr n="Bl.33-34" target="Q.01.19141027.JVH.01.xml"/>
                             </linkGrp>
@@ -712,9 +1084,10 @@
                     </listPerson>
                     <listPerson>
                         <head>S</head>
-                        <person source="http://viaf.org/viaf/284981785" xml:id="P.0000045">
-                            <persName type="pref">Saalborn</persName>
+                        <person source="http://d-nb.info/gnd/1056411538" xml:id="P.0000045">
+                            <persName type="pref">Saalborn, Louis</persName>
                             <linkGrp type="files">
+                                <ptr n="Bl.363-364" target="Q.01.19190828.JVH.01.xml"/>
                                 <ptr n="Bl.114" target="Q.01.19151014.JVH.01.xml"/>
                             </linkGrp>
                         </person>
@@ -727,8 +1100,8 @@
                         <person source="http://d-nb.info/gnd/117103594" xml:id="P.0000007">
                             <persName type="pref">Schames, Ludwig</persName>
                             <linkGrp type="files">
-                                <ptr n="Bl.31-32" target="Q.01.19141023.JVH.01.xml"/>
                                 <ptr n="Bl.1-3" target="Q.01.19140322.JVH.01.xml"/>
+                                <ptr n="Bl.31-32" target="Q.01.19141023.JVH.01.xml"/>
                             </linkGrp>
                         </person>
                         <person source="http://d-nb.info/gnd/118606816" xml:id="P.0000013">
@@ -740,8 +1113,14 @@
                         <person source="http://d-nb.info/gnd/124503063" xml:id="P.0000039">
                             <persName type="pref">Schelfhout, Lodewijk</persName>
                             <linkGrp type="files">
-                                <ptr n="Bl.110-111" target="Q.01.19150929.JVH.01.xml"/>
                                 <ptr n="Bl.78-79" target="Q.01.19150323.JVH.01.xml"/>
+                                <ptr n="Bl.110-111" target="Q.01.19150929.JVH.01.xml"/>
+                            </linkGrp>
+                        </person>
+                        <person source="http://d-nb.info/gnd/1047412616" xml:id="P.0000101">
+                            <persName type="pref">Schlichtkrull, Wilhelm</persName>
+                            <linkGrp type="files">
+                                <ptr n="Bl.365" target="Q.01.19190905.JVH.01.xml"/>
                             </linkGrp>
                         </person>
                         <person xml:id="P.0000038">
@@ -751,16 +1130,45 @@
                             </linkGrp>
                         </person>
                         <person xml:id="P.0000005">
-                            <persName type="pref">Schwester (von Jacoba van Heemskerck van Beest)</persName>
+                            <persName type="pref">Schwester (von Jacoba van Heemskerck van
+                            Beest)</persName>
                             <linkGrp type="files">
-                                <ptr n="Bl.118-119" target="Q.01.19151113.JVH.01.xml"/>
-                                <ptr n="Bl.15" target="Q.01.19140727.JVH.01.xml"/>
-                                <ptr n="Bl.13-14" target="Q.01.19140721.JVH.01.xml"/>
-                                <ptr n="Bl.18" target="Q.01.19140807.JVH.01.xml"/>
-                                <ptr n="Bl.21-22" target="Q.01.19140908.JVH.01.xml"/>
-                                <ptr n="Bl.19" target="Q.01.19140820.JVH.01.xml"/>
                                 <ptr n="Bl.136-137" target="Q.01.19151218.JVH.01.xml"/>
+                                <ptr n="Bl.118-119" target="Q.01.19151113.JVH.01.xml"/>
+                                <ptr n="Bl.13-14" target="Q.01.19140721.JVH.01.xml"/>
+                                <ptr n="Bl.19" target="Q.01.19140820.JVH.01.xml"/>
                                 <ptr n="Bl.1-3" target="Q.01.19140322.JVH.01.xml"/>
+                                <ptr n="Bl.15" target="Q.01.19140727.JVH.01.xml"/>
+                                <ptr n="Bl.21-22" target="Q.01.19140908.JVH.01.xml"/>
+                                <ptr n="Bl.18" target="Q.01.19140807.JVH.01.xml"/>
+                                <ptr n="Bl.130-131" target="Q.01.19151209.JVH.02.xml"/>
+                            </linkGrp>
+                        </person>
+                        <person source="http://d-nb.info/gnd/118612751" xml:id="P.0000184">
+                            <persName type="pref">Seghers, Hercules</persName>
+                            <linkGrp type="files">
+                                <ptr n="Bl.134-135" target="Q.01.19151218.JVH.02.xml"/>
+                            </linkGrp>
+                        </person>
+                        <person xml:id="P.0000128">
+                            <persName type="pref">Sekretär des Haagse Kunstkring (Dezember
+                            1921)</persName>
+                            <linkGrp type="files">
+                                <ptr n="Bl.403" target="Q.01.19211223.JVH.01.xml"/>
+                                <ptr n="Bl.402" target="Q.01.19211211.JVH.01.xml"/>
+                                <ptr n="Bl.404" target="Q.01.19220217.JVH.01.xml"/>
+                            </linkGrp>
+                        </person>
+                        <person xml:id="P.0000127">
+                            <persName type="pref">Sekretärin von Herwarth Walden (um 1921)</persName>
+                            <linkGrp type="files">
+                                <ptr n="Bl.391" target="Q.01.19210204.JVH.01.xml"/>
+                            </linkGrp>
+                        </person>
+                        <person source="http://d-nb.info/gnd/118796798" xml:id="P.0000119">
+                            <persName type="pref">Severini, Gino</persName>
+                            <linkGrp type="files">
+                                <ptr n="Bl.375" target="Q.01.19191212.JVH.01.xml"/>
                             </linkGrp>
                         </person>
                         <person source="http://d-nb.info/gnd/118613723" xml:id="P.0000074">
@@ -772,17 +1180,19 @@
                         <person source="http://d-nb.info/gnd/118748475" xml:id="P.0000016">
                             <persName type="pref">Sluyters, Jan</persName>
                             <linkGrp type="files">
-                                <ptr n="Bl.13-14" target="Q.01.19140721.JVH.01.xml"/>
+                                <ptr n="Bl.363-364" target="Q.01.19190828.JVH.01.xml"/>
                                 <ptr n="Bl.110-111" target="Q.01.19150929.JVH.01.xml"/>
+                                <ptr n="Bl.13-14" target="Q.01.19140721.JVH.01.xml"/>
                             </linkGrp>
                         </person>
                         <person source="http://d-nb.info/gnd/118618830" xml:id="P.0000041">
                             <persName type="pref">Stramm, August</persName>
                             <linkGrp type="files">
-                                <ptr n="Bl.215" target="Q.01.19151016.FMA.01.xml"/>
-                                <ptr n="Bl.110-111" target="Q.01.19150929.JVH.01.xml"/>
                                 <ptr n="Bl.213" target="Q.01.19151010.FMA.01.xml"/>
+                                <ptr n="Bl.215" target="Q.01.19151016.FMA.01.xml"/>
                                 <ptr n="Bl.136-137" target="Q.01.19151218.JVH.01.xml"/>
+                                <ptr n="Bl.110-111" target="Q.01.19150929.JVH.01.xml"/>
+                                <ptr n="Bl.218" target="Q.01.19160101.FMA.01.xml"/>
                             </linkGrp>
                         </person>
                     </listPerson>
@@ -797,45 +1207,64 @@
                         <person source="http://d-nb.info/gnd/136128289" xml:id="P.0000008">
                             <persName type="pref">Tak van Poortvliet, Marie</persName>
                             <linkGrp type="files">
-                                <ptr n="Bl.112-113" target="Q.01.19151007.JVH.01.xml"/>
-                                <ptr n="Bl.115-116" target="Q.01.19151018.JVH.01.xml"/>
-                                <ptr n="Bl.118-119" target="Q.01.19151113.JVH.01.xml"/>
-                                <ptr n="Bl.53-55" target="Q.01.19150131.JVH.01.xml"/>
-                                <ptr n="Bl.15" target="Q.01.19140727.JVH.01.xml"/>
-                                <ptr n="Bl.13-14" target="Q.01.19140721.JVH.01.xml"/>
-                                <ptr n="Bl.18" target="Q.01.19140807.JVH.01.xml"/>
-                                <ptr n="Bl.117" target="Q.01.19151027.JVH.01.xml"/>
-                                <ptr n="Bl.41-42" target="Q.01.19141129.JVH.01.xml"/>
-                                <ptr n="Bl.9-10" target="Q.01.19140703.JVH.01.xml"/>
-                                <ptr n="Bl.7-8" target="Q.01.19140612.JVH.01.xml"/>
+                                <ptr n="Bl.393" target="Q.01.19210605.JVH.01.xml"/>
+                                <ptr n="Bl.401" target="Q.01.19211025.JVH.01.xml"/>
+                                <ptr n="Bl.394" target="Q.01.19210804.JVH.01.xml"/>
+                                <ptr n="Bl.377" target="Q.01.19200114.JVH.01.xml"/>
+                                <ptr n="Bl.376" target="Q.01.19191230.JVH.01.xml"/>
+                                <ptr n="Bl.363-364" target="Q.01.19190828.JVH.01.xml"/>
+                                <ptr n="Bl.356" target="Q.01.19190509.JVH.01.xml"/>
+                                <ptr n="Bl.350" target="Q.01.19190106.JVH.01.xml"/>
+                                <ptr n="Bl.367" target="Q.01.19190924.JVH.01.xml"/>
+                                <ptr n="Bl.361" target="Q.01.19190807.JVH.01.xml"/>
+                                <ptr n="Bl.353" target="Q.01.19190207.JVH.01.xml"/>
+                                <ptr n="Bl.355" target="Q.01.19190302.JVH.01.xml"/>
+                                <ptr n="Bl.365" target="Q.01.19190905.JVH.01.xml"/>
+                                <ptr n="Bl.371" target="Q.01.19191107.JVH.01.xml"/>
                                 <ptr n="Bl.60-62" target="Q.01.19150228.JVH.01.xml"/>
-                                <ptr n="Bl.138" target="Q.01.19151223.JVH.01.xml"/>
-                                <ptr n="Bl.132-133" target="Q.01.19151209.JVH.01.xml"/>
-                                <ptr n="Bl.28" target="Q.01.19141014.JVH.01.xml"/>
-                                <ptr n="Bl.21-22" target="Q.01.19140908.JVH.01.xml"/>
-                                <ptr n="Bl.19" target="Q.01.19140820.JVH.01.xml"/>
-                                <ptr n="Bl.99-100" target="Q.01.19150618.JVH.01.xml"/>
-                                <ptr n="Bl.31-32" target="Q.01.19141023.JVH.01.xml"/>
-                                <ptr n="Bl.73-74" target="Q.01.19150313.JVH.01.xml"/>
                                 <ptr n="Bl.58-59" target="Q.01.19150217.JVH.01.xml"/>
-                                <ptr n="Bl.136-137" target="Q.01.19151218.JVH.01.xml"/>
+                                <ptr n="Bl.138" target="Q.01.19151223.JVH.01.xml"/>
+                                <ptr n="Bl.104-105" target="Q.01.19150723.JVH.01.xml"/>
+                                <ptr n="Bl.80-81" target="Q.01.19150328.JVH.01.xml"/>
+                                <ptr n="Bl.84-85" target="Q.01.19150409.JVH.01.xml"/>
+                                <ptr n="Bl.117" target="Q.01.19151027.JVH.01.xml"/>
+                                <ptr n="Bl.115-116" target="Q.01.19151018.JVH.01.xml"/>
+                                <ptr n="Bl.132-133" target="Q.01.19151209.JVH.01.xml"/>
                                 <ptr n="Bl.90-91" target="Q.01.19150429.JVH.01.xml"/>
+                                <ptr n="Bl.136-137" target="Q.01.19151218.JVH.01.xml"/>
+                                <ptr n="Bl.118-119" target="Q.01.19151113.JVH.01.xml"/>
+                                <ptr n="Bl.112-113" target="Q.01.19151007.JVH.01.xml"/>
                                 <ptr n="Bl.94-96" target="Q.01.19150530.JVH.01.xml"/>
                                 <ptr n="Bl.86-89" target="Q.01.19150413.JVH.01.xml"/>
-                                <ptr n="Bl.84-85" target="Q.01.19150409.JVH.01.xml"/>
-                                <ptr n="Bl.80-81" target="Q.01.19150328.JVH.01.xml"/>
-                                <ptr n="Bl.104-105" target="Q.01.19150723.JVH.01.xml"/>
+                                <ptr n="Bl.73-74" target="Q.01.19150313.JVH.01.xml"/>
+                                <ptr n="Bl.99-100" target="Q.01.19150618.JVH.01.xml"/>
                                 <ptr n="Bl.102-103" target="Q.01.19150710.JVH.01.xml"/>
+                                <ptr n="Bl.53-55" target="Q.01.19150131.JVH.01.xml"/>
+                                <ptr n="Bl.13-14" target="Q.01.19140721.JVH.01.xml"/>
+                                <ptr n="Bl.19" target="Q.01.19140820.JVH.01.xml"/>
                                 <ptr n="Bl.1-3" target="Q.01.19140322.JVH.01.xml"/>
+                                <ptr n="Bl.15" target="Q.01.19140727.JVH.01.xml"/>
+                                <ptr n="Bl.21-22" target="Q.01.19140908.JVH.01.xml"/>
+                                <ptr n="Bl.41-42" target="Q.01.19141129.JVH.01.xml"/>
+                                <ptr n="Bl.9-10" target="Q.01.19140703.JVH.01.xml"/>
+                                <ptr n="Bl.18" target="Q.01.19140807.JVH.01.xml"/>
+                                <ptr n="Bl.7-8" target="Q.01.19140612.JVH.01.xml"/>
+                                <ptr n="Bl.31-32" target="Q.01.19141023.JVH.01.xml"/>
+                                <ptr n="Bl.28" target="Q.01.19141014.JVH.01.xml"/>
+                                <ptr n="Bl.122-123" target="Q.01.19151120.JVH.02.xml"/>
+                                <ptr n="Bl.134-135" target="Q.01.19151218.JVH.02.xml"/>
+                                <ptr n="Bl.130-131" target="Q.01.19151209.JVH.02.xml"/>
+                                <ptr n="Bl.125-126" target="Q.01.19151126.JVH.02.xml"/>
                             </linkGrp>
                         </person>
                         <person source="http://d-nb.info/gnd/118621041" xml:id="P.0000020">
                             <persName type="pref">Taut, Bruno</persName>
                             <linkGrp type="files">
-                                <ptr n="Bl.37-38" target="Q.01.19141111.JVH.01.xml"/>
-                                <ptr n="Bl.21-22" target="Q.01.19140908.JVH.01.xml"/>
+                                <ptr n="Bl.366" target="Q.01.19190923.JVH.01.xml"/>
                                 <ptr n="Bl.187" target="Q.01.19140512.FMA.01.xml"/>
                                 <ptr n="Bl.186" target="Q.01.19140507.FMA.01.xml"/>
+                                <ptr n="Bl.21-22" target="Q.01.19140908.JVH.01.xml"/>
+                                <ptr n="Bl.37-38" target="Q.01.19141111.JVH.01.xml"/>
                             </linkGrp>
                         </person>
                         <person source="http://d-nb.info/gnd/117299421" xml:id="P.0000071">
@@ -845,13 +1274,43 @@
                                 <ptr n="Bl.183" target="Q.01.19140125.FMA.02.xml"/>
                             </linkGrp>
                         </person>
+                        <person source="http://d-nb.info/gnd/11862332X" xml:id="P.0000157">
+                            <persName type="pref">Toorop, Charley</persName>
+                            <linkGrp type="files">
+                                <ptr n="Bl.363-364" target="Q.01.19190828.JVH.01.xml"/>
+                            </linkGrp>
+                        </person>
                         <person source="http://d-nb.info/gnd/119295954" xml:id="P.0000011">
                             <persName type="pref">Toorop, Jan</persName>
                             <linkGrp type="files">
-                                <ptr n="Bl.13-14" target="Q.01.19140721.JVH.01.xml"/>
-                                <ptr n="Bl.7-8" target="Q.01.19140612.JVH.01.xml"/>
+                                <ptr n="Bl.363-364" target="Q.01.19190828.JVH.01.xml"/>
                                 <ptr n="Bl.132-133" target="Q.01.19151209.JVH.01.xml"/>
                                 <ptr n="Bl.127-128" target="Q.01.19151126.JVH.01.xml"/>
+                                <ptr n="Bl.13-14" target="Q.01.19140721.JVH.01.xml"/>
+                                <ptr n="Bl.7-8" target="Q.01.19140612.JVH.01.xml"/>
+                                <ptr n="Bl.69-70" target="Q.01.19150315.JVH.02.xml"/>
+                            </linkGrp>
+                        </person>
+                        <person source="http://d-nb.info/gnd/128547111" xml:id="P.0000175">
+                            <persName type="pref">Trendelenburg, Ernst</persName>
+                            <linkGrp type="files">
+                                <ptr n="Bl.396" target="Q.01.19210830.JVH.01.xml"/>
+                                <ptr n="Bl.380" target="Q.01.19200414.JVH.01.xml"/>
+                                <ptr n="Bl.378" target="Q.01.19200201.JVH.01.xml"/>
+                                <ptr n="Bl.377" target="Q.01.19200114.JVH.01.xml"/>
+                                <ptr n="Bl.382" target="Q.01.19200428.JVH.01.xml"/>
+                                <ptr n="Bl.373-374" target="Q.01.19191209.JVH.01.xml"/>
+                                <ptr n="Bl.371" target="Q.01.19191107.JVH.01.xml"/>
+                                <ptr n="Bl.372" target="Q.01.19191116.JVH.01.xml"/>
+                            </linkGrp>
+                        </person>
+                    </listPerson>
+                    <listPerson>
+                        <head>U</head>
+                        <person source="http://d-nb.info/gnd/174282923" xml:id="P.0000114">
+                            <persName type="pref">Uytvanck, Valentijn Edgar van</persName>
+                            <linkGrp type="files">
+                                <ptr n="Bl.365" target="Q.01.19190905.JVH.01.xml"/>
                             </linkGrp>
                         </person>
                     </listPerson>
@@ -875,157 +1334,246 @@
                         <person source="http://d-nb.info/gnd/118770950" xml:id="P.0000001">
                             <persName type="pref">Walden, Herwarth</persName>
                             <linkGrp type="files">
-                                <ptr n="Bl.114" target="Q.01.19151014.JVH.01.xml"/>
-                                <ptr n="Bl.112-113" target="Q.01.19151007.JVH.01.xml"/>
-                                <ptr n="Bl.115-116" target="Q.01.19151018.JVH.01.xml"/>
-                                <ptr n="Bl.124" target="Q.01.19151124.JVH.01.xml"/>
-                                <ptr n="Bl.118-119" target="Q.01.19151113.JVH.01.xml"/>
-                                <ptr n="Bl.53-55" target="Q.01.19150131.JVH.01.xml"/>
-                                <ptr n="Bl.212" target="Q.01.19150922.FMA.01.xml"/>
-                                <ptr n="Bl.15" target="Q.01.19140727.JVH.01.xml"/>
-                                <ptr n="Bl.13-14" target="Q.01.19140721.JVH.01.xml"/>
-                                <ptr n="Bl.45-46" target="Q.01.19141210.JVH.01.xml"/>
-                                <ptr n="Bl.198" target="Q.01.19150303.FMA.01.xml"/>
-                                <ptr n="Bl.199" target="Q.01.19150315.FMA.01.xml"/>
-                                <ptr n="Bl.18" target="Q.01.19140807.JVH.01.xml"/>
-                                <ptr n="Bl.16-17" target="Q.01.19140730.JVH.01.xml"/>
-                                <ptr n="Bl.117" target="Q.01.19151027.JVH.01.xml"/>
-                                <ptr n="Bl.196" target="Q.01.19150116.FMA.01.xml"/>
-                                <ptr n="Bl.194-195" target="Q.01.19150112.FMA.01.xml"/>
-                                <ptr n="Bl.43-44" target="Q.01.19141203.JVH.01.xml"/>
-                                <ptr n="Bl.41-42" target="Q.01.19141129.JVH.01.xml"/>
-                                <ptr n="Bl.39-40" target="Q.01.19141117.JVH.01.xml"/>
-                                <ptr n="Bl.37-38" target="Q.01.19141111.JVH.01.xml"/>
-                                <ptr n="Bl.35-36" target="Q.01.19141105.JVH.01.xml"/>
-                                <ptr n="Bl.9-10" target="Q.01.19140703.JVH.01.xml"/>
-                                <ptr n="Bl.7-8" target="Q.01.19140612.JVH.01.xml"/>
-                                <ptr n="Bl.120-121" target="Q.01.19151115.JVH.01.xml"/>
-                                <ptr n="Bl.5-6" target="Q.01.19140601.JVH.01.xml"/>
-                                <ptr n="Bl.51-52" target="Q.01.19150129.JVH.01.xml"/>
-                                <ptr n="Bl.67-68" target="Q.01.19150308.JVH.01.xml"/>
-                                <ptr n="Bl.60-62" target="Q.01.19150228.JVH.01.xml"/>
-                                <ptr n="Bl.56-57" target="Q.01.19150209.JVH.01.xml"/>
-                                <ptr n="Bl.49-50" target="Q.01.19150123.JVH.01.xml"/>
-                                <ptr n="Bl.216" target="Q.01.19151106.FMA.01.xml"/>
-                                <ptr n="Bl.215" target="Q.01.19151016.FMA.01.xml"/>
-                                <ptr n="Bl.210" target="Q.01.19150911.FMA.01.xml"/>
-                                <ptr n="Bl.202" target="Q.01.19150906.FMA.01.xml"/>
-                                <ptr n="Bl.209" target="Q.01.19150827.FMA.01.xml"/>
-                                <ptr n="Bl.208" target="Q.01.19150710.FMA.01.xml"/>
-                                <ptr n="Bl.207" target="Q.01.19150703.FMA.01.xml"/>
-                                <ptr n="Bl.206" target="Q.01.19150615.FMA.01.xml"/>
-                                <ptr n="Bl.205" target="Q.01.19150501.FMA.01.xml"/>
+                                <ptr n="Bl.396" target="Q.01.19210830.JVH.01.xml"/>
+                                <ptr n="Bl.398" target="Q.01.19210921.JVH.01.xml"/>
+                                <ptr n="Bl.399" target="Q.01.19210930.JVH.01.xml"/>
+                                <ptr n="Bl.395" target="Q.01.19210824.JVH.01.xml"/>
+                                <ptr n="Bl.397" target="Q.01.19210914.JVH.01.xml"/>
+                                <ptr n="Bl.391" target="Q.01.19210204.JVH.01.xml"/>
+                                <ptr n="Bl.390" target="Q.01.19210129.JVH.01.xml"/>
+                                <ptr n="Bl.392" target="Q.01.19210412.JVH.01.xml"/>
+                                <ptr n="Bl.403" target="Q.01.19211223.JVH.01.xml"/>
+                                <ptr n="Bl.400" target="Q.01.19211020.JVH.01.xml"/>
+                                <ptr n="Bl.402" target="Q.01.19211211.JVH.01.xml"/>
+                                <ptr n="Bl.393" target="Q.01.19210605.JVH.01.xml"/>
+                                <ptr n="Bl.401" target="Q.01.19211025.JVH.01.xml"/>
+                                <ptr n="Bl.394" target="Q.01.19210804.JVH.01.xml"/>
+                                <ptr n="Bl.380" target="Q.01.19200414.JVH.01.xml"/>
+                                <ptr n="Bl.385" target="Q.01.19200902.JVH.01.xml"/>
+                                <ptr n="Bl.378" target="Q.01.19200201.JVH.01.xml"/>
+                                <ptr n="Bl.386" target="Q.01.19201104.JVH.01.xml"/>
+                                <ptr n="Bl.379" target="Q.01.19200301.JVH.01.xml"/>
+                                <ptr n="Bl.381" target="Q.01.19200417.JVH.01.xml"/>
+                                <ptr n="Bl.384" target="Q.01.19200818.JVH.01.xml"/>
+                                <ptr n="Bl.377" target="Q.01.19200114.JVH.01.xml"/>
+                                <ptr n="Bl.383" target="Q.01.19200528.JVH.01.xml"/>
+                                <ptr n="Bl.382" target="Q.01.19200428.JVH.01.xml"/>
+                                <ptr n="Bl.387" target="Q.01.19201208.JVH.01.xml"/>
+                                <ptr n="Bl.389" target="Q.01.19201223.JVH.01.xml"/>
+                                <ptr n="Bl.388" target="Q.01.19201219.JVH.01.xml"/>
+                                <ptr n="Bl.405" target="Q.01.19220402.JVH.01.xml"/>
+                                <ptr n="Bl.404" target="Q.01.19220217.JVH.01.xml"/>
+                                <ptr n="Bl.359" target="Q.01.19190702.JVH.01.xml"/>
+                                <ptr n="Bl.376" target="Q.01.19191230.JVH.01.xml"/>
+                                <ptr n="Bl.352" target="Q.01.19190124.JVH.01.xml"/>
+                                <ptr n="Bl.370" target="Q.01.19191004.JVH.01.xml"/>
+                                <ptr n="Bl.363-364" target="Q.01.19190828.JVH.01.xml"/>
+                                <ptr n="Bl.356" target="Q.01.19190509.JVH.01.xml"/>
+                                <ptr n="Bl.368" target="Q.01.19190927.JVH.01.xml"/>
+                                <ptr n="Bl.354" target="Q.01.19190217.JVH.01.xml"/>
+                                <ptr n="Bl.358" target="Q.01.19190628.JVH.01.xml"/>
+                                <ptr n="Bl.369" target="Q.01.19190930.JVH.01.xml"/>
+                                <ptr n="Bl.350" target="Q.01.19190106.JVH.01.xml"/>
+                                <ptr n="Bl.362" target="Q.01.19190821.JVH.01.xml"/>
+                                <ptr n="Bl.375" target="Q.01.19191212.JVH.01.xml"/>
+                                <ptr n="Bl.367" target="Q.01.19190924.JVH.01.xml"/>
+                                <ptr n="Bl.361" target="Q.01.19190807.JVH.01.xml"/>
+                                <ptr n="Bl.351" target="Q.01.19190106.JVH.02.xml"/>
+                                <ptr n="Bl.366" target="Q.01.19190923.JVH.01.xml"/>
+                                <ptr n="Bl.353" target="Q.01.19190207.JVH.01.xml"/>
+                                <ptr n="Bl.355" target="Q.01.19190302.JVH.01.xml"/>
+                                <ptr n="Bl.365" target="Q.01.19190905.JVH.01.xml"/>
+                                <ptr n="Bl.373-374" target="Q.01.19191209.JVH.01.xml"/>
+                                <ptr n="Bl.357" target="Q.01.19190618.JVH.01.xml"/>
+                                <ptr n="Bl.371" target="Q.01.19191107.JVH.01.xml"/>
+                                <ptr n="Bl.372" target="Q.01.19191116.JVH.01.xml"/>
                                 <ptr n="Bl.203" target="Q.01.19150417.FMA.01.xml"/>
-                                <ptr n="Bl.75-76" target="Q.01.19150317.JVH.01.xml"/>
-                                <ptr n="Bl.138" target="Q.01.19151223.JVH.01.xml"/>
-                                <ptr n="Bl.132-133" target="Q.01.19151209.JVH.01.xml"/>
-                                <ptr n="Bl.129" target="Q.01.19151206.JVH.01.xml"/>
+                                <ptr n="Bl.216" target="Q.01.19151106.FMA.01.xml"/>
                                 <ptr n="Bl.211" target="Q.01.19150918.FMA.01.xml"/>
-                                <ptr n="Bl.201" target="Q.01.19150327.FMA.01.xml"/>
-                                <ptr n="Bl.65-66" target="Q.01.19150303.JVH.01.xml"/>
-                                <ptr n="Bl.28" target="Q.01.19141014.JVH.01.xml"/>
-                                <ptr n="Bl.26-27" target="Q.01.19141009.JVH.01.xml"/>
-                                <ptr n="Bl.21-22" target="Q.01.19140908.JVH.01.xml"/>
-                                <ptr n="Bl.20" target="Q.01.19140822.JVH.01.xml"/>
-                                <ptr n="Bl.19" target="Q.01.19140820.JVH.01.xml"/>
-                                <ptr n="Bl.47-48" target="Q.01.19141219.JVH.01.xml"/>
-                                <ptr n="Bl.127-128" target="Q.01.19151126.JVH.01.xml"/>
-                                <ptr n="Bl.110-111" target="Q.01.19150929.JVH.01.xml"/>
-                                <ptr n="Bl.99-100" target="Q.01.19150618.JVH.01.xml"/>
-                                <ptr n="Bl.25" target="Q.01.19141005.JVH.01.xml"/>
-                                <ptr n="Bl.23-24" target="Q.01.19140925.JVH.01.xml"/>
-                                <ptr n="Bl.31-32" target="Q.01.19141023.JVH.01.xml"/>
-                                <ptr n="Bl.29-30" target="Q.01.19141016.JVH.01.xml"/>
-                                <ptr n="Bl.73-74" target="Q.01.19150313.JVH.01.xml"/>
-                                <ptr n="Bl.200" target="Q.01.19150315.FMA.02.xml"/>
-                                <ptr n="Bl.214" target="Q.01.19151001.FMA.01.xml"/>
-                                <ptr n="Bl.213" target="Q.01.19151010.FMA.01.xml"/>
-                                <ptr n="Bl.58-59" target="Q.01.19150217.JVH.01.xml"/>
-                                <ptr n="Bl.71-72" target="Q.01.19150310.JVH.01.xml"/>
+                                <ptr n="Bl.209" target="Q.01.19150827.FMA.01.xml"/>
+                                <ptr n="Bl.198" target="Q.01.19150303.FMA.01.xml"/>
+                                <ptr n="Bl.212" target="Q.01.19150922.FMA.01.xml"/>
                                 <ptr n="Bl.217" target="Q.01.19151125.FMA.01.xml"/>
                                 <ptr n="Bl.197" target="Q.01.19150121.FMA.01.xml"/>
-                                <ptr n="Bl.136-137" target="Q.01.19151218.JVH.01.xml"/>
-                                <ptr n="Bl.33-34" target="Q.01.19141027.JVH.01.xml"/>
-                                <ptr n="Bl.90-91" target="Q.01.19150429.JVH.01.xml"/>
-                                <ptr n="Bl.92" target="Q.01.19150507.JVH.01.xml"/>
-                                <ptr n="Bl.139-140" target="Q.01.19151225.JVH.01.xml"/>
-                                <ptr n="Bl.94-96" target="Q.01.19150530.JVH.01.xml"/>
-                                <ptr n="Bl.93" target="Q.01.19150517.JVH.01.xml"/>
-                                <ptr n="Bl.86-89" target="Q.01.19150413.JVH.01.xml"/>
-                                <ptr n="Bl.84-85" target="Q.01.19150409.JVH.01.xml"/>
-                                <ptr n="Bl.82-83" target="Q.01.19150403.JVH.01.xml"/>
-                                <ptr n="Bl.80-81" target="Q.01.19150328.JVH.01.xml"/>
-                                <ptr n="Bl.78-79" target="Q.01.19150323.JVH.01.xml"/>
-                                <ptr n="Bl.77-78" target="Q.01.19150321.JVH.01.xml"/>
-                                <ptr n="Bl.108-109" target="Q.01.19150824.JVH.01.xml"/>
+                                <ptr n="Bl.196" target="Q.01.19150116.FMA.01.xml"/>
+                                <ptr n="Bl.214" target="Q.01.19151001.FMA.01.xml"/>
+                                <ptr n="Bl.205" target="Q.01.19150501.FMA.01.xml"/>
+                                <ptr n="Bl.199" target="Q.01.19150315.FMA.01.xml"/>
+                                <ptr n="Bl.213" target="Q.01.19151010.FMA.01.xml"/>
+                                <ptr n="Bl.200" target="Q.01.19150315.FMA.02.xml"/>
+                                <ptr n="Bl.202" target="Q.01.19150906.FMA.01.xml"/>
+                                <ptr n="Bl.201" target="Q.01.19150327.FMA.01.xml"/>
+                                <ptr n="Bl.215" target="Q.01.19151016.FMA.01.xml"/>
+                                <ptr n="Bl.210" target="Q.01.19150911.FMA.01.xml"/>
+                                <ptr n="Bl.206" target="Q.01.19150615.FMA.01.xml"/>
+                                <ptr n="Bl.208" target="Q.01.19150710.FMA.01.xml"/>
+                                <ptr n="Bl.194-195" target="Q.01.19150112.FMA.01.xml"/>
+                                <ptr n="Bl.207" target="Q.01.19150703.FMA.01.xml"/>
                                 <ptr n="Bl.106-107" target="Q.01.19150818.JVH.01.xml"/>
+                                <ptr n="Bl.49-50" target="Q.01.19150123.JVH.01.xml"/>
+                                <ptr n="Bl.60-62" target="Q.01.19150228.JVH.01.xml"/>
+                                <ptr n="Bl.75-76" target="Q.01.19150317.JVH.01.xml"/>
+                                <ptr n="Bl.65-66" target="Q.01.19150303.JVH.01.xml"/>
+                                <ptr n="Bl.58-59" target="Q.01.19150217.JVH.01.xml"/>
+                                <ptr n="Bl.82-83" target="Q.01.19150403.JVH.01.xml"/>
+                                <ptr n="Bl.93" target="Q.01.19150517.JVH.01.xml"/>
+                                <ptr n="Bl.138" target="Q.01.19151223.JVH.01.xml"/>
                                 <ptr n="Bl.104-105" target="Q.01.19150723.JVH.01.xml"/>
-                                <ptr n="Bl.102-103" target="Q.01.19150710.JVH.01.xml"/>
+                                <ptr n="Bl.80-81" target="Q.01.19150328.JVH.01.xml"/>
+                                <ptr n="Bl.84-85" target="Q.01.19150409.JVH.01.xml"/>
+                                <ptr n="Bl.120-121" target="Q.01.19151115.JVH.01.xml"/>
+                                <ptr n="Bl.117" target="Q.01.19151027.JVH.01.xml"/>
+                                <ptr n="Bl.56-57" target="Q.01.19150209.JVH.01.xml"/>
+                                <ptr n="Bl.51-52" target="Q.01.19150129.JVH.01.xml"/>
+                                <ptr n="Bl.115-116" target="Q.01.19151018.JVH.01.xml"/>
+                                <ptr n="Bl.71-72" target="Q.01.19150310.JVH.01.xml"/>
                                 <ptr n="Bl.101" target="Q.01.19150624.JVH.01.xml"/>
-                                <ptr n="Bl.4" target="Q.01.19140514.JVH.01.xml"/>
-                                <ptr n="Bl.1-3" target="Q.01.19140322.JVH.01.xml"/>
-                                <ptr n="Bl.189" target="Q.01.19140608.FMA.01.xml"/>
-                                <ptr n="Bl.193" target="Q.01.19141113.FMA.01.xml"/>
-                                <ptr n="Bl.192" target="Q.01.19140831.FMA.01.xml"/>
-                                <ptr n="Bl.191" target="Q.01.19140627.FMA.01.xml"/>
-                                <ptr n="Bl.190" target="Q.01.19140610.FMA.01.xml"/>
-                                <ptr n="Bl.188" target="Q.01.19140606.FMA.01.xml"/>
-                                <ptr n="Bl.204" target="Q.01.19140421.FMA.01.xml"/>
-                                <ptr n="Bl.185" target="Q.01.19140414.FMA.01.xml"/>
-                                <ptr n="Bl.184" target="Q.01.19140409.FMA.01.xml"/>
-                                <ptr n="Bl.183" target="Q.01.19140125.FMA.02.xml"/>
-                                <ptr n="Bl.187" target="Q.01.19140512.FMA.01.xml"/>
-                                <ptr n="Bl.186" target="Q.01.19140507.FMA.01.xml"/>
-                                <ptr n="Bl.181" target="Q.01.19140124.FMA.01.xml"/>
-                                <ptr n="Bl.179-180" target="Q.01.19140121.FMA.01.xml"/>
-                                <ptr n="Bl.178" target="Q.01.19140119.FMA.01.xml"/>
-                                <ptr n="Bl.177" target="Q.01.19140115.FMA.01.xml"/>
+                                <ptr n="Bl.132-133" target="Q.01.19151209.JVH.01.xml"/>
+                                <ptr n="Bl.90-91" target="Q.01.19150429.JVH.01.xml"/>
+                                <ptr n="Bl.136-137" target="Q.01.19151218.JVH.01.xml"/>
+                                <ptr n="Bl.118-119" target="Q.01.19151113.JVH.01.xml"/>
+                                <ptr n="Bl.124" target="Q.01.19151124.JVH.01.xml"/>
+                                <ptr n="Bl.112-113" target="Q.01.19151007.JVH.01.xml"/>
+                                <ptr n="Bl.94-96" target="Q.01.19150530.JVH.01.xml"/>
+                                <ptr n="Bl.92" target="Q.01.19150507.JVH.01.xml"/>
+                                <ptr n="Bl.86-89" target="Q.01.19150413.JVH.01.xml"/>
+                                <ptr n="Bl.73-74" target="Q.01.19150313.JVH.01.xml"/>
+                                <ptr n="Bl.77-78" target="Q.01.19150321.JVH.01.xml"/>
+                                <ptr n="Bl.99-100" target="Q.01.19150618.JVH.01.xml"/>
+                                <ptr n="Bl.102-103" target="Q.01.19150710.JVH.01.xml"/>
+                                <ptr n="Bl.114" target="Q.01.19151014.JVH.01.xml"/>
+                                <ptr n="Bl.108-109" target="Q.01.19150824.JVH.01.xml"/>
+                                <ptr n="Bl.129" target="Q.01.19151206.JVH.01.xml"/>
+                                <ptr n="Bl.127-128" target="Q.01.19151126.JVH.01.xml"/>
+                                <ptr n="Bl.78-79" target="Q.01.19150323.JVH.01.xml"/>
+                                <ptr n="Bl.67-68" target="Q.01.19150308.JVH.01.xml"/>
+                                <ptr n="Bl.110-111" target="Q.01.19150929.JVH.01.xml"/>
                                 <ptr n="Bl.97-98" target="Q.01.19150606.JVH.01.xml"/>
+                                <ptr n="Bl.53-55" target="Q.01.19150131.JVH.01.xml"/>
+                                <ptr n="Bl.139-140" target="Q.01.19151225.JVH.01.xml"/>
+                                <ptr n="Bl.178" target="Q.01.19140119.FMA.01.xml"/>
+                                <ptr n="Bl.187" target="Q.01.19140512.FMA.01.xml"/>
+                                <ptr n="Bl.189" target="Q.01.19140608.FMA.01.xml"/>
+                                <ptr n="Bl.181" target="Q.01.19140124.FMA.01.xml"/>
+                                <ptr n="Bl.192" target="Q.01.19140831.FMA.01.xml"/>
+                                <ptr n="Bl.184" target="Q.01.19140409.FMA.01.xml"/>
+                                <ptr n="Bl.179-180" target="Q.01.19140121.FMA.01.xml"/>
+                                <ptr n="Bl.177" target="Q.01.19140115.FMA.01.xml"/>
+                                <ptr n="Bl.204" target="Q.01.19140421.FMA.01.xml"/>
+                                <ptr n="Bl.193" target="Q.01.19141113.FMA.01.xml"/>
+                                <ptr n="Bl.190" target="Q.01.19140610.FMA.01.xml"/>
+                                <ptr n="Bl.191" target="Q.01.19140627.FMA.01.xml"/>
+                                <ptr n="Bl.186" target="Q.01.19140507.FMA.01.xml"/>
+                                <ptr n="Bl.188" target="Q.01.19140606.FMA.01.xml"/>
+                                <ptr n="Bl.185" target="Q.01.19140414.FMA.01.xml"/>
+                                <ptr n="Bl.183" target="Q.01.19140125.FMA.02.xml"/>
+                                <ptr n="Bl.47-48" target="Q.01.19141219.JVH.01.xml"/>
+                                <ptr n="Bl.20" target="Q.01.19140822.JVH.01.xml"/>
+                                <ptr n="Bl.39-40" target="Q.01.19141117.JVH.01.xml"/>
+                                <ptr n="Bl.16-17" target="Q.01.19140730.JVH.01.xml"/>
+                                <ptr n="Bl.26-27" target="Q.01.19141009.JVH.01.xml"/>
+                                <ptr n="Bl.13-14" target="Q.01.19140721.JVH.01.xml"/>
+                                <ptr n="Bl.19" target="Q.01.19140820.JVH.01.xml"/>
+                                <ptr n="Bl.33-34" target="Q.01.19141027.JVH.01.xml"/>
+                                <ptr n="Bl.23-24" target="Q.01.19140925.JVH.01.xml"/>
+                                <ptr n="Bl.1-3" target="Q.01.19140322.JVH.01.xml"/>
+                                <ptr n="Bl.15" target="Q.01.19140727.JVH.01.xml"/>
+                                <ptr n="Bl.45-46" target="Q.01.19141210.JVH.01.xml"/>
+                                <ptr n="Bl.21-22" target="Q.01.19140908.JVH.01.xml"/>
+                                <ptr n="Bl.5-6" target="Q.01.19140601.JVH.01.xml"/>
+                                <ptr n="Bl.29-30" target="Q.01.19141016.JVH.01.xml"/>
+                                <ptr n="Bl.41-42" target="Q.01.19141129.JVH.01.xml"/>
+                                <ptr n="Bl.35-36" target="Q.01.19141105.JVH.01.xml"/>
+                                <ptr n="Bl.9-10" target="Q.01.19140703.JVH.01.xml"/>
+                                <ptr n="Bl.43-44" target="Q.01.19141203.JVH.01.xml"/>
+                                <ptr n="Bl.18" target="Q.01.19140807.JVH.01.xml"/>
+                                <ptr n="Bl.25" target="Q.01.19141005.JVH.01.xml"/>
+                                <ptr n="Bl.7-8" target="Q.01.19140612.JVH.01.xml"/>
+                                <ptr n="Bl.37-38" target="Q.01.19141111.JVH.01.xml"/>
+                                <ptr n="Bl.4" target="Q.01.19140514.JVH.01.xml"/>
+                                <ptr n="Bl.31-32" target="Q.01.19141023.JVH.01.xml"/>
+                                <ptr n="Bl.28" target="Q.01.19141014.JVH.01.xml"/>
+                                <ptr n="Bl.122-123" target="Q.01.19151120.JVH.02.xml"/>
+                                <ptr n="Bl.63-64" target="Q.01.19150228.JVH.02.xml"/>
+                                <ptr n="Bl.69-70" target="Q.01.19150315.JVH.02.xml"/>
+                                <ptr n="Bl.134-135" target="Q.01.19151218.JVH.02.xml"/>
+                                <ptr n="Bl.130-131" target="Q.01.19151209.JVH.02.xml"/>
+                                <ptr n="Bl.125-126" target="Q.01.19151126.JVH.02.xml"/>
+                                <ptr n="Bl.219" target="Q.01.19160128.FMA.01.xml"/>
+                                <ptr n="Bl.222" target="Q.01.19160205.FMA.01.xml"/>
+                                <ptr n="Bl.223" target="Q.01.19160302.FMA.01.xml"/>
+                                <ptr n="Bl.218" target="Q.01.19160101.FMA.01.xml"/>
+                                <ptr n="Bl.221" target="Q.01.19160122.FMA.01.xml"/>
+                                <ptr n="Bl.220" target="Q.01.19160115.FMA.01.xml"/>
                             </linkGrp>
                         </person>
                         <person source="http://d-nb.info/gnd/118891456" xml:id="P.0000002">
                             <persName type="pref">Walden, Nell</persName>
                             <linkGrp type="files">
-                                <ptr n="Bl.124" target="Q.01.19151124.JVH.01.xml"/>
-                                <ptr n="Bl.118-119" target="Q.01.19151113.JVH.01.xml"/>
+                                <ptr n="Bl.394" target="Q.01.19210804.JVH.01.xml"/>
+                                <ptr n="Bl.379" target="Q.01.19200301.JVH.01.xml"/>
+                                <ptr n="Bl.352" target="Q.01.19190124.JVH.01.xml"/>
+                                <ptr n="Bl.354" target="Q.01.19190217.JVH.01.xml"/>
+                                <ptr n="Bl.350" target="Q.01.19190106.JVH.01.xml"/>
+                                <ptr n="Bl.362" target="Q.01.19190821.JVH.01.xml"/>
+                                <ptr n="Bl.367" target="Q.01.19190924.JVH.01.xml"/>
+                                <ptr n="Bl.361" target="Q.01.19190807.JVH.01.xml"/>
+                                <ptr n="Bl.353" target="Q.01.19190207.JVH.01.xml"/>
+                                <ptr n="Bl.355" target="Q.01.19190302.JVH.01.xml"/>
+                                <ptr n="Bl.373-374" target="Q.01.19191209.JVH.01.xml"/>
+                                <ptr n="Bl.371" target="Q.01.19191107.JVH.01.xml"/>
                                 <ptr n="Bl.212" target="Q.01.19150922.FMA.01.xml"/>
                                 <ptr n="Bl.199" target="Q.01.19150315.FMA.01.xml"/>
-                                <ptr n="Bl.18" target="Q.01.19140807.JVH.01.xml"/>
-                                <ptr n="Bl.16-17" target="Q.01.19140730.JVH.01.xml"/>
-                                <ptr n="Bl.117" target="Q.01.19151027.JVH.01.xml"/>
-                                <ptr n="Bl.37-38" target="Q.01.19141111.JVH.01.xml"/>
-                                <ptr n="Bl.35-36" target="Q.01.19141105.JVH.01.xml"/>
-                                <ptr n="Bl.7-8" target="Q.01.19140612.JVH.01.xml"/>
-                                <ptr n="Bl.120-121" target="Q.01.19151115.JVH.01.xml"/>
-                                <ptr n="Bl.5-6" target="Q.01.19140601.JVH.01.xml"/>
-                                <ptr n="Bl.60-62" target="Q.01.19150228.JVH.01.xml"/>
-                                <ptr n="Bl.56-57" target="Q.01.19150209.JVH.01.xml"/>
-                                <ptr n="Bl.49-50" target="Q.01.19150123.JVH.01.xml"/>
+                                <ptr n="Bl.200" target="Q.01.19150315.FMA.02.xml"/>
                                 <ptr n="Bl.202" target="Q.01.19150906.FMA.01.xml"/>
-                                <ptr n="Bl.138" target="Q.01.19151223.JVH.01.xml"/>
-                                <ptr n="Bl.132-133" target="Q.01.19151209.JVH.01.xml"/>
+                                <ptr n="Bl.49-50" target="Q.01.19150123.JVH.01.xml"/>
+                                <ptr n="Bl.60-62" target="Q.01.19150228.JVH.01.xml"/>
                                 <ptr n="Bl.65-66" target="Q.01.19150303.JVH.01.xml"/>
+                                <ptr n="Bl.58-59" target="Q.01.19150217.JVH.01.xml"/>
+                                <ptr n="Bl.82-83" target="Q.01.19150403.JVH.01.xml"/>
+                                <ptr n="Bl.138" target="Q.01.19151223.JVH.01.xml"/>
+                                <ptr n="Bl.80-81" target="Q.01.19150328.JVH.01.xml"/>
+                                <ptr n="Bl.120-121" target="Q.01.19151115.JVH.01.xml"/>
+                                <ptr n="Bl.117" target="Q.01.19151027.JVH.01.xml"/>
+                                <ptr n="Bl.56-57" target="Q.01.19150209.JVH.01.xml"/>
+                                <ptr n="Bl.71-72" target="Q.01.19150310.JVH.01.xml"/>
+                                <ptr n="Bl.101" target="Q.01.19150624.JVH.01.xml"/>
+                                <ptr n="Bl.132-133" target="Q.01.19151209.JVH.01.xml"/>
+                                <ptr n="Bl.136-137" target="Q.01.19151218.JVH.01.xml"/>
+                                <ptr n="Bl.118-119" target="Q.01.19151113.JVH.01.xml"/>
+                                <ptr n="Bl.124" target="Q.01.19151124.JVH.01.xml"/>
+                                <ptr n="Bl.86-89" target="Q.01.19150413.JVH.01.xml"/>
+                                <ptr n="Bl.73-74" target="Q.01.19150313.JVH.01.xml"/>
+                                <ptr n="Bl.102-103" target="Q.01.19150710.JVH.01.xml"/>
+                                <ptr n="Bl.78-79" target="Q.01.19150323.JVH.01.xml"/>
+                                <ptr n="Bl.110-111" target="Q.01.19150929.JVH.01.xml"/>
+                                <ptr n="Bl.97-98" target="Q.01.19150606.JVH.01.xml"/>
+                                <ptr n="Bl.139-140" target="Q.01.19151225.JVH.01.xml"/>
+                                <ptr n="Bl.204" target="Q.01.19140421.FMA.01.xml"/>
+                                <ptr n="Bl.16-17" target="Q.01.19140730.JVH.01.xml"/>
                                 <ptr n="Bl.26-27" target="Q.01.19141009.JVH.01.xml"/>
                                 <ptr n="Bl.19" target="Q.01.19140820.JVH.01.xml"/>
-                                <ptr n="Bl.110-111" target="Q.01.19150929.JVH.01.xml"/>
-                                <ptr n="Bl.23-24" target="Q.01.19140925.JVH.01.xml"/>
-                                <ptr n="Bl.29-30" target="Q.01.19141016.JVH.01.xml"/>
-                                <ptr n="Bl.73-74" target="Q.01.19150313.JVH.01.xml"/>
-                                <ptr n="Bl.200" target="Q.01.19150315.FMA.02.xml"/>
-                                <ptr n="Bl.58-59" target="Q.01.19150217.JVH.01.xml"/>
-                                <ptr n="Bl.71-72" target="Q.01.19150310.JVH.01.xml"/>
-                                <ptr n="Bl.136-137" target="Q.01.19151218.JVH.01.xml"/>
                                 <ptr n="Bl.33-34" target="Q.01.19141027.JVH.01.xml"/>
-                                <ptr n="Bl.139-140" target="Q.01.19151225.JVH.01.xml"/>
-                                <ptr n="Bl.86-89" target="Q.01.19150413.JVH.01.xml"/>
-                                <ptr n="Bl.82-83" target="Q.01.19150403.JVH.01.xml"/>
-                                <ptr n="Bl.80-81" target="Q.01.19150328.JVH.01.xml"/>
-                                <ptr n="Bl.78-79" target="Q.01.19150323.JVH.01.xml"/>
-                                <ptr n="Bl.102-103" target="Q.01.19150710.JVH.01.xml"/>
-                                <ptr n="Bl.101" target="Q.01.19150624.JVH.01.xml"/>
+                                <ptr n="Bl.23-24" target="Q.01.19140925.JVH.01.xml"/>
                                 <ptr n="Bl.1-3" target="Q.01.19140322.JVH.01.xml"/>
-                                <ptr n="Bl.204" target="Q.01.19140421.FMA.01.xml"/>
-                                <ptr n="Bl.97-98" target="Q.01.19150606.JVH.01.xml"/>
+                                <ptr n="Bl.5-6" target="Q.01.19140601.JVH.01.xml"/>
+                                <ptr n="Bl.29-30" target="Q.01.19141016.JVH.01.xml"/>
+                                <ptr n="Bl.35-36" target="Q.01.19141105.JVH.01.xml"/>
+                                <ptr n="Bl.18" target="Q.01.19140807.JVH.01.xml"/>
+                                <ptr n="Bl.7-8" target="Q.01.19140612.JVH.01.xml"/>
+                                <ptr n="Bl.37-38" target="Q.01.19141111.JVH.01.xml"/>
+                                <ptr n="Bl.122-123" target="Q.01.19151120.JVH.02.xml"/>
+                                <ptr n="Bl.63-64" target="Q.01.19150228.JVH.02.xml"/>
+                                <ptr n="Bl.69-70" target="Q.01.19150315.JVH.02.xml"/>
+                                <ptr n="Bl.134-135" target="Q.01.19151218.JVH.02.xml"/>
+                                <ptr n="Bl.130-131" target="Q.01.19151209.JVH.02.xml"/>
+                                <ptr n="Bl.125-126" target="Q.01.19151126.JVH.02.xml"/>
+                            </linkGrp>
+                        </person>
+                        <person source="http://d-nb.info/gnd/117178446" xml:id="P.0000125">
+                            <persName type="pref">Wedderkop, Hermann von</persName>
+                            <linkGrp type="files">
+                                <ptr n="Bl.383" target="Q.01.19200528.JVH.01.xml"/>
                             </linkGrp>
                         </person>
                         <person source="http://d-nb.info/gnd/118631365" xml:id="P.0000065">
@@ -1034,17 +1582,70 @@
                                 <ptr n="Bl.179-180" target="Q.01.19140121.FMA.01.xml"/>
                             </linkGrp>
                         </person>
+                        <person xml:id="P.0000159">
+                            <persName type="pref">Weynand, Jaap</persName>
+                            <linkGrp type="files">
+                                <ptr n="Bl.363-364" target="Q.01.19190828.JVH.01.xml"/>
+                            </linkGrp>
+                        </person>
                         <person xml:id="P.0000053">
                             <persName type="pref">Wichert</persName>
                             <linkGrp type="files">
                                 <ptr n="Bl.136-137" target="Q.01.19151218.JVH.01.xml"/>
                                 <ptr n="Bl.139-140" target="Q.01.19151225.JVH.01.xml"/>
+                                <ptr n="Bl.122-123" target="Q.01.19151120.JVH.02.xml"/>
+                            </linkGrp>
+                        </person>
+                        <person source="http://d-nb.info/gnd/121893421" xml:id="P.0000164">
+                            <persName type="pref">Wichmann, Erich</persName>
+                            <linkGrp type="files">
+                                <ptr n="Bl.363-364" target="Q.01.19190828.JVH.01.xml"/>
                             </linkGrp>
                         </person>
                         <person source="http://d-nb.info/gnd/128951710" xml:id="P.0000052">
                             <persName type="pref">Wiegand, Charmion von</persName>
                             <linkGrp type="files">
                                 <ptr n="Bl.132-133" target="Q.01.19151209.JVH.01.xml"/>
+                            </linkGrp>
+                        </person>
+                        <person source="http://d-nb.info/gnd/129032638" xml:id="P.0000155">
+                            <persName type="pref">Wiegman, Matthieu</persName>
+                            <linkGrp type="files">
+                                <ptr n="Bl.363-364" target="Q.01.19190828.JVH.01.xml"/>
+                            </linkGrp>
+                        </person>
+                        <person source="http://d-nb.info/gnd/128963255" xml:id="P.0000156">
+                            <persName type="pref">Wiegman, Piet</persName>
+                            <linkGrp type="files">
+                                <ptr n="Bl.363-364" target="Q.01.19190828.JVH.01.xml"/>
+                            </linkGrp>
+                        </person>
+                        <person xml:id="P.0000160">
+                            <persName type="pref">Wierdsma, Wiggers</persName>
+                            <linkGrp type="files">
+                                <ptr n="Bl.363-364" target="Q.01.19190828.JVH.01.xml"/>
+                            </linkGrp>
+                        </person>
+                        <person source="http://d-nb.info/gnd/129075094" xml:id="P.0000158">
+                            <persName type="pref">Wijngaerdt, Piet van</persName>
+                            <linkGrp type="files">
+                                <ptr n="Bl.363-364" target="Q.01.19190828.JVH.01.xml"/>
+                            </linkGrp>
+                        </person>
+                        <person source="http://d-nb.info/gnd/184199166" xml:id="P.0000167">
+                            <persName type="pref">Winter, Janus de</persName>
+                            <linkGrp type="files">
+                                <ptr n="Bl.363-364" target="Q.01.19190828.JVH.01.xml"/>
+                            </linkGrp>
+                        </person>
+                    </listPerson>
+                    <listPerson>
+                        <head>Z</head>
+                        <person source="http://d-nb.info/gnd/129223166" xml:id="P.0000124">
+                            <persName type="pref">Zeylmans van Emmichoven, Frederik Willem</persName>
+                            <linkGrp type="files">
+                                <ptr n="Bl.381" target="Q.01.19200417.JVH.01.xml"/>
+                                <ptr n="Bl.382" target="Q.01.19200428.JVH.01.xml"/>
                             </linkGrp>
                         </person>
                     </listPerson>

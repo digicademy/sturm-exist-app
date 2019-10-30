@@ -1,0 +1,148 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Q.01.19200301.JVH.01">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Jacoba van Heemskerck an Herwarth Walden, 1. März 1920, 35, Nassau
+                    Zuilensteinstraat, Den Haag</title>
+                <editor>
+                    <persName ref="https://orcid.org/0000-0003-1208-6131">
+                        <forename>Anne</forename>
+                        <surname>Lorenz</surname>
+                    </persName>
+                </editor>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0002-0953-2818">
+                        <forename>Torsten</forename>
+                        <surname>Schrade</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeber</note>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0003-2423-7144">
+                        <forename>Marjam</forename>
+                        <surname>Trautmann</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeberin</note>
+                    </resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="http://www.adwmainz.de">Akademie der Wissenschaften und der
+                        Literatur | Mainz</ref>
+                </publisher>
+                <pubPlace ref="http://sws.geonames.org/2874225">Mainz</pubPlace>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">This file is
+                        licensed under the terms of the Creative-Commons-License CC BY 4.0
+                    </licence>
+                </availability>
+                <idno type="file">Q.01.19200301.JVH.01.xml</idno>
+                <idno type="uri">https://sturm-edition.de/id/Q.01.19200301.JVH.01</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Q.01.19200301.JVH.01, Jacoba van Heemskerck an Herwarth Walden, 1. März 1920,
+                    35, Nassau Zuilensteinstraat, Den Haag, bearbeitet von Anne Lorenz, in: Der
+                    STURM. Digitale Quellenedition zur Geschichte der internationalen Avantgarde,
+                    erarbeitet und herausgegeben von Marjam Trautmann und Torsten Schrade. Mainz,
+                    Akademie der Wissenschaften und der Literatur.</bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <country>DE</country>
+                        <settlement>Berlin</settlement>
+                        <repository>Staatsbibliothek zu Berlin Preußischer Kulturbesitz,
+                            Handschriftenabteilung, Sturm-Archiv I, Heemskerck, Jacoba
+                            van</repository>
+                        <idno type="uri">http://resolver.staatsbibliothek-berlin.de/SBB0000DA3600000000</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <xenoData type="uri">http://kalliope-verbund.info/DE-611-HS-1913650</xenoData>
+        <xenoData type="url">https://content.staatsbibliothek-berlin.de/dc/PPN746597150.mets.xml</xenoData>
+        <profileDesc>
+            <correspDesc key="Bl.379" ref="https://sturm-edition.de/id/Q.01.19200301.JVH.01">
+                <correspAction type="sent">
+                    <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jacoba van
+                        Heemskerck</persName>
+                    <placeName key="O.0000001" ref="http://sws.geonames.org/2747373">35, Nassau
+                        Zuilensteinstraat, Den Haag</placeName>
+                    <date when="1920-03-01"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth
+                        Walden</persName>
+                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change>
+                    <date when="2019-08-26" n="1"/>
+                </change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic n="379r" url="http://content.staatsbibliothek-berlin.de/dms/PPN746597150/500/0/00000001.jpg"/>
+        <graphic n="379v" url="http://content.staatsbibliothek-berlin.de/dms/PPN746597150/500/0/00000002.jpg"/>
+        <graphic n="Farbkeil" url="http://content.staatsbibliothek-berlin.de/dms/PPN746597150/500/0/00000003.jpg"/>
+    </facsimile>
+    <text type="postcard">
+        <body>
+            <div type="address">
+                <ab type="sender">
+                    <pb xml:id="S.379r" n="379r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000DA3600000001"/>
+                    <address>
+                        <addrLine>35. Nassau Zuilensteinstraat</addrLine>
+                        <addrLine>den Haag. Holland.</addrLine>
+                    </address>
+                </ab>
+                <ab type="recipient">
+                    <address>
+                        <addrLine>Herrn Direktor</addrLine>
+                        <addrLine>Herw<hi rend="underline">arth Walden</hi>
+                        </addrLine>
+                        <addrLine>Verlag der Sturm</addrLine>
+                        <addrLine>Potsdamerstrasse 134<hi rend="super">
+                                <hi rend="underline">a</hi>
+                            </hi>
+                        </addrLine>
+                        <addrLine>Be<hi rend="underline">rlin</hi> W 9/ Deutschland</addrLine>
+                    </address>
+                </ab>
+            </div>
+            <div type="content">
+                <pb xml:id="S.379v" n="379v" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000DA3600000002"/>
+             <opener>
+                    <dateline>
+                        <placeName key="O.0000001" ref="http://sws.geonames.org/2747373">Haag</placeName>
+                        <date when="1920-03-01">1.<hi rend="underline">3.20.</hi>
+                        </date>
+                    </dateline>
+                    <salute>L. <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">H.</persName>
+                    </salute>
+                </opener>
+                <p>Bitte lasse umgehend von die drei Sendungen die ich seit <date when="1920-12">Dezember</date> bestellt habe die Rechnungen schicken auch die Porto’s dazu
+                        schreiben. Ich muss alles weiter geben und dann die Abrechnung fertig haben.</p>
+
+                <p>Hier ist es jetzt so schön warm ist <persName key="P.0000002" ref="http://d-nb.info/gnd/118891456">Nell</persName> noch in <placeName key="O.0000002" ref="http://sws.geonames.org/2950159">Berlin</placeName>
+                    oder in <placeName key="O.0000036" ref="http://sws.geonames.org/2618425">Kopenhagen</placeName>? Ist <persName key="P.0000123" ref="http://d-nb.info/gnd/118524496">Delaunay</persName> in <placeName key="O.0000002" ref="http://sws.geonames.org/2950159">Berlin</placeName>
+                    gekommen und hast du viel von die Pariser Maler gehört?</p>
+
+
+                <closer>
+                    <salute>Herzlichste Grüssen</salute>
+                    <signed>deine <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">
+                                JacobavanHeems<hi rend="twice-underline">kerck</hi>
+                        </persName>.</signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

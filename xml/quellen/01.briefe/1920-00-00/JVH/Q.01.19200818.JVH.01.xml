@@ -1,0 +1,131 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Q.01.19200818.JVH.01">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Jacoba van Heemskerck an Herwarth Walden, 18. August 1920, Loverendale,
+                    Domburg</title>
+                <editor>
+                    <persName ref="https://orcid.org/0000-0003-1208-6131">
+                        <forename>Anne</forename>
+                        <surname>Lorenz</surname>
+                    </persName>
+                </editor>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0002-0953-2818">
+                        <forename>Torsten</forename>
+                        <surname>Schrade</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeber</note>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0003-2423-7144">
+                        <forename>Marjam</forename>
+                        <surname>Trautmann</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeberin</note>
+                    </resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="http://www.adwmainz.de">Akademie der Wissenschaften und der
+                        Literatur | Mainz</ref>
+                </publisher>
+                <pubPlace ref="http://sws.geonames.org/2874225">Mainz</pubPlace>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">This file is
+                        licensed under the terms of the Creative-Commons-License CC BY 4.0
+                    </licence>
+                </availability>
+                <idno type="file">Q.01.19200818.JVH.01.xml</idno>
+                <idno type="uri">https://sturm-edition.de/id/Q.01.19200818.JVH.01</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Q.01.19200818.JVH.01, Jacoba van Heemskerck an Herwarth Walden, 18. August
+                    1920, Loverendale, Domburg, bearbeitet von Anne Lorenz, in: Der STURM. Digitale
+                    Quellenedition zur Geschichte der internationalen Avantgarde, erarbeitet und
+                    herausgegeben von Marjam Trautmann und Torsten Schrade. Mainz, Akademie der
+                    Wissenschaften und der Literatur.</bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <country>DE</country>
+                        <settlement>Berlin</settlement>
+                        <repository>Staatsbibliothek zu Berlin Preußischer Kulturbesitz,
+                            Handschriftenabteilung, Sturm-Archiv I, Heemskerck, Jacoba
+                            van</repository>
+                        <idno type="uri">http://resolver.staatsbibliothek-berlin.de/SBB0000DA3B00000000</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <xenoData type="uri">http://kalliope-verbund.info/DE-611-HS-1913766</xenoData>
+        <xenoData type="url">https://content.staatsbibliothek-berlin.de/dc/PPN746597215.mets.xml</xenoData>
+        <profileDesc>
+            <correspDesc key="Bl.384" ref="https://sturm-edition.de/id/Q.01.19200818.JVH.01">
+                <correspAction type="sent">
+                    <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jacoba van
+                        Heemskerck</persName>
+                    <placeName key="O.0000004" ref="http://sws.geonames.org/2756746">Loverendale,
+                        Domburg</placeName>
+                    <date when="1920-08-18"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth
+                        Walden</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change>
+                    <date when="2019-08-26" n="1"/>
+                </change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic n="384r" url="http://content.staatsbibliothek-berlin.de/dms/PPN746597215/500/0/00000001.jpg"/>
+        <graphic n="384v" url="http://content.staatsbibliothek-berlin.de/dms/PPN746597215/500/0/00000002.jpg"/>
+        <graphic n="Farbkeil" url="http://content.staatsbibliothek-berlin.de/dms/PPN746597215/500/0/00000003.jpg"/>
+    </facsimile>
+    <text type="letter">
+        <body>
+            
+            <div type="content">
+                <pb xml:id="S.384r" n="384r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000DA3B00000001"/>
+                
+                <opener>
+                    <dateline>
+                        <placeName key="O.0000004" ref="http://sws.geonames.org/2756746">Loverendale
+                            Domburg</placeName>
+                        <date when="1920-08-18">18.8.20</date>
+                    </dateline>
+                    <salute>Lieber <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth</persName>.</salute>
+                </opener>
+                <p>Viel Dank für die schöne Karten, hast du eine interessante Reise gemacht? Wenn du
+                    mehr Zeit hast schreibe dann bitte. Wie geht es geschäftlich habe ich in den
+                    letzte Monaten noch viel verkauft? Bist du zufrieden über alles oder ist nicht
+                    viel los. Hoffentlich komme ich ende <date when="1920-10">Oktober</date> ein
+                    paar Tagen in <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Berlin</placeName> auf meine Durchreise von <placeName key="O.0000077" ref="http://sws.geonames.org/2660989">Dornach</placeName> nach <placeName key="O.0000007" ref="http://sws.geonames.org/2911297">Hamburg</placeName>
+                    aber sicher ist es noch nicht man kann so wenig bestimmtes voraus sagen. Bitte
+                    sage <persName key="P.0000027">Leopold Hess</persName> die 10. grosse Holzstücke die ich gekauft habe und im Herbst
+                    direkt bezahlt, die zu schicken und bitte hebe die dann so lange auf es ist
+                    lächerlich das die nicht direkt geschickt sind und ich will jetzt kein Zuschlag
+                    zahlen. Ich arbeite momentan sehr viel fur Glasfenster Entwürfe und habe viele
+                    Bestellungen und im <date when="1920-09">September</date> eine Ausstellung in
+                    <placeName key="O.0000001" ref="http://sws.geonames.org/2747373">Haag</placeName> von ausgeführte Entwürfe<note>In ihrem nachfolgenden <ref target="Q.01.19200902.JVH.01">Brief</ref> an Walden vom 2. September 1920 schreibt van Heemskerck von der erfolgreichen Eröffnung ihrer Ausstellung, die vom 2.–10. September 1920 in den Räumen der Künstlervereinigung „Haagse Kunstkring“ stattfand und Glasfenster-Entwürfe zeigte.</note>
+                </p>
+                <closer>
+                    <salute>Herzlichste Grüssen für euch beiden</salute>
+                    <signed>deine <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">
+                                JacobavanHeemske<hi rend="underline">rck</hi>
+                        </persName>.</signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

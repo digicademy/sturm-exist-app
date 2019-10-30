@@ -1,0 +1,145 @@
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Q.01.19150723.JVH.01">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Jacoba van Heemskerck an Herwarth Walden, 23. Juli 1915, Loverendale, Domburg</title>
+                <editor>
+                    <persName ref="https://orcid.org/0000-0003-2423-7144">
+                        <forename>Marjam</forename>
+                        <surname>Trautmann</surname>
+                    </persName>
+                </editor>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0002-0953-2818">
+                        <forename>Torsten</forename>
+                        <surname>Schrade</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeber</note>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0003-2423-7144">
+                        <forename>Marjam</forename>
+                        <surname>Trautmann</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeberin</note>
+                    </resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="http://www.adwmainz.de">Akademie der Wissenschaften und der Literatur | Mainz</ref>
+                </publisher>
+                <pubPlace ref="http://sws.geonames.org/2874225">Mainz</pubPlace>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        This file is licensed under the terms of the Creative-Commons-License CC BY 4.0
+                    </licence>
+                </availability>
+                <idno type="file">Q.01.19150723.JVH.01.v1.xml</idno>
+                <idno type="uri">https://sturm-edition.de/id/Q.01.19150723.JVH.01</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Q.01.19150723.JVH.01, Jacoba van Heemskerck an Herwarth Walden, 23. Juli 1915, Loverendale, Domburg, 
+                    bearbeitet von Marjam Trautmann, in: Der STURM. Digitale Quellenedition zur Geschichte der internationalen 
+                    Avantgarde, erarbeitet und herausgegeben von Marjam Trautmann und Torsten Schrade. 
+                    Mainz, Akademie der Wissenschaften und der Literatur.
+                    </bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <country>DE</country>
+                        <settlement>Berlin</settlement>
+                        <repository>Staatsbibliothek zu Berlin Preußischer Kulturbesitz, Handschriftenabteilung, Sturm-Archiv I, Heemskerck, Jacoba van</repository>
+                        <idno type="uri">http://kalliope-verbund.info/DE-611-HS-1910736</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <xenoData type="uri">http://digital.staatsbibliothek-berlin.de/metsresolver/PPN746594445</xenoData>
+        <profileDesc>
+            <correspDesc key="Bl.104-105" ref="https://sturm-edition.de/id/Q.01.19150723.JVH.01">
+                <correspAction type="sent">
+                    <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jacoba van Heemskerck</persName>
+                    <placeName key="O.0000004" ref="http://sws.geonames.org/2756746">Loverendale, Domburg</placeName>                   
+                    <date when="1915-07-23"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth Walden</persName>
+                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change>
+                    <date when="2018-07-16" n="1"/>
+                </change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic n="104r" url="http://content.staatsbibliothek-berlin.de/dms/PPN746594445/800/0/00000001.jpg"/>
+        <graphic n="104v" url="http://content.staatsbibliothek-berlin.de/dms/PPN746594445/800/0/00000002.jpg"/>
+        <graphic n="105r" url="http://content.staatsbibliothek-berlin.de/dms/PPN746594445/800/0/00000003.jpg"/>
+        <graphic n="105v" url="http://content.staatsbibliothek-berlin.de/dms/PPN746594445/800/0/00000004.jpg"/>
+        <graphic n="Farbkeil" url="http://content.staatsbibliothek-berlin.de/dms/PPN746594445/800/0/00000005.jpg"/>
+    </facsimile>
+    <text type="letter">
+        <body>
+            <div type="content">
+            <pb xml:id="S.104r.01" n="104r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D96100000001"/>
+                <opener>
+                    <dateline>
+                        <date when="1915-07-23">
+                            <hi rend="underline">23. Juli
+                  1915</hi>
+                        </date>
+                    </dateline>
+                    <salute>Sehr wehrter Herr <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Walden</persName>
+                    </salute>
+                </opener>
+                <p> Herzlich Dank für Ihren Brief vom <date when="1915-07-19">19. Juli</date>. Die
+               Holzstöcke werde ich Ihnen schicken bitte schreiben Sie dann ob Sie die gut erhalten
+               haben. Fraulein <persName key="P.0000008" ref="http://d-nb.info/gnd/136128289">Tak</persName> und ich, wir haben noch kein <term type="journal" key="W.0000068" source="https://doi.org/10.11588/diglit.37113.5" ref="http://d-nb.info/gnd/4058273-5">Sturm</term>
+                    <note>Walden, Herwarth [Hrsg.]: Der Sturm. Halbmonatsschrift für
+                  Kultur und die Künste 7/8 (1915).</note> bekommen wenn dass ende diesen Monat noch nicht der Fall ist dann
+               schreibe ich Ihnen<pb xml:id="S.104v" n="104v" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D96100000002"/> Ich bin so glücklich dass wieder ein Holzschnitt verkauft ist.</p>
+                <p>
+               Dass ist ja herrlich dass Sie eine grosse internationale Ausstellung in <placeName key="O.0000037" ref="http://sws.geonames.org/2673730">Stockholm</placeName> veranstalten so viel
+               besser dann hier in <placeName key="O.0000003" ref="http://sws.geonames.org/2750405">Holland</placeName> in diese Zeiten.<note>Im Oktober 1915 fand in Stockholm eine
+                  STURM-Ausstellung statt. Vgl. Enders, Rainer: Ausstellungen außerhalb der Berliner
+                  Galerie. URL: <ref target="https://www.arthistoricum.net/themen/portale/sturm/ausstellungen/">https://www.arthistoricum.net/themen/portale/sturm/ausstellungen/</ref>
+                  (Aufruf 06.04.2017).</note> Da ich denke dass Sie auch einige von meinen Gemälde
+               dort ausstellen wollte ich Ihnen fragen ob ich vielleicht Anfang <date when="1915-10">October</date> für die Ausstellung 3. neue grosse Gemälde Ihnen schicken werde 2.
+               sind fertig<pb xml:id="S.105r" n="105r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D96100000003"/> grosse 116 x 130 und mit das dritte bin ich eben sehr beschäftigt grosse
+               110 x 200. Ich glaube so in eine grosse internationale Ausstellung muss man mit grosse
+               Gemälde kommen und wenn Sie dann andere Gemälde die Sie haben noch von mir ausstellen
+               wollen dann tun Sie dass wie es am besten ist. Wenn die drei neue Gemälde dann nicht
+               verkauft sind (dass natürlich nicht der Fall ist) dann kann ich doch fest darauf<pb xml:id="S.105v" n="105v" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D96100000004"/>
+               rechnen nicht wahr dass die dann in <date when="1916-04">April</date> auf meine
+               Ausstellung in Der Sturm ausgestellte werden?<note>Die Ausstellung fand im Februar
+                  1916 als die 38. STURM-Ausstellung mit Werken Jacoba van Heemskercks statt. Vgl.
+                  Enders, Rainer: Ausstellungskataloge der STURM-Galerie.
+                  <ref target="https://www.arthistoricum.net/themen/portale/sturm/ausstellungskataloge/">https://www.arthistoricum.net/themen/portale/sturm/ausstellungskataloge/</ref> (Aufruf
+                  06.04.2017).</note> Sie schreiben bitte ob mein Vorschlag Ihnen gefällt dann
+               schicke ich die Gemälde Anfang <date when="1915-10">October</date>. Und die
+               Zeichnungen im <date when="1915-11">November</date>. Ich habe wieder einige Maler
+               gesprochen aber die Modernen schreiben mehr dann dass sie malen, wenn man so uber
+               Kunst schreibt und immer so mit ein festes Plan malen will dann verliert man ganz und
+               gar die tiefe herrliche spontane Kunst man muss so ganz tief heraus immer neues
+               schaffen.</p>
+                <pb xml:id="S.104r.02" n="104r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D96100000001"/>
+                <closer>
+                    <salute>Herzlichste Grüssen für heute für Sie beiden</salute> <signed>Ihre <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jaco<hi rend="twice-underline">ba
+       vHeemskerck</hi>
+                        </persName>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

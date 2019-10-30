@@ -54,12 +54,13 @@
                         <country>DE</country>
                         <settlement>Berlin</settlement>
                         <repository>Staatsbibliothek zu Berlin Preußischer Kulturbesitz, Handschriftenabteilung, Sturm-Archiv I, Heemskerck, Jacoba van</repository>
-                        <idno type="uri">http://kalliope-verbund.info/DE-611-HS-1910698</idno>
+                        <idno type="uri">http://resolver.staatsbibliothek-berlin.de/SBB0000D95A00000000</idno>
                     </msIdentifier>
                 </msDesc>
             </sourceDesc>
         </fileDesc>
-        <xenoData type="uri">http://digital.staatsbibliothek-berlin.de/metsresolver/PPN746594321</xenoData>
+        <xenoData type="uri">http://kalliope-verbund.info/DE-611-HS-1910698</xenoData>
+        <xenoData type="url">http://content.staatsbibliothek-berlin.de/dc/PPN746594321.mets.xml</xenoData>
         <profileDesc>
             <correspDesc key="Bl.37-38" ref="https://sturm-edition.de/id/Q.01.19141111.JVH.01">
                 <correspAction type="sent">
@@ -69,12 +70,19 @@
                 </correspAction>
                 <correspAction type="received">
                     <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth Walden</persName>
-                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>                  
+                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950159">Potsdamerstrasse 134a, Berlin W.9.</placeName>                  
                 </correspAction>
             </correspDesc>
         </profileDesc>
         <revisionDesc>
             <listChange>
+                <change>
+                    <date when="2019-07-25" n="2"/>
+                    <p>URL zur METS-Datei der Staatsbibliothek zu Berlin aktualisiert innerhalb von :xenoData und zusätzliches :xenoData mit permanenter URI zum Kalliope-Findbucheintrag.</p>
+                    <p>:idno URL innerhalb von :msIdentifier durch permanente URL zum entsprechenden Datensatz der Staatsbibliothek zu Berlin gesetzt</p>
+                    <p>Standardisierung der Kommentierungstiefe, keine spezifischen Erklärungen von Fremdwörtern außerhalb des Sturm-Kontextes</p>
+                    <p>Normdaten (Geonames) zu Stadt Berlin korrigiert (zuvor fälschlicherweise Verweis auf "Land Berlin")</p>
+                </change>
                 <change>
                     <date when="2018-07-16" n="1"/>
                 </change>
@@ -111,7 +119,7 @@
             bestimmt wissen dasz Sie nicht kommen könne, es ist so viel angenehmer über alles zu
             sprechen dann können wir auch zusammen das Papier<pb xml:id="S.37v" n="37v" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D95A00000002"/> wählen. <date when="1914-11-10">Gestern</date> habe ich die Postkarte von <persName key="P.0000027" ref="P.0000027">Hess</persName> empfangen schon
             am <date when="1914-10-31">31<hi rend="super">ten</hi> October</date> geschrieben und in
-               <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Berlin</placeName>
+               <placeName key="O.0000002" ref="http://sws.geonames.org/2950159">Berlin</placeName>
             gepost. Das Holz bestelle ich gleich. So bitte Nachricht wenn Sie wissen das Sie in
             einige Monaten nicht komme dann schicke ich gleich die Zeichnungen. Ich arbeite sehr
             viel und denke sehr viel, ich möchte so gern versuchen auf Glas zu malen wenn Sie Herr

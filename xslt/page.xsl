@@ -5,7 +5,7 @@
  : DER STURM
  : A Digital Edition of Sources from the International Avantgarde
  :
- : Edited and developed by Marjam Mahmoodzada and Torsten Schrade
+ : Edited and developed by Marjam Trautmann and Torsten Schrade
  : Academy of Sciences and Literature | Mainz
  :
  : Stylsheet for transformation of standard website content like the project
@@ -24,9 +24,6 @@
     <xsl:param name="subNavigation"/>
 
     <xsl:template name="page">
-        <xsl:variable name="idno">
-            <xsl:value-of select="//tei:publicationStmt/tei:idno[@type = 'file']/text()"/>
-        </xsl:variable>
         <xsl:choose>
             <xsl:when test="$idno = 'index.xml'">
                 <xsl:call-template name="homepage"/>
@@ -47,7 +44,7 @@
                     </xsl:when>
                     <xsl:otherwise>
                         <section class="twelve columns">
-                            <xsl:apply-templates select="//tei:text/tei:body/tei:div[1]/child::node()"/> 
+                            <xsl:apply-templates select="//tei:text/tei:body/tei:div[1]/child::node()"/>
                         </section>
                     </xsl:otherwise>
                 </xsl:choose>
@@ -123,7 +120,6 @@
                     notinmenu
                 </xsl:otherwise>
             </xsl:choose>
-
         </xsl:variable>
         <xsl:if test="exists($subNavigation)">
             <nav class="subnavigation">

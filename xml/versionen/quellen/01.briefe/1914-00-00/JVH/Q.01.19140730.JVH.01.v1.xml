@@ -1,0 +1,147 @@
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Q.01.19140730.JVH.01">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Jacoba van Heemskerck an Herwarth Walden, 30. Juli 1914, Loverendale, Domburg</title>
+                <editor>
+                    <persName ref="https://orcid.org/0000-0003-2423-7144">
+                        <forename>Marjam</forename>
+                        <surname>Trautmann</surname>
+                    </persName>
+                </editor>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0002-0953-2818">
+                        <forename>Torsten</forename>
+                        <surname>Schrade</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeber</note>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0003-2423-7144">
+                        <forename>Marjam</forename>
+                        <surname>Trautmann</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeberin</note>
+                    </resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="http://www.adwmainz.de">Akademie der Wissenschaften und der Literatur | Mainz</ref>
+                </publisher>
+                <pubPlace ref="http://sws.geonames.org/2874225">Mainz</pubPlace>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        This file is licensed under the terms of the Creative-Commons-License CC BY 4.0
+                    </licence>
+                </availability>
+                <idno type="file">Q.01.19140730.JVH.01.v1.xml</idno>
+                <idno type="uri">https://sturm-edition.de/id/Q.01.19140730.JVH.01</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Q.01.19140730.JVH.01, Jacoba van Heemskerck an Herwarth Walden, 30. Juli 1914, Loverendale, Domburg, 
+                    bearbeitet von Marjam Trautmann, in: Der STURM. Digitale Quellenedition zur Geschichte der internationalen 
+                    Avantgarde, erarbeitet und herausgegeben von Marjam Trautmann und Torsten Schrade. 
+                    Mainz, Akademie der Wissenschaften und der Literatur.
+                    </bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <country>DE</country>
+                        <settlement>Berlin</settlement>
+                        <repository>Staatsbibliothek zu Berlin Preußischer Kulturbesitz, Handschriftenabteilung, Sturm-Archiv I, Heemskerck, Jacoba van</repository>
+                        <idno type="uri">http://kalliope-verbund.info/DE-611-HS-1910567</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <xenoData type="uri">http://digital.staatsbibliothek-berlin.de/metsresolver/PPN746594143</xenoData>
+        <profileDesc>
+            <correspDesc key="Bl.16-17" ref="https://sturm-edition.de/id/Q.01.19140730.JVH.01">
+                <correspAction type="sent">
+                    <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jacoba van Heemskerck</persName>
+                    <placeName key="O.0000004" ref="http://sws.geonames.org/2756746">Loverendale, Domburg</placeName>                    
+                    <date when="1914-07-30"/>               
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth Walden</persName>
+                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>                  
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change>
+                    <date when="2018-07-16" n="1"/>
+                </change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic n="16r" url="http://content.staatsbibliothek-berlin.de/dms/PPN746594143/800/0/00000001.jpg"/>
+        <graphic n="16v" url="http://content.staatsbibliothek-berlin.de/dms/PPN746594143/800/0/00000002.jpg"/>
+        <graphic n="15r" url="http://content.staatsbibliothek-berlin.de/dms/PPN746594143/800/0/00000003.jpg"/>
+        <graphic n="15v" url="http://content.staatsbibliothek-berlin.de/dms/PPN746594143/800/0/00000004.jpg"/>
+        <graphic n="Farbkeil" url="http://content.staatsbibliothek-berlin.de/dms/PPN746594143/800/0/00000005.jpg"/>
+    </facsimile>
+    <text type="letter">
+        <body>
+            <div type="content">
+            <pb xml:id="S.16r.01" n="16r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D94D00000001"/>
+                <opener>
+                    <dateline>
+                        <date when="1914-07-30">
+                            <hi rend="underline">30. Juli 1914.</hi>
+                        </date>
+                    </dateline>
+                    <salute>Geehrter Herr <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Walden</persName>
+                    </salute>
+                </opener>
+                <p>Vielen Dank für Ihren Brief
+            machen Sie mit Herr <persName key="P.0000014" ref="http://d-nb.info/gnd/141343133">Beffie</persName> was Sie wollen, er kam im Atelier wo
+            alle Bilder umher standen wie Sie wissen. Er war allein, ich sah dasz er erstaunt war
+            aber es war ihm gesagt meine Kunst war gar nichts dasz fühlte ich. Das verkaufte Bild
+            fand er am schönsten vielleicht sagte er es mir da er es nicht kaufen konnte. Er ist
+            sehr lange geblieben<pb xml:id="S.16v" n="16v" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D94D00000002"/> und sagte weiter, Ihr Kunst ist ganz anders dann <persName key="P.0000010" ref="http://d-nb.info/gnd/128866748">LeFauconnier</persName>, ich liebe sehr die
+            Bilder von <persName key="P.0000010" ref="http://d-nb.info/gnd/128866748">LeFauconnier</persName> wissen
+            Sie, und ich sammle immer von ihm. Ich habe gesagt ich werde Herr <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Walden</persName> schreiben dasz Sie hier waren
+            und dasz Sie das verkaufte Bild am schönsten finde, er wird sicher sehr bedauern Ihnen
+            nicht gesehen zu haben er arrangiert al meine Ausstellungen und ich schicke ihm immer
+            meine fertigen Bilder er ist der einzige Mann die man ganz vertrauen kann. Die meiste
+            Künstler vertrau ich gar nicht, die finden es besser dasz eine Frau nicht weiter kommt.
+            (dasz kann<pb xml:id="S.17r" n="17r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D94D00000003"/> er weiter sagen dachte ich mir). Jetzt wissen Sie alles, wollen Sie ihm
+            schreiben dasz ich Ihnen geschrieben habe und ihm sagen dass Sie meine Kunst gern haben
+            etc: oder ist es besser im später zu sprechen wenn Sie nach <placeName key="O.0000003" ref="http://sws.geonames.org/2750405">Holland</placeName> komme. Sie machen
+            was Sie am besten finden. Bestimmt wird aber Ihr Brief durch <persName key="P.0000010" ref="http://d-nb.info/gnd/128866748">LeFauconnier</persName> und andere gelesen dasz
+            macht mir aber g<hi rend="underline">ar</hi> ni<hi rend="underline">ch</hi>ts. Die Holzschnitte sind über ein paar Tagen fertig, man sagt
+            hier aber dasz es besser ist einige Tagen zu warten um eingeschriben Sachen zu schicken.
+            Heute waren sehr traurige Nachrichten in der Zeitung für unsere Kunst ist der Krieg auch
+            so schrecklich und ich fürchte dasz es Krieg geben will.<pb xml:id="S.17v" n="17v" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D94D00000004"/> Hier in <placeName key="O.0000004" ref="http://sws.geonames.org/2756746">Domburg</placeName> weisz man so
+            wenig, bitte schreiben Sie wenn Sie Zeit haben eine Karte ob ich die Holzschnitten ruhig
+            schicken kann eingeschrieben Drucksache, und die Holzblöcke als Postpacket. Wir haben es
+            doch so schön gefunden Sie beiden hier zu haben hoffentlich kommen Sie wieder, der
+            <persName key="P.0000017" ref="P.0000017">Bürgermeister</persName> wird sich dann auch so freuen. Ich hatte nie gedacht es soll ein groszen
+            Krieg geben für alle Industrie und Kunst ist es auch so schrecklich. Schade dasz die
+            Sozialisten nicht so viel macht haben dasz die Leute nicht streiten wollen wenn es so
+            weit kommt kann es kein Krieg mehr geben dasz wird aber noch dauern. Waren Sie noch bei
+               <persName key="P.0000003" ref="http://d-nb.info/gnd/11857745X">Mark</persName>? Hat <persName key="P.0000009" ref="http://d-nb.info/gnd/118559737">Kandinsky</persName> viel gearbeitet?</p>
+            <closer>
+                    <salute>Mit
+            herzlichsten Grüssen für Sie beiden</salute> <signed>Ihre <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jacoba van<hi rend="underline">Heemskerck</hi>
+                        </persName>
+                    </signed>
+                </closer>
+                <pb xml:id="S.16r.02" n="16r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D94D00000001"/>
+                <postscript>
+                    <p>Sind Sie jetzt ganz ausgeruht und gehen die
+            Kopfschmerzen von Ihre <persName key="P.0000002" ref="http://d-nb.info/gnd/118891456">Frau</persName>
+                  besser?</p>
+                </postscript>
+            </div>
+        </body>
+    </text>
+</TEI>

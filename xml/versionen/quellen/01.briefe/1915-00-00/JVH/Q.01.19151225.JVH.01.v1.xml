@@ -1,0 +1,137 @@
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Q.01.19151225.JVH.01">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Jacoba van Heemskerck an Herwarth Walden, 25. Dezember 1915, 35, Nassau Zuilensteinstraat, Den Haag</title>
+                <editor>
+                    <persName ref="https://orcid.org/0000-0003-2423-7144">
+                        <forename>Marjam</forename>
+                        <surname>Trautmann</surname>
+                    </persName>
+                </editor>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0002-0953-2818">
+                        <forename>Torsten</forename>
+                        <surname>Schrade</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeber</note>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0003-2423-7144">
+                        <forename>Marjam</forename>
+                        <surname>Trautmann</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeberin</note>
+                    </resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="http://www.adwmainz.de">Akademie der Wissenschaften und der Literatur | Mainz</ref>
+                </publisher>
+                <pubPlace ref="http://sws.geonames.org/2874225">Mainz</pubPlace>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        This file is licensed under the terms of the Creative-Commons-License CC BY 4.0
+                    </licence>
+                </availability>
+                <idno type="file">Q.01.19151225.JVH.01.v1.xml</idno>
+                <idno type="uri">https://sturm-edition.de/id/Q.01.19151225.JVH.01</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    Q.01.19151225.JVH.01, Jacoba van Heemskerck an Herwarth Walden, 25. Dezember 1915, 35, Nassau Zuilensteinstraat, Den Haag, 
+                    bearbeitet von Marjam Trautmann, in: Der STURM. Digitale Quellenedition zur Geschichte der internationalen 
+                    Avantgarde, erarbeitet und herausgegeben von Marjam Trautmann und Torsten Schrade.
+                    Mainz, Akademie der Wissenschaften und der Literatur.
+                </bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <country>DE</country>
+                        <settlement>Berlin</settlement>
+                        <repository>Staatsbibliothek zu Berlin Preußischer Kulturbesitz, Handschriftenabteilung, Sturm-Archiv I, Heemskerck, Jacoba van</repository>
+                        <idno type="uri">http://kalliope-verbund.info/DE-611-HS-1911255</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <xenoData type="uri">http://digital.staatsbibliothek-berlin.de/metsresolver/PPN746595123</xenoData>
+        <profileDesc>
+            <correspDesc key="Bl.139-140" ref="https://sturm-edition.de/id/Q.01.19151225.JVH.01">
+                <correspAction type="sent">
+                    <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jacoba van Heemskerck</persName>
+                    <placeName key="O.0000001" ref="http://sws.geonames.org/2747373">35, Nassau Zuilensteinstraat, Den Haag</placeName>                   
+                    <date when="1915-12-25"/>               
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth Walden</persName>
+                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change>
+                    <date when="2018-07-16" n="1"/>
+                </change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic n="139r" url="http://content.staatsbibliothek-berlin.de/dms/PPN746595123/800/0/00000001.jpg"/>
+        <graphic n="139v" url="http://content.staatsbibliothek-berlin.de/dms/PPN746595123/800/0/00000002.jpg"/>
+        <graphic n="140r" url="http://content.staatsbibliothek-berlin.de/dms/PPN746595123/800/0/00000003.jpg"/>
+        <graphic n="140v" url="http://content.staatsbibliothek-berlin.de/dms/PPN746595123/800/0/00000004.jpg"/>
+        <graphic n="Farbkeil" url="http://content.staatsbibliothek-berlin.de/dms/PPN746595123/800/0/00000005.jpg"/>
+    </facsimile>
+    <text type="letter">
+        <body>
+            <div type="content">
+            <pb xml:id="S.139r" n="139r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D98F00000001"/>
+            
+                <opener>
+                    <dateline>
+                        <date when="1915-12-25">
+                            <hi rend="underline">25. Dec: 1915</hi>
+                        </date>
+                    </dateline>
+                    <salute>Sehr wehrter Herr
+            <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Walden</persName>
+                    </salute>
+                </opener>
+                <p>Ihnen und <persName key="P.0000002" ref="http://d-nb.info/gnd/118891456">Nell</persName> herzlich Dank für die schöne
+            Weihnachtskarte ich bin so froh wieder ein Bild von Sie beiden zu haben. Meine beste
+            Wünsche für Weihnachten und 1916. hoffen wir endlich auf Frieden und dasz es ein schönes
+            Jahr für der<pb xml:id="S.139v" n="139v" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D98F00000002"/> Sturm sein soll. Ueber fünf Wochen sind wir in <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Berlin</placeName> und dann
+            Sie beiden in <date when="1916-03">März</date> wieder hier wirklich es kommen schöne
+            Zeiten. Bitte schreiben Sie genau Name und strasse von das Hotel da ich dasz dem Konsul
+            sagen musz. <date when="1915-12-27">Montag</date> werden wir Dr
+               <persName key="P.0000053" ref="P.0000053">Wichert</persName> telefonieren und dann hingehen. Ich schreibe Ihnen dann
+               alles. Wann werden die Gemälde eintreffen, ich denke<pb xml:id="S.140r" n="140r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D98F00000003"/> jetzt wird es wieder sehr lange
+            dauern. Nebenbei die Zeitungsausschnitt für Frl. <persName key="P.0000036" ref="http://d-nb.info/gnd/122927486">van Leer</persName> Sonntag habe ich ihr <persName key="P.0000055" ref="P.0000055">Bruder</persName>
+            aus <placeName key="O.0000018" ref="http://sws.geonames.org/2925533">Frankfurt</placeName> gesprochen er
+            wird in Januar auch nach <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Berlin</placeName> kommen und
+               Ihnen und seine <persName key="P.0000036" ref="http://d-nb.info/gnd/122927486">Schwester</persName> besuchen er möchte dann auch gern meine Bilder sehen.
+               <persName key="P.0000002" ref="http://d-nb.info/gnd/118891456">Nell</persName> wenn mein Photo fertig
+            ist schicke ich dir auch verschiedene Photo's von meine Gemälde. Ich arbeite jetzt sehr
+            wenig ich bin zu müde.<pb xml:id="S.140v" n="140v" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D98F00000004"/> So schön dasz heute nach mittag Ihr Brief kam. <date when="1915-12-24">Gestern</date> haben wir Weihnachten gefeiert es war sehr schön.
+                    Beiden herzlich Dank für die zwei Briefen. <term type="journal" key="W.0000068" source="https://doi.org/10.11588/diglit.37113.10" ref="http://d-nb.info/gnd/4058273-5">Der Sturm</term>
+                    <note>Walden, Herwarth [Hrsg.]: Der Sturm. Halbmonatsschrift für Kultur und die Künste 17/18 (1915).</note> habe ich auch
+            erhalten, haben Sie schon etwas von <persName key="P.0000009" ref="http://d-nb.info/gnd/118559737">Kandinsky</persName> gehört.</p>
+                <closer>
+                    <salute>Für heute herzlichste Grüsse und Wünsche</salute> bald schreibe
+            ich wieder <signed>Ihre <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">
+                            <hi rend="underline">Coba</hi> vH</persName>.</signed>
+                </closer>
+                <postscript>
+                    <p>Viel Dank für Ihre Bemühungen wegen unsere Reise</p>
+                </postscript>
+            </div>
+        </body>
+    </text>
+</TEI>

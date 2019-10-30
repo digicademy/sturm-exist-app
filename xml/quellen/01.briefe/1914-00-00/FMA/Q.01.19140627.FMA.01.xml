@@ -4,7 +4,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Franz Marc an Herwarth Walden, 27. Juni 1914, Benediktbeuren</title>
+                <title>Franz Marc an Herwarth Walden, 27. Juni 1914, Benediktbeuern</title>
                 <editor>
                     <persName ref="https://orcid.org/0000-0003-2423-7144">
                         <forename>Marjam</forename>
@@ -44,7 +44,7 @@
                 <idno type="uri">https://sturm-edition.de/id/Q.01.19140627.FMA.01</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl>Q.01.19140627.FMA.01, Franz Marc an Herwarth Walden, 27. Juni 1914, Benediktbeuren, 
+                <bibl>Q.01.19140627.FMA.01, Franz Marc an Herwarth Walden, 27. Juni 1914, Benediktbeuern, 
                     bearbeitet von Marjam Trautmann, in: Der STURM. Digitale Quellenedition zur Geschichte der internationalen 
                     Avantgarde, erarbeitet und herausgegeben von Marjam Trautmann und Torsten Schrade. 
                     Mainz, Akademie der Wissenschaften und der Literatur.
@@ -54,27 +54,35 @@
                         <country>DE</country>
                         <settlement>Berlin</settlement>
                         <repository>Staatsbibliothek zu Berlin Preußischer Kulturbesitz, Handschriftenabteilung, Sturm-Archiv I, Marc, Franz</repository>
-                        <idno type="uri">http://kalliope-verbund.info/DE-611-HS-1917491</idno>
+                        <idno type="uri">http://resolver.staatsbibliothek-berlin.de/SBB0000DAB000000000</idno>
                     </msIdentifier>
                 </msDesc>
             </sourceDesc>
         </fileDesc>
-        <xenoData type="uri">http://digital.staatsbibliothek-berlin.de/metsresolver/PPN746598661</xenoData>
+        <xenoData type="uri">http://kalliope-verbund.info/DE-611-HS-1917491</xenoData>
+        <xenoData type="url">http://content.staatsbibliothek-berlin.de/dc/PPN746598661.mets.xml</xenoData>
         <profileDesc>
             <correspDesc key="Bl.191" ref="https://sturm-edition.de/id/Q.01.19140627.FMA.01">
                 <correspAction type="sent">
                     <persName key="P.0000003" ref="http://d-nb.info/gnd/11857745X">Franz Marc</persName>
-                    <placeName key="O.0000056" ref="http://sws.geonames.org/2951104">Benediktbeuren</placeName>
+                    <placeName key="O.0000056" ref="http://sws.geonames.org/2951104">Benediktbeuern</placeName>
                     <date when="1914-06-27"/>
                 </correspAction>
                 <correspAction type="received">
                     <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth Walden</persName>
-                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>                  
+                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950159">Potsdamerstrasse 134a, Berlin W.9.</placeName>                  
                 </correspAction>
             </correspDesc>
         </profileDesc>
         <revisionDesc>
             <listChange>
+                <change>
+                    <date when="2019-07-25" n="2"/>
+                    <p>URL zur METS-Datei der Staatsbibliothek zu Berlin aktualisiert innerhalb von :xenoData und zusätzliches :xenoData mit permanenter URI zum Kalliope-Findbucheintrag.</p>
+                    <p>:idno URL innerhalb von :msIdentifier durch permanente URL zum entsprechenden Datensatz der Staatsbibliothek zu Berlin gesetzt</p>
+                    <p>Standardisierung der Kommentierungstiefe, keine spezifischen Erklärungen von Fremdwörtern außerhalb des Sturm-Kontextes</p>
+                    <p>Normdaten (Geonames) zu Stadt Berlin korrigiert (zuvor fälschlicherweise Verweis auf "Land Berlin")</p>
+                </change>
                 <change>
                     <date when="2018-07-16" n="1"/>
                 </change>
@@ -110,7 +118,7 @@
                     <note>Für veröffentlichte Briefe Hartleys an Marc siehe:
                         McDonnell, Patricia; Hartley, Marsden: Marsden Hartley's Letters to Franz
                         Marc and Wassily Kandinsky 1913–1914. In: Archives of American Art Journal
-                        29 (1989), H. 1/2, S. 35–44.</note> ist wieder in <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Berlin</placeName> (<address rend="inline">
+                        29 (1989), H. 1/2, S. 35–44.</note> ist wieder in <placeName key="O.0000002" ref="http://sws.geonames.org/2950159">Berlin</placeName> (<address rend="inline">
                         <addrLine>
                             <placeName key="O.0000058" ref="http://sws.geonames.org/2808473">Wilmersdorf</placeName>, Nassauischestr. 4</addrLine>
                     </address>) und bittet mich, ihm Ausstellungsgelegenheit für seine (3–2. neuen)

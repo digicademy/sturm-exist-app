@@ -1,0 +1,465 @@
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="S.0000009">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Styleguide</title>
+                <editor>
+                    <persName ref="https://orcid.org/0000-0002-0953-2818">
+                        <forename>Torsten</forename>
+                        <surname>Schrade</surname>
+                    </persName>
+                </editor>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0002-0953-2818">
+                        <forename>Torsten</forename>
+                        <surname>Schrade</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeber</note>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0003-2423-7144">
+                        <forename>Marjam</forename>
+                        <surname>Trautmann</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeberin</note>
+                    </resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="http://www.adwmainz.de">Akademie der Wissenschaften und der Literatur | Mainz</ref>
+                </publisher>
+                <pubPlace ref="http://sws.geonames.org/2874225">Mainz</pubPlace>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        This file is licensed under the terms of the Creative-Commons-License CC BY 4.0
+                    </licence>
+                </availability>
+                <idno type="file">styleguide.xml</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Torsten Schrade: "Styleguide", in: Der STURM. Digitale Quellenedition zur Geschichte der 
+                    internationalen Avantgarde, erarbeitet und herausgegeben von Marjam Trautmann und 
+                    Torsten Schrade. Mainz, Akademie der Wissenschaften und der Literatur.
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <listChange>
+                <change>
+                    <date when="2018-07-16" n="1"/>
+                    <p>Initiale Version</p>
+                </change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="section" n="eight">
+                <div type="row">
+                    <div type="columns" n="twelve">
+                        <ab rend="h1">Die Operette</ab>
+                        <p>Sie wurde mit elf Jahren zur <foreign>Tänzerin</foreign> bestimmt.<note>Seit Monaten wird mein Gehirn nur noch von dieser Frage verwüstet: wird Björnson auch diesmal den längst beendeten Nekrologen widerstehen?</note>
+                            Bei ihrer Neigung zu Verrenkungen, <hi rend="underline">Grimassen</hi> und bei ihrem sonderbaren Temperament
+                            schien sie für diesen Beruf geeignet. Läppisch<hi rend="sub">abc</hi> bis
+                            dahin in jedem Schritt, lernte sie jetzt ihre federnden
+                            Bänder, ihre zu glatten Qelenke<hi rend="super">efg</hi> zwingen, sie schlich
+                            sich <hi rend="twice-underline">behutsam</hi> und geduldig in die <unclear>Zehen</unclear>, die Knöchel, die <sic>Kniee</sic> ein und immer wieder ein, überfiel
+                            habgierig die schmalen Schultern und die Biegung
+                            der schlanken Arme, wachte lauernd über dem
+                            Spiel des <ref target="Q.01.19140115.FMA.01">straffen Leibes</ref>. Es gelang ihr, über den
+                            üppigsten Tanz Kälte zu sprühen.</p>
+                        <ab rend="h2">Programmatisches </ab>
+                        <p>
+                            Mit <date when="1918-01-01">achtzehn Jahren</date> hatte sie eine kleine <emph rend="small-caps">seidenleichte</emph> Figur, übergroße schwarze Augen. Ihr Gesicht fast knabenhaft lang und scharfgeschnitten.
+                            Die Stimme hell, ohne <emph rend="em">Buhlerei</emph> und <emph rend="strong">Musik</emph>, abgehackt; ein rascher, ungeduldiger Qang. Sie war
+                            lieblos, sah klar auf die unbefähigten Kolleginnen und langweilte sich bei ihren Klagen.
+                        </p>
+                        <ab rend="h3">Die Tänzerin und der Leib</ab>
+                        <p>
+                            Mit neunzehn Jahren befiel sie ein <hi rend="line-through">bleiches Siechtum</hi>, so daß ihr Qesicht abenteuerlich fahl vor dem
+                            blauschwarzen Haarknoten schimmerte. Ihre Glieder wurden schwer, aber sie spielte weiter. Wenn
+                            sie allein war, stampfte sie mit dem Fuße, drohte
+                            ihrem Leib und mühte sich mit ihm ab. Sie knirschte mit
+                            den Zähnen über das Dumme, Kindische, das sie
+                            eben zu besiegen gelernt hatte.
+                        </p>
+                        <ab rend="h4">Ein Neugieriger</ab>
+                        <p>
+                            Als Ella sich in Schmerzen auf die Lippen biß, warf
+                            sich die Mutter über das Sofa hin und weinte stundenlang. Nach einer Woche faßte die alte Frau
+                            einen Entschluß und sagte, während sie auf den Boden sah, zu ihrer Tochter, sie sollte ein Ende machen
+                            und ins Krankenhaus gehen. Worauf Ella kein Wort antwortete, nur einen gehässigen Blick auf
+                            runzlige hoffnungslose Gesicht warf.
+                        </p>
+                        <ab rend="h5">Vegetation</ab>
+                        <p>
+                            Sie fuhr schon am nächsten Tage ins Krankenhaus.
+                            Im Wagen weinte sie unter ihrer Decke vor Wut.
+                            Ihren leidenden Körper hätte sie anspeien mögen,
+                            bitter höhnte sie ihn; es ekelte sie vor dem schlechten Fleisch, an dessen Gesellschaft sie gebunden
+                            war.
+                        </p>
+                    </div>
+                </div>
+                <div type="row">
+                    <div type="columns" n="four">
+                        <figure>
+                            <graphic url="http://digi.ub.uni-heidelberg.de/diglitData/image/sturm1910_1911/2/001.jpg"/>
+                            <caption>Q.02.19100310.STZ.01</caption>
+                        </figure>
+                    </div>
+                    <div type="columns" n="four">
+                        <ab rend="h6">Welt</ab>
+                        <p>
+                            Denn die Operette setzt eine
+                            Welt voraus, in welcher die Ursächlichkeit aufgehoben ist, 
+                            nach den Gesetzen des Chaos, aus dem
+                            die andere Welt erschaffen wurde, munter fortgelebt wird und 
+                            der Gesang als Verständigungsmittel plausibel ist.
+                        </p>
+                    </div>
+                    <div type="columns" n="four">
+                        <ab rend="h6">Funktion</ab>
+                        <p>
+                            Die Funktion der Musik: den Krampf des Lebens
+                            zu lösen, dem Verstand Erholung zu schaffen und
+                            die gedankliche Tätigkeit entspannend wieder anzu-
+                            regen.
+                        </p>
+                    </div>
+                </div>
+                <div type="row">
+                    <div type="columns" n="twelve">
+                        <ab rend="h3">Code</ab>
+                        <p>Die Revision dieses lebensfernen Stilbegriffs wird uns Qelegenheit zu anmutigen Scherzen geben.</p>
+                        <ab rend="pre">
+                            <code rend="xml">
+&lt;div&gt;
+    &lt;p&gt;&lt;/p&gt;
+    &lt;p&gt;&lt;/p&gt;
+&lt;/div&gt;
+                            </code>
+                        </ab>
+                        <p>Jede liberale Schüchternheit, inhaltlose Gebräuche zu erhalten, werden wir mit radikaler Sorgfalt ausrupfen.</p>
+                        <ab rend="h3">Listen</ab>
+                        <ab rend="h4">Ungeordnet</ab>
+                        <list rend="ul">
+                            <item>Eins</item>
+                            <item>Zwei</item>
+                            <item>
+                                <list rend="ul">
+                                    <item>
+                                        Zwei.Eins: Wir gedenken nicht, meine Herren, dieser armseligen Komödie nur als Zuschauer beizuwohnen.
+                                        Durch diesen Beitrag werden nicht Meinung und Absicht der Mitarbeiter charakteristert. 
+                                        Diese Sätze treffen nur mich und diewenigen mir persönlich nahestehenden Freunde.
+                                    </item>
+                                    <item>Zwei.Zwei</item>
+                                </list>
+                            </item>
+                            <item>Drei</item>
+                        </list>
+                        <ab rend="h4">Geordnet</ab>
+                        <list rend="ol">
+                            <item>Eins</item>
+                            <item>Zwei</item>
+                            <item>
+                                <list rend="ol">
+                                    <item>Zwei.Eins</item>
+                                    <item>Zwei.Zwei</item>
+                                </list>
+                            </item>
+                            <item>Drei</item>
+                        </list>
+                    </div>
+                </div>
+                <div type="row">
+                    <ab rend="h3">Tabellen</ab>
+                    <div type="columns" n="twelve">
+                        <ab rend="h4">Standard</ab>
+                        <table>
+                            <row rend="th">
+                                <cell>Eins</cell>
+                                <cell>Zwei</cell>
+                            </row>
+                            <row>
+                                <cell>Drei</cell>
+                                <cell>Vier</cell>
+                            </row>
+                            <row>
+                                <cell>Fünf</cell>
+                                <cell>Sechs</cell>
+                            </row>
+                            <row>
+                                <cell>Sieben</cell>
+                                <cell>Acht</cell>
+                            </row>
+                        </table>
+                        <ab rend="h4">Lined</ab>
+                        <table type="lined">
+                            <row rend="th">
+                                <cell>Eins</cell>
+                                <cell>Zwei</cell>
+                            </row>
+                            <row>
+                                <cell>Drei</cell>
+                                <cell>Vier</cell>
+                            </row>
+                            <row>
+                                <cell>Fünf</cell>
+                                <cell>Sechs</cell>
+                            </row>
+                            <row>
+                                <cell>Sieben</cell>
+                                <cell>Acht</cell>
+                            </row>
+                        </table>
+                        <ab rend="h4">Grid</ab>
+                        <table type="grid">
+                            <row rend="th">
+                                <cell>Eins</cell>
+                                <cell>Zwei</cell>
+                            </row>
+                            <row>
+                                <cell>Drei</cell>
+                                <cell>Vier</cell>
+                            </row>
+                            <row>
+                                <cell>Fünf</cell>
+                                <cell>Sechs</cell>
+                            </row>
+                            <row>
+                                <cell>Sieben</cell>
+                                <cell>Acht</cell>
+                            </row>
+                        </table>
+                        <ab rend="h4">Packed</ab>
+                        <table type="packed">
+                            <row rend="th">
+                                <cell>Eins</cell>
+                                <cell>Zwei</cell>
+                            </row>
+                            <row>
+                                <cell>Drei</cell>
+                                <cell>Vier</cell>
+                            </row>
+                            <row>
+                                <cell>Fünf</cell>
+                                <cell>Sechs</cell>
+                            </row>
+                            <row>
+                                <cell>Sieben</cell>
+                                <cell>Acht</cell>
+                            </row>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div type="section" n="four">
+                <ab rend="h4">Subnavigation</ab>
+                <ab type="subNavigation" n="projekt"/>
+                <ab rend="h3">Der Unfug des Redens</ab>
+                <p>
+                    Die Volksvertreter hatten ihre wohleinstudierten
+                    Leitartikel mit zündender Beredsamkeit improvisiert, 
+                    da kam die Rede an einen, der wirklich von
+                    der Situation gereizt war und nicht einfach seine
+                    Meinung an dem Vorredner vorbeizünden lassen
+                    wollte. Die unbegreifliche Anteilnahme des Herrn
+                    von Oldenburg rächte sich schwer. 
+                </p>
+                <p>
+                    Keinem<lb/>
+                    sprach <lb/> sie <lb/> von <lb/>ihrer <lb/> Schwäche. <lb/>
+                </p>
+                <ab rend="h3">Zitate</ab>
+                <cit>
+                    <quote>
+                        <p>
+                            Zum vierten Male treten wir mit einer neuen Zeitschrift in die
+                            Öffentlichkeit. Dreimal versuchte man, mit gröbsten Vertragsbrüchen
+                            unsere Tätigkeit zu verhindern die von den Vielzuvielen peinlich
+                            empfunden wird. Wir haben uns entschlossen,
+                            unsere eigenen Verleger zu sein. Denn wir sind
+                            noch immer so glücklich, glauben zu können, daß
+                            an die Stelle des Journalismus und des Feuilletonis-
+                            mus wieder Kultur und die Künste treten können.
+                        </p>
+                    </quote>
+                    <bibl>
+                        <title>
+                            <ref target="Q.02.19100310.HWA.01">Zwei Worte, in: Der STURM, Erste Ausgabe 03. März 1910.</ref>
+                        </title>
+                        <author>
+                            <persName ref="P.0000001">Herwarth Walden</persName>
+                        </author>
+                    </bibl>
+                </cit>
+                <p>
+                    Rudolf Kurz schrieb in der <term ref="Q.02.19100310.RKU.01">ersten Ausgabe des STURM</term>
+                    <q>Die Tatsache einer neuen Zeitschrift mag ein Bemühen um Verständlichkeit entschuldigen</q>
+                    und sollte damit recht behalten.
+                </p>
+                <ab rend="h3">Verweise</ab>
+                <ab rend="h4">Quellen</ab>
+                <list rend="ul">
+                    <item>
+                        <hi rend="strong">Brief:</hi>
+                        <lb/>
+                        <ref target="Q.01.19140115.FMA.01">Q.01.19140115.FMA.01</ref>
+                    </item>
+                    <item>
+                        <hi rend="strong">Seite in Brief:</hi>
+                        <lb/>
+                        <ref target="Q.01.19140115.FMA.01#S.177v">Q.01.19140115.FMA.01#S.177v</ref>
+                    </item>
+                    <item>
+                        <hi rend="strong">Zeitschrift:</hi>
+                        <lb/>
+                        <ref target="Q.02.19100110.STZ.01">Q.02.19100110.STZ.01</ref>
+                    </item>
+                    <item>
+                        <hi rend="strong">Seite in Zeitschrift:</hi>
+                        <lb/>
+                        <ref target="Q.02.19100110.STZ.01#S.3">Q.02.19100110.STZ.01#S.3</ref>
+                    </item>
+                    <item>
+                        <hi rend="strong">Spalte auf Seite in Zeitschrift:</hi>
+                        <lb/>
+                        <ref target="Q.02.19100110.STZ.01#S.3.K.2">Q.02.19100110.STZ.01#K.2.S.3</ref>
+                    </item>
+                    <item>
+                        <hi rend="strong">Absatz auf Seite in Zeitschrift:</hi>
+                        <lb/>
+                        <ref target="Q.02.19100110.STZ.01#S.3.K.2.A.3">Q.02.19100110.STZ.01#A.3.K.2.S.3</ref>
+                    </item>
+                    <item>
+                        <hi rend="strong">Bild in Zeitschrift:</hi>
+                        <lb/>
+                        <ref target="Q.02.19100421.STZ.01#S.61.K2-3.B.1">Q.02.19100421.STZ.01#B.1.K.2-3.S.61</ref>
+                    </item>
+                    <item>
+                        <hi rend="strong">Beitrag in Zeitschrift:</hi>
+                        <lb/>
+                        <ref target="Q.02.19100310.KKR.01">Q.02.19100310.KKR.01</ref>
+                    </item>
+                    <item>
+                        <hi rend="strong">Katalog:</hi>
+                        <lb/>
+                        <ref target="Q.03.19130920.STK.01">Q.03.19130920.STK.01</ref>
+                    </item>
+                    <item>
+                        <hi rend="strong">Seite in Katalog:</hi>
+                        <lb/>
+                        <ref target="Q.03.19130920.STK.01#S.5">Q.03.19130920.STK.01#S.5</ref>
+                    </item>
+                    <item>
+                        <hi rend="strong">Absatz in Katalog:</hi>
+                        <lb/>
+                        <ref target="Q.03.19130920.STK.01#A.2.S.7">Q.03.19130920.STK.01#A.2.S.7</ref>
+                    </item>
+                    <item>
+                        <hi rend="strong">Bild in Katalog:</hi>
+                        <lb/>
+                        <ref target="Q.03.19130920.STK.01#B.2.S.7">Q.03.19130920.STK.01#B.2.S.34</ref>
+                    </item>
+                    <item>
+                        <hi rend="strong">Textbeitrag in Katalog:</hi>
+                        <lb/>
+                        <ref target="Q.03.19130920.HWA.01">Q.03.19130920.HWA.01</ref>
+                    </item>
+                    <item>
+                        <hi rend="strong">Werk (Abbildung) in Katalog:</hi>
+                        <lb/>
+                        <ref target="Q.03.19130920.VBE.01">Q.03.19130920.VBE.01</ref>
+                    </item>
+                    <item>
+                        <hi rend="strong">Theaterjahrbuch:</hi>
+                        <lb/>
+                        <ref target="Q.04.19180100.STB.01">Q.04.19180100.STB.01</ref>
+                    </item>
+                    <item>
+                        <hi rend="strong">Seite in Theaterjahrbuch:</hi>
+                        <lb/>
+                        <ref target="Q.04.19180100.STB.01">Q.04.19180100.STB.01#S.1</ref>
+                    </item>
+                    <item>
+                        <hi rend="strong">Kolumne in Theaterjahrbuch:</hi>
+                        <lb/>
+                        <ref target="Q.04.19180100.STB.01#K.2.S.1">Q.04.19180100.STB.01#K.2.S.1</ref>
+                    </item>
+                    <item>
+                        <hi rend="strong">Absatz in Theaterjahrbuch:</hi>
+                        <lb/>
+                        <ref target="Q.04.19180100.STB.01#A.16.K.2.S.1">Q.04.19180100.STB.01#A.16.K.2.S.1</ref>
+                    </item>
+                    <item>
+                        <hi rend="strong">Beitrag in Theaterjahrbuch:</hi>
+                        <lb/>
+                        <ref target="Q.04.19180100.LSC.01">Q.04.19180100.LSC.01</ref>
+                    </item>
+                    <item>
+                        <hi rend="strong">Schrift:</hi>
+                        <lb/>
+                        <ref target="Q.05.19140000.AST.01">Q.05.19140000.AST.01</ref>
+                    </item>
+                    <item>
+                        <hi rend="strong">Seite in Schrift:</hi>
+                        <lb/>
+                        <ref target="Q.05.19140000.STS.01#S.3">Q.05.19140000.STS.01#S.3</ref>
+                    </item>
+                    <item>
+                        <hi rend="strong">Absatz in Schrift:</hi>
+                        <lb/>
+                        <ref target="Q.05.19140000.STS.01#A.3.S.5">Q.05.19140000.STS.01#A.3.S.5</ref>
+                    </item>
+                </list>
+                <ab rend="h4">Entitäten</ab>
+                <list rend="ul">
+                    <item>
+                        <hi rend="strong">Person:</hi>
+                        <lb/>
+                        <ref target="P.0000001">P.0000001</ref>
+                    </item>
+                    <item>
+                        <hi rend="strong">Ort:</hi>
+                        <lb/>
+                        <ref target="O.0000001">O.0000001</ref>
+                    </item>
+                    <item>
+                        <hi rend="strong">Körperschaft:</hi>
+                        <lb/>
+                        <ref target="K.0000001">K.0000001</ref>
+                    </item>
+                    <item>
+                        <hi rend="strong">Werk:</hi>
+                        <lb/>
+                        <ref target="W.0000001">W.0000001</ref>
+                    </item>
+                    <item>
+                        <hi rend="strong">Ereignis:</hi>
+                        <lb/>
+                        <ref target="E.0000001">E.0000001</ref>
+                    </item>
+                    <item>
+                        <hi rend="strong">Sachbegriff/Lemma:</hi>
+                        <lb/>
+                        <ref target="L.0000001">L.0000001</ref>
+                    </item>
+                </list>
+                <ab rend="h4">Externe Verweise</ab>
+                <list rend="ul">
+                    <item>
+                        <hi rend="strong">Weblink:</hi>
+                        <lb/>
+                        <ref target="http://d-nb.info/gnd/118770950">GND von Herwarth Walden</ref>
+                    </item>
+                </list>
+            </div>
+        </body>
+    </text>
+</TEI>

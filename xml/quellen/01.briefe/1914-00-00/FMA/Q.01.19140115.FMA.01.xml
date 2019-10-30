@@ -1,5 +1,4 @@
-<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Q.01.19140115.FMA.01">
     <teiHeader>
         <fileDesc>
@@ -54,12 +53,13 @@
                         <country>DE</country>
                         <settlement>Berlin</settlement>
                         <repository>Staatsbibliothek zu Berlin Preußischer Kulturbesitz, Handschriftenabteilung, Sturm-Archiv I, Marc, Franz</repository>
-                        <idno type="uri">http://kalliope-verbund.info/DE-611-HS-1916784</idno>
+                        <idno type="uri">http://resolver.staatsbibliothek-berlin.de/SBB0000DAA300000000</idno>
                     </msIdentifier>
                 </msDesc>
             </sourceDesc>
         </fileDesc>
-        <xenoData type="uri">http://digital.staatsbibliothek-berlin.de/metsresolver/PPN746598521</xenoData>
+        <xenoData type="uri">http://kalliope-verbund.info/DE-611-HS-1916784</xenoData>
+        <xenoData type="url">http://content.staatsbibliothek-berlin.de/dc/PPN746598521.mets.xml</xenoData>
         <profileDesc>
             <correspDesc key="Bl.177" ref="https://sturm-edition.de/id/Q.01.19140115.FMA.01">
                 <correspAction type="sent">
@@ -69,12 +69,19 @@
                 </correspAction>
                 <correspAction type="received">
                     <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth Walden</persName>
-                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>                   
+                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950159">Potsdamerstrasse 134a, Berlin W.9.</placeName>                   
                 </correspAction>
             </correspDesc>
         </profileDesc>
         <revisionDesc>
             <listChange>
+                <change>
+                    <date when="2019-07-25" n="2"/>
+                    <p>URL zur METS-Datei der Staatsbibliothek zu Berlin aktualisiert innerhalb von :xenoData und zusätzliches :xenoData mit permanenter URI zum Kalliope-Findbucheintrag.</p>
+                    <p>:idno URL innerhalb von :msIdentifier durch permanente URL zum entsprechenden Datensatz der Staatsbibliothek zu Berlin gesetzt</p>
+                    <p>Standardisierung der Kommentierungstiefe, keine spezifischen Erklärungen von Fremdwörtern außerhalb des Sturm-Kontextes</p>
+                    <p>Normdaten (Geonames) zu Stadt Berlin korrigiert (zuvor fälschlicherweise Verweis auf "Land Berlin")</p>
+                </change>
                 <change>
                     <date when="2018-07-16" n="1"/>
                 </change>
@@ -116,9 +123,9 @@
                     berichtet worden sein; ich kann mir nur denken, daß die <persName key="P.0000057" ref="http://d-nb.info/gnd/143669230">Reiche</persName>-<placeName key="O.0000032" ref="http://sws.geonames.org/2935022">Dresden</placeName> Collection dahin
                         kommt;<pb xml:id="S.177v.02" n="177v" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000DAA300000001"/> ich
                     bin natürlich einverstanden, nur soll die frei<hi rend="underline">e
-                    Rück</hi>fracht <placeName key="O.0000045" ref="http://sws.geonames.org/2952539">Barmen</placeName> – <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Berlin</placeName> gesichert
-                        sein.<note>Im Jahr 1913 fand in der Stadt Barmen eine Sturm-Ausstellung mit
-                        Werken der Künstlergruppe Der Blaue Reiter statt. In der Literatur gilt
+                    Rück</hi>fracht <placeName key="O.0000045" ref="http://sws.geonames.org/2952539">Barmen</placeName> – <placeName key="O.0000002" ref="http://sws.geonames.org/2950159">Berlin</placeName> gesichert
+                        sein.<note>Im Jahr 1913 fand in der Stadt Barmen eine STURM-Ausstellung mit
+                            Werken der Künstlergruppe „Der Blaue Reiter“ statt. In der Literatur gilt
                         diese Ausstellung als nicht ausreichend nachgewiesen; dieser Brief gibt
                         endgültigen Aufschluss über das tatsächliche Stattfinden der Ausstellung.
                         Vgl. Enders, Rainer: Ausstellungen außerhalb der Berliner Galerie. URL: <ref target="https://www.arthistoricum.net/themen/portale/sturm/ausstellungen/">https://www.arthistoricum.net/themen/portale/sturm/ausstellungen/</ref>

@@ -1,0 +1,140 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Q.01.19151218.JVH.02">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Jacoba van Heemskerck an Nell Walden, 18. Dezember 1915, Den Haag</title>
+            <editor>
+               <persName ref="http://d-nb.info/gnd/1013156242">
+                  <forename>Lea</forename>
+                  <surname>Müller-Dannhausen</surname>
+               </persName>
+            </editor>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-0953-2818">
+                  <forename>Torsten</forename>
+                  <surname>Schrade</surname>
+               </persName>
+               <resp>
+                  <note>Herausgeber</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0003-2423-7144">
+                  <forename>Marjam</forename>
+                  <surname>Trautmann</surname>
+               </persName>
+               <resp>
+                  <note>Herausgeberin</note>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.adwmainz.de">Akademie der Wissenschaften und der Literatur | Mainz</ref>
+            </publisher>
+            <pubPlace ref="http://sws.geonames.org/2874225">Mainz</pubPlace>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">This file is
+                  licensed under the terms of the Creative-Commons-License CC BY 4.0
+               </licence>
+            </availability>
+            <idno type="file">Q.01.19151218.JVH.02.xml</idno>
+            <idno type="uri">https://sturm-edition.de/id/Q.01.19151218.JVH.02</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>Q.01.19151218.JVH.02, Jacoba van Heemskerck an Nell Walden, 18. Dezember
+               1915, Den Haag, bearbeitet von Lea Müller-Dannhausen, in: Der STURM. Digitale
+               Quellenedition zur Geschichte der internationalen Avantgarde, erarbeitet und
+               herausgegeben von Marjam Trautmann und Torsten Schrade. Mainz, Akademie der
+               Wissenschaften und der Literatur.</bibl>
+            <msDesc>
+               <msIdentifier>
+                  <country>DE</country>
+                  <settlement>Berlin</settlement>
+                  <repository>Staatsbibliothek zu Berlin Preußischer Kulturbesitz,
+                     Handschriftenabteilung, Sturm-Archiv I, Heemskerck, Jacoba
+                     van</repository>
+                  <idno type="uri">http://resolver.staatsbibliothek-berlin.de/SBB0000D98C00000000</idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <xenoData type="uri">http://kalliope-verbund.info/DE-611-HS-1911240</xenoData>
+      <xenoData type="url">https://content.staatsbibliothek-berlin.de/dc/PPN746595077.mets.xml</xenoData>
+      <profileDesc>
+         <correspDesc key="Bl.134-135" ref="https://sturm-edition.de/id/Q.01.19151218.JVH.02">
+            <correspAction type="sent">
+               <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jacoba van Heemskerck</persName>
+               <placeName key="O.0000001" ref="http://sws.geonames.org/2747373">Den Haag</placeName>
+               <date when="1915-12-18"/>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="P.0000002" ref="http://d-nb.info/gnd/118891456">Nell Walden</persName>
+               <placeName key="O.0000002" ref="http://sws.geonames.org/2950159">Potsdamerstrasse 134a, Berlin W.9.</placeName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change>
+               <date when="2019-10-30" n="1"/>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic n="134r" url="http://content.staatsbibliothek-berlin.de/dms/PPN746595077/1200/0/00000001.jpg"/>
+      <graphic n="134v" url="http://content.staatsbibliothek-berlin.de/dms/PPN746595077/1200/0/00000002.jpg"/>
+      <graphic n="135r" url="http://content.staatsbibliothek-berlin.de/dms/PPN746595077/1200/0/00000003.jpg"/>
+      <graphic n="135v" url="http://content.staatsbibliothek-berlin.de/dms/PPN746595077/1200/0/00000004.jpg"/>
+      <graphic n="Farbkeil" url="http://content.staatsbibliothek-berlin.de/dms/PPN746595077/1200/0/00000005.jpg"/>
+   </facsimile>
+   <text type="letter">
+      <body>        
+         <div type="content">
+            <pb xml:id="S.134r" n="134r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D98C00000001"/>
+            <opener>
+               <dateline>
+                  <placeName key="O.0000001" ref="http://sws.geonames.org/2747373">H<hi rend="underline">aag</hi>
+                        </placeName>
+                        <hi rend="underline">. <date when="1915-12-18">18. Dez: 1915</date>.</hi>
+               </dateline>
+               <salute>Liebste <persName key="P.0000002" ref="http://d-nb.info/gnd/118891456">Nell</persName>.</salute>
+            </opener>
+            <p>So schön dass die Ausstellung allgemein gefällt. Es ist jetzt ganz leer im atelier nun alle Bilder fort sind, ich bin wie eine Biene wenn man alles fortgenommen hat muss ich direct wieder viel arbeiten ohne Bilder kann ich nicht leben. Aber jetzt bin ich doch wirklich zu müde für viel Arbeit, die letzte Wochen waren anstrengend da ich alles zeitig fertig haben wollte.</p>
+            <p>Ich freue mich so auf <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Berlin</placeName> und hoffe so dass wir hingehen können. Jetzt einige Frage, da wir gar keine Drucksache mitnehmen können möchte ich so sehr gern dass du die<pb xml:id="S.134v" n="134v" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D98C00000002"/> visitekarten für mich bestellen willst Ich werde doch am meisten in <placeName key="O.0000014" ref="http://sws.geonames.org/2921044">Deutschland</placeName> karten als Malerin brauchen so wollte ich gern folgende Karten haben. <lb/>
+               <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jacoba van Heemskerck</persName>
+               <table rows="2" cols="2">
+                  <row>
+                     <cell>Sommer</cell> <cell>Winter</cell>
+                  </row>
+                  <row>
+                     <cell>
+                        <placeName key="O.0000004" ref="http://sws.geonames.org/2756746">Domburg</placeName>.</cell> <cell>35. Nassau Zuilensteinstrasse <lb/>
+                           <placeName key="O.0000001" ref="http://sws.geonames.org/2747373">Haag</placeName>.</cell>
+                  </row>
+               </table>
+            </p>
+            <p>Was denkst du, Malerin unter meine Name oder nicht? Du machst wie du am besten findest und Karton und Buchstabe, ich bin ganz mit dein Gesmack einverstanden dann bitte 100. Stück und dann behältst du die Karten.</p> 
+            <p>In <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Berlin</placeName> will ich so einfache linien Skizzen im Aquarium machen, ich kaufe dann dort ein Skizzen Buch und schicke es mit Postpacket zurück.<pb xml:id="S.135r" n="135r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D98C00000003"/> Muss ich dafür ein Erlaubnis vom Direktor haben und schon von hier darüber schreiben oder kann ich einfach hingehen und so zeichnen? Ich habe vergessen Herr <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Walden</persName> zu schreiben dass im Königlichen Bibliothek <date when="1915-12-18">heute</date> nichts sehr interessantes für
+               <term type="journal" key="W.0000068" ref="http://d-nb.info/gnd/4058273-5">Der Sturm</term> war, ich notierte nur das adres von <lb/>Herr <persName key="P.0000181" ref="http://d-nb.info/gnd/1055475877">G.D. Gratama</persName> <lb/>Director Frans Hals Museum <lb/>
+               <placeName key="O.0000087" ref="http://sws.geonames.org/2755002">Haarlem</placeName> <lb/>für ein
+               <term type="journal" key="W.0000068" ref="http://d-nb.info/gnd/4058273-5">Sturm nummer</term>. Bald schicke ich die photo’s von die wichtigste Bilder. In <term type="journal" key="W.0000169" ref="http://d-nb.info/gnd/4166017-1">Kunst und Künstler</term> las ich über <persName key="P.0000182" ref="http://d-nb.info/gnd/118722778">Greco</persName> und sah auch sehr schöne reproductionen von <persName key="P.0000183" ref="http://d-nb.info/gnd/118542907">Grünewald</persName> hast du das
+               <term type="artwork" key="W.0000170" source="https://commons.wikimedia.org/wiki/File:Grunewald_Isenheim.jpg" ref="http://d-nb.info/gnd/4133052-3">Isenheimer Altar</term> gesehen? Ich sah auch ein Bild von <persName key="P.0000184" ref="http://d-nb.info/gnd/118612751">Hercules Seghers</persName> das original gehört Herr <persName key="P.0000054" ref="http://d-nb.info/gnd/118778153">von Kühlmann</persName> hier. Wir müssen doch einmal seine Radierungen und Zeichnungen<pb xml:id="S.135v" n="135v" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D98C00000004"/> in <placeName key="O.0000009" ref="http://sws.geonames.org/2759794">Amsterdam</placeName> sehen. Was will <placeName key="O.0000028" ref="http://sws.geonames.org/390903">Griechenland</placeName> ich hoffe dass es bald weitergehen wird nach
+               <placeName key="O.0000088" ref="http://sws.geonames.org/734077">Saloniki</placeName> zu.<note>Griechenland blieb bis 1917 neutral, war aber innerlich zerrissen. Die Regierung war Ende 1915 germanophil, aber im Hafen von Saloniki lagen Truppen der Entente. Vgl. Loulos, Konstantin: Griechenland. In: Enzyklopädie Erster Weltkrieg. Hrsg. v. Gerhard Hirschfeld [u.a.]. Paderborn [u.a.] 2004, S. 534–537.</note> Viel Dank für die Sturmzettel<note>Der Begriff „Sturmzettel“ ist in der Literatur nicht belegt. Van Heemskerck spricht in ihrem <ref target="Q.01.19141016.JVH.01">Brief</ref> an Walden vom 16. Oktober 1914 (Bl.29-30) davon, dass sie ihm mit Zetteln nummerierte Bilder schicken wolle: „die Bilder werde ich dann auch mit die Zettel vom Sturm nummerieren [...].“ In den folgenden Briefen ist dann von „Sturmzetteln“ die Rede. Es wird hier angenommen, dass „Sturmzettel“ Vorlagen des STURM-Unternehmens zur Bennennung und Nummerierung von Kunstwerken waren.</note> die ich für ein folgende Sendung behalte.</p> 
+            <p>Frl: <persName key="P.0000008" ref="http://d-nb.info/gnd/136128289">Tak</persName> hat schon verschiedene Leute Ihre Artikeln im Dänische Zeitung gezeicht. Ich habe die Bilder auch auf das Leinwand mit Tinte numeriert wenn dann die Zettel einmal nicht halten dann bleiben die nummer.</p>
+            <closer>
+               <salute>Jetzt für heute nur noch herzlichste Grüssen und ein Kuss von</salute> <signed>deine <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">C<hi rend="twice-underline">oba</hi>
+                        </persName>.</signed>
+            </closer>
+            <postscript>
+               <p>Kann Herr <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Walden</persName> nicht hier an der <address rend="inline">
+                            <addrLine>Königliche Bibliotheek</addrLine> <addrLine>Lange Voorhout</addrLine>
+               </address> schreiben ob er regelmässig ein <term type="journal" key="W.0000068" ref="http://d-nb.info/gnd/4058273-5">Sturm</term> hinschicken kann, sehr viele Leute lesen dort immer die Kunstblätter es war glaube ich sehr gute Reklam, man muss es aber anfragen. Herr <hi rend="underline">Dr. <persName key="P.0000185" ref="http://d-nb.info/gnd/101835825">W. G. C. Byvanck</persName>
+                        </hi> ist Director.</p>
+            </postscript>
+         </div>
+      </body>
+   </text>
+</TEI>

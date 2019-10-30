@@ -1,0 +1,168 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Q.01.19190924.JVH.01">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Jacoba van Heemskerck an Herwarth Walden, 24. September 1919, Domburg</title>
+                <editor>
+                    <persName ref="https://orcid.org/0000-0003-1208-6131">
+                        <forename>Anne</forename>
+                        <surname>Lorenz</surname>
+                    </persName>
+                </editor>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0002-0953-2818">
+                        <forename>Torsten</forename>
+                        <surname>Schrade</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeber</note>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0003-2423-7144">
+                        <forename>Marjam</forename>
+                        <surname>Trautmann</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeberin</note>
+                    </resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="http://www.adwmainz.de">Akademie der Wissenschaften und der
+                        Literatur | Mainz</ref>
+                </publisher>
+                <pubPlace ref="http://sws.geonames.org/2874225">Mainz</pubPlace>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">This file is
+                        licensed under the terms of the Creative-Commons-License CC BY 4.0
+                    </licence>
+                </availability>
+                <idno type="file">Q.01.19190924.JVH.01.xml</idno>
+                <idno type="uri">https://sturm-edition.de/id/Q.01.19190924.JVH.01</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Q.01.19190924.JVH.01, Jacoba van Heemskerck an Herwarth Walden, 24. September
+                    1919, Domburg, bearbeitet von Anne Lorenz, in: Der STURM. Digitale
+                    Quellenedition zur Geschichte der internationalen Avantgarde, erarbeitet und
+                    herausgegeben von Marjam Trautmann und Torsten Schrade. Mainz, Akademie der
+                    Wissenschaften und der Literatur.</bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <country>DE</country>
+                        <settlement>Berlin</settlement>
+                        <repository>Staatsbibliothek zu Berlin Preußischer Kulturbesitz,
+                            Handschriftenabteilung, Sturm-Archiv I, Heemskerck, Jacoba
+                            van</repository>
+                        <idno type="uri">http://resolver.staatsbibliothek-berlin.de/SBB0000DA2A00000000</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <xenoData type="uri">http://kalliope-verbund.info/DE-611-HS-1913495</xenoData>
+        <xenoData type="url">https://content.staatsbibliothek-berlin.de/dc/PPN746597010.mets.xml</xenoData>
+
+        <profileDesc>
+            <correspDesc key="Bl.367" ref="https://sturm-edition.de/id/Q.01.19190924.JVH.01">
+                <correspAction type="sent">
+                    <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jacoba van
+                        Heemskerck</persName>
+                    <placeName key="O.0000004" ref="http://sws.geonames.org/2921044">Domburg</placeName>
+                    <date when="1919-09-24"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth
+                        Walden</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change>
+                    <date when="2019-08-26" n="1"/>
+                </change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic n="367r" url="http://content.staatsbibliothek-berlin.de/dms/PPN746597010/500/0/00000001.jpg"/>
+        <graphic n="367v" url="http://content.staatsbibliothek-berlin.de/dms/PPN746597010/500/0/00000002.jpg"/>
+        <graphic n="Farbkeil" url="http://content.staatsbibliothek-berlin.de/dms/PPN746597010/500/0/00000003.jpg"/>
+    </facsimile>
+    <text type="letter">
+        <body>
+
+
+            <div type="content">
+                <pb xml:id="S.367r" n="367r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000DA2A00000001"/>
+
+                <opener>
+                    <dateline>
+                        <placeName key="O.0000004" ref="http://sws.geonames.org/2921044">Domburg</placeName>
+                         <date when="1919-09-24">24.9.19.</date>
+                    </dateline>
+                    <salute>Lieber <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth</persName>
+                    </salute>
+                </opener>
+
+                <p>Bis jetzt noch kein Brief von dir, ich denke bestimmt das ein verloren gegangen
+                    ist. Ich habe aus die Depèche gesehen das glücklich alles gut angekommen
+                        ist.<note>Jacoba van Heemskerck bezieht sich auf die Postsendung der
+                        Glasfenster-Entwürfe, die sie in ihrem <ref target="Q.01.19190828.JVH.01">Brief</ref> vom 28. August 1919 ankündigt.</note> Nun wissen wir immer
+                    nicht ob wir reisen können ich habe schon vierzehn Tage her <persName key="P.0000112">Blaesing</persName> geschrieben und auch ein Handelsattaché
+                    am Gesandtschaft. Vielleicht ist <persName key="P.0000112">Blaesing</persName>
+                    nicht mehr da. Bitte reservire jetzt schon ein Zimmer im Hotel Fürstenhof für
+                        <date when="1919-10-14">
+                        <hi rend="underline">14</hi>. Oktober</date> wir
+                    kommen dann direkt durch 12.24. glaube ich aber das wirdst du nachsehen. Nun noch
+                    etwas kannst du uns abholen. Bekannte von uns sind alle drei Monaten in
+                        <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Berlin</placeName> und waren im <date when="1919-08">August</date> auch
+                    dort. Der Herr sagte uns <date when="1919-09-23">gestern</date> wenn man nicht
+                    mit ein Wagen abgeholt wird ist es unmöglich eine zu bekommen. Wir stehen dann
+                    dort ohne Wagen mit uns Handgepäck und können unmöglich zu Fuss gehen. So bitte
+                    komme mit ein Wagen oder Auto oder schicke jemand und schreibe genau wo wir dann
+                    den Wagen finden. Wir rechnen so bestimmt darauf, dass du ein Zimmer  bekommst sicher
+                    ungefähr 14-16. Tagen Ich möchte doch gern das Geld von mein Konto mit <persName key="P.0000008" ref="http://d-nb.info/gnd/136128289">Marie</persName>
+                    brauchen wir können dann natürlich direkt damit nächsten Tag anfangen. Ich hoffe
+                    so dass die Reise Erlaubnis bald kommen wird. Ich bin sehr neugierig ob die
+                        Entwürfe<note type="index">
+                        <term type="artwork" key="W.0000093">Entwurf
+                            Glasfenster 17</term>, <term type="artwork" key="W.0000092">Entwurf
+                            Glasfenster 10</term>, <term type="artwork" key="W.0000094">Entwurf
+                            Glasfenster 19</term>, <term type="artwork" key="W.0000095">Entwurf
+                            Glasfenster 20</term>, <term type="artwork" key="W.0000096">Entwurf
+                            Glasfenster 21</term>, <term type="artwork" key="W.0000097">Entwurf
+                            Glasfenster 22</term>, <term type="artwork" key="W.0000098">Entwurf
+                            Glasfenster 23</term>, <term type="artwork" key="W.0000099">Entwurf
+                            Glasfenster 24</term>, <term type="artwork" key="W.0000100">Entwurf
+                            Glasfenster 25</term>, <term type="artwork" key="W.0000101">Entwurf
+                            Glasfenster 26</term>
+                    </note> dir gefallen.</p>
+
+
+                <closer>
+                    <salute>Herzlichste Grüssen</salute>
+                    <signed>deine <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">
+                                JacobavHeems<hi rend="twice-underline">kerck</hi>
+                        </persName>.</signed>
+                </closer>
+                <postscript>
+                    <p>Wir müssen in <placeName key="O.0000081" ref="http://sws.geonames.org/2876187">Löhne</placeName>
+                        <note>Bis Mitte
+                            des 20. Jahrhunderts war der Bahnhof Löhne ein wichtiger
+                            Eisenbahnknoten in Nordwestdeutschland.</note> umsteichen dass
+                        soll schrecklich sein oft kein Sitzplatz bis <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Berlin</placeName>. <date when="1919-09-23">Gestern</date> haben wir in die Zeitung gelesen dass
+                        man Paketen nach <placeName key="O.0000014" ref="http://sws.geonames.org/2921044">Deutschland</placeName> schicken
+                        kann. Wir haben direkt Herrn <persName key="P.0000113">Mentjes van
+                            Hoorn</persName>
+                         <placeName key="O.0000073" ref="http://sws.geonames.org/2755251">
+                            <hi rend="underline">Groningen</hi>
+                        </placeName> geschrieben, dir und
+                            <persName key="P.0000002" ref="http://d-nb.info/gnd/118891456">Nell</persName> eine Käse zu schicken, bitte schreibe gute Empfang.</p>
+                </postscript>
+            </div>
+        </body>
+    </text>
+</TEI>

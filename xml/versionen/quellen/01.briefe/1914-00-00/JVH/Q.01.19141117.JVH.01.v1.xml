@@ -1,0 +1,154 @@
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Q.01.19141117.JVH.01">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Jacoba van Heemskerck an Herwarth Walden, 17. November 1914, Den Haag</title>
+                <editor>
+                    <persName ref="https://orcid.org/0000-0003-2423-7144">
+                        <forename>Marjam</forename>
+                        <surname>Trautmann</surname>
+                    </persName>
+                </editor>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0002-0953-2818">
+                        <forename>Torsten</forename>
+                        <surname>Schrade</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeber</note>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0003-2423-7144">
+                        <forename>Marjam</forename>
+                        <surname>Trautmann</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeberin</note>
+                    </resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="http://www.adwmainz.de">Akademie der Wissenschaften und der
+                        Literatur | Mainz</ref>
+                </publisher>
+                <pubPlace ref="http://sws.geonames.org/2874225">Mainz</pubPlace>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/"> This file is
+                        licensed under the terms of the Creative-Commons-License CC BY 4.0
+                    </licence>
+                </availability>
+                <idno type="file">Q.01.19141117.JVH.01.v1.xml</idno>
+                <idno type="uri">https://sturm-edition.de/id/Q.01.19141117.JVH.01</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Q.01.19141117.JVH.01, Jacoba van Heemskerck an Herwarth Walden, 17. November
+                    1914, Den Haag, bearbeitet von Marjam Trautmann, in: Der STURM. Digitale
+                    Quellenedition zur Geschichte der internationalen Avantgarde, erarbeitet und
+                    herausgegeben von Marjam Trautmann und Torsten Schrade. Mainz,
+                    Akademie der Wissenschaften und der Literatur. </bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <country>DE</country>
+                        <settlement>Berlin</settlement>
+                        <repository>Staatsbibliothek zu Berlin Preußischer Kulturbesitz,
+                            Handschriftenabteilung, Sturm-Archiv I, Heemskerck, Jacoba
+                            van</repository>
+                        <idno type="uri">http://kalliope-verbund.info/DE-611-HS-1910704</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <xenoData type="uri">http://digital.staatsbibliothek-berlin.de/metsresolver/PPN74659433X</xenoData>
+        <profileDesc>
+            <correspDesc key="Bl.39-40" ref="https://sturm-edition.de/id/Q.01.19141117.JVH.01">
+                <correspAction type="sent">
+                    <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jacoba van
+                        Heemskerck</persName>
+                    <placeName key="O.0000001" ref="http://sws.geonames.org/2747373">35, Nassau Zuilensteinstraat, Den
+                        Haag</placeName>
+                    <date when="1914-11-17"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950"> Herwarth
+                        Walden</persName>
+                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change>
+                    <date when="2018-07-16" n="1"/>
+                </change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic n="39r" url="http://content.staatsbibliothek-berlin.de/dms/PPN74659433X/800/0/00000001.jpg"/>
+        <graphic n="39v" url="http://content.staatsbibliothek-berlin.de/dms/PPN74659433X/800/0/00000002.jpg"/>
+        <graphic n="40r" url="http://content.staatsbibliothek-berlin.de/dms/PPN74659433X/800/0/00000003.jpg"/>
+        <graphic n="40v" url="http://content.staatsbibliothek-berlin.de/dms/PPN74659433X/800/0/00000004.jpg"/>
+        <graphic n="Farbkeil" url="http://content.staatsbibliothek-berlin.de/dms/PPN74659433X/800/0/00000005.jpg"/>
+    </facsimile>
+    <text type="letter">
+        <body>
+            <div type="content">
+                <pb xml:id="S.39r" n="39r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D95B00000001"/>
+
+                <opener>
+                    <dateline>
+                        <date when="1914-11-17">
+                            <hi rend="underline">17. Nov: 1914</hi>
+                        </date>
+                    </dateline>
+                    <salute>Sehr geehrter Herr <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Walden</persName>
+                    </salute>
+                </opener>
+                <p>gestern <term type="journal" key="W.0000068" source="https://doi.org/10.11588/diglit.33880.13" ref="http://d-nb.info/gnd/4058273-5">Der Sturm</term>
+                    <note>Walden, Herwarth
+                        [Hrsg.]: Der Sturm. Halbmonatsschrift für Kultur und die Künste 15/16
+                        (1914).</note> empfangen die reproduktionen der Holzschnitten sind sehr gut
+                    mit freude sah ich dasz Sie meine Zeichnungen ausstellen und auch in der <term type="journal" key="W.0000068" source="https://doi.org/10.11588/diglit.33880#0108" ref="http://d-nb.info/gnd/4058273-5">Sturm</term> geschrieben habe dasz Sie
+                    farbige und schwarze Holzschnitte von mir haben.<note>Walden, Herwarth [Hrsg.]:
+                        Der Sturm. Halbmonatsschrift für Kultur und die Künste 15/16 (1914), S.
+                        112.</note> Man hat mich wieder gefragt Mitglied von ein Verein<pb xml:id="S.40r" n="40r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D95B00000003"/> zu
+                    werden ich sage aber immer ich stelle nur in der Sturm aus und Ausstellungen
+                    durch Ihnen organisiert. Man ist dann wütend und dasz amüsiert mich herrlich.
+                    Wie schön wird es sein wenn wieder Friede ist und Sie werden viel organisieren
+                    können. Ich bin so froh dasz die Russen zurück geschlagen sind,<note>Seit der
+                        für das deutsche Heer erfolgreichen Schlacht bei Tannenberg (26.–30. August
+                        1914) erlangten die deutschen Truppen an der Ostfront nur vereinzelte
+                        Erfolge gegen die zahlenmäßig überlegene Armee des Russischen Reichs. Im
+                        November 1914 begann die Belagerung der österreichisch-ungarischen Truppen
+                        durch die russischen in der Festung Przemysl. Von einer „Zurückschlagung der
+                        Russen“ kann zu diesem Zeitpunkt entgegen der Aussage Jacoba van Heemskercks
+                        nicht gesprochen werden. Vgl. Afflerbach, Holger: The Eastern Front. In: The
+                        Cambridge History of the First World War. Bd. 1 Global War. Hrsg. v. Jay
+                        Winter. Cambridge 2014, S. 234–265, hier S. 235–247.</note> ich hoffe dasz
+                    man in <placeName key="O.0000021" ref="http://sws.geonames.org/2802361">Belgien</placeName> und <placeName key="O.0000016" ref="http://sws.geonames.org/3017382">Frankreich</placeName> jetzt weiter
+                        kommt.<note>Die deutschen Truppen rückten über Belgien, dessen Neutralität
+                        sie dadurch verletzten, nach Nordfrankreich vor. Zu Kriegsverlauf und
+                        Strategie an der Westfront siehe Prior, Robin: The Western Front. In: The
+                        Cambridge History of the First World War. Bd. 1 Global War. Hrsg. v. Jay
+                        Winter. Cambridge 2014, S. 204–233.</note> Hier hat man jetzt auch wieder
+                    Ausstellungen sehr schlechte wie immer lauter alte sachen Es ist doch prachtvoll
+                    wie Sie alles für uns machen, die Modernen<pb xml:id="S.40v" n="40v" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D95B00000004"/>
+                    danken Ihnen alles.</p>
+                <p>Ich war wieder so glücklich mit <term type="journal" key="W.0000068" source="https://doi.org/10.11588/diglit.33880.13" ref="http://d-nb.info/gnd/4058273-5">der Sturm</term>
+                    <note>Walden, Herwarth
+                        [Hrsg.]: Der Sturm. Halbmonatsschrift für Kultur und die Künste 15/16
+                        (1914).</note> dasz Ich Ihnen dies eben schreiben musste.</p>
+                <closer>Viel Dank für die Zeitungen und <salute>herzlichste Grüssen für Sie
+                        beiden</salute>
+                    <signed>Ihre <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jaco<hi rend="twice-underline">ba vanHeemskerck</hi>
+                        </persName>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

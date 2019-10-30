@@ -1,0 +1,139 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Q.01.19200201.JVH.01">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Jacoba van Heemskerck an Herwarth Walden, 1. Februar 1920, Den Haag</title>
+                <editor>
+                    <persName ref="https://orcid.org/0000-0003-1208-6131">
+                        <forename>Anne</forename>
+                        <surname>Lorenz</surname>
+                    </persName>
+                </editor>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0002-0953-2818">
+                        <forename>Torsten</forename>
+                        <surname>Schrade</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeber</note>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0003-2423-7144">
+                        <forename>Marjam</forename>
+                        <surname>Trautmann</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeberin</note>
+                    </resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="http://www.adwmainz.de">Akademie der Wissenschaften und der
+                        Literatur | Mainz</ref>
+                </publisher>
+                <pubPlace ref="http://sws.geonames.org/2874225">Mainz</pubPlace>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">This file is
+                        licensed under the terms of the Creative-Commons-License CC BY 4.0
+                    </licence>
+                </availability>
+                <idno type="file">Q.01.19200201.JVH.01.xml</idno>
+                <idno type="uri">https://sturm-edition.de/id/Q.01.19200201.JVH.01</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Q.01.19200201.JVH.01, Jacoba van Heemskerck an Herwarth Walden, 1. Februar
+                    1920, Den Haag, bearbeitet von Anne Lorenz, in: Der STURM. Digitale
+                    Quellenedition zur Geschichte der internationalen Avantgarde, erarbeitet und
+                    herausgegeben von Marjam Trautmann und Torsten Schrade. Mainz, Akademie der
+                    Wissenschaften und der Literatur.</bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <country>DE</country>
+                        <settlement>Berlin</settlement>
+                        <repository>Staatsbibliothek zu Berlin Preußischer Kulturbesitz,
+                            Handschriftenabteilung, Sturm-Archiv I, Heemskerck, Jacoba
+                            van</repository>
+                        <idno type="uri">http://resolver.staatsbibliothek-berlin.de/SBB0000DA3500000000</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <xenoData type="uri">http://kalliope-verbund.info/DE-611-HS-1913646</xenoData>
+        <xenoData type="url">https://content.staatsbibliothek-berlin.de/dc/PPN746597142.mets.xml</xenoData>
+        <profileDesc>
+            <correspDesc key="Bl.378" ref="https://sturm-edition.de/id/Q.01.19200201.JVH.01">
+                <correspAction type="sent">
+                    <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jacoba van
+                        Heemskerck</persName>
+                    <placeName key="O.0000001" ref="http://sws.geonames.org/2747373">Den
+                        Haag</placeName>
+                    <date when="1920-02-01"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth
+                        Walden</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change>
+                    <date when="2019-08-26" n="1"/>
+                </change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic n="378r" url="http://content.staatsbibliothek-berlin.de/dms/PPN746597142/500/0/00000001.jpg"/>
+        <graphic n="378v" url="http://content.staatsbibliothek-berlin.de/dms/PPN746597142/500/0/00000002.jpg"/>
+        <graphic n="Farbkeil" url="http://content.staatsbibliothek-berlin.de/dms/PPN746597142/500/0/00000003.jpg"/>
+    </facsimile>
+    <text type="letter">
+        <body>
+
+
+            <div type="content">
+                <pb xml:id="S.378r" n="378r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000DA3500000001"/>
+
+                <opener>
+                    <dateline>
+                        <placeName key="O.0000001" ref="http://sws.geonames.org/2747373">Haag</placeName>. <date when="1920-02-01">1.2.20.</date>
+                    </dateline>
+                    <salute>Lieber <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth</persName>.</salute>
+                </opener>
+
+                <p>Anbei die Versicherung nochmals zurück ich schrieb bis die Zeichen
+                        die der <persName key="P.0000175" ref="http://d-nb.info/gnd/128547111">Reichskommissar</persName> gemacht hat,
+                    aber ich fand es auch so komisch die ganze geschichte zu schreiben.<note>Eine
+                        handschriftliche Kopie dieses Schreibens fügte van Heemskerck ihrem <ref target="Q.01.19191209.JVH.01">Brief</ref> an Walden vom 9. Dezember 1919
+                        bei.</note> Du schreibst sowie die Bilder hier verkauft werden, bekommst du
+                    nachricht, muss ich es dann alle 2. Monaten dem <persName key="P.0000175" ref="http://d-nb.info/gnd/128547111">Reichskommissar</persName> melden? Ist
+                    es nicht viel besser dass du ihm schreibst dass ich dir beauftrage es
+                    regelmässig zu tun, da die Bilder doch im Sturm sind. Es ist mit der Valuta doch
+                    schrecklich jetzt ein Mark 2 1/2 Cent denkst du das es ein Statsbankrot geben
+                    wird? Hoffentlich sind meine Bilder zeitig in <placeName key="O.0000002" ref="http://sws.geonames.org/2950159">Berlin</placeName> für die Ausstellung
+                    im <date when="1920-03">März</date>,<note>Bereits die im Februar 1920 eröffnete
+                        83. STURM-Ausstellung war Jacoba van Heemskerck gewidmet. Ob eine weitere
+                        größere Ausstellung ihrer Werke auch im März desselben Jahres stattfand, ist
+                        nicht bekannt. Vgl. Walden, Herwarth [Hrsg.]: Der Sturm. Monatsschrift für
+                        Kultur und die Künste 11 (1920), S. 160.</note> alles dauert ja furchtbar
+                    lang.</p>
+
+                <p>Die Holzstöcke sind noch nicht eingetroffen.</p>
+
+                <closer>
+                    <salute>Viele Grüssen</salute>
+                    <signed>deine <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">
+                                JacobavanHeemsk<hi rend="twice-underline">erck</hi>
+                        </persName>.</signed>
+                </closer>
+                <postscript>
+                    <p>Das Original füge ich dir wieder bei.</p>
+                </postscript>
+            </div>
+        </body>
+    </text>
+</TEI>

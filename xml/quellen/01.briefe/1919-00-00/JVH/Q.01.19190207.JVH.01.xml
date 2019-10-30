@@ -1,0 +1,148 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Q.01.19190207.JVH.01">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Jacoba van Heemskerck an Herwarth Walden, 7. Februar 1919, Den Haag</title>
+                <editor>
+                    <persName ref="https://orcid.org/0000-0003-1208-6131">
+                        <forename>Anne</forename>
+                        <surname>Lorenz</surname>
+                    </persName>
+                </editor>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0002-0953-2818">
+                        <forename>Torsten</forename>
+                        <surname>Schrade</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeber</note>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0003-2423-7144">
+                        <forename>Marjam</forename>
+                        <surname>Trautmann</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeberin</note>
+                    </resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="http://www.adwmainz.de">Akademie der Wissenschaften und der
+                        Literatur | Mainz</ref>
+                </publisher>
+                <pubPlace ref="http://sws.geonames.org/2874225">Mainz</pubPlace>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">This file is
+                        licensed under the terms of the Creative-Commons-License CC BY 4.0
+                    </licence>
+                </availability>
+                <idno type="file">Q.01.19190207.JVH.01.xml</idno>
+                <idno type="uri">https://sturm-edition.de/id/Q.01.19190207.JVH.01</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Q.01.19190207.JVH.01, Jacoba van Heemskerck an Herwarth Walden, 7. Februar
+                    1919, Den Haag, bearbeitet von Anne Lorenz, in: Der STURM. Digitale
+                    Quellenedition zur Geschichte der internationalen Avantgarde, erarbeitet und
+                    herausgegeben von Marjam Trautmann und Torsten Schrade. Mainz, Akademie der
+                    Wissenschaften und der Literatur.</bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <country>DE</country>
+                        <settlement>Berlin</settlement>
+                        <repository>Staatsbibliothek zu Berlin Preußischer Kulturbesitz,
+                            Handschriftenabteilung, Sturm-Archiv I, Heemskerck, Jacoba
+                            van</repository>
+                        <idno type="uri">http://resolver.staatsbibliothek-berlin.de/SBB0000DA1E00000000</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <xenoData type="uri">http://kalliope-verbund.info/DE-611-HS-1913472</xenoData>
+        <xenoData type="url">
+            https://content.staatsbibliothek-berlin.de/dc/PPN746596871.mets.xml</xenoData>
+        <profileDesc>
+            <correspDesc key="Bl.353" ref="https://sturm-edition.de/id/Q.01.19190207.JVH.01">
+                <correspAction type="sent">
+                    <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jacoba van
+                        Heemskerck</persName>
+                    <placeName key="O.0000001" ref="http://sws.geonames.org/2747373">Den
+                        Haag</placeName>
+                    <date when="1919-02-07"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth
+                        Walden</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change>
+                    <date when="2019-08-26" n="1"/>
+                </change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic n="353r" url="http://content.staatsbibliothek-berlin.de/dms/PPN746596871/500/0/00000001.jpg"/>
+        <graphic n="353v" url="http://content.staatsbibliothek-berlin.de/dms/PPN746596871/500/0/00000002.jpg"/>
+        <graphic n="Farbkeil" url="http://content.staatsbibliothek-berlin.de/dms/PPN746596871/500/0/00000003.jpg"/>
+    </facsimile>
+    <text type="letter">
+        <body>
+
+
+
+            <div type="content">
+                <pb xml:id="S.353r" n="353r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000DA1E00000001"/>
+                <opener>
+                    <dateline>
+                        <placeName key="O.0000001" ref="http://sws.geonames.org/2747373">den
+                            Haag</placeName>. <date when="1919-02-07">7.2.19</date>
+                    </dateline>
+                    <salute>Lieber <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth</persName>.</salute>
+                </opener>
+
+                <p>Viel Dank für deine Postkarte. wenn du für geschäften hier kommen musst ist es
+                    wunderschön dann bitte zwischen <date from="1919-04-02" to="1919-04-16">2-16.
+                        april</date>. <persName key="P.0000008" ref="http://d-nb.info/gnd/136128289">Marie</persName> fragt ob du dann mit <persName key="P.0000002" ref="http://d-nb.info/gnd/118891456">Nell</persName> oder allein, wenn das
+                    reisen für <persName key="P.0000002" ref="http://d-nb.info/gnd/118891456">Nell</persName> zu beschwerlich ist bei ihr kommst. Wir haben so viel zu
+                    besprechen so bitte wenn möglich komme dann bestimmt. Wir können auch ein mal
+                    verabreden ob es möglich wäre das ich in <date when="1919-10">Oktober</date>
+                    wieder eine grosse ausstellung habe und dann in <date when="1919-08">august</date> alles hinschicke.<note>Die 79. STURM-Ausstellung zeigte im
+                        Oktober 1919 neben Werken von Johannes Molzahn und Karl Herrmann Entwürfe
+                        für Glasfenster van Heemskercks. Vgl. den <ref target="https://nbn-resolving.org/urn:nbn:de:bvb:255-dtl-0000001350">Katalog zur Ausstellung</ref>, Walden, Herwarth: Neunundsiebzigste
+                        Ausstellung – Johannes Molzahn, Karl Herrmann, Jacoba van Heemskerck.
+                        Entwürfe für Glasfenster. Berlin 1919.</note> Natürlich kann man
+                    jetzt nichts bestimmtes sagen hoffentlich wird dann doch alles wieder normaler
+                    sein und auch das geld schicken erlaubt. Wir konnten dann vielleicht in <date when="1919-10">Oktober</date> nach <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Berlin</placeName> kommen. Auch über
+                    viele Sturm angelegenheiten muss ich mit dir sprechen, wir sahen ein ander in
+                    zwei Jahren nicht. Hast du Plänen für ausstellungen im Ausland, <placeName key="O.0000037" ref="http://sws.geonames.org/2673730">Stockholm</placeName>
+                    oder vielleicht <placeName key="O.0000070" ref="http://sws.geonames.org/2661552">Bern</placeName>?</p>
+
+                <p>Sage <persName key="P.0000002" ref="http://d-nb.info/gnd/118891456">Nell</persName> das ich bald schreibe und viel dank für die Karte aus
+                        <placeName key="O.0000036" ref="http://sws.geonames.org/2618425">Kopenhagen</placeName>.</p>
+
+                <p>Wenn du kommst dann behalte ich die Holzschnitten noch hier dann kannst du die
+                    hier sehen.</p>
+
+
+                <closer>
+                    <salute>Herzlichste Grüssen,</salute> schön das <persName key="P.0000002" ref="http://d-nb.info/gnd/118891456">Nell</persName> am <date when="1919-02-15">15.<hi rend="underline">
+                            <hi rend="sup">ten</hi>
+                        </hi>
+                    </date> wieder in <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Berlin</placeName> ist. Wir haben
+                    jetzt eine furchtbare Kälte <signed>deine <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X"> JacobavanHee<hi rend="twice-underline">mskerck</hi>
+                        </persName>
+                    </signed>
+                </closer>
+
+
+            </div>
+        </body>
+    </text>
+</TEI>

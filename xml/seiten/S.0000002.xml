@@ -1,0 +1,145 @@
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="S.0000002">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Datenschutzerklärung</title>
+                <editor>
+                    <persName ref="https://orcid.org/0000-0003-2423-7144">
+                        <forename>Marjam</forename>
+                        <surname>Trautmann</surname>
+                    </persName>
+                </editor>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0002-0953-2818">
+                        <forename>Torsten</forename>
+                        <surname>Schrade</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeber</note>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0003-2423-7144">
+                        <forename>Marjam</forename>
+                        <surname>Trautmann</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeberin</note>
+                    </resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="http://www.adwmainz.de">Akademie der Wissenschaften und der Literatur | Mainz</ref>
+                </publisher>
+                <pubPlace ref="http://sws.geonames.org/2874225">Mainz</pubPlace>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        This file is licensed under the terms of the Creative-Commons-License CC BY 4.0
+                    </licence>
+                </availability>
+                <idno type="file">datenschutz.xml</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Marjam Trautmann: "Datenschutzerklärung", in: Der STURM. Digitale Quellenedition zur Geschichte der 
+                    internationalen Avantgarde, erarbeitet und herausgegeben von Marjam Trautmann und 
+                    Torsten Schrade. Mainz, Akademie der Wissenschaften und der Literatur.
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <listChange>
+                <change>
+                    <date when="2018-07-16" n="1"/>
+                    <p>Initiale Version</p>
+                </change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <ab rend="h2">Datenschutzerklärung</ab>
+                
+                <p>Verantwortlich für die Datenverarbeitung des Webangebots ist die Akademie der
+                    Wissenschaften und der Literatur Mainz, Geschwister-Scholl-Straße 2, D-55131
+                    Mainz, vertreten durch ihren Präsidenten, Prof. Dr.-Ing. Reiner Anderl.</p>
+                
+                <p>Es bestehen folgende Kontaktmöglichkeiten:</p>
+                
+                <p>Präsident der Akademie der Wissenschaften und der Literatur | Mainz<lb/>
+                    Geschwister-Scholl-Str. 2 <lb/>55131 Mainz <lb/>Tel. 0049 6131 577 200 <lb/>Fax. 0049 6131 577
+                    206 <lb/>email: praesidialbuero@adwmainz.de</p>
+                
+                <p>Kontaktdaten des/der Datenschutzbeauftragten:</p>
+                
+                <p>Akademie der Wissenschaften und der Literatur | Mainz<lb/>Der Datenschutzbeauftragte<lb/>
+                    Geschwister-Scholl-Str. 2 <lb/>55131 Mainz <lb/>email: datenschutz@adwmainz.de</p>
+                
+                
+                <ab rend="h3">Erfassung allgemeiner Informationen</ab>
+                <p>Durch den Besuch dieser Website werden Informationen über den Zugriff
+                    (IP-Adresse, Datum, Uhrzeit, betrachtete Seite) gespeichert. Diese Daten
+                    (Server-Logfiles) lassen keine Rückschlüsse auf Ihre Person zu. Diese
+                    Informationen fallen bei der Nutzung von Webangeboten zwingend an und werden
+                    sowohl für die korrekte Wiedergabe der Website sowie der Systemsicherheit
+                    genutzt. Für folgende Zwecke werden sie verarbeitet: Sicherstellung eines
+                    problemlosen Verbindungsaufbaus sowie der reibungslosen Nutzung der Website,
+                    Sicherstellung der Systemintegrität und Abwehr von Angriffen.</p>
+                
+                <p>Die Verarbeitung der personenbezogenen Daten liegt im berechtigen Interesse aus
+                    den vorgenannten Zwecken der Datenerhebung. Empfänger der Daten sind
+                    ausschließlich die verantwortliche Stelle und ggf. Auftragsverarbeiter.</p>
+                
+                <p>Anonymisiert werden diese Daten ausschließlich zu statistischen Zwecken
+                    ausgewertet. Eine Weitergabe an Dritte, zu kommerziellen oder nichtkommerziellen
+                    Zwecken, findet nicht statt. Wir weisen ausdrücklich darauf hin, dass die
+                    Datenübertragung im Internet (z.B. bei der Kommunikation per E-Mail)
+                    Sicherheitslücken aufweisen und nicht lückenlos vor dem Zugriff durch Dritte
+                    geschützt werden kann.</p>
+                
+                <ab rend="h3">Statistische Auswertung</ab>
+                <p>Diese Website benutzt Matomo, eine Open-Source-Software zur statistischen
+                    Auswertung der Besucherzugriffe. Matomo verwendet sog. “Cookies”, Textdateien,
+                    die auf Ihrem Computer gespeichert werden und die eine Analyse der Benutzung der
+                    Website durch Sie ermöglichen. Die durch den Cookie erzeugten Informationen über
+                    Ihre Benutzung dieses Internetangebotes werden auf dem Server des Anbieters in
+                    Deutschland gespeichert. Die IP-Adresse wird sofort nach der Verarbeitung und
+                    vor deren Speicherung anonymisiert.</p>
+                <p>Durch entsprechende Einstellungen an Ihrem Browser können Sie das Abspeichern von
+                    Cookies auf ihrem Rechner verhindern, jedoch könnte so das Nutzungsangebot der
+                    Webseite eingeschränkt werden.</p>
+                <ab rend="h3">Webfonts</ab>
+                <p>Um die Ladezeit der Seiten so gering wie möglich zu halten nutzen wir einen
+                    externen Service von Google Inc., Google Fonts. Die Einbindung der Schriften
+                    erfolgt über einen Server von Google in den USA. Folgende Informationen werden
+                    dabei u. a. an Google übermittelt: aktueller Seitenaufruf und IP-Adresse. Nähere
+                    Informationen hierüber finden Sie auf folgender Seite:
+                    <ref target="https://policies.google.com/privacy">https://policies.google.com/privacy</ref>.</p>
+                <p>Zur Verwaltung Ihrer Daten im Zusammenhang mit Google-Produkten können Sie sich
+                    auf folgender Seite ausführlich informieren:
+                    <ref target="https://support.google.com/accounts/answer/3024190">https://support.google.com/accounts/answer/3024190</ref>.</p>
+                <ab rend="h4">Karten</ab>
+                <p>Auf dieser Webseite werden Karten von der OpenSource Initiative OpenStreetMap
+                    eingebunden. Die Einbindung der Karten erfolgt über einen Server der
+                    OpenStreetMap Foundation in Deutschland. Zusätzlich nutzen wir einen externen
+                    Service der OpenSource JavaScript Bibliothek Leaflet. Die Einbindung der
+                    Informationen erfolgt über einen Server von Leaflet in den USA. Folgende
+                    Informationen werden dabei an Leaflet und OpenStreetMap übermittelt: aktueller
+                    Seitenaufruf und IP-Adresse. Nähere Informationen hierüber finden Sie auf
+                    folgender Seite: <ref target="https://wiki.osmfoundation.org/wiki/Privacy_Policy">https://wiki.osmfoundation.org/wiki/Privacy_Policy</ref>.</p>
+                
+                <ab rend="h3">Auskunft, Berichtigung, Löschung und Beschwerdemöglichkeiten</ab>
+                <p>Sie haben nach DSGVO das Recht auf Auskunft über Sie betreffende Daten, deren
+                    Berichtigung sowie sofortige Löschung. Wenn Sie der Auffassung sind, dass Ihre
+                    Rechte gem. DSGVO verletzt werden, wenden Sie sich bitte an den
+                    Datenschutzbeauftragten der Akademie der Wissenschaften und der Literatur Mainz.
+                    Er wird Ihr Anliegen innerhalb der gesetzlichen Frist prüfen und Ihnen hiervon
+                    Mitteilung machen. Sofern keine Abhilfe erfolgt, besteht die Möglichkeit der
+                    Beschwerde bei der für die Akademie in Datenschutz-Angelegenheiten zuständigen
+                    Aufsichtsbehörde, dem Datenschutzbeauftragten des Landes Rheinland-Pfalz.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

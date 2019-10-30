@@ -1,0 +1,163 @@
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Q.01.19150129.JVH.01">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Jacoba van Heemskerck an Herwarth Walden, 29. Januar 1915, Den Haag</title>
+                <editor>
+                    <persName ref="https://orcid.org/0000-0003-2423-7144">
+                        <forename>Marjam</forename>
+                        <surname>Trautmann</surname>
+                    </persName>
+                </editor>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0002-0953-2818">
+                        <forename>Torsten</forename>
+                        <surname>Schrade</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeber</note>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0003-2423-7144">
+                        <forename>Marjam</forename>
+                        <surname>Trautmann</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeberin</note>
+                    </resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="http://www.adwmainz.de">Akademie der Wissenschaften und der
+                        Literatur | Mainz</ref>
+                </publisher>
+                <pubPlace ref="http://sws.geonames.org/2874225">Mainz</pubPlace>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/"> This file is
+                        licensed under the terms of the Creative-Commons-License CC BY 4.0
+                    </licence>
+                </availability>
+                <idno type="file">Q.01.19150129.JVH.01.v1.xml</idno>
+                <idno type="uri">https://sturm-edition.de/id/Q.01.19150129.JVH.01</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Q.01.19150129.JVH.01, Jacoba van Heemskerck an Herwarth Walden, 29. Januar
+                    1915, Den Haag, bearbeitet von Marjam Trautmann, in: Der STURM. Digitale
+                    Quellenedition zur Geschichte der internationalen Avantgarde, erarbeitet und
+                    herausgegeben von Marjam Trautmann und Torsten Schrade. Mainz,
+                    Akademie der Wissenschaften und der Literatur. </bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <country>DE</country>
+                        <settlement>Berlin</settlement>
+                        <repository>Staatsbibliothek zu Berlin Preußischer Kulturbesitz,
+                            Handschriftenabteilung, Sturm-Archiv I, Heemskerck, Jacoba
+                            van</repository>
+                        <idno type="uri">http://kalliope-verbund.info/DE-611-HS-1910754</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <xenoData type="uri">http://digital.staatsbibliothek-berlin.de/metsresolver/PPN746594453</xenoData>
+        <profileDesc>
+            <correspDesc key="Bl.51-52" ref="https://sturm-edition.de/id/Q.01.19150129.JVH.01">
+                <correspAction type="sent">
+                    <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jacoba van
+                        Heemskerck</persName>
+                    <placeName key="O.0000001" ref="http://sws.geonames.org/2747373">35, Nassau Zuilensteinstraat, Den
+                        Haag</placeName>
+                    <date when="1915-01-29"/>
+
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth
+                        Walden</persName>
+                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change>
+                    <date when="2018-07-16" n="1"/>
+                </change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic n="51r" url="http://content.staatsbibliothek-berlin.de/dms/PPN746594453/800/0/00000001.jpg"/>
+        <graphic n="51v" url="http://content.staatsbibliothek-berlin.de/dms/PPN746594453/800/0/00000002.jpg"/>
+        <graphic n="52r" url="http://content.staatsbibliothek-berlin.de/dms/PPN746594453/800/0/00000003.jpg"/>
+        <graphic n="52v" url="http://content.staatsbibliothek-berlin.de/dms/PPN746594453/800/0/00000004.jpg"/>
+        <graphic n="Farbkeil" url="http://content.staatsbibliothek-berlin.de/dms/PPN746594453/800/0/00000005.jpg"/>
+    </facsimile>
+    <text type="letter">
+        <body>
+            <div type="content">
+                <pb xml:id="S.51r" n="51r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D96200000001"/>
+
+                <opener>
+                    <dateline>
+                        <date when="1915-01-29">29. Jan 1915</date>. </dateline>
+                    <salute>Sehr verehrter Herr <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Walden</persName>
+                    </salute>
+                </opener>
+                <p>
+                    <date when="1915-01-28">Gestern</date> habe ich Ihre Postkarte empfangen, es hat
+                    5. Tagen gedauert. Ich denke dasz Sie jetzt auch mein <ref target="Q.01.19150123.JVH.01">Brief</ref> von <date when="1915-01-22">22.
+                        Januar</date> erhalten haben. Ich habe in lange nicht geschrieben da ich so
+                    sehr viel gearbeitet habe. Heute morgen schickte ich Ihnen eine Holzstock, die
+                    Sie wenn Sie wollen<pb xml:id="S.51v" n="51v" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D96200000002"/> für
+                    den <term type="journal" key="W.0000068" source="https://doi.org/10.11588/diglit.33880.17" ref="http://d-nb.info/gnd/4058273-5">Sturm</term>
+                    <note>Walden, Herwarth
+                        [Hrsg.]: Der Sturm. Halbmonatsschrift für Kultur und die Künste 23/24
+                        (1915).</note> brauchen können die Auflage schicke ich dann später mit die
+                    Drucke für die Mappe zusammen. Diese Holzschnitt kennen Sie nicht und, die wird
+                    Ihnen hoffentlich gefallen. Ich denke erst die 450. Holzschnitte für die Mappe
+                    zu schicken und dann später ein Auflage von die 4. Holzschnitte und vielleicht
+                    mache ich dann später auch farbige die mache ich dann nicht auch in schwarz, ich
+                    finde es besser das Entwürf schwarz oder farbig zu<pb xml:id="S.52r" n="52r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D96200000003"/>
+                    machen aber nicht zwei verschiedene Holzschnitte von ein Entwurf. Sie schreiben
+                    dann bitte ob Sie das Packet gut empfangen haben. Herr Dr <persName key="P.0000021" ref="http://d-nb.info/gnd/119191164">Behne</persName> hat
+                    mir auch ein exemplar von sein <term type="book" key="W.0000066" ref="http://d-nb.info/578835940" source="https://doi.org/10.11588/diglit.27084">Sturm-Buch</term>
+                    <note>Behne,
+                        Adolf: Zur Neuen Kunst. Berlin 1915.</note> geschickt mit eine sehr
+                    freundliche Widmung. Ich habe ihm dafür herzlich gedankt, bitte sagen Sie ob er
+                    schon im Armee ist es ist doch schrecklich für seine Frau, aber wie schrecklich
+                    alles auch ist <placeName key="O.0000014" ref="http://sws.geonames.org/2921044">Deutschland</placeName> musz siegen und wird es auch. Was sagen Sie von
+                        <placeName key="O.0000024" ref="http://sws.geonames.org/798549">Roemenie</placeName> und <placeName key="O.0000025" ref="http://sws.geonames.org/3175395">Italie</placeName>? Ich hoffe so dasz
+                    beide neutral bleiben<pb xml:id="S.52v" n="52v" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D96200000004"/> es
+                    ist aber eine grosse Frage.<note>Rumänien trat am 17. August 1916 auf Seiten der
+                        Entente in den Krieg ein, Italien erklärte am 23. Mai 1915 Österreich-Ungarn
+                        den Krieg, letztlich wegen der Hoffnung auf territoriale Gewinne in
+                        Trentino, Südtirol, Triest, Istrien und Dalmatien. Vgl. Isenghi, Mario:
+                        Italien. In: Enzyklopädie Erster Weltkrieg. Hrsg. v. Gerhard Hirschfeld
+                        [u.a.]. Paderborn [u.a.] 2004, S. 97–104; Höpken, Wolfgang: Rumänien. In:
+                        Enzyklopädie Erster Weltkrieg. Hrsg. v. Gerhard Hirschfeld [u.a.]. Paderborn
+                        [u.a.] 2004, S. 804–807. Zum Prozess und den Gründen des italienischen
+                        Kriegseintritts sowie zur Historiographie der Front zwischen Italien und
+                        Österreich-Ungarn vgl. Lablanca, Nicola: The Italian Front. In: The
+                        Cambridge History of The First World War. Bd. 1 Global War. Cambridge 2014,
+                        S. 266–296.</note> So viel möchte ich mit Ihnen besprechen dass man in diese
+                    Zeiten nicht schreiben kann. Ich bin fest überzeugt dasz aus dies alles etwas
+                    sehr grosses rund Gutes kommt. Prachtvoll dasz so ein grosses Volkstheater auf
+                    dem Bülowplatz eröffnet ist, doch schön dasz das Volk so etwas zusammen bringt..
+                    Wo so eine Kraft ist musz alles einmal recht werden dasz kann nicht anders.</p>
+                <closer>Jetzt aber <foreign>adieu</foreign>, ein andersmal weiter
+                        <salute>Herzlichste Grüssen für Sie beiden</salute>
+                    <signed>Ihre <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jac<hi rend="twice-underline">obavanHeemskerck</hi>
+                        </persName>
+                    </signed>
+                </closer>
+                <postscript>
+                    <p>Sie antworten dann auch bitte mein <ref target="Q.01.19150123.JVH.01">Brief</ref>
+                            von <date when="1915-01-22">22. Januar</date>.</p>
+                </postscript>
+            </div>
+        </body>
+    </text>
+</TEI>

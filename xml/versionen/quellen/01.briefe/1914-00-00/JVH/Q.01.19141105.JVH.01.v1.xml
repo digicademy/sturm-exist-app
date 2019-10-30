@@ -1,0 +1,175 @@
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Q.01.19141105.JVH.01">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Jacoba van Heemskerck an Herwarth Walden, 5. November 1914, 35, Nassau
+                    Zuilensteinstraat, Den Haag</title>
+                <editor>
+                    <persName ref="https://orcid.org/0000-0003-2423-7144">
+                        <forename>Marjam</forename>
+                        <surname>Trautmann</surname>
+                    </persName>
+                </editor>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0002-0953-2818">
+                        <forename>Torsten</forename>
+                        <surname>Schrade</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeber</note>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0003-2423-7144">
+                        <forename>Marjam</forename>
+                        <surname>Trautmann</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeberin</note>
+                    </resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="http://www.adwmainz.de">Akademie der Wissenschaften und der
+                        Literatur | Mainz</ref>
+                </publisher>
+                <pubPlace ref="http://sws.geonames.org/2874225">Mainz</pubPlace>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/"> This file is
+                        licensed under the terms of the Creative-Commons-License CC BY 4.0
+                    </licence>
+                </availability>
+                <idno type="file">Q.01.19141105.JVH.01.v1.xml</idno>
+                <idno type="uri">https://sturm-edition.de/id/Q.01.19141105.JVH.01</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Q.01.19141105.JVH.01, Jacoba van Heemskerck an Herwarth Walden, 5. November
+                    1914, 35, Nassau Zuilensteinstraat, Den Haag, bearbeitet von Marjam Trautmann,
+                    in: Der STURM. Digitale Quellenedition zur Geschichte der internationalen
+                    Avantgarde, erarbeitet und herausgegeben von Marjam Trautmann 
+                    und Torsten Schrade. Mainz, Akademie der Wissenschaften und der Literatur.</bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <country>DE</country>
+                        <settlement>Berlin</settlement>
+                        <repository>Staatsbibliothek zu Berlin Preußischer Kulturbesitz,
+                            Handschriftenabteilung, Sturm-Archiv I, Heemskerck, Jacoba
+                            van</repository>
+                        <idno type="uri">http://kalliope-verbund.info/DE-611-HS-1910680</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <xenoData type="uri">http://digital.staatsbibliothek-berlin.de/metsresolver/PPN746594313</xenoData>
+        <profileDesc>
+            <correspDesc key="Bl.35-36" ref="https://sturm-edition.de/id/Q.01.19141105.JVH.01">
+                <correspAction type="sent">
+                    <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jacoba van
+                        Heemskerck</persName>
+                    <placeName key="O.0000001" ref="http://sws.geonames.org/2747373">35, Nassau
+                        Zuilensteinstraat, Den Haag</placeName>
+                    <date when="1914-11-05"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth
+                        Walden</persName>
+                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change>
+                    <date when="2018-07-16" n="1"/>
+                </change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic n="35r" url="http://content.staatsbibliothek-berlin.de/dms/PPN746594313/800/0/00000001.jpg"/>
+        <graphic n="35v" url="http://content.staatsbibliothek-berlin.de/dms/PPN746594313/800/0/00000002.jpg"/>
+        <graphic n="36r" url="http://content.staatsbibliothek-berlin.de/dms/PPN746594313/800/0/00000003.jpg"/>
+        <graphic n="36v" url="http://content.staatsbibliothek-berlin.de/dms/PPN746594313/800/0/00000004.jpg"/>
+        <graphic n="Farbkeil" url="http://content.staatsbibliothek-berlin.de/dms/PPN746594313/800/0/00000005.jpg"/>
+    </facsimile>
+    <text type="letter">
+        <body>
+            <div type="content">
+                <pb xml:id="S.35r.01" n="35r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D95900000001"/>
+                <opener>
+                    <dateline>
+                        <date when="1914-11-05">5. Nov: 1914.</date>
+                    </dateline>
+                    <salute>Sehr geehrter Herr <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Walden</persName>. </salute>
+                </opener>
+                <p>Sehr viel Dank für Ihren Brief es thut mir so viel vergnügen dasz Sie mein
+                    Anerbieten entgegennehmen dann kann ich Ihnen doch etwas helfen in diese Schwere
+                    Zeiten Mit <date when="1914-04-01">1. April</date> musz alles fertig sein, <date when="1914-03">mitte März</date> schicke Ich Ihnen dann alles. Ich danke
+                    sehr für die Zeitungen ich schickte Ihnen keine dar ich jeden Tag auf ein
+                        Dépeche<pb xml:id="S.35v" n="35v" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D95900000002"/>
+                    wartete. Ich habe 10 Zeichnungen für Holzschnitte gemacht dann können Sie 6.
+                    auswählen. Werde ich die Zeichnungen behalten kommen Sie bald, oder werde ich
+                    die schicken? Hoffentlich kommen Sie bald hier. Ich habe an <address rend="inline">
+                        <addrLine>
+                            <persName key="P.0000027" ref="P.0000027">Hess</persName>
+                        </addrLine>
+                        <addrLine>Genthiner Strasse 29.</addrLine>
+                        <addrLine>
+                            <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Berlin</placeName> W. 35/.</addrLine>
+                    </address> geschrieben um Birnbaumholz. Da ich immer meine Messer und
+                    verschiedene Utensilien von ihm bekomme fragte ich direct Nachricht ob er es
+                    schicken konnte und habe die grösse noch nicht aufgegeben. Bis jetzt keine
+                    Nachricht und ich<pb xml:id="S.36r" n="36r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D95900000003"/> habe
+                    schon eine Woche her geschrieben Hier in <placeName key="O.0000003" ref="http://sws.geonames.org/2750405">Holland</placeName> kann man kein
+                    Birnbaum holz für Holzplatten mehr bekommen da mein Groszhändler in Farten das
+                    Holz immer aus <placeName key="O.0000014" ref="http://sws.geonames.org/2921044">Deutschland</placeName> hat. Wenn Sie oder Ihre <persName key="P.0000002" ref="http://d-nb.info/gnd/118891456">Frau</persName> Zeit haben wollen Sie
+                    dann bitte fragen ob <persName key="P.0000027" ref="P.0000027">Hess</persName>
+                    es schicken kann, ich brauche um 4. Birnbaum Holzplatte 20 x 28. c. M. das Stück
+                    kostet M. 1.20. kleinere Platten habe ich. Mein Japan Papier habe ich immer bei
+                        <address rend="inline">
+                        <addrLine>
+                            <persName key="P.0000028" ref="P.0000028">R. Wagner</persName>
+                        </addrLine>
+                        <addrLine>Potsdamerstrasse 20<hi rend="super">
+                                <hi rend="twice-underline">a</hi>
+                            </hi>
+                        </addrLine>
+                    </address> Ich habe hier ein catalogus mit grosser Auswahl, Sie denke doch auch
+                    dasz ich die Japan Papiere bekommen kann? Wann Sie dann hier<pb xml:id="S.36v" n="36v" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D95900000004"/> sind
+                    können wir zusammen das Papier wählen. Für <placeName key="O.0000014" ref="http://sws.geonames.org/2921044">Deutschland</placeName> ist es doch
+                    auch schrecklich so viel gefallen, ich wollte so gern das der Krieg aus wahr es
+                    ist doch schrecklich traurig. Was sagen Sie davon das die <placeName key="O.0000019" ref="http://sws.geonames.org/2960848">Nordsee</placeName>
+                    geschlossen ist auch für uns ist das schrecklich.<note>Großbritannien sperrte
+                        mit ihrer „Grand Fleet“ seit Herbst 1914 die nördliche Ausfahrt der Nordsee
+                        und blockierte so den deutschen Seeweg nach Übersee. Auch neutrale Schiffe
+                        wie die niederländischen waren von der Blockade betroffen, indem sie vor dem
+                        Passieren der Blockade in britische Häfen geleitet und dort inspiziert
+                        wurden. Für die Einfuhr nach Deutschland gedachte Waren wurden dabei
+                        konfisziert. Vgl. Kennedy, Paul: The War at Sea. In: The Cambridge History
+                        of The First World War. Bd. 1 Global War. Cambridge 2014, S. 321-348, hier
+                        S. 327; Strachan, Hew: Die Kriegsführung der Entente. In: Enzyklopädie
+                        Erster Weltkrieg. Hrsg. v. Gerhard Hirschfeld [u.a.]. Paderborn [u.a.] 2004,
+                        S. 272–280, hier S. 273.</note> Später reden wir zusammen dasz ist besser
+                    dann schreiben, auch auf meine Atelier kann ich Ihnen Holländisch lernen es ist
+                    aber unmöglich das ganze zu ändern das muss man besprechen.</p>
+                <closer>
+                    <salute>Sehr viele Herzlichsten Grüssen für Sie beiden und hoffentlich auf ein
+                        sehr baldig wiedersehen.</salute> Kommen Sie dann am Anfang von Ihr Besuch
+                    dann können wir auch verabreden Ihnen mehr zu sehen <signed>Ihre <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">JacobavH<hi rend="twice-underline">eemskerck</hi>
+                        </persName>
+                    </signed>
+                </closer>
+                <pb xml:id="S.35r.02" n="35r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D95900000001"/>
+                <postscript>
+                    <p>Es ist so liebenswürdig von Ihnen mir die Hälfte der eingehenden Beträge von
+                        den Mappen die zum Verkauf kommen anzubieten. Und da ich leider kein Geld
+                        genug habe um Nein zu sagen, nehme ich Ihr Vorschlag mit sehr viel Dank
+                        an.</p>
+                </postscript>
+            </div>
+        </body>
+    </text>
+</TEI>

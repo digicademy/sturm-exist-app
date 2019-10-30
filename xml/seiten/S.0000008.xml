@@ -1,0 +1,83 @@
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="S.0000008">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Digitale Ressourcen</title>
+                <editor>
+                    <persName ref="https://orcid.org/0000-0002-0953-2818">
+                        <forename>Torsten</forename>
+                        <surname>Schrade</surname>
+                    </persName>
+                </editor>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0002-0953-2818">
+                        <forename>Torsten</forename>
+                        <surname>Schrade</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeber</note>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0003-2423-7144">
+                        <forename>Marjam</forename>
+                        <surname>Trautmann</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeberin</note>
+                    </resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="http://www.adwmainz.de">Akademie der Wissenschaften und der
+                        Literatur | Mainz</ref>
+                </publisher>
+                <pubPlace ref="http://sws.geonames.org/2874225">Mainz</pubPlace>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/"> This file is
+                        licensed under the terms of the Creative-Commons-License CC BY 4.0
+                    </licence>
+                </availability>
+                <idno type="file">ressourcen.xml</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Torsten Schrade: "Digitale Ressourcen", in: Der STURM. Digitale Quellenedition
+                    zur Geschichte der internationalen Avantgarde, erarbeitet und herausgegeben von
+                    Marjam Trautmann und Torsten Schrade. Mainz, Akademie der Wissenschaften und der
+                    Literatur. </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <listChange>
+                <change>
+                    <date when="2018-07-16" n="1"/>
+                    <p>Initiale Version</p>
+                </change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="section" n="eight">
+                <ab rend="h2">Digitale Ressourcen</ab>
+                <p> In dieser Rubrik sind verschiedene digitale Hilfsmittel für die Beschäftigung
+                    mit dem ‚Sturm‘ versammelt. Innerhalb der <ref target="ressourcen/bibliographie.xml">Projektbibliographie</ref> werden alle
+                    für die editorische Arbeit herangezogenen Literaturtitel und Internetressourcen
+                    nachgewiesen. Unter <ref target="ressourcen/publikationen.xml">Publikationen</ref> tragen wir alle im Projektkontext entstehenden analogen
+                    und digitalen Materialien für Tagungen, Workshops und Lehrveranstaltungen sowie
+                    Beiträge zur STURM-Edition in Journalen und anderen Medien zusammen. Eine
+                    tabellarische Übersicht über die in der Edition vorkommenden Künstler und
+                    Künstlerinnen bietet die alphabetische <ref target="ressourcen/siglen.xml">Siglen-Übersicht</ref>. Die <ref target="ressourcen/schnittstellen.xml">Schnittstellen-Dokumentation</ref> gibt Auskunft über die verschiedenen
+                    Möglichkeiten eines maschinengestützten Zugriffs auf die STURM-Edition und ihre
+                    Forschungsdaten, die <ref target="ressourcen/software.xml">Software-Dokumentation</ref> bietet Details zu der hinter der Edition
+                    stehenden Software-Architektur sowie die Download-Links für die einzelnen
+                    Software-Komponenten des Projektes. </p>
+            </div>
+            <div type="section" n="four">
+                <ab type="subNavigation" n="ressourcen"/>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,140 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Q.01.19190618.JVH.01">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Jacoba van Heemskerck an Herwarth Walden, 18. Juni 1919, Loverendale,
+                    Domburg</title>
+                <editor>
+                    <persName ref="https://orcid.org/0000-0003-1208-6131">
+                        <forename>Anne</forename>
+                        <surname>Lorenz</surname>
+                    </persName>
+                </editor>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0002-0953-2818">
+                        <forename>Torsten</forename>
+                        <surname>Schrade</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeber</note>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0003-2423-7144">
+                        <forename>Marjam</forename>
+                        <surname>Trautmann</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeberin</note>
+                    </resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="http://www.adwmainz.de">Akademie der Wissenschaften und der
+                        Literatur | Mainz</ref>
+                </publisher>
+                <pubPlace ref="http://sws.geonames.org/2874225">Mainz</pubPlace>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">This file is
+                        licensed under the terms of the Creative-Commons-License CC BY 4.0
+                    </licence>
+                </availability>
+                <idno type="file">Q.01.19190618.JVH.01.xml</idno>
+                <idno type="uri">https://sturm-edition.de/id/Q.01.19190618.JVH.01</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Q.01.19190618.JVH.01, Jacoba van Heemskerck an Herwarth Walden, 18. Juni 1919,
+                    Loverendale, Domburg, bearbeitet von Anne Lorenz, in: Der STURM. Digitale
+                    Quellenedition zur Geschichte der internationalen Avantgarde, erarbeitet und
+                    herausgegeben von Marjam Trautmann und Torsten Schrade. Mainz, Akademie der
+                    Wissenschaften und der Literatur.</bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <country>DE</country>
+                        <settlement>Berlin</settlement>
+                        <repository>Staatsbibliothek zu Berlin Preußischer Kulturbesitz,
+                            Handschriftenabteilung, Sturm-Archiv I, Heemskerck, Jacoba
+                            van</repository>
+                        <idno type="uri">http://resolver.staatsbibliothek-berlin.de/SBB0000DA2200000000</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <xenoData type="uri">http://kalliope-verbund.info/DE-611-HS-1913477</xenoData>
+        <xenoData type="url">https://content.staatsbibliothek-berlin.de/dc/PPN74659691X.mets.xml</xenoData>
+        <profileDesc>
+            <correspDesc key="Bl.357" ref="https://sturm-edition.de/id/Q.01.19190618.JVH.01">
+                <correspAction type="sent">
+                    <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jacoba van
+                        Heemskerck</persName>
+                    <placeName key="O.0000004" ref="http://sws.geonames.org/2756746">Loverendale,
+                        Domburg</placeName>
+                    <date when="1919-06-18"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth
+                        Walden</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change>
+                    <date when="2019-08-26" n="1"/>
+                </change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic n="357r" url="http://content.staatsbibliothek-berlin.de/dms/PPN74659691X/500/0/00000001.jpg"/>
+        <graphic n="357v" url="http://content.staatsbibliothek-berlin.de/dms/PPN74659691X/500/0/00000002.jpg"/>
+        <graphic n="Farbkeil" url="http://content.staatsbibliothek-berlin.de/dms/PPN74659691X/500/0/00000003.jpg"/>
+    </facsimile>
+    <text type="letter">
+        <body>
+
+            <div type="content">
+                <pb xml:id="S.357r" n="357r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000DA2200000001"/>
+
+
+                <opener>
+                    <dateline>
+                        <placeName key="O.0000004" ref="http://sws.geonames.org/2756746">Loverendale, <hi rend="underline">Domburg</hi>
+                        </placeName>
+                         <date when="1919-06-18">18.6.19</date>.</dateline>
+                     <salute>Lieber <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth</persName>.</salute>
+                </opener>
+
+                <p>Soeben die Einladung für die Generalversammlung erhalten. Ich bevollmächtige dich
+                    in meinem Namen den Vorstand zu wählen.<note>Im nachfolgenden <ref target="Q.01.19190628.JVH.01">Brief</ref> an Walden vom 28. Juni 1919
+                        bestätigt van Heemskerck, das Protokoll der Generalversammlung empfangen zu haben, und
+                        nennt als Veranstalter die von Walden im selben Jahr gegründete
+                        „Internationale Vereinigung der Expressionisten, Kubisten und
+                        Futuristen“.</note> Wie geht es euch beiden wie traurig ist alles, ich
+                    arbeite aber man hat doch nicht so viel Lust in die Arbeit. Hast du noch zu
+                    essen? Wir können nichts schicken. Ich schrieb dir eine <ref target="Q.01.19190509.JVH.01">Ansicht</ref> aus <placeName key="O.0000072" ref="http://sws.geonames.org/2745088">Wageningen</placeName> drei Wochen
+                    her. Bitte schreibe wie alles geht und wie die Generalversammlung war. Sehr
+                    schwere Zeiten für der Sturm, wir müssen sehr viele Mitglieder haben aber sehr
+                    bedeutende, ich glaube das wir viel zu wenig sind. Und <term type="journal" key="W.0000068" source="https://doi.org/10.11588/diglit.37115.5" ref="http://d-nb.info/gnd/4058273-5">Der Sturm</term> soll viel mehr
+                    bedeutende Artikel über Kunst haben und Fotos von Gemälden wenn es so weiter
+                    geht werden wir totgedruckt. Wirklich denke darüber wir sagen uns alles offen
+                    als Freunde und neues Blut soll hereinfliessen nicht zo viel Literatur
+                    bedeutende Maler brauchen wir, so kann es nicht weitergehen.</p>
+
+
+
+                <closer>
+                    <salute>Herzlichste Grüssen</salute>
+                    <signed>deine <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">
+                                JacobavanHeem<hi rend="twice-underline">skerck</hi>
+                        </persName>
+                    </signed>
+                </closer>
+
+
+            </div>
+        </body>
+    </text>
+</TEI>

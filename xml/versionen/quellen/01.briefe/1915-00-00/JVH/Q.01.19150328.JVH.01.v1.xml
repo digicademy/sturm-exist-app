@@ -1,0 +1,134 @@
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Q.01.19150328.JVH.01">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Jacoba van Heemskerck an Herwarth Walden, 28. März 1915, 35, Nassau Zuilensteinstraat, Den Haag</title>
+                <editor>
+                    <persName ref="https://orcid.org/0000-0003-2423-7144">
+                        <forename>Marjam</forename>
+                        <surname>Trautmann</surname>
+                    </persName>
+                </editor>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0002-0953-2818">
+                        <forename>Torsten</forename>
+                        <surname>Schrade</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeber</note>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0003-2423-7144">
+                        <forename>Marjam</forename>
+                        <surname>Trautmann</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeberin</note>
+                    </resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="http://www.adwmainz.de">Akademie der Wissenschaften und der Literatur | Mainz</ref>
+                </publisher>
+                <pubPlace ref="http://sws.geonames.org/2874225">Mainz</pubPlace>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        This file is licensed under the terms of the Creative-Commons-License CC BY 4.0
+                    </licence>
+                </availability>
+                <idno type="file">Q.01.19150328.JVH.01.v1.xml</idno>
+                <idno type="uri">https://sturm-edition.de/id/Q.01.19150328.JVH.01</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Q.01.19150328.JVH.01, Jacoba van Heemskerck an Herwarth Walden, 28. März 1915, 35, Nassau Zuilensteinstraat, Den Haag, 
+                    bearbeitet von Marjam Trautmann, in: Der STURM. Digitale Quellenedition zur Geschichte der internationalen 
+                    Avantgarde, erarbeitet und herausgegeben von Marjam Trautmann und Torsten Schrade. 
+                    Mainz, Akademie der Wissenschaften und der Literatur.
+                    </bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <country>DE</country>
+                        <settlement>Berlin</settlement>
+                        <repository>Staatsbibliothek zu Berlin Preußischer Kulturbesitz, Handschriftenabteilung, Sturm-Archiv I, Heemskerck, Jacoba van</repository>
+                        <idno type="uri">http://kalliope-verbund.info/DE-611-HS-1910857</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <xenoData type="uri">http://digital.staatsbibliothek-berlin.de/metsresolver/PPN746594666</xenoData>
+        <profileDesc>
+            <correspDesc key="Bl.80-81" ref="https://sturm-edition.de/id/Q.01.19150328.JVH.01">
+                <correspAction type="sent">
+                    <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jacoba van Heemskerck</persName>
+                        <placeName key="O.0000001" ref="http://sws.geonames.org/2747373">35, Nassau Zuilensteinstraat, Den Haag</placeName>                  
+                    <date when="1915-03-28"/>              
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth Walden</persName>
+                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change>
+                    <date when="2018-07-16" n="1"/>
+                </change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic n="80r" url="http://content.staatsbibliothek-berlin.de/dms/PPN746594666/800/0/00000001.jpg"/>
+        <graphic n="80v" url="http://content.staatsbibliothek-berlin.de/dms/PPN746594666/800/0/00000002.jpg"/>
+        <graphic n="81r" url="http://content.staatsbibliothek-berlin.de/dms/PPN746594666/800/0/00000003.jpg"/>
+        <graphic n="81v" url="http://content.staatsbibliothek-berlin.de/dms/PPN746594666/800/0/00000004.jpg"/>
+        <graphic n="Farbkeil" url="http://content.staatsbibliothek-berlin.de/dms/PPN746594666/800/0/00000005.jpg"/>
+    </facsimile>
+    <text type="letter">
+        <body>
+            <div type="content">
+            <pb xml:id="S.80r" n="80r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D97000000001"/>
+            
+                <opener>
+                    <dateline>
+                        <date when="1915-03-28">28. Marz 1915</date>.
+                    </dateline> <salute>Sehr wehrter Herr <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Walden</persName>
+                    </salute>
+                </opener>
+                <p>Dank für Ihren Brief vom <date when="1915-03-26">26. März</date>. Ich bin sehr froh dasz Sie mit meine Ansichten
+            über die Titelangelegenheit ganz einverstanden sind. Es ist mir sehr angenehm dasz die die
+            Ausstellung noch bis zum <date when="1915-04-15">15. April</date> geöffnet bleibt.<note>Im März 1915 eröffnete in der STURM-Galerie die 31. STURM-Ausstellung mit Werken Jacoba van Heemskercks. Vgl. Enders, Rainer: Ausstellungskataloge der STURM-Galerie. URL: <ref target="https://www.arthistoricum.net/themen/portale/sturm/ausstellungskataloge/">https://www.arthistoricum.net/themen/portale/sturm/ausstellungskataloge/</ref> (Aufruf 06.04.2017).</note>
+                </p>
+                <p>
+            Fräulein <persName key="P.0000008" ref="http://d-nb.info/gnd/136128289">Tak</persName> hat Ihnen
+               geschrieben dasz Sie in <date when="1915-04">April</date> einige Tage nicht zu hause ist, ich bin sehr gespannt<pb xml:id="S.80v" n="80v" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D97000000002"/> ob
+            Sie und Ihre <persName key="P.0000002" ref="http://d-nb.info/gnd/118891456">Frau</persName> noch hier
+            kommen werden, es ist so sehr angenehm über alles zu sprechen, ob es jetzt in <placeName key="O.0000003" ref="http://sws.geonames.org/2750405">Holland</placeName> aber Zeit ist für
+            Sturmausstellungen dasz ist schwer zu sagen, Sie wissen dasz aber immer so genau dasz
+            wenn Sie es Zeit finden dann ist es so. Der Krieg dauert so lange und hier wird auch
+            sehr wenig verkauft. Kommen Sie nicht in <date when="1915-04">April</date>, dann doch
+            bitte jedenfalls im Sommer in <placeName key="O.0000004" ref="http://sws.geonames.org/2756746">Domburg</placeName> von <date when="1915-06">Juni</date> bis <date when="1915-10">October</date>
+                    <pb xml:id="S.81r" n="81r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D97000000003"/> ist das Haus für Ihnen offen. Sie können dann auch von <placeName key="O.0000004" ref="http://sws.geonames.org/2756746">Domburg</placeName> überall hingehen. Ich habe
+            wieder einige neue Gemälde die ich Ihnen hoffentlich bald zeigen kann.</p>
+                <closer>
+                    <salute>Mit vielen
+                    herzlichen Grüssen für Sie beiden</salute> <signed>Ihre <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jaco<hi rend="underline">ba vanHeemsker</hi>ck
+                        </persName>
+                    </signed>
+                </closer>
+                <postscript>
+                    <p>Bitte nicht vergessen
+            ein Bild zu wählen. <persName key="P.0000037" ref="http://www.wikidata.org/entity/Q14856573">Jhr van
+               Heurn</persName> war noch nicht da.</p>
+                    <p>Im <date when="1915-05">Mai</date> gehen wir in
+               <placeName key="O.0000003" ref="http://sws.geonames.org/2750405">Holland</placeName> herum um etwas
+                  aus zu ruhen und zu skizzen</p>
+                </postscript>
+            </div>
+        </body>
+    </text>
+</TEI>

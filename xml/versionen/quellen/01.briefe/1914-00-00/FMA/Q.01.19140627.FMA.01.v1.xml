@@ -1,0 +1,133 @@
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Q.01.19140627.FMA.01">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Franz Marc an Herwarth Walden, 27. Juni 1914, Benediktbeuren</title>
+                <editor>
+                    <persName ref="https://orcid.org/0000-0003-2423-7144">
+                        <forename>Marjam</forename>
+                        <surname>Trautmann</surname>
+                    </persName>
+                </editor>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0002-0953-2818">
+                        <forename>Torsten</forename>
+                        <surname>Schrade</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeber</note>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0003-2423-7144">
+                        <forename>Marjam</forename>
+                        <surname>Trautmann</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeberin</note>
+                    </resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="http://www.adwmainz.de">Akademie der Wissenschaften und der Literatur | Mainz</ref>
+                </publisher>
+                <pubPlace ref="http://sws.geonames.org/2874225">Mainz</pubPlace>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        This file is licensed under the terms of the Creative-Commons-License CC BY 4.0
+                    </licence>
+                </availability>
+                <idno type="file">Q.01.19140627.FMA.01.v1.xml</idno>
+                <idno type="uri">https://sturm-edition.de/id/Q.01.19140627.FMA.01</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Q.01.19140627.FMA.01, Franz Marc an Herwarth Walden, 27. Juni 1914, Benediktbeuren, 
+                    bearbeitet von Marjam Trautmann, in: Der STURM. Digitale Quellenedition zur Geschichte der internationalen 
+                    Avantgarde, erarbeitet und herausgegeben von Marjam Trautmann und Torsten Schrade. 
+                    Mainz, Akademie der Wissenschaften und der Literatur.
+                    </bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <country>DE</country>
+                        <settlement>Berlin</settlement>
+                        <repository>Staatsbibliothek zu Berlin Preußischer Kulturbesitz, Handschriftenabteilung, Sturm-Archiv I, Marc, Franz</repository>
+                        <idno type="uri">http://kalliope-verbund.info/DE-611-HS-1917491</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <xenoData type="uri">http://digital.staatsbibliothek-berlin.de/metsresolver/PPN746598661</xenoData>
+        <profileDesc>
+            <correspDesc key="Bl.191" ref="https://sturm-edition.de/id/Q.01.19140627.FMA.01">
+                <correspAction type="sent">
+                    <persName key="P.0000003" ref="http://d-nb.info/gnd/11857745X">Franz Marc</persName>
+                    <placeName key="O.0000056" ref="http://sws.geonames.org/2951104">Benediktbeuren</placeName>
+                    <date when="1914-06-27"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth Walden</persName>
+                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>                  
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change>
+                    <date when="2018-07-16" n="1"/>
+                </change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic n="191v" url="http://content.staatsbibliothek-berlin.de/dms/PPN746598661/800/0/00000001.jpg"/>
+        <graphic n="191r" url="http://content.staatsbibliothek-berlin.de/dms/PPN746598661/800/0/00000002.jpg"/>
+        <graphic n="Farbkeil" url="http://content.staatsbibliothek-berlin.de/dms/PPN746598661/800/0/00000003.jpg"/>
+    </facsimile>
+    <text type="postcard">
+        <body>
+            <div type="address">
+                <pb xml:id="S.191v.01" n="191v" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000DAB000000001"/>
+                <ab type="recipient">
+                    <address>
+                        <addrLine>Herrn</addrLine>
+                        <addrLine>Herw. Walden</addrLine>
+                        <addrLine>Verlag Sturm</addrLine>
+                        <addrLine>Berlin W. 9.</addrLine>
+                        <addrLine>Potsdamerstr. 134/a</addrLine>
+                    </address>
+                </ab>
+            </div>
+            <div type="content">
+                <pb xml:id="S.191r" n="191r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000DAB000000002"/>
+                <opener>
+                    <salute>L. <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">W</persName>, </salute>
+                </opener>
+                <p>
+                    <persName key="P.0000081" ref="http://d-nb.info/gnd/118907689">Hartley</persName>
+                    <note>Für veröffentlichte Briefe Hartleys an Marc siehe:
+                        McDonnell, Patricia; Hartley, Marsden: Marsden Hartley's Letters to Franz
+                        Marc and Wassily Kandinsky 1913–1914. In: Archives of American Art Journal
+                        29 (1989), H. 1/2, S. 35–44.</note> ist wieder in <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Berlin</placeName> (<address rend="inline">
+                        <addrLine>
+                            <placeName key="O.0000058" ref="http://sws.geonames.org/2808473">Wilmersdorf</placeName>, Nassauischestr. 4</addrLine>
+                    </address>) und bittet mich, ihm Ausstellungsgelegenheit für seine (3–2. neuen)
+                    Bildern zu verschaffen; er möchte nur in unsrem Kreis ausstellen, (hoffte auf
+                    einen 2. Herbstsalon etc.) u. will nächstes zu Ihnen kommen, bat mich aber, daß
+                    ich Ihnen vorher von seiner bitte schreibe. Es wäre schön, wenn Sie seine
+                    Kollektion noch unterbrächten. – wenn jetzt im Sturm unmöglich, dann in anderen
+                    Städten. Er gehört geistig<pb xml:id="S.191v.02" n="191v" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000DAB000000001"/> doch
+                    zweifellos ganz zu uns, daß seine Persönlichkeit in unserem Kreise immer ein
+                    Gewinn ist.</p>
+                <closer>
+                    <salute>Hrzl.</salute>
+                    <signed>Ihr <persName key="P.0000003" ref="http://d-nb.info/gnd/11857745X">F.
+                            M.</persName>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

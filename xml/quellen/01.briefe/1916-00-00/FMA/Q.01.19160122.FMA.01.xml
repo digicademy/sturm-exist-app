@@ -1,0 +1,130 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Q.01.19160122.FMA.01">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Franz Marc an Herwarth Walden, 22. Januar 1916, unbekannter Ort</title>
+            <editor>
+               <persName ref="http://d-nb.info/gnd/1013156242">
+                  <forename>Lea</forename>
+                  <surname>Müller-Dannhausen</surname>
+               </persName>
+            </editor>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-0953-2818">
+                  <forename>Torsten</forename>
+                  <surname>Schrade</surname>
+               </persName>
+               <resp>
+                  <note>Herausgeber</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0003-2423-7144">
+                  <forename>Marjam</forename>
+                  <surname>Trautmann</surname>
+               </persName>
+               <resp>
+                  <note>Herausgeberin</note>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.adwmainz.de">Akademie der Wissenschaften und der Literatur | Mainz</ref>
+            </publisher>
+            <pubPlace ref="http://sws.geonames.org/2874225">Mainz</pubPlace>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">This file is licensed under the terms of the Creative-Commons-License CC BY 4.0</licence>
+            </availability>
+            <idno type="file">Q.01.19160122.FMA.01.xml</idno>
+            <idno type="uri">https://sturm-edition.de/id/Q.01.19160122.FMA.01</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>Q.01.19160122.FMA.01, Franz Marc an Herwarth Walden, 22. Januar 1916, unbekannter Ort, 
+               bearbeitet von Lea Müller-Dannhausen, in: Der STURM. Digitale
+               Quellenedition zur Geschichte der internationalen Avantgarde, erarbeitet und
+               herausgegeben von Marjam Trautmann und Torsten Schrade. Mainz, Akademie der
+               Wissenschaften und der Literatur.</bibl>
+            <msDesc>
+               <msIdentifier>
+                  <country>DE</country>
+                  <settlement>Berlin</settlement>
+                  <repository>Staatsbibliothek zu Berlin Preußischer Kulturbesitz,
+                     Handschriftenabteilung, Sturm-Archiv I, Marc, Franz</repository>
+                  <idno type="uri">http://resolver.staatsbibliothek-berlin.de/SBB0000DACD00000000</idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <xenoData type="uri">http://kalliope-verbund.info/DE-611-HS-1925484</xenoData>
+      <xenoData type="url">https://content.staatsbibliothek-berlin.de/dc/PPN746599021.mets.xml</xenoData>
+      <profileDesc>
+         <correspDesc key="Bl.221" ref="https://sturm-edition.de/id/Q.01.19160122.FMA.01">
+            <correspAction type="sent">
+               <persName key="P.0000003" ref="http://d-nb.info/gnd/11857745X">Franz Marc</persName>
+               <placeName>Unknown</placeName>
+               <date when="1916-01-22"/>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth Walden</persName>
+               <placeName key="O.0000002" ref="http://sws.geonames.org/2950159">Potsdamerstrasse 134a, Berlin W.9.</placeName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change>
+               <date when="2019-10-30" n="1"/>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic n="221r" url="http://content.staatsbibliothek-berlin.de/dms/PPN746599021/1200/0/00000001.jpg"/>
+      <graphic n="221v" url="http://content.staatsbibliothek-berlin.de/dms/PPN746599021/1200/0/00000002.jpg"/>
+      <graphic n="Farbkeil" url="http://content.staatsbibliothek-berlin.de/dms/PPN746599021/1200/0/00000003.jpg"/>
+   </facsimile>
+   <text type="militaryMail">
+      <body>         
+         <div type="address">
+            <pb xml:id="S.221r" n="221r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000DACD00000001"/>
+            <ab type="sender">
+               <address>
+                  <addrLine>Lt. Marc</addrLine>
+                  <addrLine>bayr. Ers. Division</addrLine>
+                  <addrLine>bayr. Ers. Feld a Rgt.</addrLine>
+                  <addrLine>1. Abt.</addrLine>
+               </address>
+            </ab>
+            <ab type="recipient">
+               <address>
+                  <addrLine>Herrn</addrLine>
+                  <addrLine>Herw. Walden</addrLine>
+                  <addrLine>Verlag „Sturm“</addrLine>
+                  <addrLine>Berlin W. 9</addrLine>
+                  <addrLine>
+                            <hi rend="underline">134</hi>a Potsdamerstr. 134a</addrLine>
+               </address>
+            </ab>
+         </div>
+         <div type="content">
+            <pb xml:id="S.221v" n="221v" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000DACD00000001"/>
+            <opener>
+               <salute>L. <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">W</persName>,</salute>
+            </opener>
+            <p>wie ich eben von <persName key="P.0000082" ref="http://d-nb.info/gnd/119352435">Maria</persName> höre, sind nicht Aquarelle, sondern Bilder gemeint. Unterstützen Sie also
+               bitte meine <persName key="P.0000082" ref="http://d-nb.info/gnd/119352435">Frau</persName> in der Sache, wie es nur geht.</p>
+            <closer>
+               <salute>Mit Dank voraus</salute> <signed>Ihr <persName key="P.0000003" ref="http://d-nb.info/gnd/11857745X">F.Marc</persName>
+               </signed>
+            </closer>
+            <postscript>
+               <p>
+                  <date when="1916-01-22">22.I 16.</date>
+                  <lb/>Ist jetzt nicht eine Ausstellung in der <placeName key="O.0000031" ref="http://sws.geonames.org/2658434">Schweiz</placeName> möglich? Wie ich von <persName key="P.0000177" ref="http://d-nb.info/gnd/119071312">Lisbeth Macke</persName> u. <persName key="P.0000077" ref="http://d-nb.info/gnd/118583247">Moillet</persName> höre, ist dort viel Stimmung u. Verlangen nach so etwas.</p>
+            </postscript>
+         </div>
+      </body>
+   </text>
+</TEI>

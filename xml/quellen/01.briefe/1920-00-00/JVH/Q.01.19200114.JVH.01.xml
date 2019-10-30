@@ -1,0 +1,192 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Q.01.19200114.JVH.01">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Jacoba van Heemskerck an Herwarth Walden, 14. Januar 1920, Den Haag</title>
+                <editor>
+                    <persName ref="https://orcid.org/0000-0003-1208-6131">
+                        <forename>Anne</forename>
+                        <surname>Lorenz</surname>
+                    </persName>
+                </editor>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0002-0953-2818">
+                        <forename>Torsten</forename>
+                        <surname>Schrade</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeber</note>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0003-2423-7144">
+                        <forename>Marjam</forename>
+                        <surname>Trautmann</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeberin</note>
+                    </resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="http://www.adwmainz.de">Akademie der Wissenschaften und der
+                        Literatur | Mainz</ref>
+                </publisher>
+                <pubPlace ref="http://sws.geonames.org/2874225">Mainz</pubPlace>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">This file is
+                        licensed under the terms of the Creative-Commons-License CC BY 4.0
+                    </licence>
+                </availability>
+                <idno type="file">Q.01.19200114.JVH.01.xml</idno>
+                <idno type="uri">https://sturm-edition.de/id/Q.01.19200114.JVH.01</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Q.01.19200114.JVH.01, Jacoba van Heemskerck an Herwarth Walden, 14. Januar
+                    1920, Den Haag, bearbeitet von Anne Lorenz, in: Der STURM. Digitale
+                    Quellenedition zur Geschichte der internationalen Avantgarde, erarbeitet und
+                    herausgegeben von Marjam Trautmann und Torsten Schrade. Mainz, Akademie der
+                    Wissenschaften und der Literatur.</bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <country>DE</country>
+                        <settlement>Berlin</settlement>
+                        <repository>Staatsbibliothek zu Berlin Preußischer Kulturbesitz,
+                            Handschriftenabteilung, Sturm-Archiv I, Heemskerck, Jacoba
+                            van</repository>
+                        <idno type="uri">http://resolver.staatsbibliothek-berlin.de/SBB0000DA3400000000</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <xenoData type="uri">http://kalliope-verbund.info/DE-611-HS-1913640</xenoData>
+        <xenoData type="url">https://content.staatsbibliothek-berlin.de/dc/PPN746597134.mets.xml</xenoData>
+        <profileDesc>
+            <correspDesc key="Bl.377" ref="https://sturm-edition.de/id/Q.01.19200114.JVH.01">
+                <correspAction type="sent">
+                    <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jacoba van
+                        Heemskerck</persName>
+                    <placeName key="O.0000001" ref="http://sws.geonames.org/2747373">Den
+                        Haag</placeName>
+                    <date when="1920-01-14"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth
+                        Walden</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change>
+                    <date when="2019-08-26" n="1"/>
+                </change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic n="377r" url="http://content.staatsbibliothek-berlin.de/dms/PPN746597134/500/0/00000001.jpg"/>
+        <graphic n="377v" url="http://content.staatsbibliothek-berlin.de/dms/PPN746597134/500/0/00000002.jpg"/>
+        <graphic n="Farbkeil" url="http://content.staatsbibliothek-berlin.de/dms/PPN746597134/500/0/00000003.jpg"/>
+    </facsimile>
+    <text type="letter">
+        <body>
+
+            <div type="content">
+                <pb xml:id="S.377r" n="377r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000DA3400000001"/>
+
+                <opener>
+                    <dateline>
+                        <placeName key="O.0000001" ref="http://sws.geonames.org/2747373">Haag</placeName>. <date when="1920-01-14">14.1.20.</date>
+                    </dateline>
+                    <salute>Lieber <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth</persName>.</salute>
+                </opener>
+
+                <p>Die Paketen mit Bücher etc: sind hier gut eingetroffen. <date when="1920-01-10">10. Jan:</date> habe ich an dir abgeschickt 1. Kiste mit 20. Bilder mit
+                        <foreign>grande vitesse</foreign> bitte sage sofort wenn alles
+                    bei dir eingetroffen ist. Ich finde es eben sehr unangenehm das jetzt alles mit
+                    die Züge so wenig sicher ist. Hoffentlich kommt es gut an. Alles war schon
+                    abgeschickt anders hätte ich einige Tage gewartet. Jetzt kommt man mir wieder
+                    fragen ob ich bei dir eine Holzschnitt von <persName key="P.0000003" ref="http://d-nb.info/gnd/11857745X">Franz. Marc</persName> signiert
+                    exemplar à <hi rend="underline">1000.</hi> Mark bestellen will. So bitte schicke
+                    es mir und suche eine schönes exemplar aus. Ich weiss nicht welche du noch hast.
+                    Nehme bitte das Geld von mein Konto, und schicke wertversichert. In so kurze
+                    Zeit zwei Leute die mit Sturm Bestellungen kommen, hoffentlich geht es immer
+                    weiter. Könnte ich meine Ausstellungen jetzt in <date when="1920-03">März</date>
+                    oder <date when="1920-04">April</date> haben mit die grösse Bilder die du hast
+                    dabei, wird es eine grosse Ausstellung sein.<note>Bereits im Februar 1920 fand
+                        die dreiundachtzigste STURM-Ausstellung statt, die in der Dezember-Ausgabe
+                        des „Sturm“ zunächst als Gesamtschau angekündigt worden, später aber Jacoba
+                        van Heemskerck gewidmet war. Vgl. Walden, Herwarth [Hrsg.]: Der Sturm.
+                        Monatsschrift für Kultur und die Künste 9 (1919), S. 144, ferner ders.: Der
+                        Sturm. Monatsschrift für Kultur und die Künste 11 (1920), S. 160.</note> Ich
+                    habe dir einige Bilder geschickt die in <placeName key="O.0000002" ref="http://sws.geonames.org/2950159">Berlin</placeName> waren, aber vielen
+                    sind ganz neu gemacht und verschiedene ganz neue Bilder Ich bin neugierig dein
+                    Urteil zu hören. Das grosse Bild das gleich gross ist als das von <persName key="P.0000008" ref="http://d-nb.info/gnd/136128289">Marie</persName>
+                    gekauftes, ist auch dabei. Ich habe wieder allein Nummern gegeben, ich bleibe
+                    bei mein Idee keine Titel zu<pb xml:id="S.377v" n="377v" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000DA3400000002"/>
+                    geben, gebe ich <persName key="P.0000108" ref="http://d-nb.info/gnd/11620589X">Dr Blümner</persName> ein nähere umschreibung dann wird es doch nach
+                    einiger Zeit ein Titel. Titel sind <unclear>ein widerlich</unclear> romantisch
+                    und jetzt wird man in einiger Zeit <unclear>hunderde</unclear> Frühlings,
+                    Sommers, Bäume, an <persName key="P.0000121" ref="http://d-nb.info/gnd/11857275X">Liebknecht</persName>
+                    <persName key="P.0000120" ref="http://d-nb.info/gnd/118528610">Ebert</persName>
+                    und so weiter haben. Farbe und Linien haben für allen eine verschiedene eigene
+                    Sprache der nicht im Titel fest gelegt werden soll. Schön das <term type="artwork" key="W.0000119">Zeichnung 39</term> verkauft ist. Anbei meine
+                    eidesstattliche Versicherung und das Schreiben vom <persName key="P.0000175" ref="http://d-nb.info/gnd/128547111">Reichskommissär</persName>
+                    <note>Eine
+                        handschriftliche Kopie dieses Schreibens fügte van Heemskerck ihrem <ref target="Q.01.19191209.JVH.01">Brief</ref> an Walden vom 9. Dezember 1919
+                        bei.</note>, du kannst es an die Zollstellen zeigen und die
+                    Einfuhrbewilligung dann wider bekommen und mir zurückschicken. Bitte <hi rend="underline">du</hi> behälst dann dies Schreiben vom <persName key="P.0000175" ref="http://d-nb.info/gnd/128547111">Reichskommissär</persName> um es dann immer vorzeigen zu können.</p>
+
+                <closer>
+                    <salute>Viele Grüssen</salute>
+                    <signed>deine <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">
+                                JacobavanHeemske<hi rend="twice-underline">rck</hi>
+                        </persName>.</signed>
+                </closer>
+                <postscript>
+                    <p>Die Preise der Bilder für mich nicht zu billig, die grössten allen für mich
+                        zwischen 2000 und 2400. Mark und dann <unclear>so</unclear> 1800. 1500.
+                        1200. 1000. 800. 600. 400 Mark nicht weniger. Bitte schicke <term type="book" key="W.0000120" ref="http://d-nb.info/gnd/4737924-8">Neger
+                            Plastiken</term>
+                        <note>Einstein, Carl: Negerplastik. Leipzig 1915.</note> von <persName key="P.0000122" ref="http://d-nb.info/gnd/118529587">Einstein</persName> und Anmerkungen
+                        von <persName key="P.0000122" ref="http://d-nb.info/gnd/118529587">Einstein</persName>.</p>
+
+                    <p>Die geschickte Bilder sind. <term type="artwork" key="W.0000121">N<hi rend="super">
+                                <hi rend="twice-underline">o</hi>
+                            </hi> 65.</term>
+                        <term type="artwork" key="W.0000132">86.</term>
+                        <term type="artwork" key="W.0000125">73.</term>
+                        <term type="artwork" key="W.0000133">89.</term>
+                        <term type="artwork" key="W.0000127">78.</term>
+                        <term type="artwork" key="W.0000122">68.</term>
+                        <term type="artwork" key="W.0000162">67.</term>
+                        <term type="artwork" key="W.0000131">85.</term>
+                        <term type="artwork" key="W.0000123">69.</term>
+                        <term type="artwork" key="W.0000126">74.</term>
+                        <term type="artwork" key="W.0000124">71.</term>
+                        <term type="artwork" key="W.0000135">94.</term>
+                        <term type="artwork" key="W.0000129">82.</term>
+                        <term type="artwork" key="W.0000130">83.</term>
+                        <term type="artwork" key="W.0000134">90.</term>
+                        <term type="artwork" key="W.0000128">81.</term>
+                        <term type="artwork" key="W.0000137">98.</term>
+                        <term type="artwork" key="W.0000136">97.</term>
+                        <term type="artwork" key="W.0000138">99.</term>
+                        <term type="artwork" key="W.0000139">101.</term> Das kleinste Bild also 400 Mark, und
+                        Grösse 100x80. 1200 Mark. die grössere dann teuerer die kleinere billiger.
+                        Wenn ich nun wieder neue Bilder schicke bleibe diese Preise so und gehen
+                            n<hi rend="underline">ich</hi>t z<hi rend="underline">urü</hi>ck.</p>
+                    <p>Ich habe die Versicherung so kopirt aber es sieht komisch aus ich sage zwei
+                        mal genau dasselbe. Du teilst dann alle 2. Monaten am <persName key="P.0000175" ref="http://d-nb.info/gnd/128547111">Kommissär</persName> die verkauften Bilder mit.</p>
+                    <closer>
+                        <salute>Viele Grüssen</salute>
+                        <signed>deine <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">JacobavanHeemskerck</persName>.</signed>
+                    </closer>
+                </postscript>
+            </div>
+        </body>
+    </text>
+</TEI>

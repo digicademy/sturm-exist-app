@@ -1,0 +1,173 @@
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Q.01.19140601.JVH.01">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Jacoba van Heemskerck an Herwarth Walden, 1. Juni 1914, Loverendale,
+                    Domburg</title>
+                <editor>
+                    <persName ref="https://orcid.org/0000-0003-2423-7144">
+                        <forename>Marjam</forename>
+                        <surname>Trautmann</surname>
+                    </persName>
+                </editor>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0002-0953-2818">
+                        <forename>Torsten</forename>
+                        <surname>Schrade</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeber</note>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0003-2423-7144">
+                        <forename>Marjam</forename>
+                        <surname>Trautmann</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeberin</note>
+                    </resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="http://www.adwmainz.de">Akademie der Wissenschaften und der
+                        Literatur | Mainz</ref>
+                </publisher>
+                <pubPlace ref="http://sws.geonames.org/2874225">Mainz</pubPlace>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/"> This file is
+                        licensed under the terms of the Creative-Commons-License CC BY 4.0
+                    </licence>
+                </availability>
+                <idno type="file">Q.01.19140601.JVH.01.v1.xml</idno>
+                <idno type="uri">https://sturm-edition.de/id/Q.01.19140601.JVH.01</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Q.01.19140601.JVH.01, Jacoba van Heemskerck an Herwarth Walden, 1. Juni 1914,
+                    Loverendale, Domburg, bearbeitet von Marjam Trautmann, in: Der STURM. Digitale
+                    Quellenedition zur Geschichte der internationalen Avantgarde, erarbeitet und
+                    herausgegeben von Marjam Trautmann und Torsten Schrade. Mainz, Akademie der
+                    Wissenschaften und der Literatur. </bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <country>DE</country>
+                        <settlement>Berlin</settlement>
+                        <repository>Staatsbibliothek zu Berlin Preußischer Kulturbesitz,
+                            Handschriftenabteilung, Sturm-Archiv I, Heemskerck, Jacoba
+                            van</repository>
+                        <idno type="uri">http://kalliope-verbund.info/DE-611-HS-1910530</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <xenoData type="uri">http://digital.staatsbibliothek-berlin.de/metsresolver/PPN746594046</xenoData>
+        <profileDesc>
+            <correspDesc key="Bl.5-6" ref="https://sturm-edition.de/id/Q.01.19140601.JVH.01">
+                <correspAction type="sent">
+                    <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jacoba van
+                        Heemskerck</persName>
+                    <placeName key="O.0000004" ref="http://sws.geonames.org/2756746">Loverendale,
+                        Domburg</placeName>
+                    <date when="1914-06-01"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth
+                        Walden</persName>
+                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change>
+                    <date when="2018-07-16" n="1"/>
+                </change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic n="5r" url="http://content.staatsbibliothek-berlin.de/dms/PPN746594046/800/0/00000001.jpg"/>
+        <graphic n="5v" url="http://content.staatsbibliothek-berlin.de/dms/PPN746594046/800/0/00000002.jpg"/>
+        <graphic n="6v" url="http://content.staatsbibliothek-berlin.de/dms/PPN746594046/800/0/00000003.jpg"/>
+        <graphic n="6r" url="http://content.staatsbibliothek-berlin.de/dms/PPN746594046/800/0/00000004.jpg"/>
+        <graphic n="Farbkeil" url="http://content.staatsbibliothek-berlin.de/dms/PPN746594046/800/0/00000005.jpg"/>
+    </facsimile>
+    <text type="letter">
+        <body>
+            <div type="content">
+                <pb xml:id="S.5r" n="5r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D94600000001"/>
+
+                <opener>
+                    <dateline>Loverendale <hi rend="underline">
+                            <placeName key="O.0000004" ref="http://sws.geonames.org/2756746">
+                                Domburg</placeName>.</hi>
+                        <placeName key="O.0000003" ref="http://sws.geonames.org/2750405">Holland</placeName>. <placeName key="O.0000005" ref="http://sws.geonames.org/2744011">Seeland</placeName>. <date when="1914-06-01">
+                            <hi rend="underline">1-6-14.</hi>
+                        </date>
+                    </dateline>
+                    <salute>Sehr geehrter Herr <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Walden</persName>. </salute>
+                </opener>
+
+                <p>Es war eine recht schöne Zeit in <placeName key="O.0000006" ref="http://sws.geonames.org/3030293">Bretagne</placeName> und bin ich ganz
+                    ausgeruht um wieder an zu fangen recht viel zu arbeiten Ich sah im <term type="journal" key="W.0000068" source="https://doi.org/10.11588/diglit.33880#0036" ref="http://d-nb.info/gnd/4058273-5">Der Sturm</term>
+                    <note>Walden, Herwarth
+                        [Hrsg.]: Der Sturm. Halbmonatsschrift für Kultur und die Künste 4 (1914), S.
+                        32.</note> meine Ausstellung in <placeName key="O.0000007" ref="http://sws.geonames.org/2911297">Hamburg</placeName> und dasz am <date when="1914-08-15">15. August</date> die grosse Ausstellung in <placeName key="O.0000008" ref="http://sws.geonames.org/2660646">Genive</placeName>
+                    eröffnet wird<note>Von April bis Oktober 1914 fand in Hamburg eine
+                        STURM-Ausstellung mit Werken Jacoba van Heemskercks statt. Die geplante
+                        Ausstellung in Genf kam wegen des Kriegsausbruches nicht zustande. Vgl.
+                        Enders, Rainer: Ausstellungen außerhalb der STURM-Galerie. URL: <ref target="https://www.arthistoricum.net/themen/portale/sturm/ausstellungen/">https://www.arthistoricum.net/themen/portale/sturm/ausstellungen/</ref>
+                        (Aufruf 06.04.2017).</note>, vom Herbst Salon leider noch nichts, für alle
+                    Mühe letztes Jahr finde ich es auch so sehr schade für Ihnen wenn kein Geld da
+                    ist um es dieses Jahr zu machen. Wir müssen nur Geduld haben, wir<pb xml:id="S.5v" n="5v" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D94600000002"/>
+                    erreichen einmal doch unser Ziel Jetzt aber einige geschäftliche Fragen. 4.
+                    Gemälde habe ich in mein atelier fertig die ich viel besser finde dann die Sie
+                    jetzt ausstellen (so geht es wissen Sie ich bin immer unzufrieden und will immer
+                    viel weiter gehen). wollen Sie vielleicht die 4. Gemälde für <placeName key="O.0000008" ref="http://sws.geonames.org/2660646">Geneve</placeName>
+                    haben dann schicke ich die <date when="1914-07">anfang Juli</date>, oder haben
+                    Sie hier in <placeName key="O.0000003" ref="http://sws.geonames.org/2750405">Holland</placeName> oder irgendwo, andere Ausstellungen dann kann ich die
+                    Bilder auch behalten und Ihnen im Herbst alle neue Bilder schicken und können
+                    Sie diejenigen die Ihnen dann nicht gefallen zurück schicken. Sie sagen nur was
+                    Sie wollen. Ich finde viel besser nur auszustellen<pb xml:id="S.6r" n="6r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D94600000003"/> wenn
+                    Sie die Ausstellungen arrangieren Sie wissen welche Artisten gut zusammen gehen
+                    und die Indipendants finde ich doch keine ausstellungen mehr für uns. ich
+                    verstehe nicht dasz <persName key="P.0000009" ref="http://d-nb.info/gnd/118559737">Kandinsky</persName> jetzt in
+                        <placeName key="O.0000009" ref="http://sws.geonames.org/2759794">Amsterdam</placeName> ausstellt. Wir müssen uns mehr apart halten dasz ist
+                    viel besser. Glauben Sie nicht dasz es auch besser ist dasz ich nicht in Moderne
+                        Kunstkring<note>Der „Moderne Kunstkring“ (dt. Kunstring) war ein im Jahr
+                        1910 von dem niederländischen Maler Conrad Kikkert (1882–1965) gegründeter
+                        niederländischer Kunstverein.</note> in Amsterdam ausstelle Ich war in
+                        <placeName key="O.0000010" ref="http://sws.geonames.org/2988507">Paris</placeName> bei <persName key="P.0000010" ref="http://d-nb.info/gnd/128866748">LeFauconnier</persName> nein aber
+                    wirklich dasz ist jetzt gar nicht mehr mein Geschmack, und er kommt wieder mit
+                    sehr viele Bilder und seine Freunden. In <placeName key="O.0000004" ref="http://sws.geonames.org/2756746">Domburg</placeName> bin ich im
+                    Ausstellungscomité und werde ein oder zwei Bilder hinschicken keine neue es ist
+                    da gar kein moderne Ausstellung oder ein genre dasz ich nicht liebe. Nein ein
+                    mal hoffe ich doch anzufangen mit verkaufen und dann müssen Sie für all Ihre
+                    mühe auch alle procenten haben, ich will nicht<pb xml:id="S.6v" n="6v" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D94600000004"/>
+                    ausstellen auf andere Ausstellungen. Ich weis dasz viele Artisten es so machen
+                    wenn man anfangt zu verkaufen thut man alles allein und vorher haben Sie die
+                    Mühe und nichts weiter, dasz finde ich immer schreckliche undankbare
+                    Methoden.</p>
+                <p>Wenn Sie Zeit habe bitte ich um einige Zeilen ob ich die Bilder schicken soll und
+                    ob Sie auch besser finde nicht im Moderne Kunstkring aus zu stelle. Sie denken
+                    doch sicher auch so als ich viel besser apart und nicht zu viel mit andere
+                    Richtungen. </p>
+
+                <closer>
+                    <salute>Mit herzlichsten Grüssen</salute> für Sie und Frau <persName key="P.0000002" ref="http://d-nb.info/gnd/118891456">Walden</persName>
+                    <signed>Ihre <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">J<hi rend="underline">acoba vanHeemskerck</hi>
+                        </persName>
+                    </signed>
+                </closer>
+                <postscript>
+                    <p>Bitte Ihre Brief nach <placeName key="O.0000004" ref="http://sws.geonames.org/2756746">Domburg</placeName> ich habe oben
+                        die Adresse geschrieben ich bleibe bis <date when="1914-10">October</date>
+                        dort.</p>
+                </postscript>
+
+            </div>
+        </body>
+    </text>
+</TEI>

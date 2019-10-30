@@ -1,0 +1,143 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Q.01.19191004.JVH.01">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Jacoba van Heemskerck an Herwarth Walden, 4. Oktober 1919, Domburg</title>
+                <editor>
+                    <persName ref="https://orcid.org/0000-0003-1208-6131">
+                        <forename>Anne</forename>
+                        <surname>Lorenz</surname>
+                    </persName>
+                </editor>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0002-0953-2818">
+                        <forename>Torsten</forename>
+                        <surname>Schrade</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeber</note>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0003-2423-7144">
+                        <forename>Marjam</forename>
+                        <surname>Trautmann</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeberin</note>
+                    </resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="http://www.adwmainz.de">Akademie der Wissenschaften und der
+                        Literatur | Mainz</ref>
+                </publisher>
+                <pubPlace ref="http://sws.geonames.org/2874225">Mainz</pubPlace>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">This file is
+                        licensed under the terms of the Creative-Commons-License CC BY 4.0
+                    </licence>
+                </availability>
+                <idno type="file">Q.01.19191004.JVH.01.xml</idno>
+                <idno type="uri">https://sturm-edition.de/id/Q.01.19191004.JVH.01</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Q.01.19191004.JVH.01, Jacoba van Heemskerck an Herwarth Walden, 4. Oktober
+                    1919, Domburg, bearbeitet von Anne Lorenz, in: Der STURM. Digitale
+                    Quellenedition zur Geschichte der internationalen Avantgarde, erarbeitet und
+                    herausgegeben von Marjam Trautmann und Torsten Schrade. Mainz, Akademie der
+                    Wissenschaften und der Literatur.</bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <country>DE</country>
+                        <settlement>Berlin</settlement>
+                        <repository>Staatsbibliothek zu Berlin Preußischer Kulturbesitz,
+                            Handschriftenabteilung, Sturm-Archiv I, Heemskerck, Jacoba
+                            van</repository>
+                        <idno type="uri">http://resolver.staatsbibliothek-berlin.de/SBB0000DA2D00000000</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <xenoData type="uri">http://kalliope-verbund.info/DE-611-HS-1913512</xenoData>
+        <xenoData type="url">https://content.staatsbibliothek-berlin.de/dc/PPN746597045.mets.xml</xenoData>
+
+        <profileDesc>
+            <correspDesc key="Bl.370" ref="https://sturm-edition.de/id/Q.01.19191004.JVH.01">
+                <correspAction type="sent">
+                    <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jacoba van
+                        Heemskerck</persName>
+                    <placeName key="O.0000004" ref="http://sws.geonames.org/2921044">Domburg</placeName>
+                    <date when="1919-10-04"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth
+                        Walden</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change>
+                    <date when="2019-08-26" n="1"/>
+                </change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic n="370r" url="http://content.staatsbibliothek-berlin.de/dms/PPN746597045/500/0/00000001.jpg"/>
+        <graphic n="370v" url="http://content.staatsbibliothek-berlin.de/dms/PPN746597045/500/0/00000002.jpg"/>
+        <graphic n="Farbkeil" url="http://content.staatsbibliothek-berlin.de/dms/PPN746597045/500/0/00000003.jpg"/>
+    </facsimile>
+    <text type="letter">
+        <body>
+
+
+            <div type="content">
+                <pb xml:id="S.370r" n="370r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000DA2D00000001"/>
+
+                <opener>
+                    <dateline>
+                        <placeName key="O.0000004" ref="http://sws.geonames.org/2921044">Do<hi rend="twice-underline">mburg</hi>
+                        </placeName>. <date when="1919-10-04">4.10.19.</date>
+                    </dateline>
+                    <salute>Lieber <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth</persName>
+                    </salute>
+                </opener>
+
+                <p>
+                    <date when="1919-10-04">Heute</date> dein Brief vom <date when="1919-10-01">1
+                        Okt:</date> erhalten Schön dass alles in Ordnung ist wir sehen einander
+                        <date when="1919-10-10">
+                        <hi rend="underline">10.</hi> Oktober</date> abends
+                    12.10. auf dem Bahnsteig Bahnhof Friedrichstrasse. <date when="1919-10-03">Gestern</date> dein Brief vom <date when="1919-09-29">29. Sept:</date>
+                    erhalten ich bin froh das die Entwürfe dir gefallen, sehr gut dass du nicht hat
+                    einrahmen lassen. <date when="1919-10-03">Gestern</date> Hand kolorierte <term type="artwork" key="W.0000114">Holzschnitte</term> geschickt.<note>In ihrem
+                            <ref target="Q.01.19190930.JVH.01">Brief</ref> an Walden vom 30.
+                        September 1919 kündigt van Heemskerck an, am nächsten Tag sechs Holzschnitte
+                        an ihn zu senden.</note> Unsere Korrespondenz wird nach der Sturm geschickt,
+                    die holen wir dann bei dir ab. Wir werden uns recht viel zu erzählen haben. Es
+                    ist glänzend dass ich in diese schwere Zeiten Der Sturm wieder so antreffen
+                    werde, und eben noch bedeutender dann in <date when="1917">1917</date>. Dass
+                    hast du doch alles gemacht. Ich denke dass wir in drei Wochen viel machen
+                    können</p>
+
+
+                <closer>
+                    <salute>Herzlichste Grüssen für euch beiden</salute>
+                    <signed>deine <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">
+                                JacobavanHeem<hi rend="twice-underline">skerck</hi>
+                        </persName>.</signed>
+                </closer>
+                <postscript>
+                    <p>Erlaubnis ist glänzend in Ordnung.<note>Für ihren Besuch in Berlin benötigte
+                            van Heemskerck ein Visum, das seit dem Ersten Weltkrieg für Reisen innerhalb Europas
+                            verpflichtend war. Vgl. van Heemskercks <ref target="Q.01.19190930.JVH.01">Brief</ref> vom 30. September 1919.</note>
+                    </p>
+                </postscript>
+            </div>
+        </body>
+    </text>
+</TEI>

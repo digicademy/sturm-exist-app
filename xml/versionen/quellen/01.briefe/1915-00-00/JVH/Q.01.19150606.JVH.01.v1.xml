@@ -1,0 +1,181 @@
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Q.01.19150606.JVH.01">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Jacoba van Heemskerck an Herwarth Walden, 6. Juni 1915, Loverendale, Domburg</title>
+                <editor>
+                    <persName ref="https://orcid.org/0000-0003-2423-7144">
+                        <forename>Marjam</forename>
+                        <surname>Trautmann</surname>
+                    </persName>
+                </editor>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0002-0953-2818">
+                        <forename>Torsten</forename>
+                        <surname>Schrade</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeber</note>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0003-2423-7144">
+                        <forename>Marjam</forename>
+                        <surname>Trautmann</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeberin</note>
+                    </resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="http://www.adwmainz.de">Akademie der Wissenschaften und der Literatur | Mainz</ref>
+                </publisher>
+                <pubPlace ref="http://sws.geonames.org/2874225">Mainz</pubPlace>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        This file is licensed under the terms of the Creative-Commons-License CC BY 4.0
+                    </licence>
+                </availability>
+                <idno type="file">Q.01.19150606.JVH.01.v1.xml</idno>
+                <idno type="uri">https://sturm-edition.de/id/Q.01.19150606.JVH.01</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Q.01.19150606.JVH.01, Jacoba van Heemskerck an Herwarth Walden, 6. Juni 1915, Loverendale, Domburg, 
+                    bearbeitet von Marjam Trautmann, in: Der STURM. Digitale Quellenedition zur Geschichte der internationalen 
+                    Avantgarde, erarbeitet und herausgegeben von Marjam Trautmann und Torsten Schrade. 
+                    Mainz, Akademie der Wissenschaften und der Literatur.
+                    </bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <country>DE</country>
+                        <settlement>Berlin</settlement>
+                        <repository>Staatsbibliothek zu Berlin Preußischer Kulturbesitz,
+                     Handschriftenabteilung, Sturm-Archiv I, Heemskerck, Jacoba van</repository>
+                        <idno type="uri">http://kalliope-verbund.info/DE-611-HS-1910928</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <xenoData type="uri">http://digital.staatsbibliothek-berlin.de/metsresolver/PPN746594798</xenoData>
+        <profileDesc>
+            <correspDesc key="Bl.97-98" ref="https://sturm-edition.de/id/Q.01.19150606.JVH.01">
+                <correspAction type="sent">
+                    <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jacoba van Heemskerck</persName>
+                    <placeName key="O.0000004" ref="http://sws.geonames.org/2756746">Loverendale, Domburg</placeName>                   
+                    <date when="1915-06-06"/>              
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth Walden</persName>
+                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change>
+                    <date when="2018-07-16" n="1"/>
+                </change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic n="97r" url="http://content.staatsbibliothek-berlin.de/dms/PPN746594798/800/0/00000001.jpg"/>
+        <graphic n="97v" url="http://content.staatsbibliothek-berlin.de/dms/PPN746594798/800/0/00000002.jpg"/>
+        <graphic n="98r" url="http://content.staatsbibliothek-berlin.de/dms/PPN746594798/800/0/00000003.jpg"/>
+        <graphic n="98v" url="http://content.staatsbibliothek-berlin.de/dms/PPN746594798/800/0/00000004.jpg"/>
+        <graphic n="Farbkeil" url="http://content.staatsbibliothek-berlin.de/dms/PPN746594798/800/0/00000005.jpg"/>
+    </facsimile>
+    <text type="letter">
+        <body>
+            <div type="content">
+            <pb xml:id="S.97r" n="97r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D97900000001"/>
+            
+                <opener>
+                    <dateline>
+                        <date when="1915-06-06">
+                            <hi rend="underline">6. Juni
+                  1915</hi>
+                        </date>
+                    </dateline>
+                    <salute>Sehr wehrter Herr <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Walden</persName>.
+                    </salute>
+                </opener>
+                <p>Jetzt bin ich ruhig hier und habe ich Zeit zum schreiben und viel lust zu
+                    arbeiten So sehr gern möchte ich Ihnen etwas fragen aber bitte ganz offen sagen
+                    wenn Sie es nicht wünschen. Darf ich in <date when="1915-12">Dezember</date> so
+                    20–30. Zeichnungen schwarz und weiss und farbig und dazu verschiedene neue<pb xml:id="S.97v" n="97v" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D97900000002"/>
+                    schwarze und farbige Holzschnitten ausstellen. Sie wählen dann dazu noch einige
+                    andere Maler auch mit Zeichnungen und Graphik Ich möchte dann so sehr gern
+                    nächstes Jahr in <date when="1916-04">April</date> nicht <date when="1916-03">März</date> da es dann zu nahe an <date when="1915-12">Dezember</date> ist,
+                    eine Gemälde Ausstellung haben, Sie können dann auf 25–30. Gemälde rechnen.
+                    Bitte nehmen Sie es nicht übel dass ich alles so offen schreiben, aber ich habe
+                    jetzt sehr viel im Kopf so Gemälde ganz fertig und Zeichnungen und die musz ich
+                    jetzt alle ausführen. Wollen Sie nun keine<pb xml:id="S.98r" n="98r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D97900000003"/>
+                    Zeichnung und Graphik Ausstellung dann warte ich mit die ausführung von
+                    verschiedene entwürfen. Sie wissen ich arbeite immer sehr viel und ich finde so
+                    sehr angenehm voraus zu wissen wann alles fertig sein muss da ich immer gute und
+                    ernste Sachen an Ihnen schicken will. Gestern in <term type="newspaper" key="W.0000058">De Toekomst</term> gelesen über der Sturm und auch über
+                    meine und die Schwedische Ausstellung von <persName key="P.0000036" ref="http://d-nb.info/gnd/122927486">Sophie v. Leer</persName>, dass ist
+                    doch Ihre Sekretärin, nicht wahr? Ich verstehe so gut dass Sie nichts sagen
+                    können über eine Reise nach hier. In moderne Kunst geht jetzt nichts um in
+                        <placeName key="O.0000003" ref="http://sws.geonames.org/2750405">Holland</placeName>. Da nichts sicher ist ob Sie kommen können darum<pb xml:id="S.98v" n="98v" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D97900000004"/>
+                    schreibe ich Ihnen auch alles über die Ausstellungen. Es ist doch ganz
+                    prachtvoll wie <placeName key="O.0000014" ref="http://sws.geonames.org/2921044">Deutschland</placeName> jetzt da steht gegen <placeName key="O.0000020" ref="http://sws.geonames.org/2017370">Rusland</placeName> geht es ganz
+                        wundervoll.<note>Im Mai 1915 wurde die russische Front in Galizien
+                        durchbrochen und bis auf den östlichsten Teil zurückerobert (Galizien war
+                        österreichisches Gebiet). Ebenfalls wurde ein Großteil Russisch-Polens samt
+                        der Hauptstadt Warschau durch deutsch-österreichische Truppen besetzt. Nach
+                        der erfolgreichen Besetzung Litauens kam nach den Schlachten von Swenziany
+                        und Dubno-Luck die Offensive der Mittelmächte im September 1915 zum Stehen.
+                        Vgl. Stone, Norman: Ostfront. In: Enzyklopädie Erster Weltkrieg. Hrsg. v.
+                        Gerhard Hirschfeld [u.a.]. Paderborn [u.a.] 2004, S. 762–764, hier S.
+                        762.</note> Wie Sie in diesen schwere Zeiten alles machen dass ist ganz
+                    unbegreiflich, was verdanken wir Ihnen und Ihre <persName key="P.0000002" ref="http://d-nb.info/gnd/118891456">Frau</persName> doch enorm viel. Sie
+                    müssen einmal Zeit finden zu schreiben wie die Schwedische Gemälde waren anders
+                    fragen Sie ob Ihre <persName key="P.0000002" ref="http://d-nb.info/gnd/118891456">Frau</persName> mir darüber einmal
+                    etwas schreibt. Es geht eine so grosse Energie von <placeName key="O.0000014" ref="http://sws.geonames.org/2921044">Deutschland</placeName> aus dass ich
+                    nie ein so grosse Fassungs Drang gehabt habe. Hier sind ein grossen Anzahl
+                    Belgier schreckliche Leute.<note>Zahlreiche Belgier flohen seit der deutschen
+                        Invasion im August 1914 vor allem nach Großbritannien, Frankreich und in die
+                        Niederlande. Der Vormarsch der deutschen Truppen in Belgien war mit brutalen
+                        Übergriffen auf die Zivilbevölkerung verbunden, mit Geiselnahmen (auch
+                        Geiselerschießungen) und Deportationen belgischer Bürger zur Zwangsarbeit
+                        nach Deutschland. Die kämpferischen Auseinandersetzungen um Antwerpen im
+                        Oktober 1914 verursachten die Flucht von knapp 1. Mio. Belgiern in die
+                        niederländische Provinz Holland (zu der auch Domburg/Zeeland gehört).
+                        Insgesamt erreichte die Zahl der belgischen Flüchtlinge im Sommer und Herbst
+                        1914 etwa 1,5 Mio. Viele von ihnen kehrten zu Beginn des neuen Jahres wieder
+                        zurück, da die Deutschen Besatzer in Gent ein Dekret erließen, das die
+                        Konfiszierung des Eigentums der Geflüchteten erlaubte, wenn diese nicht bis
+                        zum 1. März 1915 zurückkehrten. Auch die niederländische Regierung setzte
+                        die Flüchtlinge unter Druck, in ihr Heimatland zurückzukehren, so dass deren
+                        Zahl dort im Sommer 1915 auf 85,000 gesunken war. Sie fürchteten, dass die
+                        Aufnahme von Flüchtlingen ihre Neutralität gefährde. Das erste
+                        Internierungslager für belgische Flüchtlinge in den Niederlanden wurde im
+                        November 1914 gegründet, wo diese unter unzureichender Beheizung und
+                        medizinischer Versorgung in gefängnisähnlichen Zuständen leben mussten. Vgl.
+                        Daniel, Ute: Frauen. In: Enzyklopädie Erster Weltkrieg. Hrsg. v. Gerhard
+                        Hirschfeld [u.a.]. Paderborn [u.a.] 2004, S. 116–134, hier S. 117 u. S. 126;
+                        Blom, J.C.H.: Niederlande. In: Enzyklopädie Erster Weltkrieg. Hrsg. v.
+                        Gerhard Hirschfeld [u.a.]. Paderborn [u.a.] 2004, S. 738–741, hier S. 740;
+                        Amara, Michaël: Refugees (Belgium). In: 1914-1918-online. International
+                        Encyclopedia of the First World War. Hrsg. v. Ute Daniel [u.a.]. Berlin
+                        2014; Gartell, Peter; Nivet, Philippe: Refugees and Exiles. In: The
+                        Cambridge History of the First World War. Bd. 3, Civil Society. Hrsg. v. Jay
+                        Winter. Cambridge 2014, S.186–251, hier S. 189f. u. 194f.</note>
+                </p>
+                <p>Jetzt für heute genug</p> 
+                <closer>
+                    <salute>Herzlichste Grüssen für Sie beiden</salute> <signed>Ihre <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jacob<hi rend="twice-underline">a
+                        vanHeemskerck</hi>
+                        </persName>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -58,12 +58,13 @@
                         <repository>Staatsbibliothek zu Berlin Preußischer Kulturbesitz,
                             Handschriftenabteilung, Sturm-Archiv I, Heemskerck, Jacoba
                             van</repository>
-                        <idno type="uri">http://kalliope-verbund.info/DE-611-HS-1910761</idno>
+                        <idno type="uri">http://resolver.staatsbibliothek-berlin.de/SBB0000D96400000000</idno>
                     </msIdentifier>
                 </msDesc>
             </sourceDesc>
         </fileDesc>
-        <xenoData type="uri">http://digital.staatsbibliothek-berlin.de/metsresolver/PPN746594488</xenoData>
+        <xenoData type="uri">http://kalliope-verbund.info/DE-611-HS-1910761</xenoData>
+        <xenoData type="url">http://content.staatsbibliothek-berlin.de/dc/PPN746594488.mets.xml</xenoData>
         <profileDesc>
             <correspDesc key="Bl.56-57" ref="https://sturm-edition.de/id/Q.01.19150209.JVH.01">
                 <correspAction type="sent">
@@ -77,13 +78,19 @@
                 <correspAction type="received">
                     <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth
                         Walden</persName>
-                    <placeName>Potsdamerstrasse 134a <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Berlin</placeName>
-                        W.9.</placeName>
+                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950159">Potsdamerstrasse 134a Berlin W.9.</placeName>                       
                 </correspAction>
             </correspDesc>
         </profileDesc>
         <revisionDesc>
             <listChange>
+                <change>
+                    <date when="2019-07-25" n="2"/>
+                    <p>URL zur METS-Datei der Staatsbibliothek zu Berlin aktualisiert innerhalb von :xenoData und zusätzliches :xenoData mit permanenter URI zum Kalliope-Findbucheintrag.</p>
+                    <p>:idno URL innerhalb von :msIdentifier durch permanente URL zum entsprechenden Datensatz der Staatsbibliothek zu Berlin gesetzt</p>
+                    <p>Standardisierung der Kommentierungstiefe, keine spezifischen Erklärungen von Fremdwörtern außerhalb des Sturm-Kontextes</p>
+                    <p>Normdaten (Geonames) zu Stadt Berlin korrigiert (zuvor fälschlicherweise Verweis auf "Land Berlin")</p>
+                </change>
                 <change>
                     <date when="2018-07-16" n="1"/>
                 </change>
@@ -117,16 +124,12 @@
                         ihm mit Zetteln nummerierte Bilder schicken wolle: „die Bilder werde ich
                         dann auch mit die Zettel vom Sturm nummerieren [...].“ In den folgenden
                         Briefen ist dann von „Sturmzetteln“ die Rede. Es wird hier angenommen, dass
-                        „Sturmzettel“ Vorlagen des Sturm-Unternehmens zur Bennennung und
+                        „Sturmzettel“ Vorlagen des STURM-Unternehmens zur Bennennung und
                         Nummerierung von Kunstwerken waren.</note>. <date when="1915-02-10">Morgen</date> schickt mein <persName key="P.0000026" ref="P.0000026">emballeur</persName>
                     <note>„Emballeur“ (frz.) bezeichnet zu Deutsch einen
                         Verpacker. Jacoba van Heemskerck ließ ihre Kunstwerke von ihrem Emballeur
                         Herr Ridderhof an Walden nach Berlin zum Versand vorbereiten und
-                        abschicken.</note> Ihnen mit <foreign>grande Vitesse</foreign>
-                    <note>„Grande
-                        vitesse“ (frz.) heißt im Deutschen „Hochgeschwindigkeit“. Es ist davon
-                        auszugehen, dass Jacoba van Heemskerck hiermit den postalischen Versand per
-                        Eilpost meinte.</note> 17. Gemälde 1–17. und 20. Zeichnungen 7. eingerahmt
+                        abschicken.</note> Ihnen mit <foreign>grande Vitesse</foreign> 17. Gemälde 1–17. und 20. Zeichnungen 7. eingerahmt
                     und 13. ohne rahmen Ich habe auf Karton gezeichnet aber brauchen Sie noch etwas
                     um die Zeichnungen zu halten bitte sagen Sie dann genau wie viel Kosten Sie
                         machen.<pb xml:id="S.56v" n="56v" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D96400000002"/>
@@ -141,7 +144,7 @@
                     Holzstock empfangen? Es ist theurer mit <foreign>grande</foreign>
                     <pb xml:id="S.57r" n="57r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D96400000003"/>
                     <foreign>Vitesse</foreign> zu schicken aber ich finde es wohl besser, ich
-                    schicke <unclear>um</unclear> nach <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Berlin</placeName> und dann ist es
+                    schicke <unclear>um</unclear> nach <placeName key="O.0000002" ref="http://sws.geonames.org/2950159">Berlin</placeName> und dann ist es
                     viel angenehmer dasz Sie alles gut ampfangen. Ich war in <placeName key="O.0000011" ref="http://sws.geonames.org/2747891">Rotterdam</placeName>
                     aber das war eine schreckliche Ausstellung <persName key="P.0000010" ref="http://d-nb.info/gnd/128866748">Le Fauconnier</persName> ist nichts
                     mehr er hat jetzt eine schmutzige Farbe und ist ein richtiger Academiker.

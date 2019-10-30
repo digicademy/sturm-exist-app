@@ -1,0 +1,167 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Q.01.19190923.JVH.01">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Jacoba van Heemskerck an Herwarth Walden, 23. September 1919, Loverendale,
+                    Domburg</title>
+                <editor>
+                    <persName ref="https://orcid.org/0000-0003-1208-6131">
+                        <forename>Anne</forename>
+                        <surname>Lorenz</surname>
+                    </persName>
+                </editor>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0002-0953-2818">
+                        <forename>Torsten</forename>
+                        <surname>Schrade</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeber</note>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0003-2423-7144">
+                        <forename>Marjam</forename>
+                        <surname>Trautmann</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeberin</note>
+                    </resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="http://www.adwmainz.de">Akademie der Wissenschaften und der
+                        Literatur | Mainz</ref>
+                </publisher>
+                <pubPlace ref="http://sws.geonames.org/2874225">Mainz</pubPlace>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">This file is
+                        licensed under the terms of the Creative-Commons-License CC BY 4.0
+                    </licence>
+                </availability>
+                <idno type="file">Q.01.19190923.JVH.01.xml</idno>
+                <idno type="uri">https://sturm-edition.de/id/Q.01.19190923.JVH.01</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Q.01.19100923.JVH.01, Jacoba van Heemskerck an Herwarth Walden, 23. September
+                    1919, Loverendale, Domburg, bearbeitet von Anne Lorenz, in: Der STURM. Digitale
+                    Quellenedition zur Geschichte der internationalen Avantgarde, erarbeitet und
+                    herausgegeben von Marjam Trautmann und Torsten Schrade. Mainz, Akademie der
+                    Wissenschaften und der Literatur.</bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <country>DE</country>
+                        <settlement>Berlin</settlement>
+                        <repository>Staatsbibliothek zu Berlin Preußischer Kulturbesitz,
+                            Handschriftenabteilung, Sturm-Archiv I, Heemskerck, Jacoba
+                            van</repository>
+                        <idno type="uri">http://resolver.staatsbibliothek-berlin.de/SBB0000DA2900000000</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <xenoData type="uri">http://kalliope-verbund.info/DE-611-HS-1913494</xenoData>
+        <xenoData type="url">https://content.staatsbibliothek-berlin.de/dc/PPN746597002.mets.xml</xenoData>
+        <profileDesc>
+            <correspDesc key="Bl.366" ref="https://sturm-edition.de/id/Q.01.19190923.JVH.01">
+                <correspAction type="sent">
+                    <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jacoba van
+                        Heemskerck</persName>
+                    <placeName key="O.0000004" ref="http://sws.geonames.org/2756746">Loverendale,
+                        Domburg</placeName>
+                    <date when="1919-09-23"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth
+                        Walden</persName>
+                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change>
+                    <date when="2019-08-26" n="1"/>
+                </change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic n="366r" url="http://content.staatsbibliothek-berlin.de/dms/PPN746597002/500/0/00000001.jpg"/>
+        <graphic n="366v" url="http://content.staatsbibliothek-berlin.de/dms/PPN746597002/500/0/00000002.jpg"/>
+        <graphic n="Farbkeil" url="http://content.staatsbibliothek-berlin.de/dms/PPN746597002/500/0/00000003.jpg"/>
+    </facsimile>
+    <text type="postcard">
+        <body>
+            <div type="address">
+                <ab type="sender">
+                    <pb xml:id="S.366r.01" n="366r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000DA2900000001"/>
+                    <address>
+                        <addrLine>Loverendale</addrLine>
+                        <addrLine>Domburg Zeeland</addrLine>
+                    </address>
+                </ab>
+
+                <ab type="recipient">
+                    <address>
+                        <addrLine>Herrn Direktor</addrLine>
+                        <addrLine>
+                            <hi rend="underline">Herwarth Walden</hi>
+                        </addrLine>
+                        <addrLine>Verlag der Sturm</addrLine>
+                        <addrLine>134<hi rend="super">
+                                <hi rend="twice-underline">a</hi>
+                            </hi> Potsdamerstrasse</addrLine>
+                        <addrLine>
+                            <hi rend="underline">Berlin</hi> W 9/.</addrLine>
+                    </address>
+                </ab>
+
+            </div>
+            <div type="content">
+                <pb xml:id="S.366v" n="366v" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000DA2900000002"/>
+
+
+                <opener>
+                    <salute>L. <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">H.</persName>
+                    </salute>
+                </opener>
+
+                <p>Soeben kam die Dépèche ich bin so froh alles gut angekommen ist Wenn dein Brief
+                    kommt werde ich direkt antworten. Nun nur einige Zeilen in Eile. Wir haben bis
+                    jetzt <hi rend="underline">nicht</hi> gehört ob wir am <date when="1919-10-14">14 Oktober</date> reisen können.<note>Van Heemskerks <ref target="Q.01.19190930.JVH.01">Postkarte</ref> an Walden vom 30. September 1919
+                        kündigt ihre und Marie Tak van Poortvliets Ankunft für
+                        den 10. Oktober 1919 abends in Berlin an.</note> Du auch nicht? Wenn dass in
+                    Ordnung kommt kommen <hi rend="underline">wir bestimmt</hi>
+                     <date when="1919-10-14">
+                        <hi rend="underline">14. Oktober</hi>
+                    </date> und dann
+                    direkt durch. Wenn Du ein Zimmer mit zwei Betten im Hotel Fürstenhof bekommen
+                    kannst ist es glänzend. Bitte schicke <address rend="inline">
+                        <addrLine>
+                            <persName key="P.0000020" ref="http://d-nb.info/gnd/118621041">Bruno Taut</persName> Architekt</addrLine>
+                    <addrLine>Linkstrasse 20</addrLine>
+                    </address> eine Einladung für die Eröffnung am <date when="1919-09-28">Sonntag</date>.<note>Am 28. September 1919 eröffnete die 79.
+                        STURM-Ausstellung, die neben Werken von Johannes Molzahn und Karl Herrmann
+                        Glasfenster-Entwürfe van Heemskercks präsentierte. Vgl. den <ref target="https://nbn-resolving.org/urn:nbn:de:bvb:255-dtl-0000001350">Katalog zur Ausstellung</ref>, Walden, Herwarth: Neunundsiebzigste
+                            Ausstellung – Johannes Molzahn, Karl Herrmann, Jacoba van Heemskerck.
+                            Entwürfe für Glasfenster, Berlin 1919.</note> Er hat mir geschrieben<pb xml:id="S.366r.02" n="366r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000DA2900000001"/> dass
+                    er sich freut meine Ausstellung zu sehen.</p>
+
+                <closer>
+                    <salute>Mit herzlichste Grüssen auf baldigeste Wiedersehen</salute>
+                    <signed>deine <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">
+                                JacobavanH<hi rend="twice-underline">eemskerck</hi>
+                        </persName>
+                    </signed>
+                    <dateline>
+                        <date when="1919-09-23">23.9.19.</date>
+                    </dateline>
+                </closer>
+
+            </div>
+        </body>
+    </text>
+</TEI>

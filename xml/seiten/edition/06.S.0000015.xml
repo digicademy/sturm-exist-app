@@ -1,0 +1,77 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="S.0000015">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Abteilungsspezifische Editionsrichtlinien: Abteilung VI – STURM-Materialien</title>
+            <title type="navigation">STURM-Materialien</title>
+            <editor>
+               <persName ref="https://orcid.org/0000-0003-2423-7144">
+                  <forename>Marjam</forename>
+                  <surname>Trautmann</surname>
+               </persName>
+            </editor>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-0953-2818">
+                  <forename>Torsten</forename>
+                  <surname>Schrade</surname>
+               </persName>
+               <resp>
+                  <note>Herausgeber</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0003-2423-7144">
+                  <forename>Marjam</forename>
+                  <surname>Trautmann</surname>
+               </persName>
+               <resp>
+                  <note>Herausgeberin</note>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.adwmainz.de">Akademie der Wissenschaften und der Literatur | Mainz</ref>
+            </publisher>
+            <pubPlace ref="http://sws.geonames.org/2874225">Mainz</pubPlace>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  This file is licensed under the terms of the Creative-Commons-License CC BY 4.0
+               </licence>
+            </availability>
+            <idno type="file">materialien.xml</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>Marjam Trautmann: "Abteilungsspezifische Editionsrichtlinien: Abteilung VI – STURM-Materialien", in: Der STURM. Digitale Quellenedition zur Geschichte der 
+               internationalen Avantgarde, erarbeitet und herausgegeben von Marjam Trautmann und 
+               Torsten Schrade. Mainz, Akademie der Wissenschaften und der Literatur.
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <listChange>
+            <change>
+               <date when="2019-08-26" n="1"/>
+               <p>Initiale Version</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="section" n="eight">
+            <ab rend="h2">Abteilungsspezifische Editionsrichtlinien</ab>
+            <ab rend="h3">Abteilung VI – STURM-Materialien</ab>
+            <p>Diese Abteilung und ihre Editionsrichtlinien befinden sich noch im Aufbau. Bisher
+               zugänglich sind die <ref target="edition/briefe.xml">Editionsrichtlinien</ref>
+               und <ref target="quellen/briefe.xml">Quellen</ref> der Abteilung I – STURM-Briefe.
+               <ref target="quellen/materialien.xml">Hier</ref> finden Sie nähere
+               Informationen zur Abteilung VI – STURM-Materialien.</p>
+         </div>
+         <div type="section" n="four">
+            <ab type="subNavigation" n="edition"/>
+         </div>
+      </body>
+   </text>
+</TEI>

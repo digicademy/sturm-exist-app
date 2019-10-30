@@ -1,0 +1,1891 @@
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="S.0000022">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Abteilung III: STURM-Kataloge</title>
+                <title type="navigation">Abteilung III, Kataloge</title>
+                <editor>
+                    <persName ref="https://orcid.org/0000-0003-2423-7144">
+                        <forename>Marjam</forename>
+                        <surname>Trautmann</surname>
+                    </persName>
+                </editor>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0002-0953-2818">
+                        <forename>Torsten</forename>
+                        <surname>Schrade</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeber</note>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0003-2423-7144">
+                        <forename>Marjam</forename>
+                        <surname>Trautmann</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeberin</note>
+                    </resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="http://www.adwmainz.de">Akademie der Wissenschaften und der Literatur | Mainz</ref>
+                </publisher>
+                <pubPlace ref="http://sws.geonames.org/2874225">Mainz</pubPlace>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        This file is licensed under the terms of the Creative-Commons-License CC BY 4.0
+                    </licence>
+                </availability>
+                <idno type="file">kataloge.xml</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Marjam Trautmann: "Abteilung III, STURM-Kataloge", in: Der STURM. Digitale Quellenedition zur Geschichte der 
+                    internationalen Avantgarde, erarbeitet und herausgegeben von Marjam Trautmann und 
+                    Torsten Schrade. Mainz, Akademie der Wissenschaften und der Literatur.
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <listChange>
+                <change>
+                    <date when="2018-07-16" n="1"/>
+                    <p>Initiale Version</p>
+                </change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="section" n="twelve">
+                <div type="row">
+                    <div type="columns" n="eight">
+                        <ab rend="h2">Abteilung III, STURM-Kataloge</ab>
+                        <p>
+                            Diese Abteilung befindet sich noch im Aufbau. Erstes Ziel ist, die digitalisierten Kataloge 
+                            der STURM-Ausstellungen im Volltext und in XML nach den Guidelines der TEI P5 
+                            zu erfassen. Des Weiteren werden einzelne Entitäten – wie Werke, Künstler und Orte – identifiziert 
+                            und gegebenenfalls mit Normdaten versehen. Die Kataloge sollen außerdem in den Kontext weiterer 
+                            Quellen zum ‚Sturm‘, vor allem solchen in dieser Edition, gesetzt werden.
+                        </p>
+                    </div>
+                    <div type="columns" n="four">
+                        <ab type="subNavigation" n="quellen"/>
+                    </div>
+                </div>
+                <div type="row">
+                    <div type="columns" n="twelve">
+
+                        <p>
+                            Die STURM-Kataloge werden vom <ref target="http://www.zikg.eu/bibliothek/studienzentrum/digitalisierung/kataloge-sturm">Zentralinstitut 
+                            für Kunstgeschichte (ZIK) in München</ref> digital bereitgestellt. Eine bibliographische 
+                            Aufstellung von STURM-Katalogen findet sich außerdem im Themenportal 
+                            <ref target="https://www.arthistoricum.net/themen/portale/sturm/ausstellungskataloge/">„Herwarth Walden und DER STURM“</ref>.
+                        </p>
+
+                        <ab rend="h4">Bestandsliste</ab>
+
+                        <list rend="ul" type="chronology">
+                            <item>
+                                <ref target="quellen/kataloge.html#y1912" rend="black button">1912</ref>
+                            </item>
+                            <item>
+                                <ref target="quellen/kataloge.html#y1913" rend="black button">1913</ref>
+                            </item>
+                            <item>
+                                <ref target="quellen/kataloge.html#y1914" rend="black button">1914</ref>
+                            </item>
+                            <item>
+                                <ref target="quellen/kataloge.html#y1915" rend="black button">1915</ref>
+                            </item>
+                            <item>
+                                <ref target="quellen/kataloge.html#y1916" rend="black button">1916</ref>
+                            </item>
+                            <item>
+                                <ref target="quellen/kataloge.html#y1917" rend="black button">1917</ref>
+                            </item>
+                            <item>
+                                <ref target="quellen/kataloge.html#y1918" rend="black button">1918</ref>
+                            </item>
+                            <item>
+                                <ref target="quellen/kataloge.html#y1919" rend="black button">1919</ref>
+                            </item>
+                            <item>
+                                <ref target="quellen/kataloge.html#y1920" rend="black button">1920</ref>
+                            </item>
+                            <item>
+                                <ref target="quellen/kataloge.html#y1921" rend="black button">1921</ref>
+                            </item>
+                            <item>
+                                <ref target="quellen/kataloge.html#y1922" rend="black button">1922</ref>
+                            </item>
+                            <item>
+                                <ref target="quellen/kataloge.html#y1923" rend="black button">1923</ref>
+                            </item>
+                            <item>
+                                <ref target="quellen/kataloge.html#y1924" rend="black button">1924</ref>
+                            </item>
+                            <item>
+                                <ref target="quellen/kataloge.html#y1925" rend="black button">1925</ref>
+                            </item>
+                            <item>
+                                <ref target="quellen/kataloge.html#y1926" rend="black button">1926</ref>
+                            </item>
+                            <item>
+                                <ref target="quellen/kataloge.html#y1927" rend="black button">1927</ref>
+                            </item>
+                            <item>
+                                <ref target="quellen/kataloge.html#y1928" rend="black button">1928</ref>
+                            </item>
+                            <item>
+                                <ref target="quellen/kataloge.html#y1929" rend="black button">1929</ref>
+                            </item>
+                            <item>
+                                <ref target="quellen/kataloge.html#y1930" rend="black button">1930</ref>
+                            </item>
+                            <item>
+                                <ref target="quellen/kataloge.html#y1931" rend="black button">1931</ref>
+                            </item>
+                        </list>
+
+                        <ab rend="h5" style="year" xml:id="y1912">1912</ab>
+                        <table type="packed">
+                            <row rend="th">
+                                <cell>Titel</cell>
+                                <cell>Ort</cell>
+                                <cell>ZIK</cell>
+                            </row>
+                            <row>
+                                <cell>Erste Ausstellung – Der Blaue Reiter, Franz Flaum, Oskar
+                                    Kokoschka, Expressionisten</cell>
+                                
+                                <cell>Berlin</cell>
+                                <cell>
+                                    <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000002738">Digitalisat</ref>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>Zweite Ausstellung – Futuristen</cell>
+                                
+                                <cell>Berlin</cell>
+                                <cell>
+                                    <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000002111">Digitalisat</ref>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>Dritte Ausstellung – Graphik</cell>
+                                
+                                <cell>Berlin</cell>
+                                <cell>
+                                    <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000002723">Digitalisat</ref>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>Kandinsky. Kollektiv-Ausstellung. 1902–1912 [7. Ausst.]</cell>
+                                
+                                <cell>Berlin</cell>
+                                <cell>
+                                    <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000002752">Digitalisat</ref>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>Achte Ausstellung – Die Pathetiker</cell>
+                                
+                                <cell>Berlin</cell>
+                                <cell>
+                                    <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000002714">Digitalisat</ref>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>Der Blaue Reiter. Gemälde-Ausstellung [1.-3. Tausend des Katalogs] [Wanderausstellung]</cell>
+                                
+                                <cell/>
+                                <cell>
+                                    <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000002820">Digitalisat</ref>
+                                </cell>
+                            </row>  
+                            <row>
+                                <cell>Die Futuristen. Umberto Boccioni, Carlo D. Carra, Luigi Russolo, Gino Severini. [...] Fünftes und sechstes Tausend dieses Katalogs [Wanderausstellung]</cell>
+                                
+                                <cell>Berlin</cell>
+                                <cell>
+                                    <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000002810">Digitalisat</ref>
+                                </cell>
+                            </row>
+                        </table>
+
+                        <ab rend="h5" style="year" xml:id="y1913">1913</ab>
+                        <table type="packed">
+                            <row rend="th">
+                                <cell>Titel</cell>
+                                <cell>Ort</cell>
+                                <cell>ZIK</cell>
+                            </row>
+                            
+                            <row>
+                                <cell>Der Blaue Reiter. Gemälde-Ausstellung [1.-3. Tausend des Katalogs] [Wanderausstellung]</cell>
+                                
+                                <cell/>
+                                <cell>
+                                    <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000002820">Digitalisat</ref>
+                                </cell>
+                            </row>  
+                            <row>
+                                <cell>Elfte Ausstellung – Kollektiv-Ausstellung. G. Münter (1904–1913)</cell>
+                                
+                                <cell>Berlin</cell>
+                                <cell>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>A Futuristák és Expressionisták Kiállitásának Katalógusa</cell>
+                                
+                                <cell>Budapest</cell>
+                                <cell>
+                                    <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000002888">Digitalisat</ref>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>G. Münter (1904–1913). Eröffnungs-Ausstellung; März–April 1913, Kollektiv-Ausstellung</cell>
+                                
+                                <cell>München</cell>
+                                <cell>
+                                    <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000003021">Digitalisat</ref>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>Katalógus a Művészház nemzetközi postimpresszonista kiállításához 1913</cell>
+                                
+                                <cell>Budapest</cell>
+                                <cell>
+                                    <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000002897">Digitalisat</ref>
+                                </cell>
+                            </row> 
+                            <row>
+                                <cell>Zwölfte Ausstellung – Robert Delaunay, Julie Baum. Gedächtnisausstellung, Ardengo
+                                    Soffici</cell>
+                                
+                                <cell>Berlin</cell>
+                                <cell>
+                                    <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000001442">Digitalisat</ref>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>Dreizehnte Ausstellung – Alfred Réth, Julie Baum. Gedächtnisausstellung</cell>
+                                
+                                <cell>Berlin</cell>
+                                <cell>
+                                    <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000002121">Digitalisat</ref>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>Vierzehnte Ausstellung – Franz Marc. Gemälde</cell>
+                                
+                                <cell>Berlin</cell>
+                                <cell>
+                                    <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000002131">Digitalisat</ref>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>Fünfzehnte Ausstellung – Der Moderne Bund Schweiz. Gemälde/Graphik</cell>
+                                
+                                <cell>Berlin</cell>
+                                <cell>
+                                    <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000002141">Digitalisat</ref>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>Sechzehnte Ausstellung – Gemälde und Zeichnungen des Futuristen Gino Severini</cell>
+                                
+                                <cell>Berlin</cell>
+                                <cell>
+                                    <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000002151">Digitalisat</ref>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>Siebzehnte Ausstellung – Alexandre Archipenko</cell>
+                                
+                                <cell>Berlin</cell>
+                                <cell>
+                                    <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000002161">Digitalisat</ref>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>Erster Deutscher Herbstsalon</cell>
+                                
+                                <cell>Berlin</cell>
+                                <cell>
+                                    <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000002743">Digitalisat</ref>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>Achtzehnte Ausstellung – Skupina/Prag. Emil Filla, Vincenc Benes, A. Prochazka, Otto
+                                    Gutfreund, Gocar, Janak</cell>
+                                
+                                <cell>Berlin</cell>
+                                <cell>
+                                    <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000002176">Digitalisat</ref>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>Die Futuristen</cell>
+                                
+                                <cell>Dresden</cell>
+                                <cell/>
+                            </row>
+                            <row>
+                                <cell>Neunzehnte Ausstellung – Expressionisten, Kubisten, Futuristen</cell>
+                                
+                                <cell>Berlin</cell>
+                                <cell>
+                                    <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000002188">Digitalisat</ref>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>Zwanzigste Ausstellung – Albert Bloch</cell>
+                                
+                                <cell>Berlin</cell>
+                                <cell>
+                                </cell>
+                            </row>
+                        </table>
+
+                        <ab rend="h5" style="year" xml:id="y1914">1914</ab>
+                        <table type="packed">
+                            <row rend="th">
+                                <cell>Titel</cell>
+                                <cell>Ort</cell>
+                                <cell>ZIK</cell>
+                            </row>
+                            <row>
+                               <cell>Die Futuristen. Eröffnung des Jahres-Abonnements</cell>
+                                    
+                                    <cell>Leipzig</cell>
+                                    <cell>
+                                        <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000003011">Digitalisat</ref>
+                                    </cell>
+                            </row> 
+                            <row>
+                                <cell>Der Blaue Reiter. Expressionisten/Kubisten/Futuristen. [...] Drittes Tausend dieses Katalogs [Wanderausstellung]</cell>
+                                
+                                <cell/>
+                                <cell>
+                                    <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000002831">Digitalisat</ref>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>Einundzwanzigste Ausstellung – August Macke</cell>
+                                
+                                <cell>Berlin</cell>
+                                <cell>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>Internationell Utställning af Grafisk Konst</cell>
+                                
+                                <cell>Stockholm</cell>
+                                <cell>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>Mokuhanga tenrankai mokuroku (Graphik)</cell>
+                                
+                                <cell>Tokio</cell>
+                                <cell>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>Dreiundzwanzigste Ausstellung – Jacoba van Heemskerck, Arthur Segal, Marianne von
+                                    Werefkin</cell>
+                                
+                                <cell>Berlin</cell>
+                                <cell>
+                                    <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000002190">Digitalisat</ref>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>Vierundzwanzigste Ausstellung – Paul Klee</cell>
+                                
+                                <cell>Berlin</cell>
+                                <cell>
+                                    <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000002202">Digitalisat</ref>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>Fünfundzwanzigste Ausstellung – Otakar Kubin</cell>
+                                
+                                <cell>Berlin</cell>
+                                <cell>
+                                    <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000002217">Digitalisat</ref>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>Sechsundzwanzigste Ausstellung – Marc Chagall</cell>
+                                
+                                <cell>Berlin</cell>
+                                <cell>
+                                    <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000002654">Digitalisat</ref>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>Siebenundzwanzigste Ausstellung – Gleizes, Metzinger, Duchamp-Villon, Villon</cell>
+                                
+                                <cell>Berlin</cell>
+                                <cell>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>Die Futuristen – Umberto Boccioni, Carlo D. Carra, Luigi Russolo, Gino Severini. [...] Neuntes Tausend dieses Katalogs [28. Ausstellung]</cell>
+                                
+                                <cell>Berlin</cell>
+                                <cell>
+                                    <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000002228">Digitalisat</ref>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>Neunundzwanzigste Ausstellung – Campendonk, Marc, van Heemskerck, Kokoschka, Severini, Carra, Boccioni</cell>
+                                
+                                <cell>Berlin</cell>
+                                <cell>
+                                    <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000002234">Digitalisat</ref>
+                                </cell>
+                            </row>   
+                        </table>
+
+                        <ab rend="h5" style="year" xml:id="y1915">1915</ab>
+                        <table type="packed">
+                            <row rend="th">
+                                <cell>Titel</cell>
+                                <cell>Ort</cell>
+                                <cell>ZIK</cell>
+                            </row>
+                            
+                            <row>
+                                <cell>Dreißigste Ausstellung – Severini, Campendonk, Marc, Münter, Mense, van Heemskerck, Kokoschka</cell>
+                                
+                                <cell>Berlin</cell>
+                                <cell>
+                                    <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000002273">Digitalisat</ref>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>Einunddreißigste Ausstellung – Jacoba van Heemskerck</cell>
+                                
+                                <cell>Berlin</cell>
+                                <cell>
+                                    <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000002284">Digitalisat</ref>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>Zweiunddreißigste Ausstellung – Schwedische Expressionisten</cell>
+                                
+                                <cell>Berlin</cell>
+                                <cell>
+                                    <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000002291">Digitalisat</ref>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>Vierunddreißigste Ausstellung – Franz Marc</cell>
+                                
+                                <cell>Berlin</cell>
+                                <cell>
+                                    <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000002303">Digitalisat</ref>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>Fünfunddreißigste Ausstellung – Gabriele Münter</cell>
+                                
+                                <cell>Berlin</cell>
+                                <cell>
+                                    <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000002312">Digitalisat</ref>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>Sechsunddreißigste Ausstellung – Graphische Werke</cell>
+                                
+                                <cell>Berlin</cell>
+                                <cell>
+                                  
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>Gemäldeausstellung in Brandenburg/Havel. Neue Kunst</cell>
+                                
+                                <cell>Brandenburg</cell>
+                                <cell>
+                                    <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000002843">Digitalisat</ref>
+                                </cell>
+                            </row>
+                        </table>
+
+                        <ab rend="h5" style="year" xml:id="y1916">1916</ab>
+                        <table type="packed">
+                            <row rend="th">
+                                <cell>Titel</cell>
+                                <cell>Ort</cell>
+                                <cell>ZIK</cell>
+                            </row>
+                            <row>
+                                <cell>Siebenunddreißigste Ausstellung – Max Ernst, Georg Muche</cell>
+                                
+                                <cell>Berlin</cell>
+                                <cell>
+                                    <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000002337">Digitalisat</ref>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>Achtunddreißigste Ausstellung – Jacoba van Heemskerck. Gemälde und Zeichnungen</cell>
+                                
+                                <cell>Berlin</cell>
+                                <cell>
+                                    <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000002342">Digitalisat</ref>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>Neununddreißigste Ausstellung – Albert Bloch, Paul Klee. Gemälde und
+                                    Zeichnungen</cell>
+                                
+                                <cell>Berlin</cell>
+                                <cell>
+                                    <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000002358">Digitalisat</ref>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>Der Sturms konstutställning. Kollektiv utställning Münter. Oljemalningar och grafik</cell>
+                            
+                                <cell>Stockholm</cell>
+                                <cell>
+                                <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000003041">Digitalisat</ref>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>Expressionisten, Kubisten. Zweite Ausstellung, Den Haag/Holland</cell>
+                                
+                                <cell>Den Haag</cell>
+                                <cell>
+                                    <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000002919">Digitalisat</ref>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>Vierzigste Ausstellung – Oskar Kokoschka, Otakar Kubin. Gemälde und Zeichnungen</cell>
+                                
+                                <cell>Berlin</cell>
+                                <cell>
+                                    <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000002366">Digitalisat</ref>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>Kandinsky, Gabriele Münter. Zweite Ausstellung, Christiania</cell>
+                                
+                                <cell>Oslo</cell>
+                                <cell>
+                                    <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000002906">Digitalisat</ref>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>Expressionisten, Kubisten. Erste Ausstellung, Braunschweig</cell>
+                                
+                                <cell>Braunschweig</cell>
+                                <cell>
+                                    <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000002851">Digitalisat</ref>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>Zweiundvierzigste Ausstellung – Lyonel Feininger, Paul Kother, Felix Müller. Gemälde
+                                    und Zeichnungen</cell>
+                                
+                                <cell>Berlin</cell>
+                                <cell>
+                                    <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000002379">Digitalisat</ref>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>Expressionisten, Kubisten. Erste Ausstellung, Potsdam</cell>
+                                
+                                <cell>Potsdam</cell>
+                                <cell>
+                                    <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000003031">Digitalisat</ref>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>Dreiundvierzigste Ausstellung – Expressionisten, Futuristen, Kubisten</cell>
+                                
+                                <cell>Berlin</cell>
+                                <cell>
+                                    <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000002389">Digitalisat</ref>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>Vierundvierzigste Ausstellung – Kandinsky. Gemälde und Aquarelle</cell>
+                                
+                                <cell>Berlin</cell>
+                                <cell>
+                                    <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000002392">Digitalisat</ref>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>Expressionisten, Kubisten. Erste Ausstellung, Brünn</cell>
+                                
+                                <cell>Brünn</cell>
+                                <cell>
+                                    <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000002871">Digitalisat</ref>
+                                </cell>
+                            </row> 
+                            <row>
+                                <cell>Fünfundvierzigste Ausstellung – Campendonk. Gemälde und Aquarelle. Zeichnungen /
+                                    Holzschnitte</cell>
+                                
+                                <cell>Berlin</cell>
+                                <cell>
+                                    <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000002555">Digitalisat</ref>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>Sechsundvierzigste Ausstellung – Franz Marc. Gedächtnis-Ausstellung. Gemälde und
+                                    Aquarelle/Holzschnitte</cell>
+                                
+                                <cell>Berlin</cell>
+                                <cell>
+                                    <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000002561">Digitalisat</ref>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>Siebenundvierzigste Ausstellung – Rudolf Bauer, Martin Rang, Georg Schrimpf, Fritz
+                                    Stuckenberg, Maria Uhden</cell>
+                                
+                                <cell>Berlin</cell>
+                                <cell>
+                                    <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000002572">Digitalisat</ref>
+                                </cell>
+                            </row>
+                        </table>
+
+                        <ab rend="h5" style="year" xml:id="y1917">1917</ab>
+                        <table type="packed">
+                            <row rend="th">
+                                <cell>Titel</cell>
+                                <cell>Ort</cell>
+                                <cell>ZIK</cell>
+                            </row> 
+                            <row>
+                                <cell>Achtundvierzigste Ausstellung – Jacoba van Heemskerck. Gemälde und Aquarelle.
+                                    Zeichnungen/Holzschnitte</cell>
+                                
+                                <cell>Berlin</cell>
+                                <cell>
+                                    <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000002581">Digitalisat</ref>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>Neunundvierzigste Ausstellung – Paul Klee, Georg Muche. Gemälde und Aquarelle,
+                                    Zeichnungen</cell>
+                                
+                                <cell>Berlin</cell>
+                                <cell>
+                                    <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000002594">Digitalisat</ref>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>Sturm-Ausstellung. 7. Februar–7. März 1917. Galerie Corray, Basel</cell>
+                                
+                                <cell>Basel</cell>
+                                <cell>
+                                    <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000002796">Digitalisat</ref>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>Fünfzigste Ausstellung – Sturm-Gesamtschau. Gemälde und Aquarelle, Zeichnungen</cell>
+                                
+                                <cell>Berlin</cell>
+                                <cell>
+                                    <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000002606">Digitalisat</ref>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>Der Sturm. 1912–1917. Zur fünfzigsten Sturm-Ausstellung</cell>
+                                
+                                <cell>Berlin</cell>
+                                <cell>
+                                    <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000002619">Digitalisat</ref>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>Sturm-Ausstellung. 1. Serie 17. März–7. April, 2. Serie 9. April–30. April</cell>
+                                
+                                <cell>Zürich</cell>
+                                <cell>
+                                    <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000002686">Digitalisat</ref>
+                                </cell>
+                            </row> 
+                            <row>
+                                <cell>Einundfünfzigste Ausstellung – Arnold Topp, Nell Walden. Gemälde und Aquarelle,
+                                    Zeichnungen</cell>
+                                
+                                <cell>Berlin</cell>
+                                <cell>
+                                    <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000002626">Digitalisat</ref>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>Dreiundfünfzigste Ausstellung – Sturm-Gesamtschau. Gemälde und Aquarelle,
+                                    Zeichnungen</cell>
+                                
+                                <cell>Berlin</cell>
+                                <cell>
+                                    <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000001897">Digitalisat</ref>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>Sturm-Gesamtschau. Gemälde und Aquarelle, Zeichnungen. Fünfte Ausstellung zu Hamburg</cell>
+                                
+                                <cell>Hamburg</cell>
+                                <cell>
+                                    <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000002958">Digitalisat</ref>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>Vierundfünfzigste Ausstellung – Sammlung Kluxen. Gemälde und Aquarelle,
+                                    Zeichnungen</cell>
+                                
+                                <cell>Berlin</cell>
+                                <cell>
+                                    <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000001906">Digitalisat</ref>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>Fünfundfünfzigste Ausstellung – Lyonel Feininger. Gemälde und Aquarelle,
+                                    Zeichnungen</cell>
+                                
+                                <cell>Berlin</cell>
+                                <cell>
+                                    <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000001914">Digitalisat</ref>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>Kunstnerkabaretten Edderkoppen. Der Sturm Kunstnere</cell>
+                                
+                                <cell>Kopenhagen</cell>
+                                <cell>
+                                    <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000002986">Digitalisat</ref>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>Sechsundfünfzigste Ausstellung – Marc Chagall. Gemälde und Aquarelle,
+                                    Zeichnungen</cell>
+                                
+                                <cell>Berlin</cell>
+                                <cell>
+                                    <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000002039">Digitalisat</ref>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>Sturm-Sonderschau. Berliner Gruppe. Gemälde und Aquarelle, Zeichnungen. Sechste Ausstellung zu Hamburg</cell>
+                                
+                                <cell>Hamburg</cell>
+                                <cell>
+                                    <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000003061">Digitalisat</ref>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>Siebenundfünfzigste Ausstellung – Rudolf Bauer. Gemälde und Aquarelle,
+                                    Zeichnungen</cell>
+                                
+                                <cell>Berlin</cell>
+                                <cell>
+                                    <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000001927">Digitalisat</ref>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>Achtundfünfzigste Ausstellung – Gösta Adrian-Nilsson, Paul Klee, Gabriele Münter.
+                                    Gemälde und Aquarelle, Zeichnungen</cell>
+                                
+                                <cell>Berlin</cell>
+                                <cell>
+                                    <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000001938">Digitalisat</ref>
+                                </cell>
+                            </row>
+                        </table>
+
+                        <ab rend="h5" style="year" xml:id="y1918">1918</ab>
+                        <table type="packed">
+                            <row rend="th">
+                                <cell>Titel</cell>
+                                <cell>Ort</cell>
+                                <cell>ZIK</cell>
+                            </row>
+                            <row>
+                                <cell>Neunundfünfzigste Ausstellung – Alexander Archipenko. Plastiken/Zeichnungen; Georg
+                                    Muche. Gemälde</cell>
+                                
+                                <cell>Berlin</cell>
+                                <cell>
+                                    <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000001943">Digitalisat</ref>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>Sechzigste Ausstellung – Georg Schrimpf, Maria Uhden, Fritz Stuckenberg. Gemälde/Aquarelle, Zeichnungen/Holzschnitte</cell>
+                                
+                                <cell>Berlin</cell>
+                                <cell>
+                                    <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000001950">Digitalisat</ref>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>Einundsechzigste Ausstellung – William Wauer, Johannes Molzahn, Oskar Fischer,
+                                    Kunstschule Der Sturm: Kallen/Wechselmann</cell>
+                                
+                                <cell>Berlin</cell>
+                                <cell>
+                                    <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000001967">Digitalisat</ref>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>Zweiundsechzigste Ausstellung – Jacoba van Heemskerck. Gemälde/Aquarelle,
+                                    Zeichnungen/Holzschnitte</cell>
+                                
+                                <cell>Berlin</cell>
+                                <cell>
+                                    <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000001970">Digitalisat</ref>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>Dreiundsechzigste Ausstellung – Nell Walden, Arnold Topp, Hans Sittig.
+                                    Gemälde/Aquarelle, Zeichnungen/Glasbilder</cell>
+                                
+                                <cell>Berlin</cell>
+                                <cell>
+                                    <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000001981">Digitalisat</ref>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>Vierundsechzigste Ausstellung – Albert Bloch, Emmy Klinker, Elisabeth Niemann, Kurt
+                                    Schwitters. Gemälde</cell>
+                                
+                                <cell>Berlin</cell>
+                                <cell>
+                                    <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000001999">Digitalisat</ref>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>Sturmgraphik</cell>
+                                
+                                <cell>Jena</cell>
+                                <cell>
+                                    <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000002964">Digitalisat</ref>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>Fünfundsechzigste Ausstellung – Marc Chagall, Kandinsky. Gemälde; William Wauer.
+                                    Bildwerke</cell>
+                                
+                                <cell>Berlin</cell>
+                                <cell>
+                                    <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000002000">Digitalisat</ref>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>Sturm-Ausstellung. Stettin, Städtisches Museum. Ausstellungsvereinigung Pommerscher Künstler</cell>
+                                
+                                <cell>Stettin</cell>
+                                <cell>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>Sechsundsechzigste Ausstellung – Campendonk, Walter Dexel. Gemälde/Aquarelle; William
+                                    Wauer. Bildwerke</cell>
+                                
+                                <cell>Berlin</cell>
+                                <cell>
+                                    <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000002016">Digitalisat</ref>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>Siebenundsechzigste Ausstellung – Rudolf Bauer. Gemälde/Aquarelle; William Wauer.
+                                    Bildwerke</cell>
+                                
+                                <cell>Berlin</cell>
+                                <cell>
+                                    <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000002024">Digitalisat</ref>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>Sturm-Ausstellung, Breslau, Galerie Ernst Arnold</cell>
+                                
+                                <cell>Breslau</cell>
+                                <cell>
+                                    <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000002862">Digitalisat</ref>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>Achtundsechzigste Ausstellung – Gontscharowa, Larionoff. Gemälde; Oswald Herzog.
+                                    Bildwerke</cell>
+                                
+                                <cell>Berlin</cell>
+                                <cell>
+                                    <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000002041">Digitalisat</ref>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>Ständige Kunstausstellung, Ständige Verkaufsstelle von Gemälden und graphischen Werken
+                                    der Expressionisten/Kubisten, Futuristen</cell>
+                                
+                                <cell>Berlin</cell>
+                                <cell>
+                                    <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000002782">Digitalisat</ref>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>Der Sturm. International Kunst. Ekspressionister og Kubister. Malerier og Skulpturer</cell>
+                                
+                                <cell>Kopenhagen</cell>
+                                <cell>
+                                    <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000003076">Digitalisat</ref>
+                                </cell>
+                            </row>   
+                        </table>
+
+                        <ab rend="h5" style="year" xml:id="y1919">1919</ab>
+                        <table type="packed">
+                            <row rend="th">
+                                <cell>Titel</cell>
+                                <cell>Ort</cell>
+                                <cell>ZIK</cell>
+                            </row>
+                            <row>
+                                <cell>Siebzigste Ausstellung – Paul Klee, Johannes Molzahn, Kurt Schwitters</cell>
+                                
+                                <cell>Berlin</cell>
+                                <cell>
+                                    <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000002053">
+                                        <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000002064">Digitalisate</ref>
+                                    </ref>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>Einundsiebzigste Ausstellung – Gesamtschau</cell>
+                                
+                                <cell>Berlin</cell>
+                                <cell>
+                                    <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000002070">Digitalisat</ref>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>Zweiundsiebzigste Ausstellung – William Wauer. Gemälde/Bildwerke,
+                                    Aquarelle/Zeichnungen</cell>
+                                
+                                <cell>Berlin</cell>
+                                <cell>
+                                    <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000002082">Digitalisat</ref>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>Dreiundsiebzigste Ausstellung – Hugo Händel, Hilla von Rebay. Gemälde/Aquarelle</cell>
+                                
+                                <cell>Berlin</cell>
+                                <cell>
+                                    <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000002099">Digitalisat</ref>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>Sonderausstellung Der Sturm. Expressionisten/Futuristen/Kubisten</cell>
+                                <cell>Dresden</cell>
+                                <cell>
+                                    <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000002924">Digitalisat</ref>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>Vierundsiebzigste Ausstellung – Nell Walden, Hans Brass. Gemälde/Aquarelle</cell>
+                                
+                                <cell>Berlin</cell>
+                                <cell>
+                                    <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000001479">Digitalisat</ref>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>Fünfundsiebzigste Ausstellung – Oswald Herzog, Oskar Fischer, Heinrich von
+                                    Boddien</cell>
+                                
+                                <cell>Berlin</cell>
+                                <cell>
+                                    <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000001480">Digitalisat</ref>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>Sechsundsiebzigste Ausstellung – Kurt Schwitters, Magda Langenstrass-Uhlig.
+                                    Gemälde/Bildwerke, Aquarelle/Zeichnungen</cell>
+                                
+                                <cell>Berlin</cell>
+                                <cell>
+                                    <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000001329">Digitalisat</ref>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>Gesamtschau Expressionisten. Gemälde/Bildwerke, Aquarelle/Zeichnungen</cell>
+                                
+                                <cell>Berlin-Osten</cell>
+                                <cell>
+                                    <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000002808">Digitalisat</ref>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>Ausstellung Neue Kunst 1919. Expressionisten Kubisten Futuristen</cell>
+                                
+                                <cell>Zürich</cell>
+                                <cell>
+                                    <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000002513">Digitalisat</ref>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>Siebenundsiebzigste Ausstellung – Maria Uhden Gedächtnisausstellung, Paul Busch, Paul
+                                    Nietsche. Gemälde/Bildwerke, Aquarelle/Zeichnungen</cell>
+                                
+                                <cell>Berlin</cell>
+                                <cell>
+                                    <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000001334">Digitalisat</ref>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>Achtundsiebzigste Ausstellung – Georg Muche, Hans Sittig. Gemälde/Bildwerke,
+                                    Aquarelle/Zeichnungen</cell>
+                                
+                                <cell>Berlin</cell>
+                                <cell>
+                                    <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000001342">Digitalisat</ref>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>Sturm-Gesamtschau. Karlsruhe, Galerie Moos</cell>
+                                
+                                <cell>Karlsruhe</cell>
+                                <cell>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>Neunundsiebzigste Ausstellung – Johannes Molzahn, Karl Herrmann, Jacoba van
+                                    Heemskerck. Entwürfe für Glasfenster</cell>
+                                
+                                <cell>Berlin</cell>
+                                <cell>
+                                    <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000001350">Digitalisat</ref>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>Der Sturm Berlin und Üecht-Gruppe. Herbstschau Neuer Kunst [I. Herbstschau]</cell>
+                                
+                                <cell>Stuttgart</cell>
+                                <cell>
+                                    <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000002668">Digitalisat</ref>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>Achtzigste Ausstellung – Hugo Händel, Gesamtschau. Gemälde/Bildwerke,
+                                    Aquarelle/Zeichnungen</cell>
+                                
+                                <cell>Berlin</cell>
+                                <cell>
+                                    <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000001369">Digitalisat</ref>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>Einundachtzigste Ausstellung – Arnold Topp, Gesamtschau. Gemälde/Bildwerke,
+                                    Aquarelle/Zeichnungen</cell>
+                                
+                                <cell>Berlin</cell>
+                                <cell>
+                                    <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000001459">Digitalisat</ref>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>Sammlung Walden. Gemälde Zeichnungen Plastiken [7. Verzeichnis]</cell>
+                                
+                                <cell>Berlin</cell>
+                                <cell>
+                                    <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000002635">Digitalisat</ref>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>Sammlung Walden. Gemälde Zeichnungen Plastiken [8. Verzeichnis]</cell>
+                                
+                                <cell>Berlin</cell>
+                                <cell>
+                                    <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000002642">Digitalisat</ref>
+                                </cell>
+                            </row>
+                            </table>
+
+                        <ab rend="h5" style="year" xml:id="y1920">1920</ab>
+                        <table type="packed">
+                            <row rend="th">
+                                <cell>Titel</cell>
+                                <cell>Ort</cell>
+                                <cell>ZIK</cell>
+                            </row>
+                            <row>
+                                <cell>Zweiundachtzigste Ausstellung – Oskar Schlemmer, Willi Baumeister, Walter Dexel.
+                                    Gesamtschau</cell>
+                                
+                                <cell>Berlin</cell>
+                                <cell>
+                                    <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000001466">Digitalisat</ref>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>Dreiundachtzigste Ausstellung – Jacoba van Heemskerck, Gesamtschau. Gemälde/Bildwerke,
+                                    Aquarelle/Zeichnungen</cell>
+                                
+                                <cell>Berlin</cell>
+                                <cell>
+                                    <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000001493">Digitalisat</ref>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>Vierundachtzigste Ausstellung – Sonja Delaunay-Terk, Gesamtschau. Gemälde/Bildwerke,
+                                    Aquarelle/Zeichnungen</cell>
+                                
+                                <cell>Berlin</cell>
+                                <cell>
+                                    <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000001505">Digitalisat</ref>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>Fünfundachtzigste Ausstellung – Kurt Schwitters, Gesamtschau. Gemälde/Bildwerke,
+                                    Aquarelle/Zeichnungen</cell>
+                                
+                                <cell>Berlin</cell>
+                                <cell>
+                                    <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000001518">Digitalisat</ref>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>Sechsundachtzigste Ausstellung – Rudolf Bauer, Gesamtschau. Gemälde/Bildwerke,
+                                    Aquarelle/Zeichnungen</cell>
+                                
+                                <cell>Berlin</cell>
+                                <cell>
+                                    <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000001523">Digitalisat</ref>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>Siebenundachtzigste Ausstellung – Nell Walden, Tour Donas, Gesamtschau. Gemälde/Bildwerke, Aquarelle/Zeichnungen</cell>
+                                
+                                <cell>Berlin</cell>
+                                <cell>
+                                    <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000002101">Digitalisat</ref>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>Achtundachtzigste Ausstellung – Reinhard Goering, Thomas Ring, Walter Selle,
+                                    Gedächtnisausstellung, Gesamtschau</cell>
+                                
+                                <cell>Berlin</cell>
+                                <cell>
+                                    <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000001530">Digitalisat</ref>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>Neunundachzigste Ausstellung – Reinhard Goering, Paul Klee, Gesamtschau.
+                                    Gemälde/Bildwerke, Aquarelle/Zeichnungen</cell>
+                                
+                                <cell>Berlin</cell>
+                                <cell>
+                                    <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000001542">Digitalisat</ref>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>Neunzigste Ausstellung – Graphische Gesamtschau. Aquarelle/Zeichnungen,
+                                    Holzschnitte/Lithos, Radierungen/Glasbilder</cell>
+                                
+                                <cell>Berlin</cell>
+                                <cell>
+                                    <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000001672">Digitalisat</ref>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>Üecht Gruppe. II. Herbstschau Neuer Kunst</cell>
+                                
+                                <cell>Stuttgart</cell>
+                                <cell>
+                                    <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000002678">Digitalisat</ref>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>Einundneunzigste Ausstellung – Johannes Molzahn. Gemälde/Aquarelle,
+                                    Zeichnungen/Holzschnitte, Lithos. Graphische Gesamtschau</cell>
+                                
+                                <cell>Berlin</cell>
+                                <cell>
+                                    <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000001557">Digitalisat</ref>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>Zweiundneunzigste Ausstellung – Paul Busch, Johannes Molzahn. Gemälde/Aquarelle,
+                                    Zeichnungen/Holzschnitte, Lithos. Graphische Gesamtschau</cell>
+                                
+                                <cell>Berlin</cell>
+                                <cell>
+                                    <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000001563">Digitalisat</ref>
+                                </cell>
+                            </row>
+                        </table>
+
+                        <ab rend="h5" style="year" xml:id="y1921">1921</ab>
+                        <table type="packed">
+                            <row rend="th">
+                                <cell>Titel</cell>
+                                <cell>Ort</cell>
+                                <cell>ZIK</cell>
+                            </row>
+                            <row>
+                                <cell>Dreiundneunzigste Ausstellung – Albert Gleizes/Paris, Jacques Villon/Paris, Louis
+                                    Marcoussis/Paris, Jules Evola/Rom [...]</cell>
+                                
+                                <cell>Berlin</cell>
+                                <cell>
+                                    <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000001576">Digitalisat</ref>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>Vierundneunzigste Ausstellung – Jwan Puni, Petersburg. Gemälde/Aquarelle,
+                                    Zeichnungen</cell>
+                                
+                                <cell>Berlin</cell>
+                                <cell>
+                                    <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000001585">Digitalisat</ref>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>Fünfundneunzigste Ausstellung – Alexander Archipenko. Skulpturen, Skulpto-Malereien,
+                                    Aquarelle, Tuschzeichnungen, Bleistiftzeichnungen</cell>
+                                
+                                <cell>Berlin</cell>
+                                <cell>
+                                    <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000001594">Digitalisat</ref>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>Sechsundneunzigste Ausstellung – Kurt Schwitters. Merzbilder, Merzzeichnungen.
+                                    Gesamtschau</cell>
+                                
+                                <cell>Berlin</cell>
+                                <cell>
+                                    <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000001606">Digitalisat</ref>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>Siebenundneunzigste Ausstellung – Robert Delaunay. Gemälde, Aquarelle.
+                                    Gesamtschau</cell>
+                                
+                                <cell>Berlin</cell>
+                                <cell>
+                                    <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000001614">Digitalisat</ref>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>Achtundneunzigste Ausstellung – Rudolf Bauer, Vjera Biller, Gesamtschau</cell>
+                                
+                                <cell>Berlin</cell>
+                                <cell>
+                                    <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000001620">Digitalisat</ref>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>Neunundneunzigste Ausstellung – Paul Klee, Hans Mattis Teutsch, Gesamtschau</cell>
+                                
+                                <cell>Berlin</cell>
+                                <cell>
+                                    <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000001633">Digitalisat</ref>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>Hundertste Ausstellung – Zehn Jahre Sturm, Gesamtschau</cell>
+                                
+                                <cell>Berlin</cell>
+                                <cell>
+                                    <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000001642">Digitalisat</ref>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>Hunderterste Ausstellung – Nell Walden. Gemälde/Glasbilder, Gesamtschau des
+                                    Sturm</cell>
+                                
+                                <cell>Berlin</cell>
+                                <cell>
+                                    <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000001656">Digitalisat</ref>
+                                </cell>
+                            </row>                   
+                            <row>
+                                <cell>Hundertzweite Ausstellung – Jacoba van Heemskerck. Gemälde/Aquarelle, Gesamtschau des
+                                    Sturm</cell>
+                                
+                                <cell>Berlin</cell>
+                                <cell>
+                                    <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000001661">Digitalisat</ref>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>Hundertdritte Ausstellung – Erich Buchholz. Gemälde/Aquarelle/Holzbilder.
+                                    Versteigerungsausstellung. Werke (Bilder und Graphik) der Meister des Staatlichen Bauhauses Weimar. Sturm-Gesamtschau</cell>
+                                
+                                <cell>Berlin</cell>
+                                <cell>
+                                    <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000001815">Digitalisat</ref>
+                                </cell>
+                            </row>
+                        </table>
+
+                        <ab rend="h5" style="year" xml:id="y1922">1922</ab>
+                        <table type="packed">
+                            <row rend="th">
+                                <cell>Titel</cell>
+                                <cell>Ort</cell>
+                                <cell>ZIK</cell>
+                            </row>
+                            <row>
+                                <cell>Hundertvierte Ausstellung – Arnold Topp, Adolf Bauer-Saar. Gemälde/Aquarelle.
+                                    Gesamtschau des Sturm</cell>
+                                
+                                <cell>Berlin</cell>
+                                <cell>
+                                    <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000001681">Digitalisat</ref>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>Hundertfünfte Ausstellung – Moholy-Nagy, Peri, Gesamtschau des Sturm</cell>
+                                
+                                <cell>Berlin</cell>
+                                <cell>
+                                    <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000001695">Digitalisat</ref>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>Hundertsechste Ausstellung – Willi Baumeister, Fernand Léger. Gemälde/Aquarelle.
+                                    Gesamtschau des Sturm</cell>
+                                
+                                <cell>Berlin</cell>
+                                <cell>
+                                    <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000001707">Digitalisat</ref>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>Hundertsiebente Ausstellung – Georg von Poschedajew. Entwürfe für Theaterdekorationen
+                                    und Kostüme, Gesamtschau des Sturm</cell>
+                                
+                                <cell>Berlin</cell>
+                                <cell>
+                                    <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000001719">Digitalisat</ref>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>Hundertachte Ausstellung – Kurt Schwitters, L. Kosinzova-Ehrenburg, Gesamtschau des
+                                    Sturm</cell>
+                                
+                                <cell>Berlin</cell>
+                                <cell>
+                                    <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000001727">Digitalisat</ref>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>Hundertneunte Ausstellung – Albert Gleizes, Walter Krug/Pa-Fa-Ma</cell>
+                                
+                                <cell>Berlin</cell>
+                                <cell>
+                                    <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000001735">Digitalisat</ref>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>Hundertzehnte Ausstellung – Gösta Adrian-Nilsson, Zadkine</cell>
+                                
+                                <cell>Berlin</cell>
+                                <cell>
+                                    <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000001743">Digitalisat</ref>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>Hundertelfte Ausstellung – Serge Charchoune, Helene Grünhoff. Sturm-Gesamtschau</cell>
+                                
+                                <cell>Berlin</cell>
+                                <cell>
+                                    <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000001754">Digitalisat</ref>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>Hundertzwölfte Ausstellung – Louis Marcoussis. Gemälde/Aquarelle/Glasbilder.
+                                    Sturm-Gesamtschau</cell>
+                                
+                                <cell>Berlin</cell>
+                                <cell>
+                                    <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000001768">Digitalisat</ref>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>Hundertdreizehnte Ausstellung – Johannes Itten. Gemälde/Aquarelle,
+                                    Zeichnungen/Plastiken</cell>
+                                
+                                <cell>Berlin</cell>
+                                <cell>
+                                    <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000001778">Digitalisat</ref>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>Hundertvierzehnte Ausstellung – Alexander Bortnyik, Paul Fuhrmann, Oscar Nerlinger.
+                                    Gemälde/Aquarelle/Zeichnungen, Gesamtschau</cell>
+                                
+                                <cell>Berlin</cell>
+                                <cell>
+                                    <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000001787">Digitalisat</ref>
+                                </cell>
+                            </row>
+                        </table>
+
+                        <ab rend="h5" style="year" xml:id="y1923">1923</ab>
+                        <table type="packed">
+                            <row rend="th">
+                                <cell>Titel</cell>
+                                <cell>Ort</cell>
+                                <cell>ZIK</cell>
+                            </row>
+                            <row>
+                                <cell>Hundertfünfzehnte Ausstellung – Johannes Molzahn, Robert Michel.
+                                    Gemälde/Aquarelle/Zeichnungen/Holzschnitte, Gesamtschau</cell>
+                                
+                                <cell>Berlin</cell>
+                                <cell>
+                                    <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000001796">Digitalisat</ref>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>Hundertsechzehnte Ausstellung – Moholy-Nagi, Peri.
+                                    Gemälde/Aquarelle/Zeichnungen/Plastiken, Gesamtschau</cell>
+                                
+                                <cell>Berlin</cell>
+                                <cell>
+                                    <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000001808">Digitalisat</ref>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>Hundertachtzehnte Ausstellung – M. H. Maxy/Bukarest. Gemälde, Gesamtschau</cell>
+                                
+                                <cell>Berlin</cell>
+                                <cell>
+                                    <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000003460">Digitalisat</ref>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>Hundertneunzehnte Ausstellung – Emilio Pettoruti/Buenos Aires, Robert
+                                    Storm-Petersen/Kopenhagen, Gesamtschau</cell>
+                                
+                                <cell>Berlin</cell>
+                                <cell>
+                                    <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000001824">Digitalisat</ref>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>Hundertzwanzigste Ausstellung – T. Zarnower/Warschau, M. Szczuka/Warschau, Aurel
+                                    Bernáth/Berlin, Lothar Schreyer/Weimar</cell>
+                                
+                                <cell>Berlin</cell>
+                                <cell>
+                                    <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000001838">Digitalisat</ref>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>Hunderteinundzwanzigste Ausstellung – Gesamtschau</cell>
+                                
+                                <cell>Berlin</cell>
+                                <cell>
+                                    <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000001843">Digitalisat</ref>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>Die jungen Dänen/Gastausstellung [122. Ausstellung]</cell>
+                                
+                                <cell>Berlin</cell>
+                                <cell>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>Hundertdreiundzwanzigste Ausstellung – Arnold Topp, Wilhelm Wulff, Die jungen Dänen,
+                                    Sturm-Gesamtschau</cell>
+                                
+                                <cell>Berlin</cell>
+                                <cell>
+                                    <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000001853">Digitalisat</ref>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>Ekspressionister og Kubister. Kristiania, C.W. Blomqvist Kunsthandel</cell>
+                                
+                                <cell>Oslo</cell>
+                                <cell>
+                                    <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000003000">Digitalisat</ref>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>International Konst. Ekspressionister och Kubister. Malerier/Grafik och Skulpturer</cell>
+                                
+                                <cell>Göteborg</cell>
+                                <cell>
+                                    <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000002943">Digitalisat</ref>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>Hundertfünfundzwanzigste Ausstellung – Ernst Oscar Albrecht, Anne Reibstein-Albrecht,
+                                    Sturm-Gesamtschau</cell>
+                                
+                                <cell>Berlin</cell>
+                                <cell>
+                                    <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000001865">Digitalisat</ref>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>Hundertsechsundzwanzigste Ausstellung – Béla Kádár. Ölgemälde/Pastelle,
+                                    Aquarelle/Zeichnungen, Sturm-Gesamtschau</cell>
+                                
+                                <cell>Berlin</cell>
+                                <cell>
+                                    <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000001875">Digitalisat</ref>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>International Konst. Ekspressionister og Kubister. Malerier og Skulpturer. Udstillide I. Ole Haslunds Hus</cell>
+                                
+                                <cell>Kopenhagen</cell>
+                                <cell>
+                                    <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000002999">Digitalisat</ref>
+                                </cell>
+                            </row>  
+                        </table>
+
+                        <ab rend="h5" style="year" xml:id="y1924">1924</ab>
+                        <table type="packed">
+                            <row rend="th">
+                                <cell>Titel</cell>
+                                <cell>Ort</cell>
+                                <cell>ZIK</cell>
+                            </row>
+                           
+                            
+                            <row>
+                                <cell>Hundertsiebenundzwanzigste Ausstellung – Hugo Scheiber. Zeichnungen, Béla Kádár.
+                                    Ölgemälde/Pastelle/Aquarelle/Zeichnungen. Gewebe aus Alt-Peru. Sturm-Gesamtschau</cell>
+                                
+                                <cell>Berlin</cell>
+                                <cell>
+                                    <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000001882">Digitalisat</ref>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>Hundertachtundzwanzigste Ausstellung – Moholy-Nagy, Hugo Scheiber. Gewebe aus
+                                    Alt-Peru. Sturm-Gesamtschau</cell>
+                                
+                                <cell>Berlin</cell>
+                                <cell>
+                                    <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000002242">Digitalisat</ref>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>Hundertneunundzwanzigste Ausstellung – Jacoba van Heemskerck. Gedächtnis-Ausstellung.
+                                    Sturm-Gesamtschau</cell>
+                                
+                                <cell>Berlin</cell>
+                                <cell>
+                                    <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000002250">Digitalisat</ref>
+                                </cell>
+                            </row>
+                            
+                            <row>
+                                <cell>Hunderteinunddreissigste Ausstellung – Ludwig Kassák, Nikolaus Braun. Sturm-Gesamtschau</cell>
+                                
+                                <cell>Berlin</cell>
+                                <cell>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>Ausstellung Der Sturm. Expressionismus Futurismus Kubismus</cell>
+                                
+                                <cell>Gera</cell>
+                                <cell>
+                                    <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000002931">Digitalisat</ref>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>Hundertzweiunddreissigste Ausstellung – Aurel Bernáth, Adolf Bauer-Saar, Benjamin
+                                    Ferenczy. Sturm-Gesamtschau</cell>
+                                
+                                <cell>Berlin</cell>
+                                <cell>
+                                    <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000002404">Digitalisat</ref>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>Hundertzweiunddreissigste Ausstellung – Sonderausstellung Henryk Berlewi,
+                                    Warschau</cell>
+                                
+                                <cell>Berlin</cell>
+                                <cell>
+                                    <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000002269">Digitalisat</ref>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>Sturm-Gesamtschau. Jena, Kunstverein Jena im Prinzessinnenschlößchen</cell>
+                                
+                                <cell>Jena</cell>
+                                <cell>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>Hundertdreiunddreissigste Ausstellung – Gesamtschau</cell>
+                                
+                                <cell>Berlin</cell>
+                                <cell>
+                                    <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000002418">Digitalisat</ref>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>Hundertvierunddreissigste Ausstellung – Waldemar Eckertz, Paul Fuhrmann. Sturm-Gesamtschau</cell>
+                                
+                                <cell>Berlin</cell>
+                                <cell/>
+                            </row>
+                            <row>
+                                <cell>Hundertfünfunddreissigste Ausstellung – Peri, Hilberseimer, Nell Walden</cell>
+                                
+                                <cell>Berlin</cell>
+                                <cell>
+                                    <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000002422">Digitalisat</ref>
+                                </cell>
+                            </row>
+                           
+                            <row>
+                                <cell>Hundertsechsunddreissigste Ausstellung – Béla Kádár, Lothar Schreyer.
+                                    Gesamtschau</cell>
+                                
+                                <cell>Berlin</cell>
+                                <cell>
+                                    <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000002430">Digitalisat</ref>
+                                </cell>
+                            </row>
+                        </table>
+
+                        <ab rend="h5" style="year" xml:id="y1925">1925</ab>
+                        <table type="packed">
+                            <row rend="th">
+                                <cell>Titel</cell>
+                                <cell>Ort</cell>
+                                <cell>ZIK</cell>
+                            </row>
+                            <row>
+                                <cell>Hundertsiebenunddreissigste Ausstellung – Walter Dexel, Scheinesson.
+                                    Gesamtschau</cell>
+                                
+                                <cell>Berlin</cell>
+                                <cell>
+                                    <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000002442">Digitalisat</ref>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>Hundertachtunddreissigste Ausstellung – Otto Nebel, Kurt Schwitters.
+                                    Gesamtschau</cell>
+                                
+                                <cell>Berlin</cell>
+                                <cell>
+                                    <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000002457">Digitalisat</ref>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>Hundertneununddreissigste Ausstellung – Moholy-Nagy, Hugo Scheiber, Gesamtschau</cell>
+                                
+                                <cell>Berlin</cell>
+                                <cell>
+                                    <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000002463">Digitalisat</ref>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>Hundertvierzigste Ausstellung – Oscar Nerlinger, Adolf Küthe, Hugo Scheiber.
+                                    Gesamtschau</cell>
+                                
+                                <cell>Berlin</cell>
+                                <cell>
+                                    <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000003051">Digitalisat</ref>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>Hunderteinundvierzigste Ausstellung – Webereien der Werkstatt Hablik-Lindemann, Gesamtschau</cell>
+                                
+                                <cell>Berlin</cell>
+                                <cell>
+                                    <ref target="https://digi.ub.uni-heidelberg.de/diglit/walden1925b">Digitalisat</ref>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>Hundertzweiundvierzigste Ausstellung – Wiederhold, Gesamtschau</cell>
+                                
+                                <cell>Berlin</cell>
+                                <cell>
+                                    <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000002476">Digitalisat</ref>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>Hundertvierundvierzigste Ausstellung – Gruppe K, Carl-Heinz Kroll, Max Olderock.
+                                    Gesamtschau</cell>
+                                
+                                <cell>Berlin</cell>
+                                <cell>
+                                    <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000002485">Digitalisat</ref>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>Hundertfünfundvierzigste Ausstellung – Jan Zrzavy. Gemälde. Plakate der I.V.</cell>
+                                
+                                <cell>Berlin</cell>
+                                <cell>
+                                    <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000002493">Digitalisat</ref>
+                                </cell>
+                            </row>
+                        </table>
+
+                        <ab rend="h5" style="year" xml:id="y1926">1926</ab>
+                        <table type="packed">
+                            <row rend="th">
+                                <cell>Titel</cell>
+                                <cell>Ort</cell>
+                                <cell>ZIK</cell>
+                            </row>
+                            <row>
+                                <cell>Expressionisten. Hugo Scheiber, Arnold Topp</cell>
+                                
+                                <cell>Berlin</cell>
+                                <cell>
+                                    
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>Kurt Schwitters, Lajos Ebneth, Arnold Topp</cell>
+                                
+                                <cell>Berlin</cell>
+                                <cell>
+                                    
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>International Exhibition of Modern Art Assembled by Société Anonyme, Brooklyn Museum</cell>
+                                
+                                <cell>New York</cell>
+                                <cell>
+                                    <ref target="https://brbl-dl.library.yale.edu/vufind/Record/3523975">Digitalisat</ref>
+                                </cell>
+                            </row>
+                        </table>
+
+                        <ab rend="h5" style="year" xml:id="y1927">1927</ab>
+                        <table type="packed">
+                            <row rend="th">
+                                <cell>Titel</cell>
+                                <cell>Ort</cell>
+                                <cell>ZIK</cell>
+                            </row>
+                            <row>
+                                <cell>Ausstellung Hugo Scheiber</cell>
+                                
+                                <cell>Berlin</cell>
+                                <cell>
+                                    
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>Ausstellung J.D. Kirschenbaum. Gemälde/Aquarelle, Zeichnungen</cell>
+                                
+                                <cell>Berlin</cell>
+                                <cell>
+                                    <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000002695">Digitalisat</ref>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>Ausstellung Alexandra Exter</cell>
+                                
+                                <cell>Berlin</cell>
+                                <cell>
+                                    <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000002707">Digitalisat</ref>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>Neue Werke von Hugo Scheiber. Budapest</cell>
+                                
+                                <cell>Berlin</cell>
+                                <cell>
+                                   
+                                </cell>
+                            </row>
+                        </table>
+
+                        <ab rend="h5" style="year" xml:id="y1928">1928</ab>
+                        <table type="packed">
+                            <row rend="th">
+                                <cell>Titel</cell>
+                                <cell>Ort</cell>
+                                <cell>ZIK</cell>
+                            </row>
+                            <row>
+                                <cell>Hugo Scheiber. Kurt Schwitters</cell>
+                                <cell>Berlin</cell>
+                                <cell>
+                                </cell>
+                            </row>
+                        </table>
+
+                        <ab rend="h5" style="year" xml:id="y1929">1929</ab>
+                        <table type="packed">
+                            <row rend="th">
+                                <cell>Titel</cell>
+                                <cell>Ort</cell>
+                                <cell>ZIK</cell>
+                            </row>
+                            <row>
+                                <cell>Carl Buchheister Abstrakte Gemälde</cell>
+                                <cell>Berlin</cell>
+                                <cell>
+                                    
+                                </cell>
+                            </row>
+                        </table>
+                        
+                        <ab rend="h5" style="year" xml:id="y1930">1930</ab>
+                        <table type="packed">
+                            <row rend="th">
+                                <cell>Titel</cell>
+                                <cell>Ort</cell>
+                                <cell>ZIK</cell>
+                            </row>
+                            <row>
+                                <cell>Boriska Polgár, Scheiber</cell>
+                                <cell>Berlin</cell>
+                                
+                                <cell/>
+                            </row>
+                        </table>
+
+                        <ab rend="h5" style="year" xml:id="y1931">1931</ab>
+                        <table type="packed">
+                            <row rend="th">
+                                <cell>Titel</cell>
+                                <cell>Ort</cell>
+                                <cell>ZIK</cell>
+                            </row>
+                            <row>
+                                <cell>2. Vagabundenkunstausstellung</cell>
+                                <cell>Berlin</cell>
+                                <cell>
+                                    
+                                </cell>
+                            </row>
+                           
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

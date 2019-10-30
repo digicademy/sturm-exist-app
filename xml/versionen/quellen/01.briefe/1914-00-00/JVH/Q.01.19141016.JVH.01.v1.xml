@@ -1,0 +1,169 @@
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Q.01.19141016.JVH.01">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Jacoba van Heemskerck an Herwarth Walden, 16. Oktober 1914, 35, Nassau
+                    Zuilensteinstraat, Den Haag</title>
+                <editor>
+                    <persName ref="https://orcid.org/0000-0003-2423-7144">
+                        <forename>Marjam</forename>
+                        <surname>Trautmann</surname>
+                    </persName>
+                </editor>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0002-0953-2818">
+                        <forename>Torsten</forename>
+                        <surname>Schrade</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeber</note>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0003-2423-7144">
+                        <forename>Marjam</forename>
+                        <surname>Trautmann</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeberin</note>
+                    </resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="http://www.adwmainz.de">Akademie der Wissenschaften und der
+                        Literatur | Mainz</ref>
+                </publisher>
+                <pubPlace ref="http://sws.geonames.org/2874225">Mainz</pubPlace>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/"> This file is
+                        licensed under the terms of the Creative-Commons-License CC BY 4.0
+                    </licence>
+                </availability>
+                <idno type="file">Q.01.19141016.JVH.01.v1.xml</idno>
+                <idno type="uri">https://sturm-edition.de/id/Q.01.19141016.JVH.01</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Q.01.19141016.JVH.01, Jacoba van Heemskerck an Herwarth Walden, 16. Oktober
+                    1914, 35, Nassau Zuilensteinstraat, Den Haag, bearbeitet von Marjam Trautmann,
+                    in: Der STURM. Digitale Quellenedition zur Geschichte der internationalen
+                    Avantgarde, erarbeitet und herausgegeben von Marjam Trautmann 
+                    und Torsten Schrade. Mainz, Akademie der Wissenschaften und der Literatur.</bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <country>DE</country>
+                        <settlement>Berlin</settlement>
+                        <repository>Staatsbibliothek zu Berlin Preußischer Kulturbesitz,
+                            Handschriftenabteilung, Sturm-Archiv I, Heemskerck, Jacoba
+                            van</repository>
+                        <idno type="uri">http://kalliope-verbund.info/DE-611-HS-1910668</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <xenoData type="uri">http://digital.staatsbibliothek-berlin.de/metsresolver/PPN746594283</xenoData>
+        <profileDesc>
+            <correspDesc key="Bl.29-30" ref="https://sturm-edition.de/id/Q.01.19141016.JVH.01">
+                <correspAction type="sent">
+                    <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jacoba van
+                        Heemskerck</persName>
+                    <placeName key="O.0000001" ref="http://sws.geonames.org/2747373">35, Nassau
+                        Zuilensteinstraat, Den Haag</placeName>
+                    <date when="1914-10-16"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth
+                        Walden</persName>
+                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change>
+                    <date when="2018-07-16" n="1"/>
+                </change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic n="29r" url="http://content.staatsbibliothek-berlin.de/dms/PPN746594283/800/0/00000001.jpg"/>
+        <graphic n="29v" url="http://content.staatsbibliothek-berlin.de/dms/PPN746594283/800/0/00000002.jpg"/>
+        <graphic n="30r" url="http://content.staatsbibliothek-berlin.de/dms/PPN746594283/800/0/00000003.jpg"/>
+        <graphic n="30v" url="http://content.staatsbibliothek-berlin.de/dms/PPN746594283/800/0/00000004.jpg"/>
+        <graphic n="Farbkeil" url="http://content.staatsbibliothek-berlin.de/dms/PPN746594283/800/0/00000005.jpg"/>
+    </facsimile>
+    <text type="letter">
+        <body>
+            <div type="content">
+                <pb xml:id="S.29r" n="29r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D95600000001"/>
+                <opener>
+                    <dateline>
+                        <date when="1914-10-16">16. Oct: 1914.</date>
+                    </dateline>
+                    <salute>Sehr geehrter Herr <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Walden</persName>
+                    </salute>
+                </opener>
+
+                <p>Viel Dank für Ihr Brief vom <date when="1914-10-13">13. October</date> eben
+                    erhalten Morgen schicke ich Ihnen drei Holzstöcke und 30 schwarz Drucke und 15
+                    farbige Drucke, eingeschlossen für Ihre <persName key="P.0000002" ref="http://d-nb.info/gnd/118891456">Frau</persName> 3 schwarz und 3 farbige
+                    Drucke. Dann schicke ich mit 11 Photos mit die nummer der Bilder die Bilder
+                    werde ich dann auch mit die Zettel vom Sturm nummerieren Wie wir in <placeName key="O.0000004" ref="http://sws.geonames.org/2756746">Domburg</placeName>
+                    verabredeten werde ich meine Bilder kein Name aber<pb xml:id="S.29v" n="29v" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D95600000002"/> ein
+                    Nummer geben und dann die Zeichnungen auch von 1. ab nummerieren. Jetzt bin ich
+                    sehr beschäftigt mit neue Holzschnitten und hoffe in ein oder anderthalb Monat
+                    Ihnen wieder neue Drucke schicken zu können wenn die Ihnen dann gefallen dann
+                    können Sie die Holzstöcke zur Reproduction in die <term type="journal" key="W.0000068" ref="http://d-nb.info/gnd/4058273-5">Sturm</term> bekommen
+                    Morgen schicke ich Ihnen wieder Zeitungen auch „<term type="newspaper" key="W.0000057">De Nieuwe Courant</term>“ ich lese immer beide <term type="newspaper" key="W.0000077" ref="http://www.wikidata.org/entity/Q1989439">Rotterdammer</term> und <term type="newspaper" key="W.0000057">Nieuwe Courant</term> ich schicke Ihnen
+                    aber immer de <term type="newspaper" key="W.0000077" ref="http://www.wikidata.org/entity/Q1989439">Rotterdammer</term> da ich die
+                    Zeitung bedeutend besser finde. Ich schicke dazu<pb xml:id="S.30r" n="30r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D95600000003"/> ein
+                    Nummer von <date when="1914-10-09">9. October</date> und habe angestrichen was
+                    man sagt über dasz schicken von Briefen von <placeName key="O.0000014" ref="http://sws.geonames.org/2921044">Deutschland</placeName> man hat aber
+                    einige Tage später wieder geschrieben dasz es nicht wahr ist.</p>
+                <p>Es ist schrecklich so viele Belgier hier sind, ich liebe das volk gar nicht man
+                    ist hier übertrieben freundlich.<note>Zahlreiche Belgier flohen seit der
+                        deutschen Invasion im August 1914 vor allem nach Großbritannien, Frankreich
+                        und in die Niederlande. Der Vormarsch der deutschen Truppen in Belgien war
+                        mit brutalen Übergriffen auf die Zivilbevölkerung verbunden, mit
+                        Geiselnahmen (auch Geiselerschießungen) und Deportationen belgischer Bürger
+                        zur Zwangsarbeit nach Deutschland. Die kämpferischen Auseinandersetzungen um
+                        Antwerpen im Oktober 1914 verursachten die Flucht von knapp 1. Mio. Belgiern
+                        in die niederländische Provinz Holland (zu der auch Domburg/Zeeland gehört).
+                        Insgesamt erreichte die Zahl der belgischen Flüchtlinge im Sommer und Herbst
+                        1914 etwa 1,5 Mio. Viele von ihnen kehrten zu Beginn des neuen Jahres wieder
+                        zurück, da die Deutschen Besatzer in Gent ein Dekret erließen, das die
+                        Konfiszierung des Eigentums der Geflüchteten erlaubte, wenn diese nicht bis
+                        zum 1. März 1915 zurückkehrten. Auch die niederländische Regierung setzte
+                        die Flüchtlinge unter Druck, in ihr Heimatland zurückzukehren, so dass deren
+                        Zahl dort im Sommer 1915 auf 85,000 gesunken war. Sie fürchteten, dass die
+                        Aufnahme von Flüchtlingen ihre Neutralität gefährde. Das erste
+                        Internierungslager für belgische Flüchtlinge in den Niederlanden wurde im
+                        November 1914 gegründet, wo diese unter unzureichender Beheizung und
+                        medizinischer Versorgung in gefängnisähnlichen Zuständen leben mussten. Vgl.
+                        Daniel, Ute: Frauen. In: Enzyklopädie Erster Weltkrieg. Hrsg. v. Gerhard
+                        Hirschfeld [u.a.]. Paderborn [u.a.] 2004, S. 116–134, hier S. 117 u. S. 126;
+                        Blom, J.C.H.: Niederlande. In: Enzyklopädie Erster Weltkrieg. Hrsg. v.
+                        Gerhard Hirschfeld [u.a.]. Paderborn [u.a.] 2004, S. 738–741, hier S. 740;
+                        Amara, Michaël: Refugees (Belgium). In: 1914-1918-online. International
+                        Encyclopedia of the First World War. Hrsg. v. Ute Daniel [u.a.]. Berlin
+                        2014; Gartell, Peter; Nivet, Philippe: Refugees and Exiles. In: The
+                        Cambridge History of the First World War. Bd. 3, Civil Society. Hrsg. v. Jay
+                        Winter. Cambridge 2014, S.186–251, hier S. 189f. u. 194f.</note> Der Krieg
+                    geht prachtvoll viel Dank für die Zeitungen</p>
+
+                <closer>
+                    <salute>Mit herzlichsten Grüssen für Sie beiden</salute>
+                    <signed>Ihr <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Ja<hi rend="underline">coba vanHeemskerck</hi>
+                        </persName>
+                    </signed>
+                </closer>
+                <postscript>
+                    <p>Bitte schreiben Sie ob Sie alles richtig erhalten habe.</p>
+                </postscript>
+            </div>
+        </body>
+    </text>
+</TEI>

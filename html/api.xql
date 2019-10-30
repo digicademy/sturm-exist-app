@@ -4,7 +4,7 @@ xquery version "3.0";
  : DER STURM
  : A Digital Edition of Sources from the International Avantgarde
  :
- : Edited and developed by Marjam Mahmoodzada and Torsten Schrade
+ : Edited and developed by Marjam Trautmann and Torsten Schrade
  : Academy of Sciences and Literature | Mainz
  :
  : XQuery based REST API
@@ -53,10 +53,16 @@ declare function sturm_api:getResourceCollection($type as xs:string, $format as 
             doc('../xml/register/werke.xml')
         else if ($type eq 'files') then
             <files>{(
-                collection(concat($appRoot, $appName, '/xml/seiten/'))//tei:publicationStmt/tei:idno,
-                collection(concat($appRoot, $appName, '/xml/register/'))//tei:publicationStmt/tei:idno,
-                collection(concat($appRoot, $appName, '/xml/quellen/01.briefe/'))//tei:publicationStmt/tei:idno[@type = 'file'],
-                collection(concat($appRoot, $appName, '/xml/versionen/quellen/01.briefe/'))//tei:publicationStmt/tei:idno[@type = 'file']
+                for $page in collection(concat($appRoot, $appName, '/xml/seiten/'))
+                    return <idno key="{$page//tei:TEI/@xml:id}" type="page" version="{$page//tei:change[1]/tei:date/@n}">{concat('S.', substring-after(util:document-name($page), 'S.'))}</idno>,
+                for $versionedPage in collection(concat($appRoot, $appName, '/xml/versionen/seiten/'))
+                    return <idno key="{$versionedPage//tei:TEI/@xml:id}" type="page" version="{$versionedPage//tei:change[1]/tei:date/@n}">{concat('S.', substring-after(util:document-name($versionedPage), 'S.'))}</idno>,
+                for $register in collection(concat($appRoot, $appName, '/xml/register/'))
+                    return <idno key="{replace(util:document-name($register), '.xml', '')}" type="register" version="1">{util:document-name($register)}</idno>,
+                for $letter in collection(concat($appRoot, $appName, '/xml/quellen/01.briefe/'))
+                    return <idno key="{$letter//tei:TEI/@xml:id}" type="letter" version="{$letter//tei:change[1]/tei:date/@n}">{util:document-name($letter)}</idno>,
+                for $versionedLetter in collection(concat($appRoot, $appName, '/xml/versionen/quellen/01.briefe/'))
+                    return <idno key="{$versionedLetter//tei:TEI/@xml:id}" type="letter" version="{$versionedLetter//tei:change[1]/tei:date/@n}">{util:document-name($versionedLetter)}</idno>
             )}</files>
         else ()
 
@@ -82,26 +88,21 @@ declare function sturm_api:getResourceCollection($type as xs:string, $format as 
 
 declare function sturm_api:getResourceByIdentifier($identifier as xs:string, $type as xs:string, $format as xs:string) {
 
+    let $processedFileIndex := doc(concat($appRoot, $appName, '/temp/processed.xml'))
+
     let $resource := 
         if ($type eq 'letter') then
-            doc('../xml/register/briefe.xml')//tei:item[@xml:id = $identifier]
+            doc(concat($appRoot, $appName, '/xml/register/briefe.xml'))//tei:item[@xml:id = $identifier]
         else if ($type eq 'person') then
-            doc('../xml/register/personen.xml')//tei:person[@xml:id = $identifier]
+            doc(concat($appRoot, $appName, '/xml/register/personen.xml'))//tei:person[@xml:id = $identifier]
         else if ($type eq 'place') then
-            doc('../xml/register/orte.xml')//tei:place[@xml:id = $identifier]
+            doc(concat($appRoot, $appName, '/xml/register/orte.xml'))//tei:place[@xml:id = $identifier]
         else if ($type eq 'work') then
-            doc('../xml/register/werke.xml')//tei:item[@xml:id = $identifier]
+            doc(concat($appRoot, $appName, '/xml/register/werke.xml'))//tei:item[@xml:id = $identifier]
         else if ($type eq 'file') then
-            let $fileIndex :=
-                <files>{(
-                    for $page in collection(concat($appRoot, $appName, '/xml/seiten/'))//tei:publicationStmt/tei:idno
-                        return <file id="{$page}" ref="{concat($appRoot, $appName, '/xml/seiten/', $page)}" />,
-                    for $register in collection(concat($appRoot, $appName, '/xml/register/'))//tei:publicationStmt/tei:idno
-                        return <file id="{$register}" ref="{concat($appRoot, $appName, '/xml/register/', $register)}" />,
-                    sturm_api:getSourcesFileIndex('/xml/quellen/01.briefe/'),
-                    sturm_api:getSourcesFileIndex('/xml/versionen/quellen/01.briefe/')
-                )}</files>
-            return doc($fileIndex//file[@id = $identifier]/@ref)
+            if ($processedFileIndex//processed[@filekey = $identifier]) then
+                doc($processedFileIndex//processed[@filekey = $identifier][1]/@source)
+            else ()
         else ()
 
     let $result :=

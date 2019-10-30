@@ -827,6 +827,12 @@ div.address .addrLine {
     display: block;
 }
 
+div.attachment .content .opener {
+    overflow:auto;
+    margin-top:1rem;
+    display:inline-block;
+}
+
 .underline {
     border-bottom: 1px solid #000;
 }

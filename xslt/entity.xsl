@@ -5,7 +5,7 @@
  : DER STURM
  : A Digital Edition of Sources from the International Avantgarde
  :
- : Edited and developed by Marjam Mahmoodzada and Torsten Schrade
+ : Edited and developed by Marjam Trautmann and Torsten Schrade
  : Academy of Sciences and Literature | Mainz
  :
  : Stylesheet for transformation of single pages for entities (persons, places, works).
@@ -104,6 +104,23 @@
                 </a>
             </xsl:for-each>
             </p>
+        </section>
+        <section class="four columns sidebar">
+            <nav class="subnavigation">
+                <ul>
+                    <li>
+                        <a class="{if (//tei:persName) then 'active' else 'normal'}" href="../personen.html">Personenregister</a>
+                    </li>
+                    <li>
+                        <a class="{if (//tei:placeName) then 'active' else 'normal'}" href="../orte.html">Ortsregister</a>
+                    </li>
+                    <li>
+                        <a class="{if (//tei:name) then 'active' else 'normal'}" href="../werke.html">Werkregister</a>
+                    </li>
+                </ul>
+            </nav>
+        </section>
+        <section class="twelve columns sidebar">
             <div class="info">
                 <p>
                     <strong>Zitierhinweis:</strong>
@@ -127,21 +144,6 @@
                     Freie Verwendung unter Angabe von Zitierhinweis, Permalink und Kenntlichmachung von Änderungen.
                 </p>
             </div>
-        </section>
-        <section class="four columns sidebar">
-            <nav class="subnavigation">
-                <ul>
-                    <li>
-                        <a class="{if (//tei:persName) then 'active' else 'normal'}" href="../personen.html">Personenregister</a>
-                    </li>
-                    <li>
-                        <a class="{if (//tei:placeName) then 'active' else 'normal'}" href="../orte.html">Ortsregister</a>
-                    </li>
-                    <li>
-                        <a class="{if (//tei:name) then 'active' else 'normal'}" href="../werke.html">Werkregister</a>
-                    </li>
-                </ul>
-            </nav>
         </section>
     </xsl:template>
 

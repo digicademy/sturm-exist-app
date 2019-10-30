@@ -1,0 +1,153 @@
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Q.01.19150824.JVH.01">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Jacoba van Heemskerck an Herwarth Walden, 24. August 1915, Loverendale, Domburg</title>
+                <editor>
+                    <persName ref="https://orcid.org/0000-0003-2423-7144">
+                        <forename>Marjam</forename>
+                        <surname>Trautmann</surname>
+                    </persName>
+                </editor>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0002-0953-2818">
+                        <forename>Torsten</forename>
+                        <surname>Schrade</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeber</note>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0003-2423-7144">
+                        <forename>Marjam</forename>
+                        <surname>Trautmann</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeberin</note>
+                    </resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="http://www.adwmainz.de">Akademie der Wissenschaften und der Literatur | Mainz</ref>
+                </publisher>
+                <pubPlace ref="http://sws.geonames.org/2874225">Mainz</pubPlace>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        This file is licensed under the terms of the Creative-Commons-License CC BY 4.0
+                    </licence>
+                </availability>
+                <idno type="file">Q.01.19150824.JVH.01.v1.xml</idno>
+                <idno type="uri">https://sturm-edition.de/id/Q.01.19150824.JVH.01</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Q.01.19150824.JVH.01, Jacoba van Heemskerck an Herwarth Walden, 24. August 1915, Loverendale, Domburg, 
+                    bearbeitet von Marjam Trautmann, in: Der STURM. Digitale Quellenedition zur Geschichte der internationalen 
+                    Avantgarde, erarbeitet und herausgegeben von Marjam Trautmann und Torsten Schrade. 
+                    Mainz, Akademie der Wissenschaften und der Literatur.
+                    </bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <country>DE</country>
+                        <settlement>Berlin</settlement>
+                        <repository>Staatsbibliothek zu Berlin Preußischer Kulturbesitz,
+                     Handschriftenabteilung, Sturm-Archiv I, Heemskerck, Jacoba van</repository>
+                        <idno type="uri">http://kalliope-verbund.info/DE-611-HS-1911087</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <xenoData type="uri">http://digital.staatsbibliothek-berlin.de/metsresolver/PPN746594844</xenoData>
+        <profileDesc>
+            <correspDesc key="Bl.108-109" ref="https://sturm-edition.de/id/Q.01.19150824.JVH.01">
+                <correspAction type="sent">
+                    <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jacoba van Heemskerck</persName>
+                    <placeName key="O.0000004" ref="http://sws.geonames.org/2756746">Loverendale, Domburg</placeName>                    
+                    <date when="1915-08-24"/>               
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth Walden</persName>
+                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change>
+                    <date when="2018-07-16" n="1"/>
+                </change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic n="108r" url="http://content.staatsbibliothek-berlin.de/dms/PPN746594844/800/0/00000001.jpg"/>
+        <graphic n="108v" url="http://content.staatsbibliothek-berlin.de/dms/PPN746594844/800/0/00000002.jpg"/>
+        <graphic n="109r" url="http://content.staatsbibliothek-berlin.de/dms/PPN746594844/800/0/00000003.jpg"/>
+        <graphic n="109v" url="http://content.staatsbibliothek-berlin.de/dms/PPN746594844/800/0/00000004.jpg"/>
+        <graphic n="Farbkeil" url="http://content.staatsbibliothek-berlin.de/dms/PPN746594844/800/0/00000005.jpg"/>
+    </facsimile>
+    <text type="letter">
+        <body>
+            <div type="content">
+            <pb xml:id="S.108r" n="108r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D97D00000001"/>
+            
+                <opener>
+                    <dateline>
+                        <date when="1915-08-24">
+                            <hi rend="underline">24. Aug:
+                  1915</hi>
+                        </date>
+                    </dateline>
+                    <salute>Sehr wehrter Herr <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Walden</persName>
+                    </salute>
+                </opener>
+                <p>Sehr viel Dank für Ihren Brief von <date when="1915-08-20">20. Aug:</date> So
+               liebenswürdig dass Sie mein <term type="artwork" key="W.0000004">Holzschnitt</term>
+                    richtiggestellt wiederholen lassen in <term type="journal" key="W.0000068" source="https://doi.org/10.11588/diglit.37113.8" ref="http://d-nb.info/gnd/4058273-5">nächsten Nummer</term>
+                    <note>Walden, Herwarth [Hrsg.]: Der Sturm.
+                  Halbmonatsschrift für Kultur und die Künste 13/14 (1915), S. 1.</note>, ich finde
+               es sehr angenehm da es doch so meine idee war und dann falsch gestellt ein andere
+               Eindruck macht. So schön dass die Räume<pb xml:id="S.108v" n="108v" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D97D00000002"/>
+               vergrössert sind, gern möchte ich hinkommen um alles zu sehen aber leider kein Geld.</p>
+                <p>Es geht ja sehr gut gegen <placeName key="O.0000020" ref="http://sws.geonames.org/2017370">Russland</placeName> und ich denke bald hören wir wieder viel mehr.<note>Am 4./5.
+                  August 1915 wurde Warschau durch deutsche Truppen eingenommen. Am 26. August 1915 eroberte
+                  die deutsche Bug-Armee Brest-Litowsk. Vgl. Stone, Norman: Bug-Offensive. In:
+                  Enzyklopädie Erster Weltkrieg. Hrsg. v. Gerhard Hirschfeld [u.a.]. Paderborn
+                  [u.a.] 2004, S. 398–399; Frank, Susanne: Chronik 1914-1918. In: Enzyklopädie
+                  Erster Weltkrieg. Hrsg. v. Gerhard Hirschfeld [u.a.]. Paderborn [u.a.] 2004,
+                  S. 1061–1070, hier S. 1065.</note> Ich lese alle mögliche Brochüren über den
+               Kriege es kommt jetzt so viel interessantes in <placeName key="O.0000014" ref="http://sws.geonames.org/2921044">Deutschland</placeName> aus. und man muss
+               diese ernste Zeit ganz in sich aufnehmen da es uns ganzes Wesen berührt. Ich kan
+               nicht verstehen dass Künstler so ganz gleichgültig<pb xml:id="S.109r" n="109r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D97D00000003"/> bleiben
+               können, so viele hier denken gar nicht darüber. Wir fühlen doch so sehr stark das
+               rüttelen an alles und uns schaffen muss intenser, tiefer mehr bewegt werden. Wirklich
+               es ist viel besser wenig Menschen und gar kein Künstler zu sehen. Jetzt, hier über
+               die Ausstellung grosse Wut wegen mein <hi rend="underline">nicht</hi> ausstellen und
+               wegen mein grosse Bewunderung für <placeName key="O.0000014" ref="http://sws.geonames.org/2921044">Deutschland</placeName> über dass alles werde ich Ihnen später viel schönes
+               Erzählen. Eifersucht ist glaube ich nirgens so stark unter Künstler dann hier.</p>
+                <pb xml:id="S.109v" n="109v" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D97D00000004"/>
+                <closer>
+                    <salute>Mit herzlichsten Grüssen für Sie beiden.</salute> <salute>Ihre <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jacob<hi rend="twice-underline">a
+                        vanHeemskerck</hi>
+                        </persName>
+                    </salute>
+                </closer>
+                <postscript>
+                    <p>Hoffentlich kommt die Ausstellung in <placeName key="O.0000037" ref="http://sws.geonames.org/2673730">Stockholm</placeName>,<note>Im Oktober
+                     1915 fand in Stockholm eine STURM-Ausstellung statt. Vgl. Enders, Rainer:
+                     Ausstellungen außerhalb der Berliner Galerie. URL:
+                     <ref target="https://www.arthistoricum.net/themen/portale/sturm/ausstellungen/">https://www.arthistoricum.net/themen/portale/sturm/ausstellungen/</ref> (Aufruf
+                     06.04.2017).</note> wenn Sie die drei grosse Gemälde haben wollen dann
+                  schreiben Sie nur die stehen fertig da.</p>
+                    <p>Ich habe verschiedenen Ausländer auf dem
+                  Atelier gehabt die sehr entzückt waren. Jemand wollte bestimmt dass ich in
+                     <placeName key="O.0000040" ref="http://sws.geonames.org/3054643">Budapest</placeName>
+                  ausstelle. Ich sagte dass ich nur ausstelle wenn Sie es arrangieren</p>
+                </postscript>
+            </div>
+        </body>
+    </text>
+</TEI>

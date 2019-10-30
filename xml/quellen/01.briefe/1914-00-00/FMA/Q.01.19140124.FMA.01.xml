@@ -54,12 +54,13 @@
                         <country>DE</country>
                         <settlement>Berlin</settlement>
                         <repository>Staatsbibliothek zu Berlin Preußischer Kulturbesitz, Handschriftenabteilung, Sturm-Archiv I, Marc, Franz</repository>
-                        <idno type="uri">http://kalliope-verbund.info/DE-611-HS-1916914</idno>
+                        <idno type="uri">http://resolver.staatsbibliothek-berlin.de/SBB0000DAA600000000</idno>
                     </msIdentifier>
                 </msDesc>
             </sourceDesc>
         </fileDesc>
-        <xenoData type="uri">http://digital.staatsbibliothek-berlin.de/metsresolver/PPN746598556</xenoData>
+        <xenoData type="uri">http://kalliope-verbund.info/DE-611-HS-1916914</xenoData>
+        <xenoData type="url">http://content.staatsbibliothek-berlin.de/dc/PPN746598556.mets.xml</xenoData>
         <profileDesc>
             <correspDesc key="Bl.181" ref="https://sturm-edition.de/id/Q.01.19140124.FMA.01">
                 <correspAction type="sent">
@@ -69,12 +70,19 @@
                 </correspAction>
                 <correspAction type="received">
                     <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth Walden</persName>
-                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>                  
+                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950159">Potsdamerstrasse 134a, Berlin W.9.</placeName>                  
                 </correspAction>
             </correspDesc>
         </profileDesc>
         <revisionDesc>
             <listChange>
+                <change>
+                    <date when="2019-07-25" n="2"/>
+                    <p>URL zur METS-Datei der Staatsbibliothek zu Berlin aktualisiert innerhalb von :xenoData und zusätzliches :xenoData mit permanenter URI zum Kalliope-Findbucheintrag.</p>
+                    <p>:idno URL innerhalb von :msIdentifier durch permanente URL zum entsprechenden Datensatz der Staatsbibliothek zu Berlin gesetzt</p>
+                    <p>Standardisierung der Kommentierungstiefe, keine spezifischen Erklärungen von Fremdwörtern außerhalb des Sturm-Kontextes</p>
+                    <p>Normdaten (Geonames) zu Stadt Berlin korrigiert (zuvor fälschlicherweise Verweis auf "Land Berlin")</p>
+                </change>
                 <change>
                     <date when="2018-07-16" n="1"/>
                 </change>
@@ -108,12 +116,12 @@
                 </opener>
                 <p>Wie mir <persName key="P.0000009" ref="http://d-nb.info/gnd/118559737">Kandinsky</persName> sagt, soll die von
                     <persName key="P.0000059" ref="http://d-nb.info/gnd/2097840-6">Arnold</persName> geplante
-                Ausstelg – in <placeName key="O.0000053" ref="http://sws.geonames.org/3081368">B<hi rend="underline">resl</hi>au</placeName>
-                    <note>Ausstellung unter dem Titel "Die Futuristen"
+                    Ausstelg – in <placeName key="O.0000053" ref="http://sws.geonames.org/3081368">B<hi rend="underline">resl</hi>au</placeName>
+                    <note>Ausstellung unter dem Titel „Die Futuristen“
                             im Jahr 1914, unbekannter Monat. Vgl. Enders, Rainer: Ausstellungen außerhalb der Berliner Galerie. URL: <ref target="https://www.arthistoricum.net/themen/portale/sturm/ausstellungen/">https://www.arthistoricum.net/themen/portale/sturm/ausstellungen/</ref> (Aufruf 06.04.2017).</note> ga<hi rend="underline">nz unabhä</hi>ngig von <persName key="P.0000057" ref="http://d-nb.info/gnd/143669230">Reiche</persName> sein; – in diesem Falle kann
                 ich ja mitthun. <persName key="P.0000057" ref="http://d-nb.info/gnd/143669230">Reiche</persName> hat
                 ja bereits gehörigen Bescheid vor mir. Ich schreibe also <persName key="P.0000059" ref="http://d-nb.info/gnd/2097840-6">Arnold</persName>, daß wenn es lediglich
-                von ihm ausgeht, ich einverstanden bin, wenn die drei von ihm erbetenen Bilder n<hi rend="underline">ebeneinander p</hi>lacirt werden; von dort frei Rücksendung nach<pb xml:id="S.181v.02" n="181v" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000DAA600000001"/> <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Berlin</placeName>. Entschuldigen Sie daß ich so meine <foreign>ordre</foreign> ändere, aber ich
+                von ihm ausgeht, ich einverstanden bin, wenn die drei von ihm erbetenen Bilder n<hi rend="underline">ebeneinander p</hi>lacirt werden; von dort frei Rücksendung nach<pb xml:id="S.181v.02" n="181v" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000DAA600000001"/> <placeName key="O.0000002" ref="http://sws.geonames.org/2950159">Berlin</placeName>. Entschuldigen Sie daß ich so meine <foreign>ordre</foreign> ändere, aber ich
                 hoffe immer auf einen mögl. Verkauf. Mein Ärger richtet sich ja auch nur gegen <persName key="P.0000057" ref="http://d-nb.info/gnd/143669230">Reiche</persName> mit seinen
                 großen Reden an mich u. schwachen Thaten. Wenn also nur ein Teil der dresdner Bilder
                 bei Ihnen eintrifft, der andre später, ist es in Ordnung, in Eile

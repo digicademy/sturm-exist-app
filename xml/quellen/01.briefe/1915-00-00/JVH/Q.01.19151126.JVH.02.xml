@@ -1,0 +1,123 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Q.01.19151126.JVH.02">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Jacoba van Heemskerck an Nell Walden, 26. November 1915, Den Haag</title>
+            <editor>
+               <persName ref="http://d-nb.info/gnd/1013156242">
+                  <forename>Lea</forename>
+                  <surname>Müller-Dannhausen</surname>
+               </persName>
+            </editor>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-0953-2818">
+                  <forename>Torsten</forename>
+                  <surname>Schrade</surname>
+               </persName>
+               <resp>
+                  <note>Herausgeber</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0003-2423-7144">
+                  <forename>Marjam</forename>
+                  <surname>Trautmann</surname>
+               </persName>
+               <resp>
+                  <note>Herausgeberin</note>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.adwmainz.de">Akademie der Wissenschaften und der Literatur | Mainz</ref>
+            </publisher>
+            <pubPlace ref="http://sws.geonames.org/2874225">Mainz</pubPlace>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">This file is
+                  licensed under the terms of the Creative-Commons-License CC BY 4.0
+               </licence>
+            </availability>
+            <idno type="file">Q.01.19151126.JVH.02.xml</idno>
+            <idno type="uri">https://sturm-edition.de/id/Q.01.19151126.JVH.02</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>Q.01.19151126.JVH.02, Jacoba van Heemskerck an Nell Walden, 26. November
+               1915, Den Haag, bearbeitet von Lea Müller-Dannhausen, in: Der STURM. Digitale
+               Quellenedition zur Geschichte der internationalen Avantgarde, erarbeitet und
+               herausgegeben von Marjam Trautmann und Torsten Schrade. Mainz, Akademie der
+               Wissenschaften und der Literatur.</bibl>
+            <msDesc>
+               <msIdentifier>
+                  <country>DE</country>
+                  <settlement>Berlin</settlement>
+                  <repository>Staatsbibliothek zu Berlin Preußischer Kulturbesitz,
+                     Handschriftenabteilung, Sturm-Archiv I, Heemskerck, Jacoba
+                     van</repository>
+                  <idno type="uri">http://resolver.staatsbibliothek-berlin.de/SBB0000D98700000000</idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <xenoData type="uri">http://kalliope-verbund.info/DE-611-HS-1911223</xenoData>
+      <xenoData type="url">https://content.staatsbibliothek-berlin.de/dc/PPN746595026.mets.xml</xenoData>
+      <profileDesc>
+         <correspDesc key="Bl.125-126" ref="https://sturm-edition.de/id/Q.01.19151126.JVH.02">
+            <correspAction type="sent">
+               <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jacoba van Heemskerck</persName>
+               <placeName key="O.0000001" ref="http://sws.geonames.org/2747373">35, Nassau Zuilensteinstraat, Den Haag</placeName>
+               <date when="1915-11-26"/>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="P.0000002" ref="http://d-nb.info/gnd/118891456">Nell Walden</persName>
+               <placeName key="O.0000002" ref="http://sws.geonames.org/2950159">Potsdamerstrasse 134a, Berlin W.9.</placeName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change>
+               <date when="2019-10-30" n="1"/>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic n="125r" url="http://content.staatsbibliothek-berlin.de/dms/PPN746595026/1200/0/00000001.jpg"/>
+      <graphic n="125v" url="http://content.staatsbibliothek-berlin.de/dms/PPN746595026/1200/0/00000002.jpg"/>
+      <graphic n="126r" url="http://content.staatsbibliothek-berlin.de/dms/PPN746595026/1200/0/00000003.jpg"/>
+      <graphic n="126v" url="http://content.staatsbibliothek-berlin.de/dms/PPN746595026/1200/0/00000004.jpg"/>
+      <graphic n="Farbkeil" url="http://content.staatsbibliothek-berlin.de/dms/PPN746595026/1200/0/00000005.jpg"/>
+   </facsimile>
+   <text type="letter">
+      <body>        
+         <div type="content">
+            <pb xml:id="S.125r" n="125r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D98700000001"/>
+            <opener>
+               <dateline>
+                  <date when="1915-11-26">26. Nov: 1915.</date>
+               </dateline>
+               <salute>Liebste <persName key="P.0000002" ref="http://d-nb.info/gnd/118891456">Nell</persName>,</salute>
+            </opener>
+            <p>Dass war ein gute Nachricht <date when="1915-11-25">gestern abend</date>, ich bin so froh darüber, ich dachte schon alles ist auf immer verloren gegangen. Es ist aber schrecklich dass alles jetzt in so grosser Eile geschehen musz, hoffentlich kommt alles noch fertig. Ich bin recht glücklich dass die neue Sachen jetzt gehängt werden<pb xml:id="S.125v" n="125v" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D98700000002"/> da doch nicht mehr so sehr gute Zeichnungen auf Lager sind, die besten sind verkauft. und ich stelle immer so gern meine letzte Sachen aus. Viel, viel, Dank für deine schöne Artikeln es ist ja ein glänzende Kritik über meine Kunst, ich so innig glücklich dass du mir so ganz versteht in Worte meine tiefen Gedanken aus zu drucken fällt mir immer schwer dann schweige ich lieber aber ich fühle so bestimmt dass ich für dir<pb xml:id="S.126r" n="126r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D98700000003"/> keine Wörter brauche. Ich bin so neugierig ob man
+               <date when="1915-11-28">Sontag</date> schon mehr versteht und wie die Kritiker die Sachen aufnehmen werden, alles schreiben wenn du Zeit findest. Wie ist es in <placeName key="O.0000046" ref="http://sws.geonames.org/2945356">Brandenburg</placeName> weiter gegangen sind noch Leute in <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Berlin</placeName> gekommen. Bitte telephonier ein mahl nach  <address rend="inline">
+                        <addrLine>
+                            <persName key="P.0000027" ref="P010">Leopold Hess</persName>
+                        </addrLine> <addrLine>Genthiner Strasse 29</addrLine> <addrLine>
+                            <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Berlin</placeName> W. 35</addrLine>
+                    </address> und frage ob er die Sendung abgeschickt hat <date when="1915-11-01">1. November</date> habe ich ihm wie gewöhnlich Holzplatten bestellte und bis jetzt nichts erhalten. Frl. <persName key="P.0000008" ref="http://d-nb.info/gnd/136128289">Tak</persName> findet die kleine decke aus
+               <placeName key="O.0000033" ref="http://sws.geonames.org/2661886">Schweden</placeName> sehr schön, die farbe<pb xml:id="S.126v" n="126v" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D98700000004"/> ist wunderbar auf braun.</p>
+            <p>Ja so schön über 2. Monate in <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Berlin</placeName> zu sein. Hoffentlich ist es dann Friede aber ich glaube es noch nicht.</p>
+            <closer>In <placeName key="O.0000086" ref="http://sws.geonames.org/6290252">
+               <foreign xml:lang="du">Servie</foreign>
+            </placeName> geht es glänzend<note>Am 6. Oktober 1915 hatte eine gemeinsame Offensive österreichischer und deutscher Truppen gegen Serbien begonnen, der sich wenig später auch Bulgarien angeschlossen hatte. Ende November befanden sich die Reste der serbischen Armee auf dem Rückzug. Vgl. Hirschfeld, Gerhard: Serbien. In: Enzyklopädie Erster Weltkrieg. Hrsg. v. Gerhard Hirschfeld [u.a.]. Paderborn [u.a.] 2004, S. 833–836.</note>, <salute>für heute viel liebes</salute> <signed>deine <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">C<hi rend="twice-underline">oba</hi>
+                        </persName>.</signed>
+                </closer>
+            <postscript>
+               <p>Die Holzschnitte für dir hast du doch gefunden, hinten sind die Zeichnungen mit etiquetten numeriert und die Sturmzettel<note>Der Begriff „Sturmzettel“ ist in der Literatur nicht belegt. Van Heemskerck spricht in ihrem <ref target="Q.01.19141016.JVH.01">Brief</ref> an Walden vom 16. Oktober 1914 (Bl.29-30) davon, dass sie ihm mit Zetteln nummerierte Bilder schicken wolle: „die Bilder werde ich dann auch mit die Zettel vom Sturm nummerieren [...].“ In den folgenden Briefen ist dann von „Sturmzetteln“ die Rede. Es wird hier angenommen, dass „Sturmzettel“ Vorlagen des STURM-Unternehmens zur Bennennung und Nummerierung von Kunstwerken waren.</note> mit nummer habe ich hier herr <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Walden</persName> gegeben.</p>
+            </postscript>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,156 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Q.01.19190905.JVH.01">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Jacoba van Heemskerck an Herwarth Walden, 5. September 1919, Domburg</title>
+                <editor>
+                    <persName ref="https://orcid.org/0000-0003-1208-6131">
+                        <forename>Anne</forename>
+                        <surname>Lorenz</surname>
+                    </persName>
+                </editor>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0002-0953-2818">
+                        <forename>Torsten</forename>
+                        <surname>Schrade</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeber</note>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0003-2423-7144">
+                        <forename>Marjam</forename>
+                        <surname>Trautmann</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeberin</note>
+                    </resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="http://www.adwmainz.de">Akademie der Wissenschaften und der
+                        Literatur | Mainz</ref>
+                </publisher>
+                <pubPlace ref="http://sws.geonames.org/2874225">Mainz</pubPlace>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">This file is
+                        licensed under the terms of the Creative-Commons-License CC BY 4.0
+                    </licence>
+                </availability>
+                <idno type="file">Q.01.19190905.JVH.01.xml</idno>
+                <idno type="uri">https://sturm-edition.de/id/Q.01.19190905.JVH.01</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Q.01.19100905.JVH.01, Jacoba van Heemskerck an Herwarth Walden, 5. September
+                    1919, Domburg, bearbeitet von Anne Lorenz, in: Der STURM. Digitale
+                    Quellenedition zur Geschichte der internationalen Avantgarde, erarbeitet und
+                    herausgegeben von Marjam Trautmann und Torsten Schrade. Mainz, Akademie der
+                    Wissenschaften und der Literatur. </bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <country>DE</country>
+                        <settlement>Berlin</settlement>
+                        <repository>Staatsbibliothek zu Berlin Preußischer Kulturbesitz,
+                            Handschriftenabteilung, Sturm-Archiv I, Heemskerck, Jacoba
+                            van</repository>
+                        <idno type="uri">http://resolver.staatsbibliothek-berlin.de/SBB0000DA2800000000</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <xenoData type="uri">http://kalliope-verbund.info/DE-611-HS-1913490</xenoData>
+        <xenoData type="url">
+            https://content.staatsbibliothek-berlin.de/dc/PPN746596987.mets.xml</xenoData>
+        <profileDesc>
+            <correspDesc key="Bl.365" ref="https://sturm-edition.de/id/Q.01.19190905.JVH.01">
+                <correspAction type="sent">
+                    <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jacoba van
+                        Heemskerck</persName>
+                    <placeName key="O.0000004" ref="http://sws.geonames.org/2756746">Domburg</placeName>
+                    <date when="1919-09-05"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth
+                        Walden</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change>
+                    <date when="2019-08-26" n="1"/>
+                </change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic n="365r" url="http://content.staatsbibliothek-berlin.de/dms/PPN746596987/500/0/00000001.jpg"/>
+        <graphic n="365v" url="http://content.staatsbibliothek-berlin.de/dms/PPN746596987/500/0/00000002.jpg"/>
+        <graphic n="Farbkeil" url="http://content.staatsbibliothek-berlin.de/dms/PPN746596987/500/0/00000003.jpg"/>
+    </facsimile>
+    <text type="letter">
+        <body>
+
+            <div type="content">
+                <pb xml:id="S.365r" n="365r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000DA2800000001"/>
+
+
+                <opener>
+                    <dateline>
+                        <placeName key="O.0000004" ref="http://sws.geonames.org/2756746">D<hi rend="underline">omburg</hi>
+                        </placeName>
+                        <hi rend="underline">.</hi>
+                        <date when="1919-09-05">5.9.19</date>.</dateline>
+                    <salute>Lieber <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth</persName>.</salute>
+                </opener>
+
+                <p>Willst du bitte in <term type="journal" key="W.0000068" source="https://doi.org/10.11588/diglit.37115.8" ref="http://d-nb.info/gnd/4058273-5">der Sturm</term>
+                    <note>Walden, Herwarth
+                        [Hrsg.]: Der Sturm. Monatsschrift für Kultur und die Künste 6 (1919), S.
+                        96.</note> erwähnen dass ich Entwürfe für Glasfenster<note>Die 79.
+                        STURM-Ausstellung zeigte im Oktober 1919 neben Werken von Johannes Molzahn
+                        und Karl Herrmann Entwürfe für Glasfenster van Heemskercks. Vgl. den <ref target="https://nbn-resolving.org/urn:nbn:de:bvb:255-dtl-0000001350">Katalog zur Ausstellung</ref>, Walden, Herwarth: Neunundsiebzigste
+                        Ausstellung – Johannes Molzahn, Karl Herrmann, Jacoba van Heemskerck.
+                        Entwürfe für Glasfenster, Berlin 1919.</note> ausstelle und dann
+                    die <term type="journal" key="W.0000068" source="https://doi.org/10.11588/diglit.37115.8" ref="http://d-nb.info/gnd/4058273-5">Nummer</term> <persName key="P.0000100" ref="http://d-nb.info/gnd/11939877X">Heinersdorff</persName> und Architekten zuschicken. <persName key="P.0000008" ref="http://d-nb.info/gnd/136128289">Marie</persName> hat
+                        <date when="1919-09-04">gestern</date> dein Brief erhalten und sofort an
+                    verschiedene einflussreiche Persönen geschrieben. Wir glauben aber nicht dass
+                    die Zeitungen den Aufruf an die Frau der Erde nehmen, zu deutsch für <placeName key="O.0000003" ref="http://sws.geonames.org/2750405">Holland</placeName>
+                    Wir werden aber alles mögliche versuchen. <persName key="P.0000008" ref="http://d-nb.info/gnd/136128289">Marie</persName> schreibst dir wenn sie
+                    Antwort hat. In <term type="journal" key="W.0000068" source="https://doi.org/10.11588/diglit.37115#0071" ref="http://d-nb.info/gnd/4058273-5">der Sturm</term> habe ich das <term type="artwork" key="W.0000115" source="https://doi.org/10.11588/diglit.37115#0076">Gedicht</term>
+                    <note>Wilhelm Schlichtkrull: Gedichte. Für Jacoba van
+                        Heemskerck. In: Der Sturm. Monatsschrift für Kultur und die Künste 5 (1919),
+                        S. 70f.</note> für mich von <persName key="P.0000101" ref="http://d-nb.info/gnd/1047412616">Wilhelm Schnittkrull</persName>
+                    gelesen, bitte gebe Ihm ein Holzschnitt und diesen Brief.<note>Das hier als
+                        Beilage genannte Schreiben ist nicht mit dem Brief überliefert.</note> Jetzt
+                    sieht in die Zeitungen alles wieder besser aus und glaube ich schon dass wir
+                    kommen können</p>
+
+                <closer>
+                    <salute>Herzlichste Grüssen</salute>
+                    <signed>deine <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">
+                                JacobavanHeem<hi rend="twice-underline">skerck</hi>
+                        </persName>.</signed>
+                </closer>
+                <postscript>
+                    <p>Soeben kommt dein Brief vom <date when="1919-09-01">1. Sept</date> und <term type="catalogue" key="W.0000116" source="http://nbn-resolving.org/urn:nbn:de:bvb:255-dtl-0000001350">Katalog</term>.<note>Wahrscheinlich handelt es sich um den Katalog zu
+                            der ebenfalls im September 1919 eröffneten STURM-Gesamtschau in der
+                            „Galerie Moos“ in Karlsruhe. Vgl. Enders, Rainer: <ref target="https://www.arthistoricum.net/themen/portale/sturm/ausstellungen">Herwarth Walden und DER STURM. Ausstellungen außerhalb der Berliner
+                                Galerie</ref> (Aufruf 08.02.2019).</note>
+                        <placeName key="O.0000069" ref="http://sws.geonames.org/2892794">Karlsruhe</placeName>: noch vergessen zu schreiben dass ich der Maler
+                            <persName key="P.0000114" ref="http://d-nb.info/gnd/174282923">van
+                            Uytvanck</persName> in <placeName key="O.0000067" ref="http://sws.geonames.org/2758064">Bussum</placeName> nicht kenne,
+                        was ich so gehört habe glaube ich nicht dass er bedeutend ist. Du sollst
+                        sehr vorsichtig sein, man sagt hier ganz ruhig Sturm Künstler zu werden ist
+                        sehr einfach man hat bloss <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth Walden</persName> zu
+                        schreiben, er ist so froh wenn jemand sich<pb xml:id="S.365v" n="365v" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000DA2800000002"/>
+                        anmeldet da alle Künstler aus der Sturm treten. Mündlich
+                        erzähle ich dir schon mehr davon.</p>
+                </postscript>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,137 @@
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Q.01.19211025.JVH.01">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Jacoba van Heemskerck an Herwarth Walden, 25. Oktober 1921, Weimar</title>
+                <editor>
+                    <persName ref="https://orcid.org/0000-0003-1208-6131">
+                        <forename>Anne</forename>
+                        <surname>Lorenz</surname>
+                    </persName>
+                </editor>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0002-0953-2818">
+                        <forename>Torsten</forename>
+                        <surname>Schrade</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeber</note>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0003-2423-7144">
+                        <forename>Marjam</forename>
+                        <surname>Trautmann</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeberin</note>
+                    </resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="http://www.adwmainz.de">Akademie der Wissenschaften und der
+                        Literatur | Mainz</ref>
+                </publisher>
+                <pubPlace ref="http://sws.geonames.org/2874225">Mainz</pubPlace>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/"> This file is
+                        licensed under the terms of the Creative-Commons-License CC BY 4.0
+                    </licence>
+                </availability>
+                <idno type="file">Q.01.19211025.JVH.01.xml</idno>
+                <idno type="uri">https://sturm-edition.de/id/Q.01.19211025.JVH.01</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Q.01.19211025.JVH.01, Jacoba van Heemskerck an Herwarth Walden, 25. Oktober
+                    1921, Weimar, bearbeitet von Anne Lorenz, in: Der STURM. Digitale Quellenedition
+                    zur Geschichte der internationalen Avantgarde, erarbeitet und herausgegeben von
+                    Marjam Trautmann und Torsten Schrade. Mainz, Akademie der Wissenschaften und der
+                    Literatur.</bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <country>DE</country>
+                        <settlement>Berlin</settlement>
+                        <repository>Staatsbibliothek zu Berlin Preußischer Kulturbesitz,
+                            Handschriftenabteilung, Sturm-Archiv I, Heemskerck, Jacoba
+                            van</repository>
+                        <idno type="uri">http://resolver.staatsbibliothek-berlin.de/SBB0000DA4C00000000</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <xenoData type="uri">http://kalliope-verbund.info/DE-611-HS-1914091</xenoData>
+        <xenoData type="url">https://content.staatsbibliothek-berlin.de/dc/PPN74659741X.mets.xml</xenoData>
+        <profileDesc>
+            <correspDesc key="Bl.401" ref="https://sturm-edition.de/id/Q.01.19211025.JVH.01">
+                <correspAction type="sent">
+                    <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jacoba van
+                        Heemskerck</persName>
+                    <placeName key="O.0000085" ref="http://sws.geonames.org/2812482">Weimar</placeName>
+                    <date when="1921-10-25"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth
+                        Walden</persName>
+                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change>
+                    <date when="2019-08-26" n="1"/>
+                </change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic n="401r" url="http://content.staatsbibliothek-berlin.de/dms/PPN74659741X/500/0/00000001.jpg"/>
+        <graphic n="401v" url="http://content.staatsbibliothek-berlin.de/dms/PPN74659741X/500/0/00000002.jpg"/>
+        <graphic n="Farbkeil" url="http://content.staatsbibliothek-berlin.de/dms/PPN74659741X/500/0/00000003.jpg"/>
+    </facsimile>
+    <text type="postcard">
+        <body>
+            <div type="address">
+
+                <pb xml:id="S.401r" n="401r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000DA4C00000001"/>
+                <ab type="recipient">
+                    <address>
+                        <addrLine>Herrn Direktor</addrLine>
+                        <addrLine>Herwarth Walden</addrLine>
+                        <addrLine>Verlag der Sturm</addrLine>
+                        <addrLine>Berlin W 9/.</addrLine>
+                        <addrLine>134<hi rend="super">
+                                <hi rend="twice-underline">a</hi>
+                            </hi> Potsdamerstrasse.</addrLine>
+                    </address>
+                </ab>
+            </div>
+            <div type="content">
+                <pb xml:id="S.401v" n="401v" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000DA4C00000002"/>
+                <opener>
+                    <salute>L. <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">H.</persName>
+                    </salute>
+                </opener>
+                <p>
+                    <date when="1921-10-28">Freitag</date> komme ich nach <placeName key="O.0000002" ref="http://sws.geonames.org/2950159">Berlin</placeName> <address rend="inline">
+                        <addrLine>Hospiz St Michael</addrLine>
+                    <addrLine>34. Wilhelmstrasse</addrLine>
+                    </address>. <date when="1921-10-29">Sonnabend</date> morgens um 10 Uhr,
+                    komme ich ein Moment dir begrüssen</p>
+                <closer>
+                    <salute>Viele grüssen auch von <persName key="P.0000008" ref="http://d-nb.info/gnd/136128289">Marie</persName>
+                    </salute>
+                    <signed>deine <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">
+                                JacobavanHeem<hi rend="twice-underline">skerck</hi>
+                        </persName>.</signed>
+                    <dateline>
+                        <placeName key="O.0000085" ref="http://sws.geonames.org/2812482">Weimar</placeName>. <date when="1921-10-25">25.10.21.</date>
+                    </dateline>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

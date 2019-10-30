@@ -1,0 +1,165 @@
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Q.01.19141027.JVH.01">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Jacoba van Heemskerck an Herwarth Walden, 27. Oktober 1914, 35, Nassau
+                    Zuilensteinstraat, Den Haag</title>
+                <editor>
+                    <persName ref="https://orcid.org/0000-0003-2423-7144">
+                        <forename>Marjam</forename>
+                        <surname>Trautmann</surname>
+                    </persName>
+                </editor>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0002-0953-2818">
+                        <forename>Torsten</forename>
+                        <surname>Schrade</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeber</note>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0003-2423-7144">
+                        <forename>Marjam</forename>
+                        <surname>Trautmann</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeberin</note>
+                    </resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="http://www.adwmainz.de">Akademie der Wissenschaften und der
+                        Literatur | Mainz</ref>
+                </publisher>
+                <pubPlace ref="http://sws.geonames.org/2874225">Mainz</pubPlace>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/"> This file is
+                        licensed under the terms of the Creative-Commons-License CC BY 4.0
+                    </licence>
+                </availability>
+                <idno type="file">Q.01.19141027.JVH.01.v1.xml</idno>
+                <idno type="uri">https://sturm-edition.de/id/Q.01.19141027.JVH.01</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Q.01.19141027.JVH.01, Jacoba van Heemskerck an Herwarth Walden, 27. Oktober
+                    1914, 35, Nassau Zuilensteinstraat, Den Haag, bearbeitet von Marjam Trautmann,
+                    in: Der STURM. Digitale Quellenedition zur Geschichte der internationalen
+                    Avantgarde, erarbeitet und herausgegeben von Marjam Trautmann 
+                    und Torsten Schrade. Mainz, Akademie der Wissenschaften und der Literatur.</bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <country>DE</country>
+                        <settlement>Berlin</settlement>
+                        <repository>Staatsbibliothek zu Berlin Preußischer Kulturbesitz,
+                            Handschriftenabteilung, Sturm-Archiv I, Heemskerck, Jacoba
+                            van</repository>
+                        <idno type="uri">http://kalliope-verbund.info/DE-611-HS-1910677</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <xenoData type="uri">http://digital.staatsbibliothek-berlin.de/metsresolver/PPN746594305</xenoData>
+        <profileDesc>
+            <correspDesc key="Bl.33-34" ref="https://sturm-edition.de/id/Q.01.19141027.JVH.01">
+                <correspAction type="sent">
+                    <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jacoba van
+                        Heemskerck</persName>
+                    <placeName key="O.0000001" ref="http://sws.geonames.org/2747373">35, Nassau
+                        Zuilensteinstraat, Den Haag</placeName>
+                    <date when="1914-10-27"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth
+                        Walden</persName>
+                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change>
+                    <date when="2018-07-16" n="1"/>
+                </change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic n="33r" url="http://content.staatsbibliothek-berlin.de/dms/PPN746594305/800/0/00000001.jpg"/>
+        <graphic n="33v" url="http://content.staatsbibliothek-berlin.de/dms/PPN746594305/800/0/00000002.jpg"/>
+        <graphic n="32r" url="http://content.staatsbibliothek-berlin.de/dms/PPN746594305/800/0/00000003.jpg"/>
+        <graphic n="32v" url="http://content.staatsbibliothek-berlin.de/dms/PPN746594305/800/0/00000004.jpg"/>
+        <graphic n="Farbkeil" url="http://content.staatsbibliothek-berlin.de/dms/PPN746594305/800/0/00000005."/>
+    </facsimile>
+    <text type="letter">
+        <body>
+            <div type="content">
+                <pb xml:id="S.33r" n="33r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D95800000001"/>
+                <p>
+                    <term type="newspaper" key="W.0000057">Nieuve Courant</term>
+                    <lb/>
+                    <date when="1914-10-26">26. October.</date>
+                    <lb/>
+                    <title>
+                        <foreign>Belgische vluchtingen</foreign>.</title>
+                    <foreign> De burgemeester van Bergen op Zoom heeft in opdracht van den
+                        generaal-majoor commandant der 3de divisie, ingevolge de bevelen van den
+                        liutenant-general commandant van het veldleger, het verder drukken en
+                        colporteeren van het Belgische dagblad Journal des Réfugiés, te Bergen op
+                        Zoom, verboden. (Hbl.).</foreign>
+                </p>
+            </div>
+            <div type="content">
+                <opener>
+                    <dateline>
+                        <date when="1914-10-27">2<hi rend="underline">7. Oct: 1914.</hi>
+                        </date>
+                    </dateline>
+                    <salute>Sehr geehrter Herr <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Walden</persName>
+                    </salute>
+                </opener>
+                <p>Ihr Brief <date when="1914-10-26">gesternabend</date> empfangen. Heute früh
+                    überall herumgelaufen um zu sehen ob ich noch alte Nummer von das <term type="newspaper" key="W.0000063" ref="http://anet.be/record/abraham/opacbnc/c:bnc:2494/N">Journal des
+                        Réfugiés</term> bekommen konnte aber nichts mehr zu haben Sie sehen hier
+                    oben das es verboten ist. Hierbei Ihre Stilprobe zurück es ist in sehr gut
+                        holländisch<pb xml:id="S.33v" n="33v" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D95800000002"/>
+                    geschrieben man fühlt aber doch das kein Holländer es geschrieben hat es ist
+                    aber merkwürdig dasz Sie so gut Holländisch gelernt haben, um es aber ganz frei
+                    zu schreiben wäre es vielleicht am besten dasz Sie mit ein Holländer in
+                        <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Berlin</placeName> noch einige Stilprobe machte Sie machen es so gut dasz
+                    es schade wäre es jetzt nicht ganz tadellos fertig zu machen und dasz können Sie
+                    nur durch reden mit ein Holländer thun. Bitte danken Sie Ihre <persName key="P.0000002" ref="http://d-nb.info/gnd/118891456">Frau</persName>
+                    vielmals für die liebe Brief,<pb xml:id="S.34r" n="34r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D95800000003"/> ja
+                    der Krieg ist schrecklich meine feste Uberzeugung ist dasz wir Holländer so
+                    neutral möglich bleiben müssen auch in unsere Ausserungen. Ich freue mich so
+                    Ihnen hier zu sehen bitte wenn Sie ein Moment Zeit habe kommen Sie dann doch
+                    mindestens auf mein Atelier <address rend="inline">
+                        <addrLine>
+                            <hi rend="underline">Seestraat 52</hi>. bei <hi rend="underline">Herr
+                                    <persName key="P.0000026" ref="P.0000026">Ridderhof</persName>
+                            </hi>
+                            <persName key="P.0000026" ref="P.0000026">emballeur</persName>
+                        </addrLine>
+                    </address>
+                    <note>„Emballeur“ (frz.) bezeichnet zu Deutsch einen Verpacker. Jacoba van
+                        Heemskerck ließ ihre Kunstwerke von ihrem Emballeur Herr Ridderhof an Walden
+                        nach Berlin zum Versand vorbereiten und abschicken.</note> So möglich gern
+                    ein Brief oder Depeche <hi rend="underline">wenn</hi> ich Ihnen <hi rend="underline">dort</hi> warten kann, die Depeche aber hier nach mein
+                    Haus. Wir können dann verabreden ein ander mehr zu sehen wenn Sie Zeit finden
+                    können.</p>
+                <pb xml:id="S.34v" n="34v" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D95800000004"/>
+                <closer>
+                    <salute>Mit herzlichsten Grüssen und hoffentlich auf ein baldigstes
+                        Wiedersehen</salute>
+                    <signed>Ihre <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Ja<hi rend="twice-underline">coba vanHeemskerck</hi>
+                        </persName>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,81 @@
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="S.0000026">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Projektbibliographie</title>
+                <editor>
+                    <persName ref="https://orcid.org/0000-0002-0953-2818">
+                        <forename>Marjam</forename>
+                        <surname>Trautmann</surname>
+                    </persName>
+                </editor>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0002-0953-2818">
+                        <forename>Torsten</forename>
+                        <surname>Schrade</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeber</note>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0003-2423-7144">
+                        <forename>Marjam</forename>
+                        <surname>Trautmann</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeberin</note>
+                    </resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="http://www.adwmainz.de">Akademie der Wissenschaften und der
+                        Literatur | Mainz</ref>
+                </publisher>
+                <pubPlace ref="http://sws.geonames.org/2874225">Mainz</pubPlace>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/"> This file is
+                        licensed under the terms of the Creative-Commons-License CC BY 4.0
+                    </licence>
+                </availability>
+                <idno type="file">bibliographie.xml</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Marjam Trautmann: "Projektbibliographie", in: Der STURM. Digitale
+                    Quellenedition zur Geschichte der internationalen Avantgarde, erarbeitet und
+                    herausgegeben von Marjam Trautmann und Torsten Schrade. Mainz, Akademie der
+                    Wissenschaften und der Literatur. </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <listChange>
+                <change>
+                    <date when="2018-07-16" n="1"/>
+                    <p>Initiale Version</p>
+                </change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="section" n="eight">
+                <ab rend="h2">Projektbibliographie</ab>
+                <p> In der Literaturdatenbank der STURM-Edition werden laufend die in den Quellen
+                    und editorischen Anmerkungen aufgeführten Titel erfasst. Genutzt wird hierfür
+                    das Open Access Literaturverwaltungssystem <ref target="https://www.zotero.org/">Zotero</ref>. Mittelfristiges Ziel ist die Implementierung dieser
+                    Literaturdatenbank in die digitale editorische Arbeit sowie eine sukzessive
+                    Rückführung der Datenbank-Verweise in die bereits edierten Quellen (Stand Juli
+                    2018). </p>
+                <p>
+                    <ref target="https://www.zotero.org/groups/2149360/sturm-edition/items">Hier
+                        geht es zur STURM-Projektbibliographie</ref>.</p>
+            </div>
+            <div> </div>
+            <div type="section" n="four">
+                <ab type="subNavigation" n="ressourcen"/>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,100 @@
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="S.0000001">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Startseite</title>
+                <editor>
+                    <persName ref="https://orcid.org/0000-0002-0953-2818">
+                        <forename>Torsten</forename>
+                        <surname>Schrade</surname>
+                    </persName>
+                </editor>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0002-0953-2818">
+                        <forename>Torsten</forename>
+                        <surname>Schrade</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeber</note>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0003-2423-7144">
+                        <forename>Marjam</forename>
+                        <surname>Trautmann</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeberin</note>
+                    </resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="http://www.adwmainz.de">Akademie der Wissenschaften und der Literatur | Mainz</ref>
+                </publisher>
+                <pubPlace ref="http://sws.geonames.org/2874225">Mainz</pubPlace>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        This file is licensed under the terms of the Creative-Commons-License CC BY 4.0
+                    </licence>
+                </availability>
+                <idno type="file">index.xml</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Torsten Schrade: "Startseite", in: Der STURM. Digitale Quellenedition zur Geschichte der 
+                    internationalen Avantgarde, erarbeitet und herausgegeben von Marjam Trautmann und 
+                    Torsten Schrade. Mainz, Akademie der Wissenschaften und der Literatur.
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <listChange>
+                <change>
+                    <date when="2018-07-16" n="1"/>
+                    <p>Initiale Version</p>
+                </change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div n="preface">
+                <ab rend="h2">Zwei Worte</ab>
+                <p>
+                    Im Jahr 1910 gründete der Publizist und Komponist Herwarth Walden in Berlin die
+                    avantgardistische Zeitschrift ‚Der Sturm‘. Das STURM-Unternehmen avancierte in den 
+                    Folgejahren mit der STURM-Galerie, der STURM-Bühne und dem STURM-Verlag zu einem 
+                    programmatischen wie ästhetischen Sprachrohr der internationalen Avantgarde.
+                    Unser Projekt beabsichtigt, erstmals die zahlreichen verstreuten digitalen Quellen des STURM in einer 
+                    historisch angelegten Digitalen Edition wieder zu vereinen. Als kollaboratives 
+                    Projekt insbesondere des wissenschaftlichen Nachwuchses konzipiert, findet unsere digitale Forschungs- und Editionsarbeit 
+                    an der Schnittstelle von Geschichtswissenschaft, Kunstgeschichte, Literaturwissenschaft und Digital Humanities statt.
+                    <ref target="projekt.xml">→ Über das Forschungsprojekt</ref>
+                </p>
+            </div>
+            <div n="letters">
+                <p> In dieser Abteilung werden die Volltexte der edierten Briefe, Telegramme und
+                    Postkarten samt Faksimiles geboten (bisher ###lettersCount### Stück). 
+                    Sie sind innerhalb der Absender chronologisch sortiert und beinhalten eine 
+                    Verlinkung zum jeweiligen Archiv-Bestand.</p>
+            </div>
+            <div n="places">
+                <p> Das Ortsregister führt ###placesCount### in den Texten genannte Orte auf, die sowohl mit den
+                    zugehörigen Briefen, als auch mit ihrer externen Geonames-Normdatei verbunden
+                    sind. </p>
+            </div>
+            <div n="persons">
+                <p> Das Personenregister enthält ###personsCount### Personen, die mit deren Nennungen in den
+                    Volltexten sowie mit ihrem jeweiligen Eintrag in der Gemeinsamen Normdatei der
+                    Deutschen Nationalbibliothek verknüpft sind. </p>
+            </div>
+            <div n="works">
+                <p> Im Werkregister sind alle ###worksCount### im Volltext explizit erwähnten Journale, Zeitungen,
+                    Bücher, Artikel und Kunstwerke aufgeführt. Soweit vorhanden wird außer auf die
+                    einzelnen Textstellen in der Edition auch auf externe Ressourcen, wie die GND
+                    und frei verfügbare Digitalisate, verwiesen. </p>
+            </div>
+        </body>
+    </text>
+</TEI>

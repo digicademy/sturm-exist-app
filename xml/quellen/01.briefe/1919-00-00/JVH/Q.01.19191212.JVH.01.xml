@@ -1,0 +1,216 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Q.01.19191212.JVH.01">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Jacoba van Heemskerck an Herwarth Walden, 12. Dezember 1919, Den Haag</title>
+                <editor>
+                    <persName ref="https://orcid.org/0000-0003-1208-6131">
+                        <forename>Anne</forename>
+                        <surname>Lorenz</surname>
+                    </persName>
+                </editor>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0002-0953-2818">
+                        <forename>Torsten</forename>
+                        <surname>Schrade</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeber</note>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0003-2423-7144">
+                        <forename>Marjam</forename>
+                        <surname>Trautmann</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeberin</note>
+                    </resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="http://www.adwmainz.de">Akademie der Wissenschaften und der
+                        Literatur | Mainz</ref>
+                </publisher>
+                <pubPlace ref="http://sws.geonames.org/2874225">Mainz</pubPlace>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">This file is
+                        licensed under the terms of the Creative-Commons-License CC BY 4.0
+                    </licence>
+                </availability>
+                <idno type="file">Q.01.19191212.JVH.01.xml</idno>
+                <idno type="uri">https://sturm-edition.de/id/Q.01.19191212.JVH.01</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Q.01.19191212.JVH.01, Jacoba van Heemskerck an Herwarth Walden, 12. Dezember
+                    1919, Den Haag, bearbeitet von Anne Lorenz, in: Der STURM. Digitale
+                    Quellenedition zur Geschichte der internationalen Avantgarde, erarbeitet und
+                    herausgegeben von Marjam Trautmann und Torsten Schrade. Mainz, Akademie der
+                    Wissenschaften und der Literatur.</bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <country>DE</country>
+                        <settlement>Berlin</settlement>
+                        <repository>Staatsbibliothek zu Berlin Preußischer Kulturbesitz,
+                            Handschriftenabteilung, Sturm-Archiv I, Heemskerck, Jacoba
+                            van</repository>
+                        <idno type="uri">http://resolver.staatsbibliothek-berlin.de/SBB0000DA3200000000</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <xenoData type="uri">http://kalliope-verbund.info/DE-611-HS-1913544</xenoData>
+        <xenoData type="url">https://content.staatsbibliothek-berlin.de/dc/PPN746597118.mets.xml</xenoData>
+        <profileDesc>
+            <correspDesc key="Bl.375" ref="https://sturm-edition.de/id/Q.01.19191212.JVH.01">
+                <correspAction type="sent">
+                    <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jacoba van
+                        Heemskerck</persName>
+                    <placeName key="O.0000001" ref="http://sws.geonames.org/2747373">Den
+                        Haag</placeName>
+                    <date when="1919-12-12"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth
+                        Walden</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change>
+                    <date when="2019-08-26" n="1"/>
+                </change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic n="375r" url="http://content.staatsbibliothek-berlin.de/dms/PPN746597118/500/0/00000001.jpg"/>
+        <graphic n="375v" url="http://content.staatsbibliothek-berlin.de/dms/PPN746597118/500/0/00000002.jpg"/>
+        <graphic n="Farbkeil" url="http://content.staatsbibliothek-berlin.de/dms/PPN746597118/500/0/00000003.jpg"/>
+    </facsimile>
+    <text type="letter">
+        <body>
+
+
+            <div type="content">
+                <pb xml:id="S.375r" n="375r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000DA3200000001"/>
+
+                <opener>
+                    <dateline>
+                        <placeName key="O.0000001" ref="http://sws.geonames.org/2747373">den H<hi rend="twice-underline">aag</hi>
+                        </placeName>. <date when="1919-12-12">12.12.19.</date>
+                    </dateline>
+                    <salute>Lieber <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth</persName>.</salute>
+                </opener>
+
+                <p>jeden Tag ein Brief. soeben jemand gesprochen der sich sehr für moderne Kunst
+                    interessiert und der den jetzige Preis wissen möchte von:</p>
+
+
+                <p>I <persName key="P.0000009" ref="http://d-nb.info/gnd/118559737">Kandinsky</persName>
+                    <term type="book" key="W.0000155" ref="http://d-nb.info/361026382" source="https://digi.ub.uni-heidelberg.de/diglit/kandinsky1913">album.
+                        I.</term>
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth
+                        Walden</persName> <term type="book" key="W.0000154">Expressionismus. die Kunstwende.</term>
+                    <term type="book" key="W.0000152">Sturm Bilderbücher I.</term>
+                    <persName key="P.0000015" ref="http://d-nb.info/gnd/118519980">Marc
+                        Chagall</persName>
+                    <term type="book" key="W.0000151" ref="http://d-nb.info/578763435" source="https://digi.ub.uni-heidelberg.de/diglit/archipenko1917">I.</term>
+                    <persName key="P.0000117" ref="http://d-nb.info/gnd/118649949">Alexander
+                        Archipenko</persName>, <term type="book" key="W.0000153" ref="http://d-nb.info/58038408X" source="https://ia600503.us.archive.org/28/items/paulk00klee/paulk00klee.pdf">I</term>
+                    <persName key="P.0000076" ref="http://d-nb.info/gnd/118562827">Paul
+                        Klee</persName>.</p>
+
+                <p>
+                    <table cols="6">
+                    <row>
+                        <cell>Preis</cell>
+                        <cell>und</cell>
+                        <cell>namen</cell>
+                        <cell>von</cell>
+                        <cell>
+                                <persName key="P.0000009" ref="http://d-nb.info/gnd/118559737">Kandinsky</persName>
+                            </cell>
+                        <cell>Holzschnitte.</cell>
+                    </row>
+                    <row>
+                        <cell>„</cell>
+                        <cell>„</cell>
+                        <cell>„</cell>
+                        <cell>„</cell>
+                        <cell>
+                                <persName key="P.0000003" ref="http://d-nb.info/gnd/11857745X">Franz.
+                                Marc</persName>
+                            </cell>
+                        <cell>„</cell>
+                    </row>
+                    <row>
+                        <cell>„</cell>
+                        <cell>„</cell>
+                        <cell>„</cell>
+                        <cell>„</cell>
+                        <cell>
+                                <persName key="P.0000009" ref="http://d-nb.info/gnd/118559737">Kandinsky</persName>
+                            </cell>
+                        <cell>Radierungen</cell>
+                    </row>
+                    <row>
+                        <cell>„</cell>
+                        <cell>„</cell>
+                        <cell>„</cell>
+                        <cell>„</cell>
+                        <cell>
+                                <persName key="P.0000076" ref="http://d-nb.info/gnd/118562827">Paul
+                                Klee</persName>.</cell>
+                        <cell>„ „</cell>
+                    </row>
+                </table>
+                </p>
+
+
+                <p>I. Sturm Ausstellungs. Kataloge<note type="index">
+                        <term type="catalogue" key="W.0000156" source="https://nbn-resolving.org/urn:nbn:de:bvb:255-dtl-0000002303">Vierunddreißigste Ausstellung – Franz Marc</term>, <term type="catalogue" key="W.0000157" source="https://nbn-resolving.org/urn:nbn:de:bvb:255-dtl-0000002561">Sechsundvierzigste Ausstellung – Franz Marc.
+                            Gedächtnis-Ausstellung.</term>
+                    </note>
+                    <persName key="P.0000003" ref="http://d-nb.info/gnd/11857745X">Franz
+                        Marc</persName>
+                </p>
+
+                <p>Kunstdrucke</p>
+
+                <p>
+                    <persName key="P.0000118" ref="http://d-nb.info/gnd/118512188">Umberto
+                        Boccioni</persName>, <persName key="P.0000015" ref="http://d-nb.info/gnd/118519980">Marc Chagall</persName>, <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jacoba van
+                        Heemskerck</persName>, <persName key="P.0000076" ref="http://d-nb.info/gnd/118562827">Paul Klee</persName>
+                    <persName key="P.0000003" ref="http://d-nb.info/gnd/11857745X">Franz
+                        Marc</persName>, <persName key="P.0000119" ref="http://d-nb.info/gnd/118796798">Gino Severini</persName>.</p>
+
+                <p>Kommen auf die Bücher jetzt 50 %. dass möchte er auch gerne wissen?</p>
+
+
+                <p>Wie ich dir <date when="1919-12-11">gestern</date> schrieb möchte ich die
+                    Holzstöcke gern wieder haben und mehrere drucken. Ich habe informiert hier wird
+                    es durch alle <unclear>maler</unclear> gemacht und nicht nummeriert. Wir machen es so dass ich dir
+                    dann immer z.B. drei nummeriert schicke und die andere ohne nummer.</p>
+                <pb xml:id="S.375v" n="375v" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000DA3200000002"/>
+
+                <closer>
+                    <salute>Vielen Grüssen und recht glückliches Weinachten für euch beiden</salute>
+                    <signed>deine <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">
+                                JacobavanHeems<hi rend="twice-underline">kerck</hi>
+                        </persName>.</signed>
+                </closer>
+                <postscript>
+                    <p>Es war <date when="1919-12-11">gestern</date> bei <persName key="P.0000104">d’Audretsch</persName> mit dein Brief auch so komisch da er direkt
+                        sagte ich habe gar <hi rend="underline">nichts</hi> mit der Sturm zu thun.
+                        Wirklich du sollst doch überall gut informieren wie man die
+                        Sturm ausstellungen einrichtet Dies ist nun auch gar kein Reklam für der
+                        Sturm da der Sturm auch gar nicht genannt wird.</p>
+                </postscript>
+            </div>
+        </body>
+    </text>
+</TEI>

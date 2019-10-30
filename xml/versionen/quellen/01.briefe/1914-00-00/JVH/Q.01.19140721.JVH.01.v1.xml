@@ -1,0 +1,139 @@
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Q.01.19140721.JVH.01">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Jacoba van Heemskerck an Herwarth Walden, 21. Juli 1914, Loverendale, Domburg</title>
+                <editor>
+                    <persName ref="https://orcid.org/0000-0003-2423-7144">
+                        <forename>Marjam</forename>
+                        <surname>Trautmann</surname>
+                    </persName>
+                </editor>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0002-0953-2818">
+                        <forename>Torsten</forename>
+                        <surname>Schrade</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeber</note>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0003-2423-7144">
+                        <forename>Marjam</forename>
+                        <surname>Trautmann</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeberin</note>
+                    </resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="http://www.adwmainz.de">Akademie der Wissenschaften und der Literatur | Mainz</ref>
+                </publisher>
+                <pubPlace ref="http://sws.geonames.org/2874225">Mainz</pubPlace>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        This file is licensed under the terms of the Creative-Commons-License CC BY 4.0
+                    </licence>
+                </availability>
+                <idno type="file">Q.01.19140721.JVH.01.v1.xml</idno>
+                <idno type="uri">https://sturm-edition.de/id/Q.01.19140721.JVH.01</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Q.01.19140721.JVH.01, Jacoba van Heemskerck an Herwarth Walden, 21. Juli 1914, Loverendale, Domburg, 
+                    bearbeitet von Marjam Trautmann, in: Der STURM. Digitale Quellenedition zur Geschichte der internationalen 
+                    Avantgarde, erarbeitet und herausgegeben von Marjam Trautmann und Torsten Schrade. 
+                    Mainz, Akademie der Wissenschaften und der Literatur.
+                    </bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <country>DE</country>
+                        <settlement>Berlin</settlement>
+                        <repository>Staatsbibliothek zu Berlin Preußischer Kulturbesitz, Handschriftenabteilung, Sturm-Archiv I, Heemskerck, Jacoba van</repository>
+                        <idno type="uri">http://kalliope-verbund.info/DE-611-HS-1910553</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <xenoData type="uri">http://digital.staatsbibliothek-berlin.de/metsresolver/PPN746594127</xenoData>
+        <profileDesc>
+            <correspDesc key="Bl.13-14" ref="https://sturm-edition.de/id/Q.01.19140721.JVH.01">
+                <correspAction type="sent">
+                    <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jacoba van Heemskerck</persName>
+                    <placeName key="O.0000004" ref="http://sws.geonames.org/2756746">Loverendale, Domburg</placeName>                    
+                    <date when="1914-07-21"/>               
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth Walden</persName>
+                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>                  
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change>
+                    <date when="2018-07-16" n="1"/>
+                </change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic n="13r" url="http://content.staatsbibliothek-berlin.de/dms/PPN746594127/800/0/00000001.jpg"/>
+        <graphic n="13v" url="http://content.staatsbibliothek-berlin.de/dms/PPN746594127/800/0/00000002.jpg"/>
+        <graphic n="14r" url="http://content.staatsbibliothek-berlin.de/dms/PPN746594127/800/0/00000003.jpg"/>
+        <graphic n="14v" url="http://content.staatsbibliothek-berlin.de/dms/PPN746594127/800/0/00000004.jpg"/>
+        <graphic n="Farbkeil" url="http://content.staatsbibliothek-berlin.de/dms/PPN746594127/800/0/00000005.jpg"/>
+    </facsimile>
+    <text type="letter">
+        <body>
+            <div type="content">
+            <pb xml:id="S.13r.01" n="13r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D94B00000001"/>
+                <opener>
+                    <dateline>
+                        <date when="1914-07-21">
+                            <hi rend="underline">21-7-14</hi>
+                        </date>
+                    </dateline>
+                    <salute>Sehr geehrter Herr <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Walden</persName>.
+                    </salute>
+                </opener>
+                <p>Schade dasz Sie wieder fort sind, das
+            Besuch von Sie beiden hat mir so gefreut. Wir haben einander besser kennen lernen und
+            es ist von so grossen Interesse mit Freunden zusammen zu arbeiten. Mit das
+            Arrangieren der Ausstellung hatte ich viele Unannehmlichkeiten. Die Maler sind<pb xml:id="S.13v" n="13v" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D94B00000002"/>
+            wütend dasz Der Sturm meine Ausstellungen macht. <persName key="P.0000012" ref="http://d-nb.info/gnd/1077780265">Kickert</persName> und <persName key="P.0000010" ref="http://d-nb.info/gnd/128866748">Le Fauconnier</persName> waren hier
+            mit Herr <persName key="P.0000014" ref="http://d-nb.info/gnd/141343133">Beffie</persName> der Sammler aus <placeName key="O.0000009" ref="http://sws.geonames.org/2759794">Amsterdam</placeName>. <persName key="P.0000014" ref="http://d-nb.info/gnd/141343133">Beffie</persName> hat drei grosse Gemälde von <persName key="P.0000010" ref="http://d-nb.info/gnd/128866748">Le Fauconnier</persName> hier gekauft u sagte zu mir dasz er ein <persName key="P.0000010" ref="http://d-nb.info/gnd/128866748">Fauconnier</persName> Sammler war. Er erzählte
+                    dasz er auch letztes Jahr die <persName key="P.0000009" ref="http://d-nb.info/gnd/118559737">Kandinsky</persName>’s gekauft hat und jetzt 3. <persName key="P.0000015" ref="http://d-nb.info/gnd/118519980">Chagall</persName>’s. Er liebte
+            sehr die Bilder von <persName key="P.0000010" ref="http://d-nb.info/gnd/128866748">Fauconnier</persName>, und hier kaufte er auch zwei Gemälde von <persName key="P.0000011" ref="http://d-nb.info/gnd/119295954">Toorop</persName> und ich
+               glaube ein von <persName key="P.0000012" ref="http://d-nb.info/gnd/1077780265">Kickert</persName> Er wollte mein Atelier sehen u<pb xml:id="S.14r" n="14r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D94B00000003"/> kam allein und die anderen waren
+            so böse dasz <persName key="P.0000012" ref="http://d-nb.info/gnd/1077780265">Kickert</persName> nicht mehr grüsst wenn ich Ihm begegne. <persName key="P.0000014" ref="http://d-nb.info/gnd/141343133">Beffie</persName> sah alle Gemälde im
+            Atelier und wollte dasz was Sie gekauft haben gern kaufen. Ich sagte Ihm dasz der
+            Sturm das Bild für eine Sammlung gekauft hat, ich sagte kein Preis, von kein einziges
+            Bild ich sagte Ihm dasz der Sturm alles arrangierte und dasz ich Ihnen schreiben würde,
+            er wollte gern ein Bild habe konnte aber nicht zu ein Entschluss kommen. Ich glaube
+            dasz <persName key="P.0000012" ref="http://d-nb.info/gnd/1077780265">Kickert</persName>, <persName key="P.0000010" ref="http://d-nb.info/gnd/128866748">Le Fauconnier</persName> und <persName key="P.0000011" ref="http://d-nb.info/gnd/119295954">Toorop</persName> ihm verboten hätten etwas zu kaufen, und ihm
+               erzählte<pb xml:id="S.14v" n="14v" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D94B00000004"/> dasz meine Malerei gar nichts war. Auch später wann er nach <persName key="P.0000011" ref="http://d-nb.info/gnd/119295954">Toorop</persName> zurück ging
+            hat man ihm gewarnt niemals etwas zu kaufen. Es ist mir ganz egal ich gehe mein Weg und
+            will so weiter komme. Viel Gesmack hat er nicht, er liebt auch sehr die Bilder von
+            <persName key="P.0000016" ref="http://d-nb.info/gnd/118748475">Sluiters</persName> Ich glaube er kauft nur wann andere sagen dasz es gute Kunst ist. Die Bilder
+            hier von <persName key="P.0000010" ref="http://d-nb.info/gnd/128866748">Le Fauconnier</persName> sind einfach schrecklich. Alle Maler wissen dasz ich bei Ihnen
+            ausstellte, die Maler sprechen aber gar nicht über meine Bilder. In ein kleine Zeitung
+            hier hatte ich ein gute critik. Der <persName key="P.0000017" ref="P.0000017">Bürgermeister</persName>, <persName key="P.0000018" ref="P.0000018">Capitän Christus</persName> und 
+                        <persName key="P.0000019" ref="P.0000019">Famia</persName>
+                     lässen
+            Sie beiden freundlich grüszen. Es ist hier furchtbar warm Viel Vergnügen auf die Reise.</p>
+            
+                <closer>
+                    <salute>Viele<pb xml:id="S.13r.02" n="13r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D94B00000001"/> grüssen</salute> von Fräulein <persName key="P.0000008" ref="http://d-nb.info/gnd/136128289">Tak</persName> und meiner <persName key="P.0000005" ref="P.0000005">Schwester</persName> für Sie beiden und <salute>herzlichste
+                    Grüssen von mir</salute> <signed>Ihre <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jacoba <hi rend="underline">vanHeemskerck</hi>
+                        </persName>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

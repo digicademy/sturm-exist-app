@@ -1,0 +1,154 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Q.01.19210412.JVH.01">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Jacoba van Heemskerck an Herwarth Walden, 12. April 1921, 35, Nassau
+                    Zuilensteinstraat, Den Haag</title>
+                <editor>
+                    <persName ref="https://orcid.org/0000-0003-1208-6131">
+                        <forename>Anne</forename>
+                        <surname>Lorenz</surname>
+                    </persName>
+                </editor>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0002-0953-2818">
+                        <forename>Torsten</forename>
+                        <surname>Schrade</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeber</note>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0003-2423-7144">
+                        <forename>Marjam</forename>
+                        <surname>Trautmann</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeberin</note>
+                    </resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="http://www.adwmainz.de">Akademie der Wissenschaften und der
+                        Literatur | Mainz</ref>
+                </publisher>
+                <pubPlace ref="http://sws.geonames.org/2874225">Mainz</pubPlace>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">This file is
+                        licensed under the terms of the Creative-Commons-License CC BY 4.0
+                    </licence>
+                </availability>
+                <idno type="file">Q.01.19210412.JVH.01.xml</idno>
+                <idno type="uri">https://sturm-edition.de/id/Q.01.19210412.JVH.01</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Q.01.19210412.JVH.01, Jacoba van Heemskerck an Herwarth Walden, 12. April
+                    1921, 35, Nassau Zuilensteinstraat, Den Haag, bearbeitet von Anne Lorenz, in:
+                    Der STURM. Digitale Quellenedition zur Geschichte der internationalen
+                    Avantgarde, erarbeitet und herausgegeben von Marjam Trautmann und Torsten
+                    Schrade. Mainz, Akademie der Wissenschaften und der Literatur.</bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <country>DE</country>
+                        <settlement>Berlin</settlement>
+                        <repository>Staatsbibliothek zu Berlin Preußischer Kulturbesitz,
+                            Handschriftenabteilung, Sturm-Archiv I, Heemskerck, Jacoba
+                            van</repository>
+                        <idno type="uri">http://resolver.staatsbibliothek-berlin.de/SBB0000DA4300000000</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <xenoData type="uri">http://kalliope-verbund.info/DE-611-HS-1913888</xenoData>
+        <xenoData type="url">https://content.staatsbibliothek-berlin.de/dc/PPN746597312.mets.xml</xenoData>
+        <profileDesc>
+            <correspDesc key="Bl.392" ref="https://sturm-edition.de/id/Q.01.19210412.JVH.01">
+                <correspAction type="sent">
+                    <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jacoba van
+                        Heemskerck</persName>
+                    <placeName key="O.0000001" ref="http://sws.geonames.org/2747373">35, Nassau
+                        Zuilensteinstraat, Den Haag</placeName>
+                    <date when="1921-04-12"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth
+                        Walden</persName>
+                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change>
+                    <date when="2019-08-26" n="1"/>
+                </change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic n="392r" url="http://content.staatsbibliothek-berlin.de/dms/PPN746597312/500/0/00000001.jpg"/>
+        <graphic n="392v" url="http://content.staatsbibliothek-berlin.de/dms/PPN746597312/500/0/00000002.jpg"/>
+        <graphic n="Farbkeil" url="http://content.staatsbibliothek-berlin.de/dms/PPN746597312/500/0/00000003.jpg"/>
+    </facsimile>
+    <text type="postcard">
+        <body>
+            <div type="address">
+                <pb xml:id="S.392r" n="392r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000DA4300000001"/>
+                <ab type="recipient">
+                    <address>
+                        <addrLine>Herrn Direktor</addrLine>
+                        <addrLine>
+                            <hi rend="underline">Herwarth Walden</hi>
+                        </addrLine>
+                        <addrLine>Verlag der Sturm</addrLine>
+                        <addrLine>
+                            <hi rend="underline">Berlin W 9/.</hi>
+                        </addrLine>
+                        <addrLine>Potsdamerstrasse 134<hi rend="super">
+                                <hi rend="twice-underline">a</hi>
+                            </hi>
+                        </addrLine>
+                    </address>
+                </ab>
+            </div>
+            <div type="content">
+                <pb xml:id="S.392v" n="392v" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000DA4300000002"/>
+                <opener>
+                    <dateline>
+                        <date when="1921-04-12">
+                            <hi rend="underline">12.4.21.</hi>
+                        </date>
+                    </dateline>
+                    <salute>L. <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">H.</persName>
+                    </salute>
+                </opener>
+                <p>Ich habe dir ein Pakket Käse schicken lassen hoffentlich wird es euch beiden
+                    recht gut schmecken. ich arbeite sehr viel und habe Einladungen für eigene
+                    Ausstellungen in <placeName key="O.0000083" ref="http://sws.geonames.org/2800866">Brussels</placeName> und <placeName key="O.0000010" ref="http://sws.geonames.org/2988507">Paris</placeName>
+                    alles wird nächste Woche abgeschickt. <date when="1921-11">November</date> habe
+                    ich für meine Ausstellung in der Sturm reserviert und diesen Sommer<pb xml:id="S.392r.02" n="392r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000DA4300000001"/>
+                    mache ich alles dafür fertig.<note>In der 102. STURM-Ausstellung „Jacoba van
+                        Heemskerck. Gemälde/Aquarelle, Gesamtschau des Sturm“ war van Heemskerck mit
+                        einundfünzig im Katalog aufgeführten Werken prominent vertreten. Vgl. den <ref target="https://nbn-resolving.org/urn:nbn:de:bvb:255-dtl-0000001661">Katalog zur Ausstellung</ref>, Walden, Herwarth [Hrsg.]: Der Sturm. Hundertzweite Ausstellung. Jacoba van
+                        Heemskerck. Gemälde/Aquarelle, Gesamtschau des Sturm. Berlin 1921.</note>
+                    Wir sehen uns dann im <date when="1921-11">November</date>. Hat <placeName key="O.0000010" ref="http://sws.geonames.org/2988507">Paris</placeName> viel
+                        Erfolg?<note>Die STURM-Ausstellung in Paris wurde in der März-Ausgabe der
+                        STURM-Zeitschrift nicht sehr eingehend beworben und ohne konkrete Ortsangabe
+                        und Begleitprogramm angekündigt. Vgl. Walden, Herwarth [Hrsg.]: Der Sturm.
+                        Monatsschrift für Kultur und die Künste 12 (1921).</note> brauchst du noch
+                    Holzschnitte? Ich habe noch keine neue gemacht.</p>
+
+
+                <closer>
+                    <salute>Herzlichste Grüssen</salute>
+                    <signed>deine <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">
+                                JacobavHeems<hi rend="twice-underline">kerck</hi>
+                        </persName>.</signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

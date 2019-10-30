@@ -1,0 +1,162 @@
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Q.01.19150618.JVH.01">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Jacoba van Heemskerck an Herwarth Walden, 18. Juni 1915, Loverendale,
+                    Domburg</title>
+                <editor>
+                    <persName ref="https://orcid.org/0000-0003-2423-7144">
+                        <forename>Marjam</forename>
+                        <surname>Trautmann</surname>
+                    </persName>
+                </editor>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0002-0953-2818">
+                        <forename>Torsten</forename>
+                        <surname>Schrade</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeber</note>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0003-2423-7144">
+                        <forename>Marjam</forename>
+                        <surname>Trautmann</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeberin</note>
+                    </resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="http://www.adwmainz.de">Akademie der Wissenschaften und der
+                        Literatur | Mainz</ref>
+                </publisher>
+                <pubPlace ref="http://sws.geonames.org/2874225">Mainz</pubPlace>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/"> This file is
+                        licensed under the terms of the Creative-Commons-License CC BY 4.0
+                    </licence>
+                </availability>
+                <idno type="file">Q.01.19150618.JVH.01.v1.xml</idno>
+                <idno type="uri">https://sturm-edition.de/id/Q.01.19150618.JVH.01</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Q.01.19150618.JVH.01, Jacoba van Heemskerck an Herwarth Walden, 18. Juni 1915,
+                    Loverendale, Domburg, bearbeitet von Marjam Trautmann, in: Der STURM. Digitale
+                    Quellenedition zur Geschichte der internationalen Avantgarde, erarbeitet und
+                    herausgegeben von Marjam Trautmann und Torsten Schrade. Mainz,
+                    Akademie der Wissenschaften und der Literatur. </bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <country>DE</country>
+                        <settlement>Berlin</settlement>
+                        <repository>Staatsbibliothek zu Berlin Preußischer Kulturbesitz,
+                            Handschriftenabteilung, Sturm-Archiv I, Heemskerck, Jacoba
+                            van</repository>
+                        <idno type="uri">http://kalliope-verbund.info/DE-611-HS-1910935</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <xenoData type="uri">http://digital.staatsbibliothek-berlin.de/metsresolver/PPN746594801</xenoData>
+        <profileDesc>
+            <correspDesc key="Bl.99-100" ref="https://sturm-edition.de/id/Q.01.19150618.JVH.01">
+                <correspAction type="sent">
+                    <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jacoba van
+                        Heemskerck</persName>
+                    <placeName key="O.0000004" ref="http://sws.geonames.org/2756746">Loverendale,
+                        Domburg</placeName>
+                    <date when="1915-06-18"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth
+                        Walden</persName>
+                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change>
+                    <date when="2018-07-16" n="1"/>
+                </change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic n="99r" url="http://content.staatsbibliothek-berlin.de/dms/PPN746594801/800/0/00000001.jpg"/>
+        <graphic n="99v" url="http://content.staatsbibliothek-berlin.de/dms/PPN746594801/800/0/00000002.jpg"/>
+        <graphic n="100r" url="http://content.staatsbibliothek-berlin.de/dms/PPN746594801/800/0/00000003.jpg"/>
+        <graphic n="100v" url="http://content.staatsbibliothek-berlin.de/dms/PPN746594801/800/0/00000004.jpg"/>
+        <graphic n="Farbkeil" url="http://content.staatsbibliothek-berlin.de/dms/PPN746594801/800/0/00000005.jpg"/>
+    </facsimile>
+    <text type="letter">
+        <body>
+            <div type="content">
+                <pb xml:id="S.99r" n="99r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D97A00000001"/>
+
+                <opener>
+                    <dateline>
+                        <date when="1915-06-18">
+                            <hi rend="underline">18. Juni 1915.</hi>
+                        </date>
+                    </dateline>
+                    <salute> Sehr wehrter Herr <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Walden</persName>
+                    </salute>
+                </opener>
+                <p>Vielen Dank für Ihren Brief vom <date when="1915-06-12">12. Juni</date>. Ich bin
+                    sehr froh dass Sie mit meine beide Ausstellungs Vorschläge einverstanden sind.
+                    Auch herzlich Dank für die schöne Karte aus <placeName key="O.0000036" ref="http://sws.geonames.org/2618425">Kopenhagen</placeName>, die ich später
+                    dann Ihr Brief aus <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Berlin</placeName> empfing. Es ist ein
+                    glänzende Kritik die Dr <persName key="P.0000021" ref="http://d-nb.info/gnd/119191164">Behne</persName> über meine Ausstellung
+                    geschrieben hat. Ich habe ihm<pb xml:id="S.99v" n="99v" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D97A00000002"/> ein
+                    Brief geschrieben an die aufgegebene Adresse und ihm gesagt dass ich sein
+                    Urtheil über meine Arbeiten für sehr wertvoll hälte und ihm gesagt dass ich doch
+                    jedenfalls hoffe nächstes Frühjahr nach <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Berlin</placeName> komme zu können und
+                    dass ich hoffte ihm dann auf meine Ausstellung ein Bild schenken zu
+                        dürfen.<note>Im Februar 1916 fand die 38. STURM-Ausstellung mit Bildern
+                        Jacoba van Heemskercks statt. Vgl. Enders, Rainer: Ausstellungskataloge der
+                        STURM-Galerie. <ref target="https://www.arthistoricum.net/themen/portale/sturm/ausstellungskataloge/">https://www.arthistoricum.net/themen/portale/sturm/ausstellungskataloge/</ref>
+                        (Aufruf 06.04.2017).</note> Ich bin jetzt sehr mit Zeichnungen und
+                    Aquarellen beschäftigt und fange auch mit neue Holzschnitten an. Mit dem Krieg
+                    gegen <placeName key="O.0000020" ref="http://sws.geonames.org/2017370">Russland</placeName>
+                    <pb xml:id="S.100r" n="100r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D97A00000003"/> geht
+                    es glänzend.<note>Am 4. Juni 1915 wurde die zum österreichisch-ungarischen
+                        Hoheitsgebiet gehörende polnische Festungsstadt Przemysl durch die
+                        Mittelmächte zurückerobert. Zuvor fiel sie im März desselben Jahres nach
+                        längerer Belagerung der dort eingekreisten österreichischen Truppen den
+                        russischen Belagerern zu, woraufhin eine starke Offensive der deutschen
+                        Kriegsführung an der Ostfront begann (bes. Schlacht bei Gorlice im Mai 1915)
+                        die bis zum Herbst 1915 andauerte. Vgl. Afflerbach, Holger: The Eastern
+                        Front. In: The Cambridge History of the First World War. Bd. 1 Global War.
+                        Hrsg. v. Jay Winter. Cambridge 2014, S. 234–265, hier S. 246–256; Frank,
+                        Susanne: Chronik 1914-1918. In: Enzyklopädie Erster Weltkrieg. Hrsg. v.
+                        Gerhard Hirschfeld [u.a.]. Paderborn [u.a.] 2004, S. 1061–1070, hier S.
+                        1065.</note> Der Krieg muss doch einmal ein Ende nehmen. Waren Sie auch für
+                    Geschäfte in <placeName key="O.0000036" ref="http://sws.geonames.org/2618425">Kopenhagen</placeName>, bereiten Sie dort auch Ausstellungen vor? Gestern
+                    habe ich hier mitgeteilt dass ich hier <hi rend="underline">nicht</hi>
+                    ausstelle. Die Zeit ist jetzt ganz vorüber aber dass sagte ich nicht und dachte
+                    es nur. Ich las in der Zeitung dass Herr <persName key="P.0000012" ref="http://d-nb.info/gnd/1077780265">Conrad Kickert</persName> die ganze
+                    Moderne Kunstkring<note>Der „Moderne Kunstkring“ (dt. Kunstring) war ein im Jahr
+                        1910 von dem niederländischen Maler Conrad Kikkert (1882–1965) gegründeter
+                        niederländischer Kunstverein.</note> wieder reorganisiert hat und jetzt
+                    selbst Präsident ist, wenn man zur Reorganisation über geht ist es sehr gut sich
+                    selbst Präsident zu machen!!<pb xml:id="S.100v" n="100v" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D97A00000004"/> Die
+                    Künstler hier sind wütend über meine Ausstellungen in <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Berlin</placeName>, ein sagte, „dass
+                    waren doch sicher sehr billige Preisen dass Ihre Arbeiten in <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Berlin</placeName>
+                    verkauft sind.“ Doch schrecklich die Eifersucht überall. Es macht mir nichts
+                    mehr und ich gehe ruhig allein weiter.</p>
+                <closer>
+                    <salute>Für diesen Abend nur noch herzlichste <hi rend="underline">Grüss</hi>e
+                        für Sie beide</salute> auch von Fräulein <persName key="P.0000008" ref="http://d-nb.info/gnd/136128289">Tak</persName>. <signed>Ihre <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jaco<hi rend="twice-underline">ba vanHeemskerck</hi>
+                        </persName>.</signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

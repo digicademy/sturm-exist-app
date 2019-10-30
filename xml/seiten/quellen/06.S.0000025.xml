@@ -1,0 +1,398 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="S.0000025">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Abteilung VI: STURM-Materialien</title>
+                <title type="navigation">Abteilung VI, Materialien</title>
+                <editor>
+                    <persName ref="https://orcid.org/0000-0003-1208-6131">
+                        <forename>Anne</forename>
+                        <surname>Lorenz</surname>
+                    </persName>
+                </editor>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0002-0953-2818">
+                        <forename>Torsten</forename>
+                        <surname>Schrade</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeber</note>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0003-2423-7144">
+                        <forename>Marjam</forename>
+                        <surname>Trautmann</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeberin</note>
+                    </resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="http://www.adwmainz.de">Akademie der Wissenschaften und der
+                        Literatur | Mainz</ref>
+                </publisher>
+                <pubPlace ref="http://sws.geonames.org/2874225">Mainz</pubPlace>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/"> This file is
+                        licensed under the terms of the Creative-Commons-License CC BY 4.0
+                    </licence>
+                </availability>
+                <idno type="file">materialien.xml</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Anne Katrin Lorenz: "Abteilung VI, STURM-Materialien", in: Der STURM. Digitale
+                    Quellenedition zur Geschichte der internationalen Avantgarde, erarbeitet und
+                    herausgegeben von Marjam Trautmann und Torsten Schrade. Mainz, Akademie der
+                    Wissenschaften und der Literatur. </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <listChange>
+                <change>
+                    <date when="2019-08-26" n="1"/>
+                    <p>Initiale Version</p>
+                </change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="section" n="twelve">
+                <div type="row">
+                    <div type="columns" n="eight">
+                <ab rend="h2">Abteilung VI, STURM-Materialien</ab>
+                <p>Neben der Zeitschrift, den Katalogen und den Schriften veröffentlichte der STURM-Verlag etliche weitere
+                    Druckerzeugnisse, die insbesondere der Eigenwerbung oder der Dokumentation
+                    dienten. Solche im ‚Sturm‘ entstandenen Quellen wie Einladungskarten,
+                    Informationsbroschüren, Programmankündigungen, Plakate,
+                    ‚Sturm‘-Künstlerpostkarten, Fotografien und die Gästebücher der Familie Walden werden
+                    unter dem Titel „Materialien“ als VI. Abteilung zusammengefasst. Diese Abteilung
+                    ist erst im Aufbau begriffen.</p>
+                    </div>
+                    <div type="columns" n="four">
+                        <ab type="subNavigation" n="quellen"/>
+                    </div>
+            <div type="row">
+                <div type="columns" n="twelve">
+                    <ab rend="h4">Bestandsliste</ab>
+                    <p>Die Bestandsliste führt sonstige im ‚Sturm‘ entstandene
+                        Materialien und die entsprechenden verfügbaren Digitalisate chronologisch
+                        auf. Mit der Abteilung stehen wir noch ganz am Anfang, die Liste wird jedoch laufend um weitere Quellen ergänzt. Umso mehr freuen wir uns über Hinweise auf
+                        weitere Materialien, Ergänzungen oder Korrekturvorschläge zu der Bestandsliste.</p>
+
+                    <list rend="ul" type="chronology">
+                        <item>
+                            <ref target="quellen/materialien.html#y1911" rend="black button">1911</ref>
+                        </item>
+                        <item>
+                            <ref target="quellen/materialien.html#y1916" rend="black button">1916</ref>
+                        </item>
+                        <item>
+                            <ref target="quellen/materialien.html#y1917" rend="black button">1917</ref>
+                        </item>
+                        <item>
+                            <ref target="quellen/materialien.html#y1920" rend="black button">1920</ref>
+                        </item>
+                        <item>
+                            <ref target="quellen/materialien.html#y1922" rend="black button">1922</ref>
+                        </item>
+                        <item>
+                            <ref target="quellen/materialien.html#y1923" rend="black button">1923</ref>
+                        </item>
+                        <item>
+                            <ref target="quellen/materialien.html#y1924" rend="black button">1924</ref>
+                        </item>
+                        <item>
+                            <ref target="quellen/materialien.html#y1926" rend="black button">1926</ref>
+                        </item>
+                        <item>
+                            <ref target="quellen/materialien.html#y1927" rend="black button">1927</ref>
+                        </item>
+                        <item>
+                            <ref target="quellen/materialien.html#y1928" rend="black button">1928</ref>
+                        </item>
+                        <item>
+                            <ref target="quellen/materialien.html#y1929" rend="black button">1929</ref>
+                        </item>
+                        <item>
+                            <ref target="quellen/materialien.html#y1930" rend="black button">1930</ref>
+                        </item>
+                        <item>
+                            <ref target="quellen/materialien.html#y1931" rend="black button">1931</ref>
+                        </item>
+                        <item>
+                            <ref target="quellen/materialien.html#yoj" rend="black button">ohne
+                                Jahr</ref>
+                        </item>
+                    </list>
+
+                    <ab rend="h5" style="year" xml:id="y1911">1911</ab>
+                    <table type="packed">
+                        <row rend="th">
+                            <cell>Beteiligte</cell>
+                            <cell>Titel</cell>
+                            <cell>Digitalisat</cell>
+                        </row>
+                        <row>
+                            <cell>Kokoschka, Oskar</cell>
+                            <cell>Der Sturm [Plakat]</cell>
+                            <cell>
+                                <ref target="https://www.europeana.eu/portal/de/record/2032004/470.html?q=%22Der+Sturm%22#dcId=1560863937734&amp;p=4">Digitalisat</ref>
+                            </cell>
+                        </row>
+                    </table>
+                    
+                    <ab rend="h5" style="year" xml:id="y1916">1916</ab>
+                    <table type="packed">
+                        <row rend="th">
+                            <cell>Beteiligte</cell>
+                            <cell>Titel</cell>
+                            <cell>Digitalisat</cell>
+                        </row>
+                        <row>
+                            <cell>Walden, Herwarth</cell>
+                            <cell>Der Sturm. Ständige Kunstausstellung – Expressionisten, Futuristen, Kubisten [Jährliche Informationsbroschüre]</cell>
+                            <cell>
+                            <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000002765">Digitalisat</ref>
+                            </cell>
+                        </row>
+                    </table> 
+                    
+                    <ab rend="h5" style="year" xml:id="y1917">1917</ab>
+                    <table type="packed">
+                        <row rend="th">
+                            <cell>Beteiligte</cell>
+                            <cell>Titel</cell>
+                            <cell>Digitalisat</cell>
+                        </row>
+                        <row>
+                            <cell>Walden, Herwarth</cell>
+                            <cell>Der Sturm. Ständige Kunstausstellung – Expressionisten, Futuristen, Kubisten [Jährliche Informationsbroschüre]</cell>
+                            <cell>
+                                <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000002775">Digitalisat</ref>
+                            </cell>
+                        </row>
+                    </table> 
+                    <ab rend="h5" style="year" xml:id="y1920">1920</ab>
+                    <table type="packed">
+                        <row rend="th">
+                            <cell>Beteiligte</cell>
+                            <cell>Titel</cell>
+                            <cell>Digitalisat</cell>
+                        </row>
+                        <row>
+                            <cell>Graf, Gottfried</cell>
+                            <cell>Üecht Gruppe. II. Herbstschau Neuer Kunst [Einladungskarte]</cell>
+                            <cell>
+                                <ref target="https://www.staatsgalerie.de/g/sammlung/sammlung-digital/einzelansicht/sgs/werk/einzelansicht/D7D5D1E8E3DA49B7A35CB120E748B0AC.html">Digitalisat</ref>
+                            </cell>
+                        </row> 
+                    </table>
+                    
+                    <ab rend="h5" style="year" xml:id="y1922">1922</ab>
+                    <table type="packed">
+                        <row rend="th">
+                            <cell>Beteiligte</cell>
+                            <cell>Titel</cell>
+                            <cell>Digitalisat</cell>
+                        </row>
+                        <row>
+                            <cell>Walden, Herwarth; Schwitters, Kurt</cell>
+                            <cell>Der Sturm im Mai 1922 [Programmankündigung]</cell>
+                            <cell>
+                                <ref target="http://sammlung-online.berlinischegalerie.de/eMuseumPlus?service=ExternalInterface&amp;module=collection&amp;objectId=210180&amp;viewType=detailView">Digitalisat</ref>
+                            </cell>
+                        </row>
+                    </table>
+                    <ab rend="h5" style="year" xml:id="y1923">1923</ab>
+                    <table type="packed">
+                        <row rend="th">
+                            <cell>Beteiligte</cell>
+                            <cell>Titel</cell>
+                            <cell>Digitalisat</cell>
+                        </row>
+                        <row>
+                            <cell>Walden, Herwarth</cell>
+                            <cell>Die jungen Dänen/Gastausstellung [Einladungskarte]</cell>
+                            <cell>
+                                <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000001277">Digitalisat</ref>
+                            </cell>
+                        </row> 
+                    </table>
+                    
+                    <ab rend="h5" style="year" xml:id="y1924">1924</ab>
+                    <table type="packed">
+                        <row rend="th">
+                            <cell>Beteiligte</cell>
+                            <cell>Titel</cell>
+                            <cell>Digitalisat</cell>
+                        </row>
+                        <row>
+                            <cell>Walden, Herwarth; Baumeister, Willi</cell>
+                            <cell>Die Kunstausstellung Der Sturm – Joseph Pobereschsky, Lidija Dmitriewskaja, Kurt Schwitters, Willi Baumeister [130. Ausstellung] [Einladungskarte]</cell>
+                            <cell>
+                                <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000001288">Digitalisat</ref>
+                            </cell>
+                        </row>
+                        <row>
+                            <cell>Walden, Herwarth; Höch, Hannah</cell>
+                            <cell>Die Kunstausstellung Der Sturm – Peri, Hilberseimer, Nell Walden [135. Ausstellung] [Einladungskarte]</cell>
+                            <cell>
+                                <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000001291">Digitalisat</ref>
+                            </cell>
+                        </row> 
+                        <row>
+                            <cell>Walden, Herwarth</cell>
+                            <cell>Sturm-Gesamtschau. Kunstverein Jena im Prinzessinnenschlößchen, Jena [Handzettel]</cell>
+                            <cell>
+                                <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000002977">Digitalisat</ref>
+                            </cell>
+                        </row>
+                    </table>
+                    
+                    <ab rend="h5" style="year" xml:id="y1926">1926</ab>
+                    <table type="packed">
+                        <row rend="th">
+                            <cell>Beteiligte</cell>
+                            <cell>Titel</cell>
+                            <cell>Digitalisat</cell>
+                        </row>
+                        <row>
+                            <cell>Walden, Herwarth; Szentiványi, Gyula</cell>
+                            <cell>Expressionisten. Hugo Scheiber, Arnold Topp [148. Ausstellung] [Einladungskarte]</cell>
+                            <cell>
+                                <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000001303">Digitalisat</ref>
+                            </cell>
+                        </row>
+                        <row>
+                            <cell>Walden, Herwarth; Heinersdorff, Gottfried</cell>
+                            <cell>Kurt Schwitters, Lajos Ebneth, Arnold Topp [155. Ausstellung] [Einladungskarte]</cell>
+                            <cell>
+                                <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000001317">Digitalisat</ref>
+                            </cell>
+                        </row> 
+                    </table>
+                    
+                    <ab rend="h5" style="year" xml:id="y1927">1927</ab>
+                    <table type="packed">
+                        <row rend="th">
+                            <cell>Beteiligte</cell>
+                            <cell>Titel</cell>
+                            <cell>Digitalisat</cell>
+                        </row>
+                        <row>
+                            <cell>Walden, Herwarth; Petrovics, Elek</cell>
+                            <cell>Hugo Scheiber [156. Ausstellung] [Einladungskarte]</cell>
+                            <cell>
+                                <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000001384">Digitalisat</ref>
+                            </cell>
+                        </row>
+                        <row>
+                            <cell>Walden, Herwarth</cell>
+                            <cell>Neue Werke von Hugo Scheiber. Budapest [165. Ausstellung] [Einladungskarte]</cell>
+                            <cell>
+                                <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000001392">Digitalisat</ref>
+                            </cell>
+                        </row> 
+                    </table>
+                    
+                    <ab rend="h5" style="year" xml:id="y1928">1928</ab>
+                    <table type="packed">
+                        <row rend="th">
+                            <cell>Beteiligte</cell>
+                            <cell>Titel</cell>
+                            <cell>Digitalisat</cell>
+                        </row>
+                        <row>
+                            <cell>Walden, Herwarth</cell>
+                            <cell>Hugo Scheiber. Kurt Schwitters [170. Ausstellung] [Einladungskarte]</cell>
+                            <cell>
+                                <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000001404">Digitalisat</ref>
+                            </cell>
+                        </row>
+                    </table>
+
+                    <ab rend="h5" style="year" xml:id="y1929">1929</ab>
+                    <table type="packed">
+                        <row rend="th">
+                            <cell>Beteiligte</cell>
+                            <cell>Titel</cell>
+                            <cell>Digitalisat</cell>
+                        </row>
+                        <row>
+                            <cell>Walden, Herwarth</cell>
+                            <cell>Carl Buchheister. Abstrakte Gemälde [180. Ausstellung] [Einladungskarte]</cell>
+                            <cell>
+                                <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000001413">Digitalisat</ref>
+                            </cell>
+                        </row> 
+                    </table>
+                    <ab rend="h5" style="year" xml:id="y1930">1930</ab>
+                    <table type="packed">
+                        <row rend="th">
+                            <cell>Beteiligte</cell>
+                            <cell>Titel</cell>
+                            <cell>Digitalisat</cell>
+                        </row>
+                        <row>
+                            <cell>Walden, Herwarth</cell>
+                            <cell>Boriska Polgár, Scheiber [184. Ausstellung] [Einladungskarte]</cell>
+                            <cell>
+                                
+                            </cell>
+                        </row> 
+                    </table>
+                    <ab rend="h5" style="year" xml:id="y1931">1931</ab>
+                    <table type="packed">
+                        <row rend="th">
+                            <cell>Beteiligte</cell>
+                            <cell>Titel</cell>
+                            <cell>Digitalisat</cell>
+                        </row>
+                        <row>
+                            <cell>Walden, Herwarth</cell>
+                            <cell>2. Vagabundenkunstausstellung [186. Ausstellung] [Einladungskarte]</cell>
+                            <cell>
+                                <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000001426">Digitalisat</ref>
+                            </cell>
+                        </row> 
+                        <row>
+                            <cell>Walden, Herwarth</cell>
+                            <cell>Nachtvorstellung. 2. Vagabundenkunstausstellung [186. Ausstellung] [Einladungskarte]</cell>
+                            <cell>
+                                <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000001437">Digitalisat</ref>
+                            </cell>
+                        </row> 
+                    </table>
+                   
+                    <ab rend="h5" style="year" xml:id="yoj">ohne Jahr</ab>
+                    <table type="packed">
+                        <row rend="th">
+                            <cell>Beteiligte</cell>
+                            <cell>Titel</cell>
+                            <cell>Digitalisat</cell>
+                        </row>
+                        <row>
+                            <cell>Walden, Herwarth</cell>
+                            <cell>o.T. [Fotografie, Portrait]</cell>
+                            <cell>
+                                <ref target="https://resolver.pim.hu/bib/PIM752103">Digitalisat</ref>
+                            </cell>
+                        </row>
+                        <row>
+                            <cell>Walden, Herwarth; Walden, Nell</cell>
+                            <cell>[Gästebücher]</cell>
+                            <cell/>
+                        </row>
+                    </table>
+                </div>
+            </div>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

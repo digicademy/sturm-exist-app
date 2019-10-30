@@ -1,0 +1,140 @@
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Q.01.19150710.JVH.01">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Jacoba van Heemskerck an Herwarth Walden, 10. Juli 1915, Loverendale, Domburg</title>
+                <editor>
+                    <persName ref="https://orcid.org/0000-0003-2423-7144">
+                        <forename>Marjam</forename>
+                        <surname>Trautmann</surname>
+                    </persName>
+                </editor>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0002-0953-2818">
+                        <forename>Torsten</forename>
+                        <surname>Schrade</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeber</note>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0003-2423-7144">
+                        <forename>Marjam</forename>
+                        <surname>Trautmann</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeberin</note>
+                    </resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="http://www.adwmainz.de">Akademie der Wissenschaften und der Literatur | Mainz</ref>
+                </publisher>
+                <pubPlace ref="http://sws.geonames.org/2874225">Mainz</pubPlace>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        This file is licensed under the terms of the Creative-Commons-License CC BY 4.0
+                    </licence>
+                </availability>
+                <idno type="file">Q.01.19150710.JVH.01.v1.xml</idno>
+                <idno type="uri">https://sturm-edition.de/id/Q.01.19150710.JVH.01</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Q.01.19150710.JVH.01, Jacoba van Heemskerck an Herwarth Walden, 10. Juli 1915, Loverendale, Domburg, 
+                    bearbeitet von Marjam Trautmann, in: Der STURM. Digitale Quellenedition zur Geschichte der internationalen 
+                    Avantgarde, erarbeitet und herausgegeben von Marjam Trautmann und Torsten Schrade. 
+                    Mainz, Akademie der Wissenschaften und der Literatur.
+                    </bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <country>DE</country>
+                        <settlement>Berlin</settlement>
+                        <repository>Staatsbibliothek zu Berlin Preußischer Kulturbesitz, Handschriftenabteilung, Sturm-Archiv I, Heemskerck, Jacoba van</repository>
+                        <idno type="uri">http://kalliope-verbund.info/DE-611-HS-1910946</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <xenoData type="uri">http://digital.staatsbibliothek-berlin.de/metsresolver/PPN746594828</xenoData>
+        <profileDesc>
+            <correspDesc key="Bl.102-103" ref="https://sturm-edition.de/id/Q.01.19150710.JVH.01">
+                <correspAction type="sent">
+                    <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jacoba van Heemskerck</persName>
+                    <placeName key="O.0000004" ref="http://sws.geonames.org/2756746">Loverendale, Domburg</placeName>
+                    <date when="1915-07-10"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth Walden</persName>
+                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change>
+                    <date when="2018-07-16" n="1"/>
+                </change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic n="102r" url="http://content.staatsbibliothek-berlin.de/dms/PPN746594828/800/0/00000001.jpg"/>
+        <graphic n="102v" url="http://content.staatsbibliothek-berlin.de/dms/PPN746594828/800/0/00000002.jpg"/>
+        <graphic n="103r" url="http://content.staatsbibliothek-berlin.de/dms/PPN746594828/800/0/00000003.jpg"/>
+        <graphic n="103v" url="http://content.staatsbibliothek-berlin.de/dms/PPN746594828/800/0/00000004.jpg"/>
+        <graphic n="Farbkeil" url="http://content.staatsbibliothek-berlin.de/dms/PPN746594828/800/0/00000005.jpg"/>
+    </facsimile>
+    <text type="letter">
+        <body>
+            <div type="content">
+            <pb xml:id="S.102r.01" n="102r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D97C00000001"/>
+                <opener>
+                    <dateline>
+                        <date when="1915-07-10">10. Juli 1915</date>.</dateline>
+                    <salute>Sehr wehrter Herr <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Walden</persName>.</salute>
+                </opener>
+                <p>Vielen Dank für Ihren Brief
+            vom <date when="1915-07-06">6. Juli</date> heute erhalten. Ich bin ganz damit
+            einverstanden dasz Sie die 100 Mark behalten es gibt ein sehr schlechten Kurs jetzt für
+            das deutsche Geld und ich finde es viel besser zu warten bis dass wieder besser geht.</p>
+                <p>Da
+            wir jetzt doch darüber sprechen wollte ich Ihnen fragen ob Sie so freundlich sein wollen
+            meine<pb xml:id="S.102v" n="102v" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D97C00000002"/> Zeichnungen, die ich Ihnen dann in <date when="1915-11">November</date> schicken, encadrieren zu lassen, die
+            Zeichnungen im Frühling waren ganz schön eingerahmt, und es ist so viel billiger alles
+            so zu schicken. Gemälde sind natürlich eine ganz andere Sache, aber so viele Zeichnungen
+            zusammen finde ich immer gefährlich wegen das Glas, einige neue Holzschnitten schicke
+            ich dann eingerahmt, da ich dass wegen das Japan Papier gern selbst mache. So behalten
+            Sie bitte das Geld, dann können Sie damit schon ein Teil zahlen und dann schicke ich
+            dann was es mehr ist dazu. Ich hoffe so dass Sie es nicht<pb xml:id="S.103r" n="103r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D97C00000003"/> zu viel gefragt finden, da wir
+            einander aber so gut kennen denke ich dass Sie es wohl thun wollen. Ja Ihre Reise können
+            sich nicht lange ausdehnen, viel Dank für die schöne Karte aus <placeName key="O.0000037" ref="http://sws.geonames.org/2673730">Stockholm</placeName> Fraulein <persName key="P.0000008" ref="http://d-nb.info/gnd/136128289">Tak</persName> fragt ob ich Ihnen sagen will
+            dass wir nicht mehr sprechen über ein Besuch, dass Sie aber ganz frei sind hier oder im
+               <placeName key="O.0000001" ref="http://sws.geonames.org/2747373">Haag</placeName> zu kommen wenn Sie
+            und Ihre <persName key="P.0000002" ref="http://d-nb.info/gnd/118891456">Frau</persName> nur wollen Sie
+            verstehen bitte sehr gut dass Sie i<hi rend="twice-underline">mmer</hi> wi<hi rend="underline">llkommen</hi> sind Für Vergnügen zu Reisen ist jetzt aber zu teuer
+            und für Ausstellungen ist es in <placeName key="O.0000003" ref="http://sws.geonames.org/2750405">Holland</placeName> jetzt schlecht, man hat so immer Ausstellungen mit Kriegspreise<pb xml:id="S.103v" n="103v" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D97C00000004"/>
+            und die Gemälde sind so furchtbar billig, ich möchte nicht gern so billig verkaufen. Ich
+            glaube es ist besser zu warten, dass wissen Sie aber am besten. Ich arbeite sehr viel
+            immer Zeichnungen, und einige grosse Gemälde aber nicht viele. Ich bin so froh dass Sie
+            wieder 5 von meine Holzschnitte verkauft haben. Wenn Sie von die letzte wovon Sie die
+            Auflage haben die Holzstöcke haben wollen für publikation in <term type="journal" key="W.0000068" ref="http://d-nb.info/gnd/4058273-5">Der Sturm</term> bitte schreiben
+            Sie dann.</p>
+                <p>So schade dass es bei <placeName key="O.0000038" ref="http://sws.geonames.org/765876">Lublin</placeName> heute nicht so günstig war<note>Die russisch-polnische Stadt Lublin wurde Ende Juli durch deutsch-österreichische Truppen eingenommen. Vgl. Stone, Norman: Bug-Offensive. In: Enzyklopädie Erster Weltkrieg. Hrsg. v. Gerhard Hirschfeld [u.a.]. Paderborn [u.a.] 2004, S. 398–399, hier S. 398.</note> es geht dort anders prachtvoll.
+            Denken sie es wird noch lange dauern? Wie war die Stimmung in <placeName key="O.0000033" ref="http://sws.geonames.org/2661886">Schweden</placeName>? Haben Sie die Maler die in
+            der Sturm ausstellte auch besucht und werden wir auch in <placeName key="O.0000037" ref="http://sws.geonames.org/2673730">Stockholm</placeName> ausstellen?<note>Im Oktober 1915 fand in Stockholm eine STURM-Ausstellung statt. Vgl. Enders, Rainer: Ausstellungen außerhalb der Berliner Galerie. URL: <ref target="https://www.arthistoricum.net/themen/portale/sturm/ausstellungen/">https://www.arthistoricum.net/themen/portale/sturm/ausstellungen/</ref> (Aufruf 06.04.2017).</note> Von Dr
+               <persName key="P.0000021" ref="http://d-nb.info/gnd/119191164">Behne</persName> habe ich eine Karte<pb xml:id="S.102r.02" n="102r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D97C00000001"/>
+            bekommen.</p>
+                <closer>
+                    <salute>Mit herzliche Grüssen für Sie beide</salute> <signed>Ihre <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jac<hi rend="twice-underline">oba
+                  vanHeemskerck</hi>
+                        </persName>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,161 @@
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Q.01.19150217.JVH.01">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Jacoba van Heemskerck an Herwarth Walden, 17. Februar 1915, 35, Nassau
+                    Zuilensteinstraat, Den Haag</title>
+                <editor>
+                    <persName ref="https://orcid.org/0000-0003-2423-7144">
+                        <forename>Marjam</forename>
+                        <surname>Trautmann</surname>
+                    </persName>
+                </editor>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0002-0953-2818">
+                        <forename>Torsten</forename>
+                        <surname>Schrade</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeber</note>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0003-2423-7144">
+                        <forename>Marjam</forename>
+                        <surname>Trautmann</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeberin</note>
+                    </resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="http://www.adwmainz.de">Akademie der Wissenschaften und der
+                        Literatur | Mainz</ref>
+                </publisher>
+                <pubPlace ref="http://sws.geonames.org/2874225">Mainz</pubPlace>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/"> This file is
+                        licensed under the terms of the Creative-Commons-License CC BY 4.0
+                    </licence>
+                </availability>
+                <idno type="file">Q.01.19150217.JVH.01.v1.xml</idno>
+                <idno type="uri">https://sturm-edition.de/id/Q.01.19150217.JVH.01</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Q.01.19150217.JVH.01, Jacoba van Heemskerck an Herwarth Walden, 17. Februar
+                    1915, 35, Nassau Zuilensteinstraat, Den Haag, bearbeitet von Marjam Trautmann,
+                    in: Der STURM. Digitale Quellenedition zur Geschichte der internationalen
+                    Avantgarde, erarbeitet und herausgegeben von Marjam Trautmann 
+                    und Torsten Schrade. Mainz, Akademie der Wissenschaften und der Literatur.</bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <country>DE</country>
+                        <settlement>Berlin</settlement>
+                        <repository>Staatsbibliothek zu Berlin Preußischer Kulturbesitz,
+                            Handschriftenabteilung, Sturm-Archiv I, Heemskerck, Jacoba
+                            van</repository>
+                        <idno type="uri">http://kalliope-verbund.info/DE-611-HS-1910775</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <xenoData type="uri">http://digital.staatsbibliothek-berlin.de/metsresolver/PPN746594496</xenoData>
+        <profileDesc>
+            <correspDesc key="Bl.58-59" ref="https://sturm-edition.de/id/Q.01.19150217.JVH.01">
+                <correspAction type="sent">
+                    <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jacoba van
+                        Heemskerck</persName>
+                    <placeName key="O.0000001" ref="http://sws.geonames.org/2747373">35, Nassau
+                        Zuilensteinstraat, Den Haag</placeName>
+                    <date when="1915-02-17"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth
+                        Walden</persName>
+                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change>
+                    <date when="2018-07-16" n="1"/>
+                </change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic n="58r" url="http://content.staatsbibliothek-berlin.de/dms/PPN746594496/800/0/00000001.jpg"/>
+        <graphic n="58v" url="http://content.staatsbibliothek-berlin.de/dms/PPN746594496/800/0/00000002.jpg"/>
+        <graphic n="59r" url="http://content.staatsbibliothek-berlin.de/dms/PPN746594496/800/0/00000003.jpg"/>
+        <graphic n="59v" url="http://content.staatsbibliothek-berlin.de/dms/PPN746594496/800/0/00000004.jpg"/>
+        <graphic n="Farbkeil" url="http://content.staatsbibliothek-berlin.de/dms/PPN746594496/800/0/00000005.jpg"/>
+    </facsimile>
+    <text type="letter">
+        <body>
+            <div type="content">
+                <pb xml:id="S.58r.01" n="58r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D96500000001"/>
+                <opener>
+                    <dateline>
+                        <date when="1915-02-17">17. Febr: 1915.</date>
+                    </dateline>
+                    <salute> Sehr wehrter Herr <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Walden</persName>.</salute>
+                </opener>
+                <p>Vielen Dank für Ihren Brief vom <date when="1915-02-15">15. Febr:</date> hierbei
+                    schicke ich Ihnen eine Empfehlung für den holländischen Gesandten Fraulein
+                        <persName key="P.0000008" ref="http://d-nb.info/gnd/136128289">Tak</persName> hat das für Ihnen geschrieben ihr <persName key="P.0000034" ref="http://viaf.org/viaf/287860832">Vater</persName> war ein sehr bekannter
+                    Minister des Inneren und hat auch <persName key="P.0000035" ref="http://d-nb.info/gnd/117543705">Baron Gevers</persName> gekannt, bitte
+                    lesen Sie den Brief dann können Sie Ihm persönlich den Brief geben. So denke<pb xml:id="S.58v" n="58v" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D96500000002"/> ich
+                    wird es besser wirken, dann dasz ich geschrieben hätte. Bitte schreiben Sie ob
+                    Sie noch einige Holzstöcke für den <term type="journal" key="W.0000068" ref="http://d-nb.info/gnd/4058273-5">Sturm</term> brauchen können von die
+                    Mappe dann werde ich Ihnen sofort einige schicken wie viel brauchen Sie? Bitte
+                    dann später die Holzstöcke zurück dann kann ich mehrere Holzschnitten drucken
+                    wenn Sie im Laufe des Jahres noch mehrere Mappen brauchen. Dann noch ein Frage
+                    aber bitte ganz öffentlich Ihr Antwort, ich möchte so sehr gern Ihnen und Ihre
+                        <persName key="P.0000002" ref="http://d-nb.info/gnd/118891456">Frau</persName> noch ein Bild geben für Ihre Collection<pb xml:id="S.59r" n="59r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D96500000003"/> wenn
+                    Sie lieber kein Bild haben kein Platz oder so dann sagen Sie es, dasz ist
+                    verabredet. Wollen Sie dann ein Bild auf der Ausstellung aussuchen, Sie müszen
+                    nehmen was Ihnen am besten gefällt, gross oder klein Sie sind ganz frei und es
+                    ist mir ein Vergnügen es Ihnen zu schenken.</p>
+                <p>So möglich kommen Sie dann beiden diesen Sommer in <placeName key="O.0000005" ref="http://sws.geonames.org/2744011">Zeeland</placeName> wenn sie dann
+                    Ausstellungen haben dann gehen Sie so auf ein oder zwei Tagen hin und her und
+                    dann bleibt Ihre <persName key="P.0000002" ref="http://d-nb.info/gnd/118891456">Frau</persName> auf Loverendale, Wir verabreden dasz wenn Sie vielleicht in
+                        <date when="1915-04">April</date>
+                    <pb xml:id="S.59v" n="59v" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D96500000004"/> nach
+                        <placeName key="O.0000003" ref="http://sws.geonames.org/2750405">Holland</placeName> kommen. In <placeName key="O.0000020" ref="http://sws.geonames.org/2017370">Rusland</placeName> geht es prachtvoll
+                    und dann wird es morgen auf der <placeName key="O.0000019" ref="http://sws.geonames.org/2960848">Nordsee</placeName> anfangen.<note>Am
+                        4. Februar 1915 wurde das Seegebiet um die britischen Inseln durch das
+                        Deutsche Reich zum Sperrgebiet erklärt. Am 22. Februar proklamierte
+                        Deutschland den uneingeschränkten U-Boot-Krieg. Rohwer, Jürgen:
+                        U-Boot-Krieg. In: Enzyklopädie Erster Weltkrieg. Hrsg. v. Gerhard Hirschfeld
+                        [u.a.]. Paderborn [u.a.] 2004, S. 931–934.</note> Wir erleben doch grosse
+                    Zeiten. Ich habe die Nummer von der <term type="newspaper" key="W.0000060">Flämische Zeitung</term> angefragt und werde sie Ihnen sofort schicken.</p>
+                <p>Ihr Antwort auch über die Holzstöcke entgegen sehend </p>
+                <closer>
+                    <salute>Mit herzlichsten Grüssen für Sie beiden</salute>
+                    <signed>Ihre <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jacoba <hi rend="twice-underline">vanHeemskerck</hi>
+                        </persName>
+                    </signed>
+                </closer>
+                <postscript>
+                    <p>
+                        <term type="journal" key="W.0000068" source="https://doi.org/10.11588/diglit.33880.16" ref="http://d-nb.info/gnd/4058273-5">Der Sturm</term>
+                        <note>Walden,
+                            Herwarth [Hrsg.]: Der Sturm. Halbmonatsschrift für Kultur und die Künste
+                            21/22 (1915).</note> eben gekommen: die <term type="artwork" key="W.0000003" source="https://doi.org/10.11588/diglit.33880#0139">Zeichnung</term>
+                        <note>Walden, Herwarth [Hrsg.]: Der Sturm.
+                            Halbmonatsschrift für Kultur und die Künste 21/22 (1915), S. 137.</note>
+                        von <persName key="P.0000025" ref="http://d-nb.info/gnd/118575864">Macke</persName> ist sehr schön traurig solch ein Talent. Wenn
+                        besprechungen in deutsche Zeitungen über die Ausstellungen kommen bitte
+                            schicken<pb xml:id="S.58r.02" n="58r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D96500000001"/>
+                        Sie dann einige und wenn in holländische Zeitungen bitte geben Sie dann die
+                        Nummer auf dann kann ich die hier kaufen</p>
+                </postscript>
+            </div>
+        </body>
+    </text>
+</TEI>

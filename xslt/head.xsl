@@ -5,7 +5,7 @@
  : DER STURM
  : A Digital Edition of Sources from the International Avantgarde
  :
- : Edited and developed by Marjam Mahmoodzada and Torsten Schrade
+ : Edited and developed by Marjam Trautmann and Torsten Schrade
  : Academy of Sciences and Literature | Mainz
  :
  : Contains the head of the website with title and metadata.
@@ -21,7 +21,7 @@
         <head>
             <meta charset="utf-8"/>
             <meta name="description" content=""/>
-            <meta name="author" content="Marjam Mahmoodzada"/>
+            <meta name="author" content="Marjam Trautmann"/>
             <meta name="author" content="Torsten Schrade"/>
             <meta name="viewport" content="width=device-width, initial-scale=1"/>
             <title>
@@ -34,12 +34,8 @@
                         "de": "FORCEHYPHENOPOLY"
                     },
                     paths: {
-                        patterndir: "</xsl:text>
-                <xsl:value-of select="$relativeToAppBase"/>
-                <xsl:text>js/Hyphenopoly/patterns/",
-                        maindir: "</xsl:text>
-                <xsl:value-of select="$relativeToAppBase"/>
-                <xsl:text>js/Hyphenopoly/"
+                        patterndir: "</xsl:text><xsl:value-of select="$relativeToAppBase"/><xsl:text>js/Hyphenopoly/patterns/",
+                        maindir: "</xsl:text><xsl:value-of select="$relativeToAppBase"/><xsl:text>js/Hyphenopoly/"
                     },
                     setup: {
                         classnames: {

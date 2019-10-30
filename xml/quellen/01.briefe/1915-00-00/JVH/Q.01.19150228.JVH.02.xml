@@ -1,0 +1,118 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Q.01.19150228.JVH.02">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Jacoba van Heemskerck an Nell Walden, 28. Februar 1915, Den Haag</title>
+            <editor>
+               <persName ref="http://d-nb.info/gnd/1013156242">
+                  <forename>Lea</forename>
+                  <surname>Müller-Dannhausen</surname>
+               </persName>
+            </editor>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-0953-2818">
+                  <forename>Torsten</forename>
+                  <surname>Schrade</surname>
+               </persName>
+               <resp>
+                  <note>Herausgeber</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0003-2423-7144">
+                  <forename>Marjam</forename>
+                  <surname>Trautmann</surname>
+               </persName>
+               <resp>
+                  <note>Herausgeberin</note>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.adwmainz.de">Akademie der Wissenschaften und der Literatur | Mainz</ref>
+            </publisher>
+            <pubPlace ref="http://sws.geonames.org/2874225">Mainz</pubPlace>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">This file is
+                  licensed under the terms of the Creative-Commons-License CC BY 4.0
+               </licence>
+            </availability>
+            <idno type="file">Q.01.19150228.JVH.02.xml</idno>
+            <idno type="uri">https://sturm-edition.de/id/Q.01.19150228.JVH.02</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>Q.01.19150228.JVH.02, Jacoba van Heemskerck an Nell Walden, 28. Februar
+               1915, Den Haag, bearbeitet von Lea Müller-Dannhausen, in: Der STURM. Digitale
+               Quellenedition zur Geschichte der internationalen Avantgarde, erarbeitet und
+               herausgegeben von Marjam Trautmann und Torsten Schrade. Mainz, Akademie der
+               Wissenschaften und der Literatur.</bibl>
+            <msDesc>
+               <msIdentifier>
+                  <country>DE</country>
+                  <settlement>Berlin</settlement>
+                  <repository>Staatsbibliothek zu Berlin Preußischer Kulturbesitz,
+                     Handschriftenabteilung, Sturm-Archiv I, Heemskerck, Jacoba
+                     van</repository>
+                  <idno type="uri">http://resolver.staatsbibliothek-berlin.de/SBB0000D96700000000</idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <xenoData type="uri">http://kalliope-verbund.info/DE-611-HS-1910786</xenoData>
+      <xenoData type="url">https://content.staatsbibliothek-berlin.de/dc/PPN746594518.mets.xml</xenoData>
+      <profileDesc>
+         <correspDesc key="Bl.63-64" ref="https://sturm-edition.de/id/Q.01.19150228.JVH.02">
+            <correspAction type="sent">
+               <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jacoba van Heemskerck</persName>
+               <placeName key="O.0000001" ref="http://sws.geonames.org/2747373">35, Nassau Zuilensteinstraat, Den Haag</placeName>
+               <date when="1915-02-28"/>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="P.0000002" ref="http://d-nb.info/gnd/118891456">Nell Walden</persName>
+               <placeName key="O.0000002" ref="http://sws.geonames.org/2950159">Potsdamerstrasse 134a, Berlin W.9.</placeName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change>
+               <date when="2019-10-30" n="1"/>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic n="63r" url="http://content.staatsbibliothek-berlin.de/dms/PPN746594518/1200/0/00000001.jpg"/>
+      <graphic n="63v" url="http://content.staatsbibliothek-berlin.de/dms/PPN746594518/1200/0/00000002.jpg"/>
+      <graphic n="64r" url="http://content.staatsbibliothek-berlin.de/dms/PPN746594518/1200/0/00000003.jpg"/>
+      <graphic n="64v" url="http://content.staatsbibliothek-berlin.de/dms/PPN746594518/1200/0/00000004.jpg"/>
+      <graphic n="Farbkeil" url="http://content.staatsbibliothek-berlin.de/dms/PPN746594518/1200/0/00000005.jpg"/>
+   </facsimile>
+   <text type="letter">
+      <body>
+         <div type="content">
+            <pb xml:id="S.63r" n="63r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D96700000001"/>
+            <opener>
+               <dateline>
+                  <date when="1915-02-28">28. Febr 1915</date>
+               </dateline>
+               <salute>Liebe Frau <persName key="P.0000002" ref="http://d-nb.info/gnd/118891456">Walden</persName>
+               </salute>
+            </opener>
+            <p>Ich bin so froh dasz die Kollektion Ihnen gefällt, und sehr dankbar dasz Sie <term type="artwork" key="W.0000049">6. Zeichnungen</term> kaufen wollen. 300 Mark zusammen ist wirklich ganz schön. Mit Ihr wahl bin ich auch ganz einverstanden und sehr froh dasz Sie nach meine Meinung auch die besten gewählt haben. Es macht mir so viel freude zu wissen dasz die <term type="artwork" key="W.0000049">Zeichnungen</term>
+                    <pb xml:id="S.63v" n="63v" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D96700000002"/> Ihnen gehören.</p>
+            <p>Bitte gar keine Erzählungen ob Sie und Herr <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Walden</persName> ein Bild annehmen können, natürlich müssen Sie dasz direct thun ich bin viel zu froh dasz Sie ein haben wollen und recht bald schreiben Sie mir die Nummer und wirklich vertraue ich darauf das Sie das beste aussuchen. Ein anderes Jahr hoffe ich persönlich Ihnen ein geben zu können dann bin ich gleich da um zu sehen ob sie wirklich ein schönes wählen. Die Zeit wird kommen dasz Sie für meine Bilder in Ihre Kollektion ein Zimmer <unclear>mitten</unclear>. Sie und Herr <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Walden</persName> thun so viel für mich<pb xml:id="S.64r" n="64r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D96700000003"/> dasz Sie ganz ruhig noch viele Bilder annehmen können. Mit die Holzdrücke für die Mappe schicke ich 10 nummeriert zum Verkauf von dem
+               <term type="artwork" key="W.0000008" ref="https://doi.org/10.11588/diglit.33880#0151">Holzstöck</term>
+                    <note>Walden, Herwarth [Hrsg.]: Der Sturm. Halbmonatsschrift für Kultur und die Künste 23/24 (1915), S. 149.</note> die im nächsten <term type="journal" key="W.0000068" source="https://doi.org/10.11588/diglit.33880.17" ref="http://d-nb.info/gnd/4058273-5">Sturm</term>
+                    <note>Walden, Herwarth [Hrsg.]: Der Sturm. Halbmonatsschrift für Kultur und die Künste 23/24 (1915). Nicht nur auf dem Cover, auch auf den Seiten 153 und 155 finden sich Holzschnitte von van Heemskerck.</note> veröffentlicht wird und dann ist wie gewöhnlich ein <hi rend="underline">nich</hi>t nummerierte Druck für Ihre Kollektion dabei.</p>
+            <p>Ich hoffe so Ihnen in <date when="1915-04">April</date> zu sehen. Ja Sie haben recht wie lange her dasz Sie in <placeName key="O.0000004" ref="http://sws.geonames.org/2756746">Domburg</placeName> waren, schreckliche Zeiten aber <placeName key="O.0000014" ref="http://sws.geonames.org/2921044">Deutschland</placeName> ist prachtvoll solche Einheit und solche Kraft. sicher es wird siegen.</p>
+            <closer>
+               <salute>Herzlichste Grüssen</salute> <signed>Ihre <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jacoba vH<hi rend="underline">eemskerck</hi>
+                        </persName>.</signed>
+                </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

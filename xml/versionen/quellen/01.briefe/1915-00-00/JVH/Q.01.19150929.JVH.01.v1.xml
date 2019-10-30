@@ -1,0 +1,177 @@
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Q.01.19150929.JVH.01">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Jacoba van Heemskerck an Herwarth Walden, 29. September 1915, Loverendale, Domburg</title>
+                <editor>
+                    <persName ref="https://orcid.org/0000-0003-2423-7144">
+                        <forename>Marjam</forename>
+                        <surname>Trautmann</surname>
+                    </persName>
+                </editor>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0002-0953-2818">
+                        <forename>Torsten</forename>
+                        <surname>Schrade</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeber</note>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0003-2423-7144">
+                        <forename>Marjam</forename>
+                        <surname>Trautmann</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeberin</note>
+                    </resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="http://www.adwmainz.de">Akademie der Wissenschaften und der Literatur | Mainz</ref>
+                </publisher>
+                <pubPlace ref="http://sws.geonames.org/2874225">Mainz</pubPlace>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        This file is licensed under the terms of the Creative-Commons-License CC BY 4.0
+                    </licence>
+                </availability>
+                <idno type="file">Q.01.19150929.JVH.01.v1.xml</idno>
+                <idno type="uri">https://sturm-edition.de/id/Q.01.19150929.JVH.01</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Q.01.19150929.JVH.01, Jacoba van Heemskerck an Herwarth Walden, 29. September 1915, Loverendale, Domburg, 
+                    bearbeitet von Marjam Trautmann, in: Der STURM. Digitale Quellenedition zur Geschichte der internationalen 
+                    Avantgarde, erarbeitet und herausgegeben von Marjam Trautmann und Torsten Schrade. 
+                    Mainz, Akademie der Wissenschaften und der Literatur.
+                    </bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <country>DE</country>
+                        <settlement>Berlin</settlement>
+                        <repository>Staatsbibliothek zu Berlin Preußischer Kulturbesitz, Handschriftenabteilung, Sturm-Archiv I, Heemskerck, Jacoba van</repository>
+                        <idno type="uri">http://kalliope-verbund.info/DE-611-HS-1911088</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <xenoData type="uri">http://digital.staatsbibliothek-berlin.de/metsresolver/PPN746594852</xenoData>
+        <profileDesc>
+            <correspDesc key="Bl.110-111" ref="https://sturm-edition.de/id/Q.01.19150929.JVH.01">
+                <correspAction type="sent">
+                    <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jacoba van Heemskerck</persName>
+                    <placeName key="O.0000004" ref="http://sws.geonames.org/2756746">Loverendale, Domburg</placeName>                    
+                    <date when="1915-09-29"/>              
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth Walden</persName>
+                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change>
+                    <date when="2018-07-16" n="1"/>
+                </change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic n="110r" url="http://content.staatsbibliothek-berlin.de/dms/PPN746594852/800/0/00000001.jpg"/>
+        <graphic n="110v" url="http://content.staatsbibliothek-berlin.de/dms/PPN746594852/800/0/00000002.jpg"/>
+        <graphic n="111r" url="http://content.staatsbibliothek-berlin.de/dms/PPN746594852/800/0/00000003.jpg"/>
+        <graphic n="111v" url="http://content.staatsbibliothek-berlin.de/dms/PPN746594852/800/0/00000004.jpg"/>
+        <graphic n="Farbkeil" url="http://content.staatsbibliothek-berlin.de/dms/PPN746594852/800/0/00000005.jpg"/>
+    </facsimile>
+    <text type="letter">
+        <body>
+            <div type="content">
+            <pb xml:id="S.110r" n="110r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D97E00000001"/>
+            
+                <opener>
+                    <dateline>
+                        <date when="1915-09-29">
+                            <hi rend="underline">29. Sept: 1915</hi>
+                        </date>
+                    </dateline>
+                    <salute>Sehr wehrter
+            Herr <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Walden</persName>
+                    </salute>
+                </opener>
+                <p>Schon so lange
+            wollte ich Sie beiden die versprochene Photo schicken, ich habe aber immer so viel zu
+            arbeiten dasz kein Zeit übrig bleibt, und ich dachte es war schöner Ihnen eine selbst
+            gemachter Photo im Atelier zu geben. Sie sehen auch einige neue Bilder, dasz grosse ist
+            196 x 112 und ist eben fertig.<pb xml:id="S.110v" n="110v" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D97E00000002"/> Bitte aber jetzt eine Photo von Sie beiden zu schicken
+            Ihre <persName key="P.0000002" ref="http://d-nb.info/gnd/118891456">Frau</persName> hatte es mir
+            versprochen ich wollte es aber nicht fragen da ich nicht fertig war mit mein Bild.</p>
+                <p>Sehr viel dank für Ihr Brief ich bin so froh dasz wieder ein Bild von mir verkauft ist. Bitte
+                    behalten Sie das geld, für einrahmen und was dann übrig ist bekomme ich dann
+                    später die Mark steht noch niedrig Ich war so traurig wann ich die
+                    Todesnachricht im <term type="journal" key="W.0000068" source="https://doi.org/10.11588/diglit.37113.7" ref="http://d-nb.info/gnd/4058273-5">Sturm</term>
+                    <note>Walden, Herwarth
+                        [Hrsg.]: Der Sturm. Halbmonatsschrift für Kultur und die Künste 11/12
+                        (1915).</note> las von Herrn <persName key="P.0000041" ref="http://d-nb.info/gnd/118618830">Stramm</persName>, es ist aber ein
+                    grosse Trost dasz er vor eine so grosse und gerechte Sache gefallen ist.<pb xml:id="S.111r" n="111r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D97E00000003"/>
+                    glücklich geht es im Westen wieder besser<note>Am 22. September 1915 begann die
+                        2. Champagne-Schlacht, in der französische Truppen in die Offensive gingen.
+                        Die deutsche Armee konnte die Angriffe weitgehend erfolgreich abwehren. Die
+                        Schlacht endete am 4. Oktober, mit hohen Verlusten auf beiden Seiten
+                        (Franzosen 1440.000 Mann, Deutsche 97.000 Mann). Vgl. Werth, German:
+                        Champagne. In: Enzyklopädie Erster Weltkrieg. Hrsg. v. Gerhard Hirschfeld
+                        [u.a.]. Paderborn [u.a.] 2004, S. 409–411, hier S. 410f.</note> und was wird
+                    der <placeName key="O.0000041" ref="http://sws.geonames.org/685608">Balkan</placeName> machen?<note>Am 6. September 1915 schlossen Deutschland
+                        und Österreich-Ungarn einen Bündnisvertrag mit Bulgarien. Am 6. Oktober
+                        starteten die Mittelmächte eine Offensive gegen Serbien, am 9. Oktober wurde
+                        Belgrad erobert. Am 14. Oktober erklärte Bulgarien Serbien den Krieg,
+                        woraufhin Großbritannien und Frankreich am 15./16. Oktober eine
+                        Kriegserklärung an Bulgarien richteten. Vgl. Frank, Susanne: Chronik
+                        1914–1918. In: Enzyklopädie Erster Weltkrieg. Hrsg. v. Gerhard Hirschfeld
+                        [u.a.]. Paderborn [u.a.] 2004, S. 1061–1070, hier S. 1065.</note> In
+                        <placeName key="O.0000020" ref="http://sws.geonames.org/2017370">Rusland</placeName> werden die Armen es diesen winter auch furchtbar kalt
+                    haben, so traurig dasz es so lange dauert.<note>Die deutsch-österreichische
+                        Offensive an der Ostfront kam im September 1915 in der Westukraine nach den
+                        Schlachten von Swenziany und Dubno-Luck zum stehen. Vgl. Stone, Norman:
+                        Ostfront. In: Enzyklopädie Erster Weltkrieg. Hrsg. v. Gerhard Hirschfeld
+                        [u.a.]. Paderborn [u.a.] 2004, S. 762–764, hier S. 762.</note>
+                </p>
+                <p>Prachtvoll was Sie über <persName key="P.0000042" ref="http://d-nb.info/gnd/118571516">Lenbach</persName> in dem <term type="journal" key="W.0000068" source="https://doi.org/10.11588/diglit.37113#0064" ref="http://d-nb.info/gnd/4058273-5">Sturm</term>
+                    <note>Walden, Herwarth:
+                        Kunststücke. Meisteratelier-Geheimnisse. In: Der Sturm. Halbmonatsschrift
+                        für Kultur und die Künste 11/12 (1915), S. 62-64.</note> geschrieben haben.
+                        <term type="article" key="W.0000052" source="https://doi.org/10.11588/diglit.37113#0070">Biologie im
+                        Kubismus</term> von Dr <persName key="P.0000021" ref="http://d-nb.info/gnd/119191164">Behne</persName>
+                    <note>Behne, Adolf:
+                        Biologie und Kubismus. In: Der Sturm. Halbmonatsschrift für Kultur und die
+                        Künste 11/12 (1915), S. 68–71.</note> war sehr gut, ich schrieb ihm dasz
+                    nach <placeName key="O.0000042" ref="http://sws.geonames.org/2857129">Oranienburg</placeName>, er ist doch immer im Lazarett?</p>
+                <p>
+                    <persName key="P.0000012" ref="http://d-nb.info/gnd/1077780265">Conrad Kickert</persName> und de Moderne
+            Kunstkring haben in <placeName key="O.0000009" ref="http://sws.geonames.org/2759794">Amsterdam</placeName> Keizersgracht ein Haus für permanente Ausstellungen, Academie
+            und Club mit Mittag thee eröffnet. <persName key="P.0000012" ref="http://d-nb.info/gnd/1077780265">Kickert</persName> gibt<pb xml:id="S.111v" n="111v" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D97E00000004"/> Stunden, man musz sich wie im Himmel fühlen wenn man vom im
+            Stunde hat.</p>
+                <p>
+                    <persName key="P.0000039" ref="http://d-nb.info/gnd/124503063">Schelfhout</persName>,
+               <persName key="P.0000031" ref="http://d-nb.info/gnd/118583441">Mondrian</persName>, <persName key="P.0000016" ref="http://d-nb.info/gnd/118748475">Sluiters</persName>, <persName key="P.0000040" ref="http://d-nb.info/gnd/121931005">Gestel</persName> und <persName key="P.0000010" ref="http://d-nb.info/gnd/128866748">Le Fauconnier</persName> haben eine Ausstellung
+            im Suasso Museum in <placeName key="O.0000009" ref="http://sws.geonames.org/2759794">Amsterdam</placeName>
+                    <date when="1915-10">Anfang October</date> und Herr <persName key="P.0000043" ref="http://www.wikidata.org/entity/Q2298253">Bremmer</persName> (ein schrecklicher
+               Kerl) wird dann eine <foreign>causerie</foreign> halten. <persName key="P.0000031" ref="http://d-nb.info/gnd/118583441">Mondrian</persName> hat nichts neues da er nur in <placeName key="O.0000010" ref="http://sws.geonames.org/2988507">Paris</placeName> arbeiten kann und jetzt hier
+            ist. (schon ein Jahr). <persName key="P.0000016" ref="http://d-nb.info/gnd/118748475">Sluiters</persName>
+                hat eine masse Skizzen von Belgier gemacht, und <persName key="P.0000039" ref="http://d-nb.info/gnd/124503063">Schelfhout</persName>’s Farben sind jetzt so
+            schmutzig las ich in der Zeitung. Es ist doch traurig das <placeName key="O.0000003" ref="http://sws.geonames.org/2750405">Holland</placeName> in der Bewegung so wenig
+            hervorragend ist.</p>
+                <closer>
+                    <salute>Jetzt 
+                        <foreign>adieu</foreign> herzlichste Grüssen für sie beiden</salute>
+                    <signed>Ihre <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jacoba vanHeemsker<hi rend="twice-underline">ck</hi>
+                        </persName>.</signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

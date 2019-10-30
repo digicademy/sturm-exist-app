@@ -1,5 +1,4 @@
-<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Q.01.19141113.FMA.01">
     <teiHeader>
         <fileDesc>
@@ -54,12 +53,13 @@
                         <country>DE</country>
                         <settlement>Berlin</settlement>
                         <repository>Staatsbibliothek zu Berlin Preußischer Kulturbesitz, Handschriftenabteilung, Sturm-Archiv I, Marc, Franz</repository>
-                        <idno type="uri">http://kalliope-verbund.info/DE-611-HS-1917496</idno>
+                        <idno type="uri">http://resolver.staatsbibliothek-berlin.de/SBB0000DAB200000000</idno>
                     </msIdentifier>
                 </msDesc>
             </sourceDesc>
         </fileDesc>
-        <xenoData type="uri">http://digital.staatsbibliothek-berlin.de/metsresolver/PPN746598688</xenoData>
+        <xenoData type="uri">http://kalliope-verbund.info/DE-611-HS-1917496</xenoData>
+        <xenoData type="url">http://content.staatsbibliothek-berlin.de/dc/PPN746598688.mets.xml</xenoData>
         <profileDesc>
             <correspDesc key="Bl.193" ref="https://sturm-edition.de/id/Q.01.19141113.FMA.01">
                 <correspAction type="sent">
@@ -69,12 +69,19 @@
                 </correspAction>
                 <correspAction type="received">
                     <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth Walden</persName>
-                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>                  
+                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950159">Potsdamerstrasse 134a, Berlin W.9.</placeName>                  
                 </correspAction>
             </correspDesc>
         </profileDesc>
         <revisionDesc>
             <listChange>
+                <change>
+                    <date when="2019-07-25" n="2"/>
+                    <p>URL zur METS-Datei der Staatsbibliothek zu Berlin aktualisiert innerhalb von :xenoData und zusätzliches :xenoData mit permanenter URI zum Kalliope-Findbucheintrag.</p>
+                    <p>:idno URL innerhalb von :msIdentifier durch permanente URL zum entsprechenden Datensatz der Staatsbibliothek zu Berlin gesetzt</p>
+                    <p>Standardisierung der Kommentierungstiefe, keine spezifischen Erklärungen von Fremdwörtern außerhalb des Sturm-Kontextes</p>
+                    <p>Normdaten (Geonames) zu Stadt Berlin korrigiert (zuvor fälschlicherweise Verweis auf "Land Berlin")</p>
+                </change>
                 <change>
                     <date when="2018-07-16" n="1"/>
                 </change>
@@ -132,7 +139,7 @@
                     Kulturfeldzug aufgehen. – Haben Sie eigentlich mit <persName key="P.0000071" ref="http://d-nb.info/gnd/117299421">Thannhauser</persName> wegen der
                     vereinbarten <date when="1915-01">Januar</date>ausstellung
                     korrespondiert?<note>30.
-                        Sturm-Ausstellung Januar bis Februar 1915. Vgl. Enders, Rainer: Ausstellungen außerhalb der Berliner Galerie. URL: <ref target="https://www.arthistoricum.net/themen/portale/sturm/ausstellungen/">https://www.arthistoricum.net/themen/portale/sturm/ausstellungen/</ref> (Aufruf 06.04.2017).</note> Man muß es wohl. Vielleicht<pb xml:id="S.193v.02" n="193v" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000DAB200000001"/> reflektirt er doch darauf. Ich
+                        STURM-Ausstellung Januar bis Februar 1915. Vgl. Enders, Rainer: Ausstellungen außerhalb der Berliner Galerie. URL: <ref target="https://www.arthistoricum.net/themen/portale/sturm/ausstellungen/">https://www.arthistoricum.net/themen/portale/sturm/ausstellungen/</ref> (Aufruf 06.04.2017).</note> Man muß es wohl. Vielleicht<pb xml:id="S.193v.02" n="193v" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000DAB200000001"/> reflektirt er doch darauf. Ich
                     persönlich bin gern einverstanden, wenn Sie im großen Stil gemacht wird;
                     Herbstsalonbilder müssen alle dazu, dann die dresdner 5 Bilder; von <placeName key="O.0000055" ref="http://sws.geonames.org/2847349">Ried</placeName> können auch ein paar
                     kommen, die Frage ist natürlich, wohin von <placeName key="O.0000052" ref="http://sws.geonames.org/2867714">München</placeName> aus. Schreiben Sie

@@ -1,0 +1,88 @@
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="S.0000027">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Publikationen</title>
+                <editor>
+                    <persName ref="https://orcid.org/0000-0002-0953-2818">
+                        <forename>Torsten</forename>
+                        <surname>Schrade</surname>
+                    </persName>
+                </editor>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0002-0953-2818">
+                        <forename>Torsten</forename>
+                        <surname>Schrade</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeber</note>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0003-2423-7144">
+                        <forename>Marjam</forename>
+                        <surname>Trautmann</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeberin</note>
+                    </resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="http://www.adwmainz.de">Akademie der Wissenschaften und der Literatur | Mainz</ref>
+                </publisher>
+                <pubPlace ref="http://sws.geonames.org/2874225">Mainz</pubPlace>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        This file is licensed under the terms of the Creative-Commons-License CC BY 4.0
+                    </licence>
+                </availability>
+                <idno type="file">publikationen.xml</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Torsten Schrade: "Projektbezogene Publikationen", in: Der STURM. Digitale Quellenedition zur Geschichte der 
+                    internationalen Avantgarde, erarbeitet und herausgegeben von Marjam Trautmann und 
+                    Torsten Schrade. Mainz, Akademie der Wissenschaften und der Literatur.
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <listChange>
+                <change>
+                    <date when="2018-07-16" n="1"/>
+                    <p>Initiale Version</p>
+                </change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="section" n="eight">
+                <ab rend="h2">Projektbezogene Publikationen</ab>
+                <p>
+                    <emph rend="small-caps">Lorenz</emph>, Anne Katrin; <emph rend="small-caps">Müller-Dannhausen</emph>, Lea; <emph rend="small-caps">Trautmann</emph>, Marjam: DER STURM. Digitale Quellenedition zur Geschichte der internationalen Avantgarde. Drei Forschungsansätze. In: DHd 2019 Digital Humanities: multimedial &amp; multimodal. Konferenzabstracts, Frankfurt am Main 2019, S. 274–276. [<ref target="http://doi.org/10.5281/zenodo.2600812">http://doi.org/10.5281/zenodo.2600812</ref>] </p>
+                    
+                <p>
+                    <emph rend="small-caps">Lorenz</emph>, Anne Katrin; <emph rend="small-caps">Müller-Dannhausen</emph>, Lea; <emph rend="small-caps">Trautmann</emph>, Marjam: DER STURM. Digitale Quellenedition zur Geschichte der internationalen Avantgarde. Drei Forschungsansätze. Poster, präsentiert auf der 6. Jahrestagung des Verbands Digital Humanities im deutschsprachigen Raum (Frankfurt am Main &amp; Mainz, 25.–29.03.2019). [<ref target="http://doi.org/10.5281/zenodo.2612851">http://doi.org/10.5281/zenodo.2612851</ref>]
+                </p>
+                  <p>
+                    <emph rend="small-caps">Mahmoodzada</emph>, Marjam und Thomas <emph rend="small-caps">Kollatz</emph>: 
+                    ‚Der Sturm‘ und die europäische Avantgarde. Eine digitale Edition mit X-Technologien und TUSTEP.
+                    Vortrag im Rahmen der ITUG Jahrestagung, Darmstadt, 29.09.2017.
+                    [ <ref target="https://digicademy.github.io/20170929_Der_Sturm/#/step-1">Folien</ref> ]
+                </p>
+                <p>
+                    <emph rend="small-caps">Trautmann</emph>, Marjam: Eine Digitale Edition.
+                    Ausgewählte Briefe von Jacoba van Heemskerck und Franz Marc an Herwarth Walden
+                    (1914–1915), Mainz 2018 [ <ref target="http://nbn-resolving.de/urn:nbn:de:hebis:77-diss-1000021746">urn:nbn:de:hebis:77-diss-1000021746</ref> ].
+                </p>
+              
+            </div>
+            <div type="section" n="four">
+                <ab type="subNavigation" n="ressourcen"/>
+            </div>
+        </body>
+    </text>
+</TEI>

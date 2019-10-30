@@ -1,0 +1,247 @@
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="S.0000030">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Forschungssoftware</title>
+                <title type="navigation">Software</title>
+                <editor>
+                    <persName ref="https://orcid.org/0000-0002-0953-2818">
+                        <forename>Torsten</forename>
+                        <surname>Schrade</surname>
+                    </persName>
+                </editor>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0002-0953-2818">
+                        <forename>Torsten</forename>
+                        <surname>Schrade</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeber</note>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0003-2423-7144">
+                        <forename>Marjam</forename>
+                        <surname>Trautmann</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeberin</note>
+                    </resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="http://www.adwmainz.de">Akademie der Wissenschaften und der
+                        Literatur | Mainz</ref>
+                </publisher>
+                <pubPlace ref="http://sws.geonames.org/2874225">Mainz</pubPlace>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/"> This file is
+                        licensed under the terms of the Creative-Commons-License CC BY 4.0
+                    </licence>
+                </availability>
+                <idno type="file">software.xml</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Torsten Schrade: "Forschungssoftware", in: Der STURM. Digitale Quellenedition
+                    zur Geschichte der internationalen Avantgarde, erarbeitet und herausgegeben von
+                    Marjam Trautmann und Torsten Schrade. Mainz, Akademie der Wissenschaften und der
+                    Literatur. </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <listChange>
+                <change>
+                    <date when="2018-07-16" n="1"/>
+                    <p>Initiale Version</p>
+                </change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="section" n="twelve">
+                <div type="row">
+                    <div type="columns" n="eight">
+                        <ab rend="h2">Forschungssoftware</ab>
+                        <p>
+                            Die Forschungssoftware des STURM-Projektes wird kollaborativ über die Code-Hosting Plattform GitHub entwickelt. 
+                            Daneben werden alle Komponenten in regelmäßigen Abständen zitierfähig auf der Plattform 
+                            <ref target="https://zenodo.org/">Zenodo</ref> veröffentlicht.
+                        </p>
+                        <table type="packed">
+                            <row rend="th">
+                                <cell>Komponente</cell>
+                                <cell>Download</cell>
+                            </row>
+                            <row>
+                                <cell>eXist Webapp (Hauptsoftware)</cell>
+                                <cell>
+                                    <ref target="https://github.com/digicademy/sturm-exist-app/releases/">GitHub</ref>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>PHP Webapp (Beispielanwendung)</cell>
+                                <cell>
+                                    <ref target="https://github.com/digicademy/sturm-php-app/releases/">GitHub</ref>
+                                </cell>
+                            </row>
+                        </table>
+                    </div>
+                    <div type="columns" n="four">
+                        <ab type="subNavigation" n="ressourcen"/>
+                    </div>
+                </div>
+                <div>
+                    <ab rend="h3">eXist-Applikation</ab>
+                </div>
+                <div type="row">
+                    <div type="columns" n="six">
+                        <ab rend="h4">Softwarearchitektur</ab>
+                        <p> Die STURM-Edition ist als Webanwendung für die native XML-Datenbank <ref target="http://exist-db.org/">eXist</ref> realisiert. Innerhalb der
+                            Anwendung erfolgen sowohl die Editionsarbeiten mit <ref target="https://www.oxygenxml.com/">oXygen</ref> als auch die
+                            Online-Publikation der STURM-Quellen und Begleittexte. Die
+                            eXist-Applikation ist inspiriert durch aktuelle Entwicklungen im Bereich
+                            statischer Website-Generatoren und Flat-File CM Systeme (bspw. <ref target="https://jekyllrb.com/">Jekyll</ref>, <ref target="https://gohugo.io/">Hugo</ref> oder auch <ref target="https://getgrav.org/">Grav</ref>). Sämtliche Komponenten der
+                            Edition werden vollständig aus XML vorgeneriert und als statisches HTML
+                            ausgeliefert (Ausnahmen hierzu bilden die dynamischen APIs). </p>
+                    </div>
+                    <div type="columns" n="six">
+                        <figure type="mfp-lightbox">
+                            <graphic url="../images/sturm-exist-app.png"/>
+                            <caption> XQuery/XSLT (funktional programmierte) Version der
+                                STURM-Webanwendung. Implementierung in Form eines Static Site
+                                Generators. Zur Vergrößerung der Grafik klicken. </caption>
+                        </figure>
+                    </div>
+                </div>
+                <div type="row">
+                    <div type="columns" n="twelve">
+                        <p> Neben einer deutlich besseren Performance hat dieser Ansatz weitere
+                            Vorteile, zum Beispiel eine gesteigerte Nachhaltigkeit der digitalen
+                            Edition, da nicht nur die Forschungsdaten und der dazugehörige
+                            Programmcode sondern auch die daraus erzeugte Präsentationsschicht und
+                            die aus den Daten abgeleiteten Formate (bspw. CMIF, JSON etc.) in einem
+                            ‚Gesamtpaket‘ systemneutral verfügbar gemacht werden können. <note> Vgl.
+                                hierzu aktuell auch den Beitrag von Fabian Cremer, Lisa Klaffki und
+                                Timo Steyer: „Der Chimäre auf der Spur: Forschungsdaten in den
+                                Geisteswissenschaften“, in: obib, Das offene Bibliotheksjournal, Bd.
+                                5, Nr. 2 (2018), DOI <ref target="https://doi.org/10.5282/o-bib/2018H2S142-162">https://doi.org/10.5282/o-bib/2018H2S142-162</ref>. </note>
+                        </p>
+                    </div>
+                </div>
+                <div type="row">
+                    <div type="columns" n="twelve">
+                        <ab rend="h4">Webtechnologien</ab>
+                        <p> Für die Präsentationsschicht der Digitalen Edition kommen einschlägige
+                            Programmbibliotheken zum Einsatz. Entlang der Prinzipien des <ref target="https://de.wikipedia.org/wiki/Progressive_Verbesserung">progressive enhancement</ref> werden die Forschungsdaten in
+                            statisches, semantisches HTML unter Berücksichtigung der Barrierearmut
+                            umgewandelt. Dadurch kann die Edition in ihrer grundlegenden Form mit
+                            jedem Webbrowser bzw. internetfähigem Gerät rezipiert werden. Hierauf
+                            aufbauend werden für modernere Browser mit Hilfe bestimmter JavaScript-
+                            und CSS-Bibliotheken zusätzliche Funktionalitäten bereitgestellt (bspw.
+                            eine Klickvergrößerung der Digitalisate, ein Mehrspaltensatz oder
+                            interaktive Karten im Ortsregister). Insgesamt werden folgende
+                            Bibliotheken und Frameworks eingesetzt: </p>
+                        <list rend="ul">
+                            <item>
+                                <ref target="https://jquery.com/">jQuery (Klickvergrößerung, Karten,
+                                    Navigation für Smartphones und Tablets)</ref>
+                            </item>
+                            <item>
+                                <ref target="http://dimsemenov.com/plugins/magnific-popup/">Magnific
+                                    Popup (Klickvergrößerung für Digitalisate)</ref>
+                            </item>
+                            <item>
+                                <ref target="https://leafletjs.com/">Leaflet (interaktive Karte im
+                                    Ortsregister)</ref>
+                            </item>
+                            <item>
+                                <ref target="https://highlightjs.org/">highlight.js (Darstellung von
+                                    XML-Markup in den Editionsrichtlinien)</ref>
+                            </item>
+                            <item>
+                                <ref target="http://mnater.github.io/Hyphenopoly/">Hyphenopoly
+                                    (optimierte Silbentrennung für sauberen Blocksatz)</ref>
+                            </item>
+                            <item>
+                                <ref target="http://getskeleton.com/">Skeleton (CSS Grid für den
+                                    Spaltensatz)</ref>
+                            </item>
+                        </list>
+                        <ab rend="h4">Typographie &amp; Gestaltung</ab>
+                    </div>
+                </div>
+                <div type="row">
+                    <div type="columns" n="six">
+                        <p> Die Präsentationsschicht der digitalen Edition legt besonderes Augenmerk
+                            auf eine ansprechende Darbietung unter Einbeziehung typographischer
+                            Gestaltungselemente aus der Zeit des ‚Sturm‘, eine gute Benutzbarkeit
+                            sowie einen optimalen Zugriff sowohl mit Desktop- als auch mit mobilen
+                            Endgeräten. Eine Schriftanalyse der ersten Ausgabe des ‚Sturm‘ von 1910
+                            zeigt, dass die ersten Ausgaben mit der damals in Amerika und Europa
+                            weit verbreiteten Schriftfamilie ‚Romana‘ des deutsch-amerikanischen
+                            Schriftdesigners <ref target="http://www.klingspor-museum.de/KlingsporKuenstler/Schriftdesigner/Schroeder/GustavFSchroeder.pdf">Gustaf F. Schroeder</ref> gesetzt wurden. <note> Schroeder
+                                entwickelte die Schrift 1892 im Rahmen seiner Tätigkeiten als
+                                Stempelschneider bei der <ref target="http://www.klingspor-museum.de/KlingsporKuenstler/Schriftgiessereien/Central/CentralTF.pdf">Central Type Foundry </ref> auf Basis älterer Versionen, die
+                                bereits in den 1860er Jahren entworfen wurden. Siehe <ref target="https://www.myfonts.com/fonts/bitstream/romana/">https://www.myfonts.com/fonts/bitstream/romana/</ref>. </note>
+                        </p>
+                    </div>
+                    <div type="columns" n="six">
+                        <figure type="mfp-lightbox">
+                            <graphic url="../images/typographie.jpg"/>
+                            <caption> Schriftvergleich der ersten STURM-Ausgabe vom 03. März 1910
+                                und der Romana (Elsner + Flake) als Webfont. </caption>
+                        </figure>
+                    </div>
+                </div>
+                <div type="row">
+                    <div type="columns" n="twelve">
+                        <p> Die STURM-Edition greift gestalterisch das historische Schriftbild des
+                            ‚Sturm‘ auf und überführt es in das digitale Zeitalter. Zum Einsatz
+                            kommt ‚Romana EF Book‘ (Elsner + Flake), die als moderner Webfont
+                            eingebunden wird. Die typographische Gestaltung der Texte wird ergänzt
+                            durch Ornamente (bspw. Trenner zur Seitenaufteilung), die ebenfalls
+                            inspiriert sind durch die Druckgestalt der STURM-Zeitschrift. Genau wie
+                            seinerzeit im Druck kommt in der webbasierten Version ein
+                            Mehrspaltensystem zum Einsatz (Grid), das in der eXist-Anwendung durch
+                            eine spezifische TEI/XML-Annotationsstruktur der Begleittexte
+                            codiert und in der Präsentationsschicht mit Hilfe des <ref target="http://getskeleton.com/">Skeleton CSS-Grid-Systems</ref>
+                            implementiert ist. </p>
+                    </div>
+                </div>
+                <div>
+                    <ab rend="h3">PHP-Applikation</ab>
+                </div>
+                <div type="row">
+                    <div type="columns" n="six">
+                        <p> Für den Einsatz in der Lehre wird neben der eXist-Applikation eine
+                            zweite Webanwendung entwickelt, die eine gleiche – wenn auch in der Funktionalität für Lernzwecke 
+                            etwas reduzierte – Präsentationsschicht aus den XML-Daten erzeugt. Die Anwendung
+                            beruht jedoch auf einer gänzlich anderen Softwarearchitektur. Während die eXist-Applikation 
+                            durchgängig X-Technologien verwendet (TEI/XML, XQuery, XSLT) und einem
+                            funktionalen Programmierparadigma folgt, ist diese Anwendung in PHP
+                            unter Einsatz des objektorientierten Programmierparadigmas entlang
+                            der Architekturprinzipien des Domain Driven Design implementiert. 
+                            In diesem Rahmen demonstriert die Anwendung gängige Software-Entwurfsmuster, wie beispielsweise
+                            das Model-View-Controller Prinzip und zeigt unterschiedliche Möglichkeiten 
+                            HTTP-basierter Schnittstellenprogrammierung auf.
+                            Im Rahmen des Moduls ‚Webtechnologien‘ des Masterstudiengangs ‚Digitale
+                            Methodik in den Geistes- und Kulturwissenschaften‘ können somit beide
+                            Programmierparadigmen und Software-Architekturprinzipien anhand einer
+                            einzigen Digitalen Edition vergleichend nachvollzogen werden. </p>
+                    </div>
+                    <div type="columns" n="six">
+                        <figure type="mfp-lightbox">
+                            <graphic url="../images/sturm-php-app.png"/>
+                            <caption> PHP (objektorientiert programmierte) Version der
+                                STURM-Webanwendung unter Verwendung von Domain Driven Design und
+                                MVC-Prinzipien. Zur Vergrößerung der Grafik klicken. </caption>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

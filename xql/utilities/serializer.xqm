@@ -4,7 +4,7 @@ xquery version "3.0";
  : DER STURM
  : A Digital Edition of Sources from the International Avantgarde
  :
- : Edited and developed by Marjam Mahmoodzada and Torsten Schrade
+ : Edited and developed by Marjam Trautmann and Torsten Schrade
  : Academy of Sciences and Literature | Mainz
  :
  : HTML and JSON serialization functions 

@@ -1,0 +1,151 @@
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Q.01.19220217.JVH.01">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Jacoba van Heemskerck an Herwarth Walden, 17. Februar 1922, 35, Nassau
+                    Zuilensteinstraat, Den Haag</title>
+                <editor>
+                    <persName ref="https://orcid.org/0000-0003-1208-6131">
+                        <forename>Anne</forename>
+                        <surname>Lorenz</surname>
+                    </persName>
+                </editor>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0002-0953-2818">
+                        <forename>Torsten</forename>
+                        <surname>Schrade</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeber</note>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0003-2423-7144">
+                        <forename>Marjam</forename>
+                        <surname>Trautmann</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeberin</note>
+                    </resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="http://www.adwmainz.de">Akademie der Wissenschaften und der
+                        Literatur | Mainz</ref>
+                </publisher>
+                <pubPlace ref="http://sws.geonames.org/2874225">Mainz</pubPlace>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/"> This file is
+                        licensed under the terms of the Creative-Commons-License CC BY 4.0
+                    </licence>
+                </availability>
+                <idno type="file">Q.01.19220217.JVH.01.xml</idno>
+                <idno type="uri">https://sturm-edition.de/id/Q.01.19220217.JVH.01</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Q.01.19220217.JVH.01, Jacoba van Heemskerck an Herwarth Walden, 17. Februar
+                    1922, 35, Nassau Zuilensteinstraat, Den Haag, bearbeitet von Anne Lorenz, in:
+                    Der STURM. Digitale Quellenedition zur Geschichte der internationalen
+                    Avantgarde, erarbeitet und herausgegeben von Marjam Trautmann und Torsten
+                    Schrade. Mainz, Akademie der Wissenschaften und der Literatur.</bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <country>DE</country>
+                        <settlement>Berlin</settlement>
+                        <repository>Staatsbibliothek zu Berlin Preußischer Kulturbesitz,
+                            Handschriftenabteilung, Sturm-Archiv I, Heemskerck, Jacoba
+                            van</repository>
+                        <idno type="uri">http://resolver.staatsbibliothek-berlin.de/SBB0000DA4F00000000</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <xenoData type="uri">http://kalliope-verbund.info/DE-611-HS-1914103</xenoData>
+        <xenoData type="url">https://content.staatsbibliothek-berlin.de/dc/PPN746597444.mets.xml</xenoData>
+        <profileDesc>
+            <correspDesc key="Bl.404" ref="https://sturm-edition.de/id/Q.01.19220217.JVH.01">
+                <correspAction type="sent">
+                    <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jacoba van
+                        Heemskerck</persName>
+                    <placeName key="O.0000001" ref="http://sws.geonames.org/2747373">35, Nassau
+                        Zuilensteinstraat, Den Haag</placeName>
+                    <date when="1922-02-17"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth
+                        Walden</persName>
+                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change>
+                    <date when="2019-08-26" n="1"/>
+                </change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic n="404r" url="http://content.staatsbibliothek-berlin.de/dms/PPN746597444/500/0/00000001.jpg"/>
+        <graphic n="404v" url="http://content.staatsbibliothek-berlin.de/dms/PPN746597444/500/0/00000002.jpg"/>
+        <graphic n="Farbkeil" url="http://content.staatsbibliothek-berlin.de/dms/PPN746597444/500/0/00000003.jpg"/>
+    </facsimile>
+    <text type="postcard">
+        <body>
+            <div type="address">
+                <pb xml:id="S.404r.01" n="404r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000DA4F00000001"/>
+                <ab type="sender">
+                    <address>
+                        <addrLine>35. Nassau Zuilensteinstraat</addrLine>
+                        <addrLine>Haag. Holland</addrLine>
+                    </address>
+                </ab>
+                <ab type="recipient">
+                    <address>
+                        <addrLine>Herrn Direktor</addrLine>
+                        <addrLine>Her<hi rend="underline">warth Walden</hi>
+                        </addrLine>
+                        <addrLine>Verlag der Sturm</addrLine>
+                        <addrLine>134<hi rend="super">
+                                <hi rend="twice-underline">a</hi>
+                            </hi> Potsdamerstrasse</addrLine>
+                        <addrLine>Berlin W 9/.</addrLine>
+                        <addrLine>Deutschland</addrLine>
+                    </address>
+                </ab>
+            </div>
+            <div type="content">
+                <pb xml:id="S.404v" n="404v" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000DA4F00000002"/>
+                <opener>
+                    <salute>L. <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">H.</persName>
+                    </salute>
+                </opener>
+                <p>Soeben deine Karte empfangen. Wirklich ich glaube es ist besser bis im Herbst zu
+                    warten. Nichts ist fertig man weiss noch absolut nicht wann die neue Räume in
+                    Gebrauch genommen werden. Und in <date when="1922-04">april</date> kommt hier
+                    niemand mehr in Vorträge Ich kann nicht dafür, ich habe den <persName key="P.0000128">Sekretär</persName> so oft
+                    angerufen, dem Vorstand geschrieben man antwortet einfach „nichts zu machen wir
+                    müssen abwarten“. Wenn ich noch etwas höre, schreibe ich direkt.<note>In zwei vorausgehenden Briefen an Walden berichtet van
+                        Heemskerck von ihren wiederholten Versuchen, den Sekretär der
+                        Künstlervereinigung „Haagsche Kunstkring“ telefonisch zu erreichen. Walden plante offenbar, dort anlässlich des Umzugs in die neuen Räumlichkeiten
+                        der 1891 gegründeten Künstlervereinigung einen Vortrag zu halten. Vgl.
+                        den <ref target="Q.01.19211211.JVH.01">Brief</ref> van Heemskercks an Walden
+                        vom 11. Dezember 1921 u. den <ref target="Q.01.19211223.JVH.01">Brief</ref>
+                        vom 23. Dezember 1921.</note> Hier ist absolut nichts, nirgends Geld und<pb xml:id="S.404r.02" n="404r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000DA4F00000001"/>
+                    ständige Comités um die Bildende Künstler geld zu geben, da allen hungern. Für
+                        <placeName key="O.0000003" ref="http://sws.geonames.org/2750405">Holland</placeName> sind es so schwere Zeiten. Ich hatte Grieppe war sehr
+                    krank und noch zu schwach zum arbeiten.</p>
+                <closer>
+                    <salute>Viele Grüssen</salute>
+                    <signed>deine <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">
+                                JacobavHe<hi rend="twice-underline">emskerck</hi>
+                        </persName>.</signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

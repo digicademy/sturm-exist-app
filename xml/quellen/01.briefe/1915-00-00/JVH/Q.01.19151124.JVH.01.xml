@@ -55,12 +55,13 @@
                         <settlement>Berlin</settlement>
                         <repository>Staatsbibliothek zu Berlin Preußischer Kulturbesitz,
                      Handschriftenabteilung, Sturm-Archiv I, Heemskerck, Jacoba van</repository>
-                        <idno type="uri">http://kalliope-verbund.info/DE-611-HS-1911099</idno>
+                        <idno type="uri">http://resolver.staatsbibliothek-berlin.de/SBB0000D98600000000</idno>
                     </msIdentifier>
                 </msDesc>
             </sourceDesc>
         </fileDesc>
-        <xenoData type="uri">http://digital.staatsbibliothek-berlin.de/metsresolver/PPN746595018</xenoData>
+        <xenoData type="uri">http://kalliope-verbund.info/DE-611-HS-1911099</xenoData>
+        <xenoData type="url">http://content.staatsbibliothek-berlin.de/dc/PPN746595018.mets.xml</xenoData>
         <profileDesc>
             <correspDesc key="Bl.124" ref="https://sturm-edition.de/id/Q.01.19151124.JVH.01">
                 <correspAction type="sent">
@@ -70,12 +71,19 @@
                 </correspAction>
                 <correspAction type="received">
                     <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth Walden</persName>
-<placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>
+<placeName key="O.0000002" ref="http://sws.geonames.org/2950159">Potsdamerstrasse 134a, Berlin W.9.</placeName>
                 </correspAction>
             </correspDesc>
         </profileDesc>
         <revisionDesc>
             <listChange>
+                <change>
+                    <date when="2019-07-25" n="2"/>
+                    <p>URL zur METS-Datei der Staatsbibliothek zu Berlin aktualisiert innerhalb von :xenoData und zusätzliches :xenoData mit permanenter URI zum Kalliope-Findbucheintrag.</p>
+                    <p>:idno URL innerhalb von :msIdentifier durch permanente URL zum entsprechenden Datensatz der Staatsbibliothek zu Berlin gesetzt</p>
+                    <p>Standardisierung der Kommentierungstiefe, keine spezifischen Erklärungen von Fremdwörtern außerhalb des Sturm-Kontextes</p>
+                    <p>Normdaten (Geonames) zu Stadt Berlin korrigiert (zuvor fälschlicherweise Verweis auf "Land Berlin")</p>
+                </change>
                 <change>
                     <date when="2018-07-16" n="1"/>
                 </change>
@@ -120,12 +128,8 @@
                 <p>Soeben Ihr Brief erhalten ich bin so unglücklich dass die Sendung nicht angekommen
                ist. Die Kiste ist <date when="1915-11-10">Mittwoch <hi rend="underline">10.
                      November</hi>
-               </date> mit <foreign>grande Vitesse</foreign>
-                    <note>„Grande vitesse“
-                  (frz.) heißt im Deutschen „Hochgeschwindigkeit“. Es ist davon auszugehen, dass
-                  Jacoba van Heemskerck hiermit den postalischen Versand
-                  per Eilpost meinte.</note> abgeschickt und man war ganz sicher dass die Sendung
-               in 6. Tagen in <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Berlin</placeName>
+               </date> mit <foreign>grande Vitesse</foreign> abgeschickt und man war ganz sicher dass die Sendung
+               in 6. Tagen in <placeName key="O.0000002" ref="http://sws.geonames.org/2950159">Berlin</placeName>
                eintreffen sollte. <persName key="P.0000002" ref="http://d-nb.info/gnd/118891456">Nell</persName>
                habe ich <date when="1915-11-20">20. Nov:</date> geschrieben.</p>
                 <p>Bitte schreiben Sie

@@ -1,0 +1,137 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Q.01.19200528.JVH.01">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Jacoba van Heemskerck an Herwarth Walden, 28. Mai 1920, 35, Nassau
+                    Zuilensteinstraat, Den Haag</title>
+                <editor>
+                    <persName ref="https://orcid.org/0000-0003-1208-6131">
+                        <forename>Anne</forename>
+                        <surname>Lorenz</surname>
+                    </persName>
+                </editor>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0002-0953-2818">
+                        <forename>Torsten</forename>
+                        <surname>Schrade</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeber</note>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0003-2423-7144">
+                        <forename>Marjam</forename>
+                        <surname>Trautmann</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeberin</note>
+                    </resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="http://www.adwmainz.de">Akademie der Wissenschaften und der
+                        Literatur | Mainz</ref>
+                </publisher>
+                <pubPlace ref="http://sws.geonames.org/2874225">Mainz</pubPlace>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">This file is
+                        licensed under the terms of the Creative-Commons-License CC BY 4.0
+                    </licence>
+                </availability>
+                <idno type="file">Q.01.19200528.JVH.01.xml</idno>
+                <idno type="uri">https://sturm-edition.de/id/Q.01.19200528.JVH.01</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Q.01.19200528.JVH.01, Jacoba van Heemskerck an Herwarth Walden, 28. Mai 1920,
+                    35, Nassau Zuilensteinstraat, Den Haag, bearbeitet von Anne Lorenz, in: Der
+                    STURM. Digitale Quellenedition zur Geschichte der internationalen Avantgarde,
+                    erarbeitet und herausgegeben von Marjam Trautmann und Torsten Schrade. Mainz,
+                    Akademie der Wissenschaften und der Literatur.</bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <country>DE</country>
+                        <settlement>Berlin</settlement>
+                        <repository>Staatsbibliothek zu Berlin Preußischer Kulturbesitz,
+                            Handschriftenabteilung, Sturm-Archiv I, Heemskerck, Jacoba
+                            van</repository>
+                        <idno type="uri">http://resolver.staatsbibliothek-berlin.de/SBB0000DA3A00000000</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <xenoData type="uri">http://kalliope-verbund.info/DE-611-HS-1913765</xenoData>
+        <xenoData type="url">https://content.staatsbibliothek-berlin.de/dc/PPN746597207.mets.xml</xenoData>
+        <profileDesc>
+            <correspDesc key="Bl.383" ref="https://sturm-edition.de/id/Q.01.19200528.JVH.01">
+                <correspAction type="sent">
+                    <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jacoba van
+                        Heemskerck</persName>
+                    <placeName key="O.0000001" ref="http://sws.geonames.org/2747373">35, Nassau
+                        Zuilensteinstraat, Den Haag</placeName>
+                    <date when="1920-05-28"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth
+                        Walden</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change>
+                    <date when="2019-08-26" n="1"/>
+                </change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic n="383r" url="http://content.staatsbibliothek-berlin.de/dms/PPN746597207/500/0/00000001.jpg"/>
+        <graphic n="383v" url="http://content.staatsbibliothek-berlin.de/dms/PPN746597207/500/0/00000002.jpg"/>
+        <graphic n="Farbkeil" url="http://content.staatsbibliothek-berlin.de/dms/PPN746597207/500/0/00000003.jpg"/>
+    </facsimile>
+    <text type="letter">
+        <body>
+            <div type="content">
+                <pb xml:id="S.383r" n="383r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000DA3A00000001"/>
+                <opener>
+                    <dateline>
+                        <placeName key="O.0000001" ref="http://sws.geonames.org/2747373">35.
+                            Nassau Zuilensteinstraat Haag</placeName>
+                        <date when="1920-05-28">28<hi rend="underline">.5.20</hi>
+                        </date>
+                    </dateline>
+                    <salute>Lieber <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth</persName>.</salute>
+                </opener>
+                <p>Dank für deine Brief vom <date when="1920-05-04">4. Mai</date>. Mein <term type="artwork" key="W.0000122" source="https://doi.org/10.11588/diglit.37133#0029">Gemälde</term> im <term type="journal" key="W.0000068" source="https://doi.org/10.11588/diglit.37133.4" ref="http://d-nb.info/gnd/4058273-5">Sturm</term>
+                    <note>Walden, Herwarth
+                        [Hrsg.]: Der Sturm. Monatsschrift für Kultur und die Künste 2
+                        (1920).</note> ist wirlich sehr gut reproduzirt, die
+                    Farben halten sich sehr gut. Ist es dir möglich Bestellungen für Glasfenster für
+                    mich zu bekommen. <persName key="P.0000125" ref="http://d-nb.info/gnd/117178446">Baron v Wedderkop</persName> aus <placeName key="O.0000075" ref="http://sws.geonames.org/2886242">Köln</placeName> hatte ich auch im
+                    Atelier er war sehr entzückt. Vielleicht komme ich im Spät Herbst in <placeName key="O.0000007" ref="http://sws.geonames.org/2911297">Hamburg</placeName>
+                    und werde wenn es möglich ist sicher auf einige Tage nach <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Berlin</placeName>
+                    kommen. Wenn es nun möglich ist, wäre es so schön dann bei <persName key="P.0000100" ref="http://d-nb.info/gnd/11939877X">Heinersdorff</persName>
+                    einige Bestellungen auszuführen und könnte ich dafür auch ruhig länger bleiben.
+                    Ich fange hier wirklich sehr gut an schon mehrere Architekten kommen zu mir.
+                    Hast du noch von dem Baurat in <placeName key="O.0000076" ref="http://sws.geonames.org/2928810">Essen</placeName> gehört?</p>
+                <p>Bitte schreibe nach <placeName key="O.0000004" ref="http://sws.geonames.org/2747373">Domburg</placeName> ich gehe Montag
+                    wieder für den Sommer hin.</p>
+                <closer>
+                    <salute>Herzlichste Grüssen</salute>
+                    <signed>deine <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">
+                                JacobavanHeem<hi rend="twice-underline">skerck</hi>
+                        </persName>.</signed>
+                </closer>
+                <postscript>
+                    <p>Kennst du vielleicht Architekten die sich für meine Entwürfen interessiren
+                        wenn die Glasfenster brauchen dann mache ich natürlich dann wenn die
+                        Zeichnungen von Räume schicken ganz neue Entwürfe</p>
+
+                </postscript>
+            </div>
+        </body>
+    </text>
+</TEI>

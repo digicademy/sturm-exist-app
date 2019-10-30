@@ -1,0 +1,137 @@
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Q.01.19150116.FMA.01">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Franz Marc an Herwarth Walden, 16. Januar 1915, Feldpoststation A.A. Falkenhausen</title>
+                <editor>
+                    <persName ref="https://orcid.org/0000-0003-2423-7144">
+                        <forename>Marjam</forename>
+                        <surname>Trautmann</surname>
+                    </persName>
+                </editor>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0002-0953-2818">
+                        <forename>Torsten</forename>
+                        <surname>Schrade</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeber</note>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0003-2423-7144">
+                        <forename>Marjam</forename>
+                        <surname>Trautmann</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeberin</note>
+                    </resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="http://www.adwmainz.de">Akademie der Wissenschaften und der Literatur | Mainz</ref>
+                </publisher>
+                <pubPlace ref="http://sws.geonames.org/2874225">Mainz</pubPlace>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        This file is licensed under the terms of the Creative-Commons-License CC BY 4.0
+                    </licence>
+                </availability>
+                <idno type="file">Q.01.19150116.FMA.01.v1.xml</idno>
+                <idno type="uri">https://sturm-edition.de/id/Q.01.19150116.FMA.01</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Q.01.19150116.FMA.01, Franz Marc an Herwarth Walden, 16. Januar 1915, Feldpoststation A.A. Falkenhausen, 
+                    bearbeitet von Marjam Trautmann, in: Der STURM. Digitale Quellenedition zur Geschichte der internationalen 
+                    Avantgarde, erarbeitet und herausgegeben von Marjam Trautmann und Torsten Schrade. 
+                    Mainz, Akademie der Wissenschaften und der Literatur.
+                    </bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <country>DE</country>
+                        <settlement>Berlin</settlement>
+                        <repository>Staatsbibliothek zu Berlin Preußischer Kulturbesitz, Handschriftenabteilung, Sturm-Archiv I, Marc, Franz</repository>
+                        <idno type="uri">http://kalliope-verbund.info/DE-611-HS-1917503</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <xenoData type="uri">http://digital.staatsbibliothek-berlin.de/metsresolver/PPN746598718</xenoData>
+        <profileDesc>
+            <correspDesc key="Bl.196" ref="https://sturm-edition.de/id/Q.01.19150116.FMA.01">
+                <correspAction type="sent">
+                    <persName key="P.0000003" ref="http://d-nb.info/gnd/11857745X">Franz Marc</persName>
+                    <placeName>Feldpoststation A.A. Falkenhausen</placeName>
+                    <date when="1915-01-18"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth Walden</persName>
+                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>                  
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change>
+                    <date when="2018-07-16" n="1"/>
+                </change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic n="196v" url="http://content.staatsbibliothek-berlin.de/dms/PPN746598718/800/0/00000001.jpg"/>
+        <graphic n="196r" url="http://content.staatsbibliothek-berlin.de/dms/PPN746598718/800/0/00000002.jpg"/>
+        <graphic n="Farbkeil" url="http://content.staatsbibliothek-berlin.de/dms/PPN746598718/800/0/00000003.jpg"/>
+    </facsimile>
+    <text type="militaryMail">
+        <body>
+            <pb xml:id="S.196v" n="196v" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000DAB400000001"/>
+            <div type="address">             
+               <ab type="sender">
+                   <address>
+                       <addrLine>Armeeabt. Galde / Divis. Fuchs</addrLine>
+                        <addrLine>U. Off. Marc</addrLine>
+                        <addrLine>1. Ers. Abt. Schilling der</addrLine> 
+                       <addrLine>1. bayr. Feld-Art. Rgt.</addrLine>
+                        <addrLine>Leichte Mun. Kolonne</addrLine>
+                   </address>
+               </ab>
+                <ab type="recipient">
+                   <address>
+                       <addrLine>Herrn</addrLine>
+                        <addrLine>Herw. <hi rend="underline">Walde</hi>n</addrLine>
+                        <addrLine>Verlag Sturm</addrLine>
+                        <addrLine>Berlin W. 9.</addrLine>
+                        <addrLine>Potsdamerstr. 134/a</addrLine>
+                   </address>
+               </ab> 
+            </div>
+            <div type="content">
+                <pb xml:id="S.196r" n="196r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000DAB400000002"/>
+                <opener>
+                    <dateline>
+                        <date when="1915-01-16">16. I. 1915.</date>
+                    </dateline>
+                    <salute>Lieber <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Walden</persName>,
+                    </salute>
+                </opener>
+                <p>ich schrieb Ihnen schon einigemale, – es scheint nicht alles anzukommen.
+Dank herzlich für Ihre Bemühungen, daß wieder ein Holzschnitt verkauft ist. Die Hoffnung auf den Verkauf der Bilder hab ich schon still begraben,
+es ist eine böse Zeit. Ich leb so fern von allem, in Distanz vom Alltag, die mir u. meinem Denken wohl thut. Ich schreibe u. arbeite
+in jeder freien Stunde, es wird nach dem Krieg wohl ein Buch geben, das nicht übersehen werden kann, – oder 
+es müsste schon sehr schlimm mit <placeName key="O.0000014" ref="http://sws.geonames.org/2921044">Deutschland</placeName> bestellt sein. Ich teile Ihren Pessimismus, den Sie m. <persName key="P.0000082" ref="http://d-nb.info/gnd/119352435">Frau</persName> gegenüber ausdrückten, nicht. 
+        Man muß nur nicht auf die Menge sehen, die immer stumm u. stumpf bleibt; aber der Krieg wird Ge<hi rend="underline">ist</hi>er wecken, – es ist physioligisch schon nicht andres denkbar. Es reizt und spornt das Denken wahnsinnig.</p>
+                <closer>
+                    <salute>Mit herzl. Gruß Ihnen beiden</salute> <signed>Ihr <persName key="P.0000003" ref="http://d-nb.info/gnd/11857745X">FrM</persName>.</signed>
+                </closer>
+                <postscript>
+                    <p>Dank für die <persName key="P.0000021" ref="http://d-nb.info/gnd/119191164">Behne</persName> <term type="journal" key="W.0000068" source="https://doi.org/10.11588/diglit.33880.14" ref="http://d-nb.info/gnd/4058273-5">Sturm nr.</term>
+                    </p>
+                </postscript>
+            </div>
+        </body>
+    </text>
+</TEI>

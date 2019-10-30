@@ -1,5 +1,4 @@
-<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Q.01.19140601.JVH.01">
     <teiHeader>
         <fileDesc>
@@ -49,8 +48,8 @@
                 <bibl>Q.01.19140601.JVH.01, Jacoba van Heemskerck an Herwarth Walden, 1. Juni 1914,
                     Loverendale, Domburg, bearbeitet von Marjam Trautmann, in: Der STURM. Digitale
                     Quellenedition zur Geschichte der internationalen Avantgarde, erarbeitet und
-                    herausgegeben von Marjam Trautmann und Torsten Schrade. Mainz,
-                    Akademie der Wissenschaften und der Literatur. </bibl>
+                    herausgegeben von Marjam Trautmann und Torsten Schrade. Mainz, Akademie der
+                    Wissenschaften und der Literatur. </bibl>
                 <msDesc>
                     <msIdentifier>
                         <country>DE</country>
@@ -58,12 +57,13 @@
                         <repository>Staatsbibliothek zu Berlin Preußischer Kulturbesitz,
                             Handschriftenabteilung, Sturm-Archiv I, Heemskerck, Jacoba
                             van</repository>
-                        <idno type="uri">http://kalliope-verbund.info/DE-611-HS-1910530</idno>
+                        <idno type="uri">http://resolver.staatsbibliothek-berlin.de/SBB0000D94600000000</idno>
                     </msIdentifier>
                 </msDesc>
             </sourceDesc>
         </fileDesc>
-        <xenoData type="uri">http://digital.staatsbibliothek-berlin.de/metsresolver/PPN746594046</xenoData>
+        <xenoData type="uri">http://kalliope-verbund.info/DE-611-HS-1910530</xenoData>
+        <xenoData type="url">http://content.staatsbibliothek-berlin.de/dc/PPN746594046.mets.xml</xenoData>
         <profileDesc>
             <correspDesc key="Bl.5-6" ref="https://sturm-edition.de/id/Q.01.19140601.JVH.01">
                 <correspAction type="sent">
@@ -76,12 +76,19 @@
                 <correspAction type="received">
                     <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth
                         Walden</persName>
-                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>
+                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950159">Potsdamerstrasse 134a, Berlin W.9.</placeName>
                 </correspAction>
             </correspDesc>
         </profileDesc>
         <revisionDesc>
             <listChange>
+                <change>
+                    <date when="2019-07-25" n="2"/>
+                    <p>URL zur METS-Datei der Staatsbibliothek zu Berlin aktualisiert innerhalb von :xenoData und zusätzliches :xenoData mit permanenter URI zum Kalliope-Findbucheintrag.</p>
+                    <p>:idno URL innerhalb von :msIdentifier durch permanente URL zum entsprechenden Datensatz der Staatsbibliothek zu Berlin gesetzt</p>
+                    <p>Standardisierung der Kommentierungstiefe, keine spezifischen Erklärungen von Fremdwörtern außerhalb des Sturm-Kontextes</p>
+                    <p>Normdaten (Geonames) zu Stadt Berlin korrigiert (zuvor fälschlicherweise Verweis auf "Land Berlin")</p>
+                </change>
                 <change>
                     <date when="2018-07-16" n="1"/>
                 </change>
@@ -113,13 +120,13 @@
 
                 <p>Es war eine recht schöne Zeit in <placeName key="O.0000006" ref="http://sws.geonames.org/3030293">Bretagne</placeName> und bin ich ganz
                     ausgeruht um wieder an zu fangen recht viel zu arbeiten Ich sah im <term type="journal" key="W.0000068" source="https://doi.org/10.11588/diglit.33880#0036" ref="http://d-nb.info/gnd/4058273-5">Der Sturm</term>
-                    <note>Walden, Herwarth [Hrsg.]: Der Sturm. Halbmonatsschrift für Kultur und die
-                        Künste 4 (1914), S. 32.</note> meine Ausstellung in <placeName key="O.0000007" ref="http://sws.geonames.org/2911297">Hamburg</placeName>
-                    und dasz am <date when="1914-08-15">15. August</date> die grosse Ausstellung in
-                        <placeName key="O.0000008" ref="http://sws.geonames.org/2660646">Genive</placeName> eröffnet wird<note>Von April bis Oktober 1914 fand in
-                        Hamburg eine Sturm-Ausstellung mit Werken Jacoba van Heemskercks statt. Die
-                        geplante Ausstellung in Genf kam wegen des Kriegsausbruches nicht zustande.
-                        Vgl. Enders, Rainer: Ausstellungen außerhalb der STURM-Galerie. URL: <ref target="https://www.arthistoricum.net/themen/portale/sturm/ausstellungen/">https://www.arthistoricum.net/themen/portale/sturm/ausstellungen/</ref>
+                    <note>Walden, Herwarth
+                        [Hrsg.]: Der Sturm. Halbmonatsschrift für Kultur und die Künste 4 (1914), S.
+                        32.</note> meine Ausstellung in <placeName key="O.0000007" ref="http://sws.geonames.org/2911297">Hamburg</placeName> und dasz am <date when="1914-08-15">15. August</date> die grosse Ausstellung in <placeName key="O.0000008" ref="http://sws.geonames.org/2660646">Genive</placeName>
+                    eröffnet wird<note>Von April bis Oktober 1914 fand in Hamburg eine
+                        STURM-Ausstellung mit Werken Jacoba van Heemskercks statt. Die geplante
+                        Ausstellung in Genf kam wegen des Kriegsausbruches nicht zustande. Vgl.
+                        Enders, Rainer: Ausstellungen außerhalb der STURM-Galerie. URL: <ref target="https://www.arthistoricum.net/themen/portale/sturm/ausstellungen/">https://www.arthistoricum.net/themen/portale/sturm/ausstellungen/</ref>
                         (Aufruf 06.04.2017).</note>, vom Herbst Salon leider noch nichts, für alle
                     Mühe letztes Jahr finde ich es auch so sehr schade für Ihnen wenn kein Geld da
                     ist um es dieses Jahr zu machen. Wir müssen nur Geduld haben, wir<pb xml:id="S.5v" n="5v" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D94600000002"/>
@@ -137,8 +144,8 @@
                     verstehe nicht dasz <persName key="P.0000009" ref="http://d-nb.info/gnd/118559737">Kandinsky</persName> jetzt in
                         <placeName key="O.0000009" ref="http://sws.geonames.org/2759794">Amsterdam</placeName> ausstellt. Wir müssen uns mehr apart halten dasz ist
                     viel besser. Glauben Sie nicht dasz es auch besser ist dasz ich nicht in Moderne
-                        Kunstkring<note>Der „Moderne Kunstkring“ (dt. Kunstring) war ein im Jahr 1910
-                        von dem niederländischen Maler Conrad Kikkert (1882–1965) gegründeter
+                        Kunstkring<note>Der „Moderne Kunstkring“ (dt. Kunstring) war ein im Jahr
+                        1910 von dem niederländischen Maler Conrad Kikkert (1882–1965) gegründeter
                         niederländischer Kunstverein.</note> in Amsterdam ausstelle Ich war in
                         <placeName key="O.0000010" ref="http://sws.geonames.org/2988507">Paris</placeName> bei <persName key="P.0000010" ref="http://d-nb.info/gnd/128866748">LeFauconnier</persName> nein aber
                     wirklich dasz ist jetzt gar nicht mehr mein Geschmack, und er kommt wieder mit

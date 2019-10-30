@@ -1,0 +1,166 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Q.01.19190106.JVH.01">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Jacoba van Heemskerck an Herwarth Walden, 6. Januar 1919, Den Haag</title>
+                <editor>
+                    <persName ref="https://orcid.org/0000-0003-1208-6131">
+                        <forename>Anne</forename>
+                        <surname>Lorenz</surname>
+                    </persName>
+                </editor>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0002-0953-2818">
+                        <forename>Torsten</forename>
+                        <surname>Schrade</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeber</note>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0003-2423-7144">
+                        <forename>Marjam</forename>
+                        <surname>Trautmann</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeberin</note>
+                    </resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="http://www.adwmainz.de">Akademie der Wissenschaften und der
+                        Literatur | Mainz</ref>
+                </publisher>
+                <pubPlace ref="http://sws.geonames.org/2874225">Mainz</pubPlace>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">This file is licensed under the terms of the Creative-Commons-License CC BY 4.0</licence>
+                </availability>
+                <idno type="file">Q.01.19190106.JVH.01.xml</idno>
+                <idno type="uri">https://sturm-edition.de/id/Q.01.19190106.JVH.01</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Q.01.19190106.JVH.01, Jacoba van Heemskerck an Herwarth Walden, 6. Januar
+                    1919, Den Haag, bearbeitet von Anne Lorenz, in: Der STURM. Digitale
+                    Quellenedition zur Geschichte der internationalen Avantgarde, erarbeitet und
+                    herausgegeben von Marjam Trautmann und Torsten Schrade. Mainz, Akademie der
+                    Wissenschaften und der Literatur.</bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <country>DE</country>
+                        <settlement>Berlin</settlement>
+                        <repository>Staatsbibliothek zu Berlin Preußischer Kulturbesitz,
+                            Handschriftenabteilung, Sturm-Archiv I, Heemskerck, Jacoba
+                            van</repository>
+                        <idno type="uri">http://resolver.staatsbibliothek-berlin.de/SBB0000DA1B00000000</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <xenoData type="uri">http://kalliope-verbund.info/DE-611-HS-1913083</xenoData>
+        <xenoData type="url">https://content.staatsbibliothek-berlin.de/dc/PPN746596847.mets.xml</xenoData>
+        <profileDesc>
+            <correspDesc key="Bl.350" ref="https://sturm-edition.de/id/Q.01.19190106.JVH.01">
+                <correspAction type="sent">
+                    <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jacoba van
+                        Heemskerck</persName>
+                    <placeName key="O.0000001" ref="http://sws.geonames.org/2747373">Den Haag</placeName>
+                    <date when="1919-01-06"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth Walden</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change>
+                    <date when="2019-08-26" n="1"/>
+                </change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic n="350r" url="http://content.staatsbibliothek-berlin.de/dms/PPN746596847/500/0/00000001.jpg"/>
+        <graphic n="350v" url="http://content.staatsbibliothek-berlin.de/dms/PPN746596847/500/0/00000002.jpg"/>
+        <graphic n="Farbkeil" url="http://content.staatsbibliothek-berlin.de/dms/PPN746596847/500/0/00000003.jpg"/>
+    </facsimile>
+    <text type="letter">
+        <body>
+            <div type="content">
+                <pb xml:id="S.350r" n="350r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000DA1B00000001"/>
+                <opener>
+                    <dateline>
+                        <placeName key="O.0000001" ref="http://sws.geonames.org/2747373">Den Haag</placeName>
+                        <date when="1919-01-06">6. Jan 1919</date>.</dateline>
+                    <salute>Lieber <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth</persName>
+                    </salute>
+                </opener>
+                <p>
+                    <date when="1919-01-06">Heute</date> dein Brief von <date when="1919-01-02">2
+                        Jan:</date> erhalten du schreibst über ein Gruss aus <placeName key="O.0000036" ref="http://sws.geonames.org/2618425">Kopenhagen</placeName>
+                    ich habe aber nichts erhalten <persName key="P.0000008" ref="http://d-nb.info/gnd/136128289">Marie</persName> wohl es ist doch
+                    unangenehm das noch immer viel verloren geht. Dein letzter Brief war vom <date when="1918-12-21">21. Dez:</date> ist das dein weiteren Brief worüber du
+                    schreibst? Ich denke du hast mein Antwort darauf noch nicht erhalten Die
+                    Zeichnungen meiner Sturmschüler kann ich dir leider momentan nicht schicken da
+                    er sehr krank ist Lungenentzündung, und auch in Wochen nicht arbeiten
+                        kann.<note>Van Heemskerck leitete die Dependance der 1916 gegründeten
+                        „Sturm“-Kunstschule in Den Haag. Vgl. Pirsich, Volker: Der Sturm. Eine
+                        Monographie. Herzberg 1985, S. 384.</note>
+                </p>
+                <p>Jetzt Auskunft über die Branding.<note>Die Rotterdamer Künstlervereinigung „De
+                        Branding“ wurde 1917 von Laurens van Kuik, Marius Richters, Bernard Toon
+                        Gits und Bernard Canter gegründet.</note> Damals bei <persName key="P.0000104">d’Audretsch</persName> hat er direkt nach die Sturm
+                    Ausstellung seine obere Räume<note>Der niederländische Kunsthändler Herman
+                        Eduard d’Audretsch besaß seit 1913 den nach ihm benannten Kunstsalon in Den
+                        Haag, in dem vom 17. März – 16. April 1916 die „Sturm“-Ausstellung
+                        „Expressionisten / Kubisten“ stattfand. Vgl. Enders, Rainer: Ausstellungen
+                        außerhalb der Berliner Galerie. URL: <ref target="https://www.arthistoricum.net/themen/portale/sturm/ausstellungen">https:// www.arthistoricum.net/themen/portale/sturm/ausstellungen</ref>
+                        (Aufruf 20.02.2019)</note> an de Branding permanent vermietet aber nach zwei
+                    Monaten waren die schon wieder fort, ein der führende ist <persName key="P.0000105" ref="http://viaf.org/viaf/317290941">Laurens van
+                        Kuik</persName> du hast von ihm in <placeName key="O.0000009" ref="http://sws.geonames.org/2759794">Amsterdam</placeName> damals auf de
+                        Onafhankelijken<note>„De Onafhankelijken“ (dt. „Die Unabhängigen“) war eine
+                        Rotterdamer Vereinigung Bildender Künstler, die 1917 nach dem Vorbild des
+                        Pariser „Salon des Indépendants“ gegründet wurde.</note> das schöne Bild so
+                    mit <hi rend="underline">ein</hi> Strich gesehen worüber wir so gelacht haben.
+                    Später gab die Branding überall Ausstellungen ich bin auch immer eingeladen. Die
+                    ganze geschichte ist ein vollkommen talentlose Reklame und nun sind die
+                    sogenannte Hellseher dazu gekommen <persName key="P.0000105" ref="http://viaf.org/viaf/317290941">van Kuik</persName> ist auch ein
+                    Hellseher, dann Frau <persName key="P.0000106">Resink</persName>. Nun finde ich
+                    die Hellseher in der Kunst leider immer sehr gefährliche Individuen. Dann ist
+                        <persName key="P.0000024" ref="http://d-nb.info/gnd/118526405">van
+                        Doesburgh</persName> auch ein Mitglied<pb xml:id="S.350v" n="350v" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000DA1B00000002"/> der
+                    immer grosse Bilder mit ◻ macht in verschiedene Farben so wie <persName key="P.0000031" ref="http://d-nb.info/gnd/118583441">Mondriaan</persName>,
+                    auch sehr gegen der Sturm ist. Nein viel besser wenige aber gute Künstler in der
+                    Sturm dann die schreckliche Leute. Wenn du ein mal hier kommst werde ich dir
+                    noch mehr davon erzählen. <date when="1919-01-05">Gestern</date> sah ich noch
+                    bei ein Kunsthändler Zeichnungen von junge Künstler aber es ist bloss ein
+                    wasserig Kubisme und Expressionisme ohne Individualität. Es ist traurig aber ich
+                    schreibe dir ganz offen die Wahrheit. Wie steht er im Norden und <placeName key="O.0000036" ref="http://sws.geonames.org/2618425">Kopenhagen</placeName>
+                    gibt es dort bedeutende Künstler?</p>
+                <p>Die Zeiten sind traurig wir müssen fest durchhalten es fällt aber schwer zu
+                    arbeiten. So möglich komme einmal mit <persName key="P.0000002" ref="http://d-nb.info/gnd/118891456">Nell</persName> nach <placeName key="O.0000003" ref="http://sws.geonames.org/2750405">Holland</placeName>.</p>
+                <closer>
+                    <salute>Herzlichste Grüssen</salute>
+                    <signed>deine <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">
+                                JacobavanHeem<hi rend="twice-underline">skerck</hi>.</persName>
+                    </signed>
+                </closer>
+                <postscript>
+                    <p>Bitte die Adresse von der Redaktion <term type="journal" key="W.0000102" source="http://library.fes.de/cgi-bin/digisomo.pl?id=SOHE1918-12-31&amp;dok=1918/1918-12-31" ref="http://d-nb.info/gnd/4181967-6">Sozialistische Monatshefte</term>
+                        Hat es kein Kritiken in <placeName key="O.0000036" ref="http://sws.geonames.org/2618425">Kopenhagen</placeName> gegeben und
+                        geht die Ausstellung nach <placeName key="O.0000037" ref="http://sws.geonames.org/2673730">Stockholm</placeName>?<note>Die
+                            Ausstellung „Der Sturm – International Kunst Ekspressionister og
+                            Kubister“ fand im Dezember 1918 in der Galerie „Georg Kleis Kunsthandel“
+                            in Kopenhagen – und vermutlich ausschließlich dort – statt. Vgl. Enders,
+                            Rainer: <ref target="https://www.arthistoricum.net/themen/portale/sturm/ausstellungen">Herwarth Walden und DER STURM. Ausstellungen außerhalb der Berliner
+                                Galerie</ref> (Aufruf 31.08.2019), ferner den <ref target="Q.01.19190124.JVH.01">Brief</ref> von Jacoba van Heemskerck
+                            an Herwarth Walden vom 24. Januar 1919.</note>
+                    </p>
+                </postscript>
+            </div>
+        </body>
+    </text>
+</TEI>

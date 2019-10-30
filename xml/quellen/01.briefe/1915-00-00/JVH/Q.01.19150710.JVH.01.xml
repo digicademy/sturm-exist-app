@@ -54,12 +54,13 @@
                         <country>DE</country>
                         <settlement>Berlin</settlement>
                         <repository>Staatsbibliothek zu Berlin Preußischer Kulturbesitz, Handschriftenabteilung, Sturm-Archiv I, Heemskerck, Jacoba van</repository>
-                        <idno type="uri">http://kalliope-verbund.info/DE-611-HS-1910946</idno>
+                        <idno type="uri">http://resolver.staatsbibliothek-berlin.de/SBB0000D97C00000000</idno>
                     </msIdentifier>
                 </msDesc>
             </sourceDesc>
         </fileDesc>
-        <xenoData type="uri">http://digital.staatsbibliothek-berlin.de/metsresolver/PPN746594828</xenoData>
+        <xenoData type="uri">http://kalliope-verbund.info/DE-611-HS-1910946</xenoData>
+        <xenoData type="url">http://content.staatsbibliothek-berlin.de/dc/PPN746594828.mets.xml</xenoData>
         <profileDesc>
             <correspDesc key="Bl.102-103" ref="https://sturm-edition.de/id/Q.01.19150710.JVH.01">
                 <correspAction type="sent">
@@ -69,12 +70,19 @@
                 </correspAction>
                 <correspAction type="received">
                     <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth Walden</persName>
-                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>
+                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950159">Potsdamerstrasse 134a, Berlin W.9.</placeName>
                 </correspAction>
             </correspDesc>
         </profileDesc>
         <revisionDesc>
             <listChange>
+                <change>
+                    <date when="2019-07-25" n="2"/>
+                    <p>URL zur METS-Datei der Staatsbibliothek zu Berlin aktualisiert innerhalb von :xenoData und zusätzliches :xenoData mit permanenter URI zum Kalliope-Findbucheintrag.</p>
+                    <p>:idno URL innerhalb von :msIdentifier durch permanente URL zum entsprechenden Datensatz der Staatsbibliothek zu Berlin gesetzt</p>
+                    <p>Standardisierung der Kommentierungstiefe, keine spezifischen Erklärungen von Fremdwörtern außerhalb des Sturm-Kontextes</p>
+                    <p>Normdaten (Geonames) zu Stadt Berlin korrigiert (zuvor fälschlicherweise Verweis auf "Land Berlin")</p>
+                </change>
                 <change>
                     <date when="2018-07-16" n="1"/>
                 </change>
@@ -125,7 +133,7 @@
             Sie dann.</p>
                 <p>So schade dass es bei <placeName key="O.0000038" ref="http://sws.geonames.org/765876">Lublin</placeName> heute nicht so günstig war<note>Die russisch-polnische Stadt Lublin wurde Ende Juli durch deutsch-österreichische Truppen eingenommen. Vgl. Stone, Norman: Bug-Offensive. In: Enzyklopädie Erster Weltkrieg. Hrsg. v. Gerhard Hirschfeld [u.a.]. Paderborn [u.a.] 2004, S. 398–399, hier S. 398.</note> es geht dort anders prachtvoll.
             Denken sie es wird noch lange dauern? Wie war die Stimmung in <placeName key="O.0000033" ref="http://sws.geonames.org/2661886">Schweden</placeName>? Haben Sie die Maler die in
-            der Sturm ausstellte auch besucht und werden wir auch in <placeName key="O.0000037" ref="http://sws.geonames.org/2673730">Stockholm</placeName> ausstellen?<note>Im Oktober 1915 fand in Stockholm eine Sturm-Ausstellung statt. Vgl. Enders, Rainer: Ausstellungen außerhalb der Berliner Galerie. URL: <ref target="https://www.arthistoricum.net/themen/portale/sturm/ausstellungen/">https://www.arthistoricum.net/themen/portale/sturm/ausstellungen/</ref> (Aufruf 06.04.2017).</note> Von Dr
+            der Sturm ausstellte auch besucht und werden wir auch in <placeName key="O.0000037" ref="http://sws.geonames.org/2673730">Stockholm</placeName> ausstellen?<note>Im Oktober 1915 fand in Stockholm eine STURM-Ausstellung statt. Vgl. Enders, Rainer: Ausstellungen außerhalb der Berliner Galerie. URL: <ref target="https://www.arthistoricum.net/themen/portale/sturm/ausstellungen/">https://www.arthistoricum.net/themen/portale/sturm/ausstellungen/</ref> (Aufruf 06.04.2017).</note> Von Dr
                <persName key="P.0000021" ref="http://d-nb.info/gnd/119191164">Behne</persName> habe ich eine Karte<pb xml:id="S.102r.02" n="102r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D97C00000001"/>
             bekommen.</p>
                 <closer>

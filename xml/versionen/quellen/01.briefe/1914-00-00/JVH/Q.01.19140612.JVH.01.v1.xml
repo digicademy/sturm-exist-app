@@ -1,0 +1,156 @@
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Q.01.19140612.JVH.01">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Jacoba van Heemskerck an Herwarth Walden, 12. Juni 1914, Loverendale,
+                    Domburg</title>
+                <editor>
+                    <persName ref="https://orcid.org/0000-0003-2423-7144">
+                        <forename>Marjam</forename>
+                        <surname>Trautmann</surname>
+                    </persName>
+                </editor>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0002-0953-2818">
+                        <forename>Torsten</forename>
+                        <surname>Schrade</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeber</note>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0003-2423-7144">
+                        <forename>Marjam</forename>
+                        <surname>Trautmann</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeberin</note>
+                    </resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="http://www.adwmainz.de">Akademie der Wissenschaften und der
+                        Literatur | Mainz</ref>
+                </publisher>
+                <pubPlace ref="http://sws.geonames.org/2874225">Mainz</pubPlace>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/"> This file is
+                        licensed under the terms of the Creative-Commons-License CC BY 4.0
+                    </licence>
+                </availability>
+                <idno type="file">Q.01.19140612.JVH.01.v1.xml</idno>
+                <idno type="uri">https://sturm-edition.de/id/Q.01.19140612.JVH.01</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Q.01.19140612.JVH.01, Jacoba van Heemskerck an Herwarth Walden, 12. Juni 1914,
+                    Loverendale, Domburg, bearbeitet von Marjam Trautmann, in: Der STURM. Digitale
+                    Quellenedition zur Geschichte der internationalen Avantgarde, erarbeitet und
+                    herausgegeben von Marjam Trautmann und Torsten Schrade. Mainz,
+                    Akademie der Wissenschaften und der Literatur. </bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <country>DE</country>
+                        <settlement>Berlin</settlement>
+                        <repository>Staatsbibliothek zu Berlin Preußischer Kulturbesitz,
+                            Handschriftenabteilung, Sturm-Archiv I, Heemskerck, Jacoba
+                            van</repository>
+                        <idno type="uri">http://kalliope-verbund.info/DE-611-HS-1910535</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <xenoData type="uri">http://digital.staatsbibliothek-berlin.de/metsresolver/PPN746594062</xenoData>
+        <profileDesc>
+            <correspDesc key="Bl.7-8" ref="https://sturm-edition.de/id/Q.01.19140612.JVH.01">
+                <correspAction type="sent">
+                    <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jacoba van
+                        Heemskerck</persName>
+                    <placeName key="O.0000004" ref="http://sws.geonames.org/2756746">Loverendale,
+                        Domburg</placeName>
+                    <date when="1914-06-12"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth
+                        Walden</persName>
+                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change>
+                    <date when="2018-07-16" n="1"/>
+                </change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic n="7r" url="http://content.staatsbibliothek-berlin.de/dms/PPN746594062/800/0/00000001.jpg"/>
+        <graphic n="7v" url="http://content.staatsbibliothek-berlin.de/dms/PPN746594062/800/0/00000002.jpg"/>
+        <graphic n="8r" url="http://content.staatsbibliothek-berlin.de/dms/PPN746594062/800/0/00000003.jpg"/>
+        <graphic n="8v" url="http://content.staatsbibliothek-berlin.de/dms/PPN746594062/800/0/00000004.jpg"/>
+        <graphic n="Farbkeil" url="http://content.staatsbibliothek-berlin.de/dms/PPN746594062/800/0/00000005.jpg"/>
+    </facsimile>
+    <text type="letter">
+        <body>
+            <div type="content">
+                <pb xml:id="S.7r.01" n="7r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D94700000001"/>
+                <opener>
+                    <dateline>
+                        <date when="1914-06-12">12-6-14</date>
+                    </dateline>
+                    <salute>Sehr geehrter Herr <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Walden</persName>
+                    </salute>
+                </opener>
+                <p>Sehr viel Dank für Ihren Brief. Sie schreiben dasz Sie wieder einmal in
+                        <placeName key="O.0000003" ref="http://sws.geonames.org/2750405">Holland</placeName> ausstellen möchte nun habe ich die letzte Monaten von
+                    verschiedenen Persönen gehört dasz <placeName key="O.0000011" ref="http://sws.geonames.org/2747891">Rotterdam</placeName> jetzt sehr gut
+                    ist für unsere Kunst. Ich schreibe es Ihnen da Sie vielleicht wenn Sie nach
+                        <placeName key="O.0000003" ref="http://sws.geonames.org/2750405">Holland</placeName> kommen es angenehm finden zu hören was man sagt.<pb xml:id="S.7v" n="7v" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D94700000002"/>
+                    Natürlich sind Sie ganz gut orientiert, ich dachte aber es doch besser war es zu
+                    schreiben. Es sollte schön sein wenn Sie so von uns allen so mit ein oder zwei
+                    Bilder von jeden eine Ausstellung hier machen könnte in verschiedene Städte in
+                        <placeName key="O.0000003" ref="http://sws.geonames.org/2750405">Holland</placeName>. Kennen Sie die Rotterdamsche Kunstkring<note>Wie der
+                        „Moderne Kunstkring“ war auch der Rotterdamsche Kunstkring ein
+                        niederländischer Kunstverein, der Ausstellungen in Rotterdam
+                        organisierte.</note>, da sind öfters moderne Ausstellungen ich finde das
+                    Lokal aber nicht sehr famos. Sie denken daran dasz Sie uns immer willkommen sind
+                    wenn Sie nicht zu beschäftigt<pb xml:id="S.8r" n="8r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D94700000003"/>
+                    sind. Nur einige Zeilen vorher und Ihr Zimmer ist fertig. Ich lache so über die
+                    Ausstellung hier, bisweilen kaufen die Badegästen hier, so für das Publikum
+                    schöne Gemälde. Nun stellen hier alle mögliche und unmögliche Maler zusammen
+                    aus. Ich bin von unsere Richtung die einzige, <persName key="P.0000011" ref="http://d-nb.info/gnd/119295954">Toorop</persName> und seine Freunden
+                    sind da, und jetzt hat <persName key="P.0000010" ref="http://d-nb.info/gnd/128866748">LeFauconnier</persName> und <persName key="P.0000012" ref="http://d-nb.info/gnd/1077780265">Kickert</persName>
+                    davon gehört und kommen hier ganz in die Nähe arbeiten uns sind auch eingeladen
+                    um auszustellen. Ich wundere mich<pb xml:id="S.8v" n="8v" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D94700000004"/> dasz
+                    die Leute so gern immer mit andere ausstellen. Kunst wird viel zu wenig hoch
+                    gehalten obwohl <persName key="P.0000010" ref="http://d-nb.info/gnd/128866748">LeFauconnier</persName> nichts versteht von unsere Idealen. Ich musz da ich
+                    im comité bin einige Bilder schicken, und es ist zu beschwerlich dann gar nicht
+                    auszu stellen. Aber das Zurückhalten ist so viel besser Ich bin so froh dasz Sie
+                    auch damit einverstanden sind. Morgen schicke ich Ihnen das Geld für das <term type="book" key="W.0000067" source="https://doi.org/10.11588/diglit.27222" ref="http://d-nb.info/361684770">Sturm Buch</term> eben empfangen. das <term type="book" key="W.0000067" source="https://doi.org/10.11588/diglit.27222" ref="http://d-nb.info/361684770">Buch</term> von <persName key="P.0000013" ref="http://d-nb.info/gnd/118606816">Scheerbart</persName>
+                    <note>Scheerbart,
+                        Paul: Glasarchitektur. Berlin 1914.</note> ist prachtvoll</p>
+                <closer>
+                    <salute>Mit herzlichsten grüssen</salute> für Sie und Ihr <persName key="P.0000002" ref="http://d-nb.info/gnd/118891456">Frau</persName> auch
+                    von Fräulein <persName key="P.0000008" ref="http://d-nb.info/gnd/136128289">van
+                        Poortvliet</persName>
+                    <signed>Ihre <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jacoba van <hi rend="underline">Heemskerck</hi>
+                        </persName>
+                    </signed>
+                </closer>
+                <pb xml:id="S.7r.02" n="7r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D94700000001"/>
+                <postscript>
+                    <p>Wenn Sie von meine Bilder Photographien oder die Platten wünschen dann sagen
+                        Sie es bitte Ich habe ein grosze Apparat geschenkt bekomme und photografiere
+                        jetzt al meine Zeichnungen und Gemälde. Es war mir zu teuer einen Photograaf
+                        zu zahlen. Ich habe hier die Photografien gezeigt und man sagt dasz sie ganz
+                        gut sind für die reproduktion. Masz 13 x 18 oder 18 x 24.</p>
+                </postscript>
+            </div>
+        </body>
+    </text>
+</TEI>

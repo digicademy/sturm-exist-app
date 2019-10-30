@@ -1,0 +1,120 @@
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="S.0000018">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Projektteam</title>
+                <editor>
+                    <persName ref="https://orcid.org/0000-0002-0953-2818">
+                        <forename>Torsten</forename>
+                        <surname>Schrade</surname>
+                    </persName>
+                </editor>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0002-0953-2818">
+                        <forename>Torsten</forename>
+                        <surname>Schrade</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeber</note>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0003-2423-7144">
+                        <forename>Marjam</forename>
+                        <surname>Trautmann</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeberin</note>
+                    </resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="http://www.adwmainz.de">Akademie der Wissenschaften und der
+                        Literatur | Mainz</ref>
+                </publisher>
+                <pubPlace ref="http://sws.geonames.org/2874225">Mainz</pubPlace>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/"> This file is
+                        licensed under the terms of the Creative-Commons-License CC BY 4.0
+                    </licence>
+                </availability>
+                <idno type="file">team.xml</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Torsten Schrade: "Das Projektteam", in: Der STURM. Digitale Quellenedition zur
+                    Geschichte der internationalen Avantgarde, erarbeitet und herausgegeben von
+                    Marjam Trautmann und Torsten Schrade. Mainz, Akademie der Wissenschaften und der
+                    Literatur. </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <listChange>
+                <change>
+                    <date when="2018-07-16" n="1"/>
+                    <p>Initiale Version</p>
+                </change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="section" n="eight">
+                <ab rend="h2">Das Projektteam</ab>
+                <p> Die STURM-Edition ist als kollaboratives Digital Humanities Projekt insbesondere
+                    des wissenschaftlichen Nachwuchses konzipiert und an der Akademieprofessur für
+                    Digital Humanities (<ref target="http://www.adwmainz.de/">Akademie der
+                        Wissenschaften und der Literatur</ref> und <ref target="https://www.hs-mainz.de/">Hochschule Mainz</ref>) angesiedelt. Das
+                    Projekt ist zugleich offen für Beiträge aller am ‚Sturm‘ Interessierten, die sich
+                    mit eigenen Forschungsperspektiven, Ergebnissen und Anregungen auf freiwilliger
+                    Basis einbringen möchten. </p>
+
+                <p>Wir möchten allen Teamkolleginnen und -kollegen und allen involvierten
+                    Wissenschaftlern und Studierenden herzlich für ihre Mitarbeit danken. Unser besonderer Dank gilt der
+                    Mainzer Akademie für die institutionelle Unterstützung unseres
+                    Forschungsvorhabens. </p>
+                <ab rend="h3">Herausgeberschaft und Gesamtkonzeption</ab>
+                <ab rend="h4">Marjam Trautmann<ref rend="orcid" target="https://orcid.org/0000-0003-2423-7144">ORCID</ref>
+                </ab>
+                <p> Gesamtkonzeption und Projektmanagement, Entwicklung der Editionsrichtlinien,
+                    Datenmodellierung und -kuratierung, Projektbibliographie, Edition der Briefe
+                    Jacoba van Heemskercks und Franz Marcs. Historische Netzwerkforschung zum
+                    ‚Sturm‘ (laufendes Promotionsvorhaben). </p>
+                <ab rend="h4">Torsten Schrade <ref rend="orcid" target="https://orcid.org/0000-0002-0953-2818">ORCID</ref>
+                </ab>
+                <p> Gesamtkonzeption, Research Software Engineering, Schnittstellenentwicklung,
+                    DevOps, Datenmodellierung, Gestaltung und Entwicklung der Präsentationsschicht,
+                    Lehrkonzepte für die Digitale Methodik. </p>
+                <ab rend="h3">Wissenschaftliche Mitarbeit</ab>
+                <ab rend="h4">Thomas Kollatz<ref rend="orcid" target="https://orcid.org/0000-0003-1904-1841">ORCID</ref>
+                </ab>
+                <p> Texttechnologien (TUSTEP), Datenmodellierung, Normdaten,
+                    Schnittstellenprogrammierung, Textsatz. </p>
+                <ab rend="h4">Lea Müller-Dannhausen</ab>
+                <p> Mitwirkung an der Datenmodellierung in Abteilung I, Edition der Briefe
+                    Franz Marcs, Jacoba van Heemskercks und Guillaume Apollinaires, Lektorat. </p>
+                <ab rend="h4">Anne Lorenz<ref rend="orcid" target="https://orcid.org/0000-0003-1208-6131">ORCID</ref>
+                </ab>
+                <p> Wissenschaftskommunikation, Mitwirkung an der Datenmodellierung,
+                    literaturwissenschaftlich-archivalische Begleitung, Editionstätigkeiten in
+                    Abteilung I. </p>
+                
+                <ab rend="h3">Wissenschaftliche Beratung und Unterstützung</ab>
+                <ab rend="h4">Rainer Enders</ab>
+                <p> Forschungsschwerpunkt in Abteilung III, den STURM-Katalogen und den Ausstellungen in sowie außerhalb der STURM-Galerie.</p>
+                
+                <ab rend="h4">Volker Pirsich</ab>
+                <p> Aktuelle Forschungsinteressen sind die STURM-Abende und der ‚Verein für Kunst‘.</p>
+                
+                <ab rend="h3">Freunde und Förderer des Projektes</ab>
+                <p> Folgenden Personen sei für ihr Engagement als Förderer des Projektes sehr
+                    gedankt (in alphabetischer Reihenfolge): Prof. Dr. Claudius Geisler, Timo
+                    Kissinger M.A., Janina Kühner M.A., Dipl.Des. (FH) Sarah Pittroff M.A. </p>
+            </div>
+            <div type="section" n="four">
+                <ab type="subNavigation" n="projekt"/>
+            </div>
+        </body>
+    </text>
+</TEI>

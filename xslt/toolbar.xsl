@@ -5,7 +5,7 @@
  : DER STURM
  : A Digital Edition of Sources from the International Avantgarde
  :
- : Edited and developed by Marjam Mahmoodzada and Torsten Schrade
+ : Edited and developed by Marjam Trautmann and Torsten Schrade
  : Academy of Sciences and Literature | Mainz
  :
  : Contains the toolbar with the pagination and xml/metadata links for the 
@@ -22,6 +22,7 @@
     <xsl:param name="next"/>
     <xsl:param name="last"/>
     <xsl:param name="metadata"/>
+    <xsl:param name="kalliopeuri"/>
 
     <xsl:template name="toolbar">
         <section class="twelve columns toolbar">
@@ -44,7 +45,7 @@
                     <a target="_blank" class="black button" href="{concat('https://sturm-edition.de/api/files/', //tei:publicationStmt/tei:idno[@type = 'file'])}" title="XML Quelle ansehen">➚ XML</a>
                 </li>
                 <li class="metadata">
-                    <a target="_blank" class="black button" href="{$metadata}" title="Metadaten bei der Staatsbibliothek Berlin">➚ Metadaten</a>
+                    <a target="_blank" class="black button" href="{$kalliopeuri}" title="Findbucheintrag im Kalliope-Verbundkatalog">➚ Metadaten</a>
                 </li>
             </ul>
         </section>

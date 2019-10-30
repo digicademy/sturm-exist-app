@@ -1,0 +1,222 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Q.01.19190828.JVH.01">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Jacoba van Heemskerck an Herwarth Walden, 28. August 1919, Domburg</title>
+                <editor>
+                    <persName ref="https://orcid.org/0000-0003-1208-6131">
+                        <forename>Anne</forename>
+                        <surname>Lorenz</surname>
+                    </persName>
+                </editor>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0002-0953-2818">
+                        <forename>Torsten</forename>
+                        <surname>Schrade</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeber</note>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0003-2423-7144">
+                        <forename>Marjam</forename>
+                        <surname>Trautmann</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeberin</note>
+                    </resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="http://www.adwmainz.de">Akademie der Wissenschaften und der
+                        Literatur | Mainz</ref>
+                </publisher>
+                <pubPlace ref="http://sws.geonames.org/2874225">Mainz</pubPlace>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">This file is
+                        licensed under the terms of the Creative-Commons-License CC BY 4.0
+                    </licence>
+                </availability>
+                <idno type="file">Q.01.19190828.JVH.01.xml</idno>
+                <idno type="uri">https://sturm-edition.de/id/Q.01.19190828.JVH.01</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Q.01.19100828.JVH.01, Jacoba van Heemskerck an Herwarth Walden, 28. August
+                    1919, Domburg, bearbeitet von Anne Lorenz, in: Der STURM. Digitale
+                    Quellenedition zur Geschichte der internationalen Avantgarde, erarbeitet und
+                    herausgegeben von Marjam Trautmann und Torsten Schrade. Mainz, Akademie der
+                    Wissenschaften und der Literatur. </bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <country>DE</country>
+                        <settlement>Berlin</settlement>
+                        <repository>Staatsbibliothek zu Berlin Preußischer Kulturbesitz,
+                            Handschriftenabteilung, Sturm-Archiv I, Heemskerck, Jacoba
+                            van</repository>
+                        <idno type="uri">http://resolver.staatsbibliothek-berlin.de/SBB0000DA2700000000</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <xenoData type="uri">http://kalliope-verbund.info/DE-611-HS-1913489</xenoData>
+        <xenoData type="url">
+            https://content.staatsbibliothek-berlin.de/dc/PPN746596979.mets.xml</xenoData>
+        <profileDesc>
+            <correspDesc key="Bl.363-364" ref="https://sturm-edition.de/id/Q.01.19190828.JVH.01">
+                <correspAction type="sent">
+                    <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jacoba van
+                        Heemskerck</persName>
+                    <placeName key="O.0000004" ref="http://sws.geonames.org/2756746">Domburg</placeName>
+                    <date when="1919-08-28"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth
+                        Walden</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change>
+                    <date when="2019-08-26" n="1"/>
+                </change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic n="363r" url="http://content.staatsbibliothek-berlin.de/dms/PPN746596979/500/0/00000001.jpg"/>
+        <graphic n="363v" url="http://content.staatsbibliothek-berlin.de/dms/PPN746596979/500/0/00000002.jpg"/>
+        <graphic n="364r" url="http://content.staatsbibliothek-berlin.de/dms/PPN746596979/500/0/00000003.jpg"/>
+        <graphic n="364r" url="http://content.staatsbibliothek-berlin.de/dms/PPN746596979/500/0/00000004.jpg"/>
+        <graphic n="Farbkeil" url="http://content.staatsbibliothek-berlin.de/dms/PPN746596979/500/0/00000005.jpg"/>
+    </facsimile>
+    <text type="letter">
+        <body>
+
+            <div type="content">
+                <pb xml:id="S.363r" n="363r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000DA2700000001"/>
+
+
+                <opener>
+                    <dateline>
+                        <hi rend="underline">
+                            <placeName key="O.0000004" ref="http://sws.geonames.org/2756746">Domburg</placeName>.</hi>
+                         <date when="1919-08-28">28.8.19.</date>
+                    </dateline>
+                    <salute>Lieber <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth</persName>
+                    </salute>
+                </opener>
+
+                <p>
+                    <date when="1919-08-28">Heute</date> abgeschickt bitte schreibe direkt wenn du
+                    die Entwürfe<note>In ihrem vorausgehenden <ref target="Q.01.19190821.JVH.01">Brief</ref> an Walden vom 21. August 1919 kündigt van Heemskerck den
+                        Versand der Entwürfe bereits an und zählt die folgenden Nummern auf: <term type="artwork" key="W.0000093">Entwurf Glasfenster 17</term>, <term type="artwork" key="W.0000092">Entwurf Glasfenster 10</term>, <term type="artwork" key="W.0000094">Entwurf Glasfenster 19</term>, <term type="artwork" key="W.0000095">Entwurf Glasfenster 20</term>, <term type="artwork" key="W.0000096">Entwurf Glasfenster 21</term>, <term type="artwork" key="W.0000097">Entwurf Glasfenster 22</term>, <term type="artwork" key="W.0000098">Entwurf Glasfenster 23</term>, <term type="artwork" key="W.0000099">Entwurf Glasfenster 24</term>, <term type="artwork" key="W.0000100">Entwurf Glasfenster 25</term>, <term type="artwork" key="W.0000101">Entwurf Glasfenster 26</term>.</note> in
+                        <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Berlin</placeName> hast. Ich sah dass die Einfuhrbewilligung für 2. Monaten
+                    ist vom Tage der Eröffnung der Ausstellung ab.<note>Die Eröffnung der 79.
+                        STURM-Ausstellung, die neben Werken von Johannes Molzahn und Karl Herrmann
+                        Entwürfe für Glasfenster van Heemskercks zeigte, fand am 28. September 1919
+                        statt. Vgl. den <ref target="https://nbn-resolving.org/urn:nbn:de:bvb:255-dtl-0000001350">Katalog zur Ausstellung</ref>, Walden, Herwarth: Neunundsiebzigste
+                        Ausstellung – Johannes Molzahn, Karl Herrmann, Jacoba van Heemskerck.
+                        Entwürfe für Glasfenster, Berlin 1919 u. den <ref target="Q.01.19190923.JVH.01">Brief</ref> van Heemskercks an Walden vom
+                        23. September 1919.</note> Du kannst dann sicher später Verlängerung
+                    anfragen und dann wird hoffentlich die Einfuhr wieder normal sein. Ich habe mich
+                    erkundigt aber es ist durchaus besser dass wir eine Bestätigung haben dass wir
+                    aus berufliche Gründe in <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Berlin</placeName> sein müssen.
+                        <persName key="P.0000008" ref="http://d-nb.info/gnd/136128289">Marie</persName> auch. Die Papiere müssen in <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Berlin</placeName> polizeilich
+                    unterschrieben sein, bitte frage ob dass wirklich nötig ist man hat es uns hier
+                    im Konsulat in <placeName key="O.0000012" ref="http://sws.geonames.org/2745392">Vlissingen</placeName> gesagt.</p>
+
+                <p>Bitte schicke uns die Papiere.</p>
+
+                <p>Gestehe ganz offen denkst du dass wir reisen können gibt es noch direkte Züge von
+                        <placeName key="O.0000001" ref="http://sws.geonames.org/2747373">Haag</placeName> nach <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Berlin</placeName> in <date when="1919-10">Oktober</date> wegen die Kohle not. In die Zeitungen stehen
+                    schreckliche Geschichten über mangel an Kohlen in <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Berlin</placeName>. Nun fürchten wir
+                    dass wir dann nicht zurück können. Hoffentlich wird alles gehen so gegen <date from="1919-10-12" to="1919-10-15">12-15 Oktober</date> und dann sicher 14
+                    Tagen.</p>
+
+                <closer>
+                    <salute>Herzlichste Grüssen</salute>
+                    <signed>deine <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">
+                            Jacoba vanHeemsk<hi rend="twice-underline">erck</hi>
+                        </persName>.</signed>
+                </closer>
+                <postscript>
+                    <p>Du wirst einfach einrahmen lassen und etwas grösser dann die schwarzen
+                        Ränder.</p>
+                    <pb xml:id="S.363v" n="363v" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000DA2700000002"/>
+
+                    <p>Anbei dies aus die <term type="newspaper" key="W.0000077" ref="http://www.wikidata.org/entity/Q1989439">Rotterdamsche
+                            courant</term>, hast du etwas über diese Ausstellung gehört, es ist eine
+                        komische Auswahl von Maler.</p>
+
+                    <p>Ich will die Entwürfe nicht so verkaufen aber persönlich mit Architekten oder
+                        Partikulieren unter handelen und die Entwürfe von die Zimmer oder Gebäude
+                        sehen am liebsten mache ich Entwürfe speziell für neue Häuser. Das Glas will
+                        ich auch selber wählen wenn es in <placeName key="O.0000014" ref="http://sws.geonames.org/2921044">Deutschland</placeName> gebrennt
+                        wird, da wenn die Farben nicht ganz richtig sind meine Entwürfe nichts
+                        ausmachen. Alle Schwaz linieen sind kein Blei aber viel wird auch mit
+                        Schwwarzlot gemalt und dann gebrannt. Ueber das Einrahmen habe ich dir
+                        letzte Woche geschrieben</p>
+
+                    <p>Im Frühling kann ich hoffentlich wieder Gemälde schicken</p>
+                </postscript>
+            </div>
+
+            <div type="attachment">
+                <pb xml:id="S.364r" n="364r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000DA2700000003"/>
+
+
+                <p>
+                    <foreign>De „Raad v. Ned. K. en L. in den Vreemde“ verzoekt ons te
+                        melden:</foreign>
+                </p>
+
+                <p>
+                    <foreign>De eerste tentoonstelling, georganiseerd door den Raad, zal plaats heben
+                        te <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Berlijn</placeName>.</foreign>
+                </p>
+
+                <p>
+                    <foreign>Hiervoor zijn uitgenoodigd: <persName key="P.0000011" ref="http://d-nb.info/gnd/119295954">Jan Toorop</persName>, <persName key="P.0000151" ref="http://d-nb.info/gnd/118509640">Dr. H. P.
+                            Berlage</persName>, <persName key="P.0000152" ref="http://d-nb.info/gnd/136238378">W. v. Konijnenburg</persName>,
+                            <persName key="P.0000150" ref="http://d-nb.info/gnd/118638858">Kees van
+                            Dongen</persName>, <persName key="P.0000040" ref="http://d-nb.info/gnd/121931005">Leo Gestel</persName>, <persName key="P.0000016" ref="http://d-nb.info/gnd/118748475">Jan
+                            Sluyters</persName>, <persName key="P.0000153">A. Colnot</persName>,
+                            <persName key="P.0000154" ref="https://rkd.nl/explore/artists/40835">F.
+                            Huysmans</persName>, <persName key="P.0000155" ref="http://d-nb.info/gnd/129032638">M. Wiegman</persName>, <persName key="P.0000156" ref="http://d-nb.info/gnd/128963255">P.
+                            Wiegman</persName>, <persName key="P.0000157" ref="http://d-nb.info/gnd/11862332X">Mevr. Charley Toorop</persName>,
+                            <persName key="P.0000158" ref="http://d-nb.info/gnd/129075094">P. v.
+                            Wijngaerdt</persName>, <persName key="P.0000159">J. Weynand</persName>,
+                            <persName key="P.0000160">Mej. Wiggers Wierdsma</persName>, <persName key="P.0000024" ref="http://d-nb.info/gnd/118526405">Th. van
+                            Doesburg</persName>, <persName key="P.0000031" ref="http://d-nb.info/gnd/118583441">Piet Mondriaan</persName>,
+                            <persName key="P.0000161" ref="http://d-nb.info/gnd/119224496">B. v. d.
+                                Leck</persName>, <persName key="P.0000032" ref="http://d-nb.info/gnd/119262177">Petrus Alma</persName>, <persName key="P.0000162" ref="http://d-nb.info/gnd/136469264">Joan
+                            Colette</persName>, <persName key="P.0000163" ref="https://rkd.nl/explore/artists/126139">Djurre Duursma</persName>,
+                            <persName key="P.0000105" ref="http://viaf.org/viaf/317290941">L. van
+                            Kuik</persName>, <persName key="P.0000165" ref="https://rkd.nl/explore/artists/32008">Bernard Antoon
+                            Gits</persName> (†), <persName key="P.0000164" ref="http://d-nb.info/gnd/121893421">Erich Wichmann</persName>,
+                            <persName key="P.0000045" ref="http://d-nb.info/gnd/1056411538">Louis
+                            Saalborn</persName>, <persName key="P.0000166" ref="https://rkd.nl/explore/artists/36582">J. Havermans</persName>,
+                            <persName key="P.0000167" ref="http://d-nb.info/gnd/184199166">A. J. J.
+                            de Winter</persName>, <persName key="P.0000168" ref="https://rkd.nl/explore/artists/65412">J. Raedeker</persName>,
+                            <persName key="P.0000169" ref="http://d-nb.info/gnd/119254522">Hildo
+                            Krop</persName>, <persName key="P.0000170" ref="http://d-nb.info/gnd/119256630">P. Kramer</persName>, <persName key="P.0000171" ref="http://d-nb.info/gnd/142220078">Bieling</persName>,
+                            <persName key="P.0000172" ref="http://d-nb.info/gnd/14179044X">van’t
+                            Hoff</persName>, <persName key="P.0000173">A. Querido</persName> en
+                            <persName key="P.0000174" ref="http://d-nb.info/gnd/118738860">P.
+                            Oud</persName>.</foreign>
+                </p>
+
+                <p>
+                    <foreign>Deze eerste tentoonstelling, die binnenkort gehouden zal worden, wordt
+                        door en uitvoerigen catalogus ingeleid, waarin de makers zich over hun werk
+                        nader zullen kunnen uitspreken.</foreign>
+                </p>
+
+            </div>
+        </body>
+    </text>
+</TEI>

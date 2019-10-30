@@ -1,0 +1,209 @@
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="S.0000029">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Schnittstellen</title>
+                <editor>
+                    <persName ref="https://orcid.org/0000-0002-0953-2818">
+                        <forename>Torsten</forename>
+                        <surname>Schrade</surname>
+                    </persName>
+                </editor>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0002-0953-2818">
+                        <forename>Torsten</forename>
+                        <surname>Schrade</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeber</note>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0003-2423-7144">
+                        <forename>Marjam</forename>
+                        <surname>Trautmann</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeberin</note>
+                    </resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="http://www.adwmainz.de">Akademie der Wissenschaften und der Literatur | Mainz</ref>
+                </publisher>
+                <pubPlace ref="http://sws.geonames.org/2874225">Mainz</pubPlace>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        This file is licensed under the terms of the Creative-Commons-License CC BY 4.0
+                    </licence>
+                </availability>
+                <idno type="file">schnittstellen.xml</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Torsten Schrade: "Technische Schnittstellen (APIs)", in: Der STURM. Digitale Quellenedition zur Geschichte der 
+                    internationalen Avantgarde, erarbeitet und herausgegeben von Marjam Trautmann und 
+                    Torsten Schrade. Mainz, Akademie der Wissenschaften und der Literatur.
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <listChange>
+                <change>
+                    <date when="2018-07-16" n="1"/>
+                    <p>Initiale Version</p>
+                </change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="section" n="eight">
+                <ab rend="h2">Technische Schnittstellen (APIs)</ab>
+                <p>
+                    Innerhalb der Quellenedition sind mehrere Schnittstellen für einen programmierenden bzw. maschinengestützten 
+                    Zugriff auf die STURM-Forschungsdaten implementiert.
+                </p>
+                <ab rend="h3">URI-Resolver</ab>
+                <p>
+                    Alle Entitäten der Edition (Quellen, Personen, Orte, Werke etc.) sind mittels persistenter 
+                    Identifikatoren (URIs) dauerhaft referenziert. Hierbei steht ein URI für die
+                    abstrakte digitale Ressource innerhalb der STURM-Edition, die in verschiedene konkrete Repräsentationen 
+                    aufgelöst werden kann.
+                </p>
+                <p>
+                    <emph rend="strong">Beispiel:</emph> <ref target="https://sturm-edition.de/id/Q.01.19140115.FMA.01">https://sturm-edition.de/id/Q.01.19140115.FMA.01</ref>
+                </p>
+                <p>
+                    Für jeden URI ist ein Resolving mittels <ref target="https://developer.mozilla.org/en-US/docs/Web/HTTP/Content_negotiation">Content Negotiation</ref>
+                    implementiert, über das verschiedene Formate (Repräsentationen) einer Ressource innerhalb der STURM-Edition bezogen werden können.
+                    Dazu sendet der Client beim Aufruf eines URI einen <code>Accept-Header</code> mit dem gewünschten Format (entweder <code>text/html</code>, <code>application/xml</code> 
+                    oder <code>application/json</code>). Der Resolver leitet auf Basis des <code>Accept-Header</code> die Anfrage
+                    zur jeweiligen URL weiter, unter der sich die formatspezifische Version der Ressource (HTML, XML, JSON) befindet. Hierbei sendet der Resolver den Status-Code <code>302 Found</code>
+                    sowie einen <code>Location-Header</code> mit der jeweiligen Ziel-URL. Sendet der Client keinen <code>Accept-Header</code> wird HTML als Standardformat für
+                    die jeweilige Ressource angenommen.
+                </p>
+                <ab rend="h3">Datenschnittstelle (XML/JSON)</ab>
+                <p>
+                    Über die Datenschnittstelle lassen sich sämtliche Text- und Registerdaten der Edition als TEI/XML 
+                    oder TEI/JSON beziehen. Der Einstiegspunkt für diese API befindet sich unter folgender Adresse:
+                </p>
+                <p>
+                    <code>
+https://sturm-edition.de/api/
+                    </code>
+                </p>
+                <p>
+                    Die Schnittstelle orientiert sich an den Prinzipien der <ref target="https://philsturgeon.uk/api/2018/05/02/api-evolution-for-rest-http-apis/">API Evolution</ref>
+                    und bietet stabile, unveränderliche Auslieferungspunkte. Diese implementieren <ref target="https://developer.mozilla.org/en-US/docs/Web/HTTP/Content_negotiation">Content Negotiation</ref>
+                    und können entweder – je nach dem vom Client gesendeten <code>Accept-Header</code> TEI/XML oder JSON ausliefern
+                    (<code>application/xml</code> oder <code>application/json</code>). Unterhalb des übergeordneten API-Einstiegspunktes
+                    stehen momentan die folgenden fünf Auslieferungspunkte zur Verfügung:
+                </p>
+                <ab rend="pre">
+                    <code>
+/api/
+      letters
+             /Q.01.19140115.FMA.01
+      places
+             /O.0000009
+      persons
+             /P.0000021
+      works
+             /W.0000066
+      files
+             /Q.01.19140115.FMA.01.xml
+             /schnittstellen.xml
+                    </code>
+                </ab>
+                <p>
+                    Über <code>letters</code>, <code>places</code>, <code>persons</code> und <code>works</code> lassen sich die 
+                    Registerinformationen zu den Künstlerbriefen, Orten, Personen und Werken abrufen. Jeder Register-Einstiegspunkt 
+                    liefert einen Ressourcenindex (in TEI/XML oder JSON) mit einigen Kopfinformationen zur jeweiligen Ressource aus. 
+                    Im Falle der Briefe sind dies beispielsweise eine jahresweise Zuordnung zu Künstlern und Künstlerinnen, die Brief-Identifikatoren, 
+                    die zugehörigen XML-Dateien sowie das Absendedatum mit Ort. Im Falle von Orten, Personen und Werken sind dies neben den
+                    Identifikatoren bspw. auch die Norm- und Geodaten sowie die Zuordnungen, in welchen Quellen die jeweiligen
+                    Personen, Orte oder Werke genannt werden. Über den Identifikator jeder Ressource lassen sich auf der letzten Hierarchie-Ebene 
+                    der API die einzelnen Ressourcen abrufen.
+                </p>
+                <p>
+                    Eine Besonderheit stellt der <code>files</code> Einstiegspunkt dar. Über ihn kann jede XML-Datei der STURM-Edition
+                    im TEI/XML-Volltext bezogen werden. Neben den einzelnen Quellen zum Beispiel auch die Begleittexte. Nachfolgend
+                    einige Linkbeispiele für die oben beschriebenen Auslieferungspunkte:
+                </p>
+                <table type="grid">
+                    <row rend="th">
+                        <cell>Typ</cell>
+                        <cell>URL</cell>
+                    </row>
+                    <row>
+                        <cell>Brief</cell>
+                        <cell>
+                            <ref target="https://sturm-edition.de/api/letters/Q.01.19140115.FMA.01">
+                                https://sturm-edition.de/api/letters/Q.01.19140115.FMA.01
+                            </ref>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>Ort</cell>
+                        <cell>
+                            <ref target="https://sturm-edition.de/api/places/O.0000009">
+                                https://sturm-edition.de/api/places/O.0000009
+                            </ref>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>Person</cell>
+                        <cell>
+                            <ref target="https://sturm-edition.de/api/persons/P.0000021">
+                                https://sturm-edition.de/api/persons/P.0000021
+                            </ref>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>Werk</cell>
+                        <cell>
+                            <ref target="https://sturm-edition.de/api/works/W.0000066">
+                                https://sturm-edition.de/api/works/W.0000066
+                            </ref>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>Datei</cell>
+                        <cell>
+                            <ref target="https://sturm-edition.de/api/files/Q.01.19140115.FMA.01.xml">
+                                https://sturm-edition.de/api/files/Q.01.19140115.FMA.01.xml
+                            </ref>
+                        </cell>
+                    </row>
+                </table>
+                <ab rend="h3">BEACON-Datei</ab>
+                <p>
+                    Sämtliche in der Edition vorhandenen und mit GND-Normdaten referenzierten Entitäten (Personen, Werke)
+                    können über <ref target="https://de.wikipedia.org/wiki/Wikipedia:BEACON">BEACON-Dateien</ref> abgerufen
+                    werden. Die BEACON-Datei für Personen ist auch innerhalb des <ref target="http://beacon.findbuch.de/seealso/pnd-aks">BEACON-Findbuch Service</ref>
+                    registriert, die STURM-Personen lassen sich mittels dieses Webservices als
+                    „seeAlso“ Informationen in eigene Webangebote einbinden.
+                </p>
+                <p>
+                    <emph rend="strong">BEACON Personen:</emph> <ref target="https://sturm-edition.de/beacon/personen.txt">https://sturm-edition.de/beacon/personen.txt</ref>
+                    <lb/>
+                    <emph rend="strong">BEACON Werke:</emph> <ref target="https://sturm-edition.de/beacon/werke.txt">https://sturm-edition.de/beacon/werke.txt</ref>
+                </p>
+                <ab rend="h3">CMIF-Datei</ab>
+                <p>
+                    Über die CMIF-Datei können die Metadaten der STURM-Künstlerbriefe im <ref target="http://correspsearch.bbaw.de/index.xql?id=participate_cmi-format&amp;l=de">Correspondence Metadata Interchange Format (CMIF)</ref>
+                    abgerufen werden. Die Schnittstelle dient vor allem der Einbeziehung der STURM-Briefe in den Webservice <ref target="https://correspsearch.net/index.xql?id=&amp;l=de">correspSearch</ref> der
+                    Berlin-Brandenburgischen Akademie der Wissenschaften. Mit correspSearch können Verzeichnisse digitaler und gedruckter Briefeditionen nach Absender, Empfänger, Schreibort und -datum übergreifend durchsucht werden.
+                </p>
+                <p>
+                    <emph rend="strong">URL:</emph> <ref target="https://sturm-edition.de/cmif/corresp.xml">https://sturm-edition.de/cmif/corresp.xml</ref>
+                </p>
+            </div>
+            <div type="section" n="four">
+                <ab type="subNavigation" n="ressourcen"/>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,124 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Q.01.19151209.JVH.02">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Jacoba van Heemskerck an Nell Walden, 9. Dezember 1915, Den Haag</title>
+            <editor>
+               <persName ref="http://d-nb.info/gnd/1013156242">
+                  <forename>Lea</forename>
+                  <surname>Müller-Dannhausen</surname>
+               </persName>
+            </editor>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-0953-2818">
+                  <forename>Torsten</forename>
+                  <surname>Schrade</surname>
+               </persName>
+               <resp>
+                  <note>Herausgeber</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0003-2423-7144">
+                  <forename>Marjam</forename>
+                  <surname>Trautmann</surname>
+               </persName>
+               <resp>
+                  <note>Herausgeberin</note>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.adwmainz.de">Akademie der Wissenschaften und der Literatur | Mainz</ref>
+            </publisher>
+            <pubPlace ref="http://sws.geonames.org/2874225">Mainz</pubPlace>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">This file is
+                  licensed under the terms of the Creative-Commons-License CC BY 4.0
+               </licence>
+            </availability>
+            <idno type="file">Q.01.19151209.JVH.02.xml</idno>
+            <idno type="uri">https://sturm-edition.de/id/Q.01.19151209.JVH.02</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>Q.01.19151209.JVH.02, Jacoba van Heemskerck an Nell Walden, 9. Dezember
+               1915, Den Haag, bearbeitet von Lea Müller-Dannhausen, in: Der STURM. Digitale
+               Quellenedition zur Geschichte der internationalen Avantgarde, erarbeitet und
+               herausgegeben von Marjam Trautmann und Torsten Schrade. Mainz, Akademie der
+               Wissenschaften und der Literatur.</bibl>
+            <msDesc>
+               <msIdentifier>
+                  <country>DE</country>
+                  <settlement>Berlin</settlement>
+                  <repository>Staatsbibliothek zu Berlin Preußischer Kulturbesitz,
+                     Handschriftenabteilung, Sturm-Archiv I, Heemskerck, Jacoba
+                     van</repository>
+                  <idno type="uri">http://resolver.staatsbibliothek-berlin.de/SBB0000D98A00000000</idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <xenoData type="uri">http://kalliope-verbund.info/DE-611-HS-1911234</xenoData>
+      <xenoData type="url">https://content.staatsbibliothek-berlin.de/dc/PPN746595050.mets.xml</xenoData>
+      <profileDesc>
+         <correspDesc key="Bl.130-131" ref="https://sturm-edition.de/id/Q.01.19151209.JVH.02">
+            <correspAction type="sent">
+               <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jacoba van Heemskerck</persName>
+               <placeName key="O.0000001" ref="http://sws.geonames.org/2747373">Den Haag</placeName>
+               <date when="1915-12-09"/>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="P.0000002" ref="http://d-nb.info/gnd/118891456">Nell Walden</persName>
+               <placeName key="O.0000002" ref="http://sws.geonames.org/2950159">Potsdamerstrasse 134a, Berlin W.9.</placeName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change>
+               <date when="2019-10-30" n="1"/>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic n="130r" url="http://content.staatsbibliothek-berlin.de/dms/PPN746595050/1200/0/00000001.jpg"/>
+      <graphic n="130v" url="http://content.staatsbibliothek-berlin.de/dms/PPN746595050/1200/0/00000002.jpg"/>
+      <graphic n="131r" url="http://content.staatsbibliothek-berlin.de/dms/PPN746595050/1200/0/00000003.jpg"/>
+      <graphic n="131v" url="http://content.staatsbibliothek-berlin.de/dms/PPN746595050/1200/0/00000004.jpg"/>
+      <graphic n="Farbkeil" url="http://content.staatsbibliothek-berlin.de/dms/PPN746595050/1200/0/00000005.jpg"/>
+   </facsimile>
+   <text type="letter">
+      <body>        
+         <div type="content">
+            <pb xml:id="S.130r" n="130r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D98A00000001"/>
+            <opener>
+               <dateline>
+                  <placeName key="O.0000001" ref="http://sws.geonames.org/2747373">Ha<hi rend="underline">ag</hi>
+                        </placeName>
+                        <hi rend="underline">, <date when="1915-12-09">9. Dec. 1915.</date>
+                        </hi>
+                    </dateline>
+               <salute> Liebste <persName key="P.0000002" ref="http://d-nb.info/gnd/118891456">Nell</persName>
+                    </salute>
+            </opener>
+            <p>Herzlich herzlich Dank für alle Mühe, so schön dass alles fertig gekommen ist, du hast es wunderbar gemacht ganz richtig alles ohne Glas rahmen zu lassen man kann dass dann später beifügen, zu schade dass ich nicht da war aber über 5 wochen bin ich dann endlich da. Frl. <persName key="P.0000008" ref="http://d-nb.info/gnd/136128289">Tak</persName> und ich kommen zusammen viel besser dass meine <persName key="P.0000005" ref="P.0000005">Schwester</persName> nicht mitkommt nein besser ohne Familie. Sage auch Herr <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Walden</persName> das Wisselingh die die Ausstellung im Panorama<pb xml:id="S.130v" n="130v" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D98A00000002"/> machte, in <date when="1916-03">März</date> wiederkommt. Jetzt ist die ausstellung geschlossen 29. Bilder verkauft ein von <persName key="P.0000047" ref="http://d-nb.info/gnd/119104091">Mesdag</persName> 4000. Gulden ein von <persName key="P.0000179" ref="http://d-nb.info/gnd/123805767">Bauer</persName> 10.000. Gulden, was sagste du dazu wir haben doch einfach kein Gesmack. Ich war mit Frl
+               <persName key="P.0000008" ref="http://d-nb.info/gnd/136128289">Tak</persName> <date when="1915-12">letzte Woche</date> wieder für zwei Tage in <placeName key="O.0000004" ref="http://sws.geonames.org/2756746">Domburg</placeName> dann haben wir in <placeName key="O.0000013" ref="http://sws.geonames.org/2750896">Middelburg</placeName> die Ausstellung von <persName key="P.0000180" ref="http://d-nb.info/gnd/118988751">Alb. Plasschaert</persName> gesehen mit seine Schüler, er hat damals auch im
+               Herbst Salon ausgestellt, die Leute werden aber verrückt alles Christliche Kunst, Geschichten aus der <term type="book" key="W.0000167" ref="http://d-nb.info/gnd/4006406-2">Bibel</term> und so furchtbar kleinlich ein Schüler W<hi rend="underline">as</hi>. hat auch ein Buch mit Gedichte geschrieben und dann Zeichnungen dazu aber kar keine<pb xml:id="S.131r" n="131r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D98A00000003"/> Kontrasten und das schönste man musz die Bilder umdrehen und dann hat man von der andere Seite gesehen ein neues Bild. Ganz schön wenn man das mit sehr starke linien und farben Compositionen machen kann aber so ist es wie richtige Rätsel. Ich schicke dir ein hierbei aber die reproduktionen haben ein schreckliches Geruch rieche nur. Bist du auch damit einverstanden das ich deine Bürokinder ein Holzschnitt schencke, bitte machst du dass dann in Ordnung. Viel Dank für dem Telephon nach
+               <persName key="P.0000027" ref="P.0000027">Hess</persName> ich habe alles jetzt bekommen. Ich habe jetzt wieder ideen für viel Graphick. Ich habe ein Bild mit Gold gemalt und bitte genädigst um dein Urteil darüber<pb xml:id="S.131v" n="131v" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D98A00000004"/> Viel Dank für Sturmzettel<note>Der Begriff „Sturmzettel“ ist in der Literatur nicht belegt. Van Heemskerck spricht in ihrem <ref target="Q.01.19141016.JVH.01">Brief</ref> an Walden vom 16. Oktober 1914 (Bl.29-30) davon, dass sie ihm mit Zetteln nummerierte Bilder schicken wolle: „die Bilder werde ich dann auch mit die Zettel vom Sturm nummerieren [...].“ In den folgenden Briefen ist dann von „Sturmzetteln“ die Rede. Es wird hier angenommen, dass „Sturmzettel“ Vorlagen des STURM-Unternehmens zur Bennennung und Nummerierung von Kunstwerken waren.</note> <term type="catalogue" key="W.0000168" ref="http://nbn-resolving.org/urn:nbn:de:bvb:255-dtl-0000002325">Katalog</term> und Einladung alles sieht wunderschön aus.</p>
+            <p>Noch immer keine köstliche Nacke gesehen.</p>
+            <p>Es geht glänzend auf der <placeName key="O.0000041" ref="http://sws.geonames.org/162152">Balkan</placeName>
+                    <note>Serbien war nach der erfolgreichen deutsch-österreichischen Offensive fast vollständig besetzt, die Kapitulation Montenegros am 23. Januar 1916 stand bevor und die italienische Armee war auf dem Rückzug aus Albanien. Vgl. Hirschfeld, Gerhard: Serbien. In: Enzyklopädie Erster Weltkrieg. Hrsg. v. Gerhard Hirschfeld [u.a.]. Paderborn [u.a.] 2004, S. 833–836.</note> Für heute adieu bald schreibe ich dir wieder Frl <persName key="P.0000008" ref="http://d-nb.info/gnd/136128289">Tak</persName> hat dir über dein Artikel gleich geschrieben Sie war entzückt ich denke du hast jetzt die Brief bekommen.</p>
+            <closer>
+               <salute>Ein Herzlichen Kuss.</salute> <signed>von deiner <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">C<hi rend="underline">oba</hi>
+                        </persName>.</signed>
+            </closer>
+            <postscript>
+               <p>Bitte danke allen für die Postkarte.</p>
+            </postscript>
+         </div>
+      </body>
+   </text>
+</TEI>

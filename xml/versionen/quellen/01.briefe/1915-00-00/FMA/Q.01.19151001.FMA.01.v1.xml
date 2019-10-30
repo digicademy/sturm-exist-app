@@ -1,0 +1,134 @@
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Q.01.19151001.FMA.01">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Franz Marc an Herwarth Walden, 1. Oktober 1915, unbekannter Ort</title>
+                <editor>
+                    <persName ref="https://orcid.org/0000-0003-2423-7144">
+                        <forename>Marjam</forename>
+                        <surname>Trautmann</surname>
+                    </persName>
+                </editor>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0002-0953-2818">
+                        <forename>Torsten</forename>
+                        <surname>Schrade</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeber</note>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0003-2423-7144">
+                        <forename>Marjam</forename>
+                        <surname>Trautmann</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeberin</note>
+                    </resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="http://www.adwmainz.de">Akademie der Wissenschaften und der Literatur | Mainz</ref>
+                </publisher>
+                <pubPlace ref="http://sws.geonames.org/2874225">Mainz</pubPlace>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        This file is licensed under the terms of the Creative-Commons-License CC BY 4.0
+                    </licence>
+                </availability>
+                <idno type="file">Q.01.19151001.FMA.01.v1.xml</idno>
+                <idno type="uri">https://sturm-edition.de/id/Q.01.19151001.FMA.01</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Q.01.19151001.FMA.01, Franz Marc an Herwarth Walden, 1. Oktober 1915, unbekannter Ort, 
+                    bearbeitet von Marjam Trautmann, in: Der STURM. Digitale Quellenedition zur Geschichte der internationalen 
+                    Avantgarde, erarbeitet und herausgegeben von Marjam Trautmann und Torsten Schrade. 
+                    Mainz, Akademie der Wissenschaften und der Literatur.
+                    </bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <country>DE</country>
+                        <settlement>Berlin</settlement>
+                        <repository>Staatsbibliothek zu Berlin Preußischer Kulturbesitz, Handschriftenabteilung, Sturm-Archiv I, Marc, Franz</repository>
+                        <idno type="uri">http://kalliope-verbund.info/DE-611-HS-1924916</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <xenoData type="uri">http://digital.staatsbibliothek-berlin.de/metsresolver/PPN746598807</xenoData>
+        <profileDesc>
+            <correspDesc key="Bl.214" ref="https://sturm-edition.de/id/Q.01.19151001.FMA.01">
+                <correspAction type="sent">
+                    <persName key="P.0000003" ref="http://d-nb.info/gnd/11857745X">Franz Marc</persName>
+                    <placeName>Unknown</placeName>
+                    <date when="1915-10-01"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth Walden</persName>
+                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>                  
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change>
+                    <date when="2018-07-16" n="1"/>
+                </change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic n="214v" url="http://content.staatsbibliothek-berlin.de/dms/PPN746598807/800/0/00000001.jpg"/>
+        <graphic n="214r" url="http://content.staatsbibliothek-berlin.de/dms/PPN746598807/800/0/00000002.jpg"/>
+        <graphic n="Farbkeil" url="http://content.staatsbibliothek-berlin.de/dms/PPN746598807/800/0/00000003.jpg"/>
+    </facsimile>
+    <text type="militaryMail">
+        <body> 
+            <div type="address">
+                <pb xml:id="S.214v" n="214v" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000DABC00000001"/>  
+                <ab type="sender">
+                  <address>
+                      <addrLine>Offiz Stellv Marc</addrLine>
+                        <addrLine>III. bayr. Armeekorps</addrLine>
+                        <addrLine>bayr. Ersatz Division</addrLine>
+                        <addrLine>(Schilling) 1. Abteilung</addrLine>
+                        <addrLine>bayr. Ers. F. A. Regt.</addrLine>
+                        <addrLine>L. M. Kolonne</addrLine>
+                  </address>  
+                </ab>
+                <ab type="recipient">
+                   <address>
+                       <addrLine>Herrn</addrLine>
+                        <addrLine>Herw. Walden</addrLine>
+                        <addrLine>Verlag „Sturm“</addrLine>
+                        <addrLine>Berlin W. 9.</addrLine>
+                        <addrLine>Potsdamerstr. 134/a</addrLine>
+                   </address> 
+                </ab>
+            </div>
+           <div type="content">
+            <pb xml:id="S.214r" n="214r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000DABC00000002"/>            
+                <opener>
+                    <dateline>
+                        <date when="1915-10-01">1. Oktob. 1915</date>
+                    </dateline>
+                    <salute>Lieber <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Walden</persName>,
+                    </salute>
+                </opener>
+                <p>besten Dank für die
+                verschiedenen Sendungen u. Ihren Brief; Ihre zähe Energie im D<hi rend="underline">urchhalt</hi>en wird jetzt endlich belohnt oder wenigstens ge<hi rend="underline">rechtfe</hi>rtigt, was schon der Anfang vom Lohn ist. In der
+                        <term type="newspaper" key="W.0000071" ref="http://d-nb.info/gnd/4129625-4">Frankf. Z.</term> erschien
+                gestern 1. Morgenbl. auch eine lange Besprechung, – wer ist dieser <persName key="P.0000088" ref="http://d-nb.info/gnd/116012374">Hugo Daffner</persName>? – Ich bin zum O<hi rend="underline">ffizierstell</hi>v. befördert worden, – ein für mich recht
+                erfreuliches Ereignis.</p>
+                <closer>
+                    <salute>Hrzl. Grüße 2 x 2</salute> <signed>Ihr <persName key="P.0000003" ref="http://d-nb.info/gnd/11857745X">Fz. M.</persName>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,103 @@
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="S.0000016">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Einführung</title>
+                <editor>
+                    <persName ref="https://orcid.org/0000-0003-2423-7144">
+                        <forename>Marjam</forename>
+                        <surname>Trautmann</surname>
+                    </persName>
+                </editor>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0002-0953-2818">
+                        <forename>Torsten</forename>
+                        <surname>Schrade</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeber</note>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0003-2423-7144">
+                        <forename>Marjam</forename>
+                        <surname>Trautmann</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeberin</note>
+                    </resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="http://www.adwmainz.de">Akademie der Wissenschaften und der Literatur | Mainz</ref>
+                </publisher>
+                <pubPlace ref="http://sws.geonames.org/2874225">Mainz</pubPlace>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        This file is licensed under the terms of the Creative-Commons-License CC BY 4.0
+                    </licence>
+                </availability>
+                <idno type="file">einfuehrung.xml</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Marjam Trautmann: "Thematische Einführung", in: Der STURM. Digitale Quellenedition zur Geschichte der 
+                    internationalen Avantgarde, erarbeitet und herausgegeben von Marjam Trautmann und 
+                    Torsten Schrade. Mainz, Akademie der Wissenschaften und der Literatur.
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <listChange>
+                <change>
+                    <date when="2018-07-16" n="1"/>
+                    <p>Initiale Version</p>
+                </change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="section" n="eight">
+                <ab rend="h2">Thematische Einführung</ab>
+                <p> Im Jahr 1910 gründete der Publizist und Komponist <ref target="https://de.wikipedia.org/w/index.php?title=Herwarth_Walden&amp;oldid=177845850">Herwarth Walden</ref> (geboren als Georg Lewin) in Berlin die
+                    avantgardistische Wochenschrift für die Literatur und Künste ‚Der Sturm‘. Die
+                    Zeitschrift beschäftigte sich mit bildender Kunst, Poesie, Literatur und
+                    kunstgeschichtlicher Theorie. Zwei Jahre später folgte die gleichnamige Galerie,
+                    in der avantgardistische Künstler und Künstlerinnen aus Deutschland und weiteren
+                    europäischen Ländern ausgestellt wurden. Das STURM-Unternehmen avancierte zu
+                    einer zentralen Plattform der Avantgarde und zeichnete sich besonders durch
+                    seine internationale Ausrichtung aus und dadurch, dass das Unternehmen – für die
+                    Zeit ungewöhnlich – zahlreiche Künstlerinnen unterstützte. 
+                </p>
+                <p>
+                    Gemeinsam mit seiner Ehefrau <ref target="https://de.wikipedia.org/w/index.php?title=Nell_Walden&amp;oldid=163576589">Nell Roslund</ref> (in erster Ehe war Herwarth Walden bis 1912 mit der
+                    Dichterin <ref target="https://de.wikipedia.org/w/index.php?title=Else_Lasker-Sch%C3%BCler&amp;oldid=177557429">Else Lasker-Schüler</ref> liiert) führte Herwarth Walden den ‚Sturm‘ durch
+                    die Kriegsjahre 1914 bis 1918, wobei das Unternehmen unter der Bezeichnung
+                    ‚Nachrichtenbüro Der Sturm Berlin‘ für die Zentralstelle für Auslandspropaganda
+                    (ZfA), einen Nachrichten- und Propagandaapparat des kaiserlichen
+                    Reichmarineamtes, tätig war. Neben der Zeitschrift und Galerie entstanden im
+                    Laufe der 1910er Jahre eine STURM-Theaterbühne, eine Kunstbuchhandlung und eine
+                    Kunstschule. Der STURM-Verlag gab regelmäßig eigenständige Publikationen von
+                    Künstlern und Künstlerinnen sowie von Literaten und Literatinnen heraus. Seit
+                    1918 begann sich Herwarth Walden verstärkt dem linken politischen Spektrum
+                    zuzuwenden, was schließlich zur Trennung von Nell Roslund führte. Das
+                    STURM-Unternehmen bestand bis 1932, in diesem Jahr ging Herwarth Walden ins
+                    Moskauer Exil, wo er 1941 starb.
+                </p>
+            </div>
+            <div type="section" n="four">
+                <ab type="subNavigation" n="projekt"/>
+                <figure>
+                    <ab>
+                        <ref target="http://dfg-viewer.de/show/?set%5Bmets%5D=http%3A%2F%2Fdigi.ub.uni-heidelberg.de%2Fdiglit%2Fsturm1910_1911%2Fmets&amp;set%5Bimage%5D=5">
+                            <graphic url="http://digi.ub.uni-heidelberg.de/diglitData/image/sturm1910_1911/2/001.jpg"/>
+                        </ref>
+                    </ab>
+                    <caption>Erste Ausgabe des ‚Sturm‘, 03. März 1910</caption>
+                </figure>
+            </div>
+        </body>
+    </text>
+</TEI>

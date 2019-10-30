@@ -54,12 +54,13 @@
                         <country>DE</country>
                         <settlement>Berlin</settlement>
                         <repository>Staatsbibliothek zu Berlin Preußischer Kulturbesitz, Handschriftenabteilung, Sturm-Archiv I, Heemskerck, Jacoba van</repository>
-                        <idno type="uri">http://kalliope-verbund.info/DE-611-HS-1910891</idno>
+                        <idno type="uri">http://resolver.staatsbibliothek-berlin.de/SBB0000D97600000000</idno>
                     </msIdentifier>
                 </msDesc>
             </sourceDesc>
         </fileDesc>
-        <xenoData type="uri">http://digital.staatsbibliothek-berlin.de/metsresolver/PPN746594747</xenoData>
+        <xenoData type="uri">http://kalliope-verbund.info/DE-611-HS-1910891</xenoData>
+        <xenoData type="url">http://content.staatsbibliothek-berlin.de/dc/PPN746594747.mets.xml</xenoData>
         <profileDesc>
             <correspDesc key="Bl.92" ref="https://sturm-edition.de/id/Q.01.19150507.JVH.01">
                 <correspAction type="sent">
@@ -70,12 +71,19 @@
                 </correspAction>
                 <correspAction type="received">
                     <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth Walden</persName>
-                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>
+                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950159">Potsdamerstrasse 134a, Berlin W.9.</placeName>
                 </correspAction>
             </correspDesc>
         </profileDesc>
         <revisionDesc>
             <listChange>
+                <change>
+                    <date when="2019-07-25" n="2"/>
+                    <p>URL zur METS-Datei der Staatsbibliothek zu Berlin aktualisiert innerhalb von :xenoData und zusätzliches :xenoData mit permanenter URI zum Kalliope-Findbucheintrag.</p>
+                    <p>:idno URL innerhalb von :msIdentifier durch permanente URL zum entsprechenden Datensatz der Staatsbibliothek zu Berlin gesetzt</p>
+                    <p>Standardisierung der Kommentierungstiefe, keine spezifischen Erklärungen von Fremdwörtern außerhalb des Sturm-Kontextes</p>
+                    <p>Normdaten (Geonames) zu Stadt Berlin korrigiert (zuvor fälschlicherweise Verweis auf "Land Berlin")</p>
+                </change>
                 <change>
                     <date when="2018-07-16" n="1"/>
                 </change>
@@ -137,7 +145,7 @@
             wird nach geschickt. <date when="1915-05-06">Gestern Abend</date> <term type="journal" key="W.0000068" source="https://doi.org/10.11588/diglit.37113.3" ref="http://d-nb.info/gnd/4058273-5">Der Sturm</term>
                     <note>Walden, Herwarth [Hrsg.]: Der Sturm. Halbmonatsschrift für Kultur und die Künste 3/4 (1915).</note> empfangen, ich war froh
             wieder viel zu lesen. Bitte wenn Sie Zeit haben schreiben Sie über alles und über
-            die Ausstellung und die Bilder.<note>Vom 25. April bis Mai 1915 fand die 32. Sturm-Ausstellung schwedischer Expressionisten statt. Vgl. Enders, Rainer: Ausstellungskataloge der STURM-Galerie. URL: <ref target="https://www.arthistoricum.net/themen/portale/sturm/ausstellungskataloge/">https://www.arthistoricum.net/themen/portale/sturm/ausstellungskataloge/</ref> (Aufruf 06.04.2017).</note>
+            die Ausstellung und die Bilder.<note>Vom 25. April bis Mai 1915 fand die 32. STURM-Ausstellung schwedischer Expressionisten statt. Vgl. Enders, Rainer: Ausstellungskataloge der STURM-Galerie. URL: <ref target="https://www.arthistoricum.net/themen/portale/sturm/ausstellungskataloge/">https://www.arthistoricum.net/themen/portale/sturm/ausstellungskataloge/</ref> (Aufruf 06.04.2017).</note>
                 </p>
                 <pb xml:id="S.92r.02" n="92r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D97600000001"/>
                 <closer>

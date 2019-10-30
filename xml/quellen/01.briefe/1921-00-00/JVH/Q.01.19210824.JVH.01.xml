@@ -1,0 +1,144 @@
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Q.01.19210824.JVH.01">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Jacoba van Heemskerck an Herwarth Walden, 24. August 1921, Loverendale,
+                    Domburg, Zeeland</title>
+                <editor>
+                    <persName ref="https://orcid.org/0000-0003-1208-6131">
+                        <forename>Anne</forename>
+                        <surname>Lorenz</surname>
+                    </persName>
+                </editor>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0002-0953-2818">
+                        <forename>Torsten</forename>
+                        <surname>Schrade</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeber</note>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0003-2423-7144">
+                        <forename>Marjam</forename>
+                        <surname>Trautmann</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeberin</note>
+                    </resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="http://www.adwmainz.de">Akademie der Wissenschaften und der
+                        Literatur | Mainz</ref>
+                </publisher>
+                <pubPlace ref="http://sws.geonames.org/2874225">Mainz</pubPlace>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">This file is
+                        licensed under the terms of the Creative-Commons-License CC BY 4.0
+                    </licence>
+                </availability>
+                <idno type="file">Q.01.19210824.JVH.01.xml</idno>
+                <idno type="uri">https://sturm-edition.de/id/Q.01.19210824.JVH.01</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Q.01.19210824.JVH.01, Jacoba van Heemskerck an Herwarth Walden, 24. August
+                    1921, Loverendale, Domburg, Zeeland, bearbeitet von Anne Lorenz, in: Der STURM.
+                    Digitale Quellenedition zur Geschichte der internationalen Avantgarde,
+                    erarbeitet und herausgegeben von Marjam Trautmann und Torsten Schrade. Mainz,
+                    Akademie der Wissenschaften und der Literatur.</bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <country>DE</country>
+                        <settlement>Berlin</settlement>
+                        <repository>Staatsbibliothek zu Berlin Preußischer Kulturbesitz,
+                            Handschriftenabteilung, Sturm-Archiv I, Heemskerck, Jacoba
+                            van</repository>
+                        <idno type="uri">http://resolver.staatsbibliothek-berlin.de/SBB0000DA4600000000</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <xenoData type="uri">http://kalliope-verbund.info/DE-611-HS-1914036</xenoData>
+        <xenoData type="url">https://content.staatsbibliothek-berlin.de/dc/PPN746597347.mets.xml</xenoData>
+        <profileDesc>
+            <correspDesc key="Bl.395" ref="https://sturm-edition.de/id/Q.01.19210824.JVH.01">
+                <correspAction type="sent">
+                    <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jacoba van
+                        Heemskerck</persName>
+                    <placeName key="O.0000004" ref="http://sws.geonames.org/2747373">Loverendale,
+                        Domburg</placeName>
+                    <date when="1921-08-24"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth
+                        Walden</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change>
+                    <date when="2019-08-26" n="1"/>
+                </change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic n="395r" url="http://content.staatsbibliothek-berlin.de/dms/PPN746597347/500/0/00000001.jpg"/>
+        <graphic n="395v" url="http://content.staatsbibliothek-berlin.de/dms/PPN746597347/500/0/00000002.jpg"/>
+        <graphic n="Farbkeil" url="http://content.staatsbibliothek-berlin.de/dms/PPN746597347/500/0/00000003.jpg"/>
+    </facsimile>
+    <text type="letter">
+        <body>
+            <div type="content">
+                <pb xml:id="S.395r" n="395r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000DA4600000001"/>
+                <opener>
+                    <dateline>
+                        <placeName key="O.0000004" ref="http://sws.geonames.org/2756746">Loverendale Domburg</placeName>. <placeName key="O.0000005" ref="http://sws.geonames.org/2744011">Zeeland</placeName>
+                        <date when="1921-08-24">24.8.21</date>
+                    </dateline>
+                    <salute>Lieber <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth</persName>
+                    </salute>
+                </opener>
+                <p>
+                    <date when="1921-08-24">Heute</date> schicke ich die <term type="artwork" key="W.0000161" source="http://bluemountain.princeton.edu/bluemtn/cgi-bin/bluemtn?a=d&amp;d=bmtnabg19211005-01.1.12&amp;e=-------en-20--1--txt-txIN-------">zwei Holzstöcke</term> für das <term type="journal" key="W.0000068" source="http://bluemountain.princeton.edu/bluemtn/cgi-bin/bluemtn?a=d&amp;d=bmtnabg19211005-01.1.12&amp;e=-------en-20--1--txt-txIN-------" ref="http://d-nb.info/gnd/4058273-5">Oktobernummer „Der Sturm“</term>
+                    <term type="artwork" key="W.0000161" source="http://bluemountain.princeton.edu/bluemtn/cgi-bin/bluemtn?a=d&amp;d=bmtnabg19211005-01.1.12&amp;e=-------en-20--1--txt-txIN-------">die Holzstöcke</term> kann ich dann im <date when="1921-11">November</date>
+                    wieder mitnehmen, und als Drucksache von jeder 4 Drucken und eine kleine farbige
+                    Zeichnung für das <term type="journal" key="W.0000068" source="http://bluemountain.princeton.edu/bluemtn/cgi-bin/bluemtn?a=d&amp;d=bmtnabg19211005-01.1.12&amp;e=-------en-20--1--txt-txIN-------" ref="http://d-nb.info/gnd/4058273-5">Oktober Heft</term>
+                    <note>Die
+                        Oktober-Ausgabe enthält die Abbildungen zweier Holzschnitte als Titel- und als Inhaltsseite,
+                        jedoch keine farbige Zeichnung van Heemskercks. Vgl. Walden,
+                        Herwarth [Hrsg.]: Der Sturm. Monatsschrift für Kultur und die Künste 10
+                        (1921), S. 167, S. 173 u. S. 181.</note> ich nahm ganz einfache Farben sehr
+                    geeignet für Reproduktion. Mitte <date when="1921-09">September</date> werde ich
+                    dann alles abschicken für die Ausstellung.<note>Im November 1921 fand die 102.
+                        STURM-Ausstellung „Jacoba van Heemskerck. Gemälde/Aquarelle, Gesamtschau des
+                        Sturm“ statt, in der van Heemskerck mit einundfünzig im Katalog
+                        aufgeführten Werken prominent vertreten war. Vgl. den <ref target="https://nbn-resolving.org/urn:nbn:de:bvb:255-dtl-0000001661">Katalog zur Ausstellung</ref>, Walden, Herwarth [Hrsg.]:
+                        Der Sturm. Hundertzweite Ausstellung. Jacoba van Heemskerck.
+                        Gemälde/Aquarelle, Gesamtschau des Sturm. Berlin 1921.</note>
+                    Meine herzliche Glückwünsche mit die Sturm Jubileum Ausstellung<note>Die 100.
+                        Ausstellung „Zehn Jahre Sturm Gesamtschau“ präsentierte im September 1921
+                        115 Werke von mehr als sechzig Künstlern, darunter auch jeweils zwei
+                        Holzschnitte und Gemälde van Heemskercks. Vgl. den <ref target="http://nbn-resolving.de/urn:nbn:de:bvb:255-dtl-0000001642">Katalog zur Ausstellung</ref>, Walden, Herwarth [Hrsg.]: Der
+                        Sturm. Hundertste Ausstellung. Zehn Jahre Sturm Gesamtschau. Berlin 1921.</note>
+                    schade dass ich momentan unmöglich nach <placeName key="O.0000002" ref="http://sws.geonames.org/2950159">Berlin</placeName> kommen kann. Für
+                    dich eine grosse Befriedigung dass du so viel für die moderne Kunst getan hast,
+                    wenn der Sturm nicht zehn Jahre so gearbeitet hat, dann war <placeName key="O.0000014" ref="http://sws.geonames.org/2921044">Deutschland</placeName> nicht an die Spitze von die Bewegung gewesen.</p>
+
+
+                <closer>
+                    <salute>Mit viele Grüssen für euch beiden</salute>
+                    <signed>deine <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">
+                                JacobavanHee<hi rend="twice-underline">mskerck</hi>
+                        </persName>.</signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

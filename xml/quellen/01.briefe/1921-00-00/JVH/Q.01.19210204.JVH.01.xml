@@ -1,0 +1,157 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Q.01.19210204.JVH.01">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Jacoba van Heemskerck an Herwarth Walden, 4. Februar 1921, 35, Nassau
+                    Zuilensteinstraat, Den Haag</title>
+                <editor>
+                    <persName ref="https://orcid.org/0000-0003-1208-6131">
+                        <forename>Anne</forename>
+                        <surname>Lorenz</surname>
+                    </persName>
+                </editor>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0002-0953-2818">
+                        <forename>Torsten</forename>
+                        <surname>Schrade</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeber</note>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0003-2423-7144">
+                        <forename>Marjam</forename>
+                        <surname>Trautmann</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeberin</note>
+                    </resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="http://www.adwmainz.de">Akademie der Wissenschaften und der
+                        Literatur | Mainz</ref>
+                </publisher>
+                <pubPlace ref="http://sws.geonames.org/2874225">Mainz</pubPlace>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">This file is
+                        licensed under the terms of the Creative-Commons-License CC BY 4.0
+                    </licence>
+                </availability>
+                <idno type="file">Q.01.19210204.JVH.01.xml</idno>
+                <idno type="uri">https://sturm-edition.de/id/Q.01.19210204.JVH.01</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Q.01.19210204.JVH.01, Jacoba van Heemskerck an Herwarth Walden, 4. Februar
+                    1921, 35, Nassau Zuilensteinstraat, Den Haag, bearbeitet von Anne Lorenz, in:
+                    Der STURM. Digitale Quellenedition zur Geschichte der internationalen
+                    Avantgarde, erarbeitet und herausgegeben von Marjam Trautmann und Torsten
+                    Schrade. Mainz, Akademie der Wissenschaften und der Literatur.</bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <country>DE</country>
+                        <settlement>Berlin</settlement>
+                        <repository>Staatsbibliothek zu Berlin Preußischer Kulturbesitz,
+                            Handschriftenabteilung, Sturm-Archiv I, Heemskerck, Jacoba
+                            van</repository>
+                        <idno type="uri">http://resolver.staatsbibliothek-berlin.de/SBB0000DA4200000000</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <xenoData type="uri">http://kalliope-verbund.info/DE-611-HS-1913885</xenoData>
+        <xenoData type="url">https://content.staatsbibliothek-berlin.de/dc/PPN746597304.mets.xml</xenoData>
+        <profileDesc>
+            <correspDesc key="Bl.391" ref="https://sturm-edition.de/id/Q.01.19210204.JVH.01">
+                <correspAction type="sent">
+                    <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jacoba van
+                        Heemskerck</persName>
+                    <placeName key="O.0000001" ref="http://sws.geonames.org/2747373">35, Nassau
+                        Zuilensteinstraat, Den Haag</placeName>
+                    <date when="1921-02-04"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth
+                        Walden</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change>
+                    <date when="2019-08-26" n="1"/>
+                </change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic n="391r" url="http://content.staatsbibliothek-berlin.de/dms/PPN746597304/500/0/00000001.jpg"/>
+        <graphic n="391v" url="http://content.staatsbibliothek-berlin.de/dms/PPN746597304/500/0/00000002.jpg"/>
+        <graphic n="Farbkeil" url="http://content.staatsbibliothek-berlin.de/dms/PPN746597304/500/0/00000003.jpg"/>
+    </facsimile>
+    <text type="letter">
+        <body>
+            <div type="content">
+                <pb xml:id="S.391r" n="391r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000DA4200000001"/>
+                <opener>
+                    <dateline>35. Nassau Zuilensteinstraat <placeName key="O.0000001" ref="http://sws.geonames.org/2747373">Haag</placeName>. <placeName key="O.0000003" ref="http://sws.geonames.org/2750405">Holland</placeName>
+                        <date when="1921-02-04">4.2.21.</date>
+                    </dateline>
+                    <salute>Lieber <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth</persName>.</salute>
+                </opener>
+                <p>Soeben dein Brief erhalten, der Sturm macht es doch glänzend nun wieder eine
+                    Ausstellung in <placeName key="O.0000010" ref="http://sws.geonames.org/2988507">Paris</placeName>.<note>Die Ausstellung fand im April 1921 statt, wurde
+                        allerdings in der März-Ausgabe der STURM-Zeitschrift nicht besonders
+                        eingehend beworben und ohne konkrete Ortsangabe und Begleitprogramm
+                        angekündigt. Vgl. Walden, Herwarth [Hrsg.]: Der Sturm. Monatsschrift für
+                        Kultur und die Künste 12 (1921).</note> Bitte schreibe umgehend ob du für
+                        <placeName key="O.0000010" ref="http://sws.geonames.org/2988507">Paris</placeName>
+                    <term type="artwork" key="W.0000089">zwei Glas<hi rend="underline">mosaïken</hi>
+                    </term> brauchen kannst ich stelle die hier auch mit Gemälde
+                    aus und als Farbe und Material passt es sich glänzend an. Die zwei sind gross
+                    ungefähr 1. x 80 c.m vielleicht etwas grösser die können
+                    einige malen verkauft werden mein netto preis ist 4000 Mark da die Ausführung
+                    bei <persName key="P.0000100" ref="http://d-nb.info/gnd/11939877X">Heinersdorff</persName> sehr teuer ist. Hier habe ich ein grossen Erfolg
+                    damit, und für <placeName key="O.0000016" ref="http://sws.geonames.org/3017382">Frankreich</placeName> und <placeName key="O.0000023" ref="http://sws.geonames.org/6269131">England</placeName> wäre es etwas ganz
+                    neues. Du kannst die dann überall ausstellen und dann in <date when="1921-11">November</date> wenn die noch nicht verkauft sind auf meine
+                        Ausstellung<note>Auf der 102. STURM-Ausstellung „Jacoba van Heemskerck.
+                        Gemälde/Aquarelle, Gesamtschau des Sturm“ war van Heemskerck mit
+                        einundfünzig im Katalog aufgeführten Werken prominent vertreten. Vgl. den <ref target="https://nbn-resolving.org/urn:nbn:de:bvb:255-dtl-0000001661">Katalog zur Ausstellung</ref>, Walden, Herwarth [Hrsg.]: Der Sturm. Hundertzweite Ausstellung. Jacoba van
+                        Heemskerck. Gemälde/Aquarelle, Gesamtschau des Sturm. Berlin 1921.</note>
+                    bringen. Sind sie verkauft dann bestelle ich dieselbe noch einmal oder mache
+                    neue Entwürfe. Die zwei sind schon in <unclear>bewirkung</unclear> bei <persName key="P.0000100" ref="http://d-nb.info/gnd/11939877X">Heinersdorff</persName>
+                    aber man arbeitet dort nicht sehr schnell so bitte direkt Antwort ob du die
+                    ausstellen willst und wann <persName key="P.0000100" ref="http://d-nb.info/gnd/11939877X">Heinersdorff</persName> die Mosaiken
+                    dir schicken muss die äusserste Zeit das sie noch mit die Sendung gehen können
+                    Ich schreibe ihm dann direkt dass er sie fertig haben<pb xml:id="S.391v" n="391v" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000DA4200000002"/> soll
+                    für eine grosse Sturm Ausstellung in <placeName key="O.0000010" ref="http://sws.geonames.org/2988507">Paris</placeName>.</p>
+                
+                <closer>Deine Antwort wartend,
+                    <salute>mit herzlichen Grüssen</salute>
+                    <signed>deine <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">
+                                JacobavanHeemsk<hi rend="twice-underline">erck</hi>
+                        </persName>.</signed>
+                </closer>
+                <postscript>
+                    <p>Bitte suche meine bedeutendste Gemälde für <placeName key="O.0000010" ref="http://sws.geonames.org/2988507">Paris</placeName> aus z. b. das
+                        was in dein Büro hängt im <date when="1921-11">November</date> war es dort
+                        Mass ungefähr 120 x 130. <term type="artwork" key="W.0000121">
+                            <hi rend="underline">N<hi rend="super">
+                                    <hi rend="twice-underline">o</hi>
+                                </hi>65.</hi>
+                        </term>
+                    </p>
+                    <p>Sage deine <persName key="P.0000127">Sekretärin</persName> Frl <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jacoba v.
+                            H.</persName> zu schreiben und nicht Jacoba zu vergessen und die Strasse
+                        dazu ich bin wohl weltberühmt aber es gibt hier mehrere Leute die Heemskerck
+                        heissen</p>
+                    <p>Die Mosaiken müssen pro Stück für mich für 4000 Mark wertversichert sein. So
+                        mit deine % dazu so viel mehr.</p>
+                </postscript>
+            </div>
+        </body>
+    </text>
+</TEI>

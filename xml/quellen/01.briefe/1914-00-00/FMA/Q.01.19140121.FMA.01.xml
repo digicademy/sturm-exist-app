@@ -1,5 +1,4 @@
-<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Q.01.19140121.FMA.01">
     <teiHeader>
         <fileDesc>
@@ -55,12 +54,13 @@
                         <settlement>Berlin</settlement>
                         <repository>Staatsbibliothek zu Berlin Preußischer Kulturbesitz,
                             Handschriftenabteilung, Sturm-Archiv I, Marc, Franz</repository>
-                        <idno type="uri">http://kalliope-verbund.info/DE-611-HS-1916908</idno>
+                        <idno type="uri">http://resolver.staatsbibliothek-berlin.de/SBB0000DAA500000000</idno>
                     </msIdentifier>
                 </msDesc>
             </sourceDesc>
         </fileDesc>
-        <xenoData type="uri">http://digital.staatsbibliothek-berlin.de/metsresolver/PPN746598548</xenoData>
+        <xenoData type="uri">http://kalliope-verbund.info/DE-611-HS-1916908</xenoData>
+        <xenoData type="url">http://content.staatsbibliothek-berlin.de/dc/PPN746598548.mets.xml</xenoData>
         <profileDesc>
             <correspDesc key="Bl.179-180" ref="https://sturm-edition.de/id/Q.01.19140121.FMA.01">
                 <correspAction type="sent">
@@ -70,12 +70,19 @@
                 </correspAction>
                 <correspAction type="received">
                     <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth Walden</persName>
-                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>                  
+                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950159">Potsdamerstrasse 134a, Berlin W.9.</placeName>                  
                 </correspAction>
             </correspDesc>
         </profileDesc>
         <revisionDesc>
             <listChange>
+                <change>
+                    <date when="2019-07-25" n="2"/>
+                    <p>URL zur METS-Datei der Staatsbibliothek zu Berlin aktualisiert innerhalb von :xenoData und zusätzliches :xenoData mit permanenter URI zum Kalliope-Findbucheintrag.</p>
+                    <p>:idno URL innerhalb von :msIdentifier durch permanente URL zum entsprechenden Datensatz der Staatsbibliothek zu Berlin gesetzt</p>
+                    <p>Standardisierung der Kommentierungstiefe, keine spezifischen Erklärungen von Fremdwörtern außerhalb des Sturm-Kontextes</p>
+                    <p>Normdaten (Geonames) zu Stadt Berlin korrigiert (zuvor fälschlicherweise Verweis auf "Land Berlin")</p>
+                </change>
                 <change>
                     <date when="2018-07-16" n="1"/>
                 </change>
@@ -128,12 +135,12 @@
                     Plätzen. Die Sache ist eine Verherrlichung der <persName key="P.0000063" ref="http://d-nb.info/gnd/13236056X">Bechtejeff</persName>, <persName key="P.0000064" ref="http://d-nb.info/gnd/118557157">Javleakj</persName>, <persName key="P.0000065" ref="http://d-nb.info/gnd/118631365">
                         Werefkin</persName>
                     und vor allem <persName key="P.0000066" ref="http://d-nb.info/gnd/118530712">Erbslöh</persName>.
-                    Es war ja voraus zusehen, aber so arg hab ich mir's nicht gedacht. Ich höre von
+                    Es war ja voraus zusehen, aber so arg hab ich mir’s nicht gedacht. Ich höre von
                     dort sonst gar nichts. Kritik aus der <term type="newspaper" key="W.0000071" ref="http://d-nb.info/gnd/4129625-4">Frankfurter Zeitung</term> von <persName key="P.0000067" ref="P.0000067">C.
                         Gebh.</persName> hab ich gelesen. Daß dieses Schwein r. <persName key="P.0000068" ref="http://d-nb.info/gnd/5120121-5">Goldschmidt</persName> nicht einmal was verkauft!</p>
                 <p>Auf die
                     Besprechungen in <placeName key="O.0000050" ref="http://sws.geonames.org/2920512">Gießen</placeName> freue ich mich; es wird ein Genuß.<note>Von Februar bis März
-                        fand in Gießen eine Sturm-Ausstellung mit Werken Franz Marcs statt. Vgl.
+                        fand in Gießen eine STURM-Ausstellung mit Werken Franz Marcs statt. Vgl.
                         Enders, Rainer: Ausstellungen außerhalb der Berliner Galerie. URL:
                         <ref target="https://www.arthistoricum.net/themen/portale/sturm/ausstellungen/">https://www.arthistoricum.net/themen/portale/sturm/ausstellungen/</ref> (Aufruf
                         06.04.2017).</note> Hab ich recht gelesen, daß Holzschn. von mir in
@@ -155,9 +162,9 @@
                         160</term>, <term type="artwork" key="W.0000020">98</term>, <term type="artwork" key="W.0000024">99</term>, <term type="artwork" key="W.0000021">100</term>,
                         <term type="artwork" key="W.0000022">101</term> (<term type="artwork" key="W.0000037"/>
                         <term type="artwork" key="W.0000009"/>
-                        <term type="artwork" key="W.0000010"/>kl. Kompos. I-III), <term type="artwork" key="W.0000023">102</term>
+                        <term type="artwork" key="W.0000010"/>kl. Kompos. I–III), <term type="artwork" key="W.0000023">102</term>
                         des Kataloges) sofort <hi rend="underline">auf Schluß der Auss</hi>tellung
-                        nach <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Berlin</placeName>,
+                        nach <placeName key="O.0000002" ref="http://sws.geonames.org/2950159">Berlin</placeName>,
                             fr<hi rend="underline">achtfrei</hi>, wie abgemacht, unter Anfrage, w<hi rend="underline">ann</hi> die Ausstellung <placeName key="O.0000032" ref="http://sws.geonames.org/2935022">Dresden</placeName> schließt u.
                         sie die Bilder erwarten können. Sie hängen so schlecht, daß ich sie
                             <persName key="P.0000057" ref="http://d-nb.info/gnd/143669230">R.</persName> zu keiner

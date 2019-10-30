@@ -12,7 +12,7 @@
                     <ref target="http://www.adwmainz.de/">Akademie der Wissenschaften und der Literatur | Mainz</ref>
                 </publisher>
                 <idno type="file">orte.xml</idno>
-                <date when="2018-07-16+02:00"/>
+                <date when="2019-10-30+01:00"/>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by/4.0/">This file is licensed under the terms of the Creative-Commons-License CC BY 4.0</licence>
                 </availability>
@@ -37,25 +37,37 @@
                                 <ptr n="Bl.112-113" target="Q.01.19151007.JVH.01.xml"/>
                             </linkGrp>
                         </place>
+                        <place source="http://sws.geonames.org/6252001" xml:id="O.0000082">
+                            <placeName type="pref">Amerika</placeName>
+                            <location>
+                                <geo>39.76 -98.5</geo>
+                            </location>
+                            <linkGrp type="files">
+                                <ptr n="Bl.405" target="Q.01.19220402.JVH.01.xml"/>
+                            </linkGrp>
+                        </place>
                         <place source="http://sws.geonames.org/2759794" xml:id="O.0000009">
                             <placeName type="pref">Amsterdam</placeName>
                             <location>
                                 <geo>52.37403 4.88969</geo>
                             </location>
                             <linkGrp type="files">
-                                <ptr n="Bl.115-116" target="Q.01.19151018.JVH.01.xml"/>
-                                <ptr n="Bl.53-55" target="Q.01.19150131.JVH.01.xml"/>
-                                <ptr n="Bl.13-14" target="Q.01.19140721.JVH.01.xml"/>
-                                <ptr n="Bl.5-6" target="Q.01.19140601.JVH.01.xml"/>
-                                <ptr n="Bl.67-68" target="Q.01.19150308.JVH.01.xml"/>
+                                <ptr n="Bl.390" target="Q.01.19210129.JVH.01.xml"/>
+                                <ptr n="Bl.368" target="Q.01.19190927.JVH.01.xml"/>
+                                <ptr n="Bl.350" target="Q.01.19190106.JVH.01.xml"/>
                                 <ptr n="Bl.56-57" target="Q.01.19150209.JVH.01.xml"/>
-                                <ptr n="Bl.26-27" target="Q.01.19141009.JVH.01.xml"/>
-                                <ptr n="Bl.110-111" target="Q.01.19150929.JVH.01.xml"/>
-                                <ptr n="Bl.23-24" target="Q.01.19140925.JVH.01.xml"/>
+                                <ptr n="Bl.115-116" target="Q.01.19151018.JVH.01.xml"/>
                                 <ptr n="Bl.136-137" target="Q.01.19151218.JVH.01.xml"/>
                                 <ptr n="Bl.86-89" target="Q.01.19150413.JVH.01.xml"/>
                                 <ptr n="Bl.78-79" target="Q.01.19150323.JVH.01.xml"/>
+                                <ptr n="Bl.67-68" target="Q.01.19150308.JVH.01.xml"/>
+                                <ptr n="Bl.110-111" target="Q.01.19150929.JVH.01.xml"/>
+                                <ptr n="Bl.53-55" target="Q.01.19150131.JVH.01.xml"/>
                                 <ptr n="Bl.189" target="Q.01.19140608.FMA.01.xml"/>
+                                <ptr n="Bl.13-14" target="Q.01.19140721.JVH.01.xml"/>
+                                <ptr n="Bl.23-24" target="Q.01.19140925.JVH.01.xml"/>
+                                <ptr n="Bl.5-6" target="Q.01.19140601.JVH.01.xml"/>
+                                <ptr n="Bl.134-135" target="Q.01.19151218.JVH.02.xml"/>
                             </linkGrp>
                         </place>
                         <place source="http://sws.geonames.org/2803138" xml:id="O.0000017">
@@ -96,6 +108,7 @@
                             <linkGrp type="files">
                                 <ptr n="Bl.112-113" target="Q.01.19151007.JVH.01.xml"/>
                                 <ptr n="Bl.110-111" target="Q.01.19150929.JVH.01.xml"/>
+                                <ptr n="Bl.130-131" target="Q.01.19151209.JVH.02.xml"/>
                             </linkGrp>
                         </place>
                         <place source="http://sws.geonames.org/2952539" xml:id="O.0000045">
@@ -140,130 +153,185 @@
                                 <geo>47.70624 11.41522</geo>
                             </location>
                             <linkGrp type="files">
-                                <ptr n="Bl.189" target="Q.01.19140608.FMA.01.xml"/>
-                                <ptr n="Bl.191" target="Q.01.19140627.FMA.01.xml"/>
-                                <ptr n="Bl.190" target="Q.01.19140610.FMA.01.xml"/>
-                                <ptr n="Bl.188" target="Q.01.19140606.FMA.01.xml"/>
-                                <ptr n="Bl.184" target="Q.01.19140409.FMA.01.xml"/>
                                 <ptr n="Bl.187" target="Q.01.19140512.FMA.01.xml"/>
+                                <ptr n="Bl.189" target="Q.01.19140608.FMA.01.xml"/>
+                                <ptr n="Bl.184" target="Q.01.19140409.FMA.01.xml"/>
+                                <ptr n="Bl.190" target="Q.01.19140610.FMA.01.xml"/>
+                                <ptr n="Bl.191" target="Q.01.19140627.FMA.01.xml"/>
                                 <ptr n="Bl.186" target="Q.01.19140507.FMA.01.xml"/>
+                                <ptr n="Bl.188" target="Q.01.19140606.FMA.01.xml"/>
                             </linkGrp>
                         </place>
-                        <place source="http://sws.geonames.org/2950157" xml:id="O.0000002">
+                        <place source="http://sws.geonames.org/2950159" xml:id="O.0000002">
                             <placeName type="pref">Berlin</placeName>
                             <location>
                                 <geo>52.5 13.41667</geo>
                             </location>
                             <linkGrp type="files">
-                                <ptr n="Bl.114" target="Q.01.19151014.JVH.01.xml"/>
-                                <ptr n="Bl.112-113" target="Q.01.19151007.JVH.01.xml"/>
-                                <ptr n="Bl.115-116" target="Q.01.19151018.JVH.01.xml"/>
-                                <ptr n="Bl.124" target="Q.01.19151124.JVH.01.xml"/>
-                                <ptr n="Bl.118-119" target="Q.01.19151113.JVH.01.xml"/>
-                                <ptr n="Bl.53-55" target="Q.01.19150131.JVH.01.xml"/>
-                                <ptr n="Bl.212" target="Q.01.19150922.FMA.01.xml"/>
-                                <ptr n="Bl.15" target="Q.01.19140727.JVH.01.xml"/>
-                                <ptr n="Bl.13-14" target="Q.01.19140721.JVH.01.xml"/>
-                                <ptr n="Bl.45-46" target="Q.01.19141210.JVH.01.xml"/>
-                                <ptr n="Bl.198" target="Q.01.19150303.FMA.01.xml"/>
-                                <ptr n="Bl.199" target="Q.01.19150315.FMA.01.xml"/>
-                                <ptr n="Bl.18" target="Q.01.19140807.JVH.01.xml"/>
-                                <ptr n="Bl.16-17" target="Q.01.19140730.JVH.01.xml"/>
-                                <ptr n="Bl.117" target="Q.01.19151027.JVH.01.xml"/>
-                                <ptr n="Bl.196" target="Q.01.19150116.FMA.01.xml"/>
-                                <ptr n="Bl.194-195" target="Q.01.19150112.FMA.01.xml"/>
-                                <ptr n="Bl.43-44" target="Q.01.19141203.JVH.01.xml"/>
-                                <ptr n="Bl.41-42" target="Q.01.19141129.JVH.01.xml"/>
-                                <ptr n="Bl.39-40" target="Q.01.19141117.JVH.01.xml"/>
-                                <ptr n="Bl.37-38" target="Q.01.19141111.JVH.01.xml"/>
-                                <ptr n="Bl.35-36" target="Q.01.19141105.JVH.01.xml"/>
-                                <ptr n="Bl.9-10" target="Q.01.19140703.JVH.01.xml"/>
-                                <ptr n="Bl.7-8" target="Q.01.19140612.JVH.01.xml"/>
-                                <ptr n="Bl.120-121" target="Q.01.19151115.JVH.01.xml"/>
-                                <ptr n="Bl.5-6" target="Q.01.19140601.JVH.01.xml"/>
-                                <ptr n="Bl.51-52" target="Q.01.19150129.JVH.01.xml"/>
-                                <ptr n="Bl.67-68" target="Q.01.19150308.JVH.01.xml"/>
-                                <ptr n="Bl.60-62" target="Q.01.19150228.JVH.01.xml"/>
-                                <ptr n="Bl.56-57" target="Q.01.19150209.JVH.01.xml"/>
-                                <ptr n="Bl.49-50" target="Q.01.19150123.JVH.01.xml"/>
-                                <ptr n="Bl.216" target="Q.01.19151106.FMA.01.xml"/>
-                                <ptr n="Bl.215" target="Q.01.19151016.FMA.01.xml"/>
-                                <ptr n="Bl.210" target="Q.01.19150911.FMA.01.xml"/>
-                                <ptr n="Bl.202" target="Q.01.19150906.FMA.01.xml"/>
-                                <ptr n="Bl.209" target="Q.01.19150827.FMA.01.xml"/>
-                                <ptr n="Bl.208" target="Q.01.19150710.FMA.01.xml"/>
-                                <ptr n="Bl.207" target="Q.01.19150703.FMA.01.xml"/>
-                                <ptr n="Bl.206" target="Q.01.19150615.FMA.01.xml"/>
-                                <ptr n="Bl.205" target="Q.01.19150501.FMA.01.xml"/>
+                                <ptr n="Bl.398" target="Q.01.19210921.JVH.01.xml"/>
+                                <ptr n="Bl.399" target="Q.01.19210930.JVH.01.xml"/>
+                                <ptr n="Bl.395" target="Q.01.19210824.JVH.01.xml"/>
+                                <ptr n="Bl.397" target="Q.01.19210914.JVH.01.xml"/>
+                                <ptr n="Bl.390" target="Q.01.19210129.JVH.01.xml"/>
+                                <ptr n="Bl.392" target="Q.01.19210412.JVH.01.xml"/>
+                                <ptr n="Bl.403" target="Q.01.19211223.JVH.01.xml"/>
+                                <ptr n="Bl.400" target="Q.01.19211020.JVH.01.xml"/>
+                                <ptr n="Bl.393" target="Q.01.19210605.JVH.01.xml"/>
+                                <ptr n="Bl.401" target="Q.01.19211025.JVH.01.xml"/>
+                                <ptr n="Bl.394" target="Q.01.19210804.JVH.01.xml"/>
+                                <ptr n="Bl.385" target="Q.01.19200902.JVH.01.xml"/>
+                                <ptr n="Bl.378" target="Q.01.19200201.JVH.01.xml"/>
+                                <ptr n="Bl.386" target="Q.01.19201104.JVH.01.xml"/>
+                                <ptr n="Bl.379" target="Q.01.19200301.JVH.01.xml"/>
+                                <ptr n="Bl.381" target="Q.01.19200417.JVH.01.xml"/>
+                                <ptr n="Bl.384" target="Q.01.19200818.JVH.01.xml"/>
+                                <ptr n="Bl.377" target="Q.01.19200114.JVH.01.xml"/>
+                                <ptr n="Bl.383" target="Q.01.19200528.JVH.01.xml"/>
+                                <ptr n="Bl.382" target="Q.01.19200428.JVH.01.xml"/>
+                                <ptr n="Bl.405" target="Q.01.19220402.JVH.01.xml"/>
+                                <ptr n="Bl.404" target="Q.01.19220217.JVH.01.xml"/>
+                                <ptr n="Bl.359" target="Q.01.19190702.JVH.01.xml"/>
+                                <ptr n="Bl.352" target="Q.01.19190124.JVH.01.xml"/>
+                                <ptr n="Bl.363-364" target="Q.01.19190828.JVH.01.xml"/>
+                                <ptr n="Bl.368" target="Q.01.19190927.JVH.01.xml"/>
+                                <ptr n="Bl.354" target="Q.01.19190217.JVH.01.xml"/>
+                                <ptr n="Bl.358" target="Q.01.19190628.JVH.01.xml"/>
+                                <ptr n="Bl.369" target="Q.01.19190930.JVH.01.xml"/>
+                                <ptr n="Bl.367" target="Q.01.19190924.JVH.01.xml"/>
+                                <ptr n="Bl.361" target="Q.01.19190807.JVH.01.xml"/>
+                                <ptr n="Bl.366" target="Q.01.19190923.JVH.01.xml"/>
+                                <ptr n="Bl.353" target="Q.01.19190207.JVH.01.xml"/>
+                                <ptr n="Bl.371" target="Q.01.19191107.JVH.01.xml"/>
                                 <ptr n="Bl.203" target="Q.01.19150417.FMA.01.xml"/>
-                                <ptr n="Bl.75-76" target="Q.01.19150317.JVH.01.xml"/>
-                                <ptr n="Bl.12" target="Q.01.19140708.JVH.01.xml"/>
-                                <ptr n="Bl.11" target="Q.01.19140704.JVH.01.xml"/>
-                                <ptr n="Bl.138" target="Q.01.19151223.JVH.01.xml"/>
-                                <ptr n="Bl.132-133" target="Q.01.19151209.JVH.01.xml"/>
-                                <ptr n="Bl.129" target="Q.01.19151206.JVH.01.xml"/>
+                                <ptr n="Bl.216" target="Q.01.19151106.FMA.01.xml"/>
                                 <ptr n="Bl.211" target="Q.01.19150918.FMA.01.xml"/>
-                                <ptr n="Bl.201" target="Q.01.19150327.FMA.01.xml"/>
-                                <ptr n="Bl.65-66" target="Q.01.19150303.JVH.01.xml"/>
-                                <ptr n="Bl.28" target="Q.01.19141014.JVH.01.xml"/>
-                                <ptr n="Bl.26-27" target="Q.01.19141009.JVH.01.xml"/>
-                                <ptr n="Bl.21-22" target="Q.01.19140908.JVH.01.xml"/>
-                                <ptr n="Bl.20" target="Q.01.19140822.JVH.01.xml"/>
-                                <ptr n="Bl.19" target="Q.01.19140820.JVH.01.xml"/>
-                                <ptr n="Bl.47-48" target="Q.01.19141219.JVH.01.xml"/>
-                                <ptr n="Bl.127-128" target="Q.01.19151126.JVH.01.xml"/>
-                                <ptr n="Bl.110-111" target="Q.01.19150929.JVH.01.xml"/>
-                                <ptr n="Bl.99-100" target="Q.01.19150618.JVH.01.xml"/>
-                                <ptr n="Bl.25" target="Q.01.19141005.JVH.01.xml"/>
-                                <ptr n="Bl.23-24" target="Q.01.19140925.JVH.01.xml"/>
-                                <ptr n="Bl.31-32" target="Q.01.19141023.JVH.01.xml"/>
-                                <ptr n="Bl.29-30" target="Q.01.19141016.JVH.01.xml"/>
-                                <ptr n="Bl.73-74" target="Q.01.19150313.JVH.01.xml"/>
-                                <ptr n="Bl.200" target="Q.01.19150315.FMA.02.xml"/>
-                                <ptr n="Bl.214" target="Q.01.19151001.FMA.01.xml"/>
-                                <ptr n="Bl.213" target="Q.01.19151010.FMA.01.xml"/>
-                                <ptr n="Bl.58-59" target="Q.01.19150217.JVH.01.xml"/>
-                                <ptr n="Bl.71-72" target="Q.01.19150310.JVH.01.xml"/>
+                                <ptr n="Bl.209" target="Q.01.19150827.FMA.01.xml"/>
+                                <ptr n="Bl.198" target="Q.01.19150303.FMA.01.xml"/>
+                                <ptr n="Bl.212" target="Q.01.19150922.FMA.01.xml"/>
                                 <ptr n="Bl.217" target="Q.01.19151125.FMA.01.xml"/>
                                 <ptr n="Bl.197" target="Q.01.19150121.FMA.01.xml"/>
-                                <ptr n="Bl.136-137" target="Q.01.19151218.JVH.01.xml"/>
-                                <ptr n="Bl.33-34" target="Q.01.19141027.JVH.01.xml"/>
-                                <ptr n="Bl.90-91" target="Q.01.19150429.JVH.01.xml"/>
-                                <ptr n="Bl.92" target="Q.01.19150507.JVH.01.xml"/>
-                                <ptr n="Bl.139-140" target="Q.01.19151225.JVH.01.xml"/>
-                                <ptr n="Bl.94-96" target="Q.01.19150530.JVH.01.xml"/>
-                                <ptr n="Bl.93" target="Q.01.19150517.JVH.01.xml"/>
-                                <ptr n="Bl.86-89" target="Q.01.19150413.JVH.01.xml"/>
-                                <ptr n="Bl.84-85" target="Q.01.19150409.JVH.01.xml"/>
-                                <ptr n="Bl.82-83" target="Q.01.19150403.JVH.01.xml"/>
-                                <ptr n="Bl.80-81" target="Q.01.19150328.JVH.01.xml"/>
-                                <ptr n="Bl.78-79" target="Q.01.19150323.JVH.01.xml"/>
-                                <ptr n="Bl.77-78" target="Q.01.19150321.JVH.01.xml"/>
-                                <ptr n="Bl.108-109" target="Q.01.19150824.JVH.01.xml"/>
+                                <ptr n="Bl.196" target="Q.01.19150116.FMA.01.xml"/>
+                                <ptr n="Bl.214" target="Q.01.19151001.FMA.01.xml"/>
+                                <ptr n="Bl.205" target="Q.01.19150501.FMA.01.xml"/>
+                                <ptr n="Bl.199" target="Q.01.19150315.FMA.01.xml"/>
+                                <ptr n="Bl.213" target="Q.01.19151010.FMA.01.xml"/>
+                                <ptr n="Bl.200" target="Q.01.19150315.FMA.02.xml"/>
+                                <ptr n="Bl.202" target="Q.01.19150906.FMA.01.xml"/>
+                                <ptr n="Bl.201" target="Q.01.19150327.FMA.01.xml"/>
+                                <ptr n="Bl.215" target="Q.01.19151016.FMA.01.xml"/>
+                                <ptr n="Bl.210" target="Q.01.19150911.FMA.01.xml"/>
+                                <ptr n="Bl.206" target="Q.01.19150615.FMA.01.xml"/>
+                                <ptr n="Bl.208" target="Q.01.19150710.FMA.01.xml"/>
+                                <ptr n="Bl.194-195" target="Q.01.19150112.FMA.01.xml"/>
+                                <ptr n="Bl.207" target="Q.01.19150703.FMA.01.xml"/>
                                 <ptr n="Bl.106-107" target="Q.01.19150818.JVH.01.xml"/>
+                                <ptr n="Bl.49-50" target="Q.01.19150123.JVH.01.xml"/>
+                                <ptr n="Bl.60-62" target="Q.01.19150228.JVH.01.xml"/>
+                                <ptr n="Bl.75-76" target="Q.01.19150317.JVH.01.xml"/>
+                                <ptr n="Bl.65-66" target="Q.01.19150303.JVH.01.xml"/>
+                                <ptr n="Bl.58-59" target="Q.01.19150217.JVH.01.xml"/>
+                                <ptr n="Bl.82-83" target="Q.01.19150403.JVH.01.xml"/>
+                                <ptr n="Bl.93" target="Q.01.19150517.JVH.01.xml"/>
+                                <ptr n="Bl.138" target="Q.01.19151223.JVH.01.xml"/>
                                 <ptr n="Bl.104-105" target="Q.01.19150723.JVH.01.xml"/>
-                                <ptr n="Bl.102-103" target="Q.01.19150710.JVH.01.xml"/>
+                                <ptr n="Bl.80-81" target="Q.01.19150328.JVH.01.xml"/>
+                                <ptr n="Bl.84-85" target="Q.01.19150409.JVH.01.xml"/>
+                                <ptr n="Bl.120-121" target="Q.01.19151115.JVH.01.xml"/>
+                                <ptr n="Bl.117" target="Q.01.19151027.JVH.01.xml"/>
+                                <ptr n="Bl.56-57" target="Q.01.19150209.JVH.01.xml"/>
+                                <ptr n="Bl.51-52" target="Q.01.19150129.JVH.01.xml"/>
+                                <ptr n="Bl.115-116" target="Q.01.19151018.JVH.01.xml"/>
+                                <ptr n="Bl.71-72" target="Q.01.19150310.JVH.01.xml"/>
                                 <ptr n="Bl.101" target="Q.01.19150624.JVH.01.xml"/>
-                                <ptr n="Bl.4" target="Q.01.19140514.JVH.01.xml"/>
-                                <ptr n="Bl.1-3" target="Q.01.19140322.JVH.01.xml"/>
-                                <ptr n="Bl.189" target="Q.01.19140608.FMA.01.xml"/>
-                                <ptr n="Bl.193" target="Q.01.19141113.FMA.01.xml"/>
-                                <ptr n="Bl.192" target="Q.01.19140831.FMA.01.xml"/>
-                                <ptr n="Bl.191" target="Q.01.19140627.FMA.01.xml"/>
-                                <ptr n="Bl.190" target="Q.01.19140610.FMA.01.xml"/>
-                                <ptr n="Bl.188" target="Q.01.19140606.FMA.01.xml"/>
-                                <ptr n="Bl.204" target="Q.01.19140421.FMA.01.xml"/>
-                                <ptr n="Bl.185" target="Q.01.19140414.FMA.01.xml"/>
-                                <ptr n="Bl.184" target="Q.01.19140409.FMA.01.xml"/>
-                                <ptr n="Bl.183" target="Q.01.19140125.FMA.02.xml"/>
-                                <ptr n="Bl.182" target="Q.01.19140125.FMA.01.xml"/>
-                                <ptr n="Bl.187" target="Q.01.19140512.FMA.01.xml"/>
-                                <ptr n="Bl.186" target="Q.01.19140507.FMA.01.xml"/>
-                                <ptr n="Bl.181" target="Q.01.19140124.FMA.01.xml"/>
-                                <ptr n="Bl.179-180" target="Q.01.19140121.FMA.01.xml"/>
-                                <ptr n="Bl.178" target="Q.01.19140119.FMA.01.xml"/>
-                                <ptr n="Bl.177" target="Q.01.19140115.FMA.01.xml"/>
+                                <ptr n="Bl.132-133" target="Q.01.19151209.JVH.01.xml"/>
+                                <ptr n="Bl.90-91" target="Q.01.19150429.JVH.01.xml"/>
+                                <ptr n="Bl.136-137" target="Q.01.19151218.JVH.01.xml"/>
+                                <ptr n="Bl.118-119" target="Q.01.19151113.JVH.01.xml"/>
+                                <ptr n="Bl.124" target="Q.01.19151124.JVH.01.xml"/>
+                                <ptr n="Bl.112-113" target="Q.01.19151007.JVH.01.xml"/>
+                                <ptr n="Bl.94-96" target="Q.01.19150530.JVH.01.xml"/>
+                                <ptr n="Bl.92" target="Q.01.19150507.JVH.01.xml"/>
+                                <ptr n="Bl.86-89" target="Q.01.19150413.JVH.01.xml"/>
+                                <ptr n="Bl.73-74" target="Q.01.19150313.JVH.01.xml"/>
+                                <ptr n="Bl.77-78" target="Q.01.19150321.JVH.01.xml"/>
+                                <ptr n="Bl.99-100" target="Q.01.19150618.JVH.01.xml"/>
+                                <ptr n="Bl.102-103" target="Q.01.19150710.JVH.01.xml"/>
+                                <ptr n="Bl.114" target="Q.01.19151014.JVH.01.xml"/>
+                                <ptr n="Bl.108-109" target="Q.01.19150824.JVH.01.xml"/>
+                                <ptr n="Bl.129" target="Q.01.19151206.JVH.01.xml"/>
+                                <ptr n="Bl.127-128" target="Q.01.19151126.JVH.01.xml"/>
+                                <ptr n="Bl.78-79" target="Q.01.19150323.JVH.01.xml"/>
+                                <ptr n="Bl.67-68" target="Q.01.19150308.JVH.01.xml"/>
+                                <ptr n="Bl.110-111" target="Q.01.19150929.JVH.01.xml"/>
                                 <ptr n="Bl.97-98" target="Q.01.19150606.JVH.01.xml"/>
+                                <ptr n="Bl.53-55" target="Q.01.19150131.JVH.01.xml"/>
+                                <ptr n="Bl.139-140" target="Q.01.19151225.JVH.01.xml"/>
+                                <ptr n="Bl.178" target="Q.01.19140119.FMA.01.xml"/>
+                                <ptr n="Bl.187" target="Q.01.19140512.FMA.01.xml"/>
+                                <ptr n="Bl.189" target="Q.01.19140608.FMA.01.xml"/>
+                                <ptr n="Bl.181" target="Q.01.19140124.FMA.01.xml"/>
+                                <ptr n="Bl.192" target="Q.01.19140831.FMA.01.xml"/>
+                                <ptr n="Bl.184" target="Q.01.19140409.FMA.01.xml"/>
+                                <ptr n="Bl.179-180" target="Q.01.19140121.FMA.01.xml"/>
+                                <ptr n="Bl.177" target="Q.01.19140115.FMA.01.xml"/>
+                                <ptr n="Bl.204" target="Q.01.19140421.FMA.01.xml"/>
+                                <ptr n="Bl.193" target="Q.01.19141113.FMA.01.xml"/>
+                                <ptr n="Bl.190" target="Q.01.19140610.FMA.01.xml"/>
+                                <ptr n="Bl.191" target="Q.01.19140627.FMA.01.xml"/>
+                                <ptr n="Bl.186" target="Q.01.19140507.FMA.01.xml"/>
+                                <ptr n="Bl.188" target="Q.01.19140606.FMA.01.xml"/>
+                                <ptr n="Bl.185" target="Q.01.19140414.FMA.01.xml"/>
+                                <ptr n="Bl.182" target="Q.01.19140125.FMA.01.xml"/>
+                                <ptr n="Bl.183" target="Q.01.19140125.FMA.02.xml"/>
+                                <ptr n="Bl.47-48" target="Q.01.19141219.JVH.01.xml"/>
+                                <ptr n="Bl.12" target="Q.01.19140708.JVH.01.xml"/>
+                                <ptr n="Bl.20" target="Q.01.19140822.JVH.01.xml"/>
+                                <ptr n="Bl.39-40" target="Q.01.19141117.JVH.01.xml"/>
+                                <ptr n="Bl.16-17" target="Q.01.19140730.JVH.01.xml"/>
+                                <ptr n="Bl.26-27" target="Q.01.19141009.JVH.01.xml"/>
+                                <ptr n="Bl.13-14" target="Q.01.19140721.JVH.01.xml"/>
+                                <ptr n="Bl.19" target="Q.01.19140820.JVH.01.xml"/>
+                                <ptr n="Bl.33-34" target="Q.01.19141027.JVH.01.xml"/>
+                                <ptr n="Bl.23-24" target="Q.01.19140925.JVH.01.xml"/>
+                                <ptr n="Bl.1-3" target="Q.01.19140322.JVH.01.xml"/>
+                                <ptr n="Bl.15" target="Q.01.19140727.JVH.01.xml"/>
+                                <ptr n="Bl.45-46" target="Q.01.19141210.JVH.01.xml"/>
+                                <ptr n="Bl.21-22" target="Q.01.19140908.JVH.01.xml"/>
+                                <ptr n="Bl.11" target="Q.01.19140704.JVH.01.xml"/>
+                                <ptr n="Bl.5-6" target="Q.01.19140601.JVH.01.xml"/>
+                                <ptr n="Bl.29-30" target="Q.01.19141016.JVH.01.xml"/>
+                                <ptr n="Bl.41-42" target="Q.01.19141129.JVH.01.xml"/>
+                                <ptr n="Bl.35-36" target="Q.01.19141105.JVH.01.xml"/>
+                                <ptr n="Bl.9-10" target="Q.01.19140703.JVH.01.xml"/>
+                                <ptr n="Bl.43-44" target="Q.01.19141203.JVH.01.xml"/>
+                                <ptr n="Bl.18" target="Q.01.19140807.JVH.01.xml"/>
+                                <ptr n="Bl.25" target="Q.01.19141005.JVH.01.xml"/>
+                                <ptr n="Bl.7-8" target="Q.01.19140612.JVH.01.xml"/>
+                                <ptr n="Bl.37-38" target="Q.01.19141111.JVH.01.xml"/>
+                                <ptr n="Bl.4" target="Q.01.19140514.JVH.01.xml"/>
+                                <ptr n="Bl.31-32" target="Q.01.19141023.JVH.01.xml"/>
+                                <ptr n="Bl.28" target="Q.01.19141014.JVH.01.xml"/>
+                                <ptr n="Bl.122-123" target="Q.01.19151120.JVH.02.xml"/>
+                                <ptr n="Bl.63-64" target="Q.01.19150228.JVH.02.xml"/>
+                                <ptr n="Bl.69-70" target="Q.01.19150315.JVH.02.xml"/>
+                                <ptr n="Bl.134-135" target="Q.01.19151218.JVH.02.xml"/>
+                                <ptr n="Bl.130-131" target="Q.01.19151209.JVH.02.xml"/>
+                                <ptr n="Bl.125-126" target="Q.01.19151126.JVH.02.xml"/>
+                                <ptr n="Bl.219" target="Q.01.19160128.FMA.01.xml"/>
+                                <ptr n="Bl.222" target="Q.01.19160205.FMA.01.xml"/>
+                                <ptr n="Bl.223" target="Q.01.19160302.FMA.01.xml"/>
+                                <ptr n="Bl.218" target="Q.01.19160101.FMA.01.xml"/>
+                                <ptr n="Bl.221" target="Q.01.19160122.FMA.01.xml"/>
+                                <ptr n="Bl.220" target="Q.01.19160115.FMA.01.xml"/>
+                            </linkGrp>
+                        </place>
+                        <place source="http://sws.geonames.org/2661552" xml:id="O.0000070">
+                            <placeName type="pref">Bern</placeName>
+                            <location>
+                                <geo>46.94809 7.44744</geo>
+                            </location>
+                            <linkGrp type="files">
+                                <ptr n="Bl.353" target="Q.01.19190207.JVH.01.xml"/>
                             </linkGrp>
                         </place>
                         <place source="http://sws.geonames.org/2949324" xml:id="O.0000054">
@@ -282,6 +350,8 @@
                             </location>
                             <linkGrp type="files">
                                 <ptr n="Bl.118-119" target="Q.01.19151113.JVH.01.xml"/>
+                                <ptr n="Bl.122-123" target="Q.01.19151120.JVH.02.xml"/>
+                                <ptr n="Bl.125-126" target="Q.01.19151126.JVH.02.xml"/>
                             </linkGrp>
                         </place>
                         <place source="http://sws.geonames.org/3030293" xml:id="O.0000006">
@@ -294,6 +364,16 @@
                                 <ptr n="Bl.4" target="Q.01.19140514.JVH.01.xml"/>
                             </linkGrp>
                         </place>
+                        <place source="http://sws.geonames.org/2800866" xml:id="O.0000083">
+                            <placeName>Brussels</placeName>
+                            <placeName type="pref">Brüssel</placeName>
+                            <location>
+                                <geo>50.85045 4.34878</geo>
+                            </location>
+                            <linkGrp type="files">
+                                <ptr n="Bl.392" target="Q.01.19210412.JVH.01.xml"/>
+                            </linkGrp>
+                        </place>
                         <place source="http://sws.geonames.org/3054643" xml:id="O.0000040">
                             <placeName type="pref">Budapest</placeName>
                             <location>
@@ -301,6 +381,15 @@
                             </location>
                             <linkGrp type="files">
                                 <ptr n="Bl.108-109" target="Q.01.19150824.JVH.01.xml"/>
+                            </linkGrp>
+                        </place>
+                        <place source="http://sws.geonames.org/2758064" xml:id="O.0000067">
+                            <placeName type="pref">Bussum</placeName>
+                            <location>
+                                <geo>52.27333 5.16111</geo>
+                            </location>
+                            <linkGrp type="files">
+                                <ptr n="Bl.365" target="Q.01.19190905.JVH.01.xml"/>
                             </linkGrp>
                         </place>
                     </listPlace>
@@ -312,55 +401,95 @@
                                 <geo>52.07667 4.29861</geo>
                             </location>
                             <linkGrp type="files">
-                                <ptr n="Bl.114" target="Q.01.19151014.JVH.01.xml"/>
-                                <ptr n="Bl.112-113" target="Q.01.19151007.JVH.01.xml"/>
-                                <ptr n="Bl.115-116" target="Q.01.19151018.JVH.01.xml"/>
-                                <ptr n="Bl.124" target="Q.01.19151124.JVH.01.xml"/>
-                                <ptr n="Bl.118-119" target="Q.01.19151113.JVH.01.xml"/>
-                                <ptr n="Bl.53-55" target="Q.01.19150131.JVH.01.xml"/>
-                                <ptr n="Bl.45-46" target="Q.01.19141210.JVH.01.xml"/>
-                                <ptr n="Bl.117" target="Q.01.19151027.JVH.01.xml"/>
-                                <ptr n="Bl.43-44" target="Q.01.19141203.JVH.01.xml"/>
-                                <ptr n="Bl.41-42" target="Q.01.19141129.JVH.01.xml"/>
-                                <ptr n="Bl.39-40" target="Q.01.19141117.JVH.01.xml"/>
-                                <ptr n="Bl.37-38" target="Q.01.19141111.JVH.01.xml"/>
-                                <ptr n="Bl.35-36" target="Q.01.19141105.JVH.01.xml"/>
-                                <ptr n="Bl.120-121" target="Q.01.19151115.JVH.01.xml"/>
-                                <ptr n="Bl.51-52" target="Q.01.19150129.JVH.01.xml"/>
-                                <ptr n="Bl.67-68" target="Q.01.19150308.JVH.01.xml"/>
-                                <ptr n="Bl.60-62" target="Q.01.19150228.JVH.01.xml"/>
-                                <ptr n="Bl.56-57" target="Q.01.19150209.JVH.01.xml"/>
+                                <ptr n="Bl.398" target="Q.01.19210921.JVH.01.xml"/>
+                                <ptr n="Bl.399" target="Q.01.19210930.JVH.01.xml"/>
+                                <ptr n="Bl.391" target="Q.01.19210204.JVH.01.xml"/>
+                                <ptr n="Bl.390" target="Q.01.19210129.JVH.01.xml"/>
+                                <ptr n="Bl.392" target="Q.01.19210412.JVH.01.xml"/>
+                                <ptr n="Bl.403" target="Q.01.19211223.JVH.01.xml"/>
+                                <ptr n="Bl.402" target="Q.01.19211211.JVH.01.xml"/>
+                                <ptr n="Bl.380" target="Q.01.19200414.JVH.01.xml"/>
+                                <ptr n="Bl.385" target="Q.01.19200902.JVH.01.xml"/>
+                                <ptr n="Bl.378" target="Q.01.19200201.JVH.01.xml"/>
+                                <ptr n="Bl.379" target="Q.01.19200301.JVH.01.xml"/>
+                                <ptr n="Bl.381" target="Q.01.19200417.JVH.01.xml"/>
+                                <ptr n="Bl.384" target="Q.01.19200818.JVH.01.xml"/>
+                                <ptr n="Bl.377" target="Q.01.19200114.JVH.01.xml"/>
+                                <ptr n="Bl.383" target="Q.01.19200528.JVH.01.xml"/>
+                                <ptr n="Bl.382" target="Q.01.19200428.JVH.01.xml"/>
+                                <ptr n="Bl.387" target="Q.01.19201208.JVH.01.xml"/>
+                                <ptr n="Bl.389" target="Q.01.19201223.JVH.01.xml"/>
+                                <ptr n="Bl.388" target="Q.01.19201219.JVH.01.xml"/>
+                                <ptr n="Bl.404" target="Q.01.19220217.JVH.01.xml"/>
+                                <ptr n="Bl.376" target="Q.01.19191230.JVH.01.xml"/>
+                                <ptr n="Bl.352" target="Q.01.19190124.JVH.01.xml"/>
+                                <ptr n="Bl.363-364" target="Q.01.19190828.JVH.01.xml"/>
+                                <ptr n="Bl.368" target="Q.01.19190927.JVH.01.xml"/>
+                                <ptr n="Bl.354" target="Q.01.19190217.JVH.01.xml"/>
+                                <ptr n="Bl.350" target="Q.01.19190106.JVH.01.xml"/>
+                                <ptr n="Bl.375" target="Q.01.19191212.JVH.01.xml"/>
+                                <ptr n="Bl.361" target="Q.01.19190807.JVH.01.xml"/>
+                                <ptr n="Bl.351" target="Q.01.19190106.JVH.02.xml"/>
+                                <ptr n="Bl.353" target="Q.01.19190207.JVH.01.xml"/>
+                                <ptr n="Bl.355" target="Q.01.19190302.JVH.01.xml"/>
+                                <ptr n="Bl.373-374" target="Q.01.19191209.JVH.01.xml"/>
+                                <ptr n="Bl.371" target="Q.01.19191107.JVH.01.xml"/>
+                                <ptr n="Bl.372" target="Q.01.19191116.JVH.01.xml"/>
                                 <ptr n="Bl.49-50" target="Q.01.19150123.JVH.01.xml"/>
+                                <ptr n="Bl.60-62" target="Q.01.19150228.JVH.01.xml"/>
                                 <ptr n="Bl.75-76" target="Q.01.19150317.JVH.01.xml"/>
-                                <ptr n="Bl.138" target="Q.01.19151223.JVH.01.xml"/>
-                                <ptr n="Bl.132-133" target="Q.01.19151209.JVH.01.xml"/>
-                                <ptr n="Bl.129" target="Q.01.19151206.JVH.01.xml"/>
                                 <ptr n="Bl.65-66" target="Q.01.19150303.JVH.01.xml"/>
-                                <ptr n="Bl.28" target="Q.01.19141014.JVH.01.xml"/>
-                                <ptr n="Bl.26-27" target="Q.01.19141009.JVH.01.xml"/>
-                                <ptr n="Bl.47-48" target="Q.01.19141219.JVH.01.xml"/>
-                                <ptr n="Bl.127-128" target="Q.01.19151126.JVH.01.xml"/>
-                                <ptr n="Bl.25" target="Q.01.19141005.JVH.01.xml"/>
-                                <ptr n="Bl.23-24" target="Q.01.19140925.JVH.01.xml"/>
-                                <ptr n="Bl.31-32" target="Q.01.19141023.JVH.01.xml"/>
-                                <ptr n="Bl.29-30" target="Q.01.19141016.JVH.01.xml"/>
-                                <ptr n="Bl.73-74" target="Q.01.19150313.JVH.01.xml"/>
                                 <ptr n="Bl.58-59" target="Q.01.19150217.JVH.01.xml"/>
-                                <ptr n="Bl.71-72" target="Q.01.19150310.JVH.01.xml"/>
-                                <ptr n="Bl.136-137" target="Q.01.19151218.JVH.01.xml"/>
-                                <ptr n="Bl.33-34" target="Q.01.19141027.JVH.01.xml"/>
-                                <ptr n="Bl.90-91" target="Q.01.19150429.JVH.01.xml"/>
-                                <ptr n="Bl.92" target="Q.01.19150507.JVH.01.xml"/>
-                                <ptr n="Bl.139-140" target="Q.01.19151225.JVH.01.xml"/>
-                                <ptr n="Bl.94-96" target="Q.01.19150530.JVH.01.xml"/>
-                                <ptr n="Bl.86-89" target="Q.01.19150413.JVH.01.xml"/>
-                                <ptr n="Bl.84-85" target="Q.01.19150409.JVH.01.xml"/>
                                 <ptr n="Bl.82-83" target="Q.01.19150403.JVH.01.xml"/>
+                                <ptr n="Bl.138" target="Q.01.19151223.JVH.01.xml"/>
                                 <ptr n="Bl.80-81" target="Q.01.19150328.JVH.01.xml"/>
-                                <ptr n="Bl.78-79" target="Q.01.19150323.JVH.01.xml"/>
+                                <ptr n="Bl.84-85" target="Q.01.19150409.JVH.01.xml"/>
+                                <ptr n="Bl.120-121" target="Q.01.19151115.JVH.01.xml"/>
+                                <ptr n="Bl.117" target="Q.01.19151027.JVH.01.xml"/>
+                                <ptr n="Bl.56-57" target="Q.01.19150209.JVH.01.xml"/>
+                                <ptr n="Bl.51-52" target="Q.01.19150129.JVH.01.xml"/>
+                                <ptr n="Bl.115-116" target="Q.01.19151018.JVH.01.xml"/>
+                                <ptr n="Bl.71-72" target="Q.01.19150310.JVH.01.xml"/>
+                                <ptr n="Bl.132-133" target="Q.01.19151209.JVH.01.xml"/>
+                                <ptr n="Bl.90-91" target="Q.01.19150429.JVH.01.xml"/>
+                                <ptr n="Bl.136-137" target="Q.01.19151218.JVH.01.xml"/>
+                                <ptr n="Bl.118-119" target="Q.01.19151113.JVH.01.xml"/>
+                                <ptr n="Bl.124" target="Q.01.19151124.JVH.01.xml"/>
+                                <ptr n="Bl.112-113" target="Q.01.19151007.JVH.01.xml"/>
+                                <ptr n="Bl.94-96" target="Q.01.19150530.JVH.01.xml"/>
+                                <ptr n="Bl.92" target="Q.01.19150507.JVH.01.xml"/>
+                                <ptr n="Bl.86-89" target="Q.01.19150413.JVH.01.xml"/>
+                                <ptr n="Bl.73-74" target="Q.01.19150313.JVH.01.xml"/>
                                 <ptr n="Bl.77-78" target="Q.01.19150321.JVH.01.xml"/>
                                 <ptr n="Bl.102-103" target="Q.01.19150710.JVH.01.xml"/>
+                                <ptr n="Bl.114" target="Q.01.19151014.JVH.01.xml"/>
+                                <ptr n="Bl.129" target="Q.01.19151206.JVH.01.xml"/>
+                                <ptr n="Bl.127-128" target="Q.01.19151126.JVH.01.xml"/>
+                                <ptr n="Bl.78-79" target="Q.01.19150323.JVH.01.xml"/>
+                                <ptr n="Bl.67-68" target="Q.01.19150308.JVH.01.xml"/>
+                                <ptr n="Bl.53-55" target="Q.01.19150131.JVH.01.xml"/>
+                                <ptr n="Bl.139-140" target="Q.01.19151225.JVH.01.xml"/>
+                                <ptr n="Bl.47-48" target="Q.01.19141219.JVH.01.xml"/>
+                                <ptr n="Bl.39-40" target="Q.01.19141117.JVH.01.xml"/>
+                                <ptr n="Bl.26-27" target="Q.01.19141009.JVH.01.xml"/>
+                                <ptr n="Bl.33-34" target="Q.01.19141027.JVH.01.xml"/>
+                                <ptr n="Bl.23-24" target="Q.01.19140925.JVH.01.xml"/>
                                 <ptr n="Bl.1-3" target="Q.01.19140322.JVH.01.xml"/>
+                                <ptr n="Bl.45-46" target="Q.01.19141210.JVH.01.xml"/>
+                                <ptr n="Bl.29-30" target="Q.01.19141016.JVH.01.xml"/>
+                                <ptr n="Bl.41-42" target="Q.01.19141129.JVH.01.xml"/>
+                                <ptr n="Bl.35-36" target="Q.01.19141105.JVH.01.xml"/>
+                                <ptr n="Bl.43-44" target="Q.01.19141203.JVH.01.xml"/>
+                                <ptr n="Bl.25" target="Q.01.19141005.JVH.01.xml"/>
+                                <ptr n="Bl.37-38" target="Q.01.19141111.JVH.01.xml"/>
+                                <ptr n="Bl.31-32" target="Q.01.19141023.JVH.01.xml"/>
+                                <ptr n="Bl.28" target="Q.01.19141014.JVH.01.xml"/>
+                                <ptr n="Bl.122-123" target="Q.01.19151120.JVH.02.xml"/>
+                                <ptr n="Bl.63-64" target="Q.01.19150228.JVH.02.xml"/>
+                                <ptr n="Bl.69-70" target="Q.01.19150315.JVH.02.xml"/>
+                                <ptr n="Bl.134-135" target="Q.01.19151218.JVH.02.xml"/>
+                                <ptr n="Bl.130-131" target="Q.01.19151209.JVH.02.xml"/>
+                                <ptr n="Bl.125-126" target="Q.01.19151126.JVH.02.xml"/>
                             </linkGrp>
                         </place>
                         <place source="http://sws.geonames.org/2921044" xml:id="O.0000014">
@@ -369,20 +498,30 @@
                                 <geo>51.5 10.5</geo>
                             </location>
                             <linkGrp type="files">
+                                <ptr n="Bl.395" target="Q.01.19210824.JVH.01.xml"/>
+                                <ptr n="Bl.405" target="Q.01.19220402.JVH.01.xml"/>
+                                <ptr n="Bl.359" target="Q.01.19190702.JVH.01.xml"/>
+                                <ptr n="Bl.363-364" target="Q.01.19190828.JVH.01.xml"/>
+                                <ptr n="Bl.356" target="Q.01.19190509.JVH.01.xml"/>
+                                <ptr n="Bl.367" target="Q.01.19190924.JVH.01.xml"/>
+                                <ptr n="Bl.361" target="Q.01.19190807.JVH.01.xml"/>
+                                <ptr n="Bl.372" target="Q.01.19191116.JVH.01.xml"/>
                                 <ptr n="Bl.196" target="Q.01.19150116.FMA.01.xml"/>
-                                <ptr n="Bl.37-38" target="Q.01.19141111.JVH.01.xml"/>
-                                <ptr n="Bl.35-36" target="Q.01.19141105.JVH.01.xml"/>
-                                <ptr n="Bl.51-52" target="Q.01.19150129.JVH.01.xml"/>
                                 <ptr n="Bl.49-50" target="Q.01.19150123.JVH.01.xml"/>
-                                <ptr n="Bl.26-27" target="Q.01.19141009.JVH.01.xml"/>
-                                <ptr n="Bl.19" target="Q.01.19140820.JVH.01.xml"/>
-                                <ptr n="Bl.47-48" target="Q.01.19141219.JVH.01.xml"/>
-                                <ptr n="Bl.23-24" target="Q.01.19140925.JVH.01.xml"/>
-                                <ptr n="Bl.31-32" target="Q.01.19141023.JVH.01.xml"/>
-                                <ptr n="Bl.29-30" target="Q.01.19141016.JVH.01.xml"/>
+                                <ptr n="Bl.51-52" target="Q.01.19150129.JVH.01.xml"/>
                                 <ptr n="Bl.136-137" target="Q.01.19151218.JVH.01.xml"/>
                                 <ptr n="Bl.108-109" target="Q.01.19150824.JVH.01.xml"/>
                                 <ptr n="Bl.97-98" target="Q.01.19150606.JVH.01.xml"/>
+                                <ptr n="Bl.47-48" target="Q.01.19141219.JVH.01.xml"/>
+                                <ptr n="Bl.26-27" target="Q.01.19141009.JVH.01.xml"/>
+                                <ptr n="Bl.19" target="Q.01.19140820.JVH.01.xml"/>
+                                <ptr n="Bl.23-24" target="Q.01.19140925.JVH.01.xml"/>
+                                <ptr n="Bl.29-30" target="Q.01.19141016.JVH.01.xml"/>
+                                <ptr n="Bl.35-36" target="Q.01.19141105.JVH.01.xml"/>
+                                <ptr n="Bl.37-38" target="Q.01.19141111.JVH.01.xml"/>
+                                <ptr n="Bl.31-32" target="Q.01.19141023.JVH.01.xml"/>
+                                <ptr n="Bl.63-64" target="Q.01.19150228.JVH.02.xml"/>
+                                <ptr n="Bl.134-135" target="Q.01.19151218.JVH.02.xml"/>
                             </linkGrp>
                         </place>
                         <place source="http://sws.geonames.org/2756746" xml:id="O.0000004">
@@ -391,45 +530,81 @@
                                 <geo>51.56333 3.49583</geo>
                             </location>
                             <linkGrp type="files">
-                                <ptr n="Bl.112-113" target="Q.01.19151007.JVH.01.xml"/>
-                                <ptr n="Bl.115-116" target="Q.01.19151018.JVH.01.xml"/>
-                                <ptr n="Bl.118-119" target="Q.01.19151113.JVH.01.xml"/>
-                                <ptr n="Bl.53-55" target="Q.01.19150131.JVH.01.xml"/>
-                                <ptr n="Bl.15" target="Q.01.19140727.JVH.01.xml"/>
-                                <ptr n="Bl.13-14" target="Q.01.19140721.JVH.01.xml"/>
-                                <ptr n="Bl.18" target="Q.01.19140807.JVH.01.xml"/>
-                                <ptr n="Bl.16-17" target="Q.01.19140730.JVH.01.xml"/>
-                                <ptr n="Bl.9-10" target="Q.01.19140703.JVH.01.xml"/>
-                                <ptr n="Bl.7-8" target="Q.01.19140612.JVH.01.xml"/>
-                                <ptr n="Bl.5-6" target="Q.01.19140601.JVH.01.xml"/>
-                                <ptr n="Bl.60-62" target="Q.01.19150228.JVH.01.xml"/>
-                                <ptr n="Bl.56-57" target="Q.01.19150209.JVH.01.xml"/>
-                                <ptr n="Bl.12" target="Q.01.19140708.JVH.01.xml"/>
-                                <ptr n="Bl.11" target="Q.01.19140704.JVH.01.xml"/>
-                                <ptr n="Bl.65-66" target="Q.01.19150303.JVH.01.xml"/>
-                                <ptr n="Bl.28" target="Q.01.19141014.JVH.01.xml"/>
-                                <ptr n="Bl.26-27" target="Q.01.19141009.JVH.01.xml"/>
-                                <ptr n="Bl.21-22" target="Q.01.19140908.JVH.01.xml"/>
-                                <ptr n="Bl.20" target="Q.01.19140822.JVH.01.xml"/>
-                                <ptr n="Bl.19" target="Q.01.19140820.JVH.01.xml"/>
-                                <ptr n="Bl.110-111" target="Q.01.19150929.JVH.01.xml"/>
-                                <ptr n="Bl.99-100" target="Q.01.19150618.JVH.01.xml"/>
-                                <ptr n="Bl.25" target="Q.01.19141005.JVH.01.xml"/>
-                                <ptr n="Bl.23-24" target="Q.01.19140925.JVH.01.xml"/>
-                                <ptr n="Bl.31-32" target="Q.01.19141023.JVH.01.xml"/>
-                                <ptr n="Bl.29-30" target="Q.01.19141016.JVH.01.xml"/>
-                                <ptr n="Bl.90-91" target="Q.01.19150429.JVH.01.xml"/>
-                                <ptr n="Bl.94-96" target="Q.01.19150530.JVH.01.xml"/>
-                                <ptr n="Bl.93" target="Q.01.19150517.JVH.01.xml"/>
-                                <ptr n="Bl.86-89" target="Q.01.19150413.JVH.01.xml"/>
-                                <ptr n="Bl.80-81" target="Q.01.19150328.JVH.01.xml"/>
-                                <ptr n="Bl.108-109" target="Q.01.19150824.JVH.01.xml"/>
+                                <ptr n="Bl.396" target="Q.01.19210830.JVH.01.xml"/>
+                                <ptr n="Bl.398" target="Q.01.19210921.JVH.01.xml"/>
+                                <ptr n="Bl.399" target="Q.01.19210930.JVH.01.xml"/>
+                                <ptr n="Bl.395" target="Q.01.19210824.JVH.01.xml"/>
+                                <ptr n="Bl.397" target="Q.01.19210914.JVH.01.xml"/>
+                                <ptr n="Bl.393" target="Q.01.19210605.JVH.01.xml"/>
+                                <ptr n="Bl.394" target="Q.01.19210804.JVH.01.xml"/>
+                                <ptr n="Bl.380" target="Q.01.19200414.JVH.01.xml"/>
+                                <ptr n="Bl.384" target="Q.01.19200818.JVH.01.xml"/>
+                                <ptr n="Bl.383" target="Q.01.19200528.JVH.01.xml"/>
+                                <ptr n="Bl.405" target="Q.01.19220402.JVH.01.xml"/>
+                                <ptr n="Bl.359" target="Q.01.19190702.JVH.01.xml"/>
+                                <ptr n="Bl.370" target="Q.01.19191004.JVH.01.xml"/>
+                                <ptr n="Bl.363-364" target="Q.01.19190828.JVH.01.xml"/>
+                                <ptr n="Bl.368" target="Q.01.19190927.JVH.01.xml"/>
+                                <ptr n="Bl.358" target="Q.01.19190628.JVH.01.xml"/>
+                                <ptr n="Bl.362" target="Q.01.19190821.JVH.01.xml"/>
+                                <ptr n="Bl.367" target="Q.01.19190924.JVH.01.xml"/>
+                                <ptr n="Bl.361" target="Q.01.19190807.JVH.01.xml"/>
+                                <ptr n="Bl.366" target="Q.01.19190923.JVH.01.xml"/>
+                                <ptr n="Bl.365" target="Q.01.19190905.JVH.01.xml"/>
+                                <ptr n="Bl.357" target="Q.01.19190618.JVH.01.xml"/>
                                 <ptr n="Bl.106-107" target="Q.01.19150818.JVH.01.xml"/>
+                                <ptr n="Bl.60-62" target="Q.01.19150228.JVH.01.xml"/>
+                                <ptr n="Bl.65-66" target="Q.01.19150303.JVH.01.xml"/>
+                                <ptr n="Bl.93" target="Q.01.19150517.JVH.01.xml"/>
                                 <ptr n="Bl.104-105" target="Q.01.19150723.JVH.01.xml"/>
-                                <ptr n="Bl.102-103" target="Q.01.19150710.JVH.01.xml"/>
+                                <ptr n="Bl.80-81" target="Q.01.19150328.JVH.01.xml"/>
+                                <ptr n="Bl.56-57" target="Q.01.19150209.JVH.01.xml"/>
+                                <ptr n="Bl.115-116" target="Q.01.19151018.JVH.01.xml"/>
                                 <ptr n="Bl.101" target="Q.01.19150624.JVH.01.xml"/>
-                                <ptr n="Bl.1-3" target="Q.01.19140322.JVH.01.xml"/>
+                                <ptr n="Bl.90-91" target="Q.01.19150429.JVH.01.xml"/>
+                                <ptr n="Bl.118-119" target="Q.01.19151113.JVH.01.xml"/>
+                                <ptr n="Bl.112-113" target="Q.01.19151007.JVH.01.xml"/>
+                                <ptr n="Bl.94-96" target="Q.01.19150530.JVH.01.xml"/>
+                                <ptr n="Bl.86-89" target="Q.01.19150413.JVH.01.xml"/>
+                                <ptr n="Bl.99-100" target="Q.01.19150618.JVH.01.xml"/>
+                                <ptr n="Bl.102-103" target="Q.01.19150710.JVH.01.xml"/>
+                                <ptr n="Bl.108-109" target="Q.01.19150824.JVH.01.xml"/>
+                                <ptr n="Bl.110-111" target="Q.01.19150929.JVH.01.xml"/>
                                 <ptr n="Bl.97-98" target="Q.01.19150606.JVH.01.xml"/>
+                                <ptr n="Bl.53-55" target="Q.01.19150131.JVH.01.xml"/>
+                                <ptr n="Bl.12" target="Q.01.19140708.JVH.01.xml"/>
+                                <ptr n="Bl.20" target="Q.01.19140822.JVH.01.xml"/>
+                                <ptr n="Bl.16-17" target="Q.01.19140730.JVH.01.xml"/>
+                                <ptr n="Bl.26-27" target="Q.01.19141009.JVH.01.xml"/>
+                                <ptr n="Bl.13-14" target="Q.01.19140721.JVH.01.xml"/>
+                                <ptr n="Bl.19" target="Q.01.19140820.JVH.01.xml"/>
+                                <ptr n="Bl.23-24" target="Q.01.19140925.JVH.01.xml"/>
+                                <ptr n="Bl.1-3" target="Q.01.19140322.JVH.01.xml"/>
+                                <ptr n="Bl.15" target="Q.01.19140727.JVH.01.xml"/>
+                                <ptr n="Bl.21-22" target="Q.01.19140908.JVH.01.xml"/>
+                                <ptr n="Bl.11" target="Q.01.19140704.JVH.01.xml"/>
+                                <ptr n="Bl.5-6" target="Q.01.19140601.JVH.01.xml"/>
+                                <ptr n="Bl.29-30" target="Q.01.19141016.JVH.01.xml"/>
+                                <ptr n="Bl.9-10" target="Q.01.19140703.JVH.01.xml"/>
+                                <ptr n="Bl.18" target="Q.01.19140807.JVH.01.xml"/>
+                                <ptr n="Bl.25" target="Q.01.19141005.JVH.01.xml"/>
+                                <ptr n="Bl.7-8" target="Q.01.19140612.JVH.01.xml"/>
+                                <ptr n="Bl.31-32" target="Q.01.19141023.JVH.01.xml"/>
+                                <ptr n="Bl.28" target="Q.01.19141014.JVH.01.xml"/>
+                                <ptr n="Bl.63-64" target="Q.01.19150228.JVH.02.xml"/>
+                                <ptr n="Bl.69-70" target="Q.01.19150315.JVH.02.xml"/>
+                                <ptr n="Bl.134-135" target="Q.01.19151218.JVH.02.xml"/>
+                                <ptr n="Bl.130-131" target="Q.01.19151209.JVH.02.xml"/>
+                            </linkGrp>
+                        </place>
+                        <place source="http://sws.geonames.org/2660989" xml:id="O.0000077">
+                            <placeName type="pref">Dornach</placeName>
+                            <location>
+                                <geo>47.48038 7.61644</geo>
+                            </location>
+                            <linkGrp type="files">
+                                <ptr n="Bl.385" target="Q.01.19200902.JVH.01.xml"/>
+                                <ptr n="Bl.384" target="Q.01.19200818.JVH.01.xml"/>
                             </linkGrp>
                         </place>
                         <place source="http://sws.geonames.org/2935022" xml:id="O.0000032">
@@ -438,6 +613,7 @@
                                 <geo>51.05089 13.73832</geo>
                             </location>
                             <linkGrp type="files">
+                                <ptr n="Bl.356" target="Q.01.19190509.JVH.01.xml"/>
                                 <ptr n="Bl.199" target="Q.01.19150315.FMA.01.xml"/>
                                 <ptr n="Bl.86-89" target="Q.01.19150413.JVH.01.xml"/>
                                 <ptr n="Bl.179-180" target="Q.01.19140121.FMA.01.xml"/>
@@ -453,9 +629,10 @@
                                 <geo>52.16045 -0.70312</geo>
                             </location>
                             <linkGrp type="files">
+                                <ptr n="Bl.391" target="Q.01.19210204.JVH.01.xml"/>
                                 <ptr n="Bl.112-113" target="Q.01.19151007.JVH.01.xml"/>
-                                <ptr n="Bl.47-48" target="Q.01.19141219.JVH.01.xml"/>
                                 <ptr n="Bl.73-74" target="Q.01.19150313.JVH.01.xml"/>
+                                <ptr n="Bl.47-48" target="Q.01.19141219.JVH.01.xml"/>
                             </linkGrp>
                         </place>
                         <place source="http://sws.geonames.org/3020152" xml:id="O.0000061">
@@ -467,6 +644,15 @@
                                 <ptr n="Bl.198" target="Q.01.19150303.FMA.01.xml"/>
                             </linkGrp>
                         </place>
+                        <place source="http://sws.geonames.org/2928810" xml:id="O.0000076">
+                            <placeName type="pref">Essen</placeName>
+                            <location>
+                                <geo>51.45657 7.01228</geo>
+                            </location>
+                            <linkGrp type="files">
+                                <ptr n="Bl.383" target="Q.01.19200528.JVH.01.xml"/>
+                            </linkGrp>
+                        </place>
                     </listPlace>
                     <listPlace>
                         <head>F</head>
@@ -476,8 +662,9 @@
                                 <geo>50.11552 8.68417</geo>
                             </location>
                             <linkGrp type="files">
-                                <ptr n="Bl.31-32" target="Q.01.19141023.JVH.01.xml"/>
+                                <ptr n="Bl.386" target="Q.01.19201104.JVH.01.xml"/>
                                 <ptr n="Bl.139-140" target="Q.01.19151225.JVH.01.xml"/>
+                                <ptr n="Bl.31-32" target="Q.01.19141023.JVH.01.xml"/>
                             </linkGrp>
                         </place>
                         <place source="http://sws.geonames.org/3017382" xml:id="O.0000016">
@@ -486,6 +673,7 @@
                                 <geo>46 2</geo>
                             </location>
                             <linkGrp type="files">
+                                <ptr n="Bl.391" target="Q.01.19210204.JVH.01.xml"/>
                                 <ptr n="Bl.39-40" target="Q.01.19141117.JVH.01.xml"/>
                                 <ptr n="Bl.23-24" target="Q.01.19140925.JVH.01.xml"/>
                             </linkGrp>
@@ -520,6 +708,15 @@
                                 <ptr n="Bl.179-180" target="Q.01.19140121.FMA.01.xml"/>
                             </linkGrp>
                         </place>
+                        <place source="http://sws.geonames.org/2755420" xml:id="O.0000084">
+                            <placeName type="pref">Gouda</placeName>
+                            <location>
+                                <geo>52.01667 4.70833</geo>
+                            </location>
+                            <linkGrp type="files">
+                                <ptr n="Bl.393" target="Q.01.19210605.JVH.01.xml"/>
+                            </linkGrp>
+                        </place>
                         <place source="http://sws.geonames.org/390903" xml:id="O.0000028">
                             <placeName type="pref">Griechenland</placeName>
                             <location>
@@ -527,11 +724,31 @@
                             </location>
                             <linkGrp type="files">
                                 <ptr n="Bl.73-74" target="Q.01.19150313.JVH.01.xml"/>
+                                <ptr n="Bl.69-70" target="Q.01.19150315.JVH.02.xml"/>
+                                <ptr n="Bl.134-135" target="Q.01.19151218.JVH.02.xml"/>
+                            </linkGrp>
+                        </place>
+                        <place source="http://sws.geonames.org/2755251" xml:id="O.0000073">
+                            <placeName type="pref">Groningen</placeName>
+                            <location>
+                                <geo>53.21917 6.56667</geo>
+                            </location>
+                            <linkGrp type="files">
+                                <ptr n="Bl.367" target="Q.01.19190924.JVH.01.xml"/>
                             </linkGrp>
                         </place>
                     </listPlace>
                     <listPlace>
                         <head>H</head>
+                        <place source="http://sws.geonames.org/2755002" xml:id="O.0000087">
+                            <placeName type="pref">Haarlem</placeName>
+                            <location>
+                                <geo>52.38074 4.644</geo>
+                            </location>
+                            <linkGrp type="files">
+                                <ptr n="Bl.134-135" target="Q.01.19151218.JVH.02.xml"/>
+                            </linkGrp>
+                        </place>
                         <place source="http://sws.geonames.org/2912621" xml:id="O.0000047">
                             <placeName type="pref">Hagen</placeName>
                             <location>
@@ -547,10 +764,12 @@
                                 <geo>53.58333 10</geo>
                             </location>
                             <linkGrp type="files">
+                                <ptr n="Bl.384" target="Q.01.19200818.JVH.01.xml"/>
+                                <ptr n="Bl.383" target="Q.01.19200528.JVH.01.xml"/>
                                 <ptr n="Bl.199" target="Q.01.19150315.FMA.01.xml"/>
-                                <ptr n="Bl.5-6" target="Q.01.19140601.JVH.01.xml"/>
                                 <ptr n="Bl.200" target="Q.01.19150315.FMA.02.xml"/>
                                 <ptr n="Bl.86-89" target="Q.01.19150413.JVH.01.xml"/>
+                                <ptr n="Bl.5-6" target="Q.01.19140601.JVH.01.xml"/>
                             </linkGrp>
                         </place>
                         <place source="http://sws.geonames.org/3013886" xml:id="O.0000062">
@@ -581,13 +800,23 @@
                             </location>
                             <linkGrp type="files">
                                 <ptr n="Bl.51-52" target="Q.01.19150129.JVH.01.xml"/>
-                                <ptr n="Bl.73-74" target="Q.01.19150313.JVH.01.xml"/>
                                 <ptr n="Bl.94-96" target="Q.01.19150530.JVH.01.xml"/>
+                                <ptr n="Bl.73-74" target="Q.01.19150313.JVH.01.xml"/>
+                                <ptr n="Bl.69-70" target="Q.01.19150315.JVH.02.xml"/>
                             </linkGrp>
                         </place>
                     </listPlace>
                     <listPlace>
                         <head>K</head>
+                        <place source="http://sws.geonames.org/2892794" xml:id="O.0000069">
+                            <placeName type="pref">Karlsruhe</placeName>
+                            <location>
+                                <geo>49.00937 8.40444</geo>
+                            </location>
+                            <linkGrp type="files">
+                                <ptr n="Bl.365" target="Q.01.19190905.JVH.01.xml"/>
+                            </linkGrp>
+                        </place>
                         <place source="http://sws.geonames.org/598316" xml:id="O.0000039">
                             <placeName type="pref">Kaunas</placeName>
                             <location>
@@ -603,13 +832,38 @@
                                 <geo>55.67594 12.56553</geo>
                             </location>
                             <linkGrp type="files">
+                                <ptr n="Bl.379" target="Q.01.19200301.JVH.01.xml"/>
+                                <ptr n="Bl.359" target="Q.01.19190702.JVH.01.xml"/>
+                                <ptr n="Bl.350" target="Q.01.19190106.JVH.01.xml"/>
+                                <ptr n="Bl.361" target="Q.01.19190807.JVH.01.xml"/>
+                                <ptr n="Bl.351" target="Q.01.19190106.JVH.02.xml"/>
+                                <ptr n="Bl.353" target="Q.01.19190207.JVH.01.xml"/>
                                 <ptr n="Bl.206" target="Q.01.19150615.FMA.01.xml"/>
                                 <ptr n="Bl.99-100" target="Q.01.19150618.JVH.01.xml"/>
+                            </linkGrp>
+                        </place>
+                        <place source="http://sws.geonames.org/2886242" xml:id="O.0000075">
+                            <placeName type="pref">Köln</placeName>
+                            <location>
+                                <geo>50.93333 6.95</geo>
+                            </location>
+                            <linkGrp type="files">
+                                <ptr n="Bl.383" target="Q.01.19200528.JVH.01.xml"/>
                             </linkGrp>
                         </place>
                     </listPlace>
                     <listPlace>
                         <head>L</head>
+                        <place source="http://sws.geonames.org/2879139" xml:id="O.0000074">
+                            <placeName type="pref">Leipzig</placeName>
+                            <location>
+                                <geo>51.33962 12.37129</geo>
+                            </location>
+                            <linkGrp type="files">
+                                <ptr n="Bl.381" target="Q.01.19200417.JVH.01.xml"/>
+                                <ptr n="Bl.382" target="Q.01.19200428.JVH.01.xml"/>
+                            </linkGrp>
+                        </place>
                         <place source="http://sws.geonames.org/765876" xml:id="O.0000038">
                             <placeName type="pref">Lublin</placeName>
                             <location>
@@ -617,6 +871,15 @@
                             </location>
                             <linkGrp type="files">
                                 <ptr n="Bl.102-103" target="Q.01.19150710.JVH.01.xml"/>
+                            </linkGrp>
+                        </place>
+                        <place source="http://sws.geonames.org/2876187" xml:id="O.0000081">
+                            <placeName type="pref">Löhne</placeName>
+                            <location>
+                                <geo>52.18848 8.6922</geo>
+                            </location>
+                            <linkGrp type="files">
+                                <ptr n="Bl.367" target="Q.01.19190924.JVH.01.xml"/>
                             </linkGrp>
                         </place>
                         <place source="http://sws.geonames.org/2792482" xml:id="O.0000015">
@@ -637,11 +900,12 @@
                                 <geo>51.5 3.61389</geo>
                             </location>
                             <linkGrp type="files">
-                                <ptr n="Bl.9-10" target="Q.01.19140703.JVH.01.xml"/>
                                 <ptr n="Bl.56-57" target="Q.01.19150209.JVH.01.xml"/>
+                                <ptr n="Bl.94-96" target="Q.01.19150530.JVH.01.xml"/>
                                 <ptr n="Bl.12" target="Q.01.19140708.JVH.01.xml"/>
                                 <ptr n="Bl.11" target="Q.01.19140704.JVH.01.xml"/>
-                                <ptr n="Bl.94-96" target="Q.01.19150530.JVH.01.xml"/>
+                                <ptr n="Bl.9-10" target="Q.01.19140703.JVH.01.xml"/>
+                                <ptr n="Bl.130-131" target="Q.01.19151209.JVH.02.xml"/>
                             </linkGrp>
                         </place>
                         <place source="http://sws.geonames.org/2867714" xml:id="O.0000052">
@@ -651,9 +915,9 @@
                             </location>
                             <linkGrp type="files">
                                 <ptr n="Bl.216" target="Q.01.19151106.FMA.01.xml"/>
-                                <ptr n="Bl.193" target="Q.01.19141113.FMA.01.xml"/>
                                 <ptr n="Bl.187" target="Q.01.19140512.FMA.01.xml"/>
                                 <ptr n="Bl.181" target="Q.01.19140124.FMA.01.xml"/>
+                                <ptr n="Bl.193" target="Q.01.19141113.FMA.01.xml"/>
                             </linkGrp>
                         </place>
                     </listPlace>
@@ -665,29 +929,36 @@
                                 <geo>52.25 5.75</geo>
                             </location>
                             <linkGrp type="files">
+                                <ptr n="Bl.391" target="Q.01.19210204.JVH.01.xml"/>
+                                <ptr n="Bl.388" target="Q.01.19201219.JVH.01.xml"/>
+                                <ptr n="Bl.404" target="Q.01.19220217.JVH.01.xml"/>
+                                <ptr n="Bl.352" target="Q.01.19190124.JVH.01.xml"/>
+                                <ptr n="Bl.350" target="Q.01.19190106.JVH.01.xml"/>
+                                <ptr n="Bl.365" target="Q.01.19190905.JVH.01.xml"/>
+                                <ptr n="Bl.49-50" target="Q.01.19150123.JVH.01.xml"/>
+                                <ptr n="Bl.65-66" target="Q.01.19150303.JVH.01.xml"/>
+                                <ptr n="Bl.58-59" target="Q.01.19150217.JVH.01.xml"/>
+                                <ptr n="Bl.93" target="Q.01.19150517.JVH.01.xml"/>
+                                <ptr n="Bl.104-105" target="Q.01.19150723.JVH.01.xml"/>
+                                <ptr n="Bl.80-81" target="Q.01.19150328.JVH.01.xml"/>
+                                <ptr n="Bl.56-57" target="Q.01.19150209.JVH.01.xml"/>
+                                <ptr n="Bl.86-89" target="Q.01.19150413.JVH.01.xml"/>
+                                <ptr n="Bl.102-103" target="Q.01.19150710.JVH.01.xml"/>
                                 <ptr n="Bl.114" target="Q.01.19151014.JVH.01.xml"/>
+                                <ptr n="Bl.127-128" target="Q.01.19151126.JVH.01.xml"/>
+                                <ptr n="Bl.78-79" target="Q.01.19150323.JVH.01.xml"/>
+                                <ptr n="Bl.110-111" target="Q.01.19150929.JVH.01.xml"/>
+                                <ptr n="Bl.97-98" target="Q.01.19150606.JVH.01.xml"/>
                                 <ptr n="Bl.53-55" target="Q.01.19150131.JVH.01.xml"/>
                                 <ptr n="Bl.16-17" target="Q.01.19140730.JVH.01.xml"/>
+                                <ptr n="Bl.26-27" target="Q.01.19141009.JVH.01.xml"/>
+                                <ptr n="Bl.23-24" target="Q.01.19140925.JVH.01.xml"/>
+                                <ptr n="Bl.1-3" target="Q.01.19140322.JVH.01.xml"/>
+                                <ptr n="Bl.5-6" target="Q.01.19140601.JVH.01.xml"/>
                                 <ptr n="Bl.35-36" target="Q.01.19141105.JVH.01.xml"/>
                                 <ptr n="Bl.9-10" target="Q.01.19140703.JVH.01.xml"/>
                                 <ptr n="Bl.7-8" target="Q.01.19140612.JVH.01.xml"/>
-                                <ptr n="Bl.5-6" target="Q.01.19140601.JVH.01.xml"/>
-                                <ptr n="Bl.56-57" target="Q.01.19150209.JVH.01.xml"/>
-                                <ptr n="Bl.49-50" target="Q.01.19150123.JVH.01.xml"/>
-                                <ptr n="Bl.65-66" target="Q.01.19150303.JVH.01.xml"/>
-                                <ptr n="Bl.26-27" target="Q.01.19141009.JVH.01.xml"/>
-                                <ptr n="Bl.127-128" target="Q.01.19151126.JVH.01.xml"/>
-                                <ptr n="Bl.110-111" target="Q.01.19150929.JVH.01.xml"/>
-                                <ptr n="Bl.23-24" target="Q.01.19140925.JVH.01.xml"/>
-                                <ptr n="Bl.58-59" target="Q.01.19150217.JVH.01.xml"/>
-                                <ptr n="Bl.93" target="Q.01.19150517.JVH.01.xml"/>
-                                <ptr n="Bl.86-89" target="Q.01.19150413.JVH.01.xml"/>
-                                <ptr n="Bl.80-81" target="Q.01.19150328.JVH.01.xml"/>
-                                <ptr n="Bl.78-79" target="Q.01.19150323.JVH.01.xml"/>
-                                <ptr n="Bl.104-105" target="Q.01.19150723.JVH.01.xml"/>
-                                <ptr n="Bl.102-103" target="Q.01.19150710.JVH.01.xml"/>
-                                <ptr n="Bl.1-3" target="Q.01.19140322.JVH.01.xml"/>
-                                <ptr n="Bl.97-98" target="Q.01.19150606.JVH.01.xml"/>
+                                <ptr n="Bl.69-70" target="Q.01.19150315.JVH.02.xml"/>
                             </linkGrp>
                         </place>
                         <place source="http://sws.geonames.org/2960848" xml:id="O.0000019">
@@ -696,8 +967,8 @@
                                 <geo>55.33333 3</geo>
                             </location>
                             <linkGrp type="files">
-                                <ptr n="Bl.35-36" target="Q.01.19141105.JVH.01.xml"/>
                                 <ptr n="Bl.58-59" target="Q.01.19150217.JVH.01.xml"/>
+                                <ptr n="Bl.35-36" target="Q.01.19141105.JVH.01.xml"/>
                             </linkGrp>
                         </place>
                     </listPlace>
@@ -721,12 +992,17 @@
                                 <geo>48.85341 2.3488</geo>
                             </location>
                             <linkGrp type="files">
-                                <ptr n="Bl.53-55" target="Q.01.19150131.JVH.01.xml"/>
-                                <ptr n="Bl.5-6" target="Q.01.19140601.JVH.01.xml"/>
+                                <ptr n="Bl.391" target="Q.01.19210204.JVH.01.xml"/>
+                                <ptr n="Bl.390" target="Q.01.19210129.JVH.01.xml"/>
+                                <ptr n="Bl.392" target="Q.01.19210412.JVH.01.xml"/>
+                                <ptr n="Bl.387" target="Q.01.19201208.JVH.01.xml"/>
+                                <ptr n="Bl.388" target="Q.01.19201219.JVH.01.xml"/>
                                 <ptr n="Bl.49-50" target="Q.01.19150123.JVH.01.xml"/>
                                 <ptr n="Bl.110-111" target="Q.01.19150929.JVH.01.xml"/>
+                                <ptr n="Bl.53-55" target="Q.01.19150131.JVH.01.xml"/>
                                 <ptr n="Bl.23-24" target="Q.01.19140925.JVH.01.xml"/>
                                 <ptr n="Bl.1-3" target="Q.01.19140322.JVH.01.xml"/>
+                                <ptr n="Bl.5-6" target="Q.01.19140601.JVH.01.xml"/>
                             </linkGrp>
                         </place>
                         <place source="http://sws.geonames.org/798544" xml:id="O.0000022">
@@ -747,14 +1023,14 @@
                                 <geo>47.69185 11.40638</geo>
                             </location>
                             <linkGrp type="files">
-                                <ptr n="Bl.199" target="Q.01.19150315.FMA.01.xml"/>
                                 <ptr n="Bl.216" target="Q.01.19151106.FMA.01.xml"/>
+                                <ptr n="Bl.199" target="Q.01.19150315.FMA.01.xml"/>
+                                <ptr n="Bl.200" target="Q.01.19150315.FMA.02.xml"/>
                                 <ptr n="Bl.208" target="Q.01.19150710.FMA.01.xml"/>
                                 <ptr n="Bl.207" target="Q.01.19150703.FMA.01.xml"/>
-                                <ptr n="Bl.200" target="Q.01.19150315.FMA.02.xml"/>
-                                <ptr n="Bl.193" target="Q.01.19141113.FMA.01.xml"/>
-                                <ptr n="Bl.184" target="Q.01.19140409.FMA.01.xml"/>
                                 <ptr n="Bl.187" target="Q.01.19140512.FMA.01.xml"/>
+                                <ptr n="Bl.184" target="Q.01.19140409.FMA.01.xml"/>
+                                <ptr n="Bl.193" target="Q.01.19141113.FMA.01.xml"/>
                             </linkGrp>
                         </place>
                         <place source="http://sws.geonames.org/2747891" xml:id="O.0000011">
@@ -763,10 +1039,10 @@
                                 <geo>51.9225 4.47917</geo>
                             </location>
                             <linkGrp type="files">
+                                <ptr n="Bl.56-57" target="Q.01.19150209.JVH.01.xml"/>
                                 <ptr n="Bl.115-116" target="Q.01.19151018.JVH.01.xml"/>
                                 <ptr n="Bl.53-55" target="Q.01.19150131.JVH.01.xml"/>
                                 <ptr n="Bl.7-8" target="Q.01.19140612.JVH.01.xml"/>
-                                <ptr n="Bl.56-57" target="Q.01.19150209.JVH.01.xml"/>
                             </linkGrp>
                         </place>
                         <place source="http://sws.geonames.org/798549" xml:id="O.0000024">
@@ -784,13 +1060,13 @@
                                 <geo>60 100</geo>
                             </location>
                             <linkGrp type="files">
-                                <ptr n="Bl.37-38" target="Q.01.19141111.JVH.01.xml"/>
-                                <ptr n="Bl.110-111" target="Q.01.19150929.JVH.01.xml"/>
-                                <ptr n="Bl.99-100" target="Q.01.19150618.JVH.01.xml"/>
-                                <ptr n="Bl.58-59" target="Q.01.19150217.JVH.01.xml"/>
-                                <ptr n="Bl.108-109" target="Q.01.19150824.JVH.01.xml"/>
                                 <ptr n="Bl.106-107" target="Q.01.19150818.JVH.01.xml"/>
+                                <ptr n="Bl.58-59" target="Q.01.19150217.JVH.01.xml"/>
+                                <ptr n="Bl.99-100" target="Q.01.19150618.JVH.01.xml"/>
+                                <ptr n="Bl.108-109" target="Q.01.19150824.JVH.01.xml"/>
+                                <ptr n="Bl.110-111" target="Q.01.19150929.JVH.01.xml"/>
                                 <ptr n="Bl.97-98" target="Q.01.19150606.JVH.01.xml"/>
+                                <ptr n="Bl.37-38" target="Q.01.19141111.JVH.01.xml"/>
                             </linkGrp>
                         </place>
                     </listPlace>
@@ -802,6 +1078,7 @@
                                 <geo>52.10461 4.27557</geo>
                             </location>
                             <linkGrp type="files">
+                                <ptr n="Bl.394" target="Q.01.19210804.JVH.01.xml"/>
                                 <ptr n="Bl.56-57" target="Q.01.19150209.JVH.01.xml"/>
                             </linkGrp>
                         </place>
@@ -811,9 +1088,10 @@
                                 <geo>62 15</geo>
                             </location>
                             <linkGrp type="files">
+                                <ptr n="Bl.101" target="Q.01.19150624.JVH.01.xml"/>
                                 <ptr n="Bl.86-89" target="Q.01.19150413.JVH.01.xml"/>
                                 <ptr n="Bl.102-103" target="Q.01.19150710.JVH.01.xml"/>
-                                <ptr n="Bl.101" target="Q.01.19150624.JVH.01.xml"/>
+                                <ptr n="Bl.125-126" target="Q.01.19151126.JVH.02.xml"/>
                             </linkGrp>
                         </place>
                         <place source="http://sws.geonames.org/2658434" xml:id="O.0000031">
@@ -823,6 +1101,7 @@
                             </location>
                             <linkGrp type="files">
                                 <ptr n="Bl.77-78" target="Q.01.19150321.JVH.01.xml"/>
+                                <ptr n="Bl.221" target="Q.01.19160122.FMA.01.xml"/>
                             </linkGrp>
                         </place>
                         <place source="http://sws.geonames.org/2833866" xml:id="O.0000066">
@@ -840,12 +1119,24 @@
                                 <geo>51.41667 3.75</geo>
                             </location>
                             <linkGrp type="files">
-                                <ptr n="Bl.53-55" target="Q.01.19150131.JVH.01.xml"/>
-                                <ptr n="Bl.5-6" target="Q.01.19140601.JVH.01.xml"/>
-                                <ptr n="Bl.56-57" target="Q.01.19150209.JVH.01.xml"/>
+                                <ptr n="Bl.395" target="Q.01.19210824.JVH.01.xml"/>
+                                <ptr n="Bl.397" target="Q.01.19210914.JVH.01.xml"/>
+                                <ptr n="Bl.394" target="Q.01.19210804.JVH.01.xml"/>
                                 <ptr n="Bl.58-59" target="Q.01.19150217.JVH.01.xml"/>
+                                <ptr n="Bl.56-57" target="Q.01.19150209.JVH.01.xml"/>
                                 <ptr n="Bl.94-96" target="Q.01.19150530.JVH.01.xml"/>
+                                <ptr n="Bl.53-55" target="Q.01.19150131.JVH.01.xml"/>
                                 <ptr n="Bl.1-3" target="Q.01.19140322.JVH.01.xml"/>
+                                <ptr n="Bl.5-6" target="Q.01.19140601.JVH.01.xml"/>
+                            </linkGrp>
+                        </place>
+                        <place source="http://sws.geonames.org/6290252" xml:id="O.0000086">
+                            <placeName type="pref">Serbien</placeName>
+                            <location>
+                                <geo>44.81892 20.45998</geo>
+                            </location>
+                            <linkGrp type="files">
+                                <ptr n="Bl.125-126" target="Q.01.19151126.JVH.02.xml"/>
                             </linkGrp>
                         </place>
                         <place source="http://sws.geonames.org/2831942" xml:id="O.0000048">
@@ -854,13 +1145,13 @@
                                 <geo>47.72458 11.33295</geo>
                             </location>
                             <linkGrp type="files">
+                                <ptr n="Bl.178" target="Q.01.19140119.FMA.01.xml"/>
+                                <ptr n="Bl.184" target="Q.01.19140409.FMA.01.xml"/>
+                                <ptr n="Bl.179-180" target="Q.01.19140121.FMA.01.xml"/>
+                                <ptr n="Bl.177" target="Q.01.19140115.FMA.01.xml"/>
                                 <ptr n="Bl.204" target="Q.01.19140421.FMA.01.xml"/>
                                 <ptr n="Bl.185" target="Q.01.19140414.FMA.01.xml"/>
-                                <ptr n="Bl.184" target="Q.01.19140409.FMA.01.xml"/>
                                 <ptr n="Bl.183" target="Q.01.19140125.FMA.02.xml"/>
-                                <ptr n="Bl.179-180" target="Q.01.19140121.FMA.01.xml"/>
-                                <ptr n="Bl.178" target="Q.01.19140119.FMA.01.xml"/>
-                                <ptr n="Bl.177" target="Q.01.19140115.FMA.01.xml"/>
                             </linkGrp>
                         </place>
                         <place source="http://sws.geonames.org/2673730" xml:id="O.0000037">
@@ -869,11 +1160,14 @@
                                 <geo>59.33258 18.0649</geo>
                             </location>
                             <linkGrp type="files">
+                                <ptr n="Bl.350" target="Q.01.19190106.JVH.01.xml"/>
+                                <ptr n="Bl.351" target="Q.01.19190106.JVH.02.xml"/>
+                                <ptr n="Bl.353" target="Q.01.19190207.JVH.01.xml"/>
                                 <ptr n="Bl.213" target="Q.01.19151010.FMA.01.xml"/>
-                                <ptr n="Bl.108-109" target="Q.01.19150824.JVH.01.xml"/>
                                 <ptr n="Bl.106-107" target="Q.01.19150818.JVH.01.xml"/>
                                 <ptr n="Bl.104-105" target="Q.01.19150723.JVH.01.xml"/>
                                 <ptr n="Bl.102-103" target="Q.01.19150710.JVH.01.xml"/>
+                                <ptr n="Bl.108-109" target="Q.01.19150824.JVH.01.xml"/>
                             </linkGrp>
                         </place>
                         <place source="http://sws.geonames.org/2973783" xml:id="O.0000059">
@@ -885,9 +1179,29 @@
                                 <ptr n="Bl.192" target="Q.01.19140831.FMA.01.xml"/>
                             </linkGrp>
                         </place>
+                        <place source="http://sws.geonames.org/2825297" xml:id="O.0000068">
+                            <placeName type="pref">Stuttgart</placeName>
+                            <location>
+                                <geo>48.78232 9.17702</geo>
+                            </location>
+                            <linkGrp type="files">
+                                <ptr n="Bl.399" target="Q.01.19210930.JVH.01.xml"/>
+                                <ptr n="Bl.385" target="Q.01.19200902.JVH.01.xml"/>
+                                <ptr n="Bl.371" target="Q.01.19191107.JVH.01.xml"/>
+                            </linkGrp>
+                        </place>
                     </listPlace>
                     <listPlace>
                         <head>T</head>
+                        <place source="http://sws.geonames.org/734077" xml:id="O.0000088">
+                            <placeName type="pref">Thessaloniki</placeName>
+                            <location>
+                                <geo>40.64361 22.93086</geo>
+                            </location>
+                            <linkGrp type="files">
+                                <ptr n="Bl.134-135" target="Q.01.19151218.JVH.02.xml"/>
+                            </linkGrp>
+                        </place>
                         <place source="http://sws.geonames.org/1850147" xml:id="O.0000051">
                             <placeName type="pref">Tokio</placeName>
                             <location>
@@ -915,13 +1229,34 @@
                                 <geo>51.4425 3.57361</geo>
                             </location>
                             <linkGrp type="files">
-                                <ptr n="Bl.9-10" target="Q.01.19140703.JVH.01.xml"/>
+                                <ptr n="Bl.363-364" target="Q.01.19190828.JVH.01.xml"/>
                                 <ptr n="Bl.11" target="Q.01.19140704.JVH.01.xml"/>
+                                <ptr n="Bl.9-10" target="Q.01.19140703.JVH.01.xml"/>
                             </linkGrp>
                         </place>
                     </listPlace>
                     <listPlace>
                         <head>W</head>
+                        <place source="http://sws.geonames.org/2745088" xml:id="O.0000072">
+                            <placeName type="pref">Wageningen</placeName>
+                            <location>
+                                <geo>51.97 5.66667</geo>
+                            </location>
+                            <linkGrp type="files">
+                                <ptr n="Bl.356" target="Q.01.19190509.JVH.01.xml"/>
+                                <ptr n="Bl.357" target="Q.01.19190618.JVH.01.xml"/>
+                            </linkGrp>
+                        </place>
+                        <place source="http://sws.geonames.org/2812482" xml:id="O.0000085">
+                            <placeName type="pref">Weimar</placeName>
+                            <location>
+                                <geo>50.9803 11.32903</geo>
+                            </location>
+                            <linkGrp type="files">
+                                <ptr n="Bl.400" target="Q.01.19211020.JVH.01.xml"/>
+                                <ptr n="Bl.401" target="Q.01.19211025.JVH.01.xml"/>
+                            </linkGrp>
+                        </place>
                         <place source="http://sws.geonames.org/2808473" xml:id="O.0000058">
                             <placeName type="pref">Wilmersdorf</placeName>
                             <location>
@@ -937,8 +1272,8 @@
                                 <geo>51.1 17.03333</geo>
                             </location>
                             <linkGrp type="files">
-                                <ptr n="Bl.185" target="Q.01.19140414.FMA.01.xml"/>
                                 <ptr n="Bl.181" target="Q.01.19140124.FMA.01.xml"/>
+                                <ptr n="Bl.185" target="Q.01.19140414.FMA.01.xml"/>
                             </linkGrp>
                         </place>
                     </listPlace>
@@ -951,6 +1286,15 @@
                             </location>
                             <linkGrp type="files">
                                 <ptr n="Bl.56-57" target="Q.01.19150209.JVH.01.xml"/>
+                            </linkGrp>
+                        </place>
+                        <place source="http://sws.geonames.org/2657896" xml:id="O.0000071">
+                            <placeName type="pref">Zürich</placeName>
+                            <location>
+                                <geo>47.36667 8.55</geo>
+                            </location>
+                            <linkGrp type="files">
+                                <ptr n="Bl.354" target="Q.01.19190217.JVH.01.xml"/>
                             </linkGrp>
                         </place>
                     </listPlace>

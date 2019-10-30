@@ -1,0 +1,152 @@
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Q.01.19151018.JVH.01">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Jacoba van Heemskerck an Herwarth Walden, 18. Oktober 1915, 35, Nassau
+                    Zuilensteinstraat, Den Haag</title>
+                <editor>
+                    <persName ref="https://orcid.org/0000-0003-2423-7144">
+                        <forename>Marjam</forename>
+                        <surname>Trautmann</surname>
+                    </persName>
+                </editor>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0002-0953-2818">
+                        <forename>Torsten</forename>
+                        <surname>Schrade</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeber</note>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0003-2423-7144">
+                        <forename>Marjam</forename>
+                        <surname>Trautmann</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeberin</note>
+                    </resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="http://www.adwmainz.de">Akademie der Wissenschaften und der
+                        Literatur | Mainz</ref>
+                </publisher>
+                <pubPlace ref="http://sws.geonames.org/2874225">Mainz</pubPlace>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/"> This file is
+                        licensed under the terms of the Creative-Commons-License CC BY 4.0
+                    </licence>
+                </availability>
+                <idno type="file">Q.01.19151018.JVH.01.v1.xml</idno>
+                <idno type="uri">https://sturm-edition.de/id/Q.01.19151018.JVH.01</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Q.01.19151018.JVH.01, Jacoba van Heemskerck an Herwarth Walden, 18. Oktober
+                    1915, 35, Nassau Zuilensteinstraat, Den Haag, bearbeitet von Marjam Trautmann,
+                    in: Der STURM. Digitale Quellenedition zur Geschichte der internationalen
+                    Avantgarde, erarbeitet und herausgegeben von Marjam Trautmann 
+                    und Torsten Schrade. Mainz, Akademie der Wissenschaften und der Literatur.</bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <country>DE</country>
+                        <settlement>Berlin</settlement>
+                        <repository>Staatsbibliothek zu Berlin Preußischer Kulturbesitz,
+                            Handschriftenabteilung, Sturm-Archiv I, Heemskerck, Jacoba
+                            van</repository>
+                        <idno type="uri">http://kalliope-verbund.info/DE-611-HS-1911091</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <xenoData type="uri">http://digital.staatsbibliothek-berlin.de/metsresolver/PPN746594917</xenoData>
+        <profileDesc>
+            <correspDesc key="Bl.115-116" ref="https://sturm-edition.de/id/Q.01.19151018.JVH.01">
+                <correspAction type="sent">
+                    <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jacoba van
+                        Heemskerck</persName>
+                    <placeName key="O.0000001" ref="http://sws.geonames.org/2747373">35, Nassau
+                        Zuilensteinstraat, Den Haag</placeName>
+                    <date when="1915-10-18"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth
+                        Walden</persName>
+                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change>
+                    <date when="2018-07-16" n="1"/>
+                </change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic n="115r" url="http://content.staatsbibliothek-berlin.de/dms/PPN746594917/800/0/00000001.jpg"/>
+        <graphic n="115v" url="http://content.staatsbibliothek-berlin.de/dms/PPN746594917/800/0/00000002.jpg"/>
+        <graphic n="116r" url="http://content.staatsbibliothek-berlin.de/dms/PPN746594917/800/0/00000003.jpg"/>
+        <graphic n="116v" url="http://content.staatsbibliothek-berlin.de/dms/PPN746594917/800/0/00000004.jpg"/>
+        <graphic n="Farbkeil" url="http://content.staatsbibliothek-berlin.de/dms/PPN746594917/800/0/00000005.jpg"/>
+    </facsimile>
+    <text type="letter">
+        <body>
+            <div type="content">
+                <pb xml:id="S.115r" n="115r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D98100000001"/>
+
+                <opener>
+                    <dateline>
+                        <date when="1915-10-18">
+                            <hi rend="underline">18. Oct: 1915</hi>
+                        </date>
+                    </dateline>
+                    <salute> Sehr wehrter Herr <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Walden</persName>
+                    </salute>
+                </opener>
+                <p>Dass ist eine recht schöne Ueberraschung, dass Sie beiden <date when="1915-11-02">Dienstag 2. Nov:</date> hier kommen Ich kann Ihnen nicht genug sagen wie
+                    froh ich bin. Fraulein <persName key="P.0000008" ref="http://d-nb.info/gnd/136128289">Tak</persName> schreibt Ihnen heute
+                    abend und hofft dass Sie beiden zu ihr kommen <unclear>wieder</unclear>. Diesen
+                    ganzen Tag sind Sie natürlich ganz frei, wir hoffen so dass es wirklich<pb xml:id="S.115v" n="115v" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D98100000002"/> eine
+                    schöne ausruhende Reise sein wird. Ich bin ganz zu Ihre Verfügung Wir können
+                    nach <placeName key="O.0000009" ref="http://sws.geonames.org/2759794">Amsterdam</placeName> und <placeName key="O.0000011" ref="http://sws.geonames.org/2747891">Rotterdam</placeName> fahren wohin Sie
+                    nur wollen.</p>
+                <p>Die Zeichnungen werde ich noch hier behalten die können Sie dann ruhig hier
+                    sehen. Ich habe die letzte Wochen in <placeName key="O.0000004" ref="http://sws.geonames.org/2756746">Domburg</placeName> viele Gemälde
+                    angefangen um diesen winter fertig zu mahlen So schön dass Sie so im Anfang auch
+                    Gemälde beurteilen können, wenn angefangen sehe ich sie auch immer schon
+                    fertig.</p>
+                <pb xml:id="S.116r" n="116r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D98100000003"/>
+                <p>Ich hole Sie beiden am Bahnhof ab. Wollen Sie lieber in ein Hotel gehen dann sind
+                    Sie ganz frei dass zu thun, aber es ist Fräulein <persName key="P.0000008" ref="http://d-nb.info/gnd/136128289">Tak</persName> ein grosses Vergnügen
+                    Sie beiden bei ihr zu sehen.</p>
+                <p>Viel Dank für Ihr Brief von <date when="1915-10-14">14 Oct:</date> mit der
+                    Zeitung Ausschnitt Ja, die Presse hat ganz um geschwankt, dass war mit dem
+                    Herbstsalon auch ganz anders. Schrecklich dass <persName key="P.0000046" ref="http://d-nb.info/gnd/118564722">Kokoschka</persName> jetzt auch schwer
+                    verwundet ist.<note>Der österreichische Künstler Oskar Kokoschka (1886–1980)
+                        wurde am 29. August 1915 in Galizien im Kriegseinsatz schwer verwundet und
+                        kam daraufhin nach Wien in ein Lazarett. Vgl. Spielmann, Heinz: Oskar
+                        Kokoschka. Leben und Werk. Köln 2003.</note>
+                </p>
+                <p>Die Reproduktion vom <term type="artwork" key="W.0000005" source="https://doi.org/10.11588/diglit.37113#0075">Holzschnitt</term>
+                    <note>Walden, Herwarth [Hrsg.]: Der Sturm.
+                        Halbmonatsschrift für Kultur und die Künste 13/14 (1915), S. 1.</note> im
+                        <term type="journal" key="W.0000068" source="https://doi.org/10.11588/diglit.37113.8" ref="http://d-nb.info/gnd/4058273-5">Sturm</term> ist ganz gut, viel Dank.</p>
+                <pb xml:id="S.116v" n="116v" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D98100000004"/>
+                <closer>
+                    <salute>Jetzt <foreign>adieu</foreign> auf ein baldiges Wiedersehen</salute>
+                    (dass hatte ich gestern auch nicht gedacht). Wie viel werden wir über alles zu
+                    reden haben. <salute>Herzlichste Grüssen für Sie beiden</salute>
+                    <signed>Ihre <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jacob<hi rend="twice-underline">a vanHeemskerck</hi>
+                        </persName>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

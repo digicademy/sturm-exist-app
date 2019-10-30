@@ -1,0 +1,135 @@
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Q.01.19140414.FMA.01">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Franz Marc an Herwarth Walden, 14. April 1914, Sindelsdorf</title>
+                <editor>
+                    <persName ref="https://orcid.org/0000-0003-2423-7144">
+                        <forename>Marjam</forename>
+                        <surname>Trautmann</surname>
+                    </persName>
+                </editor>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0002-0953-2818">
+                        <forename>Torsten</forename>
+                        <surname>Schrade</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeber</note>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0003-2423-7144">
+                        <forename>Marjam</forename>
+                        <surname>Trautmann</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeberin</note>
+                    </resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="http://www.adwmainz.de">Akademie der Wissenschaften und der Literatur | Mainz</ref>
+                </publisher>
+                <pubPlace ref="http://sws.geonames.org/2874225">Mainz</pubPlace>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        This file is licensed under the terms of the Creative-Commons-License CC BY 4.0
+                    </licence>
+                </availability>
+                <idno type="file">Q.01.19140414.FMA.01.v1.xml</idno>
+                <idno type="uri">https://sturm-edition.de/id/Q.01.19140414.FMA.01</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Q.01.19140414.FMA.01, Franz Marc an Herwarth Walden, 14. April 1914, Sindelsdorf, 
+                    bearbeitet von Marjam Trautmann, in: Der STURM. Digitale Quellenedition zur Geschichte der internationalen 
+                    Avantgarde, erarbeitet und herausgegeben von Marjam Trautmann und Torsten Schrade. 
+                    Mainz, Akademie der Wissenschaften und der Literatur.
+                    </bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <country>DE</country>
+                        <settlement>Berlin</settlement>
+                        <repository>Staatsbibliothek zu Berlin Preußischer Kulturbesitz, Handschriftenabteilung, Sturm-Archiv I, Marc, Franz</repository>
+                        <idno type="uri">http://kalliope-verbund.info/DE-611-HS-1916931</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <xenoData type="uri">http://digital.staatsbibliothek-berlin.de/metsresolver/PPN746598599</xenoData>
+        <profileDesc>
+            <correspDesc key="Bl.185" ref="https://sturm-edition.de/id/Q.01.19140414.FMA.01">
+                <correspAction type="sent">
+                    <persName key="P.0000003" ref="http://d-nb.info/gnd/11857745X">Franz Marc</persName>
+                    <placeName key="O.0000048" ref="http://sws.geonames.org/2831942">Sindelsdorf</placeName>
+                    <date when="1914-04-14"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth Walden</persName>
+                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>                  
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change>
+                    <date when="2018-07-16" n="1"/>
+                </change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic n="185v" url="http://content.staatsbibliothek-berlin.de/dms/PPN746598599/800/0/00000001.jpg"/>
+        <graphic n="185r" url="http://content.staatsbibliothek-berlin.de/dms/PPN746598599/800/0/00000002.jpg"/>
+        <graphic n="Farbkeil" url="http://content.staatsbibliothek-berlin.de/dms/PPN746598599/800/0/00000003.jpg"/>
+    </facsimile>
+    <text type="postcard">
+        <body>
+            <div type="address">
+                <pb xml:id="S.185v.01" n="185v" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000DAAA00000001"/>  
+                <ab type="recipient">
+                    <address>
+                        <addrLine>Herr</addrLine>
+                        <addrLine>Herw. <hi rend="underline">Walden</hi>
+                        </addrLine>
+                        <addrLine>Verlag ‚Sturm‘</addrLine>
+                        <addrLine>Berlin W. 9.</addrLine>
+                        <addrLine>Potsdamerstr. 134/a</addrLine>
+                    </address>
+                </ab>
+            </div>         
+            <div type="content">
+                <pb xml:id="S.185r" n="185r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000DAAA00000002"/>
+                <opener>
+                    <salute>L. <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">W</persName>,
+                    </salute>
+                </opener>
+                <p>bestätige mit vielem
+                Dank <hi rend="underline">60</hi> Mk für 2 Holzschnitte. Auch diese kleinen Verkäufe
+                nutzen mir momentan <hi rend="underline">sehr</hi>. Ich habe wohl neun Holzschnitte
+                in Arbeit, aber alle für die Illustration an der <term type="artwork" key="W.0000046">Genesis</term> gedacht, die ich keinesfalls vorher veröffentlichen darf. Aber
+                ich werde noch suchen, nebenbei für den <term type="journal" key="W.0000068" ref="http://d-nb.info/gnd/4058273-5">Sturm</term> ein paar neue zu schneiden. Hat
+                    <persName key="P.0000059" ref="http://d-nb.info/gnd/2097840-6">Arnold</persName> eigentlich die
+                Bilder aus <placeName key="O.0000053" ref="http://sws.geonames.org/3081368">B<hi rend="underline">reslau</hi>
+                    </placeName> (<hi rend="underline">3 kl</hi>eine
+                Kompositionen u. <term type="artwork" key="W.0000045">W<hi rend="underline">asserfa</hi>ll</term>) Ihnen zugesandt? Ich habe von dort nichts gehört.
+                    Vollmacht hab ich geschickt. Ist <persName key="P.0000099" ref="P.0000099">Klugen</persName> ganz vom Erdboden
+                verschwunden. Ich hegte noch immer stille Hoffnungen auf ihn. Auf die komische Sache
+                bin ich neugirig. Daß <persName key="P.0000025" ref="http://d-nb.info/gnd/118575864">Aug.
+                    Macke</persName> in der<pb xml:id="S.185v.02" n="185v" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000DAAA00000001"/> Sezession ausgestellt haben soll, kann ich schwer
+                glauben, wenigstens nicht von <hi rend="twice-underline">sich</hi> aus. <persName key="P.0000058" ref="http://d-nb.info/gnd/118870645">C.</persName> wird die Sachen von andrer
+                Seite haben. Oder ist es vielleicht <persName key="P.0000075" ref="http://d-nb.info/gnd/118575872">
+                        <hi rend="twice-underline">Hellmuth</hi> Macke</persName>? <persName key="P.0000025" ref="http://d-nb.info/gnd/118575864">August</persName> ist momentan mit
+                    <persName key="P.0000076" ref="http://d-nb.info/gnd/118562827">Klee</persName> u. <persName key="P.0000077" ref="http://d-nb.info/gnd/118583247">Moillet</persName> in <placeName key="O.0000057" ref="http://sws.geonames.org/2464470">Tunis</placeName>!<note>Die Tunisreise von
+                        Klee, Macke und Moillet wird in der Kunstgeschichte als bedeutendes Ereignis für die moderne Kunst behandelt. Vgl. Güse, Ernst-Gerhard: Die Tunisreise. Klee, Macke, Moilliet. Stuttgart 1982.</note>
+                </p>
+                <closer>
+                    <salute>Hrzl.</salute> <signed>Ihr <persName key="P.0000003" ref="http://d-nb.info/gnd/11857745X">FMarc</persName>.</signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

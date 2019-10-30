@@ -1,0 +1,125 @@
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="S.0000020">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Abteilung I, STURM-Briefe</title>
+            <title type="navigation">Abteilung I, Briefe</title>
+            <editor>
+               <persName ref="https://orcid.org/0000-0002-0953-2818">
+                  <forename>Torsten</forename>
+                  <surname>Schrade</surname>
+               </persName>
+            </editor>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-0953-2818">
+                  <forename>Torsten</forename>
+                  <surname>Schrade</surname>
+               </persName>
+               <resp>
+                  <note>Herausgeber</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0003-2423-7144">
+                  <forename>Marjam</forename>
+                  <surname>Trautmann</surname>
+               </persName>
+               <resp>
+                  <note>Herausgeberin</note>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.adwmainz.de">Akademie der Wissenschaften und der Literatur | Mainz</ref>
+            </publisher>
+            <pubPlace ref="http://sws.geonames.org/2874225">Mainz</pubPlace>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  This file is licensed under the terms of the Creative-Commons-License CC BY 4.0
+               </licence>
+            </availability>
+            <idno type="file">briefe.v1.xml</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>Torsten Schrade: "Abteilung I, STURM-Briefe", in: Der STURM. Digitale Quellenedition zur Geschichte der 
+               internationalen Avantgarde, erarbeitet und herausgegeben von Marjam Trautmann und 
+               Torsten Schrade. Mainz, Akademie der Wissenschaften und der Literatur.
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <listChange>
+            <change>
+               <date when="2018-07-16" n="1"/>
+               <p>Initiale Version</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="section" n="eight">
+            <ab rend="h2">Abteilung I, STURM-Briefe</ab>
+            <p>In dieser Abteilung werden die im STURM-Archiv der Handschriftenabteilung der
+               Staatsbibliothek zu Berlin Preußischer Kulturbesitz verzeichneten und
+               digitalisierten Briefe von STURM-Künstlern und -Künstlerinnen an Herwarth Walden
+               historisch-kritisch digital ediert und nach den Guidelines der TEI P5 in XML codiert (siehe hierzu die <ref target="edition/briefe.xml">Editionsrichtlinien</ref>). Ein Großteil der
+               über 3.700 erfassten Einheiten im Archiv ist noch nicht
+               erschlossen und wird hier erstmals einer breiten Öffentlichkeit zugänglich
+               gemacht. Einzelne Briefe oder Briefteile aus dem STURM-Archiv wurden
+               bereits im Kontext von gedruckten Publikationen veröffentlicht. In einer weiteren Projektphase
+               sollen diese Textzeugen in den Metadaten der entsprechenden Briefe
+               dokumentiert werden.</p>
+            <p> Es bieten sich zwei unterschiedliche Einstiegsmöglichkeiten in die edierten
+               Briefquellen: chronologisch (alle Briefe nach Jahren aufsteigend) sowie nach
+               Künstlern und Künstlerinnen (und dort wieder chronologisch aufsteigend).</p>
+            <ab rend="h3">Chronologisch</ab>
+            <p> Wählen Sie ein Einstiegsjahr innerhalb der Gesamtchronologie der Abteilung I: </p>
+            <list rend="ul" type="chronology">
+               <item>
+                  <ref target="quellen/briefe/chronologie.xml#y1914" rend="black button">1914</ref>
+               </item>
+               <item>
+                  <ref target="quellen/briefe/chronologie.xml#y1915" rend="black button">1915</ref>
+               </item>
+            </list>
+            <ab rend="h3">Nach Künstlern und Künstlerinnen</ab>
+            <p>Briefwechsel einzelner Künstler bzw. Künstlerinnen und Jahre: </p>
+            <table type="grid">
+               <row rend="th">
+                  <cell>Künstler/in</cell>
+                  <cell>Briefwechsel</cell>
+                  <cell>Anzahl</cell>
+               </row>
+               <row>
+                  <cell>
+                     <ref target="quellen/briefe/fma.xml">Franz Marc</ref>
+                  </cell>
+                  <cell>
+                     <ref target="quellen/briefe/fma.xml">1914-1915</ref>
+                  </cell>
+                  <cell>39</cell>
+               </row>
+               <row>
+                  <cell>
+                     <ref target="quellen/briefe/jvh.xml">Jacoba van Heemskerck</ref>
+                  </cell>
+                  <cell>
+                     <ref target="quellen/briefe/jvh.xml">1914-1915</ref>
+                  </cell>
+                  <cell>70</cell>
+               </row>
+            </table>
+         </div>
+         <div type="section" n="four">
+            <ab type="subNavigation" n="quellen"/>
+            <ab rend="h4">Editionsrichtlinien der Abteilung I</ab>
+            <p> Neben den <ref target="edition.xml">abteilungsübergreifenden
+               Editionsrichtlinien</ref> werden die Briefe nach den folgenden <ref target="edition/briefe.xml">abteilungsspezifischen Richtlinen</ref> ediert.
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

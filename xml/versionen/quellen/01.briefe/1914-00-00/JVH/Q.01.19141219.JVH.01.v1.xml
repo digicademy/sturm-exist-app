@@ -1,0 +1,180 @@
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Q.01.19141219.JVH.01">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Jacoba van Heemskerck an Herwarth Walden, 19. Dezember 1914, Den Haag</title>
+                <editor>
+                    <persName ref="https://orcid.org/0000-0003-2423-7144">
+                        <forename>Marjam</forename>
+                        <surname>Trautmann</surname>
+                    </persName>
+                </editor>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0002-0953-2818">
+                        <forename>Torsten</forename>
+                        <surname>Schrade</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeber</note>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0003-2423-7144">
+                        <forename>Marjam</forename>
+                        <surname>Trautmann</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeberin</note>
+                    </resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="http://www.adwmainz.de">Akademie der Wissenschaften und der
+                        Literatur | Mainz</ref>
+                </publisher>
+                <pubPlace ref="http://sws.geonames.org/2874225">Mainz</pubPlace>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/"> This file is
+                        licensed under the terms of the Creative-Commons-License CC BY 4.0
+                    </licence>
+                </availability>
+                <idno type="file">Q.01.19141219.JVH.01.v1.xml</idno>
+                <idno type="uri">https://sturm-edition.de/id/Q.01.19141219.JVH.01</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Q.01.19141219.JVH.01, Jacoba van Heemskerck an Herwarth Walden, 19. Dezember
+                    1914, Den Haag, bearbeitet von Marjam Trautmann, in: Der STURM. Digitale
+                    Quellenedition zur Geschichte der internationalen Avantgarde, erarbeitet und
+                    herausgegeben von Marjam Trautmann und Torsten Schrade. Mainz,
+                    Akademie der Wissenschaften und der Literatur. </bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <country>DE</country>
+                        <settlement>Berlin</settlement>
+                        <repository>Staatsbibliothek zu Berlin Preußischer Kulturbesitz,
+                            Handschriftenabteilung, Sturm-Archiv I, Heemskerck, Jacoba
+                            van</repository>
+                        <idno type="uri">http://kalliope-verbund.info/DE-611-HS-1910725</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <xenoData type="uri">http://digital.staatsbibliothek-berlin.de/metsresolver/PPN746594399</xenoData>
+        <profileDesc>
+            <correspDesc key="Bl.47-48" ref="https://sturm-edition.de/id/Q.01.19141219.JVH.01">
+                <correspAction type="sent">
+                    <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jacoba van
+                        Heemskerck</persName>
+                    <placeName key="O.0000001" ref="http://sws.geonames.org/2747373">35, Nassau
+                        Zuilensteinstraat, Den Haag</placeName>
+                    <date when="1914-12-19"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth
+                        Walden</persName>
+                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change>
+                    <date when="2018-07-16" n="1"/>
+                </change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic n="47r" url="http://content.staatsbibliothek-berlin.de/dms/PPN746594399/800/0/00000001.jpg"/>
+        <graphic n="47v" url="http://content.staatsbibliothek-berlin.de/dms/PPN746594399/800/0/00000002.jpg"/>
+        <graphic n="48r" url="http://content.staatsbibliothek-berlin.de/dms/PPN746594399/800/0/00000003.jpg"/>
+        <graphic n="48v" url="http://content.staatsbibliothek-berlin.de/dms/PPN746594399/800/0/00000004.jpg"/>
+        <graphic n="Farbkeil" url="http://content.staatsbibliothek-berlin.de/dms/PPN746594399/800/0/00000005.jpg"/>
+    </facsimile>
+    <text type="letter">
+        <body>
+            <div type="content">
+                <pb xml:id="S.47r" n="47r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D95F00000001"/>
+
+                <opener>
+                    <dateline>
+                        <date when="1914-12-19">
+                            <hi rend="underline">19. Dec: 1914</hi>
+                        </date>
+                    </dateline>
+                    <salute> Sehr wehrter Herr <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Walden</persName>
+                    </salute>
+                </opener>
+                <p>Eben habe ich <term type="journal" key="W.0000068" source="https://doi.org/10.11588/diglit.33880.14" ref="http://d-nb.info/gnd/4058273-5">der Sturm</term>
+                    <note>Walden, Herwarth
+                        [Hrsg.]: Der Sturm. Halbmonatsschrift für Kultur und die Künste 17/18
+                        (1914).</note> empfangen und las ich die sehr interessante <term type="article" key="W.0000050" source="https://doi.org/10.11588/diglit.33880#0117">Vortrag</term>
+                    <note>Behne, Adolf: Deutsche Expressionisten. Vortrag zur
+                        Eröffnung der neuen STURM-Ausstellung. In: Der Sturm. Halbmonatsschrift für
+                        Kultur und die Künste 17/18 (1914), S. 114–115.</note> von Dr <persName key="P.0000021" ref="http://d-nb.info/gnd/119191164">Behne</persName> Ich
+                    habe ihm geschrieben um ihm recht herzlich dafür zu danken. Er hat sehr gut sich
+                    in unsere Ideen und Streben eingelebt und es war ein prachtvoll Idee von Ihnen
+                    Ihm für ein Vortrag ein zu laden wenn die Kritiker vorgehen dann muss das
+                    Publikum folgen. Wollen Sie mir bitte das<pb xml:id="S.47v" n="47v" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D95F00000002"/> Buch
+                        <term type="book" key="W.0000066" ref="http://d-nb.info/578835940" source="https://doi.org/10.11588/diglit.27084">Zur neuen
+                        Kunst</term>
+                    <note>Behne, Adolf: Zur Neuen Kunst. Berlin 1915.</note> von Dr
+                        <persName key="P.0000021" ref="http://d-nb.info/gnd/119191164">Behne</persName> schicken lassen, ich schicke der Sturm dann 50. Pfn: Da
+                    ich Ihnen jetzt doch schreibe möchte ich Ihnen fragen obwohl es noch keine Eile
+                    hat ob Sie noch rechnen dass ich meine Ausstellung in <date when="1915-03">März</date> halte.<note>Im März 1915 fand in der Sturm-Galerie die 31.
+                        STURM-Ausstellung mit Werken Jacoba van Heemskercks statt. Vgl. Enders,
+                        Rainer: Ausstellungskataloge der STURM-Galerie. URL: <ref target="https://www.arthistoricum.net/themen/portale/sturm/ausstellungskataloge/">https://www.arthistoricum.net/themen/portale/sturm/ausstellungskataloge/</ref>
+                        (Stand: 06.04.2017).</note> Ich denke dann 20. Gemälde schicken zu können
+                    und ein Anzahl Zeichnungen, Aquarelle und schwarz und weiss. Die Aquarelle und
+                    Zeichnungen möchte ich so sehr gern nicht eingerahmt schicken da das Glas alles
+                    so sehr schwer macht, ist<pb xml:id="S.48r" n="48r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D95F00000003"/> es
+                    möglich Sie nicht eingerahmt zu schicken? Kann man dann während der Ausstellung
+                    Glasplatten einfach hinstellen und die Zeichnungen da hinter oder ist dass nicht
+                    möglich. Was denken Sie über meine Ausstellung ist es besser zu warten bis die
+                    Zeiten ruhiger sind? Sie sagen nur Ihre Meinung. Sie wissen immer was am besten
+                    ist und gern folge ich Ihre Ansichten.</p>
+                <p>Viel Dank für die Zeitungen. Solche eine Kraft geht in Kunst und in alles von
+                        <placeName key="O.0000014" ref="http://sws.geonames.org/2921044">Deutschland</placeName> aus ich bin überzeugt dass es siegen wird.</p>
+                <p>In <placeName key="O.0000022" ref="http://sws.geonames.org/798544">Polen</placeName> geht es prachtvoll<note>Seit der letzten der drei
+                        Teilungen Polens (1772, 1793, 1795) existierte das Land ausschließlich unter
+                        der Herrschaft der drei Teilungsmächte Deutsches Reich (der westliche Teil:
+                        Posen, Westpreußen), Russisches Reich (der zentrale Teil: Russisch-Polen)
+                        und Österreich-Ungarn (Galizien und Lodomerien). Die Kampfhandlungen an der
+                        Ostfront fanden hauptsächlich in diesen Gebieten statt, da hier die
+                        Territorien der Mittelmächte mit denen Russlands direkt zusammenliefen. Am
+                        6. Dezember 1914 nahmen deutsche Truppen die Stadt Lodz ein. Vgl. Hecker,
+                        Hans: Polen. In: Enzyklopädie Erster Weltkrieg. Hrsg. v. Gerhard Hirschfeld
+                        [u.a.]. Paderborn [u.a.] 2004, S. 777–779, hier S.777; Frank, Susanne:
+                        Chronik 1914–1918. In: Enzyklopädie Erster Weltkrieg. Hrsg. v. Gerhard
+                        Hirschfeld [u.a.]. Paderborn [u.a.] 2004, S. 1061–1070, hier S. 1064.</note>
+                        und<pb xml:id="S.48v" n="48v" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D95F00000004"/> die
+                        <placeName key="O.0000023" ref="http://sws.geonames.org/6269131">englische
+                        Küste</placeName>!<note>Ab September 1914 wurden in offensiverem Ausmaß als
+                        zuvor U-Boote in der deutschen Seekriegsführung eingesetzt, vor allem gegen
+                        britische Kreuzer, und später auch Handelsschiffe rund um die britischen
+                        Inseln. Ab Anfang 1915 enterten die deutschen U-Boote vor allem britische
+                        und französische Zivil- und Handelsschiffe ohne vorherige Warnung. Vgl.
+                        Audoin-Rouzeau, Stéphane: 1915: Stalemate. In: The Cambridge History of the
+                        First World War. Bd. 1 Gobal War. Cambridge 2014, S. 65–88, hier S. 80;
+                        Rohwer, Jürgen: U-Boot-Krieg. In: Enzyklopädie Erster Weltkrieg. Hrsg. v.
+                        Gerhard Hirschfeld [u.a.]. Paderborn u.a. 2004, S. 931–934, hier S.
+                        931.</note>
+                </p>
+                <closer>
+                    <salute>Herzlichste Grüssen für Sie beiden und in diese Zeiten ein so
+                        möglich fröhliches Weihnachten.</salute>
+                    <signed>Ihre <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Ja<hi rend="twice-underline">coba vanHeemskerck</hi>
+                        </persName>
+                    </signed>
+                </closer>
+                <postscript>
+                    <p>Viel Dank für Ihr Brief, die Holzschnitten für die Mappe werde ich jedenfalls
+                        einzeln signieren.</p>
+                </postscript>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,266 @@
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="S.0000010">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Abteilungsspezifische Editionsrichtlinien: Abteilung I – STURM-Briefe</title>
+                <title type="navigation">STURM-Briefe</title>
+                <editor>
+                    <persName ref="https://orcid.org/0000-0003-2423-7144">
+                        <forename>Marjam</forename>
+                        <surname>Trautmann</surname>
+                    </persName>
+                </editor>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0002-0953-2818">
+                        <forename>Torsten</forename>
+                        <surname>Schrade</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeber</note>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0003-2423-7144">
+                        <forename>Marjam</forename>
+                        <surname>Trautmann</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeberin</note>
+                    </resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="http://www.adwmainz.de">Akademie der Wissenschaften und der Literatur | Mainz</ref>
+                </publisher>
+                <pubPlace ref="http://sws.geonames.org/2874225">Mainz</pubPlace>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        This file is licensed under the terms of the Creative-Commons-License CC BY 4.0
+                    </licence>
+                </availability>
+                <idno type="file">briefe.xml</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Marjam Trautmann: "Abteilungsspezifische Editionsrichtlinien: Abteilung I – STURM-Briefe", in: Der STURM. Digitale Quellenedition zur Geschichte der 
+                    internationalen Avantgarde, erarbeitet und herausgegeben von Marjam Trautmann und 
+                    Torsten Schrade. Mainz, Akademie der Wissenschaften und der Literatur.
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <listChange>
+                <change>
+                    <date when="2019-08-26" n="2"/>
+                </change>
+                <change>
+                    <date when="2018-07-16" n="1"/>
+                    <p>Initiale Version</p>
+                </change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="section" n="eight">
+                <ab rend="h2">Abteilungsspezifische Editionsrichtlinien</ab>
+                <ab rend="h3">Abteilung I – STURM-Briefe</ab>
+                <ab rend="h5">Transkription</ab>
+                <p>Die Briefe (hier Synonym auch für Postkarten und Telegramme) liegen in einer diplomatischen Transkription vor, in der
+                    Interpunktion, Orthographie und Satzbau originalgetreu übernommen werden.
+                    Tilgungen werden lediglich bei erkennbar inhaltlichen Auswirkungen auf den
+                    Brieftext abgebildet. Nicht geleistet wird eine topographische Nachbildung der
+                    Briefe. Als Referenz auf die jeweiligen Poststempel,
+                    Wasserzeichen und Vordrucke – vor allem bei Feldpostkarten und Telegrammen
+                    vorhanden – sei auf die digitalen Faksimiles verwiesen. Silbentrennungen werden
+                    aufgelöst. Handschriftliche Beilagen der Briefe werden in die Transkription aufgenommen, während beispielsweise für Zeichnungen und Zeitungsausschnitte zur Rezeption auf das entsprechende Faksimile verwiesen sei.</p>
+                <ab rend="h5">Kommentierung</ab>
+                <p>Der historisch-kritische Kommentar bemüht sich, die Briefe deskriptiv in den
+                    jeweiligen historischen Kontext zu setzen und – abhängig von editorischem
+                    Ermessen – den Text erläuternd zu begleiten. Die Erläuterung von Orten, Personen und Werken wird durch den Verweis auf 
+                    entsprechende Normdatensätze im Register gewährleistet (siehe dazu in den <ref target="edition.xml">abteilungsübergreifenden Editionsrichtlinien</ref> die Punkte „Genannte Orte“, „Genannte Personen“, „Genannte Werke“ sowie die Einführung in die <ref target="register.xml">Register</ref>).
+                Explizit zuweisbare Zeitschriften(-artikel) und Buchwerke werden außerdem über den Fußnotenapparat bibliographisch erfasst.
+                </p>
+                <ab rend="h5">Darstellung</ab>
+                <p>Interne oder externe Verweise sind in der Edition insgesamt durch eine rote Schriftfarbe gekennzeichnet.</p>
+                <p>Der Transkription eines Briefes gehen Hinweise zum Dokumententyp (bspw. Brief, Postkarte, Telegramm) und der Archivsignatur der Quelle voraus. Außerdem ist 
+                    die Navigation zurück zur chronologischen und der personenspezifischen Korrespondenz-Übersicht möglich.
+                Über Buttons mit entsprechenden Pfeilen gelangt man im aufgerufenen Korpus voran bzw. zurück. 
+                Auf die zugrunde liegenden XML-Daten der Briefe kommt man über den „XML“-Button. 
+                Die „Metadaten“ im Metadata Enconding &amp; Transmission Standard (METS) werden von der 
+                Staatsbibliothek zu Berlin Preußischer Kulturbesitz bereitgestellt. Sie enthalten u.a. 
+                Permalinks auf die Digitalisate der einzelnen Briefseiten (in verschiedenen Formaten und Auflösungen) – die in dieser Edition
+                in die einzelnen Datensätze der Briefe eingebunden sind. Die in der Desktop-Darstellung rechts dargestellten Faksimiles kann man durch Anklicken der einzelnen Seiten vergrößern, über den „DFG-Viewer“-Button gelangt man auf die Fakisimiles in der dortigen Ansicht.</p>
+                <p>In eckigen Klammern [ ] stehen das Absendedatum des Briefes und, falls bekannt, der Absendeort. Falls Poststempel vorhanden sind (vor allem bei Postkarten/Feldpostkarten) werden die darin vorhandenen Angaben zu Datum und Ort übernommen. 
+                Dies hat zur Folge, dass die Datierung in den eckigen Klammern von derjenigen in der nachfolgenden Transkription abweichen kann, da nicht alle Briefe direkt an ihrem Verfassungstag verschickt wurden.</p>
+                <p>Sind die Empfänger- und/oder die Absenderadresse überliefert, werden diese der inhaltlichen Transkription vorangestellt. Dabei steht die Empfängeradresse (in der Desktop-Ansicht) rechts und die Absenderadresse links.</p>
+                <p>Seitenwechsel sind durch eine Folioangabe am linken Rand (Desktop-Ansicht) bzw. innerhalb der Transkription an entsprechender Stelle (Mobile-Ansicht) gekennzeichnet. Über die Folioangaben ist es möglich, auf die entsprechenden Digitalisate in der „Digitalen Sammlung“ der Staatsbibliothek zu Berlin zu navigieren. 
+                    In der Desktop-Ansicht werden die entsprechenden Seitenwechsel 
+                    innerhalb des Textes, zusätzlich zur Folioangabe am Rand, durch ein "|" kenntlich gemacht.</p>
+                <p>Von der Hauptsprache des Brieftextes abweichende Worte werden kursiv dargestellt, unsichere Lesungen/Transkriptionen unterpunktet. Erwähnungen von in der STURM-Edition bereits edierten Briefen werden als Verweise zum entsprechenden Brief über eine rote Schriftfarbe kenntlich gemacht.</p>
+                <p>Die Gruß- und die Schlussformel eines Briefes sind durch Absätze vom „Haupttext“ des Briefes abgesetzt dargestellt. Die Kommentare sind bisher klassisch als Fußnotenapparat am Dokumentenende ausgewiesen.</p>
+                <p>In den <ref target="register.xml">Registern</ref> (bisher: Orte, Werke, Personen) verzeichnete Entitäten sind rot hervorgehoben. Über deren Anklicken gelangt man auf 
+                    den entsprechenden Registereintrag. Sind Digitalisate zu Entitäten 
+                    vorhanden, beispielsweise von einer genannten Ausgabe der STURM-Zeitschrift, wird darauf über einen roten Pfeil und ein 
+                    rotes (i) im Text verwiesen.</p>
+                
+                <ab rend="h5">Codierung korrespondenzspezifischer Metadaten</ab>
+                <p>Die Metadaten eines Briefdatensatzes werden im <code rend="xml">teiHeader</code>-Element codiert. Die abteilungsspezifischen 
+                    Metadaten fügen sich in die <ref target="edition.xml">abteilungsübergreifenden Metadaten</ref> ein.</p>
+                <ab rend="h6">Empfänger und Absender eines Briefes</ab>
+                <p>In den Metadaten eines jeden Briefes sind die vorhandenen Absende- und
+                    Empfangsinformationen verzeichnet:</p>
+               
+                <ab rend="pre">
+                <code rend="xml"> 
+&lt;correspDesc&gt; 
+ &lt;correspAction type="sent"&gt;
+  &lt;persName key="P.0000003" ref="http://d-nb.info/gnd/11857745X"&gt;Franz Marc&lt;/persName&gt;
+  &lt;placeName key="O.0000048" ref="http://sws.geonames.org/2831942"&gt;Sindelsdorf&lt;/placeName&gt;
+  &lt;date when="1914-01-19"/&gt;
+ &lt;/correspAction&gt;
+ &lt;correspAction type="received"&gt;
+  &lt;persName key="P.0000001" ref="http://d-nb.info/gnd/118770950"&gt;Herwarth Walden&lt;/persName&gt;
+  &lt;placeName key="O.0000002" ref="http://sws.geonames.org/2950157"&gt;Berlin&lt;/placeName&gt;
+ &lt;/correspAction&gt;
+ &lt;note&gt;[gegebenenfalls editorische Erläuterung zur den hier erfassten Daten]&lt;/note&gt;
+&lt;/correspDesc&gt;
+                </code>
+                </ab>
+                <p>
+                    Die Elemente <code rend="xml">persName</code> und <code rend="xml">placeName</code> enthalten in ihrem jeweiligen Attribut <code rend="xml">ref</code> die Norm-ID zum entsprechenden Datensatz der <ref target="http://www.dnb.de/EN/Standardisierung/GND/gnd_node.html">GND</ref> bzw. von <ref target="http://www.geonames.org/">Geonames</ref>.
+                </p>
+                <p>Das Element <code rend="xml">date</code> zur Datierung des Sende- bzw. Empfangsvorgangs enthält entweder das Attribut <code rend="xml">when</code> oder die Attribute <code rend="xml">notBefore</code> und/oder <code rend="xml">notAfter</code>. Der Wert dieser Attribute ist stets ein nach ISO 8601 codiertes Datum (JJJJ-MM-TT).
+                    Ist ein Poststempel vorhanden, dann wird hier das Datum des Poststempels eingetragen, ansonsten das durch den Briefschreiber oder die Briefschreiberin handschriftlich notierte Schreibdatum. Des Weiteren werden editorische Hinweise zu den Korrespondenz-Metadaten in einem <code rend="xml">note</code>-Element notiert: So beispielsweise, wenn der Absendeort aus dem Briefkontext erschlossen wurde.</p>
+                <p>
+                    
+                </p>
+                <ab rend="h5">Codierung briefspezifischer Textstrukturen</ab>
+                <p>Der gesamte Inhalt eines Briefes wird in <code rend="xml">div</code>-Elemente gesetzt. Dabei wird zwischen den Adressangaben (Absendeadresse, Empfängeradresse), dem eigentlichen Inhalt des Briefes und handschriftlichen Beilagen unterschieden:</p>
+                <ab rend="pre">
+                    <code rend="xml">
+&lt;body&gt;
+    &lt;div type="address"&gt;
+    Adressierungen.
+    &lt;/div&gt;
+    &lt;div type="content"&gt;
+    Brieftext.
+    &lt;/div&gt;
+    &lt;div type="attachment"&gt;
+    Beilage.
+    &lt;/div&gt;
+&lt;/body&gt;
+                    </code>
+                </ab>
+                <ab rend="h6">Empfänger- und Senderadresse</ab>
+                <p>Die in einem <code rend="xml">&lt;div type="address"&gt;</code>-Element stehenden Adressierungen werden – nach Sende- und Empfangsandresse separiert – in einem <code rend="xml">ab</code>-Element mit den entsprechenden <code rend="xml">type</code>-Werten <code rend="xml">sender</code> oder <code rend="xml">recipient</code> codiert. Die Adresszeilen (<code rend="xml">addrLine</code>) selbst stehen im Element <code rend="xml">address</code>. Die Adressen werden im Textfluss transkribiert, können also (wie meistens) ganz zu Beginn der Transkription stehen, gegebenenfalls aber auch am Ende eines Brieftextes:</p>
+               <ab rend="pre">
+                   <code rend="xml">
+&lt;div type="address"&gt;
+&lt;pb xml:id="" n="" facs=""/&gt; &lt;!-- Meist findet mit der Adressierung ein Seitenbeginn statt. --&gt;
+  &lt;ab type="sender"&gt;
+    &lt;address&gt;
+       &lt;addrLine&gt;Adresszeile&lt;/addrLine&gt;
+       &lt;addrLine&gt;Adresszeile&lt;/addrLine&gt;
+       &lt;addrLine&gt;Adresszeile&lt;/addrLine&gt;
+    &lt;/address&gt;
+ &lt;/ab&gt;
+ &lt;ab type="recipient"&gt;
+    &lt;address&gt;
+       &lt;addrLine&gt;Adresszeile&lt;/addrLine&gt;
+       &lt;addrLine&gt;Adresszeile&lt;/addrLine&gt;
+       &lt;addrLine&gt;Adresszeile&lt;/addrLine&gt;
+    &lt;/address&gt;
+  &lt;/ab&gt; 
+&lt;/div&gt;
+                   </code>
+               </ab>
+                
+                <ab rend="h6">Briefanfang</ab>
+                <p>Datierung und Anrede durch den Briefschreiber oder die Briefschreiberin:</p>
+                <ab rend="pre">
+                    <code rend="xml">
+&lt;div type="content"&gt;                        
+ &lt;opener&gt;
+  &lt;dateline&gt;
+    &lt;placeName ref="http://sws.geonames.org/2756746"&gt;Domburg&lt;/placeName&gt;
+    &lt;date when="1914-08-22"&gt;22. Aug 1914&lt;/date&gt;
+  &lt;/dateline&gt;
+  &lt;salute&gt;Sehr geehrter Herr Walden&lt;/salute&gt;,
+ &lt;/opener&gt;
+&lt;/div&gt;  
+                    </code>
+                </ab> 
+                
+                <p>Geht der Datierung und Anrede in einem Brief ein anders definierter Text voraus, so wird dieser in einem <code rend="xml">div</code>-Element codiert:</p>
+                <ab rend="pre">
+                    <code rend="xml">
+&lt;body&gt;
+    &lt;div type="content"&gt;
+    Text, Tabelle, Liste.
+    &lt;/div&gt;
+    &lt;div type="content"&gt;
+      &lt;opener/&gt;
+       ...
+    &lt;div&gt;
+&lt;/body&gt;
+                    </code>
+                </ab>
+
+                <ab rend="h6">Haupttext</ab>
+                <p>Soweit in den Briefen nachvollziehbar, werden die Absätze in die Annotation aufgenommen:</p>
+                <ab rend="pre">
+                   <code rend="xml">
+&lt;div type="content"&gt;                       
+ &lt;opener/&gt; 
+ &lt;p&gt;Absatz&lt;/p&gt;
+ ...
+&lt;/div&gt;                        
+                    </code>                   
+                </ab> 
+                <ab rend="h6">Briefschluss</ab>
+                <p>Den klassischen Abschluss eines Briefes bilden eine Grußformel und die Unterschrift des Absenders oder der Absenderin:</p>
+                <ab rend="pre">
+                    <code rend="xml">
+&lt;div type="content"&gt;                       
+    ...
+    &lt;closer&gt;
+        &lt;salute&gt;Herzlichste Grüssen von uns allen&lt;/salute&gt;
+        &lt;signed&gt;Ihre Jacoba van Heemskerck&lt;/signed&gt;
+    &lt;/closer&gt;
+ ...
+&lt;/div&gt;                                
+                    </code>
+                </ab>
+                <ab rend="h6">Postskriptum</ab>
+                <p>Ein Postskriptum als Nachtrag zum bereits abgeschlossenen Brieftext durch den Briefschreiber oder die Briefschreiberin:</p>
+               <ab rend="pre">
+                <code rend="xml">
+&lt;div type="content"&gt;
+...
+ &lt;closer/&gt;
+ &lt;postscript&gt;
+  &lt;label&gt;P.S. [falls vorhanden]&lt;/label&gt;
+  &lt;p&gt;Nachträgliche Anmerkung.&lt;/p&gt;
+ &lt;/postscript&gt;
+&lt;/div&gt;
+                </code>               
+               </ab>
+            </div>
+            <div type="section" n="four">
+                <ab type="subNavigation" n="edition"/>
+                <ab rend="h4">Abteilungsübergreifende Editionsrichtlinien</ab>
+                <p>
+                    Neben den spezifischen Editionsrichtlinien der Abteilung I finden auch die 
+                    <ref target="edition.xml">übergreifenden Editionsrichtlinien</ref> Anwendung.
+                </p>
+                <ab rend="h4">Digitale Methodik</ab>
+                <p>
+                    Weitere Informationen einschließlich einer Darstellung der im Projekt verwendeten Gesamtsystematik
+                    finden sich im Begleittext zur <ref target="projekt/methodik.xml">Digitalen Methodik</ref>.
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,164 @@
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Q.01.19151206.JVH.01">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Jacoba van Heemskerck an Herwarth Walden, 6. Dezember 1915, 35, Nassau Zuilensteinstraat, Den Haag</title>
+                <editor>
+                    <persName ref="https://orcid.org/0000-0003-2423-7144">
+                        <forename>Marjam</forename>
+                        <surname>Trautmann</surname>
+                    </persName>
+                </editor>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0002-0953-2818">
+                        <forename>Torsten</forename>
+                        <surname>Schrade</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeber</note>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0003-2423-7144">
+                        <forename>Marjam</forename>
+                        <surname>Trautmann</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeberin</note>
+                    </resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="http://www.adwmainz.de">Akademie der Wissenschaften und der Literatur | Mainz</ref>
+                </publisher>
+                <pubPlace ref="http://sws.geonames.org/2874225">Mainz</pubPlace>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        This file is licensed under the terms of the Creative-Commons-License CC BY 4.0
+                    </licence>
+                </availability>
+                <idno type="file">Q.01.19151206.JVH.01.v1.xml</idno>
+                <idno type="uri">https://sturm-edition.de/id/Q.01.19151206.JVH.01</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Q.01.19151206.JVH.01, Jacoba van Heemskerck an Herwarth Walden, 6. Dezember 1915, 35, Nassau Zuilensteinstraat, Den Haag, 
+                    bearbeitet von Marjam Trautmann, in: Der STURM. Digitale Quellenedition zur Geschichte der internationalen 
+                    Avantgarde, erarbeitet und herausgegeben von Marjam Trautmann und Torsten Schrade. 
+                    Mainz, Akademie der Wissenschaften und der Literatur.
+                    </bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <country>DE</country>
+                        <settlement>Berlin</settlement>
+                        <repository>Staatsbibliothek zu Berlin Preußischer Kulturbesitz,
+                     Handschriftenabteilung, Sturm-Archiv I, Heemskerck, Jacoba van</repository>
+                        <idno type="uri">http://kalliope-verbund.info/DE-611-HS-1911232</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <xenoData type="uri">http://digital.staatsbibliothek-berlin.de/metsresolver/PPN746595042</xenoData>
+        <profileDesc>
+            <correspDesc key="Bl.129" ref="https://sturm-edition.de/id/Q.01.19151206.JVH.01">
+                <correspAction type="sent">
+                    <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jacoba van Heemskerck</persName>
+                    <placeName key="O.0000001" ref="http://sws.geonames.org/2747373">35, Nassau Zuilensteinstraat, Den Haag</placeName>                   
+                    <date when="1915-12-06"/>               
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth Walden</persName>
+                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change>
+                    <date when="2018-07-16" n="1"/>
+                </change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic n="129r" url="http://content.staatsbibliothek-berlin.de/dms/PPN746595042/800/0/00000001.jpg"/>
+        <graphic n="129v" url="http://content.staatsbibliothek-berlin.de/dms/PPN746595042/800/0/00000002.jpg"/>
+        <graphic n="Farbkeil" url="http://content.staatsbibliothek-berlin.de/dms/PPN746595042/800/0/00000003.jpg"/>
+    </facsimile>
+    <text type="postcard">
+        <body>
+            <div type="address">
+                <pb xml:id="S.129.r.02" n="129r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D98900000001"/>
+           <ab type="sender">
+               <address>
+                   <addrLine>35. Nassau Zuilensteinstraat</addrLine>
+                        <addrLine>
+                            <hi rend="underline">Haag</hi> Holland</addrLine>
+               </address>
+           </ab>
+                <ab type="recipient">
+                    <address>
+                        <addrLine>Herrn <hi rend="underline">Herwarth Walden</hi>
+                        </addrLine>
+                        <addrLine>Verlag der Sturm</addrLine>
+                        <addrLine>134<hi rend="super">
+                                <hi rend="twice-underline">a</hi>
+                            </hi> Potsdamerstrasse.</addrLine>
+                        <addrLine>
+                            <hi rend="underline">Berlin</hi> W. 9/</addrLine>
+                        <addrLine>Deutschland</addrLine>
+                    </address>
+                </ab>
+            </div>
+            <div type="content">
+            <pb xml:id="S.129v" n="129v" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D98900000002"/>
+            
+                <opener>
+                    <dateline>
+                        <date when="1915-12-06">
+                            <hi rend="underline">6. Dezs
+                  1915</hi>
+                        </date>
+                    </dateline>
+                    <salute>S. W. Herr <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">W.</persName>
+                    </salute>
+                </opener>
+                <p>Keine Briefe von Ihnen empfangen die letzte war vom <date when="1915-11-24">
+                        <hi rend="underline">24.</hi>
+                    November</date>. Ihnen <date when="1915-11-25">
+                        <hi rend="underline">25</hi>. Nov.</date> eine <ref target="Q.01.19151124.JVH.01">Postkarte</ref> und <date when="1915-11-27">
+                        <hi rend="underline">27</hi> Nov.</date> ein <ref target="Q.01.19151126.JVH.01">lange Brief</ref> geschrieben und um
+                  Sturmzettel<note>Der Begriff „Sturmzettel“ ist in der Literatur nicht belegt. Van
+                      Heemskerck spricht in ihrem <ref target="Q.01.19141016.JVH.01">Brief</ref> an Walden vom 16. Oktober 1914 (Bl.29-30) davon,
+                  dass sie ihm mit Zetteln nummerierte Bilder schicken wolle: „die Bilder werde ich
+                  dann auch mit die Zettel vom Sturm nummerieren [...].“ In den folgenden Briefen
+                  ist dann von „Sturmzetteln“ die Rede. Es wird hier angenommen, dass „Sturmzettel“
+                  Vorlagen des STURM-Unternehmens zur Bennennung und Nummerierung von Kunstwerken
+                  waren.</note> gebeten. Wenn Sie nichts erhalten haben, bitte schicken Sie dann
+               jetzt Sturmzettel und ist es Ihnen recht wenn ich am <date when="1915-12-16">
+                        <hi rend="underline">16.</hi> Dec:</date> die Bilder abschicke?
+               Ich habe Ihnen im Brief gefragt ob es auch besser ist die Ausstellung eine Woche
+               früher zu öffnen da es sehr wenig Zeit ist von <date notBefore="1916-02" notAfter="1915-03-15">ende Februar bis 15. März</date> die Bilder nach hier zu
+                  schicken<note>Im Februar 1916 fand die 38. STURM-Ausstellung mit Werken Jacoba
+                  van Heemskercks in der Berliner Galerie statt. Vgl. Enders, Rainer:
+                  Ausstellungskataloge der STURM-Galerie.
+                  <ref target="https://www.arthistoricum.net/themen/portale/sturm/ausstellungskataloge/">https://www.arthistoricum.net/themen/portale/sturm/ausstellungskataloge/</ref> (Aufruf
+                  06.04.2017).</note> Sie wissen aber am besten<pb xml:id="S.129r.01" n="129r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D98900000001"/> was
+               geschehen muss</p> <closer>
+                    <salute>Für heute herzlichste Grüsse.</salute> Hoffentlich höre ich bald wie die
+               Ausstellung jetzt ist,<note>Im Dezember 1915 fand die 36. STURM-Ausstellung mit
+                  graphischen Werken, unter anderem von Jacoba van Heemskerck, statt. Vgl. Enders,
+                  Rainer: Ausstellungskataloge der STURM-Galerie.
+                  <ref target="https://www.arthistoricum.net/themen/portale/sturm/ausstellungskataloge/">https://www.arthistoricum.net/themen/portale/sturm/ausstellungskataloge/</ref> (Aufruf
+                  06.04.2017).</note> gibt es Kritiken?
+                
+                    <signed>Ihre <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">J<hi rend="twice-underline">acobavHeemskerck</hi>
+                        </persName>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

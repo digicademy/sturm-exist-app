@@ -27,7 +27,7 @@
                     Avantgarde, erarbeitet und herausgegeben von Marjam Trautmann und Torsten Schrade. 
                     Mainz, Akademie der Wissenschaften und der Literatur.
                     </bibl><msDesc><msIdentifier><country>DE</country><settlement>Berlin</settlement><repository>Staatsbibliothek zu Berlin Preußischer Kulturbesitz,
-                     Handschriftenabteilung, Sturm-Archiv I, Heemskerck, Jacoba van</repository><idno type="uri">http://kalliope-verbund.info/DE-611-HS-1911228</idno></msIdentifier></msDesc></sourceDesc></fileDesc><xenoData type="uri">http://digital.staatsbibliothek-berlin.de/metsresolver/PPN746595034</xenoData><profileDesc><correspDesc key="Bl.127-128" ref="https://sturm-edition.de/id/Q.01.19151126.JVH.01">
+                     Handschriftenabteilung, Sturm-Archiv I, Heemskerck, Jacoba van</repository><idno type="uri">http://resolver.staatsbibliothek-berlin.de/SBB0000D98800000000</idno></msIdentifier></msDesc></sourceDesc></fileDesc><xenoData type="uri">http://kalliope-verbund.info/DE-611-HS-1911228</xenoData><xenoData type="url">http://content.staatsbibliothek-berlin.de/dc/PPN746595034.mets.xml</xenoData><profileDesc><correspDesc key="Bl.127-128" ref="https://sturm-edition.de/id/Q.01.19151126.JVH.01">
                 <correspAction type="sent">
                     <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jacoba van Heemskerck</persName>
                     <placeName key="O.0000001" ref="http://sws.geonames.org/2747373">35, Nassau Zuilensteinstraat, Den Haag</placeName>                   
@@ -35,9 +35,9 @@
                 </correspAction>
                 <correspAction type="received">
                     <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth Walden</persName>
-                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>
+                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950159">Potsdamerstrasse 134a, Berlin W.9.</placeName>
                 </correspAction>
-            </correspDesc></profileDesc><revisionDesc><listChange><change><date when="2018-07-16" n="1"/></change></listChange></revisionDesc></teiHeader>
+            </correspDesc></profileDesc><revisionDesc><listChange><change><date when="2019-07-25" n="2"/><p>URL zur METS-Datei der Staatsbibliothek zu Berlin aktualisiert innerhalb von :xenoData und zusätzliches :xenoData mit permanenter URI zum Kalliope-Findbucheintrag.</p><p>:idno URL innerhalb von :msIdentifier durch permanente URL zum entsprechenden Datensatz der Staatsbibliothek zu Berlin gesetzt</p><p>Standardisierung der Kommentierungstiefe, keine spezifischen Erklärungen von Fremdwörtern außerhalb des Sturm-Kontextes</p><p>Normdaten (Geonames) zu Stadt Berlin korrigiert (zuvor fälschlicherweise Verweis auf "Land Berlin")</p></change><change><date when="2018-07-16" n="1"/></change></listChange></revisionDesc></teiHeader>
     <facsimile>
         <graphic n="127r" url="http://content.staatsbibliothek-berlin.de/dms/PPN746595034/800/0/00000001.jpg"/>
         <graphic n="127v" url="http://content.staatsbibliothek-berlin.de/dms/PPN746595034/800/0/00000002.jpg"/>
@@ -61,10 +61,7 @@
                     </salute></opener>
                 <p>Glücklich ist alles in Ordnung um aber weiter kein unangenehme Ueberraschungen zu
                haben hoffe ich die Bilder <date when="1915-12-16">16. Dezember</date> ab schicken zu
-               können mit <foreign>grande Vitesse</foreign><note>„Grande vitesse“ (frz.) heißt im
-                  Deutschen „Hochgeschwindigkeit“. Es ist davon auszugehen, dass Jacoba van
-                  Heemskerck hiermit den postalischen Versand per Eilpost
-                  meinte.</note> ich habe mein <persName key="P.0000026" ref="P.0000026">emballeur</persName><note>„Emballeur“ (frz.) bezeichnet zu Deutsch einen
+               können mit <foreign>grande Vitesse</foreign> ich habe mein <persName key="P.0000026" ref="P.0000026">emballeur</persName><note>„Emballeur“ (frz.) bezeichnet zu Deutsch einen
                   Verpacker. Jacoba van Heemskerck ließ ihre Kunstwerke von ihrem Emballeur Herr
                   Ridderhof an Walden nach Berlin zum Versand vorbereiten und abschicken.</note>
                über eine versicherung von Lieferfrist gesprochen er sagt aber dass man dass hier
@@ -72,19 +69,19 @@
                es nicht zu spät <date when="1916-01-20">30 Januar</date> zu öffnen Sie haben dann
                bis ende <date when="1916-02">Februar</date> die Ausstellung und dann noch 18. Tagen
                bis <date when="1916-03-15">15 März</date> um die Bilder nach hier zu
-                  schicken,<note>Im Februar 1916 fand die 38. Sturm-Ausstellung mit Werken Jacoba
+                  schicken,<note>Im Februar 1916 fand die 38. STURM-Ausstellung mit Werken Jacoba
                   van Heemskercks in der Berliner Galerie statt. Vgl. Enders, Rainer:
                   Ausstellungskataloge der STURM-Galerie.
                   <ref target="https://www.arthistoricum.net/themen/portale/sturm/ausstellungskataloge/">https://www.arthistoricum.net/themen/portale/sturm/ausstellungskataloge/</ref> (Aufruf
                   06.04.2017).</note> und jetzt geht es hier in <placeName key="O.0000003" ref="http://sws.geonames.org/2750405">Holland</placeName> mit die Mobilisation
                auch viel langsamer dann in Friedenszeit. Sie machen es nach natürlich am besten, ich
-               sage es nur, mir ist es ganz gleich eine Woche früher nach <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Berlin</placeName> zu kommen. Bitte schicken
+               sage es nur, mir ist es ganz gleich eine Woche früher nach <placeName key="O.0000002" ref="http://sws.geonames.org/2950159">Berlin</placeName> zu kommen. Bitte schicken
                Sie Sturmzettel<note>Der Begriff „Sturmzettel“ ist in der Literatur nicht belegt. Van
                   Heemskerck spricht in ihrem <ref target="Q.01.19141016.JVH.01">Brief</ref> an Walden vom 16. Oktober 1914 (Bl.29-30) davon,
                   dass sie ihm mit Zetteln nummerierte Bilder schicken wolle: „die Bilder werde ich
                   dann auch mit die Zettel vom Sturm nummerieren [...].“ In den folgenden Briefen
                   ist dann von „Sturmzetteln“ die Rede. Es wird hier angenommen, dass „Sturmzettel“
-                  Vorlagen des Sturm-Unternehmens zur Bennennung und Nummerierung von Kunstwerken
+                  Vorlagen des STURM-Unternehmens zur Bennennung und Nummerierung von Kunstwerken
                   waren.</note> für meine Bilder. Anbei ein schöne<pb xml:id="S.128r" n="128r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D98800000003"/> Artikel
                von <persName key="P.0000012" ref="http://d-nb.info/gnd/1077780265">Kickert</persName>, hoffentlich
                kommen mehrere, da Sie mir fragte immer solche Sachen zu schicken tue ich es auch.

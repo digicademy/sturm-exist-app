@@ -1,0 +1,217 @@
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Q.01.19150413.JVH.01">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Jacoba van Heemskerck an Herwarth Walden, 13. April 1915, 35, Nassau Zuilensteinstraat, Den Haag</title>
+                <editor>
+                    <persName ref="https://orcid.org/0000-0003-2423-7144">
+                        <forename>Marjam</forename>
+                        <surname>Trautmann</surname>
+                    </persName>
+                </editor>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0002-0953-2818">
+                        <forename>Torsten</forename>
+                        <surname>Schrade</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeber</note>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0003-2423-7144">
+                        <forename>Marjam</forename>
+                        <surname>Trautmann</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeberin</note>
+                    </resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="http://www.adwmainz.de">Akademie der Wissenschaften und der Literatur | Mainz</ref>
+                </publisher>
+                <pubPlace ref="http://sws.geonames.org/2874225">Mainz</pubPlace>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        This file is licensed under the terms of the Creative-Commons-License CC BY 4.0
+                    </licence>
+                </availability>
+                <idno type="file">Q.01.19150413.JVH.01.v1.xml</idno>
+                <idno type="uri">https://sturm-edition.de/id/Q.01.19150413.JVH.01</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Q.01.19150413.JVH.01, Jacoba van Heemskerck an Herwarth Walden, 13. April 1915, 35, Nassau Zuilensteinstraat, Den Haag, 
+                    bearbeitet von Marjam Trautmann, in: Der STURM. Digitale Quellenedition zur Geschichte der internationalen 
+                    Avantgarde, erarbeitet und herausgegeben von Marjam Trautmann und Torsten Schrade. 
+                    Mainz, Akademie der Wissenschaften und der Literatur.
+                    </bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <country>DE</country>
+                        <settlement>Berlin</settlement>
+                        <repository>Staatsbibliothek zu Berlin Preußischer Kulturbesitz,
+                     Handschriftenabteilung, Sturm-Archiv I, Heemskerck, Jacoba van</repository>
+                        <idno type="uri">http://kalliope-verbund.info/DE-611-HS-1910879</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <xenoData type="uri">http://digital.staatsbibliothek-berlin.de/metsresolver/PPN746594704</xenoData>
+        <profileDesc>
+            <correspDesc key="Bl.86-89" ref="https://sturm-edition.de/id/Q.01.19150413.JVH.01">
+                <correspAction type="sent">
+                    <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jacoba van Heemskerck</persName>
+                    <placeName key="O.0000001" ref="http://sws.geonames.org/2747373">35, Nassau Zuilensteinstraat, Den Haag</placeName>                   
+                    <date notBefore="1915-04-13"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth Walden</persName>
+                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change>
+                    <date when="2018-07-16" n="1"/>
+                </change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic n="86r" url="http://content.staatsbibliothek-berlin.de/dms/PPN746594704/800/0/00000001.jpg"/>
+        <graphic n="86v" url="http://content.staatsbibliothek-berlin.de/dms/PPN746594704/800/0/00000002.jpg"/>
+        <graphic n="87r" url="http://content.staatsbibliothek-berlin.de/dms/PPN746594704/800/0/00000003.jpg"/>
+        <graphic n="87v" url="http://content.staatsbibliothek-berlin.de/dms/PPN746594704/800/0/00000004.jpg"/>
+        <graphic n="88r" url="http://content.staatsbibliothek-berlin.de/dms/PPN746594704/800/0/00000005.jpg"/>
+        <graphic n="88v" url="http://content.staatsbibliothek-berlin.de/dms/PPN746594704/800/0/00000006.jpg"/>
+        <graphic n="89r" url="http://content.staatsbibliothek-berlin.de/dms/PPN746594704/800/0/00000007.jpg"/>
+        <graphic n="89v" url="http://content.staatsbibliothek-berlin.de/dms/PPN746594704/800/0/00000008.jpg"/>
+        <graphic n="Farbkeil" url="http://content.staatsbibliothek-berlin.de/dms/PPN746594704/800/0/00000009.jpg"/>
+    </facsimile>
+    <text type="letter">
+        <body>
+            <div type="content">
+            <pb xml:id="S.86r.01" n="86r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D97300000001"/>
+                <opener>
+                    <salute>Sehr wehrter Herr <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Walden</persName>
+                    </salute>
+                </opener>
+                <p>Die Mappe ist wundervoll herzlich, herzlich Dank dafür, wirklich Sie haben dasz ja sehr
+               schön machen lassen. <date notBefore="1915-04-13">Heute nachmittag</date> sind sie
+               angekommen. Ich hoffe so dasz für Der Sturm recht viel verkauft werden. <date notBefore="1915-04-13">Gestern abend</date> habe ich den Brief mit das Geld für
+               die Holzschnitte dankend erhalten und gleicher Zeit Ihr Brief von <date when="1915-04-13">13. April</date>
+                    <pb xml:id="S.86v" n="86v" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D97300000002"/> Wie schön
+               dasz Sie ein Katalog von Ihre Sammlung haben. Es macht mir sehr viel Freude dasz Sie
+                  <term type="artwork" key="W.0000013">Bild 8</term> gewählt haben erst dachte ich Sie
+               wollte <term type="artwork" key="W.0000017">Bild 14</term> haben. Nächstes Jahr hoffe ich
+               jedenfalls doch in <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Berlin</placeName> kommen zu können und wenn ich dann
+                  verschiedene Bilder mit Schiffe ausstelle dann schenke ich dasz
+               direct an Sie beiden unbedingt müssen Sie so eine auch haben Ich habe sehr viel im
+               Kopf dasz langsam heraus kommen wird Morgen schicke ich ihre <persName key="P.0000002" ref="http://d-nb.info/gnd/118891456">Frau</persName> die Zeichnungen für die Mappe
+               ich hätte es schon längst gethan aber ich habe immer auf Ihr Besuch<pb xml:id="S.87r" n="87r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D97300000003"/> gewartet.
+               Jetzt glaube ich aber, Sie haben ganz recht noch zu warten. Mir ist alles recht aber
+               ein Ding müssen Sie versprechen nicht nach <placeName key="O.0000003" ref="http://sws.geonames.org/2750405">Holland</placeName> zu kommen im <date when="1915-05">Mai</date> wenn ich nicht im <placeName key="O.0000001" ref="http://sws.geonames.org/2747373">Haag</placeName> bin. Kommen Sie diesen
+               Sommer noch dann können Sie auch erst Ihre Geschäften in <placeName key="O.0000001" ref="http://sws.geonames.org/2747373">Haag</placeName>, <placeName key="O.0000009" ref="http://sws.geonames.org/2759794">Amsterdam</placeName> und so weiter machen
+               und dann nach <placeName key="O.0000004" ref="http://sws.geonames.org/2756746">Domburg</placeName>
+               kommen von <placeName key="O.0000004" ref="http://sws.geonames.org/2756746">Domburg</placeName>
+               können Sie dann direct nach <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Berlin</placeName> fahren. Wir werden aber sehen wie alles geht ich bin so pro
+               Deutsch, ich hoffe so dasz alles so glänzend bleibt wie jetzt. Schade von das
+               holländische Schiff Katwijk, die Zeitungen hier sind heute Abend empört, aber dasz<pb xml:id="S.87v" n="87v" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D97300000004"/>
+               wird alles wieder gut werden, ich bin sicher dasz man recht hätte, oder dasz es ein
+               Misverständnis war.<note>Wegen einer von Großbritannien in der Nordsee errichteten
+                  Blockade des Seeweges nach Übersee für deutsche Schiffe wurde von der Führung des
+                  Reichsmarineamtes Anfang 1915 veranlasst, dass britische und französische
+                  Handelsschiffe mit U-Booten angegriffen werden sollten. Im Februar und März 1915
+                  wurden 38 Schiffe, im April 29 und im Mai 52 Stück versenkt. Von den Angriffen waren -
+                  wohl eher unbeabsichtigt - auch niederländische Schiffe betroffen. Sie wurden
+                  entweder von den deutschen U-Booten torpediert oder liefen auf englische Minen. In
+                  der niederländischen Bevölkerung riefen diese Vorfälle immer wieder Empörung
+                  hervor. Vgl. Rohwer, Jürgen: U-Boot-Krieg. In: Enzyklopädie Erster Weltkrieg.
+                  Hrsg. v. Gerhard Hirschfeld [u.a.]. Paderborn [u.a.] 2004, S. 931–934, hier S.
+                  931; Blom, J.C.H.: Niederlande. In: Enzyklopädie Erster Weltkrieg. Hrsg. v.
+                  Gerhard Hirschfeld [u.a.]. Paderborn [u.a.] 2004, S. 738–741, hier S. 739.</note>
+               Schön dasz meine Bilder nach <placeName key="O.0000007" ref="http://sws.geonames.org/2911297">Hamburg</placeName> oder <placeName key="O.0000032" ref="http://sws.geonames.org/2935022">Dresden</placeName> gehen, wie gut machen Sie doch alles für uns. Und jetzt noch
+               vergessen dasz ich so froh bin dasz Fräulein <persName key="P.0000008" ref="http://d-nb.info/gnd/136128289">Tak</persName> <term type="artwork" key="W.0000017">Zeichnung 14.</term> gekauft hat, ich hätte gar kein
+               Idee darauf. Wirklich ich bin ausserordentlich zufrieden mit meine Aus<hi rend="underline">stellung</hi> in diese Zeiten so viel verkauft.<note>Im März 1915
+                  eröffnete in der STURM-Galerie die 31. STURM-Ausstellung mit Werken Jacoba van
+                  Heemskercks. Vgl. Enders, Rainer: Ausstellungskataloge der STURM-Galerie. URL:
+                  <ref target="https://www.arthistoricum.net/themen/portale/sturm/ausstellungskataloge/">https://www.arthistoricum.net/themen/portale/sturm/ausstellungskataloge/</ref> (Aufruf
+                  06.04.2017).</note> Wenn Sie ein mal Zeit haben schreiben Sie bitte über die
+               Schwedische Maler ich habe sehr wenig Arbeiten von moderne <placeName key="O.0000033" ref="http://sws.geonames.org/2661886">Schweden</placeName> gesehen, ist es schön?
+               Gehen Sie mit der Sturm Ausstellungen auch einmal nach <placeName key="O.0000033" ref="http://sws.geonames.org/2661886">Schweden</placeName>? Sie haben dort allein
+               graphische Ausstellungen gemacht nicht wahr? Heute ein so freundliche Karte von Dr
+                  <persName key="P.0000021" ref="http://d-nb.info/gnd/119191164">Behne</persName> empfangen, ich
+               freue mich so dasz meine Arbeiten ihm gefallen, wenn ich wieder nach <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Berlin</placeName> komme will ich ihm einmal
+               ein Zeichnung oder ein kleines Bild schenken dasz suche ich dann mit Ihnen aus. Er
+               schreibt dasz Sie, Ihre <persName key="P.0000002" ref="http://d-nb.info/gnd/118891456">Frau</persName> und er, mir eine Karte<pb xml:id="S.86r.02" n="86r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D97300000001"/>
+               geschrieben haben, die habe ich aber nie empfangen. Gestern hatte im <term type="newspaper" key="W.0000077" ref="http://www.wikidata.org/entity/Q1989439">Nieuwe
+                  Rotterdamsche Courant</term> diese Nachricht über meine Ausstellung gestanden.</p>
+                <closer>
+                    <salute>Herzlichsten Grüssen für Sie beiden</salute> <signed>Ihre <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jacoba
+                    <hi rend="twice-underline">vanHeemskerck</hi>
+                        </persName> 
+                    </signed>
+                </closer>
+            </div> 
+            <pb xml:id="S.88r" n="88r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D97300000005"/>
+            <div type="attachment">
+               
+                <div>
+                    <head>
+                        <term type="artwork" key="W.0000013">Zeichnung. 8.</term>
+                    </head>
+                    <p>rot. blau und gelb. in linien</p>
+                </div>
+                <div>
+                    <head>
+                        <term type="artwork" key="W.0000014">Zeichnung 9.</term>
+                    </head>
+                    <p>Dunen mit verschiedene farbige linien. grün und lila und gelb.</p>
+                </div>
+                <div>
+                    <head>
+                        <term type="artwork" key="W.0000015">Zeichnung 11.</term>
+                    </head>
+                    <p>farbige linien.</p>
+                </div>
+                <pb xml:id="S.88v" n="88v" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D97300000006"/>
+                <div>
+                    <head>
+                        <term type="artwork" key="W.0000016">Zeichnung 12.</term>
+                    </head>  
+                    <p>aquarell. gelb und rot und sehr viel schwarz. und einige weisse Fläche</p>
+                </div>
+                <div>
+                    <head>
+                        <term type="artwork" key="W.0000017">Zeichnung 14</term>
+                    </head>
+                    <p>
+                        <term type="artwork" key="W.0000017">Zei<hi rend="underline">chnung 14</hi>
+                        </term>
+                    </p>
+                    <p>Linien Schwarz auf farbig Pappe.</p>
+                    <p>oben so ganz schwarze Fläche.</p>
+                    <p>Bäume und gebirgs linien.</p>
+                </div>
+                <div>
+                    <head>
+                        <term type="artwork" key="W.0000018">Zeichnung 17</term>
+                    </head>
+                    <p>Schwarz und weisse grosse Baum.</p>
+                </div>
+                <pb xml:id="S.89r" n="89r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D97300000007"/>
+                <div>
+                    <head>
+                        <term type="artwork" key="W.0000019">Zeichnung 19</term>
+                    </head>
+                    <p>Schwarz und weiss ein Haus mit Bäume</p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI><?oxy_options track_changes="on"?>

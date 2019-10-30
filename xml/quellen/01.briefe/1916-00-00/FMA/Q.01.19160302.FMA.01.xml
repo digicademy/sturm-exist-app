@@ -1,0 +1,124 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Q.01.19160302.FMA.01">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Franz Marc an Herwarth Walden, 2. März 1916, unbekannter Ort</title>
+            <editor>
+               <persName ref="http://d-nb.info/gnd/1013156242">
+                  <forename>Lea</forename>
+                  <surname>Müller-Dannhausen</surname>
+               </persName>
+            </editor>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-0953-2818">
+                  <forename>Torsten</forename>
+                  <surname>Schrade</surname>
+               </persName>
+               <resp>
+                  <note>Herausgeber</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0003-2423-7144">
+                  <forename>Marjam</forename>
+                  <surname>Trautmann</surname>
+               </persName>
+               <resp>
+                  <note>Herausgeberin</note>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.adwmainz.de">Akademie der Wissenschaften und der Literatur | Mainz</ref>
+            </publisher>
+            <pubPlace ref="http://sws.geonames.org/2874225">Mainz</pubPlace>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">This file is licensed under the terms of the Creative-Commons-License CC BY 4.0</licence>
+            </availability>
+            <idno type="file">Q.01.19160302.FMA.01.xml</idno>
+            <idno type="uri">https://sturm-edition.de/id/Q.01.19160302.FMA.01</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>Q.01.19160302.FMA.01, Franz Marc an Herwarth Walden, 2. März 1916, unbekannter Ort, 
+               bearbeitet von Lea Müller-Dannhausen, in: Der STURM. Digitale
+               Quellenedition zur Geschichte der internationalen Avantgarde, erarbeitet und
+               herausgegeben von Marjam Trautmann und Torsten Schrade. Mainz, Akademie der
+               Wissenschaften und der Literatur.</bibl>
+            <msDesc>
+               <msIdentifier>
+                  <country>DE</country>
+                  <settlement>Berlin</settlement>
+                  <repository>Staatsbibliothek zu Berlin Preußischer Kulturbesitz,
+                     Handschriftenabteilung, Sturm-Archiv I, Marc, Franz</repository>
+                  <idno type="uri">http://resolver.staatsbibliothek-berlin.de/SBB0000DACF00000000</idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <xenoData type="uri">http://kalliope-verbund.info/DE-611-HS-1925492</xenoData>
+      <xenoData type="url">https://content.staatsbibliothek-berlin.de/dc/PPN746599056.mets.xml</xenoData>
+      <profileDesc>
+         <correspDesc key="Bl.223" ref="https://sturm-edition.de/id/Q.01.19160302.FMA.01">
+            <correspAction type="sent">
+               <persName key="P.0000003" ref="http://d-nb.info/gnd/11857745X">Franz Marc</persName>
+               <placeName>Unknown</placeName>
+               <date when="1916-03-02"/>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth Walden</persName>
+               <placeName key="O.0000002" ref="http://sws.geonames.org/2950159">Potsdamerstrasse 134a, Berlin W.9.</placeName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change>
+               <date when="2019-10-30" n="1"/>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic n="223r" url="http://content.staatsbibliothek-berlin.de/dms/PPN746599056/1200/0/00000001.jpg"/>
+      <graphic n="223v" url="http://content.staatsbibliothek-berlin.de/dms/PPN746599056/1200/0/00000002.jpg"/>
+      <graphic n="Farbkeil" url="http://content.staatsbibliothek-berlin.de/dms/PPN746599056/1200/0/00000003.jpg"/>
+   </facsimile>
+   <text type="militaryMail">
+      <body>
+         <div type="address">
+            <pb xml:id="S.223v" n="223v" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000DACF00000002"/>
+            <ab type="sender">
+               <address>
+                  <addrLine>Lt <hi rend="underline">Marc</hi>
+                        </addrLine>
+               </address>
+            </ab>
+            <ab type="recipient">
+               <address>
+                  <addrLine>Herrn</addrLine>
+                  <addrLine>Herw. <hi rend="underline">Walde</hi>n</addrLine>
+                  <addrLine>Verlag Sturm</addrLine>
+                  <addrLine>Berlin W. 9.</addrLine>
+                  <addrLine>134 a Postdamerstr. 134a</addrLine>
+               </address>
+            </ab>
+         </div>
+         <div type="content">
+            <pb xml:id="S.223r" n="223r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000DACF00000001"/>
+            <opener>
+               <dateline>
+                  <date when="1916-03-01">1. III 16</date>,</dateline>
+               <salute>Lieber <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Walden</persName>,
+               </salute>
+            </opener>
+            <p>Dank für Holzschnitt Nachricht. Ich bin mitten in der fürchterlichen Aktion im Westen<note>Seit dem 25. Februar 1916 befand sich die Einheit Franz Marcs im Umfeld der Schlacht von Verdun. Vgl. Schoeller, Wilfried F.: Franz Marc. Eine Biographie. München 2016, S. 362.</note>, – es ist gar nicht zu beschreiben, was man hier erlebt! Ich kann es auch nicht schreiben! Es ist zu furchtbar. Lassen Sie mich um Gottswillen mit Photographiren aus, – ich kann’s nun mal nicht leiden. Daß es am guten Willen nicht fehlt, lege ich trotzdem eine Aufnahme von hinten bei. Mehr gab ich von meiner Gestalt dem Aparat nicht preis!</p>
+            <closer>
+               <salute>Herzl.</salute> <signed>Ihr <persName key="P.0000003" ref="http://d-nb.info/gnd/11857745X">F.Marc</persName>
+               </signed>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

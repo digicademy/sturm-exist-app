@@ -1,0 +1,155 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Q.01.19190927.JVH.01">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Jacoba van Heemskerck an Herwarth Walden, 27. September 1919, Loverendale,
+                    Domburg</title>
+                <editor>
+                    <persName ref="https://orcid.org/0000-0003-1208-6131">
+                        <forename>Anne</forename>
+                        <surname>Lorenz</surname>
+                    </persName>
+                </editor>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0002-0953-2818">
+                        <forename>Torsten</forename>
+                        <surname>Schrade</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeber</note>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0003-2423-7144">
+                        <forename>Marjam</forename>
+                        <surname>Trautmann</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeberin</note>
+                    </resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="http://www.adwmainz.de">Akademie der Wissenschaften und der
+                        Literatur | Mainz</ref>
+                </publisher>
+                <pubPlace ref="http://sws.geonames.org/2874225">Mainz</pubPlace>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">This file is
+                        licensed under the terms of the Creative-Commons-License CC BY 4.0
+                    </licence>
+                </availability>
+                <idno type="file">Q.01.19190927.JVH.01.xml</idno>
+                <idno type="uri">https://sturm-edition.de/id/Q.01.19190927.JVH.01</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Q.01.19100927.JVH.01, Jacoba van Heemskerck an Herwarth Walden, 27. September
+                    1919, Loverendale, Domburg, bearbeitet von Anne Lorenz, in: Der STURM. Digitale
+                    Quellenedition zur Geschichte der internationalen Avantgarde, erarbeitet und
+                    herausgegeben von Marjam Trautmann und Torsten Schrade. Mainz, Akademie der
+                    Wissenschaften und der Literatur.</bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <country>DE</country>
+                        <settlement>Berlin</settlement>
+                        <repository>Staatsbibliothek zu Berlin Preußischer Kulturbesitz,
+                            Handschriftenabteilung, Sturm-Archiv I, Heemskerck, Jacoba
+                            van</repository>
+                        <idno type="uri">http://resolver.staatsbibliothek-berlin.de/SBB0000DA2B00000000</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <xenoData type="uri">http://kalliope-verbund.info/DE-611-HS-1913498</xenoData>
+        <xenoData type="url">https://content.staatsbibliothek-berlin.de/dc/PPN746597029.mets.xml</xenoData>
+        <profileDesc>
+            <correspDesc key="Bl.368" ref="https://sturm-edition.de/id/Q.01.19190927.JVH.01">
+                <correspAction type="sent">
+                    <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jacoba van
+                        Heemskerck</persName>
+                    <placeName key="O.0000004" ref="http://sws.geonames.org/2756746">Loverendale,
+                        Domburg</placeName>
+                    <date when="1919-09-27"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth
+                        Walden</persName>
+                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change>
+                    <date when="2019-08-26" n="1"/>
+                </change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic n="368r" url="http://content.staatsbibliothek-berlin.de/dms/PPN746597029/500/0/00000001.jpg"/>
+        <graphic n="368v" url="http://content.staatsbibliothek-berlin.de/dms/PPN746597029/500/0/00000002.jpg"/>
+        <graphic n="Farbkeil" url="http://content.staatsbibliothek-berlin.de/dms/PPN746597029/500/0/00000003.jpg"/>
+    </facsimile>
+    <text type="postcard">
+        <body>
+            <div type="address">
+                <ab type="sender">
+                    <pb xml:id="S.368r" n="368r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000DA2B00000001"/>
+                    <address>
+                        <addrLine>Loverendale</addrLine>
+                        <addrLine>Dom<hi rend="twice-underline">burg</hi>
+                        </addrLine>
+                    </address>
+                </ab>
+
+                <ab type="recipient">
+                    <address>
+                        <addrLine>Herrn Direktor</addrLine>
+                        <addrLine>Herwart<hi rend="underline">h Walden</hi>
+                        </addrLine>
+                        <addrLine>134<hi rend="super">
+                                <hi rend="twice-underline">a</hi>
+                            </hi> Potsdamerstrasse</addrLine>
+                        <addrLine>B<hi rend="underline">erli</hi>n W 9/.</addrLine>
+                        <addrLine>Deutsch<hi rend="underline">land</hi>
+                        </addrLine>
+                    </address>
+                </ab>
+
+            </div>
+            <div type="content">
+                <pb xml:id="S.368v" n="368v" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000DA2B00000002"/>
+
+
+                <opener>
+                    <salute>L. <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">H.</persName>
+                    </salute>
+                </opener>
+
+                <p>
+                    <date when="1919-09-27">Heute</date> dir eingeschriebene Drucksache <term type="artwork" key="W.0000113">3. Lithographien</term> geschickt. Wir gehen
+                        <date when="1919-09-28">morgen</date> für zwei Tagen nach <placeName key="O.0000001" ref="http://sws.geonames.org/2747373">Haag</placeName> und
+                        <placeName key="O.0000009" ref="http://sws.geonames.org/2759794">Amsterdam</placeName> für das Visum. Wir haben immer noch nichts gehört.
+                    Wir schicken dir Anfang nächster Woche eine Dépeche wenn wir bestimmt in
+                        <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Berlin</placeName> ankommen es ist möglich dass wir schon <date when="1919-10-10">
+                        <hi rend="underline">10.</hi> Oktober</date> kommen.</p>
+
+                <closer>
+                    <salute>Herzlichste Grüssen</salute>
+                    <signed>deine <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">
+                                JacobavHeem<hi rend="twice-underline">skerck</hi>
+                        </persName>.</signed>
+                    <dateline>
+                        <placeName key="O.0000004" ref="http://sws.geonames.org/2756746">D<hi rend="underline">omburg</hi>
+                        </placeName>
+                         <date when="1919-09-27">27.9.19.</date>
+                    </dateline>
+                </closer>
+
+            </div>
+        </body>
+    </text>
+</TEI>

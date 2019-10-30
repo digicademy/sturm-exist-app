@@ -1,0 +1,156 @@
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Q.01.19150507.JVH.01">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Jacoba van Heemskerck an Herwarth Walden, 7. Mai 1915, Den Haag</title>
+                <editor>
+                    <persName ref="https://orcid.org/0000-0003-2423-7144">
+                        <forename>Marjam</forename>
+                        <surname>Trautmann</surname>
+                    </persName>
+                </editor>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0002-0953-2818">
+                        <forename>Torsten</forename>
+                        <surname>Schrade</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeber</note>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0003-2423-7144">
+                        <forename>Marjam</forename>
+                        <surname>Trautmann</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeberin</note>
+                    </resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="http://www.adwmainz.de">Akademie der Wissenschaften und der Literatur | Mainz</ref>
+                </publisher>
+                <pubPlace ref="http://sws.geonames.org/2874225">Mainz</pubPlace>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        This file is licensed under the terms of the Creative-Commons-License CC BY 4.0
+                    </licence>
+                </availability>
+                <idno type="file">Q.01.19150507.JVH.01.v1.xml</idno>
+                <idno type="uri">https://sturm-edition.de/id/Q.01.19150507.JVH.01</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Q.01.19150507.JVH.01, Jacoba van Heemskerck an Herwarth Walden, 7. Mai 1915, Den Haag, 
+                    bearbeitet von Marjam Trautmann, in: Der STURM. Digitale Quellenedition zur Geschichte der internationalen 
+                    Avantgarde, erarbeitet und herausgegeben von Marjam Trautmann und Torsten Schrade. 
+                    Mainz, Akademie der Wissenschaften und der Literatur.
+                    </bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <country>DE</country>
+                        <settlement>Berlin</settlement>
+                        <repository>Staatsbibliothek zu Berlin Preußischer Kulturbesitz, Handschriftenabteilung, Sturm-Archiv I, Heemskerck, Jacoba van</repository>
+                        <idno type="uri">http://kalliope-verbund.info/DE-611-HS-1910891</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <xenoData type="uri">http://digital.staatsbibliothek-berlin.de/metsresolver/PPN746594747</xenoData>
+        <profileDesc>
+            <correspDesc key="Bl.92" ref="https://sturm-edition.de/id/Q.01.19150507.JVH.01">
+                <correspAction type="sent">
+                    <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jacoba van Heemskerck</persName>
+                    <placeName key="O.0000001" ref="http://sws.geonames.org/2747373">35, Nassau Zuilensteinstraat, Den Haag</placeName>
+                    <date when="1915-05-07"/>
+               
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth Walden</persName>
+                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change>
+                    <date when="2018-07-16" n="1"/>
+                </change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic n="92r" url="http://content.staatsbibliothek-berlin.de/dms/PPN746594747/800/0/00000001.jpg"/>
+        <graphic n="92v" url="http://content.staatsbibliothek-berlin.de/dms/PPN746594747/800/0/00000002.jpg"/>
+        <graphic n="Farbkeil" url="http://content.staatsbibliothek-berlin.de/dms/PPN746594747/800/0/00000003.jpg"/>
+    </facsimile>
+    <text type="postcard">
+        <body>
+            <div type="address">
+                <pb xml:id="S.92r.01" n="92r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D97600000001"/> 
+            <ab type="sender">
+                <address>
+                    <addrLine>35. Nassau Zuilensteinstraat</addrLine>
+                        <addrLine>Ha<hi rend="underline">ag</hi>. Holl<hi rend="underline">a</hi>nd.</addrLine>
+                </address>
+            </ab>
+                <ab type="recipient">
+                 <address>
+                     <addrLine>Herrn<hi rend="underline">. Herwarth Walden</hi>
+                        </addrLine>
+                        <addrLine>Verlag Der Sturm.</addrLine>
+                        <addrLine>Potsdamerstrasse 134<hi rend="super">
+                                <hi rend="twice-underline">a</hi>
+                            </hi>
+                        </addrLine>
+                        <addrLine>134<hi rend="super">
+                                <hi rend="twice-underline">a</hi>
+                            </hi>
+                        </addrLine>
+                        <addrLine>Berlin. W. 9/.</addrLine>
+                        <addrLine>Deut<hi rend="underline">schl</hi>and.</addrLine>
+                 </address>   
+                </ab>
+            </div>
+            <div type="content">
+            <pb xml:id="S.92v" n="92v" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D97600000002"/>
+                <opener>
+                    <dateline>
+                        <placeName key="O.0000001" ref="http://sws.geonames.org/2747373">H<hi rend="underline">aag</hi>
+                        </placeName>
+                        <hi rend="underline"> <date when="1915-05-07">7. Mai 1915</date>
+                        </hi>
+                    </dateline>
+                    <salute>S. W. Herr
+               <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Walden</persName>.
+                    </salute>
+                </opener>
+                <p>In eine Stunde
+            reisen wir ab und nun wollte ich Ihnen eben benachrichten dass ich von der Diskonto
+            Gesellschaft nichts erhalten habe. Ich habe beauftragt alles direct nach zu schicken und
+            mein Bankier wird es dann weiter besorgen. Ich dachte aber Es ist besser es Ihnen zu
+            schreiben da Sie noch immer auf meine Empfangs bestätigung warten So bald ich es
+            empfangen habe schreibe ich Ihnen. Schreiben Sie mir ruhig nach meine Adresse hier, alles
+            wird nach geschickt. <date when="1915-05-06">Gestern Abend</date> <term type="journal" key="W.0000068" source="https://doi.org/10.11588/diglit.37113.3" ref="http://d-nb.info/gnd/4058273-5">Der Sturm</term>
+                    <note>Walden, Herwarth [Hrsg.]: Der Sturm. Halbmonatsschrift für Kultur und die Künste 3/4 (1915).</note> empfangen, ich war froh
+            wieder viel zu lesen. Bitte wenn Sie Zeit haben schreiben Sie über alles und über
+            die Ausstellung und die Bilder.<note>Vom 25. April bis Mai 1915 fand die 32. STURM-Ausstellung schwedischer Expressionisten statt. Vgl. Enders, Rainer: Ausstellungskataloge der STURM-Galerie. URL: <ref target="https://www.arthistoricum.net/themen/portale/sturm/ausstellungskataloge/">https://www.arthistoricum.net/themen/portale/sturm/ausstellungskataloge/</ref> (Aufruf 06.04.2017).</note>
+                </p>
+                <pb xml:id="S.92r.02" n="92r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D97600000001"/>
+                <closer>
+                    <salute>Herzlichste Grüsse für Sie beiden.</salute> In Eile <signed>Ihr <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">
+                            <hi rend="underline">Jacoba
+                  vHeemskerck</hi>
+                        </persName>
+                    </signed>
+                </closer>
+                <postscript>
+                    <p>Viel Dank an Allen für die schöne Postkarte.</p>
+                </postscript>
+            </div>
+        </body>
+    </text>
+</TEI>

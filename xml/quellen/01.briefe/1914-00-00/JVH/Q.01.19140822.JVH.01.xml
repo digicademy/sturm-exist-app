@@ -58,31 +58,37 @@
                         <repository>Staatsbibliothek zu Berlin Preußischer Kulturbesitz,
                             Handschriftenabteilung, Sturm-Archiv I, Heemskerck, Jacoba
                             van</repository>
-                        <idno type="uri">http://kalliope-verbund.info/DE-611-HS-1910574</idno>
+                        <idno type="uri">http://resolver.staatsbibliothek-berlin.de/SBB0000D95000000000</idno>
                     </msIdentifier>
                 </msDesc>
             </sourceDesc>
         </fileDesc>
-        <xenoData type="uri">http://digital.staatsbibliothek-berlin.de/metsresolver/PPN746594186</xenoData>
+        <xenoData type="uri">http://kalliope-verbund.info/DE-611-HS-1910574</xenoData>
+        <xenoData type="url">http://content.staatsbibliothek-berlin.de/dc/PPN746594186.mets.xml</xenoData>
         <profileDesc>
             <correspDesc key="Bl.20" ref="https://sturm-edition.de/id/Q.01.19140822.JVH.01">
                 <correspAction type="sent">
                     <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jacoba van
                         Heemskerck</persName>
-                    <placeName>
-                        <placeName key="O.0000004" ref="http://sws.geonames.org/2756746">Domburg</placeName>
-                    </placeName>
+                        <placeName key="O.0000004" ref="http://sws.geonames.org/2756746">Domburg</placeName>                 
                     <date when="1914-08-23"/>
                 </correspAction>
                 <correspAction type="received">
                     <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth
                         Walden</persName>
-                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>
+                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950159">Potsdamerstrasse 134a, Berlin W.9.</placeName>
                 </correspAction>
             </correspDesc>
         </profileDesc>
         <revisionDesc>
             <listChange>
+                <change>
+                    <date when="2019-07-25" n="2"/>
+                    <p>URL zur METS-Datei der Staatsbibliothek zu Berlin aktualisiert innerhalb von :xenoData und zusätzliches :xenoData mit permanenter URI zum Kalliope-Findbucheintrag.</p>
+                    <p>:idno URL innerhalb von :msIdentifier durch permanente URL zum entsprechenden Datensatz der Staatsbibliothek zu Berlin gesetzt</p>
+                    <p>Standardisierung der Kommentierungstiefe, keine spezifischen Erklärungen von Fremdwörtern außerhalb des Sturm-Kontextes</p>
+                    <p>Normdaten (Geonames) zu Stadt Berlin korrigiert (zuvor fälschlicherweise Verweis auf "Land Berlin")</p>
+                </change>
                 <change>
                     <date when="2018-07-16" n="1"/>
                 </change>
@@ -165,7 +171,7 @@
                         siehe: Kruizinga, Samuël: Neutrality. In: The Cambridge History of the First
                         World War. Bd. 2 The State. Hrsg. v. Jay Winter. Cambridge 2014, S.
                         542–575.</note> Viel in die Zeitungen glaube ich gar nicht. Ich bin so froh
-                    zu wissen dasz Sie beiden in <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Berlin</placeName> sind.</p>
+                    zu wissen dasz Sie beiden in <placeName key="O.0000002" ref="http://sws.geonames.org/2950159">Berlin</placeName> sind.</p>
 
                 <closer>
                     <salute>Herzlichste Grüssen von uns allen</salute>

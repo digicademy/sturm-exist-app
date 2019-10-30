@@ -1,0 +1,129 @@
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="S.0000005">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Über das Forschungsprojekt</title>
+                <editor>
+                    <persName ref="https://orcid.org/0000-0002-0953-2818">
+                        <forename>Torsten</forename>
+                        <surname>Schrade</surname>
+                    </persName>
+                </editor>
+                <editor>
+                    <persName ref="https://orcid.org/0000-0003-2423-7144">
+                        <forename>Marjam</forename>
+                        <surname>Trautmann</surname>
+                    </persName>
+                </editor>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0002-0953-2818">
+                        <forename>Torsten</forename>
+                        <surname>Schrade</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeber</note>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0003-2423-7144">
+                        <forename>Marjam</forename>
+                        <surname>Trautmann</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeberin</note>
+                    </resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="http://www.adwmainz.de">Akademie der Wissenschaften und der Literatur | Mainz</ref>
+                </publisher>
+                <pubPlace ref="http://sws.geonames.org/2874225">Mainz</pubPlace>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        This file is licensed under the terms of the Creative-Commons-License CC BY 4.0
+                    </licence>
+                </availability>
+                <idno type="file">projekt.xml</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Torsten Schrade, Marjam Trautmann: "Über das Forschungsprojekt", in: Der STURM. Digitale Quellenedition zur Geschichte der 
+                    internationalen Avantgarde, erarbeitet und herausgegeben von Marjam Trautmann und 
+                    Torsten Schrade. Mainz, Akademie der Wissenschaften und der Literatur.
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <listChange>
+                <change>
+                    <date when="2018-07-16" n="1"/>
+                    <p>Initiale Version</p>
+                </change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="section" n="eight">
+                <ab rend="h2">Über das Forschungsprojekt</ab>
+                <p>
+                    Im Jahr 1910 gründete der Publizist und Komponist Herwarth Walden in Berlin die
+                    avantgardistische Zeitschrift ‚Der Sturm‘. Waldens STURM-Unternehmen avancierte in den 
+                    Folgejahren mit der STURM-Galerie, der STURM-Bühne und dem STURM-Verlag zu einem 
+                    programmatischen wie ästhetischen Sprachrohr der internationalen Avantgarde.
+                 </p>
+                <p>
+                    Unser Projekt beabsichtigt, die zahlreichen verstreuten digitalen Quellen des ‚Sturm‘ in einer 
+                    historisch-kritisch angelegten Digitalen Edition erstmals zu vereinen. Als kollaboratives 
+                    Projekt insbesondere des wissenschaftlichen Nachwuchses konzipiert, findet unsere digitale 
+                    Forschungs- und Editionsarbeit an der Schnittstelle von Geschichtswissenschaft, Kunstgeschichte, 
+                    Literaturwissenschaft und Digital Humanities statt.
+                </p>
+                <p>
+                    Alle im Projekt entstehenden Forschungsdaten und die von uns entwickelte <ref target="ressourcen/software.xml">Forschungssoftware</ref>
+                    werden dabei frühzeitig und kontinuierlich unter freien Lizenzen für die wissenschaftlichen Fachcommunities
+                    zur Verfügung gestellt. Wir gehen sowohl in der Editions- als auch in der Entwicklungsarbeit
+                    kollaborativ und iterativ vor. In einem ersten Schritt haben wir neben der Konzeption des Projektes und der
+                    grundsätzlichen Sichtung der digital verfügbaren <ref target="quellen.xml">STURM-Quellen</ref> bereits ein <ref target="projekt/methodik.xml">Gesamtmodell</ref> für die Edition
+                    sowie eine <ref target="ressourcen/software.xml">Webapplikation</ref> für die Edition und Präsentation der Quellen entwickelt.
+                </p>
+                <p>
+                    In der aktuellen Projektphase möchten wir uns insbesondere der Edition von Künstlerbriefen aus dem <ref target="http://kalliope.staatsbibliothek-berlin.de/de/findingaid_index?fa.id=DE-611-BF-4273&amp;fa.enum=111&amp;lastparam=true">STURM-Archiv der Staatsbibliothek zu Berlin</ref> widmen. 
+                    Hierbei können wir bereits erste edierte <ref target="quellen/briefe.xml">Briefkorpora</ref> aus den Jahren 1914 und 1915 zu <ref target="quellen/briefe/fma.xml">Franz Marc</ref> und <ref target="quellen/briefe/jvh.xml">Jacoba van Heemskerck</ref> vorlegen. Gleichzeitig werden in dieser Phase auch
+                    erste Quellen aus den anderen Abteilungen dieser Quellenedition beispielhaft transkribiert, modelliert und in Beziehung
+                    zu den Künstlerbriefen gesetzt.
+                </p>
+                <p>
+                    Das Digital Humanities Projekt ist an der <ref target="http://www.adwmainz.de/">Akademie der Wissenschaften und der Literatur | Mainz</ref> unter Beteiligung verschiedener
+                    kulturwissenschaftlicher Fächer angesiedelt. Über die
+                    Akademieprofessur für Digital Humanities an der <ref target="https://www.hs-mainz.de/">Hochschule Mainz</ref> ist es
+                    eng mit der Lehre im hochschulübergreifenden Studiengang <ref target="https://www.digitale-methodik.uni-mainz.de/">Digitale Methodik in den Geistes- und Kulturwissenschaften</ref> verbunden.
+                </p>
+                <p>
+                    Allen TeamkollegInnen und involvierten Studierenden sei an dieser
+                    Stelle ein besonderer Dank für den großen Einsatz und die ausgezeichnete, kreative Zusammenarbeit ausgesprochen.
+                    Ebenso bedanken wir uns herzlich bei der Mainzer Akademie und allen weiteren Freunden und Förderern des Projektes.
+                    Wir wünschen Ihnen viel Freude beim Lesen und Recherchieren im STURM!
+                </p>
+                <p>
+                    Mainz, im Juli 2018 <lb/> Marjam Trautmann und Torsten Schrade
+                </p>
+            </div>
+            <div type="section" n="four">
+                <ab type="subNavigation" n="projekt"/>
+                <figure type="mfp-lightbox">
+                    <ab>
+                        <ref target="images/about.jpg">
+                            <graphic url="images/about.jpg"/>
+                        </ref>
+                    </ab>
+                    <caption>
+                        Das Projekt möchte die zahlreichen verstreuten digitalen Quellen des ‚Sturm‘ in einer 
+                        historisch-kritischen Edition vereinen.
+                    </caption>
+                </figure>
+            </div>
+        </body>
+    </text>
+</TEI>

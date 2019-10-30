@@ -1,0 +1,115 @@
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:id="Q.01.19151126.JVH.01">
+    <teiHeader><fileDesc><titleStmt><title>Jacoba van Heemskerck an Herwarth Walden, 26. November 1915, 35, Nassau Zuilensteinstraat, Den Haag</title><editor><persName ref="https://orcid.org/0000-0003-2423-7144"><forename>Marjam</forename><surname>Trautmann</surname></persName></editor>
+                        <respStmt>
+                    <persName ref="https://orcid.org/0000-0002-0953-2818">
+                        <forename>Torsten</forename>
+                        <surname>Schrade</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeber</note>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0003-2423-7144">
+                        <forename>Marjam</forename>
+                        <surname>Trautmann</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeberin</note>
+                    </resp>
+                </respStmt>
+    </titleStmt><publicationStmt><publisher><ref target="http://www.adwmainz.de">Akademie der Wissenschaften und der Literatur | Mainz</ref></publisher><pubPlace ref="http://sws.geonames.org/2874225">Mainz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0/">
+                        This file is licensed under the terms of the Creative-Commons-License CC BY 4.0
+                    </licence></availability><idno type="file">Q.01.19151126.JVH.01.v1.xml</idno><idno type="uri">https://sturm-edition.de/id/Q.01.19151126.JVH.01</idno></publicationStmt><sourceDesc><bibl>Q.01.19151126.JVH.01, Jacoba van Heemskerck an Herwarth Walden, 26. November 1915, 35, Nassau Zuilensteinstraat, Den Haag, 
+                    bearbeitet von Marjam Trautmann, in: Der STURM. Digitale Quellenedition zur Geschichte der internationalen 
+                    Avantgarde, erarbeitet und herausgegeben von Marjam Trautmann und Torsten Schrade. 
+                    Mainz, Akademie der Wissenschaften und der Literatur.
+                    </bibl><msDesc><msIdentifier><country>DE</country><settlement>Berlin</settlement><repository>Staatsbibliothek zu Berlin Preußischer Kulturbesitz,
+                     Handschriftenabteilung, Sturm-Archiv I, Heemskerck, Jacoba van</repository><idno type="uri">http://kalliope-verbund.info/DE-611-HS-1911228</idno></msIdentifier></msDesc></sourceDesc></fileDesc><xenoData type="uri">http://digital.staatsbibliothek-berlin.de/metsresolver/PPN746595034</xenoData><profileDesc><correspDesc key="Bl.127-128" ref="https://sturm-edition.de/id/Q.01.19151126.JVH.01">
+                <correspAction type="sent">
+                    <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jacoba van Heemskerck</persName>
+                    <placeName key="O.0000001" ref="http://sws.geonames.org/2747373">35, Nassau Zuilensteinstraat, Den Haag</placeName>                   
+                    <date when="1915-11-26"/>              
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth Walden</persName>
+                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>
+                </correspAction>
+            </correspDesc></profileDesc><revisionDesc><listChange><change><date when="2018-07-16" n="1"/></change></listChange></revisionDesc></teiHeader>
+    <facsimile>
+        <graphic n="127r" url="http://content.staatsbibliothek-berlin.de/dms/PPN746595034/800/0/00000001.jpg"/>
+        <graphic n="127v" url="http://content.staatsbibliothek-berlin.de/dms/PPN746595034/800/0/00000002.jpg"/>
+        <graphic n="128r" url="http://content.staatsbibliothek-berlin.de/dms/PPN746595034/800/0/00000003.jpg"/>
+        <graphic n="128v" url="http://content.staatsbibliothek-berlin.de/dms/PPN746595034/800/0/00000004.jpg"/>
+        <graphic n="Farbkeil" url="http://content.staatsbibliothek-berlin.de/dms/PPN746595034/800/0/00000005.jpg"/>
+    </facsimile>
+    <text type="letter">
+        <body>
+            <div type="content">
+            <pb xml:id="S.127r" n="127r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D98800000001"/>
+            
+                <opener>
+                    <dateline>
+                        <date when="1915-11-26">
+                            <hi rend="underline">26. Nov
+                  1915</hi>
+                        </date>
+                    </dateline>
+                    <salute>Sehr wehrter Herr <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Walden</persName>.
+                    </salute></opener>
+                <p>Glücklich ist alles in Ordnung um aber weiter kein unangenehme Ueberraschungen zu
+               haben hoffe ich die Bilder <date when="1915-12-16">16. Dezember</date> ab schicken zu
+               können mit <foreign>grande Vitesse</foreign><note>„Grande vitesse“ (frz.) heißt im
+                  Deutschen „Hochgeschwindigkeit“. Es ist davon auszugehen, dass Jacoba van
+                  Heemskerck hiermit den postalischen Versand per Eilpost
+                  meinte.</note> ich habe mein <persName key="P.0000026" ref="P.0000026">emballeur</persName><note>„Emballeur“ (frz.) bezeichnet zu Deutsch einen
+                  Verpacker. Jacoba van Heemskerck ließ ihre Kunstwerke von ihrem Emballeur Herr
+                  Ridderhof an Walden nach Berlin zum Versand vorbereiten und abschicken.</note>
+               über eine versicherung von Lieferfrist gesprochen er sagt aber dass man dass hier
+               nicht tut.<pb xml:id="S.127v" n="127v" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D98800000002"/> Finden Sie
+               es nicht zu spät <date when="1916-01-20">30 Januar</date> zu öffnen Sie haben dann
+               bis ende <date when="1916-02">Februar</date> die Ausstellung und dann noch 18. Tagen
+               bis <date when="1916-03-15">15 März</date> um die Bilder nach hier zu
+                  schicken,<note>Im Februar 1916 fand die 38. STURM-Ausstellung mit Werken Jacoba
+                  van Heemskercks in der Berliner Galerie statt. Vgl. Enders, Rainer:
+                  Ausstellungskataloge der STURM-Galerie.
+                  <ref target="https://www.arthistoricum.net/themen/portale/sturm/ausstellungskataloge/">https://www.arthistoricum.net/themen/portale/sturm/ausstellungskataloge/</ref> (Aufruf
+                  06.04.2017).</note> und jetzt geht es hier in <placeName key="O.0000003" ref="http://sws.geonames.org/2750405">Holland</placeName> mit die Mobilisation
+               auch viel langsamer dann in Friedenszeit. Sie machen es nach natürlich am besten, ich
+               sage es nur, mir ist es ganz gleich eine Woche früher nach <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Berlin</placeName> zu kommen. Bitte schicken
+               Sie Sturmzettel<note>Der Begriff „Sturmzettel“ ist in der Literatur nicht belegt. Van
+                  Heemskerck spricht in ihrem <ref target="Q.01.19141016.JVH.01">Brief</ref> an Walden vom 16. Oktober 1914 (Bl.29-30) davon,
+                  dass sie ihm mit Zetteln nummerierte Bilder schicken wolle: „die Bilder werde ich
+                  dann auch mit die Zettel vom Sturm nummerieren [...].“ In den folgenden Briefen
+                  ist dann von „Sturmzetteln“ die Rede. Es wird hier angenommen, dass „Sturmzettel“
+                  Vorlagen des STURM-Unternehmens zur Bennennung und Nummerierung von Kunstwerken
+                  waren.</note> für meine Bilder. Anbei ein schöne<pb xml:id="S.128r" n="128r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D98800000003"/> Artikel
+               von <persName key="P.0000012" ref="http://d-nb.info/gnd/1077780265">Kickert</persName>, hoffentlich
+               kommen mehrere, da Sie mir fragte immer solche Sachen zu schicken tue ich es auch.
+               Herr <persName key="P.0000048" ref="http://www.wikidata.org/entity/Q23719055">Versluys</persName> der
+               herausgeber, hat mir sehr <foreign>enthousiast</foreign> über <term type="journal" key="W.0000068" source="https://doi.org/10.11588/diglit.37113.9" ref="http://d-nb.info/gnd/4058273-5">Der Sturm</term><note>Walden, Herwarth [Hrsg.]: Der Sturm. Halbmonatsschrift für
+                  Kultur und die Künste 15/16 (1915).</note> geschrieben und über meine <term type="artwork" key="W.0000007" source="https://doi.org/10.11588/diglit.37113#0090">Holzschnitt</term><note>Walden, Herwarth [Hrsg.]: Der Sturm. Halbmonatsschrift
+                  für Kultur und die Künste 15/16 (1915), S. 89.</note> wollen Sie ihm bitte
+               bisweile <term type="journal" key="W.0000068" source="https://doi.org/10.11588/diglit.37113.9" ref="http://d-nb.info/gnd/4058273-5">ein Nummer</term> schicken Ich freue mich mit Ihnen das
+               Buch über <persName key="P.0000011" ref="http://d-nb.info/gnd/119295954">Toorop</persName> zu sehen.
+               Hoffentlich habe ich 20 Bilder fertig ich arbeite von früh bis spät. Wenn es Kritiken
+               gibt dann schicken Sie die bitte gute und<pb xml:id="S.128v" n="128v" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D98800000004"/> schlechte.
+               Ich habe nun doch von <persName key="P.0000012" ref="http://d-nb.info/gnd/1077780265">Kickert</persName> gelesen dass er nur Schüler von <persName key="P.0000049" ref="http://d-nb.info/gnd/118594206">Picasso</persName> und <persName key="P.0000010" ref="http://d-nb.info/gnd/128866748">Le Fauconnier</persName> gibt, wir allen
+               bestehen einfach nicht. Schade dass ich <date when="1915-11-28">Sonntag</date> nicht
+               ein Moment hingehen kann. es ist aber zu weit für ein Nachmittag.</p>
+                <closer>
+                    <salute>Herzlichste Grüsse</salute> bald schreibe ich wieder sehr sehr viel Dank für alle Mühe
+               mit das einrahmen <signed>Ihre <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">
+                            <hi rend="twice-underline">JacobavH</hi>
+                        </persName>
+                    </signed>
+                </closer>
+                <postscript>
+                    <p>In diese Monat ist meine <term type="artwork" key="W.0000007" source="https://doi.org/10.11588/diglit.37113#0090">Holzschnitt</term> im <term type="journal" key="W.0000068" source="https://doi.org/10.11588/diglit.37113.9" ref="http://d-nb.info/gnd/4058273-5">Sturm</term> sehr schön viel Dank.</p>
+                </postscript>
+            </div>
+        </body>
+    </text>
+</TEI>

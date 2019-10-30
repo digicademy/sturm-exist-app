@@ -5,7 +5,7 @@
  : DER STURM
  : A Digital Edition of Sources from the International Avantgarde
  :
- : Edited and developed by Marjam Mahmoodzada and Torsten Schrade
+ : Edited and developed by Marjam Trautmann and Torsten Schrade
  : Academy of Sciences and Literature | Mainz
  :
  : The website header with branding and home links.
@@ -20,10 +20,7 @@
         <div class="branding">
             <a href="{$relativeToAppBase}index.html">
                 <h1 class="title">
-                    <span class="tighter">DER</span>
-                    <xsl:text> </xsl:text>
-                    <span class="tight">ST</span>
-                    <span class="normal">URM</span>
+                    <span class="tighter">DER</span><xsl:text> </xsl:text><span class="tight">ST</span><span class="normal">URM</span>
                 </h1>
                 <h2 class="subtitle">Digitale Quellenedition zur Geschichte der internationalen Avantgarde</h2>
             </a>

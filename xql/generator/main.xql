@@ -4,7 +4,7 @@ xquery version "3.0";
  : DER STURM
  : A Digital Edition of Sources from the International Avantgarde
  :
- : Edited and developed by Marjam Mahmoodzada and Torsten Schrade
+ : Edited and developed by Marjam Trautmann and Torsten Schrade
  : Academy of Sciences and Literature | Mainz
  :
  : The main query of the STURM website generator.
@@ -41,6 +41,7 @@ let $txtFiles := (
 
 let $htmlFiles := (
     sturm_html:Pages($appRoot, $appName, '/xml/seiten/', '/html/'),
+    sturm_html:Pages($appRoot, $appName, '/xml/versionen/seiten/', '/html/'),
     sturm_html:Letters($appRoot, $appName, '/xml/quellen/01.briefe/', '/html/quellen/briefe/'),
     sturm_html:Letters($appRoot, $appName, '/xml/versionen/quellen/01.briefe/', '/html/quellen/briefe/'),
     sturm_html:Registers($appRoot, $appName, '/xml/register/', '/html/register/'),

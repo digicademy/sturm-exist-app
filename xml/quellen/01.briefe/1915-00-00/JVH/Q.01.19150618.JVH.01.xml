@@ -58,12 +58,13 @@
                         <repository>Staatsbibliothek zu Berlin Preußischer Kulturbesitz,
                             Handschriftenabteilung, Sturm-Archiv I, Heemskerck, Jacoba
                             van</repository>
-                        <idno type="uri">http://kalliope-verbund.info/DE-611-HS-1910935</idno>
+                        <idno type="uri">http://resolver.staatsbibliothek-berlin.de/SBB0000D97A00000000</idno>
                     </msIdentifier>
                 </msDesc>
             </sourceDesc>
         </fileDesc>
-        <xenoData type="uri">http://digital.staatsbibliothek-berlin.de/metsresolver/PPN746594801</xenoData>
+        <xenoData type="uri">http://kalliope-verbund.info/DE-611-HS-1910935</xenoData>
+        <xenoData type="url">http://content.staatsbibliothek-berlin.de/dc/PPN746594801.mets.xml</xenoData>
         <profileDesc>
             <correspDesc key="Bl.99-100" ref="https://sturm-edition.de/id/Q.01.19150618.JVH.01">
                 <correspAction type="sent">
@@ -76,12 +77,19 @@
                 <correspAction type="received">
                     <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth
                         Walden</persName>
-                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>
+                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950159">Potsdamerstrasse 134a, Berlin W.9.</placeName>
                 </correspAction>
             </correspDesc>
         </profileDesc>
         <revisionDesc>
             <listChange>
+                <change>
+                    <date when="2019-07-25" n="2"/>
+                    <p>URL zur METS-Datei der Staatsbibliothek zu Berlin aktualisiert innerhalb von :xenoData und zusätzliches :xenoData mit permanenter URI zum Kalliope-Findbucheintrag.</p>
+                    <p>:idno URL innerhalb von :msIdentifier durch permanente URL zum entsprechenden Datensatz der Staatsbibliothek zu Berlin gesetzt</p>
+                    <p>Standardisierung der Kommentierungstiefe, keine spezifischen Erklärungen von Fremdwörtern außerhalb des Sturm-Kontextes</p>
+                    <p>Normdaten (Geonames) zu Stadt Berlin korrigiert (zuvor fälschlicherweise Verweis auf "Land Berlin")</p>
+                </change>
                 <change>
                     <date when="2018-07-16" n="1"/>
                 </change>
@@ -112,14 +120,14 @@
                 <p>Vielen Dank für Ihren Brief vom <date when="1915-06-12">12. Juni</date>. Ich bin
                     sehr froh dass Sie mit meine beide Ausstellungs Vorschläge einverstanden sind.
                     Auch herzlich Dank für die schöne Karte aus <placeName key="O.0000036" ref="http://sws.geonames.org/2618425">Kopenhagen</placeName>, die ich später
-                    dann Ihr Brief aus <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Berlin</placeName> empfing. Es ist ein
+                    dann Ihr Brief aus <placeName key="O.0000002" ref="http://sws.geonames.org/2950159">Berlin</placeName> empfing. Es ist ein
                     glänzende Kritik die Dr <persName key="P.0000021" ref="http://d-nb.info/gnd/119191164">Behne</persName> über meine Ausstellung
                     geschrieben hat. Ich habe ihm<pb xml:id="S.99v" n="99v" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D97A00000002"/> ein
                     Brief geschrieben an die aufgegebene Adresse und ihm gesagt dass ich sein
                     Urtheil über meine Arbeiten für sehr wertvoll hälte und ihm gesagt dass ich doch
-                    jedenfalls hoffe nächstes Frühjahr nach <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Berlin</placeName> komme zu können und
+                    jedenfalls hoffe nächstes Frühjahr nach <placeName key="O.0000002" ref="http://sws.geonames.org/2950159">Berlin</placeName> komme zu können und
                     dass ich hoffte ihm dann auf meine Ausstellung ein Bild schenken zu
-                        dürfen.<note>Im Februar 1916 fand die 38. Sturm-Ausstellung mit Bildern
+                        dürfen.<note>Im Februar 1916 fand die 38. STURM-Ausstellung mit Bildern
                         Jacoba van Heemskercks statt. Vgl. Enders, Rainer: Ausstellungskataloge der
                         STURM-Galerie. <ref target="https://www.arthistoricum.net/themen/portale/sturm/ausstellungskataloge/">https://www.arthistoricum.net/themen/portale/sturm/ausstellungskataloge/</ref>
                         (Aufruf 06.04.2017).</note> Ich bin jetzt sehr mit Zeichnungen und
@@ -147,8 +155,8 @@
                         niederländischer Kunstverein.</note> wieder reorganisiert hat und jetzt
                     selbst Präsident ist, wenn man zur Reorganisation über geht ist es sehr gut sich
                     selbst Präsident zu machen!!<pb xml:id="S.100v" n="100v" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D97A00000004"/> Die
-                    Künstler hier sind wütend über meine Ausstellungen in <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Berlin</placeName>, ein sagte, „dass
-                    waren doch sicher sehr billige Preisen dass Ihre Arbeiten in <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Berlin</placeName>
+                    Künstler hier sind wütend über meine Ausstellungen in <placeName key="O.0000002" ref="http://sws.geonames.org/2950159">Berlin</placeName>, ein sagte, „dass
+                    waren doch sicher sehr billige Preisen dass Ihre Arbeiten in <placeName key="O.0000002" ref="http://sws.geonames.org/2950159">Berlin</placeName>
                     verkauft sind.“ Doch schrecklich die Eifersucht überall. Es macht mir nichts
                     mehr und ich gehe ruhig allein weiter.</p>
                 <closer>

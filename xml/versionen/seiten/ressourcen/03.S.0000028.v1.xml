@@ -1,0 +1,129 @@
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="S.0000028">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Künstler-Siglen</title>
+                <editor>
+                    <persName ref="https://orcid.org/0000-0002-0953-2818">
+                        <forename>Torsten</forename>
+                        <surname>Schrade</surname>
+                    </persName>
+                </editor>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0002-0953-2818">
+                        <forename>Torsten</forename>
+                        <surname>Schrade</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeber</note>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0003-2423-7144">
+                        <forename>Marjam</forename>
+                        <surname>Trautmann</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeberin</note>
+                    </resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="http://www.adwmainz.de">Akademie der Wissenschaften und der Literatur | Mainz</ref>
+                </publisher>
+                <pubPlace ref="http://sws.geonames.org/2874225">Mainz</pubPlace>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        This file is licensed under the terms of the Creative-Commons-License CC BY 4.0
+                    </licence>
+                </availability>
+                <idno type="file">siglen.v1.xml</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Torsten Schrade: "Siglen-Übersicht der STURM-Künstler und -Künstlerinnen", in: Der STURM. Digitale Quellenedition zur Geschichte der 
+                    internationalen Avantgarde, erarbeitet und herausgegeben von Marjam Trautmann und 
+                    Torsten Schrade. Mainz, Akademie der Wissenschaften und der Literatur.
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <listChange>
+                <change>
+                    <date when="2018-07-16" n="1"/>
+                    <p>Initiale Version</p>
+                </change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="section" n="eight">
+                <ab rend="h2">Siglen-Übersicht der STURM-Künstler und -Künstlerinnen</ab>
+                <p>
+                    Diese Übersicht wird mit dem fortschreitenden Editionsprozess kontinuierlich vervollständigt.
+                </p>
+                <table type="packed">
+                    <row rend="th">
+                        <cell>Sigle</cell>
+                        <cell>Künstler/in</cell>
+                        <cell>Identifikator</cell>
+                    </row>
+                    <row>
+                        <cell>AST</cell>
+                        <cell>August Stramm</cell>
+                        <cell>
+                            <ref target="register/personen/P.0000041.xml">P.0000041</ref>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>FMA</cell>
+                        <cell>Franz Marc</cell>
+                        <cell>
+                            <ref target="register/personen/P.0000003.xml">P.0000003</ref>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>HWA</cell>
+                        <cell>Herwarth Walden</cell>
+                        <cell>
+                            <ref target="register/personen/P.0000001.xml">P.0000001</ref>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>JVH</cell>
+                        <cell>Jacoba van Heemskerck</cell>
+                        <cell>
+                            <ref target="register/personen/P.0000004.xml">P.0000004</ref>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>PSC</cell>
+                        <cell>Paul Scheerbart</cell>
+                        <cell>
+                            <ref target="register/personen/P.0000013.xml">P.0000013</ref>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>NWA</cell>
+                        <cell>Nell Walden</cell>
+                        <cell>
+                            <ref target="register/personen/P.0000002.xml">P.0000002</ref>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>WKA</cell>
+                        <cell>Wassily Kandinsky</cell>
+                        <cell>
+                            <ref target="register/personen/P.0000009.xml">P.0000009</ref>
+                        </cell>
+                    </row>
+                </table>
+            </div>
+            <div type="section" n="four">
+                <ab type="subNavigation" n="ressourcen"/>
+            </div>
+        </body>
+    </text>
+</TEI>

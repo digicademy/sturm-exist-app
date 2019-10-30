@@ -1,14 +1,14 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:exslt="http://exslt.org/common" exclude-result-prefixes="xs tei exslt" version="2.0">
 
-<!-- 
+<!--
 (:
  : DER STURM
  : A Digital Edition of Sources from the International Avantgarde
  :
- : Edited and developed by Marjam Mahmoodzada and Torsten Schrade
+ : Edited and developed by Marjam Trautmann and Torsten Schrade
  : Academy of Sciences and Literature | Mainz
  :
- : Main XSL stylesheet for the HTML transformation from which all other 
+ : Main XSL stylesheet for the HTML transformation from which all other
  : transformations are initialized. Each building block of the website is
  : cleanly encapsulated in its own XLS stylesheet with an according name.
  : Check the xsl:includes below.
@@ -19,6 +19,7 @@
 :)
 -->
 
+    <xsl:include href="version.xsl"/>
     <xsl:include href="elements.xsl"/>
     <xsl:include href="head.xsl"/>
     <xsl:include href="branding.xsl"/>
@@ -77,45 +78,17 @@
                     <main class="row content hyphenate" id="main">
                         <xsl:choose>
                             <xsl:when test="$transformation eq 'letter'">
-                                <div class="department">
-                                    <h3>
-                                        <a href="{$relativeToAppBase}quellen/briefe.html">Abteilung I, Briefe</a>
-                                    </h3>
-                                    <p>
-                                        <strong>Dokumenttyp: </strong> 
-                                        <xsl:choose>
-                                            <xsl:when test="$sourcetype = 'postcard'">Postkarte</xsl:when>
-                                            <xsl:when test="$sourcetype = 'militaryMail'">Feldpost</xsl:when>
-                                            <xsl:when test="$sourcetype = 'telegram'">Telegramm</xsl:when>
-                                            <xsl:otherwise>Brief</xsl:otherwise>
-                                        </xsl:choose>
-                                    </p>
-                                    <p>
-                                        <strong>Chronologie: </strong> 
-                                        <a href="{concat($relativeToAppBase, 'quellen/briefe/chronologie.html')}">Briefe von 1914 bis 1915 <xsl:if test="contains($targetDir, 'chronologie')">
-                                                <span title="Aktuell gewählte Ansicht"> ←</span>
-                                            </xsl:if>
-                                        </a>
-                                    </p>
-                                    <p>
-                                        <strong>Briefwechsel: </strong> 
-                                        <a href="{concat($relativeToAppBase, 'quellen/briefe/', lower-case(substring($idno, 15, 3)), '.html')}">
-                                            <xsl:value-of select="concat(//tei:correspAction[@type = 'sent']/tei:persName, ' an Herwarth Walden')"/>
-                                            <xsl:if test="not(contains($targetDir, 'chronologie'))">
-                                                <span title="Aktuell gewählte Ansicht"> ←</span>
-                                            </xsl:if>
-                                        </a>
-                                    </p>
-                                    <p class="msidentifier">
-                                        <strong>Quelle: </strong>Staatsbibliothek zu Berlin, Handschriftenabteilung, Sturm-Archiv I, <xsl:value-of select="$senderPrefName"/>, <a class="external" href="{$uri}">
-                                            <xsl:value-of select="$folios"/>
-                                        </a>
-                                    </p>
-                                </div>
+                                <xsl:if test="contains($idno, 'v')">
+                                    <xsl:call-template name="version-note"/>
+                                </xsl:if>
+                                <xsl:call-template name="department"/>
                                 <xsl:call-template name="toolbar"/>
                                 <xsl:call-template name="letter">
                                     <xsl:with-param name="dateString" select="$dateString"/>
                                 </xsl:call-template>
+                                <section class="twelve columns">
+                                    <xsl:call-template name="version-infobox"/>
+                                </section>
                             </xsl:when>
                             <xsl:when test="$transformation eq 'lettersRegister'">
                                 <xsl:call-template name="register"/>
@@ -132,8 +105,17 @@
                             <xsl:when test="$transformation eq 'person'">
                                 <xsl:call-template name="entity"/>
                             </xsl:when>
-                            <xsl:otherwise>
+                            <xsl:when test="$transformation eq 'generatedPage'">
                                 <xsl:call-template name="page"/>
+                            </xsl:when>
+                            <xsl:otherwise>
+                                <xsl:if test="contains($idno, 'v')">
+                                    <xsl:call-template name="version-note"/>
+                                </xsl:if>
+                                <xsl:call-template name="page"/>
+                                <section class="twelve columns">
+                                    <xsl:call-template name="version-infobox"/>
+                                </section>
                             </xsl:otherwise>
                         </xsl:choose>
                     </main>

@@ -1,0 +1,171 @@
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Q.01.19151218.JVH.01">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Jacoba van Heemskerck an Herwarth Walden, 18. Dezember 1915, 35, Nassau
+                    Zuilensteinstraat, Den Haag</title>
+                <editor>
+                    <persName ref="https://orcid.org/0000-0003-2423-7144">
+                        <forename>Marjam</forename>
+                        <surname>Trautmann</surname>
+                    </persName>
+                </editor>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0002-0953-2818">
+                        <forename>Torsten</forename>
+                        <surname>Schrade</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeber</note>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0003-2423-7144">
+                        <forename>Marjam</forename>
+                        <surname>Trautmann</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeberin</note>
+                    </resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="http://www.adwmainz.de">Akademie der Wissenschaften und der
+                        Literatur | Mainz</ref>
+                </publisher>
+                <pubPlace ref="http://sws.geonames.org/2874225">Mainz</pubPlace>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/"> This file is
+                        licensed under the terms of the Creative-Commons-License CC BY 4.0
+                    </licence>
+                </availability>
+                <idno type="file">Q.01.19151218.JVH.01.v1.xml</idno>
+                <idno type="uri">https://sturm-edition.de/id/Q.01.19151218.JVH.01</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Q.01.19151218.JVH.01, Jacoba van Heemskerck an Herwarth Walden, 18. Dezember
+                    1915, 35, Nassau Zuilensteinstraat, Den Haag, bearbeitet von Marjam Trautmann,
+                    in: Der STURM. Digitale Quellenedition zur Geschichte der internationalen
+                    Avantgarde, erarbeitet und herausgegeben von Marjam Trautmann 
+                    und Torsten Schrade. Mainz, Akademie der Wissenschaften und der Literatur.</bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <country>DE</country>
+                        <settlement>Berlin</settlement>
+                        <repository>Staatsbibliothek zu Berlin Preußischer Kulturbesitz,
+                            Handschriftenabteilung, Sturm-Archiv I, Heemskerck, Jacoba
+                            van</repository>
+                        <idno type="uri">http://kalliope-verbund.info/DE-611-HS-1911242</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <xenoData type="uri">http://digital.staatsbibliothek-berlin.de/metsresolver/PPN746595107</xenoData>
+        <profileDesc>
+            <correspDesc key="Bl.136-137" ref="https://sturm-edition.de/id/Q.01.19151218.JVH.01">
+                <correspAction type="sent">
+                    <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jacoba van
+                        Heemskerck</persName>
+                    <placeName key="O.0000001" ref="http://sws.geonames.org/2747373">Den Haag</placeName>
+                    <date when="1915-12-18"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth
+                        Walden</persName>
+                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change>
+                    <date when="2018-07-16" n="1"/>
+                </change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic n="136r" url="http://content.staatsbibliothek-berlin.de/dms/PPN746595107/800/0/00000001.jpg"/>
+        <graphic n="136v" url="http://content.staatsbibliothek-berlin.de/dms/PPN746595107/800/0/00000002.jpg"/>
+        <graphic n="137r" url="http://content.staatsbibliothek-berlin.de/dms/PPN746595107/800/0/00000003.jpg"/>
+        <graphic n="137v" url="http://content.staatsbibliothek-berlin.de/dms/PPN746595107/800/0/00000004.jpg"/>
+        <graphic n="Farbkeil" url="http://content.staatsbibliothek-berlin.de/dms/PPN746595107/800/0/00000005.jpg"/>
+    </facsimile>
+    <text type="letter">
+        <body>
+            <div type="content">
+                <pb xml:id="S.136r.01" n="136r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D98D00000001"/>
+                <opener>
+                    <dateline>
+                        <placeName key="O.0000001" ref="http://sws.geonames.org/2747373">Haa<hi rend="underline">g</hi>
+                        </placeName>
+                        <hi rend="underline">. <date when="1915-12-18">18. Dez: 1915</date>.</hi>
+                    </dateline>
+                    <salute>Sehr wehrter Herr <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Walden</persName>
+                    </salute>
+                </opener>
+                <p> Heute Ihre Briefe von <date when="1915-12-09">9.</date>  <date when="1915-12-10">10.</date>  <date when="1915-12-11">11.</date>  <date when="1915-12-13">13.</date>
+                    <date when="1915-12-14">14. Dez:</date> zusammen empfangen. Ich werde jetzt
+                    alles beantworten, wie schrecklich doch dass alles so unregelmässig ankommt.
+                    Viel Dank für die Zeitungsausschnitte, ich bin so froh das die Presse jetzt
+                    anfangt sich hineinzufühlen wenn ich denke an die <date when="1915-03">März</date> Ausstellung dann sind die Kritiken jetzt bedeutend besser und
+                    das grosse Publikum hält doch immer die Presse für das Evangelium. Die Maasse
+                    meines grossen Bildes sind mit Rahmen 200 x 120. Hierbei die Uebersetsung zurück
+                    ich habe die Fehler mit Rot und schwarz angestrichen und einige Wörter geändert
+                    im ganzen war das Holländisch nicht schlecht Viel Dank für die Karten<pb xml:id="S.136v" n="136v" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D98D00000002"/> auch
+                    Herr Dr <persName key="P.0000021" ref="http://d-nb.info/gnd/119191164">Behne</persName>. <persName key="P.0000002" ref="http://d-nb.info/gnd/118891456">Nell</persName> hat doch jetzt auch
+                    mein Brief in Ihrem Brief vom <ref target="Q.01.19151209.JVH.01">
+                        <date when="1915-12-09">9. Dez:</date>
+                    </ref> erhalten? <date when="1915-12-16">Donnerstag 16. Dez:</date> sind die 20
+                    Bilder mit <foreign>grande Vitesse</foreign>
+                    <note>„Grande vitesse“ (frz.) heißt
+                        im Deutschen „Hochgeschwindigkeit“. Es ist davon auszugehen, dass Jacoba van
+                        Heemskerck hiermit den postalischen Versand per Eilpost meinte.</note>
+                    abgeschickt, hoffentlich wird es jetzt nicht so lange dauern. Wir wollen <date when="1916-01-27">Donnerstag 27. Januar</date> abends in <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Berlin</placeName>
+                    eintreffen und dann bleiben bis <date when="1916-02-06">Sonntag 6.
+                        Februar</date> ich muss dann unbedingt zurück gehen da meine <persName key="P.0000005" ref="P.0000005">Schwester</persName>
+                    <date when="1916-02-07">Montag</date> ihre Geburtstag hat. Wir haben dann schöne
+                    Tage Wollen Sie ein Zimmer mit zwei Bette für uns reservieren und schreiben Sie
+                    dann bitte die Name und Adresse vom Hotel. Wir schreiben dann <hi rend="underline">nicht</hi> aber wollen nur wegen die Briefe das Adresse
+                    wissen, so ein Zimmer von 6–7. Mark ist ganz richtig. Aber jetzt etwas trauriges
+                    man ist so furchtbar lästig hier am Konsulat<pb xml:id="S.137r" n="137r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D98D00000003"/> in
+                        <placeName key="O.0000009" ref="http://sws.geonames.org/2759794">Amsterdam</placeName> (wo man jetzt hingehen muss) das es schrecklich ist.
+                    Man bekommt einfach kein Erlaubnis nach <placeName key="O.0000014" ref="http://sws.geonames.org/2921044">Deutschland</placeName> zu gehen wenn
+                    man kein sehr dringende Gründen hat. Glauben Sie man wird es uns erlauben. Ich
+                    kann vielleicht wegen die Ausstellung gehen aber Fräulein <persName key="P.0000008" ref="http://d-nb.info/gnd/136128289">Tak</persName>. Bitte
+                    schreiben Sie was wir thun müssen, kennen Sie den Konsul General in <placeName key="O.0000009" ref="http://sws.geonames.org/2759794">Amsterdam</placeName>?
+                    Oder wollen wir es hier Herr <persName key="P.0000053" ref="P.0000053">Wichert</persName> oder <persName key="P.0000054" ref="http://d-nb.info/gnd/118778153">v. Kühlmann</persName> fragen. Ich werd
+                    dann direct nach Weinachten damit anfangen bisweilen dauert es 3. bis 4. Wochen
+                    bis alles fertig ist und dann noch ist es noch gestern passiert dass man im
+                    letzten Moment doch wieder in <placeName key="O.0000009" ref="http://sws.geonames.org/2759794">Amsterdam</placeName> kein Erlaubnis
+                    bekommt ein Bekannte ist drei Mahl hingefahren. Aber wir müssen nach <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Berlin</placeName>, so
+                    schreiben Sie Ihre Meinung<pb xml:id="S.137v" n="137v" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D98D00000004"/>
+                    Prachtvoll dass Sie ein Kollektion von mir in <placeName key="O.0000047" ref="http://sws.geonames.org/2912621">Hagen</placeName> ausstelle, ich bin
+                    sehr froh darüber.<note>Im April 1916 fand in Hagen eine STURM-Ausstellung mit
+                        Werken Jacoba van Heemskercks statt. Vgl. Enders, Rainer: Ausstellungen
+                        außerhalb der Berliner Galerie. URL: <ref target="https://www.arthistoricum.net/themen/portale/sturm/ausstellungen/">https://www.arthistoricum.net/themen/portale/sturm/ausstellungen/</ref>
+                        (Aufruf 06.04.2017).</note> Viel Dank für die Karte mit das Bild von
+                        <persName key="P.0000041" ref="http://d-nb.info/gnd/118618830">August
+                        Stramm</persName>. Wenn Sie von mir auch solche Karte haben wollen dann
+                    werde ich nächste Woche mich photographieren lassen (einfach schrecklich) ich
+                    schicke Ihnen dann die Probe dann können Sie urtheilen, müssen Sie dann die
+                    Platte haben oder können Sie ein <foreign>cliché</foreign> vom Photographie
+                    haben? Werde ich dann die Photo unterzeichnen dann hat man auch mein Autograph
+                    dazu. Heute schicke ich Ihnen: ein no. von <term type="newspaper" key="W.0000057">Nieuwe Courant</term>, <term type="newspaper" key="W.0000076" ref="http://www.wikidata.org/entity/Q1616113">Vaderland</term>, <term type="newspaper" key="W.0000077" ref="http://www.wikidata.org/entity/Q1989439">N. Rotterdammer</term>, <term type="newspaper" key="W.0000081" ref="http://www.wikidata.org/entity/Q837919">Handelsblad</term>
+                    <term type="newspaper" key="W.0000056">Avondpost</term>, <term type="newspaper" key="W.0000078" ref="http://www.wikidata.org/entity/Q2190868">Haagsche
+                        Courant</term>, <term type="newspaper" key="W.0000061">Hofstad</term>, <term type="newspaper" key="W.0000062">Residentie Bode</term>, <term type="newspaper" key="W.0000075" ref="http://www.wikidata.org/entity/Q13649926">Haagsche Post</term>, <term type="newspaper" key="W.0000079" ref="http://www.wikidata.org/entity/Q2366892">Dagblad van Zuid-Holland en ’s
+                        Gravenhage</term>. Wenn Sie mehr haben wollen bitte schreibe mir.</p>
+                <pb xml:id="S.136r.02" n="136r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D98D00000001"/>
+                <closer>
+                    <salute>Mit herzlichste Grüsse</salute>
+                    <signed>Ihre <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">J<hi rend="underline">acobavH</hi>
+                        </persName>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,120 @@
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="S.0000007">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Register</title>
+                <editor>
+                    <persName ref="https://orcid.org/0000-0003-2423-7144">
+                        <forename>Marjam</forename>
+                        <surname>Trautmann</surname>
+                    </persName>
+                </editor>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0002-0953-2818">
+                        <forename>Torsten</forename>
+                        <surname>Schrade</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeber</note>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0003-2423-7144">
+                        <forename>Marjam</forename>
+                        <surname>Trautmann</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeberin</note>
+                    </resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="http://www.adwmainz.de">Akademie der Wissenschaften und der Literatur | Mainz</ref>
+                </publisher>
+                <pubPlace ref="http://sws.geonames.org/2874225">Mainz</pubPlace>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        This file is licensed under the terms of the Creative-Commons-License CC BY 4.0
+                    </licence>
+                </availability>
+                <idno type="file">register.xml</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Marjam Trautmann: "Register", in: Der STURM. Digitale Quellenedition zur Geschichte der 
+                    internationalen Avantgarde, erarbeitet und herausgegeben von Marjam Trautmann und 
+                    Torsten Schrade. Mainz, Akademie der Wissenschaften und der Literatur.
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <listChange>
+                <change>
+                    <date when="2018-07-16" n="1"/>
+                    <p>Initiale Version</p>
+                </change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="section" n="twelve">
+                <ab rend="h2">STURM-Register</ab>
+                <div type="row" rend="down-25">
+                    <div type="columns" n="four">
+                        <ab rend="h4">
+                            <ref target="register/personen.xml">Personenregister</ref>
+                        </ab>
+                        <p>
+                            <ref target="register/personen.xml" rend="black button">Aufschlagen</ref>
+                        </p>
+                    </div>
+                    <div type="columns" n="four">
+                        <ab rend="h4">
+                            <ref target="register/orte.xml">Ortsregister</ref>
+                        </ab>
+                        <p>
+                            <ref target="register/orte.xml" rend="black button">Aufschlagen</ref>
+                        </p>
+                    </div>
+                    <div type="columns" n="four">
+                        <ab rend="h4">
+                            <ref target="register/werke.xml">Werkregister</ref>
+                        </ab>
+                        <p>
+                            <ref target="register/werke.xml" rend="black button">Aufschlagen</ref>
+                        </p>
+                    </div>
+                </div>
+                <div type="row" rend="down-30">
+                    <div type="columns" n="six">
+                        <p> Die einzelnen Register umfassen alle in den bereits edierten Quellen
+                            erwähnten Orte, Personen und Werke (bisher: Kunstwerke, Schriften,
+                            Zeitungen, Zeitschriften). Auf vorhandene Normdatensätze wird
+                            gegebenenfalls über ein (i) nach dem entsprechenden Registerlemma
+                            referenziert. Die Register sind abteilungsübergreifend aufgebaut, die
+                            jeweiligen Quellenverweise sind ihrer spezifischen Abteilung zugeordnet
+                            und mit dem entsprechenden Datensatz verlinkt.</p>
+                        <p>Die einzelnen Registerlemmata führen außerdem jeweils zu einem
+                            Stammdatenblatt, auf dem die jeweiligen Registerinformationen
+                            (Normdatenverweis, Auftreten in den Quellen) nochmals separat aufgeführt
+                            werden. Perspektivisch wird dieses mit weiteren Informationen,
+                            beispielsweise aus der GND und Wikipedia, automatisiert ergänzt.
+                        </p>
+                    </div>
+                    <div type="columns" n="six">
+                        <p>
+                            In der Quelle selbst sind die Entitäten mit ihrem jeweiligen
+                            Register-Stammdatenblatt verknüpft. Durch Anklicken gelangt man dorthin.
+                            Mit dem Ausbau der Quellenedition werden auch die einzelnen Register
+                            laufend angereichert. Des Weiteren ist eine Erweiterung der Register
+                            geplant, so durch die Erfassung von Ereignissen (bspw.
+                            STURM-Ausstellungen).
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -4,7 +4,7 @@ xquery version "3.0";
  : DER STURM
  : A Digital Edition of Sources from the International Avantgarde
  :
- : Edited and developed by Marjam Mahmoodzada and Torsten Schrade
+ : Edited and developed by Marjam Trautmann and Torsten Schrade
  : Academy of Sciences and Literature | Mainz
  :
  : XQuery based URI Resolver. Resolvers URIs of type http://sturm-edition.de/id/###ID###
@@ -29,34 +29,28 @@ declare variable $sturm_resolver:baseURL := 'https://sturm-edition.de/';
 
 declare function sturm_resolver:getUrlByIdentifier($identifier as xs:string, $version as xs:integer, $format as xs:string) {
 
-    let $index := (
-        doc(concat($sturm_resolver:appRoot, $sturm_resolver:appName, '/xml/register/briefe.xml')),
-        doc(concat($sturm_resolver:appRoot, $sturm_resolver:appName, '/xml/register/orte.xml')),
-        doc(concat($sturm_resolver:appRoot, $sturm_resolver:appName, '/xml/register/personen.xml')),
-        doc(concat($sturm_resolver:appRoot, $sturm_resolver:appName, '/xml/register/werke.xml'))
-    )
+    let $processedVersion := doc(concat($sturm_resolver:appRoot, $sturm_resolver:appName, '/temp/processed.xml'))//processed[@key = $identifier and @version = $version][1]
 
-    let $resource := $index//*[@xml:id = $identifier]
-
-    let $processedVersion := doc(concat($sturm_resolver:appRoot, $sturm_resolver:appName, '/temp/processed.xml'))//processed[@source = $identifier and @version = $version][1]
+    let $htmlTargetPath := if (exists($processedVersion)) then
+            concat($sturm_resolver:baseURL, replace($processedVersion/@target, concat($sturm_resolver:appRoot, $sturm_resolver:appName, '/html/'), ''))
+        else ''
 
     let $url := 
-        if (name($resource) eq 'item' and $resource/@n eq 'letter' and exists($processedVersion)) then
-            if ($format eq 'html') then
-                concat($sturm_resolver:baseURL, 'quellen/briefe/chronologie/', $processedVersion/text())
-            else concat($sturm_resolver:baseURL, $sturm_resolver:apiURL, 'letters/', $resource/@xml:id)
-        else if (name($resource) eq 'person' and exists($processedVersion)) then
-            if ($format eq 'html') then
-                concat($sturm_resolver:baseURL, 'register/personen/', $processedVersion/text())
-            else concat($sturm_resolver:baseURL, $sturm_resolver:apiURL, 'persons/', $resource/@xml:id)
-        else if (name($resource) eq 'place' and exists($processedVersion)) then
-            if ($format eq 'html') then
-                concat($sturm_resolver:baseURL, 'register/orte/', $processedVersion/text())
-            else concat($sturm_resolver:baseURL, $sturm_resolver:apiURL, 'places/', $resource/@xml:id)
-        else if (name($resource) eq 'item' and exists($resource/@n) and $resource/@n ne 'letter' and exists($processedVersion)) then
-            if ($format eq 'html') then
-                concat($sturm_resolver:baseURL, 'register/werke/', $processedVersion/text())
-            else concat($sturm_resolver:baseURL, $sturm_resolver:apiURL, 'works/', $resource/@xml:id)
+        if (exists($processedVersion) and $processedVersion/@type eq 'letter') then
+            if ($format eq 'html') then $htmlTargetPath
+            else concat($sturm_resolver:baseURL, $sturm_resolver:apiURL, 'letters/', $processedVersion/@key)
+        else if (exists($processedVersion) and $processedVersion/@type eq 'person') then
+            if ($format eq 'html') then $htmlTargetPath
+            else concat($sturm_resolver:baseURL, $sturm_resolver:apiURL, 'persons/', $processedVersion/@key)
+        else if (exists($processedVersion) and $processedVersion/@type eq 'place') then
+            if ($format eq 'html') then $htmlTargetPath
+            else concat($sturm_resolver:baseURL, $sturm_resolver:apiURL, 'places/', $processedVersion/@key)
+        else if (exists($processedVersion) and $processedVersion/@type eq 'work') then
+            if ($format eq 'html') then $htmlTargetPath
+            else concat($sturm_resolver:baseURL, $sturm_resolver:apiURL, 'works/', $processedVersion/@key)
+        else if (exists($processedVersion) and $processedVersion/@type eq 'page') then
+            if ($format eq 'html') then $htmlTargetPath
+            else concat($sturm_resolver:baseURL, $sturm_resolver:apiURL, 'files/', $processedVersion/@filekey)
         else (
             response:set-status-code(404),
             concat($sturm_resolver:baseURL, '404.html')
@@ -69,7 +63,7 @@ declare function sturm_resolver:getLatestVersionForIdentifier($identifier as xs:
     let $processed := doc(concat($sturm_resolver:appRoot, $sturm_resolver:appName, '/temp/processed.xml'))
 
     let $versions :=
-        for $entry in $processed//processed[@source = $identifier]
+        for $entry in $processed//processed[@key = $identifier]
         order by $entry/@version descending
         return $entry
 

@@ -1,0 +1,162 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Q.01.19190628.JVH.01">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Jacoba van Heemskerck an Herwarth Walden, 28. Juni 1919, Domburg</title>
+                <editor>
+                    <persName ref="https://orcid.org/0000-0003-1208-6131">
+                        <forename>Anne</forename>
+                        <surname>Lorenz</surname>
+                    </persName>
+                </editor>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0002-0953-2818">
+                        <forename>Torsten</forename>
+                        <surname>Schrade</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeber</note>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0003-2423-7144">
+                        <forename>Marjam</forename>
+                        <surname>Trautmann</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeberin</note>
+                    </resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="http://www.adwmainz.de">Akademie der Wissenschaften und der
+                        Literatur | Mainz</ref>
+                </publisher>
+                <pubPlace ref="http://sws.geonames.org/2874225">Mainz</pubPlace>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">This file is
+                        licensed under the terms of the Creative-Commons-License CC BY 4.0
+                    </licence>
+                </availability>
+                <idno type="file">Q.01.19190628.JVH.01.xml</idno>
+                <idno type="uri">https://sturm-edition.de/id/Q.01.19190628.JVH.01</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Q.01.19190628.JVH.01, Jacoba van Heemskerck an Herwarth Walden, 28. Juni 1919,
+                    Domburg, bearbeitet von Anne Lorenz, in: Der STURM. Digitale Quellenedition zur
+                    Geschichte der internationalen Avantgarde, erarbeitet und herausgegeben von
+                    Marjam Trautmann und Torsten Schrade. Mainz, Akademie der Wissenschaften und der
+                    Literatur.</bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <country>DE</country>
+                        <settlement>Berlin</settlement>
+                        <repository>Staatsbibliothek zu Berlin Preußischer Kulturbesitz,
+                            Handschriftenabteilung, Sturm-Archiv I, Heemskerck, Jacoba
+                            van</repository>
+                        <idno type="uri">http://resolver.staatsbibliothek-berlin.de/SBB0000DA2300000000</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <xenoData type="uri">http://kalliope-verbund.info/DE-611-HS-1913478</xenoData>
+        <xenoData type="url">https://content.staatsbibliothek-berlin.de/dc/PPN746596928.mets.xml</xenoData>
+        <profileDesc>
+            <correspDesc key="Bl.358" ref="https://sturm-edition.de/id/Q.01.19190628.JVH.01">
+                <correspAction type="sent">
+                    <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jacoba van
+                        Heemskerck</persName>
+                    <placeName key="O.0000004" ref="http://sws.geonames.org/2756746">Domburg</placeName>
+                    <date when="1919-06-28"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth
+                        Walden</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change>
+                    <date when="2019-08-26" n="1"/>
+                </change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic n="358r" url="http://content.staatsbibliothek-berlin.de/dms/PPN746596928/500/0/00000001.jpg"/>
+        <graphic n="358v" url="http://content.staatsbibliothek-berlin.de/dms/PPN746596928/500/0/00000002.jpg"/>
+        <graphic n="Farbkeil" url="http://content.staatsbibliothek-berlin.de/dms/PPN746596928/500/0/00000003.jpg"/>
+    </facsimile>
+    <text type="letter">
+        <body>
+
+            <div type="content">
+                <pb xml:id="S.358r" n="358r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000DA2300000001"/>
+
+
+                <opener>
+                    <dateline>
+                        <placeName key="O.0000004" ref="http://sws.geonames.org/2756746">Do<hi rend="twice-underline">mburg</hi>
+                        </placeName>
+                         <date when="1919-06-28">28.6.19</date>.</dateline>
+                     <salute>Lieber <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth</persName>
+                    </salute>
+                </opener>
+
+                <p>Dank für deinen Brief vom <date when="1919-06-24">24 Juni</date> soeben erhalten.
+                    Ich bin sehr froh dass du zufrieden bist und deiner Sache ganz sicher. Man redet
+                    so viel und ich höre immer so viel verschiedenes aus <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Berlin</placeName>.</p>
+
+                <p>Schön dass mein <term type="artwork" key="W.0000109">Bild 24.</term> verkauft
+                    ist, ich erhielt deine Karte darüber. Das Protocoll der I.V.<note>Abkürzung für
+                        die von Walden 1919 gegründete „Internationale Vereinigung der
+                        Expressionisten, Kubisten und Futuristen“. Vgl. Wilhelmi, Christoph:
+                        Künstlergruppen in Deutschland, Österreich und der Schweiz seit 1900.
+                        Stuttgart 1996, S. 183.</note> habe ich empfangen. Bitte
+                    schicke meine Mitgliedsbeitrag M.20. an Herrn <persName key="P.0000110" ref="http://d-nb.info/gnd/119102277">Hans Brass</persName>. Was gibt es doch
+                    viel Intrigen dass wir von der grosse Berliner Kunstausstellung<note>Die
+                        jährliche „Große Berliner Kunstausstellung“ fand seit 1893 statt und fimierte zwischen 1919 und 1921
+                        unter dem Namen „Berliner Kunstausstellung“.</note> ausgeschlossen sind, natürlich alles Eifersucht.
+                    Macht die I.V. dieses Jahr im Herbst eine zweite Herbstsalon brauchst du dann
+                        Bilder?<note>Mit dem Ausbruch des 1. Weltkrieges war eine Fortführung des
+                        Ersten Deutschen Herbstsalons, den Walden im September 1913 nach dem Vorbild
+                        des Pariser Salon d’Automne ausgerichtet hatte, nicht mehr möglich und
+                        konnte auch nach Kriegsende nicht mehr realisiert werden. Vgl. Selz, Peter:
+                        Der „Erste Deutsche Herbstsalon“, Berlin 1913. In: Die Kunst der
+                        Ausstellung. Eine Dokumentation dreißig exemplarischer Kunstausstellungen
+                        dieses Jahrhunderts. Hrsg. von Bernd Klüser. Frankfurt am Main/Leipzig 1991,
+                        S. 56–43.</note> vielleicht konnte ich dann nicht eingerahmt einige
+                    schicken, und bitte schreibe wenn dann die Bilder in <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Berlin</placeName> sein müssen. Wenn
+                    die ausstellung nicht stattfindet dann warte ich noch mit Bilder schicken du
+                    hast noch genug für kleinen Ausstellungen, und alles ist noch so unsicher. Für
+                    ein Herbstsalon will ich auch Zeichnungen schicken</p>
+
+
+                <closer>
+                    <salute>Herzlichste Grüssen</salute>
+                    <signed>deine <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">
+                                JacobavanHeem<hi rend="twice-underline">skerck</hi>
+                        </persName>.
+                    </signed>
+                </closer>
+
+
+                <postscript>
+                    <p>Kannst du so in <date when="1919-10">Oktober</date> entwürfe für Glasfenster
+                        ausstellen, die konnte ich vielleicht so hinschicken und dann kannst du die
+                        in <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Berlin</placeName> einrahmen lassen.<note>Die 79. STURM-Ausstellung
+                            zeigte im Oktober 1919 neben Werken von Johannes Molzahn und Karl
+                            Herrmann Entwürfe für Glasfenster van Heemskercks, vgl. den <ref target="https://nbn-resolving.org/urn:nbn:de:bvb:255-dtl-0000001350">Katalog zur Ausstellung</ref>, Walden, Herwarth: Neunundsiebzigste
+                            Ausstellung – Johannes Molzahn, Karl Herrmann, Jacoba van Heemskerck.
+                            Entwürfe für Glasfenster, Berlin 1919.</note> Hoffentlich kannst du noch
+                        vor deiner Abreise antworten</p>
+                </postscript>
+
+
+            </div>
+        </body>
+    </text>
+</TEI>

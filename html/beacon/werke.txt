@@ -8,9 +8,17 @@
 #UPDATE: monthly
 #INSTITUTION: Digital Academy - Academy of Sciences and Literature Mainz
 
+4006406-2||https://sturm-edition.de/id/W.0000167
 4384142-9||https://sturm-edition.de/id/W.0000072
 4714366-6||https://sturm-edition.de/id/W.0000073
 4127687-5||https://sturm-edition.de/id/W.0000070
+4181967-6||https://sturm-edition.de/id/W.0000102
+4737924-8||https://sturm-edition.de/id/W.0000120
 4129625-4||https://sturm-edition.de/id/W.0000071
+4133052-3||https://sturm-edition.de/id/W.0000170
+4166017-1||https://sturm-edition.de/id/W.0000169
+4735095-7||https://sturm-edition.de/id/W.0000110
 4099371-1||https://sturm-edition.de/id/W.0000069
 4058273-5||https://sturm-edition.de/id/W.0000068
+4382699-4||https://sturm-edition.de/id/W.0000091
+4543675-7||https://sturm-edition.de/id/W.0000076

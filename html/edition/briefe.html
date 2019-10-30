@@ -3,10 +3,10 @@
     <head>
         <meta charset="utf-8"/>
         <meta name="description" content=""/>
-        <meta name="author" content="Marjam Mahmoodzada"/>
+        <meta name="author" content="Marjam Trautmann"/>
         <meta name="author" content="Torsten Schrade"/>
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
-        <title>Abteilung I, STURM-Briefe : DER STURM. Digitale Quellenedition zur Geschichte der internationalen Avantgarde</title>
+        <title>Abteilungsspezifische Editionsrichtlinien: Abteilung I – STURM-Briefe : DER STURM. Digitale Quellenedition zur Geschichte der internationalen Avantgarde</title>
         <script>
                 var Hyphenopoly = {
                     require: {
@@ -111,6 +111,7 @@
   &lt;persName key="P.0000001" ref="http://d-nb.info/gnd/118770950"&gt;Herwarth Walden&lt;/persName&gt;
   &lt;placeName key="O.0000002" ref="http://sws.geonames.org/2950157"&gt;Berlin&lt;/placeName&gt;
  &lt;/correspAction&gt;
+ &lt;note&gt;[gegebenenfalls editorische Erläuterung zur den hier erfassten Daten]&lt;/note&gt;
 &lt;/correspDesc&gt;
                 </code>
                 </pre>
@@ -118,7 +119,7 @@
                     Die Elemente <code class="xml">persName</code> und <code class="xml">placeName</code> enthalten in ihrem jeweiligen Attribut <code class="xml">ref</code> die Norm-ID zum entsprechenden Datensatz der <a class="external internal" href="http://www.dnb.de/EN/Standardisierung/GND/gnd_node.html">GND</a> bzw. von <a class="external internal" href="http://www.geonames.org/">Geonames</a>.
                 </p>
                 <p>Das Element <code class="xml">date</code> zur Datierung des Sende- bzw. Empfangsvorgangs enthält entweder das Attribut <code class="xml">when</code> oder die Attribute <code class="xml">notBefore</code> und/oder <code class="xml">notAfter</code>. Der Wert dieser Attribute ist stets ein nach ISO 8601 codiertes Datum (JJJJ-MM-TT).
-                Ist ein Poststempel vorhanden, dann wird hier das Datum des Poststempels eingetragen, ansonsten das durch den Briefschreiber oder die Briefschreiberin handschriftlich notierte Schreibdatum.</p>
+                    Ist ein Poststempel vorhanden, dann wird hier das Datum des Poststempels eingetragen, ansonsten das durch den Briefschreiber oder die Briefschreiberin handschriftlich notierte Schreibdatum. Des Weiteren werden editorische Hinweise zu den Korrespondenz-Metadaten in einem <code class="xml">note</code>-Element notiert: So beispielsweise, wenn der Absendeort aus dem Briefkontext erschlossen wurde.</p>
                 <p>
                     
                 </p>
@@ -245,6 +246,7 @@
                             <li><a href="kataloge.html" class="normal">STURM-Kataloge</a></li>
                             <li><a href="buehne.html" class="normal">STURM-Bühne</a></li>
                             <li><a href="schriften.html" class="normal">STURM-Schriften</a></li>
+                            <li><a href="materialien.html" class="normal">STURM-Materialien</a></li>
                         </ul>
                     </nav>
                 <h4 class="standard">Abteilungsübergreifende Editionsrichtlinien</h4>
@@ -258,6 +260,28 @@
                     finden sich im Begleittext zur <a class="internal" href="../projekt/methodik.html">Digitalen Methodik</a>.
                 </p>
             </section>
+                <section class="twelve columns">
+                    <div class="info">
+                        <p><strong>Zitierhinweis:</strong><br/>Trautmann,
+            Marjam:
+                „Abteilungsspezifische Editionsrichtlinien: Abteilung I – STURM-Briefe“, in: 
+                
+                    DER STURM. Digitale Quellenedition zur Geschichte der internationalen Avantgarde, erarbeitet und herausgegeben von Marjam Trautmann und Torsten Schrade. Mainz, Akademie der Wissenschaften und der Literatur, 
+                
+                Version 2 vom 26. Aug. 2019.
+            </p>
+                        <p><strong>URI:</strong><br/><a href="https://sturm-edition.de/id/S.0000010">https://sturm-edition.de/id/S.0000010</a></p>
+                        <p><strong>Versionen:</strong><br/><a href="https://sturm-edition.de/id/S.0000010/2">
+                        https://sturm-edition.de/id/S.0000010/2</a> (26. Aug. 2019)
+                <br/><a href="https://sturm-edition.de/id/S.0000010/1">
+                        https://sturm-edition.de/id/S.0000010/1</a> (16. Jul. 2018)
+                </p>
+                        <p><strong>Nutzungshinweis:</strong><br/>
+                Edition und Forschungsdaten stehen unter einer <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International (CC-BY 4.0)</a> Lizenz. 
+                Freie Verwendung unter Angabe von Zitierhinweis, Permalink und Kenntlichmachung von Änderungen.
+            </p>
+                    </div>
+                </section>
             </main>
             <footer class="row footer">
                 <section class="six columns service">

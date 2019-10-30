@@ -1,0 +1,135 @@
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Q.01.19210921.JVH.01">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Jacoba van Heemskerck an Herwarth Walden, 21. September 1921, Domburg</title>
+                <editor>
+                    <persName ref="https://orcid.org/0000-0003-1208-6131">
+                        <forename>Anne</forename>
+                        <surname>Lorenz</surname>
+                    </persName>
+                </editor>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0002-0953-2818">
+                        <forename>Torsten</forename>
+                        <surname>Schrade</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeber</note>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0003-2423-7144">
+                        <forename>Marjam</forename>
+                        <surname>Trautmann</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeberin</note>
+                    </resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="http://www.adwmainz.de">Akademie der Wissenschaften und der
+                        Literatur | Mainz</ref>
+                </publisher>
+                <pubPlace ref="http://sws.geonames.org/2874225">Mainz</pubPlace>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">This file is
+                        licensed under the terms of the Creative-Commons-License CC BY 4.0
+                    </licence>
+                </availability>
+                <idno type="file">Q.01.19210921.JVH.01.xml</idno>
+                <idno type="uri">https://sturm-edition.de/id/Q.01.19210921.JVH.01</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Q.01.19210921.JVH.01, Jacoba van Heemskerck an Herwarth Walden, 21. September
+                    1921, Domburg, bearbeitet von Anne Lorenz, in: Der STURM. Digitale
+                    Quellenedition zur Geschichte der internationalen Avantgarde, erarbeitet und
+                    herausgegeben von Marjam Trautmann und Torsten Schrade. Mainz, Akademie der
+                    Wissenschaften und der Literatur.</bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <country>DE</country>
+                        <settlement>Berlin</settlement>
+                        <repository>Staatsbibliothek zu Berlin Preußischer Kulturbesitz,
+                            Handschriftenabteilung, Sturm-Archiv I, Heemskerck, Jacoba
+                            van</repository>
+                        <idno type="uri">http://resolver.staatsbibliothek-berlin.de/SBB0000DA4900000000</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <xenoData type="uri">http://kalliope-verbund.info/DE-611-HS-1914039</xenoData>
+        <xenoData type="url">https://content.staatsbibliothek-berlin.de/dc/PPN746597371.mets.xml</xenoData>
+        <profileDesc>
+            <correspDesc key="Bl.398" ref="https://sturm-edition.de/id/Q.01.19210921.JVH.01">
+                <correspAction type="sent">
+                    <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jacoba van
+                        Heemskerck</persName>
+                    <placeName key="O.0000004" ref="http://sws.geonames.org/2747373">Domburg</placeName>
+                    <date when="1921-09-21">21.9.21</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth
+                        Walden</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change>
+                    <date when="2019-08-26" n="1"/>
+                </change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic n="398r" url="http://content.staatsbibliothek-berlin.de/dms/PPN746597371/500/0/00000001.jpg"/>
+        <graphic n="398v" url="http://content.staatsbibliothek-berlin.de/dms/PPN746597371/500/0/00000002.jpg"/>
+        <graphic n="Farbkeil" url="http://content.staatsbibliothek-berlin.de/dms/PPN746597371/500/0/00000003.jpg"/>
+    </facsimile>
+    <text type="letter">
+        <body>
+            <div type="content">
+                <pb xml:id="S.398r" n="398r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000DA4900000001"/>
+                <opener>
+                    <dateline>
+                        <placeName key="O.0000004" ref="http://sws.geonames.org/2747373">Dom<hi rend="underline">burg</hi>
+                        </placeName>. <date when="1921-09-21">21.9.21</date>
+                    </dateline>
+                    <salute>Lieber <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth</persName>
+                    </salute>
+                </opener>
+
+                <p>Dank für deine Karte <date when="1921-09-21">heute</date> morgen erhalten
+                    hoffentlich kommen die Einfuhrpapiere in einigen Tagen, wir gehen <date when="1921-10-03">3. Oktober</date> von hier und ich muss alles hier selbst
+                    einpacken, dann reisen wir von <placeName key="O.0000001" ref="http://sws.geonames.org/2747373">Haag</placeName> ab und werden dann so
+                    gegen <date when="1921-11-03">3</date> oder <date when="1921-11-04">4.
+                        November</date> in <placeName key="O.0000002" ref="http://sws.geonames.org/2950159">Berlin</placeName> sein und bis <date when="1021-11-12">12 November</date> bleiben<note>Am 6. November 1921
+                        eröffnete die 102. STURM-Ausstellung „Jacoba van Heemskerck.
+                        Gemälde/Aquarelle, Gesamtschau des Sturm“, die laut Katalog einundfünzig
+                        ihrer Werken präsentierte. Vgl. den <ref target="Q.01.19211020.JVH.01">Brief</ref> van Heemskercks an Walden vom 20. Oktober 1921 sowie den
+                            <ref target="https://nbn-resolving.org/urn:nbn:de:bvb:255-dtl-0000001661">Katalog zur Ausstellung</ref>, Walden, Herwarth [Hrsg.]: Der Sturm.
+                        Hundertzweite Ausstellung. Jacoba van Heemskerck. Gemälde/Aquarelle,
+                        Gesamtschau des Sturm. Berlin 1921.</note> es ist nicht sehr lange aber ich muss
+                    wegen Glasfenster Entwürfe zu Hause sein. Wir reisen dann erst noch etwas da ich
+                    sehr müde bin, und deswegen so spät nach <placeName key="O.0000002" ref="http://sws.geonames.org/2950159">Berlin</placeName>. Bitte schreibe ob
+                    es nötig ist Transport versicherung zu schliessen ich sende <foreign>Grande
+                        Vitesse</foreign>, alles ist so schrecklich teuer, so wenn du es nicht nötig
+                    urteilst mache ich es nicht. Wie steht es mit verkauf? Wir machen dann in <date when="1921-11">November</date> wieder die jährliche Abrechnung. Leider dass
+                    alles so teuer ist Jetzt, Mieten für mein atelier alles wird teurer</p>
+
+                <closer>
+                    <salute>Herzlichste grüssen</salute>
+                    <signed>deine <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">
+                                JacobavanHeems<hi rend="twice-underline">kerck</hi>
+                        </persName>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

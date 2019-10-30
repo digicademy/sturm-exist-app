@@ -1,0 +1,169 @@
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Q.01.19140121.FMA.01">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Franz Marc an Herwarth Walden, 21. Januar 1914, Sindelsdorf</title>
+                <editor>
+                    <persName ref="https://orcid.org/0000-0003-2423-7144">
+                        <forename>Marjam</forename>
+                        <surname>Trautmann</surname>
+                    </persName>
+                </editor>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0002-0953-2818">
+                        <forename>Torsten</forename>
+                        <surname>Schrade</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeber</note>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0003-2423-7144">
+                        <forename>Marjam</forename>
+                        <surname>Trautmann</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeberin</note>
+                    </resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="http://www.adwmainz.de">Akademie der Wissenschaften und der Literatur | Mainz</ref>
+                </publisher>
+                <pubPlace ref="http://sws.geonames.org/2874225">Mainz</pubPlace>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        This file is licensed under the terms of the Creative-Commons-License CC BY 4.0
+                    </licence>
+                </availability>
+                <idno type="file">Q.01.19140121.FMA.01.v1.xml</idno>
+                <idno type="uri">https://sturm-edition.de/id/Q.01.19140121.FMA.01</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Q.01.19140121.FMA.01, Franz Marc an Herwarth Walden, 21. Januar 1914, Sindelsdorf, 
+                    bearbeitet von Marjam Trautmann, in: Der STURM. Digitale Quellenedition zur Geschichte der internationalen 
+                    Avantgarde, erarbeitet und herausgegeben von Marjam Trautmann und Torsten Schrade. 
+                    Mainz, Akademie der Wissenschaften und der Literatur.
+                    </bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <country>DE</country>
+                        <settlement>Berlin</settlement>
+                        <repository>Staatsbibliothek zu Berlin Preußischer Kulturbesitz,
+                            Handschriftenabteilung, Sturm-Archiv I, Marc, Franz</repository>
+                        <idno type="uri">http://kalliope-verbund.info/DE-611-HS-1916908</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <xenoData type="uri">http://digital.staatsbibliothek-berlin.de/metsresolver/PPN746598548</xenoData>
+        <profileDesc>
+            <correspDesc key="Bl.179-180" ref="https://sturm-edition.de/id/Q.01.19140121.FMA.01">
+                <correspAction type="sent">
+                    <persName key="P.0000003" ref="http://d-nb.info/gnd/11857745X">Franz Marc</persName>
+                    <placeName key="O.0000048" ref="http://sws.geonames.org/2831942">Sindelsdorf</placeName>
+                    <date when="1914-01-21"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth Walden</persName>
+                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>                  
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change>
+                    <date when="2018-07-16" n="1"/>
+                </change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic n="179r" url="http://content.staatsbibliothek-berlin.de/dms/PPN746598548/800/0/00000001.jpg"/>
+        <graphic n="179v" url="http://content.staatsbibliothek-berlin.de/dms/PPN746598548/800/0/00000002.jpg"/>
+        <graphic n="180r" url="http://content.staatsbibliothek-berlin.de/dms/PPN746598548/800/0/00000003.jpg"/>
+        <graphic n="180v" url="http://content.staatsbibliothek-berlin.de/dms/PPN746598548/800/0/00000004.jpg"/>
+        <graphic n="Farbkeil" url="http://content.staatsbibliothek-berlin.de/dms/PPN746598548/800/0/00000005.jpg"/>
+    </facsimile>
+    <text type="letter">
+        <body>
+           <div type="address">
+               <pb xml:id="S.179r" n="179r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000DAA500000001"/>
+               <ab type="recipient">
+                   <address>
+                       <addrLine>Herr</addrLine>
+                        <addrLine>Herw. <hi rend="underline">Walde</hi>n</addrLine>
+                        <addrLine>Verlag Sturm</addrLine>
+                        <addrLine>Berlin W. 9.</addrLine>
+                        <addrLine>Potsdamerstr. 134/a</addrLine>
+                   </address>
+               </ab>
+            </div> 
+            <div type="content">
+                <pb xml:id="S.180r" n="180r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000DAA500000003"/>
+                <opener>
+                    <salute>Lieber <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Walden</persName>,</salute>
+                </opener>
+                <p>einliegend wieder Schreiben in Sache <persName key="P.0000061" ref="http://d-nb.info/gnd/118812645">Pfemfert</persName>. Daß ich
+                    Zweitschuldner an den Verhandlungsgebühren bin, ist für mich überraschend; wenn
+                    also der „Schädling“ <persName key="P.0000061" ref="http://d-nb.info/gnd/118812645">Pfemfert</persName> nicht bezahlen kann, müßte ich samt der Schädigung durch
+                    den Beklagten auch noch seine Kosten tragen! Wie ist das? Es ist ja bis jetzt
+                    kein Riesenbetrag, aber rechtlich doch interessant. Ich habe auch dreimal
+                    Gerichtskosten bezahlt <persName key="P.0000058" ref="http://d-nb.info/gnd/118870645">Cass.</persName> u. <persName key="P.0000061" ref="http://d-nb.info/gnd/118812645">Pfemf.</persName> (gewöhnlich cc. 3 Mk), die als Nachnahme an mich kommen;
+                    die Belege habe ich Ihnen gelegentlich eingesandt, – gehen diese Kosten ohne
+                    weiteres an mich u. nicht an den Beklagten?</p>
+                <p>
+                    <persName key="P.0000062" ref="http://d-nb.info/gnd/118518674">Campedonk</persName> schreibt heute
+                    wütend aus <placeName key="O.0000032" ref="http://sws.geonames.org/2935022">Dresden</placeName>;
+                    er hängt gar nicht (obwohl 2 Sachen im Katalog sind). Er frug im Büro nach den
+                    Werken von <persName key="P.0000062" ref="http://d-nb.info/gnd/118518674">Campedonk</persName>,
+                    worauf man ihm versicherte: „Die Sachen waren doch<pb xml:id="S.180v" n="180v" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000DAA500000004"/> zu
+                    albern, das konnte nicht in diesem Rahmen gezeigt werden.“ Darauf stellte sich
+                        <persName key="P.0000062" ref="http://d-nb.info/gnd/118518674">Campedonk</persName> vor, -
+                    <foreign>tableau</foreign>! Meine Sachen hängen verstreut, an unmöglichen
+                    Plätzen. Die Sache ist eine Verherrlichung der <persName key="P.0000063" ref="http://d-nb.info/gnd/13236056X">Bechtejeff</persName>, <persName key="P.0000064" ref="http://d-nb.info/gnd/118557157">Javleakj</persName>, <persName key="P.0000065" ref="http://d-nb.info/gnd/118631365">
+                        Werefkin</persName>
+                    und vor allem <persName key="P.0000066" ref="http://d-nb.info/gnd/118530712">Erbslöh</persName>.
+                    Es war ja voraus zusehen, aber so arg hab ich mir’s nicht gedacht. Ich höre von
+                    dort sonst gar nichts. Kritik aus der <term type="newspaper" key="W.0000071" ref="http://d-nb.info/gnd/4129625-4">Frankfurter Zeitung</term> von <persName key="P.0000067" ref="P.0000067">C.
+                        Gebh.</persName> hab ich gelesen. Daß dieses Schwein r. <persName key="P.0000068" ref="http://d-nb.info/gnd/5120121-5">Goldschmidt</persName> nicht einmal was verkauft!</p>
+                <p>Auf die
+                    Besprechungen in <placeName key="O.0000050" ref="http://sws.geonames.org/2920512">Gießen</placeName> freue ich mich; es wird ein Genuß.<note>Von Februar bis März
+                        fand in Gießen eine STURM-Ausstellung mit Werken Franz Marcs statt. Vgl.
+                        Enders, Rainer: Ausstellungen außerhalb der Berliner Galerie. URL:
+                        <ref target="https://www.arthistoricum.net/themen/portale/sturm/ausstellungen/">https://www.arthistoricum.net/themen/portale/sturm/ausstellungen/</ref> (Aufruf
+                        06.04.2017).</note> Hab ich recht gelesen, daß Holzschn. von mir in
+                        <placeName key="O.0000051" ref="http://sws.geonames.org/1850147">Tokio</placeName>
+                    ausgestellt sind?<note>Ausstellung vom 14. bis zum 20. (28.) März 1914 in Tokio, Hibiya
+                        Museum. Vgl. Enders, Rainer: Ausstellungen außerhalb der Berliner Galerie.
+                        URL: <ref target="https://www.arthistoricum.net/themen/portale/sturm/ausstellungen/">https://www.arthistoricum.net/themen/portale/sturm/ausstellungen/</ref>
+                        (Aufruf 06.04.2017).</note> Ihr Wort war schwer zu lesen. Gibt es eigentlich
+                    von dort Besprechungen?</p>
+                <closer>
+                    <salute>Hrzl.</salute> <signed>Ihr <persName key="P.0000003" ref="http://d-nb.info/gnd/11857745X">FzMarc</persName>
+                    </signed>
+                </closer>
+                <pb xml:id="S.179v" n="179v" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000DAA500000002"/>
+                <postscript>
+                    <p>
+                        <label>P.S.</label> Verlangen Sie bitte von <placeName key="O.0000032" ref="http://sws.geonames.org/2935022">Dresden</placeName> meine 8 Bilder
+                            (<term type="artwork" key="W.0000047">N<hi rend="underline">o</hi>
+                        160</term>, <term type="artwork" key="W.0000020">98</term>, <term type="artwork" key="W.0000024">99</term>, <term type="artwork" key="W.0000021">100</term>,
+                        <term type="artwork" key="W.0000022">101</term> (<term type="artwork" key="W.0000037"/>
+                        <term type="artwork" key="W.0000009"/>
+                        <term type="artwork" key="W.0000010"/>kl. Kompos. I–III), <term type="artwork" key="W.0000023">102</term>
+                        des Kataloges) sofort <hi rend="underline">auf Schluß der Auss</hi>tellung
+                        nach <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Berlin</placeName>,
+                            fr<hi rend="underline">achtfrei</hi>, wie abgemacht, unter Anfrage, w<hi rend="underline">ann</hi> die Ausstellung <placeName key="O.0000032" ref="http://sws.geonames.org/2935022">Dresden</placeName> schließt u.
+                        sie die Bilder erwarten können. Sie hängen so schlecht, daß ich sie
+                            <persName key="P.0000057" ref="http://d-nb.info/gnd/143669230">R.</persName> zu keiner
+                        Ausstellung an anderem Ort weitergebe. <persName key="P.0000003" ref="http://d-nb.info/gnd/11857745X">F.M.</persName>
+                    </p>
+                </postscript>
+            </div>
+        </body>
+    </text>
+</TEI>

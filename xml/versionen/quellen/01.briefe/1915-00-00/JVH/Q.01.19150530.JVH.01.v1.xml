@@ -1,0 +1,107 @@
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:id="Q.01.19150530.JVH.01">
+    <teiHeader><fileDesc><titleStmt><title>Jacoba van Heemskerck an Herwarth Walden, 30. Mai 1915, 35, Nassau Zuilensteinstraat, Den Haag</title><editor><persName ref="https://orcid.org/0000-0003-2423-7144"><forename>Marjam</forename><surname>Trautmann</surname></persName></editor>
+                    <respStmt>
+                    <persName ref="https://orcid.org/0000-0002-0953-2818">
+                        <forename>Torsten</forename>
+                        <surname>Schrade</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeber</note>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0003-2423-7144">
+                        <forename>Marjam</forename>
+                        <surname>Trautmann</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeberin</note>
+                    </resp>
+                </respStmt>
+    </titleStmt><publicationStmt><publisher><ref target="http://www.adwmainz.de">Akademie der Wissenschaften und der Literatur | Mainz</ref></publisher><pubPlace ref="http://sws.geonames.org/2874225">Mainz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0/">
+                        This file is licensed under the terms of the Creative-Commons-License CC BY 4.0
+                    </licence></availability><idno type="file">Q.01.19150530.JVH.01.v1.xml</idno><idno type="uri">https://sturm-edition.de/id/Q.01.19150530.JVH.01</idno>
+    </publicationStmt><sourceDesc><bibl>Q.01.19150530.JVH.01, Jacoba van Heemskerck an Herwarth Walden, 30. Mai 1915, 35, Nassau Zuilensteinstraat, Den Haag, 
+                    bearbeitet von Marjam Trautmann, in: Der STURM. Digitale Quellenedition zur Geschichte der internationalen 
+                    Avantgarde, erarbeitet und herausgegeben von Marjam Trautmann und Torsten Schrade. 
+                    Mainz, Akademie der Wissenschaften und der Literatur.
+                    </bibl><msDesc><msIdentifier><country>DE</country><settlement>Berlin</settlement><repository>Staatsbibliothek zu Berlin Preußischer Kulturbesitz,
+                     Handschriftenabteilung, Sturm-Archiv I, Heemskerck, Jacoba van</repository><idno type="uri">http://kalliope-verbund.info/DE-611-HS-1910922</idno></msIdentifier></msDesc></sourceDesc></fileDesc><xenoData type="uri">http://digital.staatsbibliothek-berlin.de/metsresolver/PPN746594763</xenoData><profileDesc><correspDesc key="Bl.94-96" ref="https://sturm-edition.de/id/Q.01.19150530.JVH.01">
+                <correspAction type="sent">
+                    <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jacoba van Heemskerck</persName>
+                    <placeName key="O.0000001" ref="http://sws.geonames.org/2747373">35, Nassau Zuilensteinstraat, Den Haag</placeName>                   
+                    <date when="1915-05-30"/>               
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth Walden</persName>
+                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>
+                </correspAction>
+            </correspDesc></profileDesc><revisionDesc><listChange><change><date when="2018-07-16" n="1"/></change></listChange></revisionDesc></teiHeader>
+    <facsimile>
+        <graphic n="94r" url="http://content.staatsbibliothek-berlin.de/dms/PPN746594763/800/0/00000001.jpg"/>
+        <graphic n="94v" url="http://content.staatsbibliothek-berlin.de/dms/PPN746594763/800/0/00000002.jpg"/>
+        <graphic n="95r" url="http://content.staatsbibliothek-berlin.de/dms/PPN746594763/800/0/00000003.jpg"/>
+        <graphic n="95v" url="http://content.staatsbibliothek-berlin.de/dms/PPN746594763/800/0/00000004.jpg"/>
+        <graphic n="96r" url="http://content.staatsbibliothek-berlin.de/dms/PPN746594763/800/0/00000005.jpg"/>
+        <graphic n="96v" url="http://content.staatsbibliothek-berlin.de/dms/PPN746594763/800/0/00000006.jpg"/>
+        <graphic n="Farbkeil" url="http://content.staatsbibliothek-berlin.de/dms/PPN746594763/800/0/00000007.jpg"/>
+    </facsimile>
+    <text type="letter">
+        <body>
+            <div type="content">
+            <pb xml:id="S.94r" n="94r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D97800000001"/>
+                <opener>
+                    <dateline>
+                        <date when="1915-05-30">
+                            <hi rend="underline">30. Mai
+                  1915</hi>
+                        </date>
+                    </dateline>
+                    <salute>Sehr wehrter Herr <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Walden</persName>.
+                    </salute>
+                </opener>
+                <p>Viel Dank für Ihre Karte von <date when="1915-05-17">17. Mai</date>, ich denke dass
+               Sie jetzt auch meine Karte empfangen habe mit die Nachricht über die gute Empfang der
+               Abrechnung. Morgen reisen wir nach <placeName key="O.0000004" ref="http://sws.geonames.org/2756746">Domburg</placeName> wollen Sie bitte jetzt Ihre Briefe und <term type="journal" key="W.0000068" ref="http://d-nb.info/gnd/4058273-5">Der Sturm</term> wieder nach
+               Loverendale <placeName key="O.0000004" ref="http://sws.geonames.org/2756746">Domburg</placeName>
+                  (<placeName key="O.0000005" ref="http://sws.geonames.org/2744011">Zeeland</placeName>) schicken.
+               Dies mal habe ich<pb xml:id="S.94v" n="94v" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D97800000002"/> kein <term type="journal" key="W.0000068" ref="http://d-nb.info/gnd/4058273-5">Sturm</term> erhalten und
+               Fraulein <persName key="P.0000008" ref="http://d-nb.info/gnd/136128289">Tak</persName> kein <term type="journal" key="W.0000068" source="https://doi.org/10.11588/diglit.37113.2" ref="http://d-nb.info/gnd/4058273-5">April nummer</term><note>Walden, Herwarth [Hrsg.]: Der Sturm. Halbmonatsschrift
+                  für Kultur und die Künste 1/2 (1915).</note> dass Sie mir dann später schickte da
+               ich es auch nicht bekam. Wollen Sie dann bitte jetzt nach <placeName key="O.0000004" ref="http://sws.geonames.org/2756746">Domburg</placeName> ein <term type="journal" key="W.0000068" source="https://doi.org/10.11588/diglit.37113.2" ref="http://d-nb.info/gnd/4058273-5">April nummer</term> für Fräulein <persName key="P.0000008" ref="http://d-nb.info/gnd/136128289">Tak</persName> und ein <term type="journal" key="W.0000068" source="https://doi.org/10.11588/diglit.37113.3" ref="http://d-nb.info/gnd/4058273-5">Mai nummer</term><note>Walden, Herwarth [Hrsg.]: Der Sturm. Halbmonatsschrift für
+                  Kultur und die Künste 3/4 (1915).</note> für mich schicken. Jetzt werde ich wieder
+               mit Arbeiten anfangen und hoffe sehr viel machen zu können.</p><p>Hierbei noch was die
+               Zeitung aus <placeName key="O.0000013" ref="http://sws.geonames.org/2750896">Middelburg</placeName>
+               von meiner Ausstellung sagte.<pb xml:id="S.95r" n="95r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D97800000003"/></p><p>
+               Schrecklich von <placeName key="O.0000025" ref="http://sws.geonames.org/3175395">Italien</placeName>
+               es ist wirklich ob alle wahrhaftigkeit und treue verschwunden sind,<note>Am 23. Mai
+                  1915 erklärte das bisher neutrale Italien Österreich-Ungarn den Krieg. Vgl. Pohlmann, Markus: Kriegserklärungen. In:
+                  Enzyklopädie Erster Weltkrieg. Hrsg. v. Gerhard Hirschfeld [u.a.]. Paderborn
+                  [u.a.] 2004, S. 637–638, hier S. 638.</note> in <placeName key="O.0000035" ref="http://sws.geonames.org/562153">Gallicie</placeName> geht es ja
+                  prachtvoll.<note>Der zuvor erfolgte Vormarsch russischer Truppen nach Galizien
+                  (österreichisch-ungarisches Hoheitsgebiet) wurde durch die Schlacht von
+                  Limanowa-Lapanów, dem harten Winter 1914/15 und dem Durchbruch der Österreicher bei
+                  Gorlitze (ab dem 2. Mai 1915) aufgehalten. Am 22. Juni wurde die galizische
+                  Hauptstadt Lemberg befreit und Österreich nahm Galizien bis auf den östlichsten
+                  Teil wieder in Besitz. Vgl. Jerabek, Rudolf: Galizien. In: Enzyklopädie Erster
+                  Weltkrieg. Hrsg. v. Gerhard Hirschfeld [u.a.]. Paderborn [u.a.] 2004,
+                  S. 516–517.</note></p><p>Für heute genug ich bin müde und ich muss alles für morgen
+               fertig machen.</p>
+                <closer><salute>Herzlichste Grüssen für Sie beiden</salute> <signed>Ihre <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jacoba<hi rend="twice-underline"> vanHeemskerck</hi>
+                        </persName>
+                    </signed>
+                </closer>
+                <pb xml:id="S.96r" n="96r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D97800000005"/>
+            </div>
+                <div type="attachment">
+                    <p>Verlag Der Sturm</p><p> <term type="artwork" key="W.0000028">Gemälde 
+                                n<hi rend="super"><hi rend="twice-underline">o</hi></hi> 15.</term></p><p>
+                        <term type="artwork" key="W.0000017">Zeichnung 
+                                n<hi rend="super"><hi rend="twice-underline">o</hi></hi> 14.</term></p><p> Mar<hi rend="underline">k 935</hi></p><p>
+                  in gute Ordnung erhalten <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jacob<hi rend="twice-underline">a vanHeemskerck</hi></persName>.</p>
+                </div>
+        </body>
+    </text>
+</TEI>

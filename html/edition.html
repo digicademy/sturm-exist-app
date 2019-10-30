@@ -3,10 +3,10 @@
     <head>
         <meta charset="utf-8"/>
         <meta name="description" content=""/>
-        <meta name="author" content="Marjam Mahmoodzada"/>
+        <meta name="author" content="Marjam Trautmann"/>
         <meta name="author" content="Torsten Schrade"/>
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
-        <title>Editionsrichtlinien : DER STURM. Digitale Quellenedition zur Geschichte der internationalen Avantgarde</title>
+        <title>Abteilungsübergreifende Editionsrichtlinien : DER STURM. Digitale Quellenedition zur Geschichte der internationalen Avantgarde</title>
         <script>
                 var Hyphenopoly = {
                     require: {
@@ -315,8 +315,8 @@
                     </code>
                 </pre>
                 <h4 class="standard">Genannte Werke</h4>
-                <p>Als Werke im Element <code class="xml">term</code> codierte Entitäten umfassen Kunstwerke, literarische Werke, Zeitungen und Zeitschriften. Im Attribut <code class="xml">type</code> wird die Textgattung des Werkes näher spezifiziert. Bisherige Attribut-Werte sind: <code class="xml">artwork</code>, <code class="xml">book</code>, <code class="xml">drama</code>, <code class="xml">newspaper</code>, <code class="xml">article</code>, <code class="xml">journal</code>.
-                    Über <code class="xml">ref</code> wird – falls vorhanden – auf einen Normdatensatz (v.a. GND, Wikidata) verwiesen. Ist ein permanent referenzierbares Digitalisat des Werkes vorhanden, dann steht dies in einem <code class="xml">source</code>-Element. Das Digitalisat ist über einen Link in der HTML-Ansicht des Datensatzes aufrufbar. Das Attribut <code class="xml">key</code> enthält die Projektinterne ID des Werkes, die auf das Werkregister verweist.</p>             
+                <p>Als Werke im Element <code class="xml">term</code> codierte Entitäten umfassen Kunstwerke, literarische Werke, Zeitungen, Zeitschriften, Kataloge und Vorträge. Im Attribut <code class="xml">type</code> wird die Gattung des Werkes näher spezifiziert. Bisherige Attribut-Werte sind: <code class="xml">artwork</code>, <code class="xml">book</code>, <code class="xml">drama</code>, <code class="xml">newspaper</code>, <code class="xml">article</code>, <code class="xml">journal</code>, <code class="xml">catalogue</code>, <code class="xml">lecture</code>.
+                    Über <code class="xml">ref</code> wird – falls vorhanden – auf einen Normdatensatz (v.a. GND, Wikidata) verwiesen. Ist ein permanent referenzierbares Digitalisat des Werkes vorhanden, dann steht dies in einem <code class="xml">source</code>-Attribut. Das Digitalisat ist über einen Link in der HTML-Ansicht des Datensatzes aufrufbar. Das Attribut <code class="xml">key</code> enthält die Projektinterne ID des Werkes, die auf das Werkregister verweist.</p>             
                 <pre>
                     <code class="xml">
 &lt;term type="journal" key="W.0000068" source="https://doi.org/10.11588/diglit.37113.2" ref="http://d-nb.info/gnd/4058273-5"&gt;April-Nummer&lt;/term&gt;
@@ -329,10 +329,10 @@
 &lt;unclear&gt;[Unsicher transkribierter Text]&lt;/unclear&gt;
                     </code>
                 </pre>
-                <h4 class="standard">Von der Hauptsprache des Textes (meist Deutsch) abweichende Sprache</h4>
+                <h4 class="standard">Von der Hauptsprache des Textes (meist Deutsch) abweichende Sprache, innerhalb eines Attributes <code class="xml">xml:lang</code> in ISO 639-1 Code spezifiziert.</h4>
                 <pre>
                 <code class="xml">
-&lt;foreign&gt;Grande Vitesse&lt;/foreign&gt;
+&lt;foreign xml:lang="fr"&gt;Grande Vitesse&lt;/foreign&gt;
 
 </code>
                 </pre>
@@ -355,6 +355,7 @@
                             <li><a href="edition/kataloge.html" class="normal">STURM-Kataloge</a></li>
                             <li><a href="edition/buehne.html" class="normal">STURM-Bühne</a></li>
                             <li><a href="edition/schriften.html" class="normal">STURM-Schriften</a></li>
+                            <li><a href="edition/materialien.html" class="normal">STURM-Materialien</a></li>
                         </ul>
                     </nav>
                 <h4 class="standard">Digitale Methodik</h4>
@@ -363,6 +364,28 @@
                     finden sich im Begleittext zur <a class="internal" href="projekt/methodik.html">Digitalen Methodik</a>.
                 </p>
             </section>
+                <section class="twelve columns">
+                    <div class="info">
+                        <p><strong>Zitierhinweis:</strong><br/>Trautmann,
+            Marjam:
+                „Abteilungsübergreifende Editionsrichtlinien“, in: 
+                
+                    DER STURM. Digitale Quellenedition zur Geschichte der internationalen Avantgarde, erarbeitet und herausgegeben von Marjam Trautmann und Torsten Schrade. Mainz, Akademie der Wissenschaften und der Literatur, 
+                
+                Version 2 vom 26. Aug. 2019.
+            </p>
+                        <p><strong>URI:</strong><br/><a href="https://sturm-edition.de/id/S.0000003">https://sturm-edition.de/id/S.0000003</a></p>
+                        <p><strong>Versionen:</strong><br/><a href="https://sturm-edition.de/id/S.0000003/2">
+                        https://sturm-edition.de/id/S.0000003/2</a> (26. Aug. 2019)
+                <br/><a href="https://sturm-edition.de/id/S.0000003/1">
+                        https://sturm-edition.de/id/S.0000003/1</a> (16. Jul. 2018)
+                </p>
+                        <p><strong>Nutzungshinweis:</strong><br/>
+                Edition und Forschungsdaten stehen unter einer <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International (CC-BY 4.0)</a> Lizenz. 
+                Freie Verwendung unter Angabe von Zitierhinweis, Permalink und Kenntlichmachung von Änderungen.
+            </p>
+                    </div>
+                </section>
             </main>
             <footer class="row footer">
                 <section class="six columns service">

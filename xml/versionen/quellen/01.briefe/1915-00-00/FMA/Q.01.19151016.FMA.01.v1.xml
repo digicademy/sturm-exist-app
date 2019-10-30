@@ -1,0 +1,133 @@
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Q.01.19151016.FMA.01">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Franz Marc an Herwarth Walden, 16. Oktober 1915, unbekannter Ort</title>
+                <editor>
+                    <persName ref="https://orcid.org/0000-0003-2423-7144">
+                        <forename>Marjam</forename>
+                        <surname>Trautmann</surname>
+                    </persName>
+                </editor>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0002-0953-2818">
+                        <forename>Torsten</forename>
+                        <surname>Schrade</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeber</note>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0003-2423-7144">
+                        <forename>Marjam</forename>
+                        <surname>Trautmann</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeberin</note>
+                    </resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="http://www.adwmainz.de">Akademie der Wissenschaften und der
+                        Literatur | Mainz</ref>
+                </publisher>
+                <pubPlace ref="http://sws.geonames.org/2874225">Mainz</pubPlace>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/"> This file is
+                        licensed under the terms of the Creative-Commons-License CC BY 4.0
+                    </licence>
+                </availability>
+                <idno type="file">Q.01.19151016.FMA.01.v1.xml</idno>
+                <idno type="uri">https://sturm-edition.de/id/Q.01.19151016.FMA.01</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Q.01.19151016.FMA.01, Franz Marc an Herwarth Walden, 16. Oktober 1915,
+                    unbekannter Ort, bearbeitet von Marjam Trautmann, in: Der STURM. Digitale
+                    Quellenedition zur Geschichte der internationalen Avantgarde, erarbeitet und
+                    herausgegeben von Marjam Trautmann und Torsten Schrade. Mainz,
+                    Akademie der Wissenschaften und der Literatur. </bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <country>DE</country>
+                        <settlement>Berlin</settlement>
+                        <repository>Staatsbibliothek zu Berlin Preußischer Kulturbesitz,
+                            Handschriftenabteilung, Sturm-Archiv I, Marc, Franz</repository>
+                        <idno type="uri">http://kalliope-verbund.info/DE-611-HS-1925405</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <xenoData type="uri">http://digital.staatsbibliothek-berlin.de/metsresolver/PPN746598823</xenoData>
+        <profileDesc>
+            <correspDesc key="Bl.215" ref="https://sturm-edition.de/id/Q.01.19151016.FMA.01">
+                <correspAction type="sent">
+                    <persName key="P.0000003" ref="http://d-nb.info/gnd/11857745X">Franz
+                        Marc</persName>
+                    <placeName>Unknown</placeName>
+                    <date when="1915-10-16"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth
+                        Walden</persName>
+                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change>
+                    <date when="2018-07-16" n="1"/>
+                </change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic n="215r" url="http://content.staatsbibliothek-berlin.de/dms/PPN746598823/800/0/00000001.jpg"/>
+        <graphic n="215v" url="http://content.staatsbibliothek-berlin.de/dms/PPN746598823/800/0/00000002.jpg"/>
+        <graphic n="Farbkeil" url="http://content.staatsbibliothek-berlin.de/dms/PPN746598823/800/0/00000003.jpg"/>
+    </facsimile>
+    <text type="letter">
+        <body>
+            <div type="content">
+                <pb xml:id="S.215r" n="215r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000DABD00000001"/>
+                <opener>
+                    <dateline>
+                        <date when="1915-10-16">16. X 15</date>
+                    </dateline>
+                    <salute>Lieber <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Walden</persName>, </salute>
+                </opener>
+                <p>wenn Sie <persName key="P.0000046" ref="http://d-nb.info/gnd/118564722">Kokoschka</persName>’s Adresse wissen od. ihn auf
+                    Umwegen erreichen können, schicken Sie ihm bitte einliegendem Briefgruß von mir.
+                    Wie traurig ist, was Sie von ihm schreiben.<note>Der österreichische Künstler
+                        Oskar Kokoschka (1886–1980) wurde am 29. August 1915 in Galizien im
+                        Kriegseinsatz schwer verwundet und kam daraufhin nach Wien in ein Lazarett.
+                        Vgl. Spielmann, Heinz: Oskar Kokoschka. Leben und Werk. Köln 2003.</note>
+                    Halten Sie auch bitte nach Möglichkeit auf dem Laufenden über seinen
+                    Zustand.</p>
+                <p>Ich bin jetzt zum Lt. befördert worden, – wer weiß was sich das Schicksal auf
+                    mein Konto noch vorbehalten hat!</p>
+                <closer>
+                    <salute>Herzl. Gruß Ihnen beiden</salute>
+                    <signed>Ihr <persName key="P.0000003" ref="http://d-nb.info/gnd/11857745X">Fz.
+                            M.</persName>
+                    </signed>
+                </closer>
+                <postscript>
+                    <p>
+                        <persName key="P.0000041" ref="http://d-nb.info/gnd/118618830">Stramm</persName>’s „<term type="article" key="W.0000054" source="https://doi.org/10.11588/diglit.37113#0076">Geschehen</term>“<note>Stramm, August: Geschehen. In: Der Sturm.
+                            Halbmonatsschrift für Kultur und die Künste 13/14 (1915), S.
+                            74–80.</note> im letzten <term type="journal" key="W.0000068" source="https://doi.org/10.11588/diglit.37113.8" ref="http://d-nb.info/gnd/4058273-5">Sturm</term>
+                        <note>Walden, Herwarth
+                            [Hrsg.]: Der Sturm. Halbmonatsschrift für Kultur und die Künste 13/14
+                            (1915).</note> wirkt sehr stark u. rein auf mein Empfinden;
+                        außerordentlich <hi rend="underline">sachlich</hi>
+                    </p>
+                </postscript>
+            </div>
+        </body>
+    </text>
+</TEI>

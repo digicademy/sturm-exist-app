@@ -1,0 +1,156 @@
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Q.01.19150308.JVH.01">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Jacoba van Heemskerck an Herwarth Walden, 8. März 1915, 35, Nassau Zuilensteinstraat, Den Haag</title>
+                <editor>
+                    <persName ref="https://orcid.org/0000-0003-2423-7144">
+                        <forename>Marjam</forename>
+                        <surname>Trautmann</surname>
+                    </persName>
+                </editor>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0002-0953-2818">
+                        <forename>Torsten</forename>
+                        <surname>Schrade</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeber</note>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0003-2423-7144">
+                        <forename>Marjam</forename>
+                        <surname>Trautmann</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeberin</note>
+                    </resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="http://www.adwmainz.de">Akademie der Wissenschaften und der Literatur | Mainz</ref>
+                </publisher>
+                <pubPlace ref="http://sws.geonames.org/2874225">Mainz</pubPlace>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        This file is licensed under the terms of the Creative-Commons-License CC BY 4.0
+                    </licence>
+                </availability>
+                <idno type="file">Q.01.19150308.JVH.01.v1.xml</idno>
+                <idno type="uri">https://sturm-edition.de/id/Q.01.19150308.JVH.01</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Q.01.19150308.JVH.01, Jacoba van Heemskerck an Herwarth Walden, 8. März 1915, 35, Nassau Zuilensteinstraat, Den Haag, 
+                    bearbeitet von Marjam Trautmann, in: Der STURM. Digitale Quellenedition zur Geschichte der internationalen 
+                    Avantgarde, erarbeitet und herausgegeben von Marjam Trautmann und Torsten Schrade. 
+                    Mainz, Akademie der Wissenschaften und der Literatur.
+                    </bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <country>DE</country>
+                        <settlement>Berlin</settlement>
+                        <repository>Staatsbibliothek zu Berlin Preußischer Kulturbesitz, Handschriftenabteilung, Sturm-Archiv I, Heemskerck, Jacoba van</repository>
+                        <idno type="uri">http://kalliope-verbund.info/DE-611-HS-1910820</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <xenoData type="uri">http://digital.staatsbibliothek-berlin.de/metsresolver/PPN746594550</xenoData>
+        <profileDesc>
+            <correspDesc key="Bl.67-68" ref="https://sturm-edition.de/id/Q.01.19150308.JVH.01">
+                <correspAction type="sent">
+                    <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jacoba van Heemskerck</persName>
+                    <placeName key="O.0000001" ref="http://sws.geonames.org/2747373">35, Nassau Zuilensteinstraat, Den Haag</placeName>  
+                    <date when="1915-03-08"/>               
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth Walden</persName>
+<placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change>
+                    <date when="2018-07-16" n="1"/>
+                </change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic n="67r" url="http://content.staatsbibliothek-berlin.de/dms/PPN746594550/800/0/00000001.jpg"/>
+        <graphic n="67v" url="http://content.staatsbibliothek-berlin.de/dms/PPN746594550/800/0/00000002.jpg"/>
+        <graphic n="68r" url="http://content.staatsbibliothek-berlin.de/dms/PPN746594550/800/0/00000003.jpg"/>
+        <graphic n="68v" url="http://content.staatsbibliothek-berlin.de/dms/PPN746594550/800/0/00000004.jpg"/>
+        <graphic n="Farbkeil" url="http://content.staatsbibliothek-berlin.de/dms/PPN746594550/800/0/00000005.jpg"/>
+    </facsimile>
+    <text type="letter">
+        <body>
+            <div type="content">
+            <pb xml:id="S.67r" n="67r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D96900000001"/>
+            
+                <opener>
+                    <dateline>
+                        <date when="1915-03-08">8-3-15</date>.
+                    </dateline>
+            <salute>Sehr wehrter Herr <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Walden</persName>
+                    </salute>
+                </opener>
+                <p>Viel
+            Dank für Ihr Brief von <date when="1915-03-01">1 März</date>. <date when="1915-03-09">Morgen</date> schicke ich Ihnen pr. Postanweisung 45. Mark. 
+            <table cols="3">
+                        <row>
+                            <cell>für die Rahmen</cell>
+                            <cell>Mark</cell>
+                            <cell>24.50.</cell>
+                        </row>
+                        <row>
+                            <cell>Verein für Kunst</cell>
+                            <cell>"</cell>
+                            <cell>20.</cell>
+                        </row>
+                        <row>
+                            <cell>Zur neuen Kunst <persName key="P.0000021" ref="http://d-nb.info/gnd/119191164">A. Behne</persName>
+                            </cell>
+                            <cell> </cell>
+                            <cell>
+                                <hi rend="underline">50. P</hi>f</cell>
+                        </row>
+                        <row>
+                            <cell> </cell>
+                            <cell> </cell>
+                            <cell>Mark 45</cell>
+                        </row>
+                    </table>
+                </p>
+                <p>
+           Viel Dank für dass einrahmen lassen. Sehr lieb dass Sie die 6. Rahmen selber zahlen.</p>
+           <p>Jetzt eben die Postkarten empfangen<pb xml:id="S.67v" n="67v" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D96900000002"/> die sind sehr schön und Sie haben so viele
+            geschickt viel, viel Dank dafür. Ich werde Dr <persName key="P.0000021" ref="http://d-nb.info/gnd/119191164">Behne</persName> ein schicken. In die Zeitungen
+            hat bis jetzt noch nichts gestanden kein Vornotiz, ich schicke Ihnen direkt von jeden
+            Zeitung ein Exemplar. Die Gattin des niederländischen Generalkonsuls ist von eine sehr
+            bekannte Familie in <placeName key="O.0000009" ref="http://sws.geonames.org/2759794">Amsterdam</placeName> sehr reiche Juden, wenn die anfangt sich zu Moderne zu
+            interessieren wird es sehr gut sein, ich glaube überhaupt wenn die Juden anfangen dass
+            die ganze Bewegung gewonnen ist.<pb xml:id="S.68r" n="68r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D96900000003"/> Ich bin sehr froh dass Sie ein Bild nehmen wollen. Aber
+            bitte suchen Sie wirklich dass beste aus. Mit Ihre Kompositionen wird es jetzt auch
+            nicht gut gehen für dass alles müssen Sie auch warten. Aber wenn es Friede gibt glaube
+            ich sicher dass alles schnell besser geht und man auch uns Streben besser verstehen
+            wird. Schön dass Sie eben jetzt eine <persName key="P.0000036" ref="http://d-nb.info/gnd/122927486">holländische Privatsekretärin</persName> haben. Denken Sie
+            dass auch Besprechungen in Berliner Zeitungen kommen werden, oder schreibt man dort
+            jetzt nicht über Kunst. Hoffentlich schicke ich ende der Woche die neue Holzdrucke.</p>
+                <p>
+            Viel Dank für alles, wie schnell haben<pb xml:id="S.68v" n="68v" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D96900000004"/> Sie die <term type="artwork" key="W.0000049">Zeichnungen</term> gezahlt.</p>
+                <closer>
+                    <salute>Herzlichste Grüssen</salute>
+               <signed>Ihre <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jacoba <hi rend="twice-underline">vanHeemskerck</hi>
+                        </persName>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

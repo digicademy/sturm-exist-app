@@ -1,0 +1,198 @@
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Q.01.19150131.JVH.01">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Jacoba van Heemskerck an Herwarth Walden, 31. Januar 1915, 35, Nassau
+                    Zuilensteinstraat, Den Haag</title>
+                <editor>
+                    <persName ref="https://orcid.org/0000-0003-2423-7144">
+                        <forename>Marjam</forename>
+                        <surname>Trautmann</surname>
+                    </persName>
+                </editor>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0002-0953-2818">
+                        <forename>Torsten</forename>
+                        <surname>Schrade</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeber</note>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0003-2423-7144">
+                        <forename>Marjam</forename>
+                        <surname>Trautmann</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeberin</note>
+                    </resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="http://www.adwmainz.de">Akademie der Wissenschaften und der
+                        Literatur | Mainz</ref>
+                </publisher>
+                <pubPlace ref="http://sws.geonames.org/2874225">Mainz</pubPlace>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/"> This file is
+                        licensed under the terms of the Creative-Commons-License CC BY 4.0
+                    </licence>
+                </availability>
+                <idno type="file">Q.01.19150131.JVH.01.v1.xml</idno>
+                <idno type="uri">https://sturm-edition.de/id/Q.01.19150131.JVH.01</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Q.01.19150131.JVH.01, Jacoba van Heemskerck an Herwarth Walden, 31. Januar
+                    1915, 35, Nassau Zuilensteinstraat, Den Haag, bearbeitet von Marjam Trautmann,
+                    in: Der STURM. Digitale Quellenedition zur Geschichte der internationalen
+                    Avantgarde, erarbeitet und herausgegeben von Marjam Trautmann 
+                    und Torsten Schrade. Mainz, Akademie der Wissenschaften und der Literatur.</bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <country>DE</country>
+                        <settlement>Berlin</settlement>
+                        <repository>Staatsbibliothek zu Berlin Preußischer Kulturbesitz,
+                            Handschriftenabteilung, Sturm-Archiv I, Heemskerck, Jacoba
+                            van</repository>
+                        <idno type="uri">http://kalliope-verbund.info/DE-611-HS-1910757</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <xenoData type="uri">http://digital.staatsbibliothek-berlin.de/metsresolver/PPN74659447X</xenoData>
+        <profileDesc>
+            <correspDesc key="Bl.53-55" ref="https://sturm-edition.de/id/Q.01.19150131.JVH.01">
+                <correspAction type="sent">
+                    <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jacoba van
+                        Heemskerck</persName>
+                    <placeName key="O.0000001" ref="http://sws.geonames.org/2747373">35, Nassau
+                        Zuilensteinstraat, Den Haag</placeName>
+                    <date when="1915-01-31"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth
+                        Walden</persName>
+                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change>
+                    <date when="2018-07-16" n="1"/>
+                </change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic n="53r" url="http://content.staatsbibliothek-berlin.de/dms/PPN74659447X/800/0/00000001.jpg"/>
+        <graphic n="53v" url="http://content.staatsbibliothek-berlin.de/dms/PPN74659447X/800/0/00000002.jpg"/>
+        <graphic n="54r" url="http://content.staatsbibliothek-berlin.de/dms/PPN74659447X/800/0/00000003.jpg"/>
+        <graphic n="54v" url="http://content.staatsbibliothek-berlin.de/dms/PPN74659447X/800/0/00000004.jpg"/>
+        <graphic n="55r" url="http://content.staatsbibliothek-berlin.de/dms/PPN74659447X/800/0/00000005.jpg"/>
+        <graphic n="55v" url="http://content.staatsbibliothek-berlin.de/dms/PPN74659447X/800/0/00000006.jpg"/>
+        <graphic n="Farbkeil" url="http://content.staatsbibliothek-berlin.de/dms/PPN74659447X/800/0/00000007.jpg"/>
+    </facsimile>
+    <text type="letter">
+        <body>
+            <div type="content">
+                <pb xml:id="S.53r.01" n="53r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D96300000001"/>
+                <opener>
+                    <dateline>
+                        <date when="1915-01-31">31. Jan: 1915</date>. </dateline>
+                    <salute>Sehr wehrter Herr <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Walden</persName>,</salute>
+                </opener>
+                <p>Ihr Brief <date when="1915-01-30">gestern abend</date> erhalten will ich gleich
+                    beantworten Da Sie empfehlen dasz ich in <date when="1915-03">März</date>
+                    ausstelle so werde ich dasz natürlich gern thun.<note>Im März 1915 fand in der
+                        STURM-Galerie die 31. STURM-Ausstellung mit Werken Jacoba van Heemskercks
+                        statt. Vgl. Enders, Rainer: Ausstellungskataloge der STURM-Galerie. URL:
+                            <ref target="https://www.arthistoricum.net/themen/portale/sturm/ausstellungskataloge/">https://www.arthistoricum.net/themen/portale/sturm/ausstellungskataloge/</ref>
+                        (Aufruf 06.04.2017).</note> So gegen <date when="1915-02-09">9</date> oder
+                        <date when="1915-02-10">10. Februar</date> schicke ich dann 17. Gemälde und
+                    20. Zeichnungen, ich schicke mit <foreign>grande Vitesse</foreign>
+                    <note>„Grande
+                        vitesse“ (frz.) heißt im Deutschen „Hochgeschwindigkeit“. Es ist davon
+                        auszugehen, dass Jacoba van Heemskerck hiermit den postalischen Versand per
+                        Eilpost meinte.</note> und ich denke<pb xml:id="S.53v" n="53v" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D96300000002"/> dasz
+                    alles dann recht zeitig eintreffen wird. Da die Ausstellung doch <date when="1915-03">Anfang März</date> öffnet und man jetzt nicht so sicher ist
+                    mit dem Transport so ist es doch jedenfalls besser dasz Sie alles etwas früher
+                    empfangen. Ich bin sehr gespannt wie Ihnen meine letzten Arbeiten gefallen
+                    werden. Im Sommer sagte Sie dasz Sie besser fanden eine Ausstellung allein von
+                    meine Arbeiten zu machen und nicht mit zwei andere zusammen wie letztes Jahr.
+                    Ich denke dasz 37. Stück Gemälde und<pb xml:id="S.54r" n="54r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D96300000003"/>
+                    Zeichnungen genügen, da 2 grosse Gemälde dabei sind. Wollen Sie eine liste für
+                    den Catalog haben? Wie verabredet nummerieren wir einfach, ich habe die Photo’s
+                    hier auch nummeriert so wenn etwas verkauft wird, kann ich gleich sehen welche
+                    Composition es ist. Ich dachte wenn ich Ihnen das Anzahl schreibe dasz dann eine
+                    Liste nicht nötig ist. Preis und alles arrangieren Sie bitte Sie sind ganz frei
+                    und Sie haben mein volles Vertrauen. Bitte schicken Sie bald Sturm
+                        Zettel<note>Der Begriff „Sturmzettel“ ist in der Literatur nicht belegt. Van
+                        Heemskerck spricht in ihrem <ref target="Q.01.19141016.JVH.01">Brief</ref>
+                        an Walden vom 16. Oktober 1914 (Bl.29-30) davon, dass sie ihm mit Zetteln
+                        nummerierte Bilder schicken wolle: „die Bilder werde ich dann auch mit die
+                        Zettel vom Sturm nummerieren [...].“ In den folgenden Briefen ist dann von
+                        „Sturmzetteln“ die Rede. Es wird hier angenommen, dass „Sturmzettel“
+                        Vorlagen des STURM-Unternehmens zur Benennung und Nummerierung von
+                        Kunstwerken waren.</note> ich habe schon aber ich brauche mehrere<pb xml:id="S.54v" n="54v" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D96300000004"/>
+                    Heute eröffnet eine Ausstellung in <placeName key="O.0000011" ref="http://sws.geonames.org/2747891">Rotterdam</placeName> von <persName key="P.0000010" ref="http://d-nb.info/gnd/128866748">Le
+                        Fauconnier</persName>, <persName key="P.0000031" ref="http://d-nb.info/gnd/118583441">Mondrian</persName> und <persName key="P.0000032" ref="P.0000032">Alma</persName>, man hat mir nicht einladen
+                    wollen wegen der Sturm es ist wirklich zu schön, <persName key="P.0000012" ref="http://d-nb.info/gnd/1077780265">Kikkert</persName>, <persName key="P.0000010" ref="http://d-nb.info/gnd/128866748">Le
+                        Fauconnier</persName> und die andern sind wütend und dabei natürlich auch
+                    ganz für die Franzosen. wirklich zu dumm, all die Eifer sucht. Ich gehe nach
+                        <placeName key="O.0000011" ref="http://sws.geonames.org/2747891">Rotterdam</placeName> und schreibe Ihnen dann über die Ausstellung
+                        <persName key="P.0000010" ref="http://d-nb.info/gnd/128866748">Le
+                        Fauconnier</persName> musz schreckliche Sachen gemacht haben in <placeName key="O.0000005" ref="http://sws.geonames.org/2744011">Zeeland</placeName>
+                    Bauernmädchen ganz in Kubus. Prachtvoll wenn Sie in <placeName key="O.0000003" ref="http://sws.geonames.org/2750405">Holland</placeName> komme, dann sehen
+                    Sie auch die Sammlung von Frl <persName key="P.0000008" ref="http://d-nb.info/gnd/136128289">Tak</persName> an, sie will später auch
+                    bei Ihnen neue Kunst kaufen, die <persName key="P.0000033" ref="http://d-nb.info/gnd/118969161">Filla</persName> ist ein Ihrer beste
+                    Gemälde. Für unsere Kunst ist der Krieg auch schrecklich man hat auch nicht so
+                    viel Geld zum kaufen, obwohl man hier in <placeName key="O.0000003" ref="http://sws.geonames.org/2750405">Holland</placeName> doch so ziemlich
+                    gut weiter geht. Es ist sehr gut<pb xml:id="S.53r.02" n="53r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D96300000001"/> dasz
+                    ich das Geld für das Gemälde etwas später bekomme. Was gibt es doch so in unsere
+                    Richtung noch wenig recht gute Maler alle die hier in <placeName key="O.0000003" ref="http://sws.geonames.org/2750405">Holland</placeName> ausstellen und in
+                        <placeName key="O.0000010" ref="http://sws.geonames.org/2988507">Paris</placeName> arbeiten wie diejenige jetzt in <placeName key="O.0000011" ref="http://sws.geonames.org/2747891">Rotterdam</placeName>
+                    dasz ist doch nicht wirklich schön wie viel und viel schöner sind dann <persName key="P.0000003" ref="http://d-nb.info/gnd/11857745X">Marc</persName>,
+                        <persName key="P.0000033" ref="http://d-nb.info/gnd/118969161">Filla</persName> <persName key="P.0000009" ref="http://d-nb.info/gnd/118559737">Kandinsky</persName> und alle diejenige
+                    die Sie für Ausstellungen einladen.</p>
+                <closer>
+                    <salute>Viele herzliche Grüssen für Sie beiden</salute>
+                    <signed>Ihre <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jaco<hi rend="twice-underline">bavHeemskerck</hi>
+                        </persName>
+                    </signed>
+                </closer>
+                <postscript>
+                    <p>Sie lassen mir dann bitte die Zettel schicken die 50 Pf für das <term type="book" key="W.0000066" ref="http://d-nb.info/578835940" source="https://doi.org/10.11588/diglit.27084">Buch</term>
+                        <note>Behne,
+                            Adolf: Zur Neuen Kunst. Berlin 1915.</note> schicke ich Ihnen im März
+                        zusammen mit die 20. M für das Verein für Kunst, dasz ist einfacher.<pb xml:id="S.55r" n="55r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D96300000005"/>
+                    </p>
+                    <p>Beim Überlesen will ich Ihnen noch eben sagen bei was ich oben von <placeName key="O.0000011" ref="http://sws.geonames.org/2747891">Rotterdam</placeName> geschrieben habe dasz eben wenn ich eine
+                        Einladung für die Ausstellung bekomme hätte, ich dann wie immer sagen will
+                        dasz man wegen meine Ausstellungen direct an Ihnen schreiben musz da Sie
+                        alles für mich arrangieren und annehme oder ablehne wie Ihnen dasz am besten
+                        vorkommt und dasz Sie auch meine Gemälde hinschicken. So wenn es vorkommt
+                        dasz man Ihnen sagt dasz ich irgendwo ausstelle dann ist dasz nicht wahr.
+                        Glauben Sie auch nicht dasz es viel besser ist dasz ich nicht mehr im Sommer
+                        in <placeName key="O.0000004" ref="http://sws.geonames.org/2756746">Domburg</placeName> ausstelle Bitte sagen Sie immer ganz offen was Sie
+                        am besten finden Die <foreign>Indépendants</foreign> hier in <placeName key="O.0000009" ref="http://sws.geonames.org/2759794">Amsterdam</placeName> in <date when="1914-12">December</date> musz
+                        schrecklich gewesen sein <persName key="P.0000010" ref="http://d-nb.info/gnd/128866748">Le Fauconnier</persName> hat dort
+                        auch ausgestellt<pb xml:id="S.55v" n="55v" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D96300000006"/>
+                        So gegen <date when="1915-02-20">20. Februar</date> schicke ich die
+                        Holzschnitte für die Mappe. Viele Grüsse <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">
+                            <hi rend="twice-underline">JvH</hi>
+                        </persName>
+                    </p>
+                    <p>Ich habe kein Geld in <date when="1915-03">März</date> nach <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Berlin</placeName>
+                        zu kommen aber ich hoffe später in Friedenszeit dann mehrere Mahlen kommen
+                        zu können Man ist mit alles noch so unbestimmt in diese Zeiten und das
+                        wenige Geld das ich verdiene ist glaube ich besser zu bewahren.</p>
+                </postscript>
+            </div>
+        </body>
+    </text>
+</TEI>

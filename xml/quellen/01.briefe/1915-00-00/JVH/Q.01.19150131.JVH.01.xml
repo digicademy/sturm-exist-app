@@ -58,12 +58,13 @@
                         <repository>Staatsbibliothek zu Berlin Preußischer Kulturbesitz,
                             Handschriftenabteilung, Sturm-Archiv I, Heemskerck, Jacoba
                             van</repository>
-                        <idno type="uri">http://kalliope-verbund.info/DE-611-HS-1910757</idno>
+                        <idno type="uri">http://resolver.staatsbibliothek-berlin.de/SBB0000D96300000000</idno>
                     </msIdentifier>
                 </msDesc>
             </sourceDesc>
         </fileDesc>
-        <xenoData type="uri">http://digital.staatsbibliothek-berlin.de/metsresolver/PPN74659447X</xenoData>
+        <xenoData type="uri">http://kalliope-verbund.info/DE-611-HS-1910757</xenoData>
+        <xenoData type="url">http://content.staatsbibliothek-berlin.de/dc/PPN74659447X.mets.xml</xenoData>
         <profileDesc>
             <correspDesc key="Bl.53-55" ref="https://sturm-edition.de/id/Q.01.19150131.JVH.01">
                 <correspAction type="sent">
@@ -76,12 +77,19 @@
                 <correspAction type="received">
                     <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth
                         Walden</persName>
-                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>
+                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950159">Potsdamerstrasse 134a, Berlin W.9.</placeName>
                 </correspAction>
             </correspDesc>
         </profileDesc>
         <revisionDesc>
             <listChange>
+                <change>
+                    <date when="2019-07-25" n="2"/>
+                    <p>URL zur METS-Datei der Staatsbibliothek zu Berlin aktualisiert innerhalb von :xenoData und zusätzliches :xenoData mit permanenter URI zum Kalliope-Findbucheintrag.</p>
+                    <p>:idno URL innerhalb von :msIdentifier durch permanente URL zum entsprechenden Datensatz der Staatsbibliothek zu Berlin gesetzt</p>
+                    <p>Standardisierung der Kommentierungstiefe, keine spezifischen Erklärungen von Fremdwörtern außerhalb des Sturm-Kontextes</p>
+                    <p>Normdaten (Geonames) zu Stadt Berlin korrigiert (zuvor fälschlicherweise Verweis auf "Land Berlin")</p>
+                </change>
                 <change>
                     <date when="2018-07-16" n="1"/>
                 </change>
@@ -109,16 +117,12 @@
                 <p>Ihr Brief <date when="1915-01-30">gestern abend</date> erhalten will ich gleich
                     beantworten Da Sie empfehlen dasz ich in <date when="1915-03">März</date>
                     ausstelle so werde ich dasz natürlich gern thun.<note>Im März 1915 fand in der
-                        Sturm-Galerie die 31. Sturm-Ausstellung mit Werken Jacoba van Heemskercks
+                        STURM-Galerie die 31. STURM-Ausstellung mit Werken Jacoba van Heemskercks
                         statt. Vgl. Enders, Rainer: Ausstellungskataloge der STURM-Galerie. URL:
                             <ref target="https://www.arthistoricum.net/themen/portale/sturm/ausstellungskataloge/">https://www.arthistoricum.net/themen/portale/sturm/ausstellungskataloge/</ref>
                         (Aufruf 06.04.2017).</note> So gegen <date when="1915-02-09">9</date> oder
                         <date when="1915-02-10">10. Februar</date> schicke ich dann 17. Gemälde und
-                    20. Zeichnungen, ich schicke mit <foreign>grande Vitesse</foreign>
-                    <note>„Grande
-                        vitesse“ (frz.) heißt im Deutschen „Hochgeschwindigkeit“. Es ist davon
-                        auszugehen, dass Jacoba van Heemskerck hiermit den postalischen Versand per
-                        Eilpost meinte.</note> und ich denke<pb xml:id="S.53v" n="53v" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D96300000002"/> dasz
+                    20. Zeichnungen, ich schicke mit <foreign>grande Vitesse</foreign> und ich denke<pb xml:id="S.53v" n="53v" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D96300000002"/> dasz
                     alles dann recht zeitig eintreffen wird. Da die Ausstellung doch <date when="1915-03">Anfang März</date> öffnet und man jetzt nicht so sicher ist
                     mit dem Transport so ist es doch jedenfalls besser dasz Sie alles etwas früher
                     empfangen. Ich bin sehr gespannt wie Ihnen meine letzten Arbeiten gefallen
@@ -137,7 +141,7 @@
                         nummerierte Bilder schicken wolle: „die Bilder werde ich dann auch mit die
                         Zettel vom Sturm nummerieren [...].“ In den folgenden Briefen ist dann von
                         „Sturmzetteln“ die Rede. Es wird hier angenommen, dass „Sturmzettel“
-                        Vorlagen des Sturm-Unternehmens zur Bennennung und Nummerierung von
+                        Vorlagen des STURM-Unternehmens zur Benennung und Nummerierung von
                         Kunstwerken waren.</note> ich habe schon aber ich brauche mehrere<pb xml:id="S.54v" n="54v" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D96300000004"/>
                     Heute eröffnet eine Ausstellung in <placeName key="O.0000011" ref="http://sws.geonames.org/2747891">Rotterdam</placeName> von <persName key="P.0000010" ref="http://d-nb.info/gnd/128866748">Le
                         Fauconnier</persName>, <persName key="P.0000031" ref="http://d-nb.info/gnd/118583441">Mondrian</persName> und <persName key="P.0000032" ref="P.0000032">Alma</persName>, man hat mir nicht einladen
@@ -187,7 +191,7 @@
                             <hi rend="twice-underline">JvH</hi>
                         </persName>
                     </p>
-                    <p>Ich habe kein Geld in <date when="1915-03">März</date> nach <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Berlin</placeName>
+                    <p>Ich habe kein Geld in <date when="1915-03">März</date> nach <placeName key="O.0000002" ref="http://sws.geonames.org/2950159">Berlin</placeName>
                         zu kommen aber ich hoffe später in Friedenszeit dann mehrere Mahlen kommen
                         zu können Man ist mit alles noch so unbestimmt in diese Zeiten und das
                         wenige Geld das ich verdiene ist glaube ich besser zu bewahren.</p>

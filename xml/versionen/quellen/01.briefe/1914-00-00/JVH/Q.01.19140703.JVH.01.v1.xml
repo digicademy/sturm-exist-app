@@ -1,0 +1,119 @@
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Q.01.19140703.JVH.01">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Jacoba van Heemskerck an Herwarth Walden, 3. Juli 1914, Loverendale, Domburg</title>
+                <editor>
+                    <persName ref="https://orcid.org/0000-0003-2423-7144">
+                        <forename>Marjam</forename>
+                        <surname>Trautmann</surname>
+                    </persName>
+                </editor>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0002-0953-2818">
+                        <forename>Torsten</forename>
+                        <surname>Schrade</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeber</note>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0003-2423-7144">
+                        <forename>Marjam</forename>
+                        <surname>Trautmann</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeberin</note>
+                    </resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="http://www.adwmainz.de">Akademie der Wissenschaften und der Literatur | Mainz</ref>
+                </publisher>
+                <pubPlace ref="http://sws.geonames.org/2874225">Mainz</pubPlace>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        This file is licensed under the terms of the Creative-Commons-License CC BY 4.0
+                    </licence>
+                </availability>
+                <idno type="file">Q.01.19140703.JVH.01.v1.xml</idno>
+                <idno type="uri">https://sturm-edition.de/id/Q.01.19140703.JVH.01</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Q.01.19140703.JVH.01, Jacoba van Heemskerck an Herwarth Walden, 3. Juli 1914, Loverendale, Domburg, 
+                    bearbeitet von Marjam Trautmann, in: Der STURM. Digitale Quellenedition zur Geschichte der internationalen 
+                    Avantgarde, erarbeitet und herausgegeben von Marjam Trautmann und Torsten Schrade. 
+                    Mainz, Akademie der Wissenschaften und der Literatur.
+                    </bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <country>DE</country>
+                        <settlement>Berlin</settlement>
+                        <repository>Staatsbibliothek zu Berlin Preußischer Kulturbesitz, Handschriftenabteilung, Sturm-Archiv I, Heemskerck, Jacoba van</repository>
+                        <idno type="uri">http://kalliope-verbund.info/DE-611-HS-1910546</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <xenoData type="uri">http://digital.staatsbibliothek-berlin.de/metsresolver/PPN746594070</xenoData>
+        <profileDesc>
+            <correspDesc key="Bl.9-10" ref="https://sturm-edition.de/id/Q.01.19140703.JVH.01">
+                <correspAction type="sent">
+                    <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jacoba van Heemskerck</persName>
+                    <placeName key="O.0000004" ref="http://sws.geonames.org/2756746">Loverendale, Domburg</placeName>
+                    <date when="1914-07-03"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth Walden</persName>
+                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>                  
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change>
+                    <date when="2018-07-16" n="1"/>
+                </change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic n="9r" url="http://content.staatsbibliothek-berlin.de/dms/PPN746594070/800/0/00000001.jpg"/>
+        <graphic n="9v" url="http://content.staatsbibliothek-berlin.de/dms/PPN746594070/800/0/00000002.jpg"/>
+        <graphic n="10r" url="http://content.staatsbibliothek-berlin.de/dms/PPN746594070/800/0/00000003.jpg"/>
+        <graphic n="10v" url="http://content.staatsbibliothek-berlin.de/dms/PPN746594070/800/0/00000004.jpg"/>
+        <graphic n="Farbkeil" url="http://content.staatsbibliothek-berlin.de/dms/PPN746594070/800/0/00000005.jpg"/>
+    </facsimile>
+    <text type="letter">
+        <body>
+            <div type="content">
+                <pb xml:id="S.9r" n="9r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D94800000001"/>
+                <opener>
+                    <dateline>
+                        <date when="1914-07-03">3 Juli 1914</date>.</dateline> <salute>Sehr geehrter Herr <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Walden</persName>
+                    </salute>
+                </opener>
+                <p>Wir freuen uns so Sie beiden
+            hier zu empfangen. Sie sind herzlich willkommen <date when="1914-07-04">Morgen früh</date> schicke ich Ihnen eine
+            <ref target="Q.01.19140704.JVH.01">Dépeche</ref> da ich nicht denke dasz Sie diesen Brief <date when="1914-07-05">Sonntag</date> empfangen. Sie können direct
+            von <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Berlin</placeName> nach <placeName key="O.0000012" ref="http://sws.geonames.org/2745392">Vlissingen</placeName> fahren und dann können Sie spät abends oder morgens<pb xml:id="S.9v" n="9v" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D94800000002"/> ankommen
+            Ich hole Ihnen dann mit ein Auto ab ich denke abends gegen 11 Uhr ist am besten Sie
+            können dasz aber genau nach sehen. Wenn Sie von <placeName key="O.0000003" ref="http://sws.geonames.org/2750405">Holland</placeName> kommen dann ist es besser bis
+            <placeName key="O.0000013" ref="http://sws.geonames.org/2750896">Middelburg</placeName> zu fahren dann hole ich Ihnen dort ab. <placeName key="O.0000004" ref="http://sws.geonames.org/2756746">Domburg</placeName> liegt nicht an der
+            Eisenbahnroute. Hoffentlich haben Sie einige Tage Zeit bitte ein Postkart oder Dépeche
+            wenn Sie Tag und Stunde von Ankunft wissen. Fräulein <persName key="P.0000008" ref="http://d-nb.info/gnd/136128289">von Poortvliet</persName> freut sich sehr wenn
+            Sie einige<pb xml:id="S.10r" n="10r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D94800000003"/> Tage Ihre Gästen sein wollen wir können Ihnen dann auch die schöne Gegend
+            zeigen.</p>
+                <closer>
+                    <salute>Herzlichsten Grüssen</salute> für Sie beiden <signed>Ihr <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jacobav<hi rend="underline">anHeemskerck</hi>
+                        </persName>.
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,152 @@
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Q.01.19141023.JVH.01">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Jacoba van Heemskerck an Herwarth Walden, 23. Oktober 1914, 35, Nassau
+                    Zuilensteinstraat, Den Haag</title>
+                <editor>
+                    <persName ref="https://orcid.org/0000-0003-2423-7144">
+                        <forename>Marjam</forename>
+                        <surname>Trautmann</surname>
+                    </persName>
+                </editor>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0002-0953-2818">
+                        <forename>Torsten</forename>
+                        <surname>Schrade</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeber</note>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0003-2423-7144">
+                        <forename>Marjam</forename>
+                        <surname>Trautmann</surname>
+                    </persName>
+                    <resp>
+                        <note>Herausgeberin</note>
+                    </resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="http://www.adwmainz.de">Akademie der Wissenschaften und der
+                        Literatur | Mainz</ref>
+                </publisher>
+                <pubPlace ref="http://sws.geonames.org/2874225">Mainz</pubPlace>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/"> This file is
+                        licensed under the terms of the Creative-Commons-License CC BY 4.0
+                    </licence>
+                </availability>
+                <idno type="file">Q.01.19141023.JVH.01.v1.xml</idno>
+                <idno type="uri">https://sturm-edition.de/id/Q.01.19141023.JVH.01</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Q.01.19141023.JVH.01, Jacoba van Heemskerck an Herwarth Walden, 23. Oktober
+                    1914, 35, Nassau Zuilensteinstraat, Den Haag, bearbeitet von Marjam Trautmann,
+                    in: Der STURM. Digitale Quellenedition zur Geschichte der internationalen
+                    Avantgarde, erarbeitet und herausgegeben von Marjam Trautmann 
+                    und Torsten Schrade. Mainz, Akademie der Wissenschaften und der Literatur.</bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <country>DE</country>
+                        <settlement>Berlin</settlement>
+                        <repository>Staatsbibliothek zu Berlin Preußischer Kulturbesitz,
+                            Handschriftenabteilung, Sturm-Archiv I, Heemskerck, Jacoba
+                            van</repository>
+                        <idno type="uri">http://kalliope-verbund.info/DE-611-HS-1910672</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <xenoData type="uri">http://digital.staatsbibliothek-berlin.de/metsresolver/PPN746594291</xenoData>
+        <profileDesc>
+            <correspDesc key="Bl.31-32" ref="https://sturm-edition.de/id/Q.01.19141023.JVH.01">
+                <correspAction type="sent">
+                    <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jacoba van
+                        Heemskerck</persName>
+                    <placeName key="O.0000001" ref="http://sws.geonames.org/2747373">35, Nassau
+                        Zuilensteinstraat, Den Haag</placeName>
+                    <date when="1914-10-23"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Herwarth
+                        Walden</persName>
+                    <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Potsdamerstrasse 134a, Berlin W.9.</placeName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change>
+                    <date when="2018-07-16" n="1"/>
+                </change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic n="31r" url="http://content.staatsbibliothek-berlin.de/dms/PPN746594291/800/0/00000001.jpg"/>
+        <graphic n="31v" url="http://content.staatsbibliothek-berlin.de/dms/PPN746594291/800/0/00000002.jpg"/>
+        <graphic n="32r" url="http://content.staatsbibliothek-berlin.de/dms/PPN746594291/800/0/00000003.jpg"/>
+        <graphic n="32v" url="http://content.staatsbibliothek-berlin.de/dms/PPN746594291/800/0/00000004.jpg"/>
+        <graphic n="Farbkeil" url="http://content.staatsbibliothek-berlin.de/dms/PPN746594291/800/0/00000005.jpg"/>
+    </facsimile>
+    <text type="letter">
+        <body>
+            <div type="content">
+                <pb xml:id="S.31r" n="31r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D95700000001"/>
+
+                <opener>
+                    <dateline>
+                        <date when="1914-10-23">23. Oct: 1914.</date>
+                    </dateline>
+                    <salute>Sehr geehrter Herr <persName key="P.0000001" ref="http://d-nb.info/gnd/118770950">Walden</persName>
+                    </salute>
+                </opener>
+
+                <p>Viel Dank für Ihr Brief heute morgen erhalten, ich bin froh dasz Sie alles
+                    richtig empfangen haben. Jetzt kann ich Ihnen etwas fragen schon so lange habe
+                    ich gedacht wie ich Ihnen in diese schweren Zeiten helfen könnte da es natürlich
+                    für der Sturm sehr schwer ist sich zu halten. Sie haben das Verein für Kunst
+                    jedes Jahr ein Sturm Publikation versprochen dasz sehr teuer ist. Darf ich Ihnen
+                    für nächstes<pb xml:id="S.31v" n="31v" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D95700000002"/> Jahr
+                    6. Holzdrucken machen, Sie haben mir erzählt in <placeName key="O.0000004" ref="http://sws.geonames.org/2756746">Domburg</placeName> dasz Sie 40 oder
+                    50 Mitglieder hätte wenn ich nun 15. Drucke von jeder Holzstück mache dann
+                    könnte Sie in <placeName key="O.0000002" ref="http://sws.geonames.org/2950157">Berlin</placeName> 15. Mappen fertig machen dann haben Sie nur die Mappen
+                    zu zahlen. Da ich dasz Papier wohl teuer finde wird Fräulein <persName key="P.0000008" ref="http://d-nb.info/gnd/136128289">Tak</persName> das
+                    Papier geben und ich sorge für die Handdrucke die übrige Mappen könne Sie dann
+                    so verkaufen und das Geld für Ihr Verlag benutzen. Sagen Sie bitte genau ob ich
+                    Ihnen hir miet helfe Wenn es Ihnen angenehm ist dann<pb xml:id="S.32r" n="32r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D95700000003"/>
+                    schicke Ich Ihnen so bald wie möglich 6. Skizzen für die Holzstücke bitte sagen
+                    Sie genau wie grosz die Holzstücke sein müssen und wie grosz das Papier für die
+                    Drucke Ich möchte so sehr gern Ihnen jetzt mit etwas helfen Sie thun so viel für
+                    mich in gute Zeiten dasz ich jetzt thun will was eben möglich ist um ihnen zu
+                    helfen.</p>
+                <p>Bitte schreiben Sie <persName key="P.0000007" ref="http://d-nb.info/gnd/117103594">Schames</persName> in <placeName key="O.0000018" ref="http://sws.geonames.org/2925533">Frankfurt</placeName>
+                    dasz ich jetzt kein Geld habe um Fracht zu zahlen und dasz ich es besser finde
+                    darum nicht in <placeName key="O.0000018" ref="http://sws.geonames.org/2925533">Frankfurt</placeName> aus zu stellen in <date when="1914-12">December</date>.</p>
+                <p>Schrecklich traurig dasz <persName key="P.0000025" ref="http://d-nb.info/gnd/118575864">August Macke</persName> gefallen ist er
+                    ist so begabt,<note>Der Künstler August Macke (*1887) fiel am 26. September 1914
+                        an der Westfront bei Perthes-lès-Hurlus in der Champagne. Vgl. Schoeller,
+                        Wilfried F.: Franz Marc. Eine Biographie. München 2016, S. 310.</note> bitte
+                    sagen Sie ob die Familie Nachricht<pb xml:id="S.32v" n="32v" facs="http://resolver.staatsbibliothek-berlin.de/SBB0000D95700000004"/>
+                    bekommen hat. Bald schicke ich Ihnen wieder Zeitungen. Ich hoffe so dasz
+                        <placeName key="O.0000014" ref="http://sws.geonames.org/2921044">Deutschland</placeName> siegt es geht prachtvoll. Aber Krieg ist doch
+                    schrecklich.</p>
+                <p>Sie sind ganz frei, die Skizzen zu wählen welchen Sie am besten finden für die
+                    Mappe ich werde Ihnen dann mehrere schicken zum Auswahl.</p>
+
+                <closer>Ihr Antwort entgegen sehend <salute>mit Herzlichste Grussen für Sie
+                        beiden</salute>
+                    <signed>Ihre <persName key="P.0000004" ref="http://d-nb.info/gnd/11854764X">Jacoba <hi rend="twice-underline">vanHeemskerck</hi>
+                        </persName>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

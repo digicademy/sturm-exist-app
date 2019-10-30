@@ -5,7 +5,7 @@
  : DER STURM
  : A Digital Edition of Sources from the International Avantgarde
  :
- : Edited and developed by Marjam Mahmoodzada and Torsten Schrade
+ : Edited and developed by Marjam Trautmann and Torsten Schrade
  : Academy of Sciences and Literature | Mainz
  :
  : Stylesheet for the transformation of letters from the STURM-Archive.
@@ -29,48 +29,6 @@
         <xsl:param name="dateString"/>
         <section class="eight columns maincontent">
             <div class="{$sourcetype}">
-
-                <xsl:variable name="identifier">
-                    <xsl:value-of select="/tei:TEI/@xml:id"/>
-                </xsl:variable>
-
-                <xsl:variable name="editor">
-                    <xsl:choose>
-                        <xsl:when test="//tei:editor/tei:persName/@ref">
-                            <a href="{//tei:editor/tei:persName/@ref}">
-                                <xsl:value-of select="//tei:editor/tei:persName/tei:surname"/>,
-                                <xsl:value-of select="//tei:editor/tei:persName/tei:forename"/>
-                            </a>
-                        </xsl:when>
-                        <xsl:otherwise>
-                            <xsl:value-of select="//tei:editor/tei:persName/tei:surname"/>,
-                            <xsl:value-of select="//tei:editor/tei:persName/tei:forename"/>
-                        </xsl:otherwise>
-                    </xsl:choose>
-                </xsl:variable>
-
-                <xsl:variable name="formattedDate">
-                    <xsl:call-template name="dateTime-to-RFC-2822">
-                        <xsl:with-param name="dateTime">
-                            <xsl:value-of select="//tei:change[1]/tei:date[1]/@when"/>
-                        </xsl:with-param>
-                    </xsl:call-template>
-                </xsl:variable>
-
-                <xsl:if test="contains($idno, 'v')">
-                    <div class="versions">
-                        <p>
-                            <strong>Hinweis:</strong>
-                            <br/> Sie betrachten gerade folgende ältere Version dieser Quelle: 
-                            Version <xsl:value-of select="//tei:change[1]/tei:date/@n"/> vom <xsl:value-of select="$formattedDate"/>
-                        </p>
-                        <p>
-                            Die aktuelle Version dieser Quelle findet sich unter folgender URI: <br/>
-                            <a href="https://sturm-edition.de/id/{$identifier}">https://sturm-edition.de/id/<xsl:value-of select="$identifier"/>
-                            </a>
-                        </p>
-                    </div>
-                </xsl:if>
 
                 <h4 class="dateline">
                     <xsl:if test="$dateString ne ''"> [<time datetime="{$dateISO}">
@@ -104,47 +62,6 @@
                     <xsl:call-template name="apparatus"/>
                 </xsl:if>
 
-                <div class="info">
-                    <p>
-                        <strong>Zitierhinweis:</strong>
-                        <br/>
-                        <xsl:value-of select="$editor"/>:
-                        „<xsl:value-of select="subsequence(tokenize(string-join(//tei:title[1]/text(), ''), ','), 1, 1)"/>, 
-                        <xsl:value-of select="subsequence(tokenize(string-join(//tei:title[1]/text(), ''), ','), 2, 1)"/>“, in: 
-                        <xsl:text>
-                            DER STURM. Digitale Quellenedition zur Geschichte der internationalen Avantgarde, erarbeitet und herausgegeben von Marjam Trautmann und Torsten Schrade. Mainz, Akademie der Wissenschaften und der Literatur, 
-                        </xsl:text>
-                        Version <xsl:value-of select="//tei:change[1]/tei:date/@n"/> vom <xsl:value-of select="$formattedDate"/>.
-                    </p>
-                    <p>
-                        <strong>URI:</strong>
-                        <br/>
-                        <a href="https://sturm-edition.de/id/{$identifier}">https://sturm-edition.de/id/<xsl:value-of select="$identifier"/>
-                        </a>
-                    </p>
-                    <p>
-                        <strong>Versionen:</strong>
-                        <xsl:for-each select="//tei:revisionDesc/tei:listChange/tei:change/tei:date">
-                            <xsl:variable name="formattedDate">
-                                <xsl:call-template name="dateTime-to-RFC-2822">
-                                    <xsl:with-param name="dateTime">
-                                        <xsl:value-of select="@when"/>
-                                    </xsl:with-param>
-                                </xsl:call-template>
-                            </xsl:variable>
-                            <br/>
-                            <a href="https://sturm-edition.de/id/{$identifier}/{@n}">
-                                https://sturm-edition.de/id/<xsl:value-of select="$identifier"/>/<xsl:value-of select="@n"/>
-                            </a> (<xsl:value-of select="$formattedDate"/>)
-                        </xsl:for-each>
-                    </p>
-                    <p>
-                        <strong>Nutzungshinweis:</strong>
-                        <br/>
-                        Edition und Forschungsdaten stehen unter einer <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International (CC-BY 4.0)</a> Lizenz. 
-                        Freie Verwendung unter Angabe von Zitierhinweis, Permalink und Kenntlichmachung von Änderungen.
-                    </p>
-                </div>
             </div>
         </section>
         <section class="four columns sidebar">
@@ -164,6 +81,46 @@
     </xsl:template>
 
     <!-- structural templates -->
+
+    <xsl:template name="department">
+        <div class="department">
+            <h3>
+                <a href="{$relativeToAppBase}quellen/briefe.html">Abteilung I, Briefe</a>
+            </h3>
+            <p>
+                <strong>Dokumenttyp: </strong> 
+                <xsl:choose>
+                    <xsl:when test="$sourcetype = 'postcard'">Postkarte</xsl:when>
+                    <xsl:when test="$sourcetype = 'militaryMail'">Feldpost</xsl:when>
+                    <xsl:when test="$sourcetype = 'telegram'">Telegramm</xsl:when>
+                    <xsl:otherwise>Brief</xsl:otherwise>
+                </xsl:choose>
+            </p>
+            <p>
+                <strong>Chronologie: </strong> 
+                <a href="{concat($relativeToAppBase, 'quellen/briefe/chronologie.html')}">
+                    Briefe von 1914 bis 1922 <xsl:if test="contains($targetDir, 'chronologie')">
+                        <span title="Aktuell gewählte Ansicht"> ←</span>
+                    </xsl:if>
+                </a>
+            </p>
+            <p>
+                <strong>Absender/in: </strong> 
+                <a href="{concat($relativeToAppBase, 'quellen/briefe/', lower-case(substring($idno, 15, 3)), '.html')}">
+                    <xsl:value-of select="concat(//tei:correspAction[@type = 'sent']/tei:persName, ' an ', //tei:correspAction[@type = 'received']/tei:persName)"/>
+                    <xsl:if test="not(contains($targetDir, 'chronologie'))">
+                        <span title="Aktuell gewählte Ansicht"> ←</span>
+                    </xsl:if>
+                </a>
+            </p>
+            <p class="msidentifier">
+                <strong>Quelle: </strong>Staatsbibliothek zu Berlin, Handschriftenabteilung, Sturm-Archiv I, <xsl:value-of select="$senderPrefName"/>, 
+                <a class="external" href="{$uri}">
+                    <xsl:value-of select="$folios"/>
+                </a>
+            </p>
+        </div>
+    </xsl:template>
 
     <xsl:template name="apparatus">
         <xsl:if test="//tei:text//tei:note">
@@ -278,30 +235,11 @@
             </strong>
         </p>
     </xsl:template>
-
-    <xsl:template name="dateTime-to-RFC-2822">
-        <xsl:param name="dateTime"/>
-        <!-- extract components -->
-        <xsl:variable name="year" as="xs:integer" select="xs:integer(substring($dateTime, 1, 4))"/>
-        <xsl:variable name="month" as="xs:integer" select="xs:integer(substring($dateTime, 6, 2))"/>
-        <xsl:variable name="day" as="xs:integer" select="xs:integer(substring($dateTime, 9, 2))"/>
-        <!-- calculate day-of-week using Zeller's_congruence -->
-        <xsl:variable name="a" as="xs:integer" select="xs:integer($month &lt; 3)"/>
-        <xsl:variable name="m" as="xs:integer" select="xs:integer($month + 12*$a)"/>
-        <xsl:variable name="y" as="xs:integer" select="xs:integer($year - $a)"/>
-        <xsl:variable name="K" as="xs:integer" select="xs:integer($y mod 100)"/>
-        <xsl:variable name="J" as="xs:integer" select="xs:integer(floor($y div 100))"/>
-        <xsl:variable name="h" as="xs:integer" select="xs:integer(($day + floor(13*($m + 1) div 5) + $K + floor($K div 4) + floor($J div 4) + 5*$J + 6) mod 7)"/>
-        <!-- construct output 
-        <xsl:value-of select="substring('SunMonTueWedThuFriSat', 3 * $h + 1, 3)"/>
-        <xsl:text>, </xsl:text>
-        -->
-        <xsl:value-of select="$day"/>
-        <xsl:text>. </xsl:text>
-        <xsl:value-of select="substring('JanFebMrzAprMaiJunJulAugSepOktNovDez', 3 * ($month - 1) + 1, 3)"/>
-        <xsl:text>. </xsl:text>
-        <xsl:value-of select="$year"/>
-        <xsl:value-of select="substring-after($dateTime, 'T')"/>
+    
+    <xsl:template match="tei:div[@type = 'attachment']/tei:div">
+        <div class="{@type}">
+            <xsl:apply-templates select="./child::node()"/>
+        </div>
     </xsl:template>
 
 </xsl:stylesheet>
