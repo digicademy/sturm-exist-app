@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3523152.svg)](https://doi.org/10.5281/zenodo.3523152)
+
 # DER STURM - Web Application
 
 This software package provides the digital edition environment of the project
